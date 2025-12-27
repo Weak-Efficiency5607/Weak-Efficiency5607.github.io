@@ -373,3 +373,114 @@ mark {
     border-radius: 2px;
     padding: 0 2px;
 }
+
+/* Wiki Page Improvements */
+.category-group {
+    margin-bottom: 4rem;
+}
+
+.category-header {
+    font-family: var(--font-mono);
+    font-size: 1.5rem;
+    color: var(--accent);
+    margin-bottom: 2rem;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid var(--card-border);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.category-header::before {
+    content: '⬟';
+    font-size: 0.8em;
+    opacity: 0.8;
+}
+
+.items-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 0.5rem;
+    width: 100%;
+}
+
+.wiki-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid var(--card-border);
+    border-radius: 4px;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    min-height: 3rem;
+    line-height: 1.2;
+}
+
+.wiki-link:hover {
+    color: #fff;
+    background: var(--hover-bg);
+    border-color: var(--accent);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    z-index: 2;
+}
+
+.wiki-link::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.05), transparent);
+    transition: 0.5s;
+}
+
+.wiki-link:hover::before {
+    left: 100%;
+}
+
+/* Global Link Enhancements */
+a {
+    transition: all 0.3s ease;
+}
+
+.site-footer a, .link-list li > a {
+    position: relative;
+    display: inline-block;
+}
+
+.site-footer a::after, .link-list li > a::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background: var(--accent);
+    transition: width 0.3s ease;
+}
+
+.site-footer a:hover::after, .link-list li > a:hover::after {
+    width: 100%;
+}
+
+/* Responsive Grid */
+@media (max-width: 768px) {
+    .items-grid { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }
+    .category-header { font-size: 1.25rem; }
+}
+
+@media (max-width: 480px) {
+    .items-grid { grid-template-columns: 1fr; }
+}
+
+
