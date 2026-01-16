@@ -473,6 +473,17 @@ tr:hover {
 	margin-bottom: 0.5rem;
 }
 
+/* Content Links */
+.card a {
+	color: var(--accent);
+	font-weight: 500;
+}
+
+.card a:hover {
+	text-decoration: underline;
+	filter: brightness(1.2);
+}
+
 /* Pre styling */
 pre {
 	font-family: var(--font-mono);
