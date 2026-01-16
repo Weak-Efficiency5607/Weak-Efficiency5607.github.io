@@ -17,6 +17,14 @@
 			<p class="subtitle">Shops & Sources</p>
 		</header>
 
+
+<section class="card" style="margin-bottom: 2rem;">
+    <div class="search-container">
+        <input type="text" id="shop-search" placeholder="Search shops and substances (e.g. 'Bromantane', 'Nootropics')..." autocomplete="off">
+        <div id="search-results" class="search-results"></div>
+    </div>
+</section>
+
 <section class="query-section">
 <h2>Advanced Search Filters</h2>
 <div class="query-grid">
@@ -1321,5 +1329,92 @@ site:biorbyt.com</div>
 			<p><a href="index.html">← Back to Home</a></p>
 		</footer>
 	</main>
+
+<script>
+document.addEventListener('DOMContentLoaded', async () => {
+    const searchInput = document.getElementById('shop-search');
+    const searchResults = document.getElementById('search-results');
+    let searchIndex = [];
+
+    // Load the shop search index
+    try {
+        const response = await fetch('shop-search-index.json');
+        if (!response.ok) throw new Error('Failed to load index');
+        searchIndex = await response.json();
+    } catch (e) {
+        console.error('Failed to load search index:', e);
+        // Fallback or empty index
+    }
+
+    searchInput.addEventListener('input', (e) => {
+        const query = e.target.value.toLowerCase().trim();
+        searchResults.innerHTML = '';
+        
+        if (query.length < 2) {
+            searchResults.style.display = 'none';
+            return;
+        }
+
+        // Filter results
+        const filtered = searchIndex.filter(item => 
+            (item.title && item.title.toLowerCase().includes(query)) || 
+            (item.content && item.content.toLowerCase().includes(query))
+        );
+
+        if (filtered.length > 0) {
+            // Take top 20 results to avoid UI spam
+            filtered.slice(0, 20).forEach(item => {
+                const div = document.createElement('div');
+                div.className = 'search-result-item';
+                
+                // Highlight matches in title
+                const highlightedTitle = highlight(item.title, query);
+                
+                // Get snippet from content
+                const snippet = getSnippet(item.content, query);
+                
+                div.innerHTML = `
+                    <a href="${item.url}" target="_blank" rel="noopener noreferrer">
+                        <strong>${highlightedTitle}</strong>
+                        <div class="search-result-snippet">${snippet}</div>
+                    </a>
+                `;
+                searchResults.appendChild(div);
+            });
+            searchResults.style.display = 'block';
+        } else {
+            searchResults.innerHTML = '<div class="search-no-results">No matches found</div>';
+            searchResults.style.display = 'block';
+        }
+    });
+
+    function highlight(text, query) {
+        if (!text) return '';
+        const regex = new RegExp(`(${query})`, 'gi');
+        return text.replace(regex, '<mark>$1</mark>');
+    }
+
+    function getSnippet(content, query) {
+        if (!content) return '';
+        const index = content.toLowerCase().indexOf(query);
+        // If query not in content (matched title), show start of content
+        if (index === -1) return content.substring(0, 100) + '...';
+        
+        const start = Math.max(0, index - 40);
+        const end = Math.min(content.length, index + query.length + 60);
+        let snippet = content.substring(start, end);
+        if (start > 0) snippet = '...' + snippet;
+        if (end < content.length) snippet = snippet + '...';
+        return highlight(snippet, query);
+    }
+
+    // Close results when clicking outside
+    document.addEventListener('click', (e) => {
+        if (!searchInput.contains(e.target) && !searchResults.contains(e.target)) {
+            searchResults.style.display = 'none';
+        }
+    });
+});
+</script>
 </body>
 </html>
