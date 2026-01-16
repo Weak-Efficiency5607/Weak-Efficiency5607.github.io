@@ -16,7 +16,7 @@
 <header class="site-header">
 <h1 class="logo"><a href="index.html">r/anhedonia</a></h1>
 <p class="subtitle">Personal Wiki</p>
-<section class="card">
+<section class="card allow-overflow">
 <div class="search-container">
     <input type="text" id="wiki-search" placeholder="Search wiki items..." autocomplete="off">
     <div id="search-results" class="search-results"></div>
@@ -237,7 +237,9 @@ document.addEventListener('DOMContentLoaded', async () => {
                 
                 div.innerHTML = `
                     <a href="${item.url}">
-                        <strong>${highlightedTitle}</strong>
+                        <div class="search-result-header">
+                            <strong>${highlightedTitle}</strong>
+                        </div>
                         <div class="search-result-snippet">${snippet}</div>
                     </a>
                 `;

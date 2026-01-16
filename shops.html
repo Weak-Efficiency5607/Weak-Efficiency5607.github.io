@@ -18,7 +18,7 @@
 		</header>
 
 
-<section class="card" style="margin-bottom: 2rem;">
+<section class="card allow-overflow" style="margin-bottom: 2rem;">
     <div class="search-container">
         <input type="text" id="shop-search" placeholder="Search shops and substances (e.g. 'Bromantane', 'Nootropics')..." autocomplete="off">
         <div id="search-results" class="search-results"></div>
@@ -1375,7 +1375,10 @@ document.addEventListener('DOMContentLoaded', async () => {
                 
                 div.innerHTML = `
                     <a href="${item.url}" target="_blank" rel="noopener noreferrer">
-                        <strong>${highlightedTitle}</strong>
+                        <div class="search-result-header">
+                            <strong>${highlightedTitle}</strong>
+                            <span class="category-tag">${item.category || ''}</span>
+                        </div>
                         <div class="search-result-snippet">${snippet}</div>
                     </a>
                 `;
