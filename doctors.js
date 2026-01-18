@@ -8,10 +8,9 @@ const darkTiles = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x
 	maxZoom: 20
 });
 
-const lightTiles = L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
-	attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
-	subdomains: 'abcd',
-	maxZoom: 20
+const lightTiles = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+	attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+	maxZoom: 19
 });
 
 // Theme Management
@@ -43,17 +42,29 @@ themeToggle.addEventListener('click', () => {
     setTheme(isDark);
 });
 
-// Custom icon for doctors
+// Custom icon for doctors - made more prominent
 const doctorIcon = L.divIcon({
-	className: 'custom-pin',
-	html: '<div class="pin-inner">⚕️</div>',
-	iconSize: [30, 30],
-	iconAnchor: [15, 30],
-	popupAnchor: [0, -30]
+	className: 'custom-pin prominent-pin',
+	html: '<div class="pin-inner pulse">⚕️</div>',
+	iconSize: [40, 40],
+	iconAnchor: [20, 40],
+	popupAnchor: [0, -40]
 });
 
 // Group to hold markers
 let markersLayer = L.layerGroup().addTo(map);
+
+// Add custom legend control
+const legend = L.control({position: 'bottomright'});
+legend.onAdd = function (map) {
+    const div = L.DomUtil.create('div', 'info legend');
+    div.innerHTML = `
+        <h4>Map Legend</h4>
+        <div class="legend-item"><span class="legend-pin">⚕️</span> Doctors (Highlighted)</div>
+    `;
+    return div;
+};
+legend.addTo(map);
 let loading = false;
 
 // Function to fetch doctors from Overpass API

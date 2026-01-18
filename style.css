@@ -950,6 +950,98 @@ body.light-mode #map {
     border-color: white;
 }
 
+.prominent-pin .pin-inner {
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border: 3px solid #ff4757; /* Vibrant red/pink for high visibility */
+    color: #ff4757;
+    font-size: 1.5rem;
+    position: relative;
+    z-index: 10;
+}
+
+body.light-mode .prominent-pin .pin-inner {
+    background: #fff;
+    border-color: #e84118;
+    color: #e84118;
+}
+
+.pulse {
+    animation: pulse-red 2s infinite;
+}
+
+@keyframes pulse-red {
+    0% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(255, 71, 87, 0.7);
+    }
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 15px rgba(255, 71, 87, 0);
+    }
+    100% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(255, 71, 87, 0);
+    }
+}
+
+/* Legend Styles */
+.info.legend {
+    padding: 1rem;
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 8px;
+    color: var(--text-primary);
+    font-family: var(--font-main);
+    font-size: 0.85rem;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+    backdrop-filter: blur(10px);
+    pointer-events: auto;
+}
+
+.legend h4 {
+    margin: 0 0 0.5rem 0;
+    font-size: 0.9rem;
+    color: var(--accent);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.legend hr {
+    margin: 0.5rem 0;
+    border: 0;
+    border-top: 1px solid var(--card-border);
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 0.4rem;
+}
+
+.legend-box {
+    width: 18px;
+    height: 18px;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+.legend-pin {
+    font-size: 1.2rem;
+}
+
+.legend-icon {
+    font-size: 1rem;
+    width: 18px;
+    text-align: center;
+}
+
+body.light-mode .info.legend {
+    background: rgba(255, 255, 255, 0.95);
+}
+
 /* Map Popups */
 .leaflet-popup-content-wrapper {
     background: var(--bg-color);
