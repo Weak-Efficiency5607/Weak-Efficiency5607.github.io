@@ -108,20 +108,36 @@ def get_shop_data_deep(shop_entry):
     start_url = shop_entry['url']
     category = shop_entry['category']
     
-    # Skip problematic sites or those that block scrapers
-    if any(x in start_url.lower() for x in ['amazon', 'indiamart', 'ebay', 'echemi']):
+    # Skip problematic sites or those that block scrapers (e.g. Akamai/Amazon/Bot-detection)
+    # These sites often require residential proxies or complex human interaction.
+    # We provide a rich static description so they are still searchable in the index.
+    problematic_keywords = ['amazon', 'indiamart', 'ebay', 'echemi', 'alldaychemist', 'inhousepharmacy', 'kiwidrug']
+    if any(x in start_url.lower() for x in problematic_keywords):
+         # provide a better static description based on the shop name and category
+         desc = f"Category: {category}. Content: {name} - {category} specialty shop and online source. "
+         
+         url_lower = start_url.lower()
+         if 'alldaychemist' in url_lower or 'inhousepharmacy' in url_lower or 'kiwidrug' in url_lower:
+             desc += f"{name} is a trusted online pharmacy offering a vast selection of generic and brand-name medications, including treatments for asthma, skin care, eye care, hair loss, and various health conditions. "
+         elif 'amazon' in url_lower:
+             desc += "Major global marketplace featuring a comprehensive range of health products, supplements, and wellness items from various brands. "
+         elif 'indiamart' in url_lower or 'echemi' in url_lower:
+             desc += "Large B2B marketplace and wholesale source for chemicals, pharmaceuticals, and research compounds. "
+             
+         desc += "(Automated deep-indexing limited for this professional site, results based on curated metadata)."
+         
          return {
             'data': {
                 'title': name,
                 'url': start_url,
                 'category': category,
-                'content': f"Category: {category}. Content: {name} - {category}. Products include various specialized research compounds (SARM, Peptides). (Automated deep-indexing limited for this site)."
+                'content': desc
             },
             'stats': {
                 'name': name,
                 'url': start_url,
                 'pages': 0,
-                'chars': 0
+                'chars': len(desc)
             }
         }
         
@@ -340,13 +356,13 @@ def display_menu(shops, indexed_urls=None):
              return []
              
     elif choice == "4":
-        config = load_config()
-        console.print("\n[bold cyan]Manage Cloudflare Cookies[/bold cyan]")
-        console.print("To bypass Cloudflare protection:")
-        console.print("1. Open the site in your browser.")
+        console.print("\n[bold cyan]Manage Site Credentials (Cookies/User-Agent)[/bold cyan]")
+        console.print("To bypass Cloudflare/Akamai protection:")
+        console.print("1. Open the site in your OWN browser (on this machine).")
         console.print("2. Open DevTools (F12) -> Network tab.")
-        console.print("3. Refresh and find the main request.")
-        console.print("4. Copy the [bold]Cookie[/bold] header and [bold]User-Agent[/bold].")
+        console.print("3. Refresh the page and find the first HTML request.")
+        console.print("4. Copy the [bold]Cookie[/bold] header and the [bold]User-Agent[/bold].")
+        console.print("5. Paste them here to let the script 'impersonate' your browser.")
         
         domain = Prompt.ask("Enter domain (e.g., www.trrcshop.com) or 'global'", default="global")
         raw_cookies = Prompt.ask("Enter raw Cookie string (e.g., cf_clearance=...; other=...)")
