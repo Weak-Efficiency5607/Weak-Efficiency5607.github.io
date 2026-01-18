@@ -22,8 +22,13 @@
 		<section class="card map-card">
 			<div class="map-header">
 				<h2><span class="icon">🌍</span> Find Doctors</h2>
+                <div class="address-search-container">
+                    <input type="text" id="address-input" placeholder="Search address..." autocomplete="off">
+                    <div id="address-suggestions" class="suggestions-list"></div>
+                </div>
 				<div class="map-actions">
 					<button id="find-me" class="action-btn">📍 Update Grid</button>
+					<button id="theme-toggle" class="action-btn secondary-btn">🌓 Toggle Dark Mode</button>
                     <span id="status-msg" class="status-msg">Zoom in to load doctors...</span>
 				</div>
 			</div>

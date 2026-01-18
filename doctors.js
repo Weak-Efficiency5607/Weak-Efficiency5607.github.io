@@ -1,12 +1,47 @@
 // Initialize map
 const map = L.map('map').setView([48.8566, 2.3522], 13); // Default to Paris
 
-// Add dark mode tiles (using CartoDB Dark Matter for that premium look)
-L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+// Tile layers
+const darkTiles = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
 	attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
 	subdomains: 'abcd',
 	maxZoom: 20
-}).addTo(map);
+});
+
+const lightTiles = L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+	attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+	subdomains: 'abcd',
+	maxZoom: 20
+});
+
+// Theme Management
+const themeToggle = document.getElementById('theme-toggle');
+// "Untoggle it by default" -> default to light (false) if nothing in localStorage
+let isDark = localStorage.getItem('theme') === 'dark';
+
+function setTheme(dark) {
+    if (dark) {
+        document.body.classList.remove('light-mode');
+        if (map.hasLayer(lightTiles)) map.removeLayer(lightTiles);
+        darkTiles.addTo(map);
+        localStorage.setItem('theme', 'dark');
+        themeToggle.textContent = '☀️ Light Mode';
+    } else {
+        document.body.classList.add('light-mode');
+        if (map.hasLayer(darkTiles)) map.removeLayer(darkTiles);
+        lightTiles.addTo(map);
+        localStorage.setItem('theme', 'light');
+        themeToggle.textContent = '🌙 Dark Mode';
+    }
+}
+
+// Set initial theme
+setTheme(isDark);
+
+themeToggle.addEventListener('click', () => {
+    isDark = !isDark;
+    setTheme(isDark);
+});
 
 // Custom icon for doctors
 const doctorIcon = L.divIcon({
@@ -119,3 +154,87 @@ map.on('moveend', () => {
 
 // Initial check
 if (map.getZoom() >= 14) fetchDoctors();
+
+// Address Search Logic
+const addressInput = document.getElementById('address-input');
+const suggestionsList = document.getElementById('address-suggestions');
+let searchTimeout;
+
+addressInput.addEventListener('input', () => {
+    clearTimeout(searchTimeout);
+    const query = addressInput.value.trim();
+    
+    if (query.length < 3) {
+        suggestionsList.style.display = 'none';
+        return;
+    }
+
+    searchTimeout = setTimeout(async () => {
+        try {
+            const response = await fetch(`https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(query)}&limit=5`);
+            const data = await response.json();
+            displaySuggestions(data);
+        } catch (error) {
+            console.error('Error fetching suggestions:', error);
+        }
+    }, 500);
+});
+
+function displaySuggestions(suggestions) {
+    if (suggestions.length === 0) {
+        suggestionsList.style.display = 'none';
+        return;
+    }
+
+    suggestionsList.innerHTML = suggestions.map(item => `
+        <div class="suggestion-item" data-lat="${item.lat}" data-lon="${item.lon}">
+            <strong>${item.display_name.split(',')[0]}</strong>
+            <small>${item.display_name.split(',').slice(1).join(',')}</small>
+        </div>
+    `).join('');
+    
+    suggestionsList.style.display = 'block';
+
+    // Add click listeners to items
+    document.querySelectorAll('.suggestion-item').forEach(item => {
+        item.addEventListener('click', () => {
+            const lat = item.getAttribute('data-lat');
+            const lon = item.getAttribute('data-lon');
+            const name = item.querySelector('strong').textContent;
+            selectAddress(lat, lon, name);
+        });
+    });
+}
+
+function selectAddress(lat, lon, name) {
+    addressInput.value = name;
+    suggestionsList.style.display = 'none';
+    const coords = [parseFloat(lat), parseFloat(lon)];
+    map.setView(coords, 14);
+    setTimeout(fetchDoctors, 500);
+}
+
+// Handle Enter key
+addressInput.addEventListener('keydown', async (e) => {
+    if (e.key === 'Enter') {
+        const query = addressInput.value.trim();
+        if (query.length === 0) return;
+        
+        try {
+            const response = await fetch(`https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(query)}&limit=1`);
+            const data = await response.json();
+            if (data && data.length > 0) {
+                selectAddress(data[0].lat, data[0].lon, data[0].display_name.split(',')[0]);
+            }
+        } catch (error) {
+            console.error('Error searching address:', error);
+        }
+    }
+});
+
+// Close suggestions when clicking outside
+document.addEventListener('click', (e) => {
+    if (!addressInput.contains(e.target) && !suggestionsList.contains(e.target)) {
+        suggestionsList.style.display = 'none';
+    }
+});
