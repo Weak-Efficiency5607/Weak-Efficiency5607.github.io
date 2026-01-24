@@ -13,6 +13,20 @@ from rich.table import Table
 from rich.prompt import Prompt, Confirm
 from rich import print as rprint
 
+def normalize_url(url):
+    """Normalize URL for deduplication."""
+    if not url: return ""
+    u = url.strip().lower().split('#')[0]
+    # Remove protocol
+    if u.startswith('http://'): u = u[7:]
+    elif u.startswith('https://'): u = u[8:]
+    # Remove www.
+    if u.startswith('www.'): u = u[4:]
+    # Remove trailing slash
+    if u.endswith('/'): u = u[:-1]
+    return u
+
+
 CONFIG_FILE = 'shop_scraper_config.json'
 
 def load_config():
@@ -238,23 +252,66 @@ def parse_shops_html():
         console.print("[red]Error: shops.html not found![/red]")
         return []
         
+    seen_urls = set()
     with console.status("[bold green]Parsing shops.html..."):
         with open('shops.html', 'r', encoding='utf-8') as f:
             soup = BeautifulSoup(f, 'html.parser')
+        
         for h2 in soup.find_all('h2'):
-            category = h2.get_text(strip=True).replace('⬡', '').strip()
-            next_sibling = h2.find_next_sibling()
-            while next_sibling and next_sibling.name != 'div' and 'shop-grid' not in next_sibling.get('class', []):
-                next_sibling = next_sibling.find_next_sibling()
-            if next_sibling and 'shop-grid' in next_sibling.get('class', []):
-                shop_grid = next_sibling
-                for link in shop_grid.find_all('a', class_='shop-card'):
-                    name_div = link.find('div', class_='shop-name')
-                    if name_div:
-                        name = name_div.get_text(strip=True)
-                        url = link.get('href')
-                        if name and url:
-                            shops.append({'name': name, 'url': url, 'category': category})
+            # Extract category and remove metadata
+            category_h2 = h2.get_text(strip=True).replace('⬡', '').strip()
+            category_h2 = category_h2.split('(')[0].strip()
+            
+            # Look at siblings between this h2 and the next h2
+            curr = h2.find_next_sibling()
+            while curr and curr.name != 'h2' and curr.name != 'footer':
+                # Case 1: shop-grid
+                if curr.name == 'div' and 'shop-grid' in curr.get('class', []):
+                    for link in curr.find_all('a', class_='shop-card'):
+                        name_div = link.find('div', class_='shop-name')
+                        if name_div:
+                            name = name_div.get_text(strip=True)
+                            url = link.get('href')
+                            norm_url = normalize_url(url)
+                            if name and url and norm_url not in seen_urls:
+                                shops.append({'name': name, 'url': url.split('#')[0], 'category': category_h2})
+                                seen_urls.add(norm_url)
+                
+                # Case 2: Table (might be wrapped in a div)
+                table = curr if curr.name == 'table' else curr.find('table')
+                if table:
+                    for tr in table.find_all('tr'):
+                        # Skip header rows
+                        if tr.find('th'):
+                            continue
+                        
+                        tds = tr.find_all('td')
+                        if len(tds) >= 1:
+                            link = tds[0].find('a')
+                            if link:
+                                name = link.get_text(strip=True)
+                                url = link.get('href')
+                                norm_url = normalize_url(url)
+                                
+                                # Use the second column as 'Type' to refine category if it exists
+                                type_info = tds[1].get_text(strip=True) if len(tds) >= 2 else ""
+                                
+                                # Use type_info if available, else fallback to header category
+                                display_category = type_info if type_info else category_h2
+
+                                if name and url and norm_url not in seen_urls:
+                                    # Clean up names that are just URLs
+                                    if name.startswith('www.'):
+                                        name = name.replace('www.', '')
+                                    
+                                    shops.append({
+                                        'name': name, 
+                                        'url': url.split('#')[0], 
+                                        'category': display_category
+                                    })
+                                    seen_urls.add(norm_url)
+                
+                curr = curr.find_next_sibling()
     return shops
 
 def parse_range_input(input_str):
@@ -333,7 +390,7 @@ def display_menu(shops, indexed_urls=None):
             filtered_shops = [s for s in shops if search_term.lower() in s['name'].lower()]
         
         # Sort so not-indexed are at the end (Indexed=Yes first, Indexed=No last)
-        filtered_shops.sort(key=lambda s: s['url'] in indexed_urls, reverse=True)
+        filtered_shops.sort(key=lambda s: normalize_url(s['url']) in indexed_urls, reverse=True)
             
         shop_table = Table(title="Shops", show_header=True)
         shop_table.add_column("ID", style="cyan", width=4)
@@ -342,7 +399,7 @@ def display_menu(shops, indexed_urls=None):
         shop_table.add_column("Indexed", style="yellow")
         
         for i, shop in enumerate(filtered_shops):
-            is_indexed = "[bold green]Yes[/bold green]" if shop['url'] in indexed_urls else "[dim]No[/dim]"
+            is_indexed = "[bold green]Yes[/bold green]" if normalize_url(shop['url']) in indexed_urls else "[dim]No[/dim]"
             shop_table.add_row(str(i+1), shop['name'], shop['category'], is_indexed)
             
         console.print(shop_table)
@@ -406,7 +463,7 @@ def generate_shop_index():
          with open('shop-search-index.json', 'r', encoding='utf-8') as f:
              try:
                 old_index = json.load(f)
-                index_map = {item['url']: item for item in old_index}
+                index_map = {normalize_url(item['url']): item for item in old_index}
              except:
                 index_map = {}
 
@@ -450,7 +507,7 @@ def generate_shop_index():
                         
                         # Only add/update if it's not an empty scrape
                         if not is_empty_scrape:
-                            index_map[result['data']['url']] = result['data']
+                            index_map[normalize_url(result['data']['url'])] = result['data']
                         
                         scanned_stats.append(result['stats'])
                 except Exception as exc:
