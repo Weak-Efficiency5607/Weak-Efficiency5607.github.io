@@ -46,7 +46,7 @@ def save_config(config):
 console = Console()
 
 # Aggressive crawling config
-MAX_PAGES_PER_SHOP = 50
+MAX_PAGES_PER_SHOP = 250
 MAX_TEXT_PER_SHOP = 50000 
 # Keywords to prioritize for product listings
 PRIORITY_KEYWORDS = ['shop', 'product', 'category', 'collection', 'store', 'catalog', 'buy', 'item', 'list']
@@ -99,11 +99,53 @@ def scrape_page(url, session):
         if response.status_code == 200:
             soup = BeautifulSoup(response.text, 'html.parser')
             
-            # Remove scripts and styles and common non-content specific to navigation
-            for script in soup(["script", "style", "nav", "footer", "header", "iframe", "noscript"]):
-                script.decompose()
-                
-            text = soup.get_text(separator=' ', strip=True)
+            # Extract page title as it often contains the primary substance name
+            page_title = soup.title.get_text(strip=True) if soup.title else ""
+            
+            # Remove scripts, styles and common non-content specific to navigation/UI
+            for element in soup(["script", "style", "nav", "footer", "header", "iframe", "noscript", "form", "button", "aside", "svg", "input", "select", "label"]):
+                element.decompose()
+            
+            # Extract substance names: focus on headers, bold text and product-labeled elements
+            substances = []
+            
+            # 1. Cleaned Page Title
+            if page_title:
+                # Remove common suffixes like "| Shop Name" or "- Shop Name"
+                for sep in ['|', '-', ':', '–']:
+                    if sep in page_title:
+                        page_title = page_title.split(sep)[0]
+                t = page_title.strip()
+                if 3 <= len(t) <= 60:
+                    substances.append(t)
+
+            # 2. Prominent headers and bold text (common for product names/substances)
+            for el in soup.find_all(['h1', 'h2', 'h3', 'h4', 'strong', 'b']):
+                content = el.get_text(separator=' ', strip=True)
+                if 2 <= len(content) <= 80:
+                    # Basic noise filter for UI elements
+                    content_lower = content.lower()
+                    if not any(noise in content_lower for noise in ['cart', 'checkout', 'login', 'account', 'register', 'shipping', 'policy', 'terms', 'cookies', 'view', 'details', 'menu', 'search']):
+                         substances.append(content)
+            
+            # 3. Specifically marked product titles
+            for el in soup.find_all(class_=lambda x: x and any(c in x.lower() for c in ['product-title', 'product-name', 'item-title', 'entry-title'])):
+                content = el.get_text(strip=True)
+                if 2 <= len(content) <= 80:
+                    substances.append(content)
+
+            # Deduplicate while preserving order
+            seen = set()
+            unique_substances = []
+            for s in substances:
+                s_clean = " ".join(s.split()) # normalize whitespace
+                s_lower = s_clean.lower()
+                # Skip common e-commerce noise words and non-substance titles
+                if s_lower not in seen and s_lower not in ['home', 'shop', 'all', 'products', 'categories', 'sale', 'new', 'items', 'featured']:
+                    unique_substances.append(s_clean)
+                    seen.add(s_lower)
+            
+            text = " | ".join(unique_substances)
             
             links = []
             for a in soup.find_all('a', href=True):
@@ -113,8 +155,7 @@ def scrape_page(url, session):
                 
             return text, links
         return "", []
-    except Exception as e:
-        # console.log(f"Error scraping {url}: {e}")
+    except Exception:
         return "", []
 
 def get_shop_data_deep(shop_entry):
@@ -127,19 +168,19 @@ def get_shop_data_deep(shop_entry):
     # We provide a rich static description so they are still searchable in the index.
     problematic_keywords = ['amazon', 'indiamart', 'ebay', 'echemi', 'alldaychemist', 'inhousepharmacy', 'kiwidrug']
     if any(x in start_url.lower() for x in problematic_keywords):
-         # provide a better static description based on the shop name and category
-         desc = f"Category: {category}. Content: {name} - {category} specialty shop and online source. "
+         # Restricted parser: provide a concise list for problematic sites
+         desc = f"{category}: "
          
          url_lower = start_url.lower()
          if 'alldaychemist' in url_lower or 'inhousepharmacy' in url_lower or 'kiwidrug' in url_lower:
-             desc += f"{name} is a trusted online pharmacy offering a vast selection of generic and brand-name medications, including treatments for asthma, skin care, eye care, hair loss, and various health conditions. "
+             desc += "Generic Pharma, Medications, Health treatments."
          elif 'amazon' in url_lower:
-             desc += "Major global marketplace featuring a comprehensive range of health products, supplements, and wellness items from various brands. "
+             desc += "Supplements, Health products, Wellness gadgets."
          elif 'indiamart' in url_lower or 'echemi' in url_lower:
-             desc += "Large B2B marketplace and wholesale source for chemicals, pharmaceuticals, and research compounds. "
+             desc += "Wholesale chemicals, Pharma compounds, Bulk substances."
+         else:
+             desc += f"{name} specialty items."
              
-         desc += "(Automated deep-indexing limited for this professional site, results based on curated metadata)."
-         
          return {
             'data': {
                 'title': name,
@@ -223,20 +264,37 @@ def get_shop_data_deep(shop_entry):
                     
         time.sleep(0.5) # Polite delay
         
-    full_text = " ".join(combined_text)
+    # Process all collected text to get a clean, unique list of substances for the shop
+    all_substances = []
+    for page_text in combined_text:
+        if page_text:
+            all_substances.extend(page_text.split(" | "))
     
-    # Truncate
+    # Final deduplication for the whole shop
+    seen_substances = set()
+    final_substances = []
+    for s in all_substances:
+        s_clean = s.strip()
+        if not s_clean: continue
+        s_lower = s_clean.lower()
+        if s_lower not in seen_substances:
+            # Filter out very long strings that managed to slip through
+            if len(s_clean) <= 120:
+                final_substances.append(s_clean)
+                seen_substances.add(s_lower)
+    
+    full_text = ", ".join(final_substances)
+    
+    # Truncate if still too large
     if len(full_text) > MAX_TEXT_PER_SHOP:
         full_text = full_text[:MAX_TEXT_PER_SHOP]
-        
-    # console.log(f"[green]Finished {name}: {pages_crawled} pages, {len(full_text)} chars.[/green]")
     
     return {
         'data': {
             'title': name,
             'url': start_url,
             'category': category,
-            'content': f"Category: {category}. Content: {full_text}"
+            'content': f"{category}: {full_text}"
         },
         'stats': {
             'name': name,
@@ -502,8 +560,9 @@ def generate_shop_index():
                     if result:
                         current_content = result['data']['content']
                         
-                        # Check if content is empty (just the category/content prefix)
-                        is_empty_scrape = current_content.strip().endswith("Content:") or current_content.strip().endswith("Content: ")
+                        # Check if content is empty (just the category/prefix)
+                        content_parts = current_content.split(':', 1)
+                        is_empty_scrape = len(content_parts) < 2 or not content_parts[1].strip()
                         
                         # Only add/update if it's not an empty scrape
                         if not is_empty_scrape:
