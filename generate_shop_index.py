@@ -38,31 +38,40 @@ def load_config():
             pass
     return {'cookies': {}}
 
+# Load config once
+GLOBAL_CONFIG = load_config()
+
 def save_config(config):
+    global GLOBAL_CONFIG
     with open(CONFIG_FILE, 'w', encoding='utf-8') as f:
         json.dump(config, f, indent=4)
+    GLOBAL_CONFIG = config
 
 # Initialize Rich Console
 console = Console()
 
 # Aggressive crawling config
-MAX_PAGES_PER_SHOP = 250
+MAX_PAGES_PER_SHOP = 300
 MAX_TEXT_PER_SHOP = 50000 
 # Keywords to prioritize for product listings
 PRIORITY_KEYWORDS = ['shop', 'product', 'category', 'collection', 'store', 'catalog', 'buy', 'item', 'list']
 
-def is_valid_internal_link(base_url, link_url):
-    try:
-        base_domain = urlparse(base_url).netloc
-        link_domain = urlparse(link_url).netloc
-        
-        # Must be same domain or empty (relative)
-        if not link_domain or base_domain == link_domain:
-            return True
-            
+def is_valid_internal_link(base_domain, link_url):
+    if not link_url or link_url.startswith(('javascript:', 'mailto:', 'tel:', '#')):
         return False
+    if link_url.startswith('/') or '://' not in link_url:
+        return True
+    try:
+        # Fast check before full parsing
+        if base_domain not in link_url:
+            return False
+        return urlparse(link_url).netloc == base_domain
     except:
         return False
+
+# Pre-compile noise keywords for faster scoring
+NOISE_KEYWORDS = set(['login', 'account', 'cart', 'checkout', 'policy', 'terms', 'contact', 'about', 'blog', 'news', 'faq'])
+PAGINATION_KEYWORDS = set(['page=', '/page/', 'p='])
 
 def score_link(url):
     url_lower = url.lower()
@@ -71,47 +80,40 @@ def score_link(url):
         if keyword in url_lower:
             score += 1
 
-    # Boost pagination to ensure we crawl deep into catalogs
-    if 'page=' in url_lower or '/page/' in url_lower or 'p=' in url_lower:
+    # Boost pagination
+    if any(p in url_lower for p in PAGINATION_KEYWORDS):
         score += 3
         
     # Penalize likely useless pages
-    if any(x in url_lower for x in ['login', 'account', 'cart', 'checkout', 'policy', 'terms', 'contact', 'about', 'blog', 'news', 'faq']):
+    if any(noise in url_lower for noise in NOISE_KEYWORDS):
          score -= 5
     return score
 
+from bs4 import SoupStrainer
+
+# Define what we want to parse to skip the rest (scripts, styles, etc.)
+parse_only = SoupStrainer(['h1', 'h2', 'h3', 'h4', 'strong', 'b', 'a', 'title', 'div', 'span'])
+
 def scrape_page(url, session):
     try:
-        # Use session's User-Agent if set, otherwise default
         ua = session.headers.get('User-Agent', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36')
-        
         headers = {
             'User-Agent': ua,
             'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
             'Accept-Language': 'en-US,en;q=0.9',
-            'Accept-Encoding': 'gzip, deflate',
             'Connection': 'keep-alive',
             'Upgrade-Insecure-Requests': '1',
             'Referer': url,
-            'Cache-Control': 'max-age=0',
         }
-        response = session.get(url, headers=headers, timeout=15)
+        response = session.get(url, headers=headers, timeout=10) # Reduced timeout
         if response.status_code == 200:
-            soup = BeautifulSoup(response.text, 'html.parser')
+            soup = BeautifulSoup(response.text, 'lxml', parse_only=parse_only)
             
-            # Extract page title as it often contains the primary substance name
+            # Extract page title
             page_title = soup.title.get_text(strip=True) if soup.title else ""
             
-            # Remove scripts, styles and common non-content specific to navigation/UI
-            for element in soup(["script", "style", "nav", "footer", "header", "iframe", "noscript", "form", "button", "aside", "svg", "input", "select", "label"]):
-                element.decompose()
-            
-            # Extract substance names: focus on headers, bold text and product-labeled elements
             substances = []
-            
-            # 1. Cleaned Page Title
             if page_title:
-                # Remove common suffixes like "| Shop Name" or "- Shop Name"
                 for sep in ['|', '-', ':', '–']:
                     if sep in page_title:
                         page_title = page_title.split(sep)[0]
@@ -119,17 +121,17 @@ def scrape_page(url, session):
                 if 3 <= len(t) <= 60:
                     substances.append(t)
 
-            # 2. Prominent headers and bold text (common for product names/substances)
+            # Prominent headers and bold text
             for el in soup.find_all(['h1', 'h2', 'h3', 'h4', 'strong', 'b']):
                 content = el.get_text(separator=' ', strip=True)
                 if 2 <= len(content) <= 80:
-                    # Basic noise filter for UI elements
                     content_lower = content.lower()
                     if not any(noise in content_lower for noise in ['cart', 'checkout', 'login', 'account', 'register', 'shipping', 'policy', 'terms', 'cookies', 'view', 'details', 'menu', 'search']):
                          substances.append(content)
             
-            # 3. Specifically marked product titles
-            for el in soup.find_all(class_=lambda x: x and any(c in x.lower() for c in ['product-title', 'product-name', 'item-title', 'entry-title'])):
+            # Marked product titles
+            # For efficiency, we only look at div/span for classes
+            for el in soup.find_all(['div', 'span'], class_=lambda x: x and any(c in x.lower() for c in ['product-title', 'product-name', 'item-title', 'entry-title'])):
                 content = el.get_text(strip=True)
                 if 2 <= len(content) <= 80:
                     substances.append(content)
@@ -138,9 +140,8 @@ def scrape_page(url, session):
             seen = set()
             unique_substances = []
             for s in substances:
-                s_clean = " ".join(s.split()) # normalize whitespace
+                s_clean = " ".join(s.split())
                 s_lower = s_clean.lower()
-                # Skip common e-commerce noise words and non-substance titles
                 if s_lower not in seen and s_lower not in ['home', 'shop', 'all', 'products', 'categories', 'sale', 'new', 'items', 'featured']:
                     unique_substances.append(s_clean)
                     seen.add(s_lower)
@@ -149,19 +150,22 @@ def scrape_page(url, session):
             
             links = []
             for a in soup.find_all('a', href=True):
-                href = a['href']
-                full_url = urljoin(url, href)
-                links.append(full_url)
+                links.append(urljoin(url, a['href']))
                 
             return text, links
         return "", []
     except Exception:
         return "", []
 
-def get_shop_data_deep(shop_entry):
+def get_shop_data_deep(shop_entry, progress=None):
     name = shop_entry['name']
     start_url = shop_entry['url']
     category = shop_entry['category']
+    
+    # Create a subtask if progress is provided
+    task_id = None
+    if progress:
+        task_id = progress.add_task(f"[dim]  - {name[:20]}...", total=MAX_PAGES_PER_SHOP)
     
     # Skip problematic sites or those that block scrapers (e.g. Akamai/Amazon/Bot-detection)
     # These sites often require residential proxies or complex human interaction.
@@ -181,6 +185,12 @@ def get_shop_data_deep(shop_entry):
          else:
              desc += f"{name} specialty items."
              
+         if progress and task_id is not None:
+             progress.update(task_id, completed=MAX_PAGES_PER_SHOP, description=f"[dim]  - {name[:20]} [yellow](static/skip)[/yellow]")
+             # Give it a tiny bit of time to be visible before it finishes
+             time.sleep(0.1)
+             progress.remove_task(task_id)
+
          return {
             'data': {
                 'title': name,
@@ -202,75 +212,77 @@ def get_shop_data_deep(shop_entry):
     session = cloudscraper.create_scraper(browser={'browser': 'chrome', 'platform': 'windows', 'mobile': False})
     
     # Apply custom cookies/UA from config
-    config = load_config()
     shop_domain = urlparse(start_url).netloc
     
     cookies_to_apply = {}
-    if 'cookies' in config:
-        if shop_domain in config['cookies']:
-            cookies_to_apply = config['cookies'][shop_domain]
-        elif 'global' in config['cookies']:
-            cookies_to_apply = config['cookies']['global']
+    if 'cookies' in GLOBAL_CONFIG:
+        if shop_domain in GLOBAL_CONFIG['cookies']:
+            cookies_to_apply = GLOBAL_CONFIG['cookies'][shop_domain]
+        elif 'global' in GLOBAL_CONFIG['cookies']:
+            cookies_to_apply = GLOBAL_CONFIG['cookies']['global']
 
-    for name, value in cookies_to_apply.items():
-        if name.lower() == 'user-agent':
+    for cookie_name, value in cookies_to_apply.items():
+        if cookie_name.lower() == 'user-agent':
             session.headers.update({'User-Agent': value})
         else:
-            # We set cookies with the domain to ensure they are sent
-            session.cookies.set(name, value, domain=shop_domain)
+            session.cookies.set(cookie_name, value, domain=shop_domain)
 
     visited = set()
+    import heapq
     
-    # Best-first search: candidates list of URLs to visit
-    candidates = [start_url]
-    visited_candidates = set([start_url]) # Track what we already added to candidates to avoid duplicates
+    # Priority queue stores (-score, url) to mimic a max-heap
+    # Initial score for start_url is high to ensure it's first
+    candidates = [(-100, start_url)]
+    visited_candidates = set([start_url]) # Track what we already added to candidates
     
     combined_text = []
     current_text_length = 0
     pages_crawled = 0
+    base_domain = urlparse(start_url).netloc
     
     while candidates and pages_crawled < MAX_PAGES_PER_SHOP:
-        # Check if we have enough text
         if current_text_length > MAX_TEXT_PER_SHOP:
             break
 
-        # Pick best candidate
-        # If start_url is in candidates, prioritize it
-        if start_url in candidates:
-            current_url = start_url
-        else:
-            # Sort and pick top
-            candidates.sort(key=score_link, reverse=True)
-            current_url = candidates[0]
-            
-        candidates.remove(current_url)
+        # Pick best candidate from heap
+        score_neg, current_url = heapq.heappop(candidates)
         
         if current_url in visited:
             continue
             
         text, links = scrape_page(current_url, session)
-        combined_text.append(text)
-        current_text_length += len(text)
+        if text:
+            combined_text.append(text)
+            current_text_length += len(text)
+        
         visited.add(current_url)
         pages_crawled += 1
         
+        if progress and task_id is not None:
+            progress.update(task_id, advance=1, description=f"[blue]  - scraping: {current_url[:40]}...")
+            
         # Add new unique links to candidates
         for link in links:
             link = link.split('#')[0]
-            if is_valid_internal_link(start_url, link):
+            if is_valid_internal_link(base_domain, link):
                 if link not in visited and link not in visited_candidates:
-                    candidates.append(link)
+                    score = score_link(link)
+                    heapq.heappush(candidates, (-score, link))
                     visited_candidates.add(link)
                     
-        time.sleep(0.5) # Polite delay
-        
-    # Process all collected text to get a clean, unique list of substances for the shop
+        # Minimal delay to keep it fast but avoid hitting local rate limiters instantly
+        time.sleep(0.05) 
+    
+    if progress and task_id is not None:
+        progress.update(task_id, completed=MAX_PAGES_PER_SHOP, description=f"[green]  - Finished: {name[:20]}")
+        time.sleep(0.2)
+        progress.remove_task(task_id)
+    
+    # Process all collected text
     all_substances = []
     for page_text in combined_text:
-        if page_text:
-            all_substances.extend(page_text.split(" | "))
+        all_substances.extend(page_text.split(" | "))
     
-    # Final deduplication for the whole shop
     seen_substances = set()
     final_substances = []
     for s in all_substances:
@@ -278,14 +290,11 @@ def get_shop_data_deep(shop_entry):
         if not s_clean: continue
         s_lower = s_clean.lower()
         if s_lower not in seen_substances:
-            # Filter out very long strings that managed to slip through
             if len(s_clean) <= 120:
                 final_substances.append(s_clean)
                 seen_substances.add(s_lower)
     
     full_text = ", ".join(final_substances)
-    
-    # Truncate if still too large
     if len(full_text) > MAX_TEXT_PER_SHOP:
         full_text = full_text[:MAX_TEXT_PER_SHOP]
     
@@ -550,8 +559,8 @@ def generate_shop_index():
         
         overall_task = progress.add_task("[cyan]Overall Progress", total=len(selected_shops))
         
-        with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
-            future_to_shop = {executor.submit(get_shop_data_deep, shop): shop for shop in selected_shops}
+        with concurrent.futures.ThreadPoolExecutor(max_workers=50) as executor:
+            future_to_shop = {executor.submit(get_shop_data_deep, shop, progress): shop for shop in selected_shops}
             
             for future in concurrent.futures.as_completed(future_to_shop):
                 shop = future_to_shop[future]
