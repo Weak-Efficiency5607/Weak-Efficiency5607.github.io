@@ -634,6 +634,52 @@ mark {
     padding: 0 2px;
 }
 
+.search-result-category-header {
+    padding: 0.6rem 1.5rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-bottom: 1px solid var(--card-border);
+    font-size: 0.75rem;
+    font-family: var(--font-mono);
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.suggestions-container {
+    padding: 1rem 1.2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    border-bottom: 1px solid var(--card-border);
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.substance-suggestion-chip {
+    padding: 0.4rem 0.8rem;
+    background: rgba(88, 166, 255, 0.1);
+    border: 1px solid rgba(88, 166, 255, 0.2);
+    border-radius: 20px;
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+}
+
+.substance-suggestion-chip:hover {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: #fff;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 10px rgba(88, 166, 255, 0.2);
+}
+
+.substance-suggestion-chip strong {
+    font-weight: 500;
+}
+
 /* Wiki Page Improvements */
 .category-group {
     margin-bottom: 4rem;
