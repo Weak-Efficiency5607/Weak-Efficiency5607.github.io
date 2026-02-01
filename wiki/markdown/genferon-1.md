@@ -1,0 +1,6 @@
+GENFERON® suppositories, containing Interferon alfa-2b, Benzocaine, and Taurine, are designed for both local and systemic immunomodulatory, antiviral, and antibacterial effects. The interferon component is absorbed through the mucous membranes into surrounding tissues and the lymphatic system, allowing it to exert effects beyond the site of administration. However, the extent of systemic action (i.e., affecting the whole body) depends on the route:
+
+- **Rectal administration**: Provides high bioavailability (over 80%), leading to pronounced systemic immunomodulatory effects alongside local action.
+- **Vaginal administration**: Primarily achieves strong local effects at the infection site, with minimal systemic absorption due to the vaginal mucosa's low uptake capacity.
+
+Benzocaine acts as a local anesthetic, reducing permeability of cell membranes and blocking nerve impulses mainly at the insertion site, while Taurine supports anti-inflammatory and regenerative effects locally. Peak serum interferon levels occur about 5 hours after use, but decline within 12 hours, often requiring repeated dosing for sustained effects. Overall, while not exclusively systemic, the drug does impact the entire body, particularly via rectal use in treatments like urogenital infections or viral conditions.
