@@ -213,26 +213,30 @@ document.addEventListener('DOMContentLoaded', async () => {
             const gridId = `grid-${category.toLowerCase()}`;
             const grid = document.getElementById(gridId);
             if (grid) {
-                grid.innerHTML = '';
-                // Sort items by title in alphabetical order
+                // Use DocumentFragment to minimize reflows
+                const fragment = document.createDocumentFragment();
                 const sortedItems = [...items].sort((a, b) => a.title.localeCompare(b.title));
+                
                 sortedItems.forEach(item => {
                     const a = document.createElement('a');
                     a.href = item.href;
                     a.className = 'wiki-link';
                     a.textContent = item.title;
-                    grid.appendChild(a);
+                    fragment.appendChild(a);
                     totalItems++;
                 });
+                
+                grid.innerHTML = '';
+                grid.appendChild(fragment);
             }
         }
         
-        // Update total counter if it exists
         const totalCounter = document.getElementById('total-items-count');
         if (totalCounter) {
             totalCounter.textContent = `(${totalItems} items)`;
         }
     };
+
 
 
     const searchInput = document.getElementById('wiki-search');
@@ -281,7 +285,8 @@ document.addEventListener('DOMContentLoaded', async () => {
 
             // Re-bind search for the new input
             const inlineSearch = document.getElementById('wiki-search-inline');
-            if (inlineSearch) inlineSearch.addEventListener('input', handleSearch);
+            if (inlineSearch) inlineSearch.addEventListener('input', debounce(handleSearch, 250));
+
             }
         } catch (e) {
             console.error('Failed to load markdown substance:', e);
@@ -357,7 +362,20 @@ document.addEventListener('DOMContentLoaded', async () => {
         }
     };
 
-    if (searchInput) searchInput.addEventListener('input', handleSearch);
+    function debounce(func, wait) {
+        let timeout;
+        return function executedFunction(...args) {
+            const later = () => {
+                clearTimeout(timeout);
+                func(...args);
+            };
+            clearTimeout(timeout);
+            timeout = setTimeout(later, wait);
+        };
+    };
+
+    if (searchInput) searchInput.addEventListener('input', debounce(handleSearch, 250));
+
     
     function highlight(text, query) {
         const regex = new RegExp(`(${query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
