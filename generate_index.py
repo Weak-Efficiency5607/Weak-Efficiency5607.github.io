@@ -45,12 +45,8 @@ def generate_index():
                 with open(filepath, 'r', encoding='utf-8') as f:
                     content = f.read()
                     
-                    # Extract title from first header or filename
-                    title_match = re.search(r'^#+\s+(.*)', content, re.MULTILINE)
-                    if title_match:
-                        title = title_match.group(1).strip()
-                    else:
-                        title = filename.replace('.md', '').replace('_', ' ').title()
+                    # Extract title from filename
+                    title = filename.replace('.md', '').replace('_', ' ').replace('-', ' ').title()
                     
                     # Clean markdown for search content
                     # Remove markdown headers, bold, links, etc.
