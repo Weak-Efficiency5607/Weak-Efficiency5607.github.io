@@ -58,11 +58,6 @@ async function loadPage(url) {
                 // Update Main Content
                 currentMain.innerHTML = newMain.innerHTML;
                 
-                // Update Layout Classes if any (e.g. wrapper classes in body?)
-                // Assuming body classes might change (like 'light-mode' persistence is handled by local storage usually, 
-                // but if pages have specific classes, we should sync them.
-                // For now, index and actions seem to share style. 
-                
                 // Scroll to top
                 window.scrollTo(0, 0);
                 
@@ -71,60 +66,45 @@ async function loadPage(url) {
                 
                 currentMain.style.opacity = '1';
                 
-                // Update Navigation Links Active State (if any)
-                // (Optional: adding 'active' class to nav links)
+                // Trigger custom event for pages that need to know they've been loaded dynamically
+                document.dispatchEvent(new CustomEvent('page:loaded', { detail: { url: url } }));
                 
-            }, 200); // 200ms matches transition
+            }, 200); 
         } else {
-            // Fallback for pages without <main>
              window.location.reload();
         }
 
     } catch (error) {
         console.error('Error loading page:', error);
-        window.location.reload(); // Fallback to full reload on error
+        window.location.reload(); 
     }
 }
 
 function handleScripts(newDoc) {
-    // 1. Handle Head Scripts (e.g., marked.min.js)
+    // 1. Handle Head Scripts
     const newHeadScripts = Array.from(newDoc.querySelectorAll('head script'));
-    const currentHeadScripts = Array.from(document.querySelectorAll('head script'));
-    
     newHeadScripts.forEach(script => {
-        // Check if script is already present
-        // Identify by src or content
-        const isLoaded = currentHeadScripts.some(s => 
-            (s.src && s.src === script.src) || 
-            (!s.src && s.textContent === script.textContent)
-        );
-        
-        if (!isLoaded) {
+        if (script.src && !document.querySelector(`head script[src="${script.src}"]`)) {
             const newScript = document.createElement('script');
-            if (script.src) {
-                newScript.src = script.src;
-                newScript.async = false; // Execute in order
-            } else {
-                newScript.textContent = script.textContent;
-            }
+            newScript.src = script.src;
+            newScript.async = false;
             document.head.appendChild(newScript);
         }
     });
 
     // 2. Handle Body Scripts
-    // We specifically look for scripts that were intended to run on the page.
-    // In our case, `actions.js`.
     const newBodyScripts = Array.from(newDoc.querySelectorAll('body script'));
-    
     newBodyScripts.forEach(script => {
-        // Skip router.js itself to avoid infinite loops or re-binding
         if (script.src && script.src.includes('router.js')) return;
+
+        // Remove existing instances of this script to avoid duplicates
+        if (script.src) {
+            const existing = document.querySelector(`body script[src="${script.src}"]`);
+            if (existing) existing.remove();
+        }
 
         const newScript = document.createElement('script');
         if (script.src) {
-            // Add timestamp to force strictly new execution if needed?
-            // Actually, standard appending creates a new instance.
-            // But if src is same, browser might use cached RESPONSE, but execution happens again.
             newScript.src = script.src;
             newScript.async = false;
         } else {

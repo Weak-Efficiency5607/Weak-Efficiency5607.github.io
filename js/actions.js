@@ -1,164 +1,169 @@
 
-(async function() {
-    const wikiData = {
-  "Alone": [
-    { "href": "wiki/alone-fever.html", "title": "Fever / Pyrexia" },
-    { "href": "wiki/alone-l-tyrosine.html", "title": "L-Tyrosine" },
-    { "href": "wiki/alone-l-tryptophan.html", "title": "L-Tryptophan" },
-    { "href": "wiki/alone-turmeric.html", "title": "Turmeric" },
-    { "href": "wiki/alone-coffee.html", "title": "Coffee" },
-    { "href": "wiki/alone-cow-milk.html", "title": "Cow Milk" },
-    { "href": "wiki/alone-vitamin-d.html", "title": "Vitamin D" },
-    { "href": "wiki/alone-same.html", "title": "SAMe" },
-    { "href": "wiki/alone-multivitamins-multiminerals.html", "title": "Multivitamins and Multiminerals" },
-    { "href": "wiki/alone-vortioxetine.html", "title": "Vortioxetine" },
-    { "href": "wiki/alone-bromantane.html", "title": "Bromantane" },
-    { "href": "wiki/alone-piracetam.html", "title": "Piracetam" },
-    { "href": "wiki/alone-spirulina.html", "title": "Spirulina" },
-    { "href": "wiki/alone-probiotics-prebiotics.html", "title": "Probiotiques et Prébiotiques" },
-    { "href": "wiki/alone-methylene-blue.html", "title": "Methylene Blue" },
-    { "href": "wiki/alone-alcar.html", "title": "ALCAR" },
-    { "href": "wiki/alone-inositol.html", "title": "Inositol" },
-    { "href": "wiki/alone-choline.html", "title": "Choline" },
-    { "href": "wiki/alone-agmatine.html", "title": "Agmatine" },
-    { "href": "wiki/alone-flmodafinil.html", "title": "Flmodafinil" },
-    { "href": "wiki/alone-nicotine.html", "title": "Nicotine" },
-    { "href": "wiki/alone-sulbutiamine.html", "title": "Sulbutiamine" },
-    { "href": "wiki/alone-fluoxetine.html", "title": "Fluoxetine" },
-    { "href": "wiki/alone-tak-653.html", "title": "TAK-653" },
-    { "href": "wiki/alone-tropisetron.html", "title": "Tropisetron" },
-    { "href": "wiki/alone-nad+.html", "title": "NAD+" },
-    { "href": "wiki/alone-huperzine-a.html", "title": "Huperzine A" },
-    { "href": "wiki/alone-safinamide.html", "title": "Safinamide Mesylate" },
-    { "href": "wiki/alone-l-dopa.html", "title": "L-DOPA" },
-    { "href": "wiki/alone-neboglamine.html", "title": "Neboglamine" },
-    { "href": "wiki/alone-licorice-root.html", "title": "Licorice Root" },
-    { "href": "wiki/alone-selenium.html", "title": "Selenium" },
-    { "href": "wiki/alone-vinpocetine.html", "title": "Vinpocetine" },
-    { "href": "wiki/alone-idebenone.html", "title": "Idebenone" },
-    { "href": "wiki/alone-dmae.html", "title": "DMAE" },
-    { "href": "wiki/alone-cordyceps-militaris.html", "title": "Cordyceps Militaris" },
-    { "href": "wiki/alone-hemp.html", "title": "Hemp" },
-    { "href": "wiki/alone-rhodiola-rosea.html", "title": "Rhodiola rosea" },
-    { "href": "wiki/alone-black-pepper.html", "title": "Black Pepper" },
-    { "href": "wiki/alone-shiitake.html", "title": "Shiitake" },
-    { "href": "wiki/alone-paracetamol.html", "title": "Paracetamol" },
-    { "href": "wiki/alone-st-john-wort.html", "title": "St. John's Wort" },
-    { "href": "wiki/alone-passiflora.html", "title": "Passiflora" },
-    { "href": "wiki/alone-cbd.html", "title": "CBD" },
-    { "href": "wiki/alone-aripiprazol.html", "title": "Aripiprazol" },
-    { "href": "wiki/alone-venlafaxine.html", "title": "Venlafaxine" },
-    { "href": "wiki/alone-gaba.html", "title": "GABA" },
-    { "href": "wiki/alone-5-meo-dalt.html", "title": "5-MeO-DALT" },
-    { "href": "wiki/alone-amt.html", "title": "AMT" },
-    { "href": "wiki/alone-nm-2-ai.html", "title": "NM-2-AI" },
-    { "href": "wiki/alone-3-mma.html", "title": "3-MMA" },
-    { "href": "wiki/alone-4-ho-met.html", "title": "4-HO-MET" },
-    { "href": "wiki/alone-tianeptine.html", "title": "Tianeptine" },
-    { "href": "wiki/alone-dck.html", "title": "DCK" },
-    { "href": "wiki/alone-5-meo-mipt.html", "title": "5-MeO-MiPT" },
-    { "href": "wiki/alone-norflurazepam.html", "title": "Norflurazepam" },
-    { "href": "wiki/alone-moclobemide.html", "title": "Moclobemide" },
-    { "href": "wiki/alone-ibuprofene.html", "title": "Ibuprofene" },
-    { "href": "wiki/alone-noopept.html", "title": "Noopept" },
-    { "href": "wiki/alone-cgp.html", "title": "cGP" },
-    { "href": "wiki/alone-igf-1.html", "title": "IGF-1" },
-    { "href": "wiki/alone-tranylcypromine.html", "title": "Tranylcypromine" },
-    { "href": "wiki/alone-prl-8-53.html", "title": "PRL-8-53" },
-    { "href": "wiki/alone-sulforaphane.html", "title": "Sulforaphane" },
-    { "href": "wiki/alone-melatonin.html", "title": "Melatonin" },
-    { "href": "wiki/alone-inosine.html", "title": "Inosine" },
-    { "href": "wiki/alone-caffeine.html", "title": "Caffeine" },
-    { "href": "wiki/alone-paraxanthine.html", "title": "Paraxanthine" },
-    { "href": "wiki/alone-theobromine.html", "title": "Theobromine" },
-    { "href": "wiki/alone-theophylline.html", "title": "Theophylline" },
-    { "href": "wiki/alone-lactoferrine.html", "title": "Lactoferrine" },
-    { "href": "wiki/alone-collagen.html", "title": "Collagen" },
-    { "href": "wiki/alone-green-tea.html", "title": "Green Tea" },
-    { "href": "wiki/alone-guarana.html", "title": "Guarana" },
-    { "href": "wiki/alone-dihexa.html", "title": "Dihexa" },
-    { "href": "wiki/alone-homotaurine.html", "title": "Homotaurine" },
-    { "href": "wiki/alone-phenibut.html", "title": "Phenibut" },
-    { "href": "wiki/alone-lemon-balm-water.html", "title": "Lemon Balm Water" },
-    { "href": "wiki/alone-tilorone.html", "title": "Tilorone" },
-    { "href": "wiki/alone-alanine.html", "title": "Alanine" },
-    { "href": "wiki/alone-lysine.html", "title": "Lysine" },
-    { "href": "wiki/alone-isoleucine.html", "title": "Isoleucine" },
-    { "href": "wiki/alone-aspartic-acid.html", "title": "Aspartic acid" },
-    { "href": "wiki/alone-proline.html", "title": "Proline" },
-    { "href": "wiki/alone-phenylalanine.html", "title": "Phenylalanine" },
-    { "href": "wiki/alone-serine.html", "title": "Serine" },
-    { "href": "wiki/alone-valine.html", "title": "Valine" },
-    { "href": "wiki/alone-nmn.html", "title": "NMN" },
-    { "href": "wiki/alone-leucine.html", "title": "Leucine" },
-    { "href": "wiki/alone-threonine.html", "title": "Threonine" },
-    { "href": "wiki/alone-cystine.html", "title": "Cystine" },
-    { "href": "wiki/alone-amantadine.html", "title": "Amantadine" },
-    { "href": "wiki/alone-glycine.html", "title": "Glycine" },
-    { "href": "wiki/alone-histidine.html", "title": "Histidine" },
-    { "href": "wiki/alone-glutamic-acid.html", "title": "Glutamic acid" },
-    { "href": "wiki/alone-oxiracetam.html", "title": "Oxiracetam" },
-    { "href": "wiki/alone-1p-lsd.html", "title": "1P-LSD" },
-    { "href": "wiki/alone-o-dsmt.html", "title": "O-DSMT" },
-    { "href": "wiki/alone-galantamine.html", "title": "Galantamine" },
-    { "href": "wiki/alone-eutropoflavin.html", "title": "Eutropoflavin" },
-    { "href": "wiki/alone-gb-115.html", "title": "GB-115" },
-    { "href": "wiki/alone-rapastinel.html", "title": "Rapastinel" },
-    { "href": "wiki/alone-hhc.html", "title": "HHC" },
-    { "href": "wiki/alone-matrine.html", "title": "Matrine" },
-    { "href": "wiki/alone-creatine.html", "title": "Creatine" },
-    { "href": "wiki/alone-pramipexole.html", "title": "Pramipexole" },
-    { "href": "wiki/alone-resveratrol.html", "title": "Resveratrol" },
-    { "href": "wiki/alone-resveratrol-trans.html", "title": "Resveratrol (trans)" },
-    { "href": "wiki/alone-disulfiram.html", "title": "Disulfiram" },
-    { "href": "wiki/alone-resiquimod.html", "title": "Resiquimod" },
-    { "href": "wiki/alone-meclofenoxate.html", "title": "Meclofenoxate" },
-    { "href": "wiki/alone-palmitoylethanolamide.html", "title": "Palmitoylethanolamide" },
-    { "href": "wiki/alone-ivermectin.html", "title": "Ivermectin" },
-    { "href": "wiki/alone-agomelatine.html", "title": "Agomelatine" },
-    { "href": "wiki/alone-citicoline.html", "title": "Citicoline" },
-    { "href": "wiki/alone-emoxypine.html", "title": "Emoxypine" },
-    { "href": "wiki/alone-oroxylin-a.html", "title": "Oroxylin A" },
-    { "href": "wiki/alone-uridine.html", "title": "Uridine" },
-    { "href": "wiki/alone-tongkat-ali.html", "title": "Tongkat Ali" },
-    { "href": "wiki/alone-lithium-orotate.html", "title": "Lithium Orotate" },
-    { "href": "wiki/alone-magnesium-l-threonate.html", "title": "Magnesium L-Threonate" },
-    { "href": "wiki/alone-methocarbamol.html", "title": "Methocarbamol" },
-    { "href": "wiki/alone-imiquimod.html", "title": "Imiquimod" },
-    { "href": "wiki/alone-oxytocin.html", "title": "Oxytocin" },
-    { "href": "wiki/alone-dihydromyricetin.html", "title": "Dihydromyricetin" },
-    { "href": "wiki/alone-dim.html", "title": "DIM" },
-    { "href": "wiki/alone-luteolin.html", "title": "Luteolin" },
-    { "href": "wiki/alone-grp55.html", "title": "GPR55" },
-    { "href": "wiki/alone-valaciclovir.html", "title": "Valaciclovir" },
-    { "href": "wiki/alone-voriconazole.html", "title": "Voriconazole" },
-    { "href": "wiki/alone-amoxicillin.html", "title": "Amoxicillin" },
-    { "href": "wiki/alone-trimethoprim-sulfamethoxazole.html", "title": "Trimethoprim/Sulfamethoxazole" },
-    { "href": "wiki/alone-flibanserin.html", "title": "Flibanserin" },
-    { "href": "wiki/alone-umifenovir.html", "title": "Umifenovir" },
-    { "href": "wiki/alone-azithromycin.html", "title": "Azithromycin" },
-    { "href": "wiki/alone-itraconazole.html", "title": "Itraconazole" },
-    { "href": "wiki/alone-cefuroxime.html", "title": "Cefuroxime" },
-    { "href": "wiki/alone-aticaprant.html", "title": "Aticaprant" },
-    { "href": "wiki/alone-lumbrokinase.html", "title": "Lumbrokinase" },
-    { "href": "wiki/alone-nattokinase.html", "title": "Nattokinase" },
-    { "href": "wiki/alone-benzylpenicillin.html", "title": "Benzylpenicillin" },
-    { "href": "wiki/alone-tinidazole.html", "title": "Tinidazole" }
-  ],
-  "Multiple": [
-    { "href": "wiki/multiple-vitamin-b-complex.html", "title": "Vitamin B Complex" },
-    { "href": "wiki/multiple-inositol-choline.html", "title": "Inositol + Choline" },
-    { "href": "wiki/multiple-hemp-rhodiola.html", "title": "Hemp + Rhodiola rosea" },
-    { "href": "wiki/multiple-inosine-dmae.html", "title": "Inosine + DMAE" },
-    { "href": "wiki/multiple-green-tea-guarana.html", "title": "Green Tea + Guarana" },
-    { "href": "wiki/multiple-prl-8-53-dihexa.html", "title": "PRL-8-53 + Dihexa" }
-  ],
-  "Products": [
-    { "href": "wiki/product-monster.html", "title": "Mega Monster Energy" },
-    { "href": "wiki/product-powerade.html", "title": "Powerade Ice Storm" },
-    { "href": "wiki/product-heroic-sport.html", "title": "Heroic Sport Isotonic" }
-  ]
-};
+(function() {
+    async function init() {
+        const searchInput = document.getElementById('wiki-search');
+        const searchResults = document.getElementById('search-results');
+        if (!searchInput || !searchResults) return;
+
+        const wikiData = {
+      "Alone": [
+        { "href": "wiki/alone-fever.html", "title": "Fever / Pyrexia" },
+        { "href": "wiki/alone-l-tyrosine.html", "title": "L-Tyrosine" },
+        { "href": "wiki/alone-l-tryptophan.html", "title": "L-Tryptophan" },
+        { "href": "wiki/alone-turmeric.html", "title": "Turmeric" },
+        { "href": "wiki/alone-coffee.html", "title": "Coffee" },
+        { "href": "wiki/alone-cow-milk.html", "title": "Cow Milk" },
+        { "href": "wiki/alone-vitamin-d.html", "title": "Vitamin D" },
+        { "href": "wiki/alone-same.html", "title": "SAMe" },
+        { "href": "wiki/alone-multivitamins-multiminerals.html", "title": "Multivitamins and Multiminerals" },
+        { "href": "wiki/alone-vortioxetine.html", "title": "Vortioxetine" },
+        { "href": "wiki/alone-bromantane.html", "title": "Bromantane" },
+        { "href": "wiki/alone-piracetam.html", "title": "Piracetam" },
+        { "href": "wiki/alone-spirulina.html", "title": "Spirulina" },
+        { "href": "wiki/alone-probiotics-prebiotics.html", "title": "Probiotiques et Prébiotiques" },
+        { "href": "wiki/alone-methylene-blue.html", "title": "Methylene Blue" },
+        { "href": "wiki/alone-alcar.html", "title": "ALCAR" },
+        { "href": "wiki/alone-inositol.html", "title": "Inositol" },
+        { "href": "wiki/alone-choline.html", "title": "Choline" },
+        { "href": "wiki/alone-agmatine.html", "title": "Agmatine" },
+        { "href": "wiki/alone-flmodafinil.html", "title": "Flmodafinil" },
+        { "href": "wiki/alone-nicotine.html", "title": "Nicotine" },
+        { "href": "wiki/alone-sulbutiamine.html", "title": "Sulbutiamine" },
+        { "href": "wiki/alone-fluoxetine.html", "title": "Fluoxetine" },
+        { "href": "wiki/alone-tak-653.html", "title": "TAK-653" },
+        { "href": "wiki/alone-tropisetron.html", "title": "Tropisetron" },
+        { "href": "wiki/alone-nad+.html", "title": "NAD+" },
+        { "href": "wiki/alone-huperzine-a.html", "title": "Huperzine A" },
+        { "href": "wiki/alone-safinamide.html", "title": "Safinamide Mesylate" },
+        { "href": "wiki/alone-l-dopa.html", "title": "L-DOPA" },
+        { "href": "wiki/alone-neboglamine.html", "title": "Neboglamine" },
+        { "href": "wiki/alone-licorice-root.html", "title": "Licorice Root" },
+        { "href": "wiki/alone-selenium.html", "title": "Selenium" },
+        { "href": "wiki/alone-vinpocetine.html", "title": "Vinpocetine" },
+        { "href": "wiki/alone-idebenone.html", "title": "Idebenone" },
+        { "href": "wiki/alone-dmae.html", "title": "DMAE" },
+        { "href": "wiki/alone-cordyceps-militaris.html", "title": "Cordyceps Militaris" },
+        { "href": "wiki/alone-hemp.html", "title": "Hemp" },
+        { "href": "wiki/alone-rhodiola-rosea.html", "title": "Rhodiola rosea" },
+        { "href": "wiki/alone-black-pepper.html", "title": "Black Pepper" },
+        { "href": "wiki/alone-shiitake.html", "title": "Shiitake" },
+        { "href": "wiki/alone-paracetamol.html", "title": "Paracetamol" },
+        { "href": "wiki/alone-st-john-wort.html", "title": "St. John's Wort" },
+        { "href": "wiki/alone-passiflora.html", "title": "Passiflora" },
+        { "href": "wiki/alone-cbd.html", "title": "CBD" },
+        { "href": "wiki/alone-aripiprazol.html", "title": "Aripiprazol" },
+        { "href": "wiki/alone-venlafaxine.html", "title": "Venlafaxine" },
+        { "href": "wiki/alone-gaba.html", "title": "GABA" },
+        { "href": "wiki/alone-5-meo-dalt.html", "title": "5-MeO-DALT" },
+        { "href": "wiki/alone-amt.html", "title": "AMT" },
+        { "href": "wiki/alone-nm-2-ai.html", "title": "NM-2-AI" },
+        { "href": "wiki/alone-3-mma.html", "title": "3-MMA" },
+        { "href": "wiki/alone-4-ho-met.html", "title": "4-HO-MET" },
+        { "href": "wiki/alone-tianeptine.html", "title": "Tianeptine" },
+        { "href": "wiki/alone-dck.html", "title": "DCK" },
+        { "href": "wiki/alone-5-meo-mipt.html", "title": "5-MeO-MiPT" },
+        { "href": "wiki/alone-norflurazepam.html", "title": "Norflurazepam" },
+        { "href": "wiki/alone-moclobemide.html", "title": "Moclobemide" },
+        { "href": "wiki/alone-ibuprofene.html", "title": "Ibuprofene" },
+        { "href": "wiki/alone-noopept.html", "title": "Noopept" },
+        { "href": "wiki/alone-cgp.html", "title": "cGP" },
+        { "href": "wiki/alone-igf-1.html", "title": "IGF-1" },
+        { "href": "wiki/alone-tranylcypromine.html", "title": "Tranylcypromine" },
+        { "href": "wiki/alone-prl-8-53.html", "title": "PRL-8-53" },
+        { "href": "wiki/alone-sulforaphane.html", "title": "Sulforaphane" },
+        { "href": "wiki/alone-melatonin.html", "title": "Melatonin" },
+        { "href": "wiki/alone-inosine.html", "title": "Inosine" },
+        { "href": "wiki/alone-caffeine.html", "title": "Caffeine" },
+        { "href": "wiki/alone-paraxanthine.html", "title": "Paraxanthine" },
+        { "href": "wiki/alone-theobromine.html", "title": "Theobromine" },
+        { "href": "wiki/alone-theophylline.html", "title": "Theophylline" },
+        { "href": "wiki/alone-lactoferrine.html", "title": "Lactoferrine" },
+        { "href": "wiki/alone-collagen.html", "title": "Collagen" },
+        { "href": "wiki/alone-green-tea.html", "title": "Green Tea" },
+        { "href": "wiki/alone-guarana.html", "title": "Guarana" },
+        { "href": "wiki/alone-dihexa.html", "title": "Dihexa" },
+        { "href": "wiki/alone-homotaurine.html", "title": "Homotaurine" },
+        { "href": "wiki/alone-phenibut.html", "title": "Phenibut" },
+        { "href": "wiki/alone-lemon-balm-water.html", "title": "Lemon Balm Water" },
+        { "href": "wiki/alone-tilorone.html", "title": "Tilorone" },
+        { "href": "wiki/alone-alanine.html", "title": "Alanine" },
+        { "href": "wiki/alone-lysine.html", "title": "Lysine" },
+        { "href": "wiki/alone-isoleucine.html", "title": "Isoleucine" },
+        { "href": "wiki/alone-aspartic-acid.html", "title": "Aspartic acid" },
+        { "href": "wiki/alone-proline.html", "title": "Proline" },
+        { "href": "wiki/alone-phenylalanine.html", "title": "Phenylalanine" },
+        { "href": "wiki/alone-serine.html", "title": "Serine" },
+        { "href": "wiki/alone-valine.html", "title": "Valine" },
+        { "href": "wiki/alone-nmn.html", "title": "NMN" },
+        { "href": "wiki/alone-leucine.html", "title": "Leucine" },
+        { "href": "wiki/alone-threonine.html", "title": "Threonine" },
+        { "href": "wiki/alone-cystine.html", "title": "Cystine" },
+        { "href": "wiki/alone-amantadine.html", "title": "Amantadine" },
+        { "href": "wiki/alone-glycine.html", "title": "Glycine" },
+        { "href": "wiki/alone-histidine.html", "title": "Histidine" },
+        { "href": "wiki/alone-glutamic-acid.html", "title": "Glutamic acid" },
+        { "href": "wiki/alone-oxiracetam.html", "title": "Oxiracetam" },
+        { "href": "wiki/alone-1p-lsd.html", "title": "1P-LSD" },
+        { "href": "wiki/alone-o-dsmt.html", "title": "O-DSMT" },
+        { "href": "wiki/alone-galantamine.html", "title": "Galantamine" },
+        { "href": "wiki/alone-eutropoflavin.html", "title": "Eutropoflavin" },
+        { "href": "wiki/alone-gb-115.html", "title": "GB-115" },
+        { "href": "wiki/alone-rapastinel.html", "title": "Rapastinel" },
+        { "href": "wiki/alone-hhc.html", "title": "HHC" },
+        { "href": "wiki/alone-matrine.html", "title": "Matrine" },
+        { "href": "wiki/alone-creatine.html", "title": "Creatine" },
+        { "href": "wiki/alone-pramipexole.html", "title": "Pramipexole" },
+        { "href": "wiki/alone-resveratrol.html", "title": "Resveratrol" },
+        { "href": "wiki/alone-resveratrol-trans.html", "title": "Resveratrol (trans)" },
+        { "href": "wiki/alone-disulfiram.html", "title": "Disulfiram" },
+        { "href": "wiki/alone-resiquimod.html", "title": "Resiquimod" },
+        { "href": "wiki/alone-meclofenoxate.html", "title": "Meclofenoxate" },
+        { "href": "wiki/alone-palmitoylethanolamide.html", "title": "Palmitoylethanolamide" },
+        { "href": "wiki/alone-ivermectin.html", "title": "Ivermectin" },
+        { "href": "wiki/alone-agomelatine.html", "title": "Agomelatine" },
+        { "href": "wiki/alone-citicoline.html", "title": "Citicoline" },
+        { "href": "wiki/alone-emoxypine.html", "title": "Emoxypine" },
+        { "href": "wiki/alone-oroxylin-a.html", "title": "Oroxylin A" },
+        { "href": "wiki/alone-uridine.html", "title": "Uridine" },
+        { "href": "wiki/alone-tongkat-ali.html", "title": "Tongkat Ali" },
+        { "href": "wiki/alone-lithium-orotate.html", "title": "Lithium Orotate" },
+        { "href": "wiki/alone-magnesium-l-threonate.html", "title": "Magnesium L-Threonate" },
+        { "href": "wiki/alone-methocarbamol.html", "title": "Methocarbamol" },
+        { "href": "wiki/alone-imiquimod.html", "title": "Imiquimod" },
+        { "href": "wiki/alone-oxytocin.html", "title": "Oxytocin" },
+        { "href": "wiki/alone-dihydromyricetin.html", "title": "Dihydromyricetin" },
+        { "href": "wiki/alone-dim.html", "title": "DIM" },
+        { "href": "wiki/alone-luteolin.html", "title": "Luteolin" },
+        { "href": "wiki/alone-grp55.html", "title": "GPR55" },
+        { "href": "wiki/alone-valaciclovir.html", "title": "Valaciclovir" },
+        { "href": "wiki/alone-voriconazole.html", "title": "Voriconazole" },
+        { "href": "wiki/alone-amoxicillin.html", "title": "Amoxicillin" },
+        { "href": "wiki/alone-trimethoprim-sulfamethoxazole.html", "title": "Trimethoprim/Sulfamethoxazole" },
+        { "href": "wiki/alone-flibanserin.html", "title": "Flibanserin" },
+        { "href": "wiki/alone-umifenovir.html", "title": "Umifenovir" },
+        { "href": "wiki/alone-azithromycin.html", "title": "Azithromycin" },
+        { "href": "wiki/alone-itraconazole.html", "title": "Itraconazole" },
+        { "href": "wiki/alone-cefuroxime.html", "title": "Cefuroxime" },
+        { "href": "wiki/alone-aticaprant.html", "title": "Aticaprant" },
+        { "href": "wiki/alone-lumbrokinase.html", "title": "Lumbrokinase" },
+        { "href": "wiki/alone-nattokinase.html", "title": "Nattokinase" },
+        { "href": "wiki/alone-benzylpenicillin.html", "title": "Benzylpenicillin" },
+        { "href": "wiki/alone-tinidazole.html", "title": "Tinidazole" }
+      ],
+      "Multiple": [
+        { "href": "wiki/multiple-vitamin-b-complex.html", "title": "Vitamin B Complex" },
+        { "href": "wiki/multiple-inositol-choline.html", "title": "Inositol + Choline" },
+        { "href": "wiki/multiple-hemp-rhodiola.html", "title": "Hemp + Rhodiola rosea" },
+        { "href": "wiki/multiple-inosine-dmae.html", "title": "Inosine + DMAE" },
+        { "href": "wiki/multiple-green-tea-guarana.html", "title": "Green Tea + Guarana" },
+        { "href": "wiki/multiple-prl-8-53-dihexa.html", "title": "PRL-8-53 + Dihexa" }
+      ],
+      "Products": [
+        { "href": "wiki/product-monster.html", "title": "Mega Monster Energy" },
+        { "href": "wiki/product-powerade.html", "title": "Powerade Ice Storm" },
+        { "href": "wiki/product-heroic-sport.html", "title": "Heroic Sport Isotonic" }
+      ]
+    };
 
     const renderWiki = () => {
         let totalItems = 0;
@@ -166,7 +171,6 @@
             const gridId = `grid-${category.toLowerCase()}`;
             const grid = document.getElementById(gridId);
             if (grid) {
-                // Use DocumentFragment to minimize reflows
                 const fragment = document.createDocumentFragment();
                 const sortedItems = [...items].sort((a, b) => a.title.localeCompare(b.title));
                 
@@ -189,8 +193,6 @@
             totalCounter.textContent = `(${totalItems} items)`;
         }
     };
-
-
 
     const searchInput = document.getElementById('wiki-search');
     const searchResults = document.getElementById('search-results');
@@ -252,7 +254,6 @@
         const response = await fetch('search-index.json');
         searchIndex = await response.json();
         
-        // Dynamically add substances from markdown to the "Alone" grid if we're on the main page
         if (!mdFile) {
             const aloneGrid = document.getElementById('grid-alone');
             if (aloneGrid) {
@@ -265,7 +266,6 @@
                         });
                     }
                 });
-                // Re-render to ensure everything is sorted and counted correctly
                 renderWiki();
             }
 
@@ -329,7 +329,6 @@
 
     if (searchInput) searchInput.addEventListener('input', debounce(handleSearch, 250));
 
-    
     function highlight(text, query) {
         const regex = new RegExp(`(${query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
         return text.replace(regex, '<mark>$1</mark>');
@@ -345,7 +344,6 @@
         return highlight(snippet, query);
     }
 
-    // Close results when clicking outside
     const clickHandler = (e) => {
         if (searchInput && !searchInput.contains(e.target) && searchResults && !searchResults.contains(e.target)) {
             searchResults.style.display = 'none';
@@ -362,5 +360,11 @@
     }
     window.actionsPageClickHandler = clickHandler;
     document.addEventListener('click', clickHandler);
+    }
 
+    if (document.readyState === 'complete' || document.readyState === 'interactive') {
+        init();
+    } else {
+        document.addEventListener('DOMContentLoaded', init);
+    }
 })();
