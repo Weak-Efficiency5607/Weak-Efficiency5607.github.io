@@ -55,14 +55,33 @@ async function loadPage(url) {
             currentMain.style.transition = 'opacity 0.2s';
             
             setTimeout(() => {
+
                 // Update Main Content
                 currentMain.innerHTML = newMain.innerHTML;
                 
+                // Sync attributes (like classes for different layouts)
+                // We preserve 'style' to not break the opacity transition
+                Array.from(newMain.attributes).forEach(attr => {
+                    if (attr.name !== 'style') {
+                        currentMain.setAttribute(attr.name, attr.value);
+                    }
+                });
+                // Remove attributes that are not in the new main
+                Array.from(currentMain.attributes).forEach(attr => {
+                    if (attr.name !== 'style' && !newMain.hasAttribute(attr.name)) {
+                        currentMain.removeAttribute(attr.name);
+                    }
+                });
+
                 // Scroll to top
                 window.scrollTo(0, 0);
                 
+
                 // Sync assets (Styles and Scripts)
                 syncAssets(newDoc);
+                
+                // Reset body state (in case navigating from fullscreen map)
+                document.body.style.overflow = '';
                 
                 currentMain.style.opacity = '1';
                 

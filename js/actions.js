@@ -196,6 +196,7 @@
             }
         }
         
+
         const totalCounter = document.getElementById('total-items-count');
         if (totalCounter) {
             totalCounter.textContent = `(${totalItems} items)`;

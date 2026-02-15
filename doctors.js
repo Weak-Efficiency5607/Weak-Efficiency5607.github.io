@@ -30,34 +30,23 @@
             maxZoom: 19
         });
 
-        // Theme Management
-        const themeToggle = document.getElementById('theme-toggle');
-        if (!themeToggle) return;
-        
-        let isDark = localStorage.getItem('theme') === 'dark';
-
-        function setTheme(dark) {
-            if (dark) {
-                document.body.classList.remove('light-mode');
+        // Global Theme Integration
+        function syncMapTheme(theme) {
+            if (theme === 'dark') {
                 if (map.hasLayer(lightTiles)) map.removeLayer(lightTiles);
                 darkTiles.addTo(map);
-                localStorage.setItem('theme', 'dark');
-                themeToggle.textContent = '☀️ Light Mode';
             } else {
-                document.body.classList.add('light-mode');
                 if (map.hasLayer(darkTiles)) map.removeLayer(darkTiles);
                 lightTiles.addTo(map);
-                localStorage.setItem('theme', 'light');
-                themeToggle.textContent = '🌙 Dark Mode';
             }
         }
 
-        // Set initial theme
-        setTheme(isDark);
+        // Initial theme sync
+        syncMapTheme(localStorage.getItem('theme') || 'light');
 
-        themeToggle.addEventListener('click', () => {
-            isDark = !isDark;
-            setTheme(isDark);
+        // Listen for theme changes from the global toggle
+        document.addEventListener('theme:changed', (e) => {
+            syncMapTheme(e.detail.theme);
         });
 
         // Custom icon for doctors
@@ -159,6 +148,28 @@
         }
 
         // Event listeners
+
+        const fullscreenBtn = document.getElementById('fullscreen-map');
+        if (fullscreenBtn) {
+            fullscreenBtn.addEventListener('click', () => {
+                const mapCard = document.querySelector('.map-card');
+                mapCard.classList.toggle('fullscreen-mode');
+                
+                if (mapCard.classList.contains('fullscreen-mode')) {
+                    fullscreenBtn.innerHTML = '<span>❌</span> Exit Fullscreen';
+                    document.body.style.overflow = 'hidden'; // Prevent scrolling
+                } else {
+                    fullscreenBtn.innerHTML = '<span>🔲</span> Fullscreen';
+                    document.body.style.overflow = '';
+                }
+                
+                // Leaflet needs to know the size changed
+                setTimeout(() => {
+                    map.invalidateSize();
+                }, 300);
+            });
+        }
+
         const findMeBtn = document.getElementById('find-me');
         if (findMeBtn) {
             findMeBtn.addEventListener('click', () => {

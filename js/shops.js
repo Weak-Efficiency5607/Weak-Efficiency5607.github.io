@@ -28,7 +28,7 @@
                         hipContainer.innerHTML = '';
                         hipData.forEach(item => {
                             const tr = document.createElement('tr');
-                            tr.style.borderBottom = '1px solid rgba(255,255,255,0.1)';
+                            tr.style.borderBottom = '1px solid var(--card-border)';
                             tr.innerHTML = `
                                 <td style="padding: 12px;"><a href="${item.url}" target="_blank">${item.name}</a></td>
                                 <td style="padding: 12px;">${item.type}</td>
