@@ -61,12 +61,12 @@ async function loadPage(url) {
                 // Scroll to top
                 window.scrollTo(0, 0);
                 
-                // Re-execute scripts
-                handleScripts(newDoc);
+                // Sync assets (Styles and Scripts)
+                syncAssets(newDoc);
                 
                 currentMain.style.opacity = '1';
                 
-                // Trigger custom event for pages that need to know they've been loaded dynamically
+                // Trigger custom event
                 document.dispatchEvent(new CustomEvent('page:loaded', { detail: { url: url } }));
                 
             }, 200); 
@@ -80,11 +80,30 @@ async function loadPage(url) {
     }
 }
 
-function handleScripts(newDoc) {
-    // 1. Handle Head Scripts
+function syncAssets(newDoc) {
+    // 1. Handle Stylesheets
+    const newLinks = Array.from(newDoc.querySelectorAll('link[rel="stylesheet"]'));
+    newLinks.forEach(link => {
+        if (!document.querySelector(`link[href="${link.href}"]`)) {
+            const newLink = document.createElement('link');
+            newLink.rel = 'stylesheet';
+            newLink.href = link.href;
+            document.head.appendChild(newLink);
+        }
+    });
+
+    // 2. Handle Inline Styles
+    const newStyles = Array.from(newDoc.querySelectorAll('style'));
+    newStyles.forEach(style => {
+        const newStyle = document.createElement('style');
+        newStyle.textContent = style.textContent;
+        document.head.appendChild(newStyle);
+    });
+
+    // 3. Handle Scripts (Head)
     const newHeadScripts = Array.from(newDoc.querySelectorAll('head script'));
     newHeadScripts.forEach(script => {
-        if (script.src && !document.querySelector(`head script[src="${script.src}"]`)) {
+        if (script.src && !document.querySelector(`script[src="${script.src}"]`)) {
             const newScript = document.createElement('script');
             newScript.src = script.src;
             newScript.async = false;
@@ -92,12 +111,15 @@ function handleScripts(newDoc) {
         }
     });
 
-    // 2. Handle Body Scripts
+    // 4. Handle Scripts (Body)
     const newBodyScripts = Array.from(newDoc.querySelectorAll('body script'));
     newBodyScripts.forEach(script => {
         if (script.src && script.src.includes('router.js')) return;
 
-        // Remove existing instances of this script to avoid duplicates
+        // For internal scripts (like js/actions.js, js/shops.js, etc.), we want to re-execute them.
+        // For libraries that are already loaded, we might want to skip.
+        // However, it's safer to re-inject scripts that are intended for the page.
+        
         if (script.src) {
             const existing = document.querySelector(`body script[src="${script.src}"]`);
             if (existing) existing.remove();

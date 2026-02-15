@@ -1,11 +1,22 @@
 
 (function() {
     function init() {
+        // Ensure Leaflet is loaded
+        if (typeof L === 'undefined') {
+            setTimeout(init, 100);
+            return;
+        }
+
         const mapContainer = document.getElementById('map');
         if (!mapContainer) return;
 
         // Initialize map
         const map = L.map('map').setView([48.8566, 2.3522], 13); // Default to Paris
+
+        // Fix for Leaflet initialization issues with dynamic loading
+        setTimeout(() => {
+            map.invalidateSize();
+        }, 400);
 
         // Tile layers
         const darkTiles = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
@@ -178,7 +189,7 @@
         let searchTimeout;
 
         if (addressInput && suggestionsList) {
-            addressInput.addEventListener('input', () => {
+            const inputHandler = () => {
                 clearTimeout(searchTimeout);
                 const query = addressInput.value.trim();
                 
@@ -196,7 +207,8 @@
                         console.error('Error fetching suggestions:', error);
                     }
                 }, 500);
-            });
+            };
+            addressInput.addEventListener('input', inputHandler);
 
             function displaySuggestions(suggestions) {
                 if (suggestions.length === 0) {
@@ -231,7 +243,7 @@
                 setTimeout(fetchDoctors, 500);
             }
 
-            addressInput.addEventListener('keydown', async (e) => {
+            const keydownHandler = async (e) => {
                 if (e.key === 'Enter') {
                     const query = addressInput.value.trim();
                     if (query.length === 0) return;
@@ -246,14 +258,14 @@
                         console.error('Error searching address:', error);
                     }
                 }
-            });
-
+            };
+            addressInput.addEventListener('keydown', keydownHandler);
 
             const clickHandler = (e) => {
-                const addressInput = document.getElementById('address-input');
-                const suggestionsList = document.getElementById('address-suggestions');
-                if (addressInput && suggestionsList && !addressInput.contains(e.target) && !suggestionsList.contains(e.target)) {
-                    suggestionsList.style.display = 'none';
+                const innerInput = document.getElementById('address-input');
+                const innerList = document.getElementById('address-suggestions');
+                if (innerInput && innerList && !innerInput.contains(e.target) && !innerList.contains(e.target)) {
+                    innerList.style.display = 'none';
                 }
             };
 

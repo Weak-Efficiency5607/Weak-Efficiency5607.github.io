@@ -1,6 +1,14 @@
 
 (function() {
     async function init() {
+        // Wait for marked library if needed
+        const urlParams = new URLSearchParams(window.location.search);
+        const mdFile = urlParams.get('md');
+        if (mdFile && typeof marked === 'undefined') {
+            setTimeout(init, 100);
+            return;
+        }
+
         const searchInput = document.getElementById('wiki-search');
         const searchResults = document.getElementById('search-results');
         if (!searchInput || !searchResults) return;
@@ -194,13 +202,7 @@
         }
     };
 
-    const searchInput = document.getElementById('wiki-search');
-    const searchResults = document.getElementById('search-results');
     let searchIndex = [];
-
-    // Markdown rendering logic
-    const urlParams = new URLSearchParams(window.location.search);
-    const mdFile = urlParams.get('md');
 
     if (mdFile) {
         try {
