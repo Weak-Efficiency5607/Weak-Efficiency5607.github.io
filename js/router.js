@@ -50,45 +50,33 @@ async function loadPage(url) {
         const newMain = newDoc.querySelector('main');
         
         if (currentMain && newMain) {
-            // Create a transition effect (fade out/in)
-            currentMain.style.opacity = '0';
-            currentMain.style.transition = 'opacity 0.2s';
+            // Update Main Content
+            currentMain.innerHTML = newMain.innerHTML;
             
-            setTimeout(() => {
+            // Sync attributes (like classes for different layouts)
+            Array.from(newMain.attributes).forEach(attr => {
+                if (attr.name !== 'style') {
+                    currentMain.setAttribute(attr.name, attr.value);
+                }
+            });
+            // Remove attributes that are not in the new main
+            Array.from(currentMain.attributes).forEach(attr => {
+                if (attr.name !== 'style' && !newMain.hasAttribute(attr.name)) {
+                    currentMain.removeAttribute(attr.name);
+                }
+            });
 
-                // Update Main Content
-                currentMain.innerHTML = newMain.innerHTML;
-                
-                // Sync attributes (like classes for different layouts)
-                // We preserve 'style' to not break the opacity transition
-                Array.from(newMain.attributes).forEach(attr => {
-                    if (attr.name !== 'style') {
-                        currentMain.setAttribute(attr.name, attr.value);
-                    }
-                });
-                // Remove attributes that are not in the new main
-                Array.from(currentMain.attributes).forEach(attr => {
-                    if (attr.name !== 'style' && !newMain.hasAttribute(attr.name)) {
-                        currentMain.removeAttribute(attr.name);
-                    }
-                });
-
-                // Scroll to top
-                window.scrollTo(0, 0);
-                
-
-                // Sync assets (Styles and Scripts)
-                syncAssets(newDoc);
-                
-                // Reset body state (in case navigating from fullscreen map)
-                document.body.style.overflow = '';
-                
-                currentMain.style.opacity = '1';
-                
-                // Trigger custom event
-                document.dispatchEvent(new CustomEvent('page:loaded', { detail: { url: url } }));
-                
-            }, 200); 
+            // Scroll to top
+            window.scrollTo(0, 0);
+            
+            // Sync assets (Styles and Scripts)
+            syncAssets(newDoc);
+            
+            // Reset body state (in case navigating from fullscreen map)
+            document.body.style.overflow = '';
+            
+            // Trigger custom event
+            document.dispatchEvent(new CustomEvent('page:loaded', { detail: { url: url } }));
         } else {
              window.location.reload();
         }
