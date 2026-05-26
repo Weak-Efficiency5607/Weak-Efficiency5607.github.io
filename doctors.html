@@ -10,18 +10,27 @@
 	<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
 	<!-- Leaflet CSS -->
 	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
-	<title>Global Doctor Locator</title>
+	<title>Map of doctors</title>
 </head>
 <body>
 	<main class="container full-height-container">
 		<header class="site-header compact-header">
-			<h1 class="logo"><a href="index.html">r/anhedonia</a></h1>
-			<p class="subtitle">Global Doctor Locator</p>
+			<h1 class="logo"><a href="index.html">Anhedonia Resource Hub</a></h1>
+			<p class="subtitle">Map of doctors</p>
 		</header>
+		<nav class="main-nav">
+    <a href="index.html">Home</a>
+    <a href="actions.html">Encyclopedia</a>
+    <a href="shops.html">Vendor Directory</a>
+    <a href="doctors.html">Map of doctors</a>
+    <a href="theory.html">List of causes</a>
+    <a href="success-stories.html">Success Stories</a>
+    <a href="glossary.html">Dictionary</a>
+</nav>
 
 		<section class="card map-card">
 			<div class="map-header">
-				<h2><span class="icon">🌍</span> Find Doctors</h2>
+				<h2>Find Doctors</h2>
                 <div class="address-search-container">
                     <input type="text" id="address-input" placeholder="Search address..." autocomplete="off">
                     <div id="address-suggestions" class="suggestions-list"></div>
@@ -36,8 +45,19 @@
 		</section>
 
 		<footer class="site-footer">
-			<p><a href="index.html">← Back to Home</a></p>
-		</footer>
+    <div class="footer-content">
+        <p class="disclaimer">
+            <strong>Disclaimer:</strong> The information provided on this site is for educational and research purposes only. It is not intended as a substitute for professional medical advice, diagnosis, or treatment.
+        </p>
+        <div class="footer-links">
+            <span>Contact: <a href="mailto:pakoskiv@gmail.com">pakoskiv@gmail.com</a> | Discord (pakoskiv)</span>
+            <span>Author: <a href="https://www.reddit.com/user/Alternative-Gur9717/">Reddit (Current)</a> | <a href="https://www.reddit.com/user/Weak-Efficiency5607/comments/1grfkuv/myself/">Reddit (Old)</a></span>
+        </div>
+        <p class="copyright">
+            © 2026 Anhedonia Resource Hub. Open-source research.
+        </p>
+    </div>
+</footer>
 	</main>
 
 	<!-- Leaflet JS -->
