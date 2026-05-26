@@ -23,7 +23,7 @@ $glass-border: rgba(255, 255, 255, 0.1);
   background: var(--card-bg);
   border: 1px solid var(--card-border);
   border-radius: 24px;
-  transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  transition: transform 0.25s cubic-bezier(0.23, 1, 0.32, 1), border-color 0.25s ease, box-shadow 0.25s ease;
   position: relative;
   overflow: hidden;
   @include premium-glass;
@@ -91,7 +91,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  transition: background-color 0.8s ease;
+  transition: background-color 0.25s ease, color 0.25s ease;
   overflow-x: hidden;
 
   &::before {
@@ -127,7 +127,6 @@ body {
 .site-header {
   text-align: center;
   margin-bottom: 7rem;
-  animation: fadeInDown 1.4s cubic-bezier(0.23, 1, 0.32, 1);
 
   .logo {
     font-family: var(--font-mono);
@@ -214,7 +213,7 @@ h2 {
       color: var(--text-primary);
       font-weight: 600;
       font-size: 1.1rem;
-      transition: all 0.4s ease;
+      transition: color 0.2s ease, transform 0.2s ease;
       display: inline-flex;
       align-items: center;
       gap: 0.5rem;
@@ -223,7 +222,7 @@ h2 {
         content: '→';
         opacity: 0;
         transform: translateX(-10px);
-        transition: all 0.3s ease;
+        transition: opacity 0.2s ease, transform 0.2s ease;
       }
       
       &:hover {
@@ -277,7 +276,7 @@ h2 {
     font-size: 1.2rem;
     line-height: 1.2;
     @include premium-glass;
-    transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+    transition: border-color 0.25s ease, background-color 0.25s ease, box-shadow 0.25s ease, transform 0.25s ease;
     box-shadow: 0 15px 35px -10px rgba(0, 0, 0, 0.1);
 
     &:focus {
@@ -334,7 +333,7 @@ h2 {
         font-size: 0.9rem;
         color: var(--text-primary);
         cursor: pointer;
-        transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+        transition: border-color 0.2s ease, color 0.2s ease, background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
         
         strong {
             font-weight: 600;
@@ -351,7 +350,7 @@ h2 {
 
     .search-result-item, .suggestion-item {
         border-bottom: 1px solid var(--card-border);
-        transition: background 0.3s;
+        transition: background-color 0.15s ease;
         &:last-child { border-bottom: none; }
         &:hover { background: var(--hover-bg); }
         
@@ -472,7 +471,7 @@ h2 {
         font-weight: 700;
         font-size: 1rem;
         box-shadow: 0 10px 20px -5px rgba(var(--accent-rgb), 0.4);
-        transition: all 0.3s;
+        transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease, color 0.2s ease;
         &:hover { transform: translateY(-3px); box-shadow: 0 15px 30px -10px rgba(var(--accent-rgb), 0.6); }
     }
 }
@@ -506,7 +505,7 @@ h2 {
     font-weight: 500;
     color: var(--text-primary);
     text-decoration: none;
-    transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+    transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
     text-align: center;
     line-height: 1.2;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
@@ -546,7 +545,7 @@ h2 {
     z-index: 10000;
     cursor: pointer;
     box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.4);
-    transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: border-color 0.25s ease, box-shadow 0.25s ease, transform 0.25s ease;
     
     &:hover {
         transform: scale(1.15) rotate(15deg) translateY(-8px);
@@ -556,10 +555,7 @@ h2 {
 }
 
 // --- Animations ---
-@keyframes fadeInDown {
-  from { opacity: 0; transform: translateY(-50px); }
-  to { opacity: 1; transform: translateY(0); }
-}
+// Removed fadeInDown keyframes to prevent layout shift lag during page transitions
 
 // --- Scrollbar ---
 ::-webkit-scrollbar { width: 12px; }
@@ -634,7 +630,7 @@ h2 {
     background-color: var(--card-bg) !important;
     color: var(--text-primary) !important;
     border-bottom: 1px solid var(--card-border) !important;
-    transition: all 0.3s;
+    transition: background-color 0.15s ease, color 0.15s ease;
     
     &:hover {
       background-color: var(--hover-bg) !important;
@@ -675,7 +671,7 @@ h2 {
     font-size: 1.2rem;
     box-shadow: 0 10px 20px -5px rgba(var(--accent-rgb), 0.5);
     border: 2px solid var(--accent);
-    transition: all 0.3s;
+    transition: transform 0.2s ease, background-color 0.2s ease, color 0.2s ease;
     
     &:hover {
       transform: scale(1.15);
@@ -770,7 +766,7 @@ h2 {
   border-radius: 16px;
   background: var(--glass-inner);
   border: 1px solid var(--card-border);
-  transition: all 0.3s ease;
+  transition: border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
@@ -817,7 +813,7 @@ h2 {
     font-size: 0.85rem;
     font-weight: 500;
     color: var(--text-secondary);
-    transition: all 0.3s ease;
+    transition: border-color 0.2s ease, color 0.2s ease, background-color 0.2s ease, transform 0.2s ease;
     cursor: default;
     
     &:hover {
@@ -841,7 +837,6 @@ h2 {
   border: 1px solid var(--card-border);
   border-radius: 100px;
   @include premium-glass;
-  animation: fadeInDown 1.6s cubic-bezier(0.23, 1, 0.32, 1);
   z-index: 50;
   position: relative;
   
@@ -850,11 +845,12 @@ h2 {
     text-decoration: none;
     font-weight: 600;
     font-size: 1.05rem;
-    transition: all 0.3s ease;
+    transition: color 0.2s ease, transform 0.2s ease, text-shadow 0.2s ease;
     
-    &:hover {
+    &:hover, &.active {
       color: var(--accent);
       transform: translateY(-2px);
+      text-shadow: 0 0 10px rgba(var(--accent-rgb), 0.3);
     }
   }
   
@@ -889,7 +885,7 @@ h2 {
     align-items: center;
     outline: none;
     user-select: none;
-    transition: all 0.3s ease;
+    transition: background-color 0.2s ease, color 0.2s ease;
 
     &::-webkit-details-marker {
       display: none;
@@ -921,7 +917,6 @@ h2 {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
       gap: 2rem;
-      animation: fadeInDown 0.4s cubic-bezier(0.23, 1, 0.32, 1);
     }
   }
 }

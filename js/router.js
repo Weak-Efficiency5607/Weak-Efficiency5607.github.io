@@ -1,5 +1,6 @@
 
 document.addEventListener('DOMContentLoaded', () => {
+    injectNavigation();
     // Intercept clicks on links
     document.addEventListener('click', e => {
         const link = e.target.closest('a');
@@ -72,6 +73,9 @@ async function loadPage(url) {
             // Sync assets (Styles and Scripts)
             syncAssets(newDoc);
             
+            // Re-inject navigation to ensure layout/highlights sync
+            injectNavigation();
+            
             // Reset body state (in case navigating from fullscreen map)
             document.body.style.overflow = '';
             
@@ -141,4 +145,49 @@ function syncAssets(newDoc) {
         }
         document.body.appendChild(newScript);
     });
+}
+
+function injectNavigation() {
+    let nav = document.querySelector('.main-nav');
+    if (!nav) {
+        const header = document.querySelector('.site-header');
+        if (header) {
+            nav = document.createElement('nav');
+            nav.className = 'main-nav';
+            header.parentNode.insertBefore(nav, header.nextSibling);
+        } else {
+            const main = document.querySelector('main');
+            if (main) {
+                nav = document.createElement('nav');
+                nav.className = 'main-nav';
+                main.prepend(nav);
+            }
+        }
+    }
+    
+    if (!nav) return;
+    
+    let currentPath = window.location.pathname.split('/').pop();
+    if (!currentPath || currentPath === '') currentPath = 'index.html';
+
+    const isWiki = window.location.search.includes('md=') || currentPath.includes('alone-') || currentPath.includes('multiple-') || currentPath.includes('product-');
+    const isInWikiSubdir = window.location.pathname.includes('/wiki/');
+    const prefix = isInWikiSubdir ? '../' : '';
+    
+    const links = [
+        { href: 'index.html', text: 'Home' },
+        { href: 'actions.html', text: 'Encyclopedia', match: isWiki || currentPath === 'actions.html' },
+        { href: 'shops.html', text: 'Vendor Directory' },
+        { href: 'doctors.html', text: 'Map of doctors' },
+        { href: 'theory.html', text: 'List of causes' },
+        { href: 'success-stories.html', text: 'Success Stories' },
+        { href: 'glossary.html', text: 'Dictionary' }
+    ];
+
+    nav.innerHTML = links.map(link => {
+        const isActive = link.match !== undefined ? link.match : (currentPath === link.href);
+        const activeClass = isActive ? ' class="active"' : '';
+        const href = prefix + link.href;
+        return `<a href="${href}"${activeClass}>${link.text}</a>`;
+    }).join('');
 }
