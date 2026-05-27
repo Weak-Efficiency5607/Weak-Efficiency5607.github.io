@@ -42,7 +42,76 @@
                 </div>
             </div>
 
+            <div class="options-header" style="margin-top: 3rem;">
+                <h2>Visibility Preferences</h2>
+                <p>Customize the interface by hiding elements you don't need.</p>
+            </div>
 
+            <!-- Header Visibility -->
+            <div class="option-group">
+                <div class="option-info">
+                    <h3>Hide Header</h3>
+                    <p>Hide the main logo and subtitle at the top of the page.</p>
+                </div>
+                <div>
+                    <label class="switch" aria-label="Toggle Header Visibility">
+                        <input type="checkbox" id="headerToggleCheckbox">
+                        <span class="slider"></span>
+                    </label>
+                </div>
+            </div>
+
+            <!-- Footer Visibility -->
+            <div class="option-group">
+                <div class="option-info">
+                    <h3>Hide Footer</h3>
+                    <p>Hide the disclaimer, contact links, and copyright information at the bottom of the page.</p>
+                </div>
+                <div>
+                    <label class="switch" aria-label="Toggle Footer Visibility">
+                        <input type="checkbox" id="footerToggleCheckbox">
+                        <span class="slider"></span>
+                    </label>
+                </div>
+            </div>
+
+            <!-- Navigation Visibility -->
+            <div class="option-group">
+                <div class="option-info">
+                    <h3>Hide Navigation Items</h3>
+                    <p>Select which links you want to hide from the top navigation bar. (Note: The 'Options' link cannot be hidden to prevent getting locked out of settings).</p>
+                </div>
+                <div class="visibility-toggles" style="display: flex; flex-direction: column; gap: 1rem; min-width: 200px;">
+                    <label style="display: flex; justify-content: space-between; align-items: center; cursor: pointer;">
+                        <span>Home</span>
+                        <input type="checkbox" class="nav-toggle-checkbox" data-nav="index.html">
+                    </label>
+                    <label style="display: flex; justify-content: space-between; align-items: center; cursor: pointer;">
+                        <span>Encyclopedia</span>
+                        <input type="checkbox" class="nav-toggle-checkbox" data-nav="actions.html">
+                    </label>
+                    <label style="display: flex; justify-content: space-between; align-items: center; cursor: pointer;">
+                        <span>Vendor Directory</span>
+                        <input type="checkbox" class="nav-toggle-checkbox" data-nav="shops.html">
+                    </label>
+                    <label style="display: flex; justify-content: space-between; align-items: center; cursor: pointer;">
+                        <span>Map of doctors</span>
+                        <input type="checkbox" class="nav-toggle-checkbox" data-nav="doctors.html">
+                    </label>
+                    <label style="display: flex; justify-content: space-between; align-items: center; cursor: pointer;">
+                        <span>List of causes</span>
+                        <input type="checkbox" class="nav-toggle-checkbox" data-nav="theory.html">
+                    </label>
+                    <label style="display: flex; justify-content: space-between; align-items: center; cursor: pointer;">
+                        <span>Success Stories</span>
+                        <input type="checkbox" class="nav-toggle-checkbox" data-nav="success-stories.html">
+                    </label>
+                    <label style="display: flex; justify-content: space-between; align-items: center; cursor: pointer;">
+                        <span>Dictionary</span>
+                        <input type="checkbox" class="nav-toggle-checkbox" data-nav="glossary.html">
+                    </label>
+                </div>
+            </div>
 
         </section>
 

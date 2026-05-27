@@ -152,6 +152,14 @@ a {
 }
 
 // --- Header & Typography ---
+// Global UI Toggles
+html.hide-footer .site-footer {
+	display: none !important;
+}
+html.hide-header .site-header {
+	display: none !important;
+}
+
 .site-header {
 	text-align: center;
 	margin-bottom: 7rem;

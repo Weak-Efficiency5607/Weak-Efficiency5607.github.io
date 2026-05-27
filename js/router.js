@@ -174,6 +174,11 @@ function injectNavigation() {
     const isInWikiSubdir = window.location.pathname.includes('/wiki/');
     const prefix = isInWikiSubdir ? '../' : '';
     
+    let visSettings = {};
+    try {
+        visSettings = JSON.parse(localStorage.getItem('visibilitySettings')) || {};
+    } catch(e) {}
+
     const links = [
         { href: 'index.html', text: 'Home' },
         { href: 'actions.html', text: 'Encyclopedia', match: isWiki || currentPath === 'actions.html' },
@@ -183,7 +188,10 @@ function injectNavigation() {
         { href: 'success-stories.html', text: 'Success Stories' },
         { href: 'glossary.html', text: 'Dictionary' },
         { href: 'options.html', text: 'Options' }
-    ];
+    ].filter(link => {
+        if (link.href === 'options.html') return true;
+        return !visSettings.hiddenNavItems || !visSettings.hiddenNavItems.includes(link.href);
+    });
 
     nav.innerHTML = links.map(link => {
         const isActive = link.match !== undefined ? link.match : (currentPath === link.href);
