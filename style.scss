@@ -1146,3 +1146,91 @@ h2 {
 		}
 	}
 }
+
+// --- Address Search (Doctors Map) ---
+.address-search-container {
+	position: relative;
+	width: 100%;
+	max-width: 500px;
+	margin: 0;
+
+	#address-input {
+		width: 100%;
+		padding: 14px 20px;
+		font-family: var(--font-main);
+		font-size: 1rem;
+		color: var(--text-primary);
+		background: var(--card-bg);
+		border: 1px solid var(--card-border);
+		border-radius: 12px;
+		outline: none;
+		transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+		@include premium-glass;
+		box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+
+		&:focus {
+			border-color: var(--accent);
+			box-shadow: 0 0 0 4px rgba(var(--accent-rgb), 0.15), 0 4px 12px rgba(0, 0, 0, 0.1);
+			background: var(--bg-color);
+		}
+
+		&::placeholder {
+			color: var(--text-secondary);
+			opacity: 0.7;
+		}
+	}
+
+	.suggestions-list {
+		position: absolute;
+		top: calc(100% + 8px);
+		left: 0;
+		right: 0;
+		background: var(--card-bg);
+		border: 1px solid var(--card-border);
+		border-radius: 12px;
+		box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+		z-index: 1000;
+		max-height: 280px;
+		overflow-y: auto;
+		display: none;
+		@include premium-glass;
+
+		&::-webkit-scrollbar {
+			width: 6px;
+		}
+		&::-webkit-scrollbar-thumb {
+			background: var(--card-border);
+			border-radius: 4px;
+		}
+	}
+
+	.suggestion-item {
+		padding: 14px 20px;
+		border-bottom: 1px solid var(--card-border);
+		cursor: pointer;
+		transition: background 0.2s ease, padding-left 0.2s ease;
+		display: flex;
+		flex-direction: column;
+		gap: 4px;
+
+		&:last-child {
+			border-bottom: none;
+		}
+
+		&:hover {
+			background: var(--hover-bg);
+			padding-left: 24px;
+		}
+
+		strong {
+			font-size: 0.95rem;
+			color: var(--text-primary);
+			font-weight: 600;
+		}
+
+		small {
+			font-size: 0.85rem;
+			color: var(--text-secondary);
+		}
+	}
+}
