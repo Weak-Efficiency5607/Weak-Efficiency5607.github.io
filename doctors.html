@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,11 +8,15 @@
 	<link rel="stylesheet" href="style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&family=Space+Mono:wght@400;700&display=swap"
+		rel="stylesheet">
 	<!-- Leaflet CSS -->
-	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+		integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
 	<title>Map of doctors</title>
 </head>
+
 <body>
 	<main class="container full-height-container">
 		<header class="site-header compact-header">
@@ -22,40 +27,47 @@
 		<section class="card map-card">
 			<div class="map-header">
 				<h2>Find Doctors</h2>
-                <div class="address-search-container">
-                    <input type="text" id="address-input" placeholder="Search address..." autocomplete="off">
-                    <div id="address-suggestions" class="suggestions-list"></div>
-                </div>
+				<div class="address-search-container">
+					<input type="text" id="address-input" placeholder="Search address..." autocomplete="off">
+					<div id="address-suggestions" class="suggestions-list"></div>
+				</div>
 				<div class="map-actions">
 					<button id="find-me" class="action-btn">📍 Update Grid</button>
 					<button id="fullscreen-map" class="action-btn secondary-btn">🔲 Fullscreen</button>
-                    <span id="status-msg" class="status-msg">Zoom in to load doctors...</span>
+					<span id="status-msg" class="status-msg">Zoom in to load doctors...</span>
 				</div>
 			</div>
 			<div id="map"></div>
 		</section>
 
 		<footer class="site-footer">
-    <div class="footer-content">
-        <p class="disclaimer">
-            <strong>Disclaimer:</strong> The information provided on this site is for educational and research purposes only. It is not intended as a substitute for professional medical advice, diagnosis, or treatment.
-        </p>
-        <div class="footer-links">
-            <span>Contact: <a href="mailto:pakoskiv@gmail.com">pakoskiv@gmail.com</a> | Discord (pakoskiv)</span>
-            <span>Author: <a href="https://www.reddit.com/user/Alternative-Gur9717/">Reddit (Current)</a> | <a href="https://www.reddit.com/user/Weak-Efficiency5607/comments/1grfkuv/myself/">Reddit (Old)</a></span>
-        </div>
-        <p class="copyright">
-            © 2026 Anhedonia Resource Hub. Open-source research.
-        </p>
-    </div>
-</footer>
+			<div class="footer-content">
+				<p class="disclaimer">
+					<strong>Disclaimer:</strong> The information provided on this site is for educational and research
+					purposes only. It is not intended as a substitute for professional medical advice, diagnosis, or
+					treatment.
+				</p>
+				<div class="footer-links">
+					<span>Contact: <a href="mailto:pakoskiv@gmail.com">pakoskiv@gmail.com</a> | Discord
+						(pakoskiv)</span>
+					<span>Author: <a href="https://www.reddit.com/user/Alternative-Gur9717/">Reddit (Current)</a> | <a
+							href="https://www.reddit.com/user/Weak-Efficiency5607/comments/1grfkuv/myself/">Reddit
+							(Old)</a></span>
+				</div>
+				<p class="copyright">
+					© 2026 Anhedonia Resource Hub. Open-source research.
+				</p>
+			</div>
+		</footer>
 	</main>
 
 	<!-- Leaflet JS -->
-	<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-	    <script src="js/theme.js"></script>
-    <script src="doctors.js"></script>
+	<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+		integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+	<script src="js/theme.js"></script>
+	<script src="doctors.js"></script>
 
 	<script src="js/router.js"></script>
 </body>
+
 </html>

@@ -1,64 +1,75 @@
 <!DOCTYPE html>
 
 <html lang="en">
+
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1" name="viewport"/>
-<link href="https://cdn-icons-png.flaticon.com/512/4021/4021693.png" rel="icon"/>
-<link href="style.css" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com" rel="preconnect"/>
-<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&amp;family=Space+Mono:wght@400;700&amp;display=swap" rel="stylesheet"/>
-<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-<title>Encyclopedia</title>
+	<meta charset="utf-8" />
+	<meta content="width=device-width, initial-scale=1" name="viewport" />
+	<link href="https://cdn-icons-png.flaticon.com/512/4021/4021693.png" rel="icon" />
+	<link href="style.css" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com" rel="preconnect" />
+	<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+	<link
+		href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&amp;family=Space+Mono:wght@400;700&amp;display=swap"
+		rel="stylesheet" />
+	<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+	<title>Encyclopedia</title>
 </head>
+
 <body>
-<main class="container">
-<header class="site-header">
-<h1 class="logo"><a href="index.html">Anhedonia Resource Hub</a></h1>
-<p class="subtitle">Encyclopedia</p>
-</header>
-<section class="card allow-overflow">
-<div class="search-container">
-    <input type="text" id="wiki-search" placeholder="Search wiki items..." autocomplete="off">
-    <div id="search-results" class="search-results"></div>
-</div>
-    <h2>Wiki Categories <span id="total-items-count" style="font-size: 0.9rem; color: var(--text-secondary); font-weight: 300; margin-left: 10px;"></span></h2>
+	<main class="container">
+		<header class="site-header">
+			<h1 class="logo"><a href="index.html">Anhedonia Resource Hub</a></h1>
+			<p class="subtitle">Encyclopedia</p>
+		</header>
+		<section class="card allow-overflow">
+			<div class="search-container">
+				<input type="text" id="wiki-search" placeholder="Search wiki items..." autocomplete="off">
+				<div id="search-results" class="search-results"></div>
+			</div>
+			<h2>Wiki Categories <span id="total-items-count"
+					style="font-size: 0.9rem; color: var(--text-secondary); font-weight: 300; margin-left: 10px;"></span>
+			</h2>
 
-    
-    <section class="category-group">
-        <h3 class="category-header">Alone</h3>
-        <div class="items-grid" id="grid-alone"></div>
-    </section>
+			<section class="category-group">
+				<h3 class="category-header">Alone</h3>
+				<div class="items-grid" id="grid-alone"></div>
+			</section>
 
-    <section class="category-group">
-        <h3 class="category-header">Multiple</h3>
-        <div class="items-grid" id="grid-multiple"></div>
-    </section>
+			<section class="category-group">
+				<h3 class="category-header">Multiple</h3>
+				<div class="items-grid" id="grid-multiple"></div>
+			</section>
 
-    <section class="category-group">
-        <h3 class="category-header">Products</h3>
-        <div class="items-grid" id="grid-products"></div>
-    </section>
+			<section class="category-group">
+				<h3 class="category-header">Products</h3>
+				<div class="items-grid" id="grid-products"></div>
+			</section>
 
-</section>
-<footer class="site-footer">
-    <div class="footer-content">
-        <p class="disclaimer">
-            <strong>Disclaimer:</strong> The information provided on this site is for educational and research purposes only. It is not intended as a substitute for professional medical advice, diagnosis, or treatment.
-        </p>
-        <div class="footer-links">
-            <span>Contact: <a href="mailto:pakoskiv@gmail.com">pakoskiv@gmail.com</a> | Discord (pakoskiv)</span>
-            <span>Author: <a href="https://www.reddit.com/user/Alternative-Gur9717/">Reddit (Current)</a> | <a href="https://www.reddit.com/user/Weak-Efficiency5607/comments/1grfkuv/myself/">Reddit (Old)</a></span>
-        </div>
-        <p class="copyright">
-            © 2026 Anhedonia Resource Hub. Open-source research.
-        </p>
-    </div>
-</footer>
-</main>
-    <script src="js/theme.js"></script>
-    <script src="js/actions.js"></script>
-<script src="js/router.js"></script>
+		</section>
+		<footer class="site-footer">
+			<div class="footer-content">
+				<p class="disclaimer">
+					<strong>Disclaimer:</strong> The information provided on this site is for educational and research
+					purposes only. It is not intended as a substitute for professional medical advice, diagnosis, or
+					treatment.
+				</p>
+				<div class="footer-links">
+					<span>Contact: <a href="mailto:pakoskiv@gmail.com">pakoskiv@gmail.com</a> | Discord
+						(pakoskiv)</span>
+					<span>Author: <a href="https://www.reddit.com/user/Alternative-Gur9717/">Reddit (Current)</a> | <a
+							href="https://www.reddit.com/user/Weak-Efficiency5607/comments/1grfkuv/myself/">Reddit
+							(Old)</a></span>
+				</div>
+				<p class="copyright">
+					© 2026 Anhedonia Resource Hub. Open-source research.
+				</p>
+			</div>
+		</footer>
+	</main>
+	<script src="js/theme.js"></script>
+	<script src="js/actions.js"></script>
+	<script src="js/router.js"></script>
 </body>
+
 </html>

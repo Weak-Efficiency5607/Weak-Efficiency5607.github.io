@@ -1,296 +1,296 @@
 
-(function() {
-    function init() {
-        // Ensure Leaflet is loaded
-        if (typeof L === 'undefined') {
-            setTimeout(init, 100);
-            return;
-        }
+(function () {
+	function init() {
+		// Ensure Leaflet is loaded
+		if (typeof L === 'undefined') {
+			setTimeout(init, 100);
+			return;
+		}
 
-        const mapContainer = document.getElementById('map');
-        if (!mapContainer) return;
+		const mapContainer = document.getElementById('map');
+		if (!mapContainer) return;
 
-        // Initialize map
-        const map = L.map('map').setView([48.8566, 2.3522], 13); // Default to Paris
+		// Initialize map
+		const map = L.map('map').setView([48.8566, 2.3522], 13); // Default to Paris
 
-        // Fix for Leaflet initialization issues with dynamic loading
-        setTimeout(() => {
-            map.invalidateSize();
-        }, 400);
+		// Fix for Leaflet initialization issues with dynamic loading
+		setTimeout(() => {
+			map.invalidateSize();
+		}, 400);
 
-        // Tile layers
-        const darkTiles = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
-            subdomains: 'abcd',
-            maxZoom: 20
-        });
+		// Tile layers
+		const darkTiles = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+			attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+			subdomains: 'abcd',
+			maxZoom: 20
+		});
 
-        const lightTiles = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-            maxZoom: 19
-        });
+		const lightTiles = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+			attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+			maxZoom: 19
+		});
 
-        // Global Theme Integration
-        function syncMapTheme(theme) {
-            if (theme === 'dark') {
-                if (map.hasLayer(lightTiles)) map.removeLayer(lightTiles);
-                darkTiles.addTo(map);
-            } else {
-                if (map.hasLayer(darkTiles)) map.removeLayer(darkTiles);
-                lightTiles.addTo(map);
-            }
-        }
+		// Global Theme Integration
+		function syncMapTheme(theme) {
+			if (theme === 'dark') {
+				if (map.hasLayer(lightTiles)) map.removeLayer(lightTiles);
+				darkTiles.addTo(map);
+			} else {
+				if (map.hasLayer(darkTiles)) map.removeLayer(darkTiles);
+				lightTiles.addTo(map);
+			}
+		}
 
-        // Initial theme sync
-        syncMapTheme(localStorage.getItem('theme') || 'light');
+		// Initial theme sync
+		syncMapTheme(localStorage.getItem('theme') || 'light');
 
-        // Listen for theme changes from the global toggle
-        document.addEventListener('theme:changed', (e) => {
-            syncMapTheme(e.detail.theme);
-        });
+		// Listen for theme changes from the global toggle
+		document.addEventListener('theme:changed', (e) => {
+			syncMapTheme(e.detail.theme);
+		});
 
-        // Custom icon for doctors
-        const doctorIcon = L.divIcon({
-            className: 'custom-pin prominent-pin',
-            html: '<div class="pin-inner pulse">⚕️</div>',
-            iconSize: [40, 40],
-            iconAnchor: [20, 40],
-            popupAnchor: [0, -40]
-        });
+		// Custom icon for doctors
+		const doctorIcon = L.divIcon({
+			className: 'custom-pin prominent-pin',
+			html: '<div class="pin-inner pulse">⚕️</div>',
+			iconSize: [40, 40],
+			iconAnchor: [20, 40],
+			popupAnchor: [0, -40]
+		});
 
-        // Group to hold markers
-        let markersLayer = L.layerGroup().addTo(map);
+		// Group to hold markers
+		let markersLayer = L.layerGroup().addTo(map);
 
-        // Add custom legend control
-        const legend = L.control({position: 'bottomright'});
-        legend.onAdd = function (map) {
-            const div = L.DomUtil.create('div', 'info legend');
-            div.innerHTML = `
-                <h4>Map Legend</h4>
-                <div class="legend-item"><span class="legend-pin">⚕️</span> Doctors (Highlighted)</div>
-            `;
-            return div;
-        };
-        legend.addTo(map);
-        let loading = false;
+		// Add custom legend control
+		const legend = L.control({ position: 'bottomright' });
+		legend.onAdd = function (map) {
+			const div = L.DomUtil.create('div', 'info legend');
+			div.innerHTML = `
+				<h4>Map Legend</h4>
+				<div class="legend-item"><span class="legend-pin">⚕️</span> Doctors (Highlighted)</div>
+			`;
+			return div;
+		};
+		legend.addTo(map);
+		let loading = false;
 
-        // Function to fetch doctors from Overpass API
-        async function fetchDoctors() {
-            if (map.getZoom() < 12) {
-                updateStatus('Zoom in closer to find doctors', 'warning');
-                return;
-            }
-            
-            if (loading) return;
-            loading = true;
-            updateStatus('Searching...', 'loading');
+		// Function to fetch doctors from Overpass API
+		async function fetchDoctors() {
+			if (map.getZoom() < 12) {
+				updateStatus('Zoom in closer to find doctors', 'warning');
+				return;
+			}
 
-            const bounds = map.getBounds();
-            const south = bounds.getSouth();
-            const west = bounds.getWest();
-            const north = bounds.getNorth();
-            const east = bounds.getEast();
+			if (loading) return;
+			loading = true;
+			updateStatus('Searching...', 'loading');
 
-            const query = `
-                [out:json][timeout:25];
-                (
-                    node["amenity"="doctors"](${south},${west},${north},${east});
-                    node["healthcare"="doctor"](${south},${west},${north},${east});
-                    node["office"="physician"](${south},${west},${north},${east});
-                );
-                out body;
-                >;
-                out skel qt;
-            `;
+			const bounds = map.getBounds();
+			const south = bounds.getSouth();
+			const west = bounds.getWest();
+			const north = bounds.getNorth();
+			const east = bounds.getEast();
 
-            const url = `https://overpass-api.de/api/interpreter?data=${encodeURIComponent(query)}`;
+			const query = `
+				[out:json][timeout:25];
+				(
+					node["amenity"="doctors"](${south},${west},${north},${east});
+					node["healthcare"="doctor"](${south},${west},${north},${east});
+					node["office"="physician"](${south},${west},${north},${east});
+				);
+				out body;
+				>;
+				out skel qt;
+			`;
 
-            try {
-                const response = await fetch(url);
-                const data = await response.json();
-                
-                markersLayer.clearLayers();
+			const url = `https://overpass-api.de/api/interpreter?data=${encodeURIComponent(query)}`;
 
-                if (data.elements && data.elements.length > 0) {
-                    data.elements.forEach(element => {
-                        if (element.lat && element.lon) {
-                            const name = element.tags.name || "Unknown Doctor";
-                            const specialty = element.tags["healthcare:specialty"] || element.tags.specialty || "General Practice";
-                            
-                            L.marker([element.lat, element.lon], {icon: doctorIcon})
-                                .bindPopup(`
-                                    <div class="popup-content">
-                                        <strong>${name}</strong><br>
-                                        <span class="specialty">${specialty}</span>
-                                    </div>
-                                `)
-                                .addTo(markersLayer);
-                        }
-                    });
-                    updateStatus(`Found ${data.elements.length} doctors`, 'success');
-                } else {
-                    updateStatus('No doctors found in this area', 'info');
-                }
-            } catch (error) {
-                console.error('Error fetching data:', error);
-                updateStatus('Error fetching data', 'error');
-            } finally {
-                loading = false;
-            }
-        }
+			try {
+				const response = await fetch(url);
+				const data = await response.json();
 
-        function updateStatus(message, type) {
-            const statusEl = document.getElementById('status-msg');
-            if (statusEl) {
-                statusEl.textContent = message;
-                statusEl.className = 'status-msg ' + type;
-            }
-        }
+				markersLayer.clearLayers();
 
-        // Event listeners
+				if (data.elements && data.elements.length > 0) {
+					data.elements.forEach(element => {
+						if (element.lat && element.lon) {
+							const name = element.tags.name || "Unknown Doctor";
+							const specialty = element.tags["healthcare:specialty"] || element.tags.specialty || "General Practice";
 
-        const fullscreenBtn = document.getElementById('fullscreen-map');
-        if (fullscreenBtn) {
-            fullscreenBtn.addEventListener('click', () => {
-                const mapCard = document.querySelector('.map-card');
-                mapCard.classList.toggle('fullscreen-mode');
-                
-                if (mapCard.classList.contains('fullscreen-mode')) {
-                    fullscreenBtn.innerHTML = '<span>❌</span> Exit Fullscreen';
-                    document.body.style.overflow = 'hidden'; // Prevent scrolling
-                } else {
-                    fullscreenBtn.innerHTML = '<span>🔲</span> Fullscreen';
-                    document.body.style.overflow = '';
-                }
-                
-                // Leaflet needs to know the size changed
-                setTimeout(() => {
-                    map.invalidateSize();
-                }, 300);
-            });
-        }
+							L.marker([element.lat, element.lon], { icon: doctorIcon })
+								.bindPopup(`
+									<div class="popup-content">
+										<strong>${name}</strong><br>
+										<span class="specialty">${specialty}</span>
+									</div>
+								`)
+								.addTo(markersLayer);
+						}
+					});
+					updateStatus(`Found ${data.elements.length} doctors`, 'success');
+				} else {
+					updateStatus('No doctors found in this area', 'info');
+				}
+			} catch (error) {
+				console.error('Error fetching data:', error);
+				updateStatus('Error fetching data', 'error');
+			} finally {
+				loading = false;
+			}
+		}
 
-        const findMeBtn = document.getElementById('find-me');
-        if (findMeBtn) {
-            findMeBtn.addEventListener('click', () => {
-                if (navigator.geolocation) {
-                    navigator.geolocation.getCurrentPosition(position => {
-                        map.setView([position.coords.latitude, position.coords.longitude], 14);
-                        setTimeout(fetchDoctors, 1000); 
-                    }, () => {
-                        fetchDoctors();
-                    });
-                } else {
-                    fetchDoctors();
-                }
-            });
-        }
+		function updateStatus(message, type) {
+			const statusEl = document.getElementById('status-msg');
+			if (statusEl) {
+				statusEl.textContent = message;
+				statusEl.className = 'status-msg ' + type;
+			}
+		}
 
-        map.on('moveend', () => {
-            if (map.getZoom() >= 14) {
-                fetchDoctors();
-            }
-        });
+		// Event listeners
 
-        if (map.getZoom() >= 14) fetchDoctors();
+		const fullscreenBtn = document.getElementById('fullscreen-map');
+		if (fullscreenBtn) {
+			fullscreenBtn.addEventListener('click', () => {
+				const mapCard = document.querySelector('.map-card');
+				mapCard.classList.toggle('fullscreen-mode');
 
-        // Address Search Logic
-        const addressInput = document.getElementById('address-input');
-        const suggestionsList = document.getElementById('address-suggestions');
-        let searchTimeout;
+				if (mapCard.classList.contains('fullscreen-mode')) {
+					fullscreenBtn.innerHTML = '<span>❌</span> Exit Fullscreen';
+					document.body.style.overflow = 'hidden'; // Prevent scrolling
+				} else {
+					fullscreenBtn.innerHTML = '<span>🔲</span> Fullscreen';
+					document.body.style.overflow = '';
+				}
 
-        if (addressInput && suggestionsList) {
-            const inputHandler = () => {
-                clearTimeout(searchTimeout);
-                const query = addressInput.value.trim();
-                
-                if (query.length < 3) {
-                    suggestionsList.style.display = 'none';
-                    return;
-                }
+				// Leaflet needs to know the size changed
+				setTimeout(() => {
+					map.invalidateSize();
+				}, 300);
+			});
+		}
 
-                searchTimeout = setTimeout(async () => {
-                    try {
-                        const response = await fetch(`https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(query)}&limit=5`);
-                        const data = await response.json();
-                        displaySuggestions(data);
-                    } catch (error) {
-                        console.error('Error fetching suggestions:', error);
-                    }
-                }, 500);
-            };
-            addressInput.addEventListener('input', inputHandler);
+		const findMeBtn = document.getElementById('find-me');
+		if (findMeBtn) {
+			findMeBtn.addEventListener('click', () => {
+				if (navigator.geolocation) {
+					navigator.geolocation.getCurrentPosition(position => {
+						map.setView([position.coords.latitude, position.coords.longitude], 14);
+						setTimeout(fetchDoctors, 1000);
+					}, () => {
+						fetchDoctors();
+					});
+				} else {
+					fetchDoctors();
+				}
+			});
+		}
 
-            function displaySuggestions(suggestions) {
-                if (suggestions.length === 0) {
-                    suggestionsList.style.display = 'none';
-                    return;
-                }
+		map.on('moveend', () => {
+			if (map.getZoom() >= 14) {
+				fetchDoctors();
+			}
+		});
 
-                suggestionsList.innerHTML = suggestions.map(item => `
-                    <div class="suggestion-item" data-lat="${item.lat}" data-lon="${item.lon}">
-                        <strong>${item.display_name.split(',')[0]}</strong>
-                        <small>${item.display_name.split(',').slice(1).join(',')}</small>
-                    </div>
-                `).join('');
-                
-                suggestionsList.style.display = 'block';
+		if (map.getZoom() >= 14) fetchDoctors();
 
-                document.querySelectorAll('.suggestion-item').forEach(item => {
-                    item.addEventListener('click', () => {
-                        const lat = item.getAttribute('data-lat');
-                        const lon = item.getAttribute('data-lon');
-                        const name = item.querySelector('strong').textContent;
-                        selectAddress(lat, lon, name);
-                    });
-                });
-            }
+		// Address Search Logic
+		const addressInput = document.getElementById('address-input');
+		const suggestionsList = document.getElementById('address-suggestions');
+		let searchTimeout;
 
-            function selectAddress(lat, lon, name) {
-                addressInput.value = name;
-                suggestionsList.style.display = 'none';
-                const coords = [parseFloat(lat), parseFloat(lon)];
-                map.setView(coords, 14);
-                setTimeout(fetchDoctors, 500);
-            }
+		if (addressInput && suggestionsList) {
+			const inputHandler = () => {
+				clearTimeout(searchTimeout);
+				const query = addressInput.value.trim();
 
-            const keydownHandler = async (e) => {
-                if (e.key === 'Enter') {
-                    const query = addressInput.value.trim();
-                    if (query.length === 0) return;
-                    
-                    try {
-                        const response = await fetch(`https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(query)}&limit=1`);
-                        const data = await response.json();
-                        if (data && data.length > 0) {
-                            selectAddress(data[0].lat, data[0].lon, data[0].display_name.split(',')[0]);
-                        }
-                    } catch (error) {
-                        console.error('Error searching address:', error);
-                    }
-                }
-            };
-            addressInput.addEventListener('keydown', keydownHandler);
+				if (query.length < 3) {
+					suggestionsList.style.display = 'none';
+					return;
+				}
 
-            const clickHandler = (e) => {
-                const innerInput = document.getElementById('address-input');
-                const innerList = document.getElementById('address-suggestions');
-                if (innerInput && innerList && !innerInput.contains(e.target) && !innerList.contains(e.target)) {
-                    innerList.style.display = 'none';
-                }
-            };
+				searchTimeout = setTimeout(async () => {
+					try {
+						const response = await fetch(`https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(query)}&limit=5`);
+						const data = await response.json();
+						displaySuggestions(data);
+					} catch (error) {
+						console.error('Error fetching suggestions:', error);
+					}
+				}, 500);
+			};
+			addressInput.addEventListener('input', inputHandler);
 
-            if (window.doctorsPageClickHandler) {
-                document.removeEventListener('click', window.doctorsPageClickHandler);
-            }
-            window.doctorsPageClickHandler = clickHandler;
-            document.addEventListener('click', clickHandler);
-        }
-    }
+			function displaySuggestions(suggestions) {
+				if (suggestions.length === 0) {
+					suggestionsList.style.display = 'none';
+					return;
+				}
 
-    if (document.readyState === 'complete' || document.readyState === 'interactive') {
-        init();
-    } else {
-        document.addEventListener('DOMContentLoaded', init);
-    }
+				suggestionsList.innerHTML = suggestions.map(item => `
+					<div class="suggestion-item" data-lat="${item.lat}" data-lon="${item.lon}">
+						<strong>${item.display_name.split(',')[0]}</strong>
+						<small>${item.display_name.split(',').slice(1).join(',')}</small>
+					</div>
+				`).join('');
+
+				suggestionsList.style.display = 'block';
+
+				document.querySelectorAll('.suggestion-item').forEach(item => {
+					item.addEventListener('click', () => {
+						const lat = item.getAttribute('data-lat');
+						const lon = item.getAttribute('data-lon');
+						const name = item.querySelector('strong').textContent;
+						selectAddress(lat, lon, name);
+					});
+				});
+			}
+
+			function selectAddress(lat, lon, name) {
+				addressInput.value = name;
+				suggestionsList.style.display = 'none';
+				const coords = [parseFloat(lat), parseFloat(lon)];
+				map.setView(coords, 14);
+				setTimeout(fetchDoctors, 500);
+			}
+
+			const keydownHandler = async (e) => {
+				if (e.key === 'Enter') {
+					const query = addressInput.value.trim();
+					if (query.length === 0) return;
+
+					try {
+						const response = await fetch(`https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(query)}&limit=1`);
+						const data = await response.json();
+						if (data && data.length > 0) {
+							selectAddress(data[0].lat, data[0].lon, data[0].display_name.split(',')[0]);
+						}
+					} catch (error) {
+						console.error('Error searching address:', error);
+					}
+				}
+			};
+			addressInput.addEventListener('keydown', keydownHandler);
+
+			const clickHandler = (e) => {
+				const innerInput = document.getElementById('address-input');
+				const innerList = document.getElementById('address-suggestions');
+				if (innerInput && innerList && !innerInput.contains(e.target) && !innerList.contains(e.target)) {
+					innerList.style.display = 'none';
+				}
+			};
+
+			if (window.doctorsPageClickHandler) {
+				document.removeEventListener('click', window.doctorsPageClickHandler);
+			}
+			window.doctorsPageClickHandler = clickHandler;
+			document.addEventListener('click', clickHandler);
+		}
+	}
+
+	if (document.readyState === 'complete' || document.readyState === 'interactive') {
+		init();
+	} else {
+		document.addEventListener('DOMContentLoaded', init);
+	}
 })();
