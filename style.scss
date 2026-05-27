@@ -620,29 +620,7 @@ h2 {
 	}
 }
 
-.theme-toggle-fixed {
-	position: fixed;
-	bottom: 3.5rem;
-	right: 3.5rem;
-	width: 64px;
-	height: 64px;
-	border-radius: 22px;
-	background: var(--card-bg);
-	border: 1px solid var(--card-border);
-	@include premium-glass;
-	@include flex-center;
-	font-size: 2rem;
-	z-index: 10000;
-	cursor: pointer;
-	box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.4);
-	transition: border-color 0.25s ease, box-shadow 0.25s ease, transform 0.25s ease;
 
-	&:hover {
-		transform: scale(1.15) rotate(15deg) translateY(-8px);
-		border-color: var(--accent);
-		box-shadow: 0 35px 70px -15px rgba(0, 0, 0, 0.5);
-	}
-}
 
 // --- Animations ---
 // Removed fadeInDown keyframes to prevent layout shift lag during page transitions

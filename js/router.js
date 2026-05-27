@@ -181,7 +181,8 @@ function injectNavigation() {
         { href: 'doctors.html', text: 'Map of doctors' },
         { href: 'theory.html', text: 'List of causes' },
         { href: 'success-stories.html', text: 'Success Stories' },
-        { href: 'glossary.html', text: 'Dictionary' }
+        { href: 'glossary.html', text: 'Dictionary' },
+        { href: 'options.html', text: 'Options' }
     ];
 
     nav.innerHTML = links.map(link => {
