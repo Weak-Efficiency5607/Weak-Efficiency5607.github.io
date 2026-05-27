@@ -9,7 +9,7 @@ function initOptionsPage() {
     if (!toggleCheckbox) return;
 
     // Set initial state
-    const isDark = document.body.classList.contains('dark-mode');
+    const isDark = document.documentElement.classList.contains('dark-mode');
     toggleCheckbox.checked = isDark;
     updateLabels(isDark);
 

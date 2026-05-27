@@ -67,7 +67,7 @@ $glass-border: rgba(255, 255, 255, 0.1);
 	--glass-inner: rgba(255, 255, 255, 0.4);
 }
 
-body.dark-mode {
+html.dark-mode {
 	--bg-color: #0b0f19;
 	--text-primary: #f1f5f9;
 	--text-secondary: #94a3b8;
@@ -503,14 +503,30 @@ h2 {
 	@include card-base;
 	padding: 3rem 2rem;
 	text-align: center;
+	text-decoration: none;
+	color: var(--text-primary);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	&:hover {
+		transform: translateY(-5px);
+		border-color: var(--accent);
+		box-shadow: 0 15px 30px -10px rgba(var(--accent-rgb), 0.3);
+		
+		.visit-btn {
+			transform: translateY(-3px);
+			box-shadow: 0 15px 30px -10px rgba(var(--accent-rgb), 0.6);
+		}
+	}
 
 	.shop-icon {
 		width: 72px;
 		height: 72px;
-		margin-bottom: 2rem;
+		margin-bottom: 1.5rem;
 		border-radius: 22px;
 		background: linear-gradient(135deg, rgba(var(--accent-rgb), 0.2), transparent);
-		padding: 1 selective;
+		padding: 10px;
 		@include flex-center;
 
 		img {
@@ -518,6 +534,20 @@ h2 {
 			height: 100%;
 			object-fit: contain;
 		}
+	}
+
+	.shop-name {
+		font-size: 1.25rem;
+		font-weight: 700;
+		color: var(--text-primary);
+		margin-bottom: 0.5rem;
+	}
+
+	.shop-domain {
+		font-family: var(--font-mono);
+		font-size: 0.85rem;
+		color: var(--text-secondary);
+		margin-bottom: auto;
 	}
 
 	.visit-btn {
@@ -1032,5 +1062,64 @@ h2 {
 		white-space: pre-wrap;
 		word-break: break-all;
 		border: 1px solid var(--card-border);
+	}
+}
+
+// --- Success Stories ---
+.story-card {
+	@include card-base;
+	padding: 2.5rem;
+	background: var(--glass-inner);
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+
+	.story-header {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		.story-icon {
+			font-size: 2rem;
+		}
+	}
+
+	.story-title {
+		font-size: 1.25rem;
+		line-height: 1.4;
+		font-weight: 600;
+		color: var(--text-primary);
+		margin: 0;
+	}
+
+	.story-link {
+		margin-top: auto;
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		padding: 1rem 1.5rem;
+		border-radius: 12px;
+		background: rgba(var(--accent-rgb), 0.1);
+		color: var(--accent);
+		font-weight: 600;
+		text-decoration: none;
+		transition: background-color 0.2s ease, transform 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+
+		&::after {
+			content: '→';
+			margin-left: 0.5rem;
+			transition: transform 0.2s ease;
+		}
+
+		&:hover {
+			background: var(--accent);
+			color: #fff;
+			transform: translateY(-2px);
+			box-shadow: 0 10px 20px -5px rgba(var(--accent-rgb), 0.4);
+
+			&::after {
+				transform: translateX(4px);
+			}
+		}
 	}
 }
