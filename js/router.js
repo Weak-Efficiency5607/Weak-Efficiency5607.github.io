@@ -1,6 +1,7 @@
 
 document.addEventListener('DOMContentLoaded', () => {
     injectNavigation();
+    injectFooter();
     // Intercept clicks on links
     document.addEventListener('click', e => {
         const link = e.target.closest('a');
@@ -75,6 +76,7 @@ async function loadPage(url) {
             
             // Re-inject navigation to ensure layout/highlights sync
             injectNavigation();
+            injectFooter();
             
             // Reset body state (in case navigating from fullscreen map)
             document.body.style.overflow = '';
@@ -182,6 +184,9 @@ function injectNavigation() {
     const links = [
         { href: 'index.html', text: 'Home' },
         { href: 'actions.html', text: 'Encyclopedia', match: isWiki || currentPath === 'actions.html' },
+        { href: 'treatments.html', text: 'Treatments' },
+        { href: 'tests.html', text: 'Tests' },
+        { href: 'suggester.html', text: 'Suggester' },
         { href: 'shops.html', text: 'Vendor Directory' },
         { href: 'doctors.html', text: 'Map of doctors' },
         { href: 'theory.html', text: 'List of causes' },
@@ -199,4 +204,37 @@ function injectNavigation() {
         const href = prefix + link.href;
         return `<a href="${href}"${activeClass}>${link.text}</a>`;
     }).join('');
+}
+
+function injectFooter() {
+    let footer = document.querySelector('.site-footer');
+    if (footer) return; // Already exists
+
+    const main = document.querySelector('main.container');
+    if (!main) return;
+
+    footer = document.createElement('footer');
+    footer.className = 'site-footer';
+    
+    footer.innerHTML = `
+        <div class="footer-content">
+            <p class="disclaimer">
+                <strong>Disclaimer:</strong> The information provided on this site is for educational and research
+                purposes only. It is not intended as a substitute for professional medical advice, diagnosis, or
+                treatment.
+            </p>
+            <div class="footer-links">
+                <span>Contact: <a href="mailto:pakoskiv@gmail.com">pakoskiv@gmail.com</a> | Discord
+                    (pakoskiv)</span>
+                <span>Author: <a href="https://www.reddit.com/user/Alternative-Gur9717/">Reddit (Current)</a> | <a
+                        href="https://www.reddit.com/user/Weak-Efficiency5607/comments/1grfkuv/myself/">Reddit
+                        (Old)</a></span>
+            </div>
+            <p class="copyright">
+                © 2026 Anhedonia Resource Hub. Open-source research.
+            </p>
+        </div>
+    `;
+    
+    main.appendChild(footer);
 }
