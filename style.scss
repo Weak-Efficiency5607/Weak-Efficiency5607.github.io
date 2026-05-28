@@ -156,6 +156,7 @@ a {
 html.hide-footer .site-footer {
 	display: none !important;
 }
+
 html.hide-header .site-header {
 	display: none !important;
 }
@@ -536,7 +537,7 @@ h2 {
 		transform: translateY(-5px);
 		border-color: var(--accent);
 		box-shadow: 0 15px 30px -10px rgba(var(--accent-rgb), 0.3);
-		
+
 		.visit-btn {
 			transform: translateY(-3px);
 			box-shadow: 0 15px 30px -10px rgba(var(--accent-rgb), 0.6);
@@ -1198,6 +1199,7 @@ h2 {
 		&::-webkit-scrollbar {
 			width: 6px;
 		}
+
 		&::-webkit-scrollbar-thumb {
 			background: var(--card-border);
 			border-radius: 4px;
