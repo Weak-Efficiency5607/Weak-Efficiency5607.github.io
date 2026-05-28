@@ -962,10 +962,13 @@ h2 {
 // --- Navigation Bar ---
 .main-nav {
 	display: flex;
-	justify-content: center;
+	justify-content: flex-start;
 	gap: 2rem;
-	flex-wrap: wrap;
-	margin-bottom: 3rem;
+	flex-wrap: nowrap;
+	overflow-x: auto;
+	margin: 0 auto 3rem auto;
+	max-width: 100%;
+	width: fit-content;
 	padding: 1rem 2rem;
 	background: var(--card-bg);
 	border: 1px solid var(--card-border);
@@ -973,6 +976,12 @@ h2 {
 	@include premium-glass;
 	z-index: 50;
 	position: relative;
+	scrollbar-width: none; /* Firefox */
+	-ms-overflow-style: none; /* IE and Edge */
+	
+	&::-webkit-scrollbar {
+		display: none;
+	}
 
 	a {
 		color: var(--text-primary);
@@ -980,6 +989,7 @@ h2 {
 		font-weight: 600;
 		font-size: 1.05rem;
 		transition: color 0.2s ease, transform 0.2s ease, text-shadow 0.2s ease;
+		flex-shrink: 0;
 
 		&:hover,
 		&.active {
