@@ -1175,4 +1175,146 @@ h2::after {
   color: var(--text-secondary);
 }
 
+.controls-section {
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 20px;
+  padding: 1.5rem 2rem;
+  margin-bottom: 3rem;
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.1);
+}
+
+.controls-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+.controls-top .stories-count {
+  font-family: var(--font-mono);
+  font-weight: 700;
+  color: var(--accent);
+  font-size: 1.1rem;
+  white-space: nowrap;
+}
+.controls-top .stories-search {
+  flex: 1;
+  min-width: 250px;
+  margin-bottom: 0;
+}
+.controls-top .stories-search::before {
+  top: 50%;
+  font-size: 1.2rem;
+  left: 1.5rem;
+}
+.controls-top .stories-search input {
+  padding: 1rem 1.5rem 1rem 3.5rem;
+  font-size: 1rem;
+  border-radius: 15px;
+}
+.controls-top .items-per-page {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  white-space: nowrap;
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+.filters-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px dashed var(--card-border);
+}
+.filters-row .filter-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.filters-row .filter-group label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+select {
+  appearance: none;
+  background: var(--glass-inner);
+  border: 1px solid var(--card-border);
+  border-radius: 12px;
+  padding: 0.8rem 2.5rem 0.8rem 1rem;
+  color: var(--text-primary);
+  font-family: var(--font-main);
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='currentColor'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'%3E%3C/path%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.8rem center;
+  background-size: 1rem;
+}
+html.dark-mode select {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%23f1f5f9'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'%3E%3C/path%3E%3C/svg%3E");
+}
+select:focus, select:hover {
+  outline: none;
+  border-color: var(--accent);
+  background-color: var(--hover-bg);
+}
+select option {
+  background-color: var(--bg-color);
+  color: var(--text-primary);
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 4rem;
+  flex-wrap: wrap;
+}
+.pagination.pagination-top {
+  margin-top: 0;
+  margin-bottom: 3rem;
+}
+.pagination button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--card-border);
+  background: var(--card-bg);
+  color: var(--text-primary);
+  border-radius: 10px;
+  font-family: var(--font-mono);
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.pagination button:hover:not(:disabled) {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: var(--hover-bg);
+  transform: translateY(-2px);
+}
+.pagination button.active {
+  background: var(--accent);
+  color: white;
+  border-color: var(--accent);
+}
+.pagination button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
 /*# sourceMappingURL=style.css.map */
