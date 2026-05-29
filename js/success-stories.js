@@ -844,6 +844,80 @@ const stories = [
             "summary": "The user developed extreme DP/DR, brain fog, and emotional blunting after taking a 5-alpha reductase inhibitor for hair loss, which triggered a massive panic attack. They achieved full recovery over 2-3 years through a comprehensive lifestyle overhaul: fixing gut health (cutting gluten, dairy, sugar), engaging in high-intensity cardio and resistance training, utilizing targeted supplements (Zinc, Glycine, Omega-3s), and adopting grounding techniques like sunlight exposure and cold showers. They have now been fully recovered for over 5 years."
         },
         "link": "https://www.reddit.com/r/dpdr/comments/1kuslxi/fully_recovered_from_dpdr_that_was_so_severe_i/"
+    },
+    {
+        "icon": "\ud83d\udc8a",
+        "badgeClass": "badge",
+        "badgeText": "DLPA",
+        "title": "DLPA is making a huge difference",
+        "meta": {
+            "substances": [
+                "DLPA (DL-Phenylalanine)",
+                "Mirtazapine (Low Dose)"
+            ],
+            "type": "Partial Recovery",
+            "effectiveness": "40%",
+            "timeTaken": "Unknown",
+            "cause": "Unknown",
+            "duration": "Unknown",
+            "summary": "The user found that DLPA (DL-Phenylalanine) provided a 40% improvement in their anhedonia, granting them genuine enjoyment rather than just a shallow dopamine boost (which they had experienced with Vyvanse or Tyrosine). They theorize that the D-phenylalanine component inhibiting enkephalin breakdown plays a major role in restoring true endorphin-mediated enjoyment."
+        },
+        "link": "https://www.reddit.com/r/anhedonia/comments/zdkcua/dlpa_is_making_a_huge_difference/"
+    },
+    {
+        "icon": "\ud83d\udc8a",
+        "badgeClass": "badge badge-cured",
+        "badgeText": "Recovered",
+        "title": "Pramipexole Trial \"cured\" me",
+        "meta": {
+            "substances": [
+                "Pramipexole (Mirapex)"
+            ],
+            "type": "Cure",
+            "effectiveness": "100%",
+            "timeTaken": "Progressive (Weeks/Months)",
+            "cause": "SSRIs (PSSD) / MS",
+            "duration": "5 years",
+            "summary": "After suffering from high-functioning but severe anhedonia and PSSD for 5 years, the user started a Pramipexole trial (titrating up to 1.5mg). Despite a brutal initial worsening of symptoms (nausea, severe anhedonia, insomnia, and compulsivity), their emotions, motivation, and sexual functions rapidly returned. They were later diagnosed with Multiple Sclerosis (MS) and had to quit Pramipexole due to medication conflicts. To their surprise, quitting did not cause a relapse\u2014Pramipexole appeared to have 'cured' their anhedonia permanently."
+        },
+        "link": "https://www.reddit.com/r/anhedonia/comments/nuytdv/pramipexole_trial_severe_anhedonia_since_starting/"
+    },
+    {
+        "icon": "\u2728",
+        "badgeClass": "badge badge-cured",
+        "badgeText": "Recovered",
+        "title": "MDMA Therapy Saved My Life",
+        "meta": {
+            "substances": [
+                "MDMA-Assisted Therapy"
+            ],
+            "type": "Cure",
+            "effectiveness": "100%",
+            "timeTaken": "1 year (3 sessions)",
+            "cause": "Trauma / Complex PTSD",
+            "duration": "10+ years",
+            "summary": "The user suffered from lifelong trauma, complex PTSD, extreme depression, dissociation, and daily suicidal ideation. After dozens of failed medications, therapists, and ECT, they turned to a 3-session MDMA-assisted therapy protocol (based on MAPS guidelines). The MDMA allowed them to safely unearth and process deeply repressed emotions that had been trapped since childhood. Through intense but deeply healing emotional release and integration, they completely eradicated their suicidal thoughts and emotional numbness, rebuilding their entire identity and experiencing genuine self-love and joy for the first time."
+        },
+        "link": "https://www.reddit.com/r/mdmatherapy/comments/9gyngk/mdma_therapy_saved_my_life_notes_from_my/"
+    },
+    {
+        "icon": "\ud83d\udc8a",
+        "badgeClass": "badge badge-cured",
+        "badgeText": "Recovered",
+        "title": "Successful test of Pramipexole and Fluvoxamine",
+        "meta": {
+            "substances": [
+                "Pramipexole",
+                "Fluvoxamine"
+            ],
+            "type": "Treatment",
+            "effectiveness": "100%",
+            "timeTaken": "3 weeks",
+            "cause": "Anhedonia",
+            "duration": "Unknown",
+            "summary": "The user successfully removed their anhedonia and increased their libido using Pramipexole (titrated up to 1.5mg). After enduring 3 weeks of terrible initial side effects (needed to overcome presynaptic autoreceptors), the medication worked perfectly with no side effects. However, for long-term safety and to avoid potential dopamine receptor downregulation or DAWS, the user chose to stop. They also found long-term success treating their symptoms safely using the SSRI Fluvoxamine (75-125mg), which they suspect helps via Sigma-1 receptor interactions with dopamine systems."
+        },
+        "link": "https://www.reddit.com/r/MAOIs/comments/x9q04h/comment/inuc0bt/"
     }
 ];
 

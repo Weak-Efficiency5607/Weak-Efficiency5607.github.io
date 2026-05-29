@@ -12,25 +12,23 @@ if not json_match:
 stories = json.loads(json_match.group(1))
 
 new_story = {
-    "icon": "🌟",
+    "icon": "💊",
     "badgeClass": "badge badge-cured",
     "badgeText": "Recovered",
-    "title": "Fully Recovered from DP/DR",
+    "title": "Successful test of Pramipexole and Fluvoxamine",
     "meta": {
         "substances": [
-            "Diet (No Gluten/Dairy/Sugar)",
-            "Intense Exercise (Cardio/Weights)",
-            "Zinc, Glycine, Omega-3, Vit D",
-            "Sunlight, Cold Showers & Grounding"
+            "Pramipexole",
+            "Fluvoxamine"
         ],
-        "type": "Cure",
+        "type": "Treatment",
         "effectiveness": "100%",
-        "timeTaken": "Progressive (2-3 years)",
-        "cause": "5-alpha reductase inhibitor (PFS)",
-        "duration": "2-3+ years",
-        "summary": "The user developed extreme DP/DR, brain fog, and emotional blunting after taking a 5-alpha reductase inhibitor for hair loss, which triggered a massive panic attack. They achieved full recovery over 2-3 years through a comprehensive lifestyle overhaul: fixing gut health (cutting gluten, dairy, sugar), engaging in high-intensity cardio and resistance training, utilizing targeted supplements (Zinc, Glycine, Omega-3s), and adopting grounding techniques like sunlight exposure and cold showers. They have now been fully recovered for over 5 years."
+        "timeTaken": "3 weeks",
+        "cause": "Anhedonia",
+        "duration": "Unknown",
+        "summary": "The user successfully removed their anhedonia and increased their libido using Pramipexole (titrated up to 1.5mg). After enduring 3 weeks of terrible initial side effects (needed to overcome presynaptic autoreceptors), the medication worked perfectly with no side effects. However, for long-term safety and to avoid potential dopamine receptor downregulation or DAWS, the user chose to stop. They also found long-term success treating their symptoms safely using the SSRI Fluvoxamine (75-125mg), which they suspect helps via Sigma-1 receptor interactions with dopamine systems."
     },
-    "link": "https://www.reddit.com/r/dpdr/comments/1kuslxi/fully_recovered_from_dpdr_that_was_so_severe_i/"
+    "link": "https://www.reddit.com/r/MAOIs/comments/x9q04h/comment/inuc0bt/"
 }
 
 stories.append(new_story)
