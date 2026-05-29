@@ -1,15 +1,7 @@
 import json
-import re
 
-with open('js/success-stories.js', 'r', encoding='utf-8') as f:
-    content = f.read()
-
-json_match = re.search(r'const stories = (\[.*?\]);', content, re.DOTALL)
-if not json_match:
-    print('JSON not found')
-    exit(1)
-
-stories = json.loads(json_match.group(1))
+with open('data/success-stories.json', 'r', encoding='utf-8') as f:
+    stories = json.load(f)
 
 new_story = {
     "icon": "💊",
@@ -33,10 +25,7 @@ new_story = {
 
 stories.append(new_story)
 
-new_json = json.dumps(stories, indent=4)
-new_content = content[:json_match.start(1)] + new_json + content[json_match.end(1):]
-
-with open('js/success-stories.js', 'w', encoding='utf-8') as f:
-    f.write(new_content)
+with open('data/success-stories.json', 'w', encoding='utf-8') as f:
+    json.dump(stories, f, indent=4)
     
 print("Added new story!")
