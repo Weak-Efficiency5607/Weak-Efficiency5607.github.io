@@ -231,4 +231,13 @@
 			container.appendChild(nextBtn);
 		});
 	}
+
+	if (!window._successStoriesListenerAdded) {
+		document.addEventListener('page:loaded', (e) => {
+			if (e.detail.url.includes('success-stories.html') || window.location.pathname.includes('success-stories.html')) {
+				initSuccessStories();
+			}
+		});
+		window._successStoriesListenerAdded = true;
+	}
 })();
