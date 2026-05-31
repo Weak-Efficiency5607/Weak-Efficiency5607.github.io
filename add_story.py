@@ -6,20 +6,21 @@ with open('data/success-stories.json', 'r', encoding='utf-8') as f:
 new_story = {
     "icon": "⏳",
     "badgeClass": "badge",
-    "badgeText": "Significant Improvement",
-    "title": "Gradual natural reawakening of visualization and emotion",
+    "badgeText": "Recovered (80%)",
+    "title": "My (Long) Recovery Story - Full Fall and Rise",
     "meta": {
         "substances": [
-            "Time (Natural Recovery)"
+            "Time (Natural Recovery)",
+            "Cialis Daily (Tadalafil)"
         ],
         "type": "Partial Recovery",
-        "effectiveness": "100% visualization restored, 35% emotions restored",
-        "timeTaken": "16-22 months",
-        "cause": "Prozac (2 pills)",
-        "duration": "22 months (ongoing)",
-        "summary": "After taking just two pills of Prozac, the user suffered a complete loss of their visualization abilities (aphantasia) and severe emotional anesthesia (including the complete inability to feel fear or adrenaline). By month 16, their visualization abilities fully naturally restored to 100%. Between months 19 and 22, the physical sensations of emotions—such as adrenaline, goosebumps, and the 'oh shit' feeling of surprise—began to randomly reawaken in their head, restoring about 30-35% of their emotional capacity and bringing back the ability to feel atmosphere in music and movies."
+        "effectiveness": "80% (Considered perfect by user)",
+        "timeTaken": "4-5 years",
+        "cause": "Sertraline (SSRI)",
+        "duration": "4+ years",
+        "summary": "The user developed severe PSSD and emotional blunting from 6 months of Sertraline. After 4 years of obsessing over a cure, they completely gave up. Letting go of the obsession became their turning point. Natural improvements slowly followed. They met a supportive partner, experienced natural arousal, and used Cialis Daily to overcome their ED. They are now 80% recovered and consider this new baseline perfect."
     },
-    "link": "https://www.reddit.com/r/PSSD/comments/yi0pnu/the_partial_return_of_adrenaline/"
+    "link": "https://www.reddit.com/r/PSSD/comments/1algw6w/my_long_recovery_story_full_fall_and_rise/"
 }
 
 stories.append(new_story)
