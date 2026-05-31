@@ -35,6 +35,11 @@
 						</a>
 					</li>
 					<li>
+						<a href="https://www.inami.fgov.be/fr/nomenclature/nomenclature-textes" target="_blank" rel="noopener noreferrer">
+							Belgium (INAMI / RIZIV Nomenclature)
+						</a>
+					</li>
+					<li>
 						<a href="http://www.codage.ext.cnamts.fr/codif/nabm/index_presentation.php?p_site=AMELI" target="_blank" rel="noopener noreferrer">
 							France (AMELI - NABM)
 						</a>
@@ -47,6 +52,11 @@
 					<li>
 						<a href="http://www.medmod.ru/modview/nomenlist.jsp" target="_blank" rel="noopener noreferrer">
 							Russia (Nomenclature of Medical Services)
+						</a>
+					</li>
+					<li>
+						<a href="https://www.bag.admin.ch/fr/liste-des-analyses-la" target="_blank" rel="noopener noreferrer">
+							Switzerland (Liste des analyses - LA)
 						</a>
 					</li>
 					<li>
@@ -63,9 +73,14 @@
 			<p style="margin-bottom: 0.5rem; color: var(--text-secondary); font-size: 0.95rem;">
 				Logical Observation Identifiers Names and Codes (LOINC) is the international standard for identifying health measurements, observations, and documents.
 			</p>
-			<p style="margin-bottom: 1.5rem; color: var(--text-secondary); font-size: 0.95rem; font-style: italic;">
-				<strong>Note for Canada:</strong> The official Canadian standard for lab tests, pCLOCD (Pan-Canadian LOINC Observation Code Database), is directly based on LOINC. You can use this search to find Canadian health tests.
-			</p>
+			<div style="margin-bottom: 1.5rem; padding: 1rem; background: rgba(var(--accent-rgb), 0.05); border-left: 3px solid var(--accent); border-radius: 4px;">
+				<p style="color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 0.5rem;">
+					<strong>🇨🇦 Note for Canada:</strong> The official Canadian standard for lab tests, pCLOCD, is directly based on LOINC. You can use this search to find Canadian health tests.
+				</p>
+				<p style="color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 0;">
+					<strong>🇪🇸 Note for Spain:</strong> To solve regional fragmentation, the Spanish Ministry of Health (SNS) adopted LOINC as the official exchange standard. Select the "Spanish (SPAIN)" linguistic variant below to find official Spanish laboratory codes.
+				</p>
+			</div>
 				
 				<div id="loinc-loader-container" style="text-align: center; margin-top: 2rem;">
 					<button id="load-loinc-btn" class="action-btn">Load Top 20,000 LOINC Tests (5.3 MB)</button>

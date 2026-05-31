@@ -372,10 +372,18 @@
 									i++;
 								}
 								row.push(value);
-								if (row.length > 9 && row[0] !== 'LOINC_NUM') {
+								if (row.length > 1 && row[0] !== 'LOINC_NUM') {
+									let display = (row[11] || row[9] || '').trim();
+									if (!display) {
+										let parts = [];
+										if (row[1] && row[1] !== '-') parts.push(row[1].trim());
+										if (row[4] && row[4] !== '-') parts.push(row[4].trim());
+										if (row[6] && row[6] !== '-') parts.push(row[6].trim());
+										display = parts.join(' : ');
+									}
 									fullLoincData.push({
 										code: row[0] || '',
-										display: row[9] || ''
+										display: display
 									});
 								}
 								row = [];
@@ -387,10 +395,18 @@
 					}
 					if (value || row.length > 0) {
 						row.push(value);
-						if (row.length > 9 && row[0] !== 'LOINC_NUM') {
+						if (row.length > 1 && row[0] !== 'LOINC_NUM') {
+							let display = (row[11] || row[9] || '').trim();
+							if (!display) {
+								let parts = [];
+								if (row[1] && row[1] !== '-') parts.push(row[1].trim());
+								if (row[4] && row[4] !== '-') parts.push(row[4].trim());
+								if (row[6] && row[6] !== '-') parts.push(row[6].trim());
+								display = parts.join(' : ');
+							}
 							fullLoincData.push({
 								code: row[0] || '',
-								display: row[9] || ''
+								display: display
 							});
 						}
 					}
