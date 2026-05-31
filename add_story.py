@@ -4,23 +4,25 @@ with open('data/success-stories.json', 'r', encoding='utf-8') as f:
     stories = json.load(f)
 
 new_story = {
-    "icon": "💊",
+    "icon": "📝",
     "badgeClass": "badge badge-cured",
     "badgeText": "Recovered",
-    "title": "Successful test of Pramipexole and Fluvoxamine",
+    "title": "CBT, Pleasure Predicting, and Gratitude",
     "meta": {
         "substances": [
-            "Pramipexole",
-            "Fluvoxamine"
+            "CBT",
+            "Pleasure Predicting Sheet",
+            "Gratitude/Self-Esteem Journal",
+            "Behavioral Activation (Day Planning)"
         ],
-        "type": "Treatment",
+        "type": "Cure",
         "effectiveness": "100%",
-        "timeTaken": "3 weeks",
-        "cause": "Anhedonia",
-        "duration": "Unknown",
-        "summary": "The user successfully removed their anhedonia and increased their libido using Pramipexole (titrated up to 1.5mg). After enduring 3 weeks of terrible initial side effects (needed to overcome presynaptic autoreceptors), the medication worked perfectly with no side effects. However, for long-term safety and to avoid potential dopamine receptor downregulation or DAWS, the user chose to stop. They also found long-term success treating their symptoms safely using the SSRI Fluvoxamine (75-125mg), which they suspect helps via Sigma-1 receptor interactions with dopamine systems."
+        "timeTaken": "Progressive (1 week for final breakthrough)",
+        "cause": "Depression",
+        "duration": "5 years",
+        "summary": "The user suffered from depression and anhedonia for 5 years. While traditional CBT helped lift their depression, their anhedonia lingered. They eventually achieved a full breakthrough by strictly utilizing positivity-focused tools: a Pleasure Predicting Sheet (visualizing and anticipating fun), a gratitude/self-esteem journal, and hour-by-hour day scheduling. Within a week of this strict regimen, they relearned how to have fun. Five years later, they returned to confirm they have remained completely free of anhedonia ever since."
     },
-    "link": "https://www.reddit.com/r/MAOIs/comments/x9q04h/comment/inuc0bt/"
+    "link": "https://www.reddit.com/r/CBT/comments/catlyl/anyway_to_treat_anhedonia/"
 }
 
 stories.append(new_story)

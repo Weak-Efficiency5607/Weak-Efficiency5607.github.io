@@ -918,5 +918,47 @@
             "summary": "The user successfully removed their anhedonia and increased their libido using Pramipexole (titrated up to 1.5mg). After enduring 3 weeks of terrible initial side effects (needed to overcome presynaptic autoreceptors), the medication worked perfectly with no side effects. However, for long-term safety and to avoid potential dopamine receptor downregulation or DAWS, the user chose to stop. They also found long-term success treating their symptoms safely using the SSRI Fluvoxamine (75-125mg), which they suspect helps via Sigma-1 receptor interactions with dopamine systems."
         },
         "link": "https://www.reddit.com/r/MAOIs/comments/x9q04h/comment/inuc0bt/"
+    },
+    {
+        "icon": "\u2728",
+        "badgeClass": "badge badge-cured",
+        "badgeText": "Recovered",
+        "title": "Full recovery from trauma-induced numbness",
+        "meta": {
+            "substances": [
+                "Thyroid Medication",
+                "EMDR Therapy",
+                "Somatic Processing (Yoga/Massage)",
+                "Mindfulness & Education"
+            ],
+            "type": "Cure",
+            "effectiveness": "100%",
+            "timeTaken": "3 years",
+            "cause": "Complex Trauma (CPTSD)",
+            "duration": "Lifelong (until 30s)",
+            "summary": "The user lived with severe dissociation, complete emotional numbness, and an inability to feel joy due to severe childhood trauma and CPTSD. After transitioning from psychiatric drugs to thyroid medication, they engaged deeply in somatic and trauma-focused therapies over 3 years. Through EMDR, extensive reading (e.g., The Body Keeps the Score), hot yoga, massage therapy, and mindfulness, they reconnected with their body and learned how to process repressed emotions. They are now fully recovered, in a healthy relationship, and no longer wake up resenting being alive."
+        },
+        "link": "https://www.reddit.com/r/CPTSD/comments/brd65h/stupid_question_maybe_but_i_want_to_hear_from/"
+    },
+    {
+        "icon": "\ud83d\udcdd",
+        "badgeClass": "badge badge-cured",
+        "badgeText": "Recovered",
+        "title": "CBT, Pleasure Predicting, and Gratitude",
+        "meta": {
+            "substances": [
+                "CBT",
+                "Pleasure Predicting Sheet",
+                "Gratitude/Self-Esteem Journal",
+                "Behavioral Activation (Day Planning)"
+            ],
+            "type": "Cure",
+            "effectiveness": "100%",
+            "timeTaken": "Progressive (1 week for final breakthrough)",
+            "cause": "Depression",
+            "duration": "5 years",
+            "summary": "The user suffered from depression and anhedonia for 5 years. While traditional CBT helped lift their depression, their anhedonia lingered. They eventually achieved a full breakthrough by strictly utilizing positivity-focused tools: a Pleasure Predicting Sheet (visualizing and anticipating fun), a gratitude/self-esteem journal, and hour-by-hour day scheduling. Within a week of this strict regimen, they relearned how to have fun. Five years later, they returned to confirm they have remained completely free of anhedonia ever since."
+        },
+        "link": "https://www.reddit.com/r/CBT/comments/catlyl/anyway_to_treat_anhedonia/"
     }
 ]

@@ -1,0 +1,2 @@
+data/Loinc_2.82/AccessoryFiles/PartFile/LoincPartLink_Primary.csv filter=lfs diff=lfs merge=lfs -text
+data/Loinc_2.82/AccessoryFiles/PartFile/LoincPartLink_Supplementary.csv filter=lfs diff=lfs merge=lfs -text

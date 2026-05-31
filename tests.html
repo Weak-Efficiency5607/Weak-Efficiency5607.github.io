@@ -22,13 +22,126 @@
 			<p class="subtitle">Tests</p>
 		</header>
 
+		<div class="grid">
+			<section class="card">
+				<h2>National Test Directories</h2>
+				<p style="margin-bottom: 1.5rem; color: var(--text-secondary); font-size: 0.95rem;">
+					Official registries and nomenclatures for medical biology tests.
+				</p>
+				<ul class="link-list">
+					<li>
+						<a href="http://www.codage.ext.cnamts.fr/codif/nabm/index_presentation.php?p_site=AMELI" target="_blank" rel="noopener noreferrer">
+							France (AMELI - NABM)
+						</a>
+					</li>
+					<li>
+						<a href="http://www.medmod.ru/modview/nomenlist.jsp" target="_blank" rel="noopener noreferrer">
+							Russia (Nomenclature of Medical Services)
+						</a>
+					</li>
+				</ul>
+			</section>
+		</div>
+
 		<section class="card">
-			<p>Content coming soon.</p>
+			<h2>LOINC Database</h2>
+			<p style="margin-bottom: 1.5rem; color: var(--text-secondary); font-size: 0.95rem;">
+					Logical Observation Identifiers Names and Codes (LOINC) is the international standard for identifying health measurements, observations, and documents.
+				</p>
+				
+				<div id="loinc-loader-container" style="text-align: center; margin-top: 2rem;">
+					<button id="load-loinc-btn" class="action-btn">Load Top 20,000 LOINC Tests (5.3 MB)</button>
+					
+					<div id="loinc-progress-container" style="display: none; width: 100%; margin-top: 1.5rem;">
+						<p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.5rem;" id="loinc-progress-text">Downloading database...</p>
+						<div style="width: 100%; height: 8px; background: var(--card-border); border-radius: 4px; overflow: hidden;">
+							<div id="loinc-progress-bar" style="width: 0%; height: 100%; background: var(--accent); transition: width 0.2s ease;"></div>
+						</div>
+					</div>
+				</div>
+
+				<div id="loinc-search-container" style="display: none; margin-top: 2rem;">
+					<div class="search-container" style="margin-bottom: 1.5rem;">
+						<input type="text" id="loinc-search" placeholder="Search LOINC codes or test names..." autocomplete="off">
+					</div>
+					<div style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 1rem;">
+						Showing top <span id="loinc-result-count">0</span> results.
+					</div>
+					<div id="loinc-results" class="link-list" style="max-height: 500px; overflow-y: auto; padding-right: 10px;">
+						<!-- Results will be injected here -->
+					</div>
+				</div>
+			</section>
+
+		<section class="card">
+			<h2>Medicare Clinical Laboratory Fee Schedule (CLFS)</h2>
+			<p style="margin-bottom: 1.5rem; color: var(--text-secondary); font-size: 0.95rem;">
+				The Clinical Laboratory Fee Schedule (CLFS) contains test codes, descriptions, and fee data for Medicare.
+			</p>
+			
+			<div id="clfs-loader-container" style="text-align: center; margin-top: 2rem;">
+				<button id="load-clfs-btn" class="action-btn">Load CLFS Database (~590 KB)</button>
+				
+				<div id="clfs-progress-container" style="display: none; width: 100%; margin-top: 1.5rem;">
+					<p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.5rem;" id="clfs-progress-text">Downloading database...</p>
+					<div style="width: 100%; height: 8px; background: var(--card-border); border-radius: 4px; overflow: hidden;">
+						<div id="clfs-progress-bar" style="width: 0%; height: 100%; background: var(--accent); transition: width 0.2s ease;"></div>
+					</div>
+				</div>
+			</div>
+
+			<div id="clfs-search-container" style="display: none; margin-top: 2rem;">
+				<div class="search-container" style="margin-bottom: 1.5rem;">
+					<input type="text" id="clfs-search" placeholder="Search HCPCS codes or descriptions..." autocomplete="off">
+				</div>
+				<div style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 1rem;">
+					Showing top <span id="clfs-result-count">0</span> results.
+				</div>
+				<div id="clfs-results" class="link-list" style="max-height: 500px; overflow-y: auto; padding-right: 10px;">
+					<!-- Results will be injected here -->
+				</div>
+			</div>
 		</section>
 
-		
+		<section class="card">
+			<h2>Full LOINC Database</h2>
+			<p style="margin-bottom: 1.5rem; color: var(--text-secondary); font-size: 0.95rem;">
+				The complete Logical Observation Identifiers Names and Codes (LOINC) database, containing all current standard health measurements and observations.
+			</p>
+			
+			<div id="full-loinc-loader-container" style="text-align: center; margin-top: 2rem;">
+				<div style="margin-bottom: 1rem; display: flex; justify-content: center; align-items: center; gap: 0.5rem;">
+					<label for="loinc-language-select" style="font-size: 0.9rem; color: var(--text-secondary);">Language:</label>
+					<select id="loinc-language-select" style="padding: 0.5rem; font-size: 0.9rem; background: var(--card-bg); border: 1px solid var(--card-border); color: var(--text-primary); border-radius: 4px; outline: none; cursor: pointer;">
+						<option value="default">English (Default)</option>
+					</select>
+				</div>
+				<button id="load-full-loinc-btn" class="action-btn">Load Full LOINC Database</button>
+				
+				<div id="full-loinc-progress-container" style="display: none; width: 100%; margin-top: 1.5rem;">
+					<p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.5rem;" id="full-loinc-progress-text">Downloading database...</p>
+					<div style="width: 100%; height: 8px; background: var(--card-border); border-radius: 4px; overflow: hidden;">
+						<div id="full-loinc-progress-bar" style="width: 0%; height: 100%; background: var(--accent); transition: width 0.2s ease;"></div>
+					</div>
+				</div>
+			</div>
+
+			<div id="full-loinc-search-container" style="display: none; margin-top: 2rem;">
+				<div class="search-container" style="margin-bottom: 1.5rem;">
+					<input type="text" id="full-loinc-search" placeholder="Search LOINC numbers or descriptions..." autocomplete="off">
+				</div>
+				<div style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 1rem;">
+					Showing top <span id="full-loinc-result-count">0</span> results.
+				</div>
+				<div id="full-loinc-results" class="link-list" style="max-height: 500px; overflow-y: auto; padding-right: 10px;">
+					<!-- Results will be injected here -->
+				</div>
+			</div>
+		</section>
+
 	</main>
 	<script src="js/router.js"></script>
+	<script src="js/tests.js"></script>
 </body>
 
 </html>
