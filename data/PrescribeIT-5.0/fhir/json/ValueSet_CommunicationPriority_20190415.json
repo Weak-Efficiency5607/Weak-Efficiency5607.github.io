@@ -1,0 +1,94 @@
+{
+  "resourceType": "ValueSet",
+  "id": "communicationpriority",
+  "url": "https://fhir.infoway-inforoute.ca/ValueSet/communicationpriority",
+  "identifier": [ {
+    "id": "2.16.840.1.113883.2.20.3.434"
+  } ],
+  "version": "20190415",
+  "name": "CommunicationPriority",
+  "status": "active",
+  "description": "Types of communication priorities",
+  "expansion": {
+    "identifier": "urn:uuid:e193a61e-56c5-4298-92d1-39f8958d2b01",
+    "timestamp": "2025-07-25T11:32:42-04:00",
+    "total": 2,
+    "contains": [ {
+      "system": "http://hl7.org/fhir/task-priority",
+      "abstract": false,
+      "code": "high",
+      "display": "High",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "This communication has high priority."
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "High"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "La priorité de cette communication est haute."
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Haute"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/task-priority",
+      "abstract": false,
+      "code": "normal",
+      "display": "Normal",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "This communication has normal priority."
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Normal"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "La priorité de cette communication est normale."
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Normale"
+      } ]
+    } ]
+  }
+}

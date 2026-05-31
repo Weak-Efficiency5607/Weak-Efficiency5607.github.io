@@ -1,0 +1,905 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+   <id value="detectedissuemitigationaction"></id>
+   <url value="https://fhir.infoway-inforoute.ca/ValueSet/detectedissuemitigationaction"></url>
+   <identifier id="2.16.840.1.113883.2.20.3.466"></identifier>
+   <version value="20210501"></version>
+   <name value="DetectedIssueMitigationAction"></name>
+   <status value="active"></status>
+   <description value="Kinds of mitigating actions and observations that can be associated with a detected issue or contraindication, such as 'added concurrent therapy', 'prior therapy documented', etc."></description>
+   <expansion>
+      <identifier value="urn:uuid:47470a09-586d-4d66-859d-44bc91432a9e"></identifier>
+      <timestamp value="2025-07-25T11:35:15-04:00"></timestamp>
+      <total value="27"></total>
+      <contains>
+         <system value="http://hl7.org/fhir/v3/ActCode"></system>
+         <abstract value="false"></abstract>
+         <code value="1"></code>
+         <display value="Therapy Appropriate"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="Confirmed drug therapy appropriate"></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Therapy Appropriate"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Traitement approprié"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/v3/ActCode"></system>
+         <abstract value="false"></abstract>
+         <code value="10"></code>
+         <display value="Provided Patient Education"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="Provided education or training to the patient on appropriate therapy use"></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Provided Patient Education"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Éducation du patient"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/v3/ActCode"></system>
+         <abstract value="false"></abstract>
+         <code value="11"></code>
+         <display value="Added Concurrent Therapy"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="Instituted an additional therapy to mitigate potential negative effects"></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Added Concurrent Therapy"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Ajout d'un traitement concomitant"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/v3/ActCode"></system>
+         <abstract value="false"></abstract>
+         <code value="12"></code>
+         <display value="Temporarily Suspended Concurrent Therapy"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="Suspended existing therapy that triggered interaction for the duration of this therapy"></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Temporarily Suspended Concurrent Therapy"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Suspension temporaire du traitement concomitant"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/v3/ActCode"></system>
+         <abstract value="false"></abstract>
+         <code value="13"></code>
+         <display value="Stopped Concurrent Therapy"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="Aborted existing therapy that triggered interaction."></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Stopped Concurrent Therapy"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Fin du traitement concomitant"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/v3/ActCode"></system>
+         <abstract value="false"></abstract>
+         <code value="14"></code>
+         <display value="Supply Appropriate"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="Confirmed supply action appropriate"></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Supply Appropriate"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Provision appropriée"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/v3/ActCode"></system>
+         <abstract value="false"></abstract>
+         <code value="15"></code>
+         <display value="Replacement"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="Patient's existing supply was lost/wasted"></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Replacement"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Remplacement"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/v3/ActCode"></system>
+         <abstract value="false"></abstract>
+         <code value="16"></code>
+         <display value="Vacation Supply"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="Supply date is due to patient vacation"></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Vacation Supply"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Provision pour vacances"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/v3/ActCode"></system>
+         <abstract value="false"></abstract>
+         <code value="17"></code>
+         <display value="Weekend Supply"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="Supply date is intended to carry patient over weekend"></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Weekend Supply"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Provision pour fin de semaine"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/v3/ActCode"></system>
+         <abstract value="false"></abstract>
+         <code value="18"></code>
+         <display value="Leave of Absence"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="Supply is intended for use during a leave of absence from an institution."></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Leave of Absence"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Provision au congé"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/v3/ActCode"></system>
+         <abstract value="false"></abstract>
+         <code value="19"></code>
+         <display value="Consulted Supplier"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="Consulted other supplier/pharmacy, therapy confirmed"></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Consulted Supplier"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Fournisseur consulté"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/v3/ActCode"></system>
+         <abstract value="false"></abstract>
+         <code value="2"></code>
+         <display value="Assessed Patient"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="Assessed patient, therapy is appropriate"></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Assessed Patient"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Patient évalué"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/v3/ActCode"></system>
+         <abstract value="false"></abstract>
+         <code value="20"></code>
+         <display value="additional quantity on separate dispense"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="Description: Supply is different than expected as an additional quantity has been supplied in a separate dispense."></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="additional quantity on separate dispense"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Qté additionnelle - dispensation distincte"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/v3/ActCode"></system>
+         <abstract value="false"></abstract>
+         <code value="21"></code>
+         <display value="authorization confirmed"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="Description: Indicates that the permissions have been externally verified and the request should be processed."></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="authorization confirmed"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Autorisation confirmée"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/v3/ActCode"></system>
+         <abstract value="false"></abstract>
+         <code value="22"></code>
+         <display value="appropriate indication or diagnosis"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="Description: The patient has the appropriate indication or diagnosis for the action to be taken."></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="appropriate indication or diagnosis"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Indication ou diagnostic approprié"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/v3/ActCode"></system>
+         <abstract value="false"></abstract>
+         <code value="23"></code>
+         <display value="prior therapy documented"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="Description: It has been confirmed that the appropriate pre-requisite therapy has been tried."></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="prior therapy documented"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Prétraitement confirmé"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/v3/ActCode"></system>
+         <abstract value="false"></abstract>
+         <code value="3"></code>
+         <display value="Patient Explanation"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="Patient gave adequate explanation"></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Patient Explanation"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Explication du patient"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/v3/ActCode"></system>
+         <abstract value="false"></abstract>
+         <code value="4"></code>
+         <display value="Consulted Other Source"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="Consulted other supply source, therapy still appropriate"></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Consulted Other Source"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Autre source consultée"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/v3/ActCode"></system>
+         <abstract value="false"></abstract>
+         <code value="5"></code>
+         <display value="Consulted Prescriber"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="Consulted prescriber, therapy confirmed"></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Consulted Prescriber"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Prescripteur consulté"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/v3/ActCode"></system>
+         <abstract value="false"></abstract>
+         <code value="6"></code>
+         <display value="Prescriber Declined Change"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="Consulted prescriber and recommended change, prescriber declined"></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Prescriber Declined Change"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Changement refusé par prescripteur"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/v3/ActCode"></system>
+         <abstract value="false"></abstract>
+         <code value="7"></code>
+         <display value="Interacting Therapy No Longer Active/Planned"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="Concurrent therapy triggering alert is no longer on-going or planned"></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Interacting Therapy No Longer Active/Planned"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Le traitement concomitant n'est plus en cours/prévu"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/v3/ActCode"></system>
+         <abstract value="false"></abstract>
+         <code value="8"></code>
+         <display value="Other Action Taken"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="Order is performed as issued, but other action taken to mitigate potential adverse effects"></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Other Action Taken"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Autre action effectuée"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/v3/ActCode"></system>
+         <abstract value="false"></abstract>
+         <code value="9"></code>
+         <display value="Instituted Ongoing Monitoring Program"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="Arranged to monitor patient for adverse effects"></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Instituted Ongoing Monitoring Program"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Surveillance continue"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/v3/ActCode"></system>
+         <abstract value="false"></abstract>
+         <code value="EMAUTH"></code>
+         <display value="emergency authorization override"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="Used to temporarily override normal authorization rules to gain access to data in a case of emergency. Use of this override code will typically be monitored, and a procedure to verify its proper use may be triggered when used."></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="emergency authorization override"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Dérogation d'urgence à l'autorisation"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/v3/ActCode"></system>
+         <abstract value="false"></abstract>
+         <code value="_ActAdministrativeDetectedIssueManagementCode"></code>
+         <display value="ActAdministrativeDetectedIssueManagementCode"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="Codes dealing with the management of Detected Issue observations for the administrative and patient administrative acts domains."></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="ActAdministrativeDetectedIssueManagementCode"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="ActAdministrativeDetectedIssueManagementCode"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/v3/ActCode"></system>
+         <abstract value="false"></abstract>
+         <code value="_ActDetectedIssueManagementCode"></code>
+         <display value="ActDetectedIssueManagementCode"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="Codes dealing with the management of Detected Issue observations"></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="ActDetectedIssueManagementCode"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="ActDetectedIssueManagementCode"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/v3/ActCode"></system>
+         <abstract value="false"></abstract>
+         <code value="_AuthorizationIssueManagementCode"></code>
+         <display value="Authorization Issue Management Code"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="Authorization Issue Management Code"></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Authorization Issue Management Code"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Authorization Issue Management Code"></value>
+         </designation>
+      </contains>
+   </expansion>
+</ValueSet>

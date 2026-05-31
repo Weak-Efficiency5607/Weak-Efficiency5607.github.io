@@ -23,12 +23,39 @@
 		</header>
 
 		<section class="card">
-			<p>Content coming soon.</p>
+			<h2>PrescribeIT (Canada)</h2>
+			<p style="margin-bottom: 1.5rem; color: var(--text-secondary); font-size: 0.95rem;">
+				The Canadian Clinical Drug Data Set (CCDD) and PrescribeIT terminology for prescribing and dispensing in Canada.
+			</p>
+			
+			<div id="prescribeit-loader-container" style="text-align: center; margin-top: 2rem;">
+				<button id="load-prescribeit-btn" class="action-btn">Load PrescribeIT Database (11.4 MB)</button>
+				
+				<div id="prescribeit-progress-container" style="display: none; width: 100%; margin-top: 1.5rem;">
+					<p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.5rem;" id="prescribeit-progress-text">Downloading database...</p>
+					<div style="width: 100%; height: 8px; background: var(--card-border); border-radius: 4px; overflow: hidden;">
+						<div id="prescribeit-progress-bar" style="width: 0%; height: 100%; background: var(--accent); transition: width 0.2s ease;"></div>
+					</div>
+				</div>
+			</div>
+
+			<div id="prescribeit-search-container" style="display: none; margin-top: 2rem;">
+				<div class="search-container" style="margin-bottom: 1.5rem;">
+					<input type="text" id="prescribeit-search" placeholder="Search drug name, DIN, or description..." autocomplete="off">
+				</div>
+				<div style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 1rem;">
+					Showing top <span id="prescribeit-result-count">0</span> results.
+				</div>
+				<div id="prescribeit-results" class="link-list" style="max-height: 500px; overflow-y: auto; padding-right: 10px;">
+					<!-- Results will be injected here -->
+				</div>
+			</div>
 		</section>
 
 		
 	</main>
 	<script src="js/router.js"></script>
+	<script src="js/treatments.js"></script>
 </body>
 
 </html>

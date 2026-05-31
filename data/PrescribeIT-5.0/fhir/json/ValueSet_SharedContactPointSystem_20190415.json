@@ -1,0 +1,132 @@
+{
+  "resourceType": "ValueSet",
+  "id": "sharedcontactpointsystem",
+  "url": "https://fhir.infoway-inforoute.ca/ValueSet/sharedcontactpointsystem",
+  "identifier": [ {
+    "id": "2.16.840.1.113883.2.20.3.418"
+  } ],
+  "version": "20190415",
+  "name": "SharedContactPointSystem",
+  "status": "active",
+  "description": "Contact point types supported for Shared Health systems",
+  "expansion": {
+    "identifier": "urn:uuid:a3950f63-84d8-4f17-addc-8b6979d50ea9",
+    "timestamp": "2025-07-25T11:34:42-04:00",
+    "total": 3,
+    "contains": [ {
+      "system": "http://hl7.org/fhir/contact-point-system",
+      "abstract": false,
+      "code": "email",
+      "display": "Email",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "The value is an email address."
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Email"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "La valeur est une adresse électronique."
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Adresse électronique"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/contact-point-system",
+      "abstract": false,
+      "code": "fax",
+      "display": "Fax",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "The value is a fax machine. Use of full international numbers starting with + is recommended to enable automatic dialing support but not required."
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Fax"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "La valeur est un numéro de télécopieur. L'utilisation de numéros internationaux complets débutant par + est recommandée pour l'activation de la composition automatique, mais non requise."
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Télécopieur"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/contact-point-system",
+      "abstract": false,
+      "code": "phone",
+      "display": "Phone",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "The value is a telephone number used for voice calls. Use of full international numbers starting with + is recommended to enable automatic dialing support but not required."
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Phone"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "La valeur est un numéro de téléphone utilisé pour les appels vocaux. L'utilisation de numéros internationaux complets débutant par + est recommandée pour l'activation de la composition automatique, mais non requise."
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Téléphone"
+      } ]
+    } ]
+  }
+}

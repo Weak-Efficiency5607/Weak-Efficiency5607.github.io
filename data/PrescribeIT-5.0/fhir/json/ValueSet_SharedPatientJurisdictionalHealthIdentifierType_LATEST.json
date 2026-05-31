@@ -1,0 +1,466 @@
+{
+  "resourceType": "ValueSet",
+  "id": "sharedpatientjurisdictionalhealthidentifiertype",
+  "url": "https://fhir.infoway-inforoute.ca/ValueSet/sharedpatientjurisdictionalhealthidentifiertype",
+  "identifier": [ {
+    "id": "2.16.840.1.113883.2.20.3.422"
+  } ],
+  "version": "20220615",
+  "name": "SharedPatientJurisdictionalHealthIdentifierType",
+  "status": "active",
+  "description": "Patient jurisdictional health identifier system supported for Shared Health systems",
+  "expansion": {
+    "identifier": "urn:uuid:89827c2c-d479-4efd-8c63-f1dfd399a416",
+    "timestamp": "2025-07-25T11:34:55-04:00",
+    "total": 20,
+    "contains": [ {
+      "system": "urn:iso:std:iso:8824:1",
+      "abstract": false,
+      "code": "urn:oid:2.16.124.4.101.35.1.1",
+      "display": "New Brunswick Medicare Number",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "New Brunswick Medicare Number"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "numéro d’assurance-maladie du Nouveau-Brunswick"
+      } ]
+    }, {
+      "system": "urn:iso:std:iso:8824:1",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.3.228.2.7",
+      "display": "Nova Scotia Global Identifier (GID)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Used by the Nova Scotia DIS to represent patients"
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Nova Scotia Global Identifier (GID)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Identifiant global de la Nouvelle-Écosse"
+      } ]
+    }, {
+      "system": "urn:iso:std:iso:8824:1",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.4.12",
+      "display": "Manitoba Health Personal Health Identification Number - MHPHIN",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Manitoba Health Personal Health Identification Number - MHPHIN"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "NIMP, Santé Manitoba"
+      } ]
+    }, {
+      "system": "urn:iso:std:iso:8824:1",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.4.13",
+      "display": "Prince Edward Island, Canada Personal Health Number",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Prince Edward Island, Canada Personal Health Number"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Numéro de carte santé, Î.-P.-É."
+      } ]
+    }, {
+      "system": "urn:iso:std:iso:8824:1",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.4.20",
+      "display": "Alberta Unique Lifetime Identifier",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Alberta Unique Lifetime Identifier"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Numéro d'identification unique permanent, AB"
+      } ]
+    }, {
+      "system": "urn:iso:std:iso:8824:1",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.4.376",
+      "display": "Veteran's Affairs Canada Health Number",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Veteran's Affairs Canada Health Number"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Numéro de carte d'identité de santé, ACC"
+      } ]
+    }, {
+      "system": "urn:iso:std:iso:8824:1",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.4.377",
+      "display": "Correctional Service Canada Health Number",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Correctional Service Canada Health Number"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Numéro de carte santé, SCC"
+      } ]
+    }, {
+      "system": "urn:iso:std:iso:8824:1",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.4.378",
+      "display": "Non-Insured Health Benefits Health Number (NIHB)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Non-Insured Health Benefits Health Number (NIHB)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Services de santé non assurés (SSNA)"
+      } ]
+    }, {
+      "system": "urn:iso:std:iso:8824:1",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.4.379",
+      "display": "Royal Canadian Mounted Police Health Number",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Royal Canadian Mounted Police Health Number"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Numéro de carte santé, GRC"
+      } ]
+    }, {
+      "system": "urn:iso:std:iso:8824:1",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.4.389",
+      "display": "Canadian Armed Forces Health Number",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Canadian Armed Forces Health Number"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Numéro de carte santé, FAC"
+      } ]
+    }, {
+      "system": "urn:iso:std:iso:8824:1",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.4.50",
+      "display": "British Columbia Personal Health Number",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "British Columbia Personal Health Number"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Numéro de carte d'assurance-maladie, CB"
+      } ]
+    }, {
+      "system": "urn:iso:std:iso:8824:1",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.4.51",
+      "display": "New Brunswick, Canada Personal Health Number",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "New Brunswick, Canada Personal Health Number"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "numéro de santé personnel du Nouveau-Brunswick, Canada"
+      } ]
+    }, {
+      "system": "urn:iso:std:iso:8824:1",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.4.52",
+      "display": "Newfoundland and Labrador, Canada Personal Health Number",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Newfoundland and Labrador, Canada Personal Health Number"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Numéro de carte santé, TNL"
+      } ]
+    }, {
+      "system": "urn:iso:std:iso:8824:1",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.4.53",
+      "display": "Nova Scotia, Canada Personal Health Number",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Nova Scotia, Canada Personal Health Number"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Numéro de carte santé, N.-É."
+      } ]
+    }, {
+      "system": "urn:iso:std:iso:8824:1",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.4.54",
+      "display": "Northwest Territories, Canada Personal Health Number",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Northwest Territories, Canada Personal Health Number"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Numéro de carte d'assurance-maladie, TNO"
+      } ]
+    }, {
+      "system": "urn:iso:std:iso:8824:1",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.4.55",
+      "display": "Nunavut, Canada Personal Health Number",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Nunavut, Canada Personal Health Number"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Numéro de carte d’assurance-maladie, NU"
+      } ]
+    }, {
+      "system": "urn:iso:std:iso:8824:1",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.4.56",
+      "display": "Quebec, Canada Personal Health Number",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Quebec, Canada Personal Health Number"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Numéro de carte d'assurance-maladie, QC"
+      } ]
+    }, {
+      "system": "urn:iso:std:iso:8824:1",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.4.57",
+      "display": "Saskatchewan, Canada Personal Health Number",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Saskatchewan, Canada Personal Health Number"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Numéro de carte d'assurance-maladie, SK"
+      } ]
+    }, {
+      "system": "urn:iso:std:iso:8824:1",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.4.58",
+      "display": "Yukon, Canada Personal Health Number",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Yukon, Canada Personal Health Number"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Numéro de carte d’assurance-santé, YK"
+      } ]
+    }, {
+      "system": "urn:iso:std:iso:8824:1",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.4.59",
+      "display": "Ontario, Canada Personal Health Number",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Ontario, Canada Personal Health Number"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Numéro de carte Santé, ON"
+      } ]
+    } ]
+  }
+}

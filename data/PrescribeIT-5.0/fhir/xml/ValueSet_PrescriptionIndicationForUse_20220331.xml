@@ -1,0 +1,2270 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+   <id value="prescriptionindicationforuse"></id>
+   <url value="https://fhir.infoway-inforoute.ca/ValueSet/prescriptionindicationforuse"></url>
+   <identifier id="2.16.840.1.113883.2.20.3.401"></identifier>
+   <version value="20220331"></version>
+   <name value="PrescriptionIndicationForUse"></name>
+   <status value="active"></status>
+   <description value="The clinical reason for which a medication is being ordered. The content of this subset includes commonly used concepts and may expand based on user experience."></description>
+   <expansion>
+      <identifier value="urn:uuid:0c0a47fe-cfd0-4955-b265-4731f42d4338"></identifier>
+      <timestamp value="2025-07-25T11:33:08-04:00"></timestamp>
+      <total value="94"></total>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="225606002"></code>
+         <display value="Abnormal movement"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Abnormal movement"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="mouvement anormal"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="10509002"></code>
+         <display value="Acute bronchitis"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Acute bronchitis"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="bronchite aiguë"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="274663001"></code>
+         <display value="Acute pain"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Acute pain"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="douleur aiguë"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="54398005"></code>
+         <display value="Acute upper respiratory infection"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Acute upper respiratory infection"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="infection aiguë des voies respiratoires supérieures"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="61582004"></code>
+         <display value="Allergic rhinitis"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Allergic rhinitis"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="rhinite allergique"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="26929004"></code>
+         <display value="Alzheimer's disease"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Alzheimer's disease"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="maladie d'Alzheimer"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="194828000"></code>
+         <display value="Angina pectoris"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Angina pectoris"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="angor"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="197480006"></code>
+         <display value="Anxiety disorder"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Anxiety disorder"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="trouble anxieux"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="72092001"></code>
+         <display value="Arteriosclerotic vascular disease"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Arteriosclerotic vascular disease"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="maladie vasculaire artériosclérotique"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="3723001"></code>
+         <display value="Arthritis"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Arthritis"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="arthrite"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="55570000"></code>
+         <display value="Asthma without status asthmaticus"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Asthma without status asthmaticus"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="asthme sans état de mal asthmatique"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="49436004"></code>
+         <display value="Atrial fibrillation"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Atrial fibrillation"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="FA - fibrillation auriculaire"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="10725009"></code>
+         <display value="Benign hypertension"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Benign hypertension"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="hypertension bénigne"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="13746004"></code>
+         <display value="Bipolar disorder"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Bipolar disorder"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="trouble bipolaire"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="128045006"></code>
+         <display value="Cellulitis"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Cellulitis"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="cellulite"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="230690007"></code>
+         <display value="Cerebrovascular accident"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Cerebrovascular accident"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="accident vasculaire cérébral"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="274665008"></code>
+         <display value="Chronic intractable pain"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Chronic intractable pain"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="douleur chronique réfractaire"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="709044004"></code>
+         <display value="Chronic kidney disease"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Chronic kidney disease"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="IRC - insuffisance rénale chronique"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="13645005"></code>
+         <display value="Chronic obstructive lung disease"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Chronic obstructive lung disease"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="MPOC - maladie pulmonaire obstructive chronique"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="190634004"></code>
+         <display value="Vitamin B12 deficiency"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Vitamin B12 deficiency"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="carence en vitamine B12"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="42343007"></code>
+         <display value="Congestive heart failure"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Congestive heart failure"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="insuffisance cardiaque congestive"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="14760008"></code>
+         <display value="Constipation"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Constipation"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="constipation"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="53741008"></code>
+         <display value="Coronary arteriosclerosis"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Coronary arteriosclerosis"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="artériosclérose coronarienne"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="711028002"></code>
+         <display value="Counseling about tobacco use"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Counseling about tobacco use"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="counseling lié au tabagisme"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="34000006"></code>
+         <display value="Crohn's disease"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Crohn's disease"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="maladie de Crohn"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="52448006"></code>
+         <display value="Dementia"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Dementia"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="démence"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="35489007"></code>
+         <display value="Depressive disorder"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Depressive disorder"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="trouble dépressif"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="95766002"></code>
+         <display value="Disorder of lacrimal gland"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Disorder of lacrimal gland"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="affection des glandes lacrymales"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="30281009"></code>
+         <display value="Disorder of prostate"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Disorder of prostate"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="affection de la prostate"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="194437008"></code>
+         <display value="Disorders of initiating and maintaining sleep"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Disorders of initiating and maintaining sleep"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="troubles liés à l'endormissement et au maintien du sommeil"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="56776001"></code>
+         <display value="Duodenal ulcer without hemorrhage AND without perforation"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Duodenal ulcer without hemorrhage AND without perforation"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="ulcère duodénal sans hémorragie ni perforation"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="9748009"></code>
+         <display value="Dyskinesia"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Dyskinesia"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="dyskinésie"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="84757009"></code>
+         <display value="Epilepsy"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Epilepsy"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="épilepsie"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="268724009"></code>
+         <display value="Excessive sexual drive"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Excessive sexual drive"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="activité sexuelle excessive"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="266435005"></code>
+         <display value="Gastroesophageal reflux disease without esophagitis"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Gastroesophageal reflux disease without esophagitis"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="reflux gastro-œsophagien sans œsophagite"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="21897009"></code>
+         <display value="Generalized anxiety disorder"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Generalized anxiety disorder"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="trouble d'anxiété généralisée"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="11687002"></code>
+         <display value="Gestational diabetes mellitus"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Gestational diabetes mellitus"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="diabète gestationnel"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="23986001"></code>
+         <display value="Glaucoma"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Glaucoma"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="glaucome"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="16331000"></code>
+         <display value="Heartburn"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Heartburn"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="brûlures d'estomac"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="70153002"></code>
+         <display value="Hemorrhoids"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Hemorrhoids"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="hémorroïdes"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="111859007"></code>
+         <display value="Herpes zoster without complication"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Herpes zoster without complication"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="zona sans complication"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="55822004"></code>
+         <display value="Hyperlipidemia"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Hyperlipidemia"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="hyperlipidémie"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="64715009"></code>
+         <display value="Hypertensive heart disease"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Hypertensive heart disease"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="cardiopathie hypertensive"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="43339004"></code>
+         <display value="Hypokalemia"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Hypokalemia"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="hypokaliémie"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="40930008"></code>
+         <display value="Hypothyroidism"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Hypothyroidism"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="hypothyroïdie"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="90560007"></code>
+         <display value="Gout"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Gout"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="goutte"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="21018002"></code>
+         <display value="Inflammatory neuropathy"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Inflammatory neuropathy"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="neuropathie inflammatoire"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="267078001"></code>
+         <display value="Involuntary movement"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Involuntary movement"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="mouvement involontaire"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="87522002"></code>
+         <display value="Iron deficiency anemia"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Iron deficiency anemia"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="anémie ferriprive"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="110979008"></code>
+         <display value="Irritant contact dermatitis"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Irritant contact dermatitis"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="dermatite de contact irritative"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="711150003"></code>
+         <display value="Long-term current use of anticoagulant"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Long-term current use of anticoagulant"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="utilisation (actuelle) à long terme d’anticoagulants"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="85649008"></code>
+         <display value="Folate deficiency anemia"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Folate deficiency anemia"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="anémie causée par une carence en acide folique"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="4473006"></code>
+         <display value="Migraine with aura"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Migraine with aura"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="migraine avec aura"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="56097005"></code>
+         <display value="Migraine without aura"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Migraine without aura"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="migraine sans aura"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="48589009"></code>
+         <display value="Minor depressive disorder"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Minor depressive disorder"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="trouble dépressif mineur"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="231504006"></code>
+         <display value="Mixed anxiety and depressive disorder"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Mixed anxiety and depressive disorder"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="trouble anxieux et dépressif mixte"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="46206005"></code>
+         <display value="Mood disorder"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Mood disorder"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="trouble de l'humeur"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="26889001"></code>
+         <display value="Myositis"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Myositis"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="myosite"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="16269008"></code>
+         <display value="Neuralgia"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Neuralgia"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="névralgie"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="192496000"></code>
+         <display value="Non-organic enduring personality change"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Non-organic enduring personality change"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="changement non organique durable de la personnalité"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="192454004"></code>
+         <display value="Nonorganic insomnia"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Nonorganic insomnia"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="insomnie non organique"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="75544000"></code>
+         <display value="Opioid dependence"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Opioid dependence"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="dépendance aux opioïdes"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="288861000119108"></code>
+         <display value="Opioid-induced mood disorder due to opioid dependence"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Opioid-induced mood disorder due to opioid dependence"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="trouble de l'humeur lié à la dépendance aux opioïdes"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="14784000"></code>
+         <display value="Opioid-induced organic mental disorder"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Opioid-induced organic mental disorder"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="trouble mental organique lié à l'utilisation d'opioïdes"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="396275006"></code>
+         <display value="Osteoarthritis"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Osteoarthritis"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="arthrose"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="64859006"></code>
+         <display value="Osteoporosis"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Osteoporosis"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="ostéoporose"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="371631005"></code>
+         <display value="Panic disorder"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Panic disorder"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="trouble panique"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="49049000"></code>
+         <display value="Parkinson's disease"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Parkinson's disease"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="maladie de Parkinson"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="400047006"></code>
+         <display value="Peripheral vascular disease"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Peripheral vascular disease"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="MVAS - maladie vasculaire athérosclérotique"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="33449004"></code>
+         <display value="Personality disorder"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Personality disorder"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="trouble de la personnalité"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="102447009"></code>
+         <display value="Postmenopausal osteoporosis"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Postmenopausal osteoporosis"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="ostéoporose postménopausique"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="48194001"></code>
+         <display value="Gestational hypertension"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Gestational hypertension"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="hypertension gestationnelle"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="4557003"></code>
+         <display value="Preinfarction syndrome"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Preinfarction syndrome"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="syndrome de préinfarctus"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="267432004"></code>
+         <display value="Pure hypercholesterolemia"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Pure hypercholesterolemia"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="hypercholestérolémie pure"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="191616006"></code>
+         <display value="Recurrent depression"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Recurrent depression"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="dépression récurrente"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="274647009"></code>
+         <display value="Restlessness and agitation"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Restlessness and agitation"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="inquiétude et agitation"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="29555009"></code>
+         <display value="Retinopathy"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Retinopathy"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="rétinopathie"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="69896004"></code>
+         <display value="Rheumatoid arthritis"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Rheumatoid arthritis"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="PAR - polyarthrite rhumatoïde"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="134435003"></code>
+         <display value="Routine antenatal care"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Routine antenatal care"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="soins prénataux de routine"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="58214004"></code>
+         <display value="Schizophrenia"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Schizophrenia"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="schizophrénie"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="713700008"></code>
+         <display value="Smoking cessation drug therapy"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Smoking cessation drug therapy"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="traitement antitabagique"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="55464009"></code>
+         <display value="Systemic lupus erythematosus"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Systemic lupus erythematosus"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="LED - lupus érythémateux disséminé"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="3424008"></code>
+         <display value="Tachycardia"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Tachycardia"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="tachycardie"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="46152009"></code>
+         <display value="Dry eye syndrome"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Dry eye syndrome"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="syndrome des yeux secs"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="40198004"></code>
+         <display value="Thrombophlebitis of deep veins of lower extremity"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Thrombophlebitis of deep veins of lower extremity"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="thrombophlébite des veines profondes d'une extrémité inférieure"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="313435000"></code>
+         <display value="Type 1 diabetes mellitus without complication"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Type 1 diabetes mellitus without complication"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="diabète de type 1 sans complication"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="313436004"></code>
+         <display value="Type 2 diabetes mellitus without complication"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Type 2 diabetes mellitus without complication"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="diabète sucré de type 2 sans complication"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="64766004"></code>
+         <display value="Ulcerative colitis"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Ulcerative colitis"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="CU - colite ulcéreuse"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="68566005"></code>
+         <display value="Urinary tract infectious disease"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Urinary tract infectious disease"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="maladie infectieuse des voies urinaires"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="71908006"></code>
+         <display value="Ventricular fibrillation"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Ventricular fibrillation"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="FV - fibrillation ventriculaire"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="47903000"></code>
+         <display value="Vitamin B deficiency"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Vitamin B deficiency"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="carence en vitamine B"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="34713006"></code>
+         <display value="Vitamin D deficiency"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Vitamin D deficiency"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="carence en vitamine D"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="85670002"></code>
+         <display value="Vitamin deficiency"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Vitamin deficiency"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="carence en vitamines"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="271567008"></code>
+         <display value="Whooping cough-like syndrome"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Whooping cough-like syndrome"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="syndrome coqueluchoïde"></value>
+         </designation>
+      </contains>
+   </expansion>
+</ValueSet>

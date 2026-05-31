@@ -1,0 +1,245 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+   <id value="prescriptiondiscontinuereason"></id>
+   <url value="https://fhir.infoway-inforoute.ca/ValueSet/prescriptiondiscontinuereason"></url>
+   <identifier id="2.16.840.1.113883.2.20.3.485"></identifier>
+   <version value="20230131"></version>
+   <name value="PrescriptionDiscontinueReason"></name>
+   <status value="active"></status>
+   <description value="List of reasons why an existing therapy is being discontinued by a prescriber."></description>
+   <expansion>
+      <identifier value="urn:uuid:dfd16125-1b06-4e74-9faa-3ed263dc92e8"></identifier>
+      <timestamp value="2025-07-25T11:35:26-04:00"></timestamp>
+      <total value="7"></total>
+      <contains>
+         <system value="http://hl7.org/fhir/v3/ActReason"></system>
+         <abstract value="false"></abstract>
+         <code value="INEFFECT"></code>
+         <display value="ineffective"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="The therapy has been found to not have the desired therapeutic benefit on the patient."></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="ineffective"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="inefficace"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"></system>
+         <abstract value="false"></abstract>
+         <code value="ISSUE"></code>
+         <display value="detected issue"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="There is a clinical issue for the therapy that makes continuation of the therapy inappropriate. *Open Issue:* The definition of this code does not correctly represent the concept space of its specializations (children)"></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="detected issue"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="problème détecté"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/v3/ActReason"></system>
+         <abstract value="false"></abstract>
+         <code value="NOREQ"></code>
+         <display value="no longer required for treatment"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="The underlying condition has been resolved or has evolved such that a different treatment is no longer needed."></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="no longer required for treatment"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="n'est plus nécessaire pour le traitement"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/CodeSystem/v2-0062"></system>
+         <abstract value="false"></abstract>
+         <code value="O"></code>
+         <display value="This medication has been discontinued, please see the notes for details."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="Other"></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="This medication has been discontinued, please see the notes for details."></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Le patient ne doit plus prendre ce médicament. Voir les notes."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/v3/ActReason"></system>
+         <abstract value="false"></abstract>
+         <code value="PREFUS"></code>
+         <display value="patient refuse"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="The patient refused to take the product."></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="patient refuse"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="refus du patient"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/v3/ActReason"></system>
+         <abstract value="false"></abstract>
+         <code value="REPLACE"></code>
+         <display value="change in order"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="Item in current order is no longer in use as requested and a new one has/will be created to replace it."></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="change in order"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="modification de l'ordonnance"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/v3/ActStatus"></system>
+         <abstract value="false"></abstract>
+         <code value="obsolete"></code>
+         <display value="Prescription is no longer required."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="This Act instance has been replaced by a new instance."></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Prescription is no longer required."></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="L'ordonnance n'est plus nécessaire."></value>
+         </designation>
+      </contains>
+   </expansion>
+</ValueSet>

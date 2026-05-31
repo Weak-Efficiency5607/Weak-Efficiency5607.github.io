@@ -1,0 +1,322 @@
+<result>
+  <concepts>
+    <concept>
+      <id>DF</id>
+      <name>Daily Fill</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>ActCode</codeSystemName>
+      <enDisplayName>Daily Fill</enDisplayName>
+      <frDisplayName>Exécution - qté pour un jour</frDisplayName>
+      <description>A fill providing sufficient supply for one day</description>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>EM</id>
+      <name>Emergency Supply</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>ActCode</codeSystemName>
+      <enDisplayName>Emergency Supply</enDisplayName>
+      <frDisplayName>Provision d&apos;urgence</frDisplayName>
+      <description>A supply action where there is no &apos;valid&apos; order for the supplied medication. E.g. Emergency vacation supply, weekend supply (when prescriber is unavailable to provide a renewal prescription)</description>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>FF</id>
+      <name>First Fill</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>ActCode</codeSystemName>
+      <enDisplayName>First Fill</enDisplayName>
+      <frDisplayName>Première exécution</frDisplayName>
+      <description>The initial fill against an order. (This includes initial fills against refill orders.)</description>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>FFC</id>
+      <name>First Fill - Complete</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>ActCode</codeSystemName>
+      <enDisplayName>First Fill - Complete</enDisplayName>
+      <frDisplayName>Première exécution - qté complète</frDisplayName>
+      <description>A first fill where the quantity supplied is equal to one full repetition of the ordered amount. (e.g. If the order was 90 tablets, 3 refills, a complete fill would be for the full 90 tablets).</description>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>FFP</id>
+      <name>First Fill - Part Fill</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>ActCode</codeSystemName>
+      <enDisplayName>First Fill - Part Fill</enDisplayName>
+      <frDisplayName>Première exécution - qté partielle</frDisplayName>
+      <description>A first fill where the quantity supplied is less than one full repetition of the ordered amount. (e.g. If the order was 90 tablets, 3 refills, a partial fill might be for only 30 tablets.)</description>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>FFSS</id>
+      <name>first fill, partial strength</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>ActCode</codeSystemName>
+      <enDisplayName>first fill, partial strength</enDisplayName>
+      <frDisplayName>Première exécution - concentration partielle</frDisplayName>
+      <description>A first fill where the strength supplied is less than the ordered strength. (e.g. 10mg for an order of 50mg where a subsequent fill will dispense 40mg tablets).</description>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>FS</id>
+      <name>Floor stock</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>ActCode</codeSystemName>
+      <enDisplayName>Floor stock</enDisplayName>
+      <frDisplayName>Réapprovisionnement des étalages</frDisplayName>
+      <description>A supply action to restock a smaller more local dispensary.</description>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>MS</id>
+      <name>Manufacturer Sample</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>ActCode</codeSystemName>
+      <enDisplayName>Manufacturer Sample</enDisplayName>
+      <frDisplayName>Échantillon du fabricant</frDisplayName>
+      <description>A supply of a manufacturer sample</description>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>RF</id>
+      <name>Refill</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>ActCode</codeSystemName>
+      <enDisplayName>Refill</enDisplayName>
+      <frDisplayName>Renouvellement</frDisplayName>
+      <description>A fill against an order that has already been filled (or partially filled) at least once.</description>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>RFC</id>
+      <name>Refill - Complete</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>ActCode</codeSystemName>
+      <enDisplayName>Refill - Complete</enDisplayName>
+      <frDisplayName>Renouvellement - qté complète</frDisplayName>
+      <description>A refill where the quantity supplied is equal to one full repetition of the ordered amount. (e.g. If the order was 90 tablets, 3 refills, a complete fill would be for the full 90 tablets.)</description>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>RFCS</id>
+      <name>refill complete partial strength</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>ActCode</codeSystemName>
+      <enDisplayName>refill complete partial strength</enDisplayName>
+      <frDisplayName>Renouvellement complet - concentration partielle</frDisplayName>
+      <description>A refill where the quantity supplied is equal to one full repetition of the ordered amount. (e.g. If the order was 90 tablets, 3 refills, a complete fill would be for the full 90 tablets.) and where the strength supplied is less than the ordered strength (e.g. 10mg for an order of 50mg where a subsequent fill will dispense 40mg tablets).</description>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>RFF</id>
+      <name>Refill (First fill this facility)</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>ActCode</codeSystemName>
+      <enDisplayName>Refill (First fill this facility)</enDisplayName>
+      <frDisplayName>Renouvellement (première exécution ici)</frDisplayName>
+      <description>The first fill against an order that has already been filled at least once at another facility.</description>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>RFFS</id>
+      <name>refill partial strength (first fill this facility)</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>ActCode</codeSystemName>
+      <enDisplayName>refill partial strength (first fill this facility)</enDisplayName>
+      <frDisplayName>Renouvellement - concentration partielle (première exécution ici)</frDisplayName>
+      <description>The first fill against an order that has already been filled at least once at another facility and where the strength supplied is less than the ordered strength (e.g. 10mg for an order of 50mg where a subsequent fill will dispense 40mg tablets).</description>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>RFP</id>
+      <name>Refill - Part Fill</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>ActCode</codeSystemName>
+      <enDisplayName>Refill - Part Fill</enDisplayName>
+      <frDisplayName>Renouvellement - qté partielle</frDisplayName>
+      <description>A refill where the quantity supplied is less than one full repetition of the ordered amount. (e.g. If the order was 90 tablets, 3 refills, a partial fill might be for only 30 tablets.)</description>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>RFPS</id>
+      <name>refill part fill partial strength</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>ActCode</codeSystemName>
+      <enDisplayName>refill part fill partial strength</enDisplayName>
+      <frDisplayName>Renouvellement - qté partielle - concentration partielle</frDisplayName>
+      <description>A refill where the quantity supplied is less than one full repetition of the ordered amount. (e.g. If the order was 90 tablets, 3 refills, a partial fill might be for only 30 tablets.) and where the strength supplied is less than the ordered strength (e.g. 10mg for an order of 50mg where a subsequent fill will dispense 40mg tablets).</description>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>RFS</id>
+      <name>refill partial strength</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>ActCode</codeSystemName>
+      <enDisplayName>refill partial strength</enDisplayName>
+      <frDisplayName>Renouvellement - concentration partielle</frDisplayName>
+      <description>A fill against an order that has already been filled (or partially filled) at least once and where the strength supplied is less than the ordered strength (e.g. 10mg for an order of 50mg where a subsequent fill will dispense 40mg tablets).</description>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>SO</id>
+      <name>Script Owing</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>ActCode</codeSystemName>
+      <enDisplayName>Script Owing</enDisplayName>
+      <frDisplayName>Ordonnance à venir</frDisplayName>
+      <description>An emergency supply where the expectation is that a formal order authorizing the supply will be provided at a later date.</description>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>TB</id>
+      <name>Trial Balance</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>ActCode</codeSystemName>
+      <enDisplayName>Trial Balance</enDisplayName>
+      <frDisplayName>Restant de qté d&apos;essai</frDisplayName>
+      <description>A fill where the remainder of a &apos;complete&apos; fill is provided after a trial fill has been provided.</description>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>TBS</id>
+      <name>trial balance partial strength</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>ActCode</codeSystemName>
+      <enDisplayName>trial balance partial strength</enDisplayName>
+      <frDisplayName>Restant de qté d&apos;essai - concentration partielle</frDisplayName>
+      <description>A fill where the remainder of a &apos;complete&apos; fill is provided after a trial fill has been provided and where the strength supplied is less than the ordered strength (e.g. 10mg for an order of 50mg where a subsequent fill will dispense 40mg tablets).</description>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>TF</id>
+      <name>Trial Fill</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>ActCode</codeSystemName>
+      <enDisplayName>Trial Fill</enDisplayName>
+      <frDisplayName>Exécution - qté d&apos;essai</frDisplayName>
+      <description>A fill where a small portion is provided to allow for determination of the therapy effectiveness and patient tolerance.</description>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>UD</id>
+      <name>Unit Dose</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>ActCode</codeSystemName>
+      <enDisplayName>Unit Dose</enDisplayName>
+      <frDisplayName>Dose unitaire</frDisplayName>
+      <description>A supply action that provides sufficient material for a single dose.</description>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>UDE</id>
+      <name>unit dose equivalent</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>ActCode</codeSystemName>
+      <enDisplayName>unit dose equivalent</enDisplayName>
+      <frDisplayName>Équivalent de dose unitaire</frDisplayName>
+      <description>A supply action that provides sufficient material for a single dose via multiple products. E.g. 2 50mg tablets for a 100mg unit dose.</description>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+  </concepts>
+  <pagination>
+    <currentPage>1</currentPage>
+    <totalPages>1</totalPages>
+    <pageSize>100000</pageSize>
+    <totalRecords>22</totalRecords>
+    <firstRecord>1</firstRecord>
+    <lastRecord>22</lastRecord>
+    <nextPage>-1</nextPage>
+    <nextRecord>-1</nextRecord>
+  </pagination>
+</result>

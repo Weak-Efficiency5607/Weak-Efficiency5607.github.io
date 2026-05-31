@@ -1,0 +1,20 @@
+<version>
+  <id>2.16.840.1.113883.2.20.3.453</id>
+  <url>https://tgateway.infoway-inforoute.ca/vs/jurisdictionalerrors</url>
+  <fhirUri>https://fhir.infoway-inforoute.ca/ValueSet/jurisdictionalerrors</fhirUri>
+  <name>JurisdictionalErrors</name>
+  <versionId>20190916</versionId>
+  <effectiveDate>2019091604:00:00</effectiveDate>
+  <publicationTime>2019091712:34:03</publicationTime>
+  <description>Codes representing the various types of errors that can occur while communicating with Jurisdictional connectors.</description>
+  <status>active</status>
+  <codeSystems>
+    <codesystem>
+      <id>https://fhir.infoway-inforoute.ca/CodeSystem/JurisdictionalErrors</id>
+      <name>JurisdictionalErrors</name>
+      <businessName>JurisdictionalErrors</businessName>
+      <url>https://fhir.infoway-inforoute.ca/CodeSystem/JurisdictionalErrors</url>
+      <version>20190912</version>
+    </codesystem>
+  </codeSystems>
+</version>

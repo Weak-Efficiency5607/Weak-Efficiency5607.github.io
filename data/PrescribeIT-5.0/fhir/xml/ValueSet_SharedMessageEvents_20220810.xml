@@ -1,0 +1,254 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+   <id value="sharedmessageevents"></id>
+   <url value="https://fhir.infoway-inforoute.ca/ValueSet/sharedmessageevents"></url>
+   <identifier id="2.16.840.1.113883.2.20.3.424"></identifier>
+   <version value="20220810"></version>
+   <name value="SharedMessageEvents"></name>
+   <status value="active"></status>
+   <description value="Codes defining the types of events that can trigger messages"></description>
+   <expansion>
+      <identifier value="urn:uuid:3632e14b-50ee-4c08-8c60-1f9cd7d8740a"></identifier>
+      <timestamp value="2025-07-25T11:34:49-04:00"></timestamp>
+      <total value="10"></total>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedmessageevents"></system>
+         <abstract value="false"></abstract>
+         <code value="101"></code>
+         <display value="Execute tasks from EMR"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Execute tasks from EMR"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Exécuter les tâches à partir du DME"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedmessageevents"></system>
+         <abstract value="false"></abstract>
+         <code value="201"></code>
+         <display value="Execute tasks from PMS"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Execute tasks from PMS"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Exécuter les tâches à partir du SGP"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedmessageevents"></system>
+         <abstract value="false"></abstract>
+         <code value="305"></code>
+         <display value="Send Clinical Communication"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Send Clinical Communication"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Envoyer la communication clinique"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedmessageevents"></system>
+         <abstract value="false"></abstract>
+         <code value="401"></code>
+         <display value="Send non-authoritative deferred tasks from EMR"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Send non-authoritative deferred tasks from EMR"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Envoyer des tâches différées non officielles à partir du DME"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedmessageevents"></system>
+         <abstract value="false"></abstract>
+         <code value="901"></code>
+         <display value="Message disposition notification"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Message disposition notification"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Notification de disposition du message"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedmessageevents"></system>
+         <abstract value="false"></abstract>
+         <code value="902"></code>
+         <display value="Jurisdictional RX ID Notification"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Jurisdictional RX ID Notification"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Notification pour un système provincial"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedmessageevents"></system>
+         <abstract value="false"></abstract>
+         <code value="903"></code>
+         <display value="Bundle Available for Retrieval Notification"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Bundle Available for Retrieval Notification"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Notification de regroupement de tâches récupérable"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedmessageevents"></system>
+         <abstract value="false"></abstract>
+         <code value="997"></code>
+         <display value="Asynchronous message undelivered"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Asynchronous message undelivered"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Message asynchrone non remis"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedmessageevents"></system>
+         <abstract value="false"></abstract>
+         <code value="998"></code>
+         <display value="Asynchronous hub message rejection"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Asynchronous hub message rejection"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Rejet asynchrone du message de la plateforme"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedmessageevents"></system>
+         <abstract value="false"></abstract>
+         <code value="999"></code>
+         <display value="Generic asynchronous rejection"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Generic asynchronous rejection"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Le DME/SGP a déclenché un rejet asynchrone"></value>
+         </designation>
+      </contains>
+   </expansion>
+</ValueSet>

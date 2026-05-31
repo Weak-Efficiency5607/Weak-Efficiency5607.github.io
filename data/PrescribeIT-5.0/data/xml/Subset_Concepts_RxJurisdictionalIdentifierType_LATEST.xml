@@ -1,0 +1,141 @@
+<result>
+  <concepts>
+    <concept>
+      <id>2.16.124.4.101.35.2.8</id>
+      <name>New Brunswick Drug Information System Prescription Identifier</name>
+      <codeSystemId>1.2.3.4.5</codeSystemId>
+      <codeSystemName>RxJurisdictionalIdentifierType</codeSystemName>
+      <enDisplayName>New Brunswick Drug Information System Prescription Identifier</enDisplayName>
+      <frDisplayName>Numéro d&apos;ordonnance dans le SIM de Terre-Neuve-et-Labrador [STAGING]</frDisplayName>
+      <description>Used by the New Brunswick DIS to identify prescriptions uniquely</description>
+      <effectiveDate>2019091604:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>2.16.124.7.101.20.4.8</id>
+      <name>Nova Scotia Drug Information System Prescription Identifier</name>
+      <codeSystemId>1.2.3.4.5</codeSystemId>
+      <codeSystemName>RxJurisdictionalIdentifierType</codeSystemName>
+      <enDisplayName>Nova Scotia Drug Information System Prescription Identifier</enDisplayName>
+      <frDisplayName>Numéro d&apos;ordonnance dans le SIM de la Nouvelle-Écosse</frDisplayName>
+      <description>Used by the Nova Scotia DIS to identify prescriptions uniquely</description>
+      <effectiveDate>2019091604:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>2.16.124.9.101.1.1.22</id>
+      <name>Prince Edward Island Drug Information System Prescription Identifier</name>
+      <codeSystemId>1.2.3.4.5</codeSystemId>
+      <codeSystemName>RxJurisdictionalIdentifierType</codeSystemName>
+      <enDisplayName>PEI DIS Prescription Protocol Identifier OID</enDisplayName>
+      <frDisplayName>Numéro d&apos;ordonnance (OID du protocole) dans le SIM de l&apos;Î.-P.-É.</frDisplayName>
+      <description>Used by the Prince Edward Island DIS to identify prescriptions uniquely</description>
+      <effectiveDate>2019091604:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>2.16.840.1.113883.3.133.1.5.116</id>
+      <name>Newfoundland and Labrador Drug Information System Prescription Identifier</name>
+      <codeSystemId>1.2.3.4.5</codeSystemId>
+      <codeSystemName>RxJurisdictionalIdentifierType</codeSystemName>
+      <enDisplayName>Newfoundland and Labrador Drug Information System Prescription Identifier</enDisplayName>
+      <frDisplayName>Numéro d&apos;ordonnance dans le SIM de Terre-Neuve-et-Labrador</frDisplayName>
+      <description>Used by the Newfoundland and Labrador DIS to identify prescriptions uniquely</description>
+      <effectiveDate>2019091604:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>2.16.840.1.113883.3.133.1.50.116</id>
+      <name>Newfoundland and Labrador Drug Information System Prescription Identifier [STAGING]</name>
+      <codeSystemId>1.2.3.4.5</codeSystemId>
+      <codeSystemName>RxJurisdictionalIdentifierType</codeSystemName>
+      <enDisplayName>Newfoundland and Labrador Drug Information System Prescription Identifier [STAGING]</enDisplayName>
+      <frDisplayName>Numéro d&apos;ordonnance dans le SIM du Nouveau-Brunswick</frDisplayName>
+      <description>Used by the Newfoundland and Labrador DIS to identify prescriptions uniquely [STAGING]</description>
+      <effectiveDate>2019091604:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>2.16.840.1.113883.3.144.1.4</id>
+      <name>Saskatchewan Drug Information System Prescription Identifier</name>
+      <codeSystemId>1.2.3.4.5</codeSystemId>
+      <codeSystemName>RxJurisdictionalIdentifierType</codeSystemName>
+      <enDisplayName>PIP Generated Drug Information System Prescription Identifier</enDisplayName>
+      <frDisplayName>Numéro d&apos;ordonnance généré par le PIP de la Saskatchewan</frDisplayName>
+      <description>Used by the Saskatchewan DIS to identify prescriptions uniquely [STAGING]</description>
+      <effectiveDate>2019091604:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>2.16.840.1.113883.3.163.2.1.11</id>
+      <name>Alberta Drug Information System Prescription Identifier</name>
+      <codeSystemId>1.2.3.4.5</codeSystemId>
+      <codeSystemName>RxJurisdictionalIdentifierType</codeSystemName>
+      <enDisplayName>Alberta Drug Information System Prescription Identifier</enDisplayName>
+      <frDisplayName>Numéro d’ordonnance dans le système d&apos;information sur les médicaments de l&apos;Alberta</frDisplayName>
+      <description>Used by the Alberta DIS to identify prescriptions uniquely</description>
+      <effectiveDate>2019091604:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>2.16.840.1.113883.3.163.2.10.11</id>
+      <name>Alberta Drug Information System Prescription Identifier [TEST]</name>
+      <codeSystemId>1.2.3.4.5</codeSystemId>
+      <codeSystemName>RxJurisdictionalIdentifierType</codeSystemName>
+      <enDisplayName>Alberta Drug Information System Prescription Identifier [TEST]</enDisplayName>
+      <frDisplayName>Numéro d’ordonnance dans le système d&apos;information sur les médicaments de l&apos;Alberta [TEST]</frDisplayName>
+      <description>Used by the Alberta DIS to identify prescriptions uniquely [TEST]</description>
+      <effectiveDate>2019091604:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>AlbertaDIS</id>
+      <name>Alberta Drug Information System Prescription Identifier</name>
+      <codeSystemId>1.2.3.4.5</codeSystemId>
+      <codeSystemName>RxJurisdictionalIdentifierType</codeSystemName>
+      <enDisplayName>Alberta Drug Information System Prescription Identifier</enDisplayName>
+      <frDisplayName>Numéro d’ordonnance dans le système d&apos;information sur les médicaments de l&apos;Alberta</frDisplayName>
+      <description>Used by the Alberta DIS to identify prescriptions uniquely</description>
+      <frDescription>Numéro utilisé par le SIM de l&apos;Alberta pour identifier les ordonnances uniquement</frDescription>
+      <effectiveDate>2019091604:00:00</effectiveDate>
+      <active>false</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+  </concepts>
+  <pagination>
+    <currentPage>1</currentPage>
+    <totalPages>1</totalPages>
+    <pageSize>100000</pageSize>
+    <totalRecords>9</totalRecords>
+    <firstRecord>1</firstRecord>
+    <lastRecord>9</lastRecord>
+    <nextPage>-1</nextPage>
+    <nextRecord>-1</nextRecord>
+  </pagination>
+</result>

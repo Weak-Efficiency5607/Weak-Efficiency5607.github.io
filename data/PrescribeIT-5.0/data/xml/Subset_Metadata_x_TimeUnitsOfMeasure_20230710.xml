@@ -1,0 +1,20 @@
+<version>
+  <id>2.16.840.1.113883.2.20.3.156</id>
+  <url>https://tgateway.infoway-inforoute.ca/vs/x_timeunitsofmeasure</url>
+  <fhirUri>https://fhir.infoway-inforoute.ca/ValueSet/x_timeunitsofmeasure</fhirUri>
+  <name>x_TimeUnitsOfMeasure</name>
+  <versionId>20230710</versionId>
+  <effectiveDate>2023071004:00:00</effectiveDate>
+  <publicationTime>2023071403:10:44</publicationTime>
+  <description>Indicates how an interval of time has been measured.</description>
+  <status>active</status>
+  <codeSystems>
+    <codesystem>
+      <id>2.16.840.1.113883.6.8</id>
+      <name>UCUM</name>
+      <businessName>UCUM</businessName>
+      <url>http://unitsofmeasure.org</url>
+      <version>1.5</version>
+    </codesystem>
+  </codeSystems>
+</version>

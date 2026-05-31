@@ -1,0 +1,20 @@
+<version>
+  <id>2.16.840.1.113883.2.20.3.412</id>
+  <url>https://tgateway.infoway-inforoute.ca/vs/prescriptiontype</url>
+  <fhirUri>https://fhir.infoway-inforoute.ca/ValueSet/prescriptiontype</fhirUri>
+  <name>PrescriptionType</name>
+  <versionId>20220615</versionId>
+  <effectiveDate>2022061504:00:00</effectiveDate>
+  <publicationTime>2022083003:18:01</publicationTime>
+  <description>Prescription types to support e-prescribing</description>
+  <status>active</status>
+  <codeSystems>
+    <codesystem>
+      <id>2.16.840.1.113883.5.1149</id>
+      <name>PrescriptionType</name>
+      <businessName>PrescriptionType</businessName>
+      <url>https://fhir.infoway-inforoute.ca/CodeSystem/prescriptiontype</url>
+      <version>20190405</version>
+    </codesystem>
+  </codeSystems>
+</version>

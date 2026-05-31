@@ -1,0 +1,98 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+   <id value="prescriptiontreatmentcategory"></id>
+   <url value="https://fhir.infoway-inforoute.ca/ValueSet/prescriptiontreatmentcategory"></url>
+   <identifier id="2.16.840.1.113883.2.20.3.408"></identifier>
+   <version value="20190415"></version>
+   <name value="PrescriptionTreatmentCategory"></name>
+   <status value="active"></status>
+   <description value="The intended duration of a medication therapy"></description>
+   <expansion>
+      <identifier value="urn:uuid:6b9e2a91-d0e2-489e-a147-b5d744c2a281"></identifier>
+      <timestamp value="2025-07-25T11:34:35-04:00"></timestamp>
+      <total value="2"></total>
+      <contains>
+         <system value="http://hl7.org/fhir/v3/ActCode"></system>
+         <abstract value="false"></abstract>
+         <code value="ACU"></code>
+         <display value="Short term/acute"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="A list of medications which the patient is only expected to consume for the duration of the current order or limited set of orders and which is not expected to be renewed."></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Short term/acute"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="Liste de médicaments que le patient est censé prendre uniquement pour la durée prescrite dans une ou plusieurs ordonnances en cours qui ne devraient pas être renouvelées."></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Court terme/aigu"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/v3/ActCode"></system>
+         <abstract value="false"></abstract>
+         <code value="CHRON"></code>
+         <display value="Continuous/chronic"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="A list of medications which are expected to be continued beyond the present order and which the patient should be assumed to be taking unless explicitly stopped."></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Continuous/chronic"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="Liste de médicaments que le patient devrait continuer de prendre après l'ordonnance en cours, à moins que le traitement soit explicitement interrompu."></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="En continu/chronique"></value>
+         </designation>
+      </contains>
+   </expansion>
+</ValueSet>

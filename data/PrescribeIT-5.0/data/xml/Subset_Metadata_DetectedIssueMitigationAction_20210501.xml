@@ -1,0 +1,20 @@
+<version>
+  <id>2.16.840.1.113883.2.20.3.466</id>
+  <url>https://tgateway.infoway-inforoute.ca/vs/detectedissuemitigationaction</url>
+  <fhirUri>https://fhir.infoway-inforoute.ca/ValueSet/detectedissuemitigationaction</fhirUri>
+  <name>DetectedIssueMitigationAction</name>
+  <versionId>20210501</versionId>
+  <effectiveDate>2021050104:00:00</effectiveDate>
+  <publicationTime>2021051805:32:33</publicationTime>
+  <description>Kinds of mitigating actions and observations that can be associated with a detected issue or contraindication, such as &apos;added concurrent therapy&apos;, &apos;prior therapy documented&apos;, etc.</description>
+  <status>active</status>
+  <codeSystems>
+    <codesystem>
+      <id>2.16.840.1.113883.5.4</id>
+      <name>ActCode</name>
+      <businessName>ActCode</businessName>
+      <url>http://hl7.org/fhir/v3/ActCode</url>
+      <version>20180812</version>
+    </codesystem>
+  </codeSystems>
+</version>

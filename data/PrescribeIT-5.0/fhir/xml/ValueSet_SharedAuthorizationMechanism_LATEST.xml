@@ -1,0 +1,29 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+   <id value="sharedauthorizationmechanism"></id>
+   <url value="https://fhir.infoway-inforoute.ca/ValueSet/sharedauthorizationmechanism"></url>
+   <identifier id="2.16.840.1.113883.2.20.3.442"></identifier>
+   <version value="20170626"></version>
+   <name value="SharedAuthorizationMechanism"></name>
+   <status value="active"></status>
+   <description value="Authorization mechanisms supported for Shared Health practitioners"></description>
+   <expansion>
+      <identifier value="urn:uuid:81450d77-75b6-4579-9401-1ea938c73069"></identifier>
+      <timestamp value="2025-07-25T11:34:39-04:00"></timestamp>
+      <total value="1"></total>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/authorizationmechanism"></system>
+         <abstract value="false"></abstract>
+         <code value="sms"></code>
+         <display value="Short Message Service"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Short Message Service"></value>
+         </designation>
+      </contains>
+   </expansion>
+</ValueSet>

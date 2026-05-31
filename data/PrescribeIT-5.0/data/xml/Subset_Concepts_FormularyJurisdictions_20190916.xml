@@ -1,0 +1,239 @@
+<result>
+  <concepts>
+    <concept>
+      <id>AB</id>
+      <name>Alberta</name>
+      <codeSystemId>http://canadapost.ca/CodeSystem/ProvinceCodes</codeSystemId>
+      <codeSystemName>Canada Post Province Codes</codeSystemName>
+      <enDisplayName>Alberta</enDisplayName>
+      <frDisplayName>Alberta</frDisplayName>
+      <effectiveDate>2019091604:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>BC</id>
+      <name>British Columbia</name>
+      <codeSystemId>http://canadapost.ca/CodeSystem/ProvinceCodes</codeSystemId>
+      <codeSystemName>Canada Post Province Codes</codeSystemName>
+      <enDisplayName>British Columbia</enDisplayName>
+      <frDisplayName>Colombie-Britannique</frDisplayName>
+      <effectiveDate>2019091604:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>DD</id>
+      <name>Department of National Defence (DND)</name>
+      <codeSystemId>https://fhir.infoway-inforoute.ca/CodeSystem/formularyjurisdictions</codeSystemId>
+      <codeSystemName>FormularyJurisdictions</codeSystemName>
+      <enDisplayName>Department of National Defence (DND)</enDisplayName>
+      <frDisplayName>Ministère de la Défense nationale</frDisplayName>
+      <description>The Department of National Defence (French: Ministère de la Défense nationale), commonly abbreviated as DND, is a Canadian government department responsible for defending Canada&apos;s interests and values at home and abroad</description>
+      <effectiveDate>2019091604:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>DV</id>
+      <name>Department of Veteran Affairs (DVA)</name>
+      <codeSystemId>https://fhir.infoway-inforoute.ca/CodeSystem/formularyjurisdictions</codeSystemId>
+      <codeSystemName>FormularyJurisdictions</codeSystemName>
+      <enDisplayName>Department of Veteran Affairs (DVA)</enDisplayName>
+      <frDisplayName>Anciens Combattants Canada (ACC)</frDisplayName>
+      <description>https://www.veterans.gc.ca/eng/financial-support/medical-costs/treatment-benefits/poc10</description>
+      <effectiveDate>2019091604:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>MB</id>
+      <name>Manitoba</name>
+      <codeSystemId>http://canadapost.ca/CodeSystem/ProvinceCodes</codeSystemId>
+      <codeSystemName>Canada Post Province Codes</codeSystemName>
+      <enDisplayName>Manitoba</enDisplayName>
+      <frDisplayName>Manitoba</frDisplayName>
+      <effectiveDate>2019091604:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>NB</id>
+      <name>New Brunswick</name>
+      <codeSystemId>http://canadapost.ca/CodeSystem/ProvinceCodes</codeSystemId>
+      <codeSystemName>Canada Post Province Codes</codeSystemName>
+      <enDisplayName>New Brunswick</enDisplayName>
+      <frDisplayName>Nouveau-Brunswick</frDisplayName>
+      <effectiveDate>2019091604:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>NI</id>
+      <name>Non-insured health benefits for First Nations and Inuit (NHIB)</name>
+      <codeSystemId>https://fhir.infoway-inforoute.ca/CodeSystem/formularyjurisdictions</codeSystemId>
+      <codeSystemName>FormularyJurisdictions</codeSystemName>
+      <enDisplayName>Non-insured health benefits for First Nations and Inuit (NHIB)</enDisplayName>
+      <frDisplayName>Services de santé non assurés (SSNA) pour les Premières Nations et les Inuits</frDisplayName>
+      <description>Canada&apos;s Non-Insured Health Benefits (NIHB) Program provides coverage for a specified range of medically necessary health-related goods and services. This program is for eligible First Nations and Inuit clients who are not covered through other: social programs private insurance plans provincial or territorial health insurance</description>
+      <effectiveDate>2019091604:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>NL</id>
+      <name>Newfoundland and Labrador</name>
+      <codeSystemId>http://canadapost.ca/CodeSystem/ProvinceCodes</codeSystemId>
+      <codeSystemName>Canada Post Province Codes</codeSystemName>
+      <enDisplayName>Newfoundland and Labrador</enDisplayName>
+      <frDisplayName>Terre-Neuve-et-Labrador</frDisplayName>
+      <effectiveDate>2019091604:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>NS</id>
+      <name>Nova Scotia</name>
+      <codeSystemId>http://canadapost.ca/CodeSystem/ProvinceCodes</codeSystemId>
+      <codeSystemName>Canada Post Province Codes</codeSystemName>
+      <enDisplayName>Nova Scotia</enDisplayName>
+      <frDisplayName>Nouvelle-Écosse</frDisplayName>
+      <effectiveDate>2019091604:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>NT</id>
+      <name>Northwest Territories</name>
+      <codeSystemId>http://canadapost.ca/CodeSystem/ProvinceCodes</codeSystemId>
+      <codeSystemName>Canada Post Province Codes</codeSystemName>
+      <enDisplayName>Northwest Territories</enDisplayName>
+      <frDisplayName>Territoires du Nord-Ouest</frDisplayName>
+      <effectiveDate>2019091604:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>NU</id>
+      <name>Nunavut</name>
+      <codeSystemId>http://canadapost.ca/CodeSystem/ProvinceCodes</codeSystemId>
+      <codeSystemName>Canada Post Province Codes</codeSystemName>
+      <enDisplayName>Nunavut</enDisplayName>
+      <frDisplayName>Nunavut</frDisplayName>
+      <effectiveDate>2019091604:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ON</id>
+      <name>Ontario</name>
+      <codeSystemId>http://canadapost.ca/CodeSystem/ProvinceCodes</codeSystemId>
+      <codeSystemName>Canada Post Province Codes</codeSystemName>
+      <enDisplayName>Ontario</enDisplayName>
+      <frDisplayName>Ontario</frDisplayName>
+      <effectiveDate>2019091604:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>PE</id>
+      <name>Prince Edward Island</name>
+      <codeSystemId>http://canadapost.ca/CodeSystem/ProvinceCodes</codeSystemId>
+      <codeSystemName>Canada Post Province Codes</codeSystemName>
+      <enDisplayName>Prince Edward Island</enDisplayName>
+      <frDisplayName>Île-du-Prince-Édouard</frDisplayName>
+      <effectiveDate>2019091604:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>QC</id>
+      <name>Quebec</name>
+      <codeSystemId>http://canadapost.ca/CodeSystem/ProvinceCodes</codeSystemId>
+      <codeSystemName>Canada Post Province Codes</codeSystemName>
+      <enDisplayName>Quebec</enDisplayName>
+      <frDisplayName>Québec</frDisplayName>
+      <effectiveDate>2019091604:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>RC</id>
+      <name>Royal Canadian Mounted Police (RCMP)</name>
+      <codeSystemId>https://fhir.infoway-inforoute.ca/CodeSystem/formularyjurisdictions</codeSystemId>
+      <codeSystemName>FormularyJurisdictions</codeSystemName>
+      <enDisplayName>Royal Canadian Mounted Police (RCMP)</enDisplayName>
+      <frDisplayName>Gendarmerie royale du Canada (GRC)</frDisplayName>
+      <description>The Royal Canadian Mounted Police is the Canadian national police service and an agency of the Ministry of Public Safety Canada.</description>
+      <effectiveDate>2019091604:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>SK</id>
+      <name>Saskatchewan</name>
+      <codeSystemId>http://canadapost.ca/CodeSystem/ProvinceCodes</codeSystemId>
+      <codeSystemName>Canada Post Province Codes</codeSystemName>
+      <enDisplayName>Saskatchewan</enDisplayName>
+      <frDisplayName>Saskatchewan</frDisplayName>
+      <effectiveDate>2019091604:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>YT</id>
+      <name>Yukon</name>
+      <codeSystemId>http://canadapost.ca/CodeSystem/ProvinceCodes</codeSystemId>
+      <codeSystemName>Canada Post Province Codes</codeSystemName>
+      <enDisplayName>Yukon</enDisplayName>
+      <frDisplayName>Yukon</frDisplayName>
+      <effectiveDate>2019091604:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+  </concepts>
+  <pagination>
+    <currentPage>1</currentPage>
+    <totalPages>1</totalPages>
+    <pageSize>100000</pageSize>
+    <totalRecords>17</totalRecords>
+    <firstRecord>1</firstRecord>
+    <lastRecord>17</lastRecord>
+    <nextPage>-1</nextPage>
+    <nextRecord>-1</nextRecord>
+  </pagination>
+</result>

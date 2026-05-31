@@ -1,0 +1,138 @@
+{
+  "resourceType": "ValueSet",
+  "id": "prescriptionsplitreason",
+  "url": "https://fhir.infoway-inforoute.ca/ValueSet/prescriptionsplitreason",
+  "identifier": [ {
+    "id": "2.16.840.1.113883.2.20.3.467"
+  } ],
+  "version": "20210501",
+  "name": "PrescriptionSplitReason",
+  "status": "active",
+  "description": "This is a reason assigned by a pharmacy management system user at the moment when they \"split\" a prescription.",
+  "expansion": {
+    "identifier": "urn:uuid:06bc2e7c-2a59-48fd-a219-4ab641ae5c3e",
+    "timestamp": "2025-07-25T11:35:18-04:00",
+    "total": 4,
+    "contains": [ {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/prescriptionsplitreason",
+      "abstract": false,
+      "code": "backOrder",
+      "display": "Product prescribed is on back order",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Product prescribed is on back order"
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Product prescribed is on back order"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Produit prescrit en rupture de stock"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/prescriptionsplitreason",
+      "abstract": false,
+      "code": "notAvailable",
+      "display": "Product prescribed is not commercially available (default)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Product prescribed is not commercially available (default)"
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Product prescribed is not commercially available (default)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Produit prescrit pas commercialisé (par défaut)"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/prescriptionsplitreason",
+      "abstract": false,
+      "code": "notCovered",
+      "display": "Product prescribed is not covered by patient’s insurance",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Product prescribed is not covered by patient’s insurance"
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Product prescribed is not covered by patient’s insurance"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Produit prescrit pas couvert par assurance du patient"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/prescriptionsplitreason",
+      "abstract": false,
+      "code": "other",
+      "display": "Patient preference, Tapering dose, Other (with free text option)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Patient preference, Tapering dose, Other (with free text option)"
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Patient preference, Tapering dose, Other (with free text option)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Préférence du patient, diminution progressive, autre (texte libre)"
+      } ]
+    } ]
+  }
+}

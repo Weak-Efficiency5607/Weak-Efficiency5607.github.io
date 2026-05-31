@@ -1,0 +1,140 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+   <id value="sharedmessageheaderresponsecodeerror"></id>
+   <url value="https://fhir.infoway-inforoute.ca/ValueSet/sharedmessageheaderresponsecodeerror"></url>
+   <identifier id="2.16.840.1.113883.2.20.3.426"></identifier>
+   <version value="20190415"></version>
+   <name value="SharedMessageHeaderResponseCodeError"></name>
+   <status value="active"></status>
+   <description value="The set of message response codes that are considered to be 'errors'"></description>
+   <expansion>
+      <identifier value="urn:uuid:5793ad3c-cd02-4f7f-8f4e-6c38410e5f2d"></identifier>
+      <timestamp value="2025-07-25T11:34:51-04:00"></timestamp>
+      <total value="3"></total>
+      <contains>
+         <system value="http://hl7.org/fhir/response-code"></system>
+         <abstract value="false"></abstract>
+         <code value="fatal-error"></code>
+         <display value="Fatal error"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="The message was rejected because of a problem with the content. There is no point in re-sending without change. The response narrative SHALL describe the issue."></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Fatal error"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="Le message a été rejeté en raison d'un problème de contenu. Il est inutile de le renvoyer sans modification. Le message DOIT décrire le problème."></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Erreur fatale"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/response-code"></system>
+         <abstract value="false"></abstract>
+         <code value="ok"></code>
+         <display value="OK"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="The message was accepted and processed without error."></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="OK"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="Le message a été accepté et traité sans erreur."></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="OK"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/response-code"></system>
+         <abstract value="false"></abstract>
+         <code value="transient-error"></code>
+         <display value="Transient error"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="Some internal unexpected error occurred - wait and try again. Note - this is usually used for things like database unavailable, which may be expected to resolve, though human intervention may be required."></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Transient error"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="Une erreur interne imprévue est survenue – attendez et réessayez. Remarque : ce code est habituellement utilisé pour des situations qui devraient se rétablir d'elles-mêmes, comme une base de données inaccessible, quoiqu'une intervention humaine puisse parfois être nécessaire."></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Erreur intermittente"></value>
+         </designation>
+      </contains>
+   </expansion>
+</ValueSet>

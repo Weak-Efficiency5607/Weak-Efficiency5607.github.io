@@ -1,0 +1,89 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+   <id value="jurisdictionalerrors"></id>
+   <url value="https://fhir.infoway-inforoute.ca/ValueSet/jurisdictionalerrors"></url>
+   <identifier id="2.16.840.1.113883.2.20.3.453"></identifier>
+   <version value="20190916"></version>
+   <name value="JurisdictionalErrors"></name>
+   <status value="active"></status>
+   <description value="Codes representing the various types of errors that can occur while communicating with Jurisdictional connectors."></description>
+   <expansion>
+      <identifier value="urn:uuid:d9af714f-7854-44ca-827e-d7f5fac52836"></identifier>
+      <timestamp value="2025-07-25T11:35:10-04:00"></timestamp>
+      <total value="5"></total>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/JurisdictionalErrors"></system>
+         <abstract value="false"></abstract>
+         <code value="JUR001"></code>
+         <display value="Jurisdictional Registry Client Issue"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Jurisdictional Registry Client Issue"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/JurisdictionalErrors"></system>
+         <abstract value="false"></abstract>
+         <code value="JUR002"></code>
+         <display value="Jursidictional DIS Client Issue"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Jursidictional DIS Client Issue"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/JurisdictionalErrors"></system>
+         <abstract value="false"></abstract>
+         <code value="JUR003"></code>
+         <display value="Connector Client Issue"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Connector Client Issue"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/JurisdictionalErrors"></system>
+         <abstract value="false"></abstract>
+         <code value="JUR004"></code>
+         <display value="Jurisdictional Registry Server Issue for Registry requests"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Jurisdictional Registry Server Issue for Registry requests"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/JurisdictionalErrors"></system>
+         <abstract value="false"></abstract>
+         <code value="JUR005"></code>
+         <display value="Jurisdictional DIS Server Issue for DIS requests"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Jurisdictional DIS Server Issue for DIS requests"></value>
+         </designation>
+      </contains>
+   </expansion>
+</ValueSet>

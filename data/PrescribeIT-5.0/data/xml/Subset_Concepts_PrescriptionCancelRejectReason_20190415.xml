@@ -1,0 +1,42 @@
+<result>
+  <concepts>
+    <concept>
+      <id>FILLED</id>
+      <name>fully filled</name>
+      <codeSystemId>2.16.840.1.113883.5.8</codeSystemId>
+      <codeSystemName>ActReason</codeSystemName>
+      <enDisplayName>Fully Filled</enDisplayName>
+      <frDisplayName>Déjà exécutée</frDisplayName>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>TRANSFERRED</id>
+      <name>transferred</name>
+      <codeSystemId>8.1.1.1</codeSystemId>
+      <codeSystemName>CanadianActReason</codeSystemName>
+      <enDisplayName>Order Transferred</enDisplayName>
+      <frDisplayName>Ordonnance transférée</frDisplayName>
+      <description>The order was transferred and is no longer authorized by this facility.</description>
+      <frDescription>L&apos;ordonnance a été transférée et ne relève plus de cet établissement.</frDescription>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+  </concepts>
+  <pagination>
+    <currentPage>1</currentPage>
+    <totalPages>1</totalPages>
+    <pageSize>100000</pageSize>
+    <totalRecords>2</totalRecords>
+    <firstRecord>1</firstRecord>
+    <lastRecord>2</lastRecord>
+    <nextPage>-1</nextPage>
+    <nextRecord>-1</nextRecord>
+  </pagination>
+</result>

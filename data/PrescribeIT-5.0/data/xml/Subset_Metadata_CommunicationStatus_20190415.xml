@@ -1,0 +1,20 @@
+<version>
+  <id>2.16.840.1.113883.2.20.3.437</id>
+  <url>https://tgateway.infoway-inforoute.ca/vs/communicationstatus</url>
+  <fhirUri>https://fhir.infoway-inforoute.ca/ValueSet/communicationstatus</fhirUri>
+  <name>CommunicationStatus</name>
+  <versionId>20190415</versionId>
+  <effectiveDate>2019041504:00:00</effectiveDate>
+  <publicationTime>2019051505:09:29</publicationTime>
+  <description>The status of the communication.</description>
+  <status>active</status>
+  <codeSystems>
+    <codesystem>
+      <id>2.16.840.1.113883.4.642.1.79</id>
+      <name>CommunicationStatus</name>
+      <businessName>CommunicationStatus</businessName>
+      <url>http://hl7.org/fhir/communication-status</url>
+      <version>v1.4.0-8139</version>
+    </codesystem>
+  </codeSystems>
+</version>

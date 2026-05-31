@@ -1,0 +1,106 @@
+{
+  "resourceType": "ValueSet",
+  "id": "communicationcategory",
+  "url": "https://fhir.infoway-inforoute.ca/ValueSet/communicationcategory",
+  "identifier": [ {
+    "id": "2.16.840.1.113883.2.20.3.433"
+  } ],
+  "version": "20211125",
+  "name": "CommunicationCategory",
+  "status": "active",
+  "description": "Types of communications supported for PrescribeIT systems",
+  "expansion": {
+    "identifier": "urn:uuid:d4ca2de5-8524-42d3-b26b-dabc0000a186",
+    "timestamp": "2025-07-25T11:32:41-04:00",
+    "total": 4,
+    "contains": [ {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/communicationcategory",
+      "abstract": false,
+      "code": "clarification",
+      "display": "Clarification required",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Clarification required"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Clarification requise"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/communicationcategory",
+      "abstract": false,
+      "code": "consultation",
+      "display": "Consultation",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Consultation"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Consultation"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/communicationcategory",
+      "abstract": false,
+      "code": "follow-up",
+      "display": "Clinical follow-up",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Clinical follow-up"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Suivi clinique"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/communicationcategory",
+      "abstract": false,
+      "code": "general",
+      "display": "General",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "General"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Communication générale"
+      } ]
+    } ]
+  }
+}

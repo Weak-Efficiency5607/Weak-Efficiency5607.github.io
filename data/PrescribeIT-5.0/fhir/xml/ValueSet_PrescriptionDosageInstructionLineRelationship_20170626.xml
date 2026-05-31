@@ -1,0 +1,44 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+   <id value="prescriptiondosageinstructionlinerelationship"></id>
+   <url value="https://fhir.infoway-inforoute.ca/ValueSet/prescriptiondosageinstructionlinerelationship"></url>
+   <identifier id="2.16.840.1.113883.2.20.3.407"></identifier>
+   <version value="20170626"></version>
+   <name value="PrescriptionDosageInstructionLineRelationship"></name>
+   <status value="active"></status>
+   <description value="Dosage instruction that identify what should be treated as occurring in parallel or in sequence with the preceding instruction"></description>
+   <expansion>
+      <identifier value="urn:uuid:3ff32e17-7f6d-4135-89dd-a28524f64afd"></identifier>
+      <timestamp value="2025-07-25T11:33:01-04:00"></timestamp>
+      <total value="2"></total>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/prescriptiondosageinstructionlinerelationship"></system>
+         <abstract value="false"></abstract>
+         <code value="and"></code>
+         <display value="And"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="And"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/prescriptiondosageinstructionlinerelationship"></system>
+         <abstract value="false"></abstract>
+         <code value="then"></code>
+         <display value="Then"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Then"></value>
+         </designation>
+      </contains>
+   </expansion>
+</ValueSet>

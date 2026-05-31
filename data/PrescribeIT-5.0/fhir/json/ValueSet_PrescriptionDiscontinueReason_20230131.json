@@ -1,0 +1,228 @@
+{
+  "resourceType": "ValueSet",
+  "id": "prescriptiondiscontinuereason",
+  "url": "https://fhir.infoway-inforoute.ca/ValueSet/prescriptiondiscontinuereason",
+  "identifier": [ {
+    "id": "2.16.840.1.113883.2.20.3.485"
+  } ],
+  "version": "20230131",
+  "name": "PrescriptionDiscontinueReason",
+  "status": "active",
+  "description": "List of reasons why an existing therapy is being discontinued by a prescriber.",
+  "expansion": {
+    "identifier": "urn:uuid:70ed4221-97da-4401-a648-ade6e361c872",
+    "timestamp": "2025-07-25T11:35:25-04:00",
+    "total": 7,
+    "contains": [ {
+      "system": "http://hl7.org/fhir/v3/ActReason",
+      "abstract": false,
+      "code": "INEFFECT",
+      "display": "ineffective",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "The therapy has been found to not have the desired therapeutic benefit on the patient."
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "ineffective"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "inefficace"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "abstract": false,
+      "code": "ISSUE",
+      "display": "detected issue",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "There is a clinical issue for the therapy that makes continuation of the therapy inappropriate. *Open Issue:* The definition of this code does not correctly represent the concept space of its specializations (children)"
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "detected issue"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "problème détecté"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/ActReason",
+      "abstract": false,
+      "code": "NOREQ",
+      "display": "no longer required for treatment",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "The underlying condition has been resolved or has evolved such that a different treatment is no longer needed."
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "no longer required for treatment"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "n'est plus nécessaire pour le traitement"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/CodeSystem/v2-0062",
+      "abstract": false,
+      "code": "O",
+      "display": "This medication has been discontinued, please see the notes for details.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Other"
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "This medication has been discontinued, please see the notes for details."
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Le patient ne doit plus prendre ce médicament. Voir les notes."
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/ActReason",
+      "abstract": false,
+      "code": "PREFUS",
+      "display": "patient refuse",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "The patient refused to take the product."
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "patient refuse"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "refus du patient"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/ActReason",
+      "abstract": false,
+      "code": "REPLACE",
+      "display": "change in order",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Item in current order is no longer in use as requested and a new one has/will be created to replace it."
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "change in order"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "modification de l'ordonnance"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/ActStatus",
+      "abstract": false,
+      "code": "obsolete",
+      "display": "Prescription is no longer required.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "This Act instance has been replaced by a new instance."
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Prescription is no longer required."
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "L'ordonnance n'est plus nécessaire."
+      } ]
+    } ]
+  }
+}

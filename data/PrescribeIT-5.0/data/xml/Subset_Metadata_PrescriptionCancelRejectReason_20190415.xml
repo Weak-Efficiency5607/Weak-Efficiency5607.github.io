@@ -1,0 +1,27 @@
+<version>
+  <id>2.16.840.1.113883.2.20.3.396</id>
+  <url>https://tgateway.infoway-inforoute.ca/vs/prescriptioncancelrejectreason</url>
+  <fhirUri>https://fhir.infoway-inforoute.ca/ValueSet/prescriptioncancelrejectreason</fhirUri>
+  <name>PrescriptionCancelRejectReason</name>
+  <versionId>20190415</versionId>
+  <effectiveDate>2019041504:00:00</effectiveDate>
+  <publicationTime>2019051505:09:34</publicationTime>
+  <description>Indication of why a pharmacy is rejecting the request to cancel a prescription</description>
+  <status>active</status>
+  <codeSystems>
+    <codesystem>
+      <id>2.16.840.1.113883.5.8</id>
+      <name>ActReason</name>
+      <businessName>ActReason</businessName>
+      <url>http://hl7.org/fhir/v3/ActReason</url>
+      <version>1.4.0</version>
+    </codesystem>
+    <codesystem>
+      <id>8.1.1.1</id>
+      <name>CanadianActReason</name>
+      <businessName>CanadianActReason</businessName>
+      <url>https://fhir.infoway-inforoute.ca/CodeSystem/canadianactreason</url>
+      <version>20190405</version>
+    </codesystem>
+  </codeSystems>
+</version>

@@ -1,0 +1,172 @@
+{
+  "resourceType": "ValueSet",
+  "id": "x_timeunitsofmeasure",
+  "url": "https://fhir.infoway-inforoute.ca/ValueSet/x_timeunitsofmeasure",
+  "identifier": [ {
+    "id": "2.16.840.1.113883.2.20.3.156"
+  } ],
+  "version": "20230710",
+  "name": "x_TimeUnitsOfMeasure",
+  "status": "active",
+  "description": "Indicates how an interval of time has been measured.",
+  "expansion": {
+    "identifier": "urn:uuid:b9e95e04-ecb9-4ad8-97fe-5f60f311a1d7",
+    "timestamp": "2025-07-25T11:35:21-04:00",
+    "total": 7,
+    "contains": [ {
+      "system": "http://unitsofmeasure.org",
+      "abstract": false,
+      "code": "a",
+      "display": "year(s)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "year(s)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "an(s)"
+      } ]
+    }, {
+      "system": "http://unitsofmeasure.org",
+      "abstract": false,
+      "code": "d",
+      "display": "day(s)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "day(s)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "jour(s)"
+      } ]
+    }, {
+      "system": "http://unitsofmeasure.org",
+      "abstract": false,
+      "code": "h",
+      "display": "hour(s)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "hour(s)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "heure(s)"
+      } ]
+    }, {
+      "system": "http://unitsofmeasure.org",
+      "abstract": false,
+      "code": "min",
+      "display": "minute(s)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "minute(s)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "minute(s)"
+      } ]
+    }, {
+      "system": "http://unitsofmeasure.org",
+      "abstract": false,
+      "code": "mo",
+      "display": "month(s)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "month(s)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "mois"
+      } ]
+    }, {
+      "system": "http://unitsofmeasure.org",
+      "abstract": false,
+      "code": "s",
+      "display": "second(s)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "second(s)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "seconde(s)"
+      } ]
+    }, {
+      "system": "http://unitsofmeasure.org",
+      "abstract": false,
+      "code": "wk",
+      "display": "week(s)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "week(s)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "semaine(s)"
+      } ]
+    } ]
+  }
+}

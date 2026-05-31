@@ -1,0 +1,41 @@
+<version>
+  <id>2.16.840.1.113883.2.20.3.485</id>
+  <url>https://tgateway.infoway-inforoute.ca/vs/prescriptiondiscontinuereason</url>
+  <fhirUri>https://fhir.infoway-inforoute.ca/ValueSet/prescriptiondiscontinuereason</fhirUri>
+  <name>PrescriptionDiscontinueReason</name>
+  <versionId>20230131</versionId>
+  <effectiveDate>2023013105:00:00</effectiveDate>
+  <publicationTime>2023022206:23:27</publicationTime>
+  <description>List of reasons why an existing therapy is being discontinued by a prescriber.</description>
+  <status>active</status>
+  <codeSystems>
+    <codesystem>
+      <id>2.16.840.1.113883.5.8</id>
+      <name>ActReason</name>
+      <businessName>ActReason</businessName>
+      <url>http://hl7.org/fhir/v3/ActReason</url>
+      <version>2.1.0</version>
+    </codesystem>
+    <codesystem>
+      <id>2.16.840.1.113883.5.14</id>
+      <name>ActStatus</name>
+      <businessName>ActStatus</businessName>
+      <url>http://hl7.org/fhir/v3/ActStatus</url>
+      <version>2.1.0</version>
+    </codesystem>
+    <codesystem>
+      <id>2.16.840.1.113883.18.23</id>
+      <name>eventReason</name>
+      <businessName>eventReason</businessName>
+      <url>http://terminology.hl7.org/CodeSystem/v2-0062</url>
+      <version>2.4.0</version>
+    </codesystem>
+    <codesystem>
+      <id>2.16.840.1.113883.5.4</id>
+      <name>v3 ActCode</name>
+      <businessName>v3 ActCode</businessName>
+      <url>http://terminology.hl7.org/CodeSystem/v3-ActCode</url>
+      <version>7.0.0</version>
+    </codesystem>
+  </codeSystems>
+</version>

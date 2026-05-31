@@ -1,0 +1,98 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+   <id value="sharedorganizationtype"></id>
+   <url value="https://fhir.infoway-inforoute.ca/ValueSet/sharedorganizationtype"></url>
+   <identifier id="2.16.840.1.113883.2.20.3.428"></identifier>
+   <version value="20190415"></version>
+   <name value="SharedOrganizationType"></name>
+   <status value="active"></status>
+   <description value="Organization type codes supported for Shared Health systems"></description>
+   <expansion>
+      <identifier value="urn:uuid:612c8b18-56cc-4fae-8e51-a426cf8217c8"></identifier>
+      <timestamp value="2025-07-25T11:34:54-04:00"></timestamp>
+      <total value="2"></total>
+      <contains>
+         <system value="http://hl7.org/fhir/v3/RoleCode"></system>
+         <abstract value="false"></abstract>
+         <code value="OUTPHARM"></code>
+         <display value="Outpatient pharmacy"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="A location that plays the role of delivering services which may include providing judicious, safe, efficacious, appropriate and cost effective use of medicines for treatment of patients for outpatient visits and may also be used for discharge prescriptions."></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Outpatient pharmacy"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="Lieu où sont fournis des services tels que des directives pour l'utilisation judicieuse, sûre, efficace, appropriée et économique des médicaments dans le traitement des patients en consultation externe et qui peut aussi préparer les médicaments prescrits au moment du congé."></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Pharmacie externe"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/v3/RoleCode"></system>
+         <abstract value="false"></abstract>
+         <code value="PROFF"></code>
+         <display value="Provider's office"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="Location where healthcare service was delivered, identified as the healthcare provider's practice office."></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Provider's office"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="Lieu où les soins ont été donnés, désigné comme le cabinet du professionnel de la santé."></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Cabinet du professionnel de la santé"></value>
+         </designation>
+      </contains>
+   </expansion>
+</ValueSet>

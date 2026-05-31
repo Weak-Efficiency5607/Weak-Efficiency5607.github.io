@@ -1,0 +1,194 @@
+{
+  "resourceType": "ValueSet",
+  "id": "indicationforusecontrolledsubstance",
+  "url": "https://fhir.infoway-inforoute.ca/ValueSet/indicationforusecontrolledsubstance",
+  "identifier": [ {
+    "id": "2.16.840.1.113883.2.20.3.487"
+  } ],
+  "version": "20240220",
+  "name": "IndicationForUseControlledSubstance",
+  "status": "active",
+  "description": "The clinical reason for which a medication is being ordered. This is a subset of indications for use that are allowed within a tracked or monitored prescription program.",
+  "expansion": {
+    "identifier": "urn:uuid:65058f2a-3478-4338-a693-4ec2b59add9d",
+    "timestamp": "2025-07-25T11:35:27-04:00",
+    "total": 8,
+    "contains": [ {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "103735009",
+      "display": "Palliative care",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Palliative care"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "soins palliatifs"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "213299007",
+      "display": "Postoperative pain",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Postoperative pain"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "douleur postopératoire"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "247398009",
+      "display": "Neuropathic pain",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Neuropathic pain"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "douleur neuropathique"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "25064002",
+      "display": "Headache",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Headache"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "mal de tête"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "274663001",
+      "display": "Acute pain",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Acute pain"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "douleur aiguë"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "363346000",
+      "display": "Cancer",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Cancer"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "cancer"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "385989002",
+      "display": "Substance use therapy",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Substance use therapy"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "traitement de la toxicomanie"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "762452003",
+      "display": "Chronic musculoskeletal pain",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Chronic musculoskeletal pain"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "douleur musculosquelettique chronique"
+      } ]
+    } ]
+  }
+}

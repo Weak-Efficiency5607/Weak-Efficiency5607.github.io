@@ -1,0 +1,106 @@
+{
+  "resourceType": "ValueSet",
+  "id": "prescriptionmedicationcoverage",
+  "url": "https://fhir.infoway-inforoute.ca/ValueSet/prescriptionmedicationcoverage",
+  "identifier": [ {
+    "id": "2.16.840.1.113883.2.20.3.400"
+  } ],
+  "version": "20220331",
+  "name": "PrescriptionMedicationCoverage",
+  "status": "active",
+  "description": "Codes defining whether a given prescribable product is covered by a formulary.",
+  "expansion": {
+    "identifier": "urn:uuid:37324d9c-ad96-467a-8a2e-f79026061725",
+    "timestamp": "2025-07-25T11:33:09-04:00",
+    "total": 4,
+    "contains": [ {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "22701000087106",
+      "display": "Conditional coverage",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Conditional coverage"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "couverture conditionnelle"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "22731000087103",
+      "display": "Coverage cannot be determined",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Coverage cannot be determined"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "impossible de déterminer la couverture"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "22711000087108",
+      "display": "Covered",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Covered"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "couvert"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "22721000087100",
+      "display": "Not covered",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Not covered"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "non couvert"
+      } ]
+    } ]
+  }
+}

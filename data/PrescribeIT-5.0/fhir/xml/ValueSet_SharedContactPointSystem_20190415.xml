@@ -1,0 +1,140 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+   <id value="sharedcontactpointsystem"></id>
+   <url value="https://fhir.infoway-inforoute.ca/ValueSet/sharedcontactpointsystem"></url>
+   <identifier id="2.16.840.1.113883.2.20.3.418"></identifier>
+   <version value="20190415"></version>
+   <name value="SharedContactPointSystem"></name>
+   <status value="active"></status>
+   <description value="Contact point types supported for Shared Health systems"></description>
+   <expansion>
+      <identifier value="urn:uuid:cd1ca867-04e2-436a-bfa9-2de879622d27"></identifier>
+      <timestamp value="2025-07-25T11:34:43-04:00"></timestamp>
+      <total value="3"></total>
+      <contains>
+         <system value="http://hl7.org/fhir/contact-point-system"></system>
+         <abstract value="false"></abstract>
+         <code value="email"></code>
+         <display value="Email"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="The value is an email address."></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Email"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="La valeur est une adresse électronique."></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Adresse électronique"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/contact-point-system"></system>
+         <abstract value="false"></abstract>
+         <code value="fax"></code>
+         <display value="Fax"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="The value is a fax machine. Use of full international numbers starting with + is recommended to enable automatic dialing support but not required."></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Fax"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="La valeur est un numéro de télécopieur. L'utilisation de numéros internationaux complets débutant par + est recommandée pour l'activation de la composition automatique, mais non requise."></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Télécopieur"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/contact-point-system"></system>
+         <abstract value="false"></abstract>
+         <code value="phone"></code>
+         <display value="Phone"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="The value is a telephone number used for voice calls. Use of full international numbers starting with + is recommended to enable automatic dialing support but not required."></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Phone"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="La valeur est un numéro de téléphone utilisé pour les appels vocaux. L'utilisation de numéros internationaux complets débutant par + est recommandée pour l'activation de la composition automatique, mais non requise."></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Téléphone"></value>
+         </designation>
+      </contains>
+   </expansion>
+</ValueSet>

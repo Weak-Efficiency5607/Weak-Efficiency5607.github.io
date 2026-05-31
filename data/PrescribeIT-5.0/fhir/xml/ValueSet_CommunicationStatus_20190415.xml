@@ -1,0 +1,98 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+   <id value="communicationstatus"></id>
+   <url value="https://fhir.infoway-inforoute.ca/ValueSet/communicationstatus"></url>
+   <identifier id="2.16.840.1.113883.2.20.3.437"></identifier>
+   <version value="20190415"></version>
+   <name value="CommunicationStatus"></name>
+   <status value="active"></status>
+   <description value="The status of the communication."></description>
+   <expansion>
+      <identifier value="urn:uuid:523dd571-9abf-45b8-ac3f-74eb88107240"></identifier>
+      <timestamp value="2025-07-25T11:32:45-04:00"></timestamp>
+      <total value="2"></total>
+      <contains>
+         <system value="http://hl7.org/fhir/communication-status"></system>
+         <abstract value="false"></abstract>
+         <code value="completed"></code>
+         <display value="Completed"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="The message transmission is complete, i.e., delivered to the recipient's destination."></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Completed"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="La transmission du message est terminée, c'est-à-dire que le message a été transmis au destinataire."></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Terminée"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/communication-status"></system>
+         <abstract value="false"></abstract>
+         <code value="in-progress"></code>
+         <display value="In Progress"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="The communication transmission is ongoing."></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="In Progress"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="La transmission du message est en cours."></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="En cours"></value>
+         </designation>
+      </contains>
+   </expansion>
+</ValueSet>

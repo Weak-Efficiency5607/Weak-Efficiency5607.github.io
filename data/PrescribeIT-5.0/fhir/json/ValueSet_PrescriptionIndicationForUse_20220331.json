@@ -1,0 +1,2086 @@
+{
+  "resourceType": "ValueSet",
+  "id": "prescriptionindicationforuse",
+  "url": "https://fhir.infoway-inforoute.ca/ValueSet/prescriptionindicationforuse",
+  "identifier": [ {
+    "id": "2.16.840.1.113883.2.20.3.401"
+  } ],
+  "version": "20220331",
+  "name": "PrescriptionIndicationForUse",
+  "status": "active",
+  "description": "The clinical reason for which a medication is being ordered. The content of this subset includes commonly used concepts and may expand based on user experience.",
+  "expansion": {
+    "identifier": "urn:uuid:a4b9795d-d819-442b-b6f9-0d7d7437b2fe",
+    "timestamp": "2025-07-25T11:33:07-04:00",
+    "total": 94,
+    "contains": [ {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "225606002",
+      "display": "Abnormal movement",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Abnormal movement"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "mouvement anormal"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "10509002",
+      "display": "Acute bronchitis",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Acute bronchitis"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "bronchite aiguë"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "274663001",
+      "display": "Acute pain",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Acute pain"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "douleur aiguë"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "54398005",
+      "display": "Acute upper respiratory infection",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Acute upper respiratory infection"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "infection aiguë des voies respiratoires supérieures"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "61582004",
+      "display": "Allergic rhinitis",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Allergic rhinitis"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "rhinite allergique"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "26929004",
+      "display": "Alzheimer's disease",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Alzheimer's disease"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "maladie d'Alzheimer"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "194828000",
+      "display": "Angina pectoris",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Angina pectoris"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "angor"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "197480006",
+      "display": "Anxiety disorder",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Anxiety disorder"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "trouble anxieux"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "72092001",
+      "display": "Arteriosclerotic vascular disease",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Arteriosclerotic vascular disease"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "maladie vasculaire artériosclérotique"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "3723001",
+      "display": "Arthritis",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Arthritis"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "arthrite"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "55570000",
+      "display": "Asthma without status asthmaticus",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Asthma without status asthmaticus"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "asthme sans état de mal asthmatique"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "49436004",
+      "display": "Atrial fibrillation",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Atrial fibrillation"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "FA - fibrillation auriculaire"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "10725009",
+      "display": "Benign hypertension",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Benign hypertension"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "hypertension bénigne"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "13746004",
+      "display": "Bipolar disorder",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Bipolar disorder"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "trouble bipolaire"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "128045006",
+      "display": "Cellulitis",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Cellulitis"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "cellulite"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "230690007",
+      "display": "Cerebrovascular accident",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Cerebrovascular accident"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "accident vasculaire cérébral"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "274665008",
+      "display": "Chronic intractable pain",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Chronic intractable pain"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "douleur chronique réfractaire"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "709044004",
+      "display": "Chronic kidney disease",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Chronic kidney disease"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "IRC - insuffisance rénale chronique"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "13645005",
+      "display": "Chronic obstructive lung disease",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Chronic obstructive lung disease"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "MPOC - maladie pulmonaire obstructive chronique"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "190634004",
+      "display": "Vitamin B12 deficiency",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Vitamin B12 deficiency"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "carence en vitamine B12"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "42343007",
+      "display": "Congestive heart failure",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Congestive heart failure"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "insuffisance cardiaque congestive"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "14760008",
+      "display": "Constipation",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Constipation"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "constipation"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "53741008",
+      "display": "Coronary arteriosclerosis",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Coronary arteriosclerosis"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "artériosclérose coronarienne"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "711028002",
+      "display": "Counseling about tobacco use",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Counseling about tobacco use"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "counseling lié au tabagisme"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "34000006",
+      "display": "Crohn's disease",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Crohn's disease"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "maladie de Crohn"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "52448006",
+      "display": "Dementia",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Dementia"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "démence"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "35489007",
+      "display": "Depressive disorder",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Depressive disorder"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "trouble dépressif"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "95766002",
+      "display": "Disorder of lacrimal gland",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Disorder of lacrimal gland"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "affection des glandes lacrymales"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "30281009",
+      "display": "Disorder of prostate",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Disorder of prostate"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "affection de la prostate"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "194437008",
+      "display": "Disorders of initiating and maintaining sleep",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Disorders of initiating and maintaining sleep"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "troubles liés à l'endormissement et au maintien du sommeil"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "56776001",
+      "display": "Duodenal ulcer without hemorrhage AND without perforation",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Duodenal ulcer without hemorrhage AND without perforation"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "ulcère duodénal sans hémorragie ni perforation"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "9748009",
+      "display": "Dyskinesia",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Dyskinesia"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "dyskinésie"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "84757009",
+      "display": "Epilepsy",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Epilepsy"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "épilepsie"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "268724009",
+      "display": "Excessive sexual drive",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Excessive sexual drive"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "activité sexuelle excessive"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "266435005",
+      "display": "Gastroesophageal reflux disease without esophagitis",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Gastroesophageal reflux disease without esophagitis"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "reflux gastro-œsophagien sans œsophagite"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "21897009",
+      "display": "Generalized anxiety disorder",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Generalized anxiety disorder"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "trouble d'anxiété généralisée"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "11687002",
+      "display": "Gestational diabetes mellitus",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Gestational diabetes mellitus"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "diabète gestationnel"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "23986001",
+      "display": "Glaucoma",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Glaucoma"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "glaucome"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "16331000",
+      "display": "Heartburn",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Heartburn"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "brûlures d'estomac"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "70153002",
+      "display": "Hemorrhoids",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Hemorrhoids"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "hémorroïdes"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "111859007",
+      "display": "Herpes zoster without complication",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Herpes zoster without complication"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "zona sans complication"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "55822004",
+      "display": "Hyperlipidemia",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Hyperlipidemia"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "hyperlipidémie"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "64715009",
+      "display": "Hypertensive heart disease",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Hypertensive heart disease"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "cardiopathie hypertensive"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "43339004",
+      "display": "Hypokalemia",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Hypokalemia"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "hypokaliémie"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "40930008",
+      "display": "Hypothyroidism",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Hypothyroidism"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "hypothyroïdie"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "90560007",
+      "display": "Gout",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Gout"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "goutte"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "21018002",
+      "display": "Inflammatory neuropathy",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Inflammatory neuropathy"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "neuropathie inflammatoire"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "267078001",
+      "display": "Involuntary movement",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Involuntary movement"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "mouvement involontaire"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "87522002",
+      "display": "Iron deficiency anemia",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Iron deficiency anemia"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "anémie ferriprive"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "110979008",
+      "display": "Irritant contact dermatitis",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Irritant contact dermatitis"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "dermatite de contact irritative"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "711150003",
+      "display": "Long-term current use of anticoagulant",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Long-term current use of anticoagulant"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "utilisation (actuelle) à long terme d’anticoagulants"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "85649008",
+      "display": "Folate deficiency anemia",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Folate deficiency anemia"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "anémie causée par une carence en acide folique"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "4473006",
+      "display": "Migraine with aura",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Migraine with aura"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "migraine avec aura"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "56097005",
+      "display": "Migraine without aura",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Migraine without aura"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "migraine sans aura"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "48589009",
+      "display": "Minor depressive disorder",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Minor depressive disorder"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "trouble dépressif mineur"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "231504006",
+      "display": "Mixed anxiety and depressive disorder",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Mixed anxiety and depressive disorder"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "trouble anxieux et dépressif mixte"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "46206005",
+      "display": "Mood disorder",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Mood disorder"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "trouble de l'humeur"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "26889001",
+      "display": "Myositis",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Myositis"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "myosite"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "16269008",
+      "display": "Neuralgia",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Neuralgia"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "névralgie"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "192496000",
+      "display": "Non-organic enduring personality change",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Non-organic enduring personality change"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "changement non organique durable de la personnalité"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "192454004",
+      "display": "Nonorganic insomnia",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Nonorganic insomnia"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "insomnie non organique"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "75544000",
+      "display": "Opioid dependence",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Opioid dependence"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "dépendance aux opioïdes"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "288861000119108",
+      "display": "Opioid-induced mood disorder due to opioid dependence",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Opioid-induced mood disorder due to opioid dependence"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "trouble de l'humeur lié à la dépendance aux opioïdes"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "14784000",
+      "display": "Opioid-induced organic mental disorder",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Opioid-induced organic mental disorder"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "trouble mental organique lié à l'utilisation d'opioïdes"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "396275006",
+      "display": "Osteoarthritis",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Osteoarthritis"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "arthrose"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "64859006",
+      "display": "Osteoporosis",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Osteoporosis"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "ostéoporose"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "371631005",
+      "display": "Panic disorder",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Panic disorder"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "trouble panique"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "49049000",
+      "display": "Parkinson's disease",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Parkinson's disease"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "maladie de Parkinson"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "400047006",
+      "display": "Peripheral vascular disease",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Peripheral vascular disease"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "MVAS - maladie vasculaire athérosclérotique"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "33449004",
+      "display": "Personality disorder",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Personality disorder"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "trouble de la personnalité"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "102447009",
+      "display": "Postmenopausal osteoporosis",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Postmenopausal osteoporosis"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "ostéoporose postménopausique"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "48194001",
+      "display": "Gestational hypertension",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Gestational hypertension"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "hypertension gestationnelle"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "4557003",
+      "display": "Preinfarction syndrome",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Preinfarction syndrome"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "syndrome de préinfarctus"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "267432004",
+      "display": "Pure hypercholesterolemia",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Pure hypercholesterolemia"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "hypercholestérolémie pure"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "191616006",
+      "display": "Recurrent depression",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Recurrent depression"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "dépression récurrente"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "274647009",
+      "display": "Restlessness and agitation",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Restlessness and agitation"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "inquiétude et agitation"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "29555009",
+      "display": "Retinopathy",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Retinopathy"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "rétinopathie"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "69896004",
+      "display": "Rheumatoid arthritis",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Rheumatoid arthritis"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "PAR - polyarthrite rhumatoïde"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "134435003",
+      "display": "Routine antenatal care",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Routine antenatal care"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "soins prénataux de routine"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "58214004",
+      "display": "Schizophrenia",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Schizophrenia"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "schizophrénie"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "713700008",
+      "display": "Smoking cessation drug therapy",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Smoking cessation drug therapy"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "traitement antitabagique"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "55464009",
+      "display": "Systemic lupus erythematosus",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Systemic lupus erythematosus"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "LED - lupus érythémateux disséminé"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "3424008",
+      "display": "Tachycardia",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Tachycardia"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "tachycardie"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "46152009",
+      "display": "Dry eye syndrome",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Dry eye syndrome"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "syndrome des yeux secs"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "40198004",
+      "display": "Thrombophlebitis of deep veins of lower extremity",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Thrombophlebitis of deep veins of lower extremity"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "thrombophlébite des veines profondes d'une extrémité inférieure"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "313435000",
+      "display": "Type 1 diabetes mellitus without complication",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Type 1 diabetes mellitus without complication"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "diabète de type 1 sans complication"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "313436004",
+      "display": "Type 2 diabetes mellitus without complication",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Type 2 diabetes mellitus without complication"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "diabète sucré de type 2 sans complication"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "64766004",
+      "display": "Ulcerative colitis",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Ulcerative colitis"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "CU - colite ulcéreuse"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "68566005",
+      "display": "Urinary tract infectious disease",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Urinary tract infectious disease"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "maladie infectieuse des voies urinaires"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "71908006",
+      "display": "Ventricular fibrillation",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Ventricular fibrillation"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "FV - fibrillation ventriculaire"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "47903000",
+      "display": "Vitamin B deficiency",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Vitamin B deficiency"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "carence en vitamine B"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "34713006",
+      "display": "Vitamin D deficiency",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Vitamin D deficiency"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "carence en vitamine D"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "85670002",
+      "display": "Vitamin deficiency",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Vitamin deficiency"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "carence en vitamines"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "271567008",
+      "display": "Whooping cough-like syndrome",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Whooping cough-like syndrome"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "syndrome coqueluchoïde"
+      } ]
+    } ]
+  }
+}

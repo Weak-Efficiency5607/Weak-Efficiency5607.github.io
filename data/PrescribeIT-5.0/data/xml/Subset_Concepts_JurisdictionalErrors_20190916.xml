@@ -1,0 +1,74 @@
+<result>
+  <concepts>
+    <concept>
+      <id>JUR001</id>
+      <name>Jurisdictional Registry Client Issue</name>
+      <codeSystemId>https://fhir.infoway-inforoute.ca/CodeSystem/JurisdictionalErrors</codeSystemId>
+      <codeSystemName>JurisdictionalErrors</codeSystemName>
+      <enDisplayName>Jurisdictional Registry Client Issue</enDisplayName>
+      <effectiveDate>2019091604:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>JUR002</id>
+      <name>Jursidictional DIS Client Issue</name>
+      <codeSystemId>https://fhir.infoway-inforoute.ca/CodeSystem/JurisdictionalErrors</codeSystemId>
+      <codeSystemName>JurisdictionalErrors</codeSystemName>
+      <enDisplayName>Jursidictional DIS Client Issue</enDisplayName>
+      <effectiveDate>2019091604:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>JUR003</id>
+      <name>Connector Client Issue</name>
+      <codeSystemId>https://fhir.infoway-inforoute.ca/CodeSystem/JurisdictionalErrors</codeSystemId>
+      <codeSystemName>JurisdictionalErrors</codeSystemName>
+      <enDisplayName>Connector Client Issue</enDisplayName>
+      <effectiveDate>2019091604:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>JUR004</id>
+      <name>Jurisdictional Registry Server Issue for Registry requests</name>
+      <codeSystemId>https://fhir.infoway-inforoute.ca/CodeSystem/JurisdictionalErrors</codeSystemId>
+      <codeSystemName>JurisdictionalErrors</codeSystemName>
+      <enDisplayName>Jurisdictional Registry Server Issue for Registry requests</enDisplayName>
+      <effectiveDate>2019091604:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>JUR005</id>
+      <name>Jurisdictional DIS Server Issue for DIS requests</name>
+      <codeSystemId>https://fhir.infoway-inforoute.ca/CodeSystem/JurisdictionalErrors</codeSystemId>
+      <codeSystemName>JurisdictionalErrors</codeSystemName>
+      <enDisplayName>Jurisdictional DIS Server Issue for DIS requests</enDisplayName>
+      <effectiveDate>2019091604:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+  </concepts>
+  <pagination>
+    <currentPage>1</currentPage>
+    <totalPages>1</totalPages>
+    <pageSize>100000</pageSize>
+    <totalRecords>5</totalRecords>
+    <firstRecord>1</firstRecord>
+    <lastRecord>5</lastRecord>
+    <nextPage>-1</nextPage>
+    <nextRecord>-1</nextRecord>
+  </pagination>
+</result>

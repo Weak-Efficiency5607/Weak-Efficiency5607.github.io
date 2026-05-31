@@ -1,0 +1,78 @@
+{
+  "resourceType": "ValueSet",
+  "id": "prescriptioncancelrejectreason",
+  "url": "https://fhir.infoway-inforoute.ca/ValueSet/prescriptioncancelrejectreason",
+  "identifier": [ {
+    "id": "2.16.840.1.113883.2.20.3.396"
+  } ],
+  "version": "20190415",
+  "name": "PrescriptionCancelRejectReason",
+  "status": "active",
+  "description": "Indication of why a pharmacy is rejecting the request to cancel a prescription",
+  "expansion": {
+    "identifier": "urn:uuid:36947b15-5a87-4357-949a-1851e62c84ed",
+    "timestamp": "2025-07-25T11:32:59-04:00",
+    "total": 2,
+    "contains": [ {
+      "system": "http://hl7.org/fhir/v3/ActReason",
+      "abstract": false,
+      "code": "FILLED",
+      "display": "Fully Filled",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Fully Filled"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Déjà exécutée"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/canadianactreason",
+      "abstract": false,
+      "code": "TRANSFERRED",
+      "display": "Order Transferred",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "The order was transferred and is no longer authorized by this facility."
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Order Transferred"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "L'ordonnance a été transférée et ne relève plus de cet établissement."
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Ordonnance transférée"
+      } ]
+    } ]
+  }
+}

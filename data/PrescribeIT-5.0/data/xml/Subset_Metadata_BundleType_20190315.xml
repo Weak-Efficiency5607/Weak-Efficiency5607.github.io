@@ -1,0 +1,20 @@
+<version>
+  <id>2.16.840.1.113883.2.20.3.448</id>
+  <url>https://tgateway.infoway-inforoute.ca/vs/bundletype</url>
+  <fhirUri>https://fhir.infoway-inforoute.ca/ValueSet/bundletype</fhirUri>
+  <name>BundleType</name>
+  <versionId>20190315</versionId>
+  <effectiveDate>2019031504:00:00</effectiveDate>
+  <publicationTime>2019031507:25:47</publicationTime>
+  <description>Indicates the purpose of a bundle - how it was intended to be used.</description>
+  <status>active</status>
+  <codeSystems>
+    <codesystem>
+      <id>2.16.840.1.113883.4.642.3.620</id>
+      <name>BundleType</name>
+      <businessName>BundleType</businessName>
+      <url>http://hl7.org/fhir/ValueSet/bundle-type</url>
+      <version>1.4.0</version>
+    </codesystem>
+  </codeSystems>
+</version>

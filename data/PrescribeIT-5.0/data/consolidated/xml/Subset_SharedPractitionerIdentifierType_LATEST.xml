@@ -1,0 +1,1257 @@
+<subset>
+  <id>2.16.840.1.113883.2.20.3.423</id>
+  <name>SharedPractitionerIdentifierType</name>
+  <url>https://tgateway.infoway-inforoute.ca/vs/sharedpractitioneridentifiertype</url>
+  <fhirUri>https://fhir.infoway-inforoute.ca/ValueSet/sharedpractitioneridentifiertype</fhirUri>
+  <versionId>20250529</versionId>
+  <effectiveDate>2025052904:00:00</effectiveDate>
+  <publicationTime>2025053001:48:25</publicationTime>
+  <dateLastReviewed>2025052904:00:00</dateLastReviewed>
+  <description>List of colleges responsible for issuing provider licenses across the country</description>
+  <status>active</status>
+  <category>ISO</category>
+  <domains>
+    <string>PrescribeIT</string>
+  </domains>
+  <properties/>
+  <owner>Canada Health Infoway</owner>
+  <tags>
+    <string>Extensional</string>
+  </tags>
+  <terminologies class="com.google.gson.internal.LinkedTreeMap" resolves-to="linked-hash-map"/>
+  <type>Extensional</type>
+  <viewer>singlesubset</viewer>
+  <codeSystems>
+    <codesystem>
+      <id>urn:iso:std:iso:8824:1</id>
+      <name>UniformResourceIdentifiers</name>
+      <businessName>UniformResourceIdentifiers</businessName>
+      <url>http://terminology.hl7.org/NamingSystem/uri</url>
+      <version>20190916</version>
+    </codesystem>
+  </codeSystems>
+  <concepts>
+    <concept>
+      <id>urn:oid:2.16.124.4.101.35.4.2</id>
+      <name>New Brunswick Dental Society</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>New Brunswick Dental Society</enDisplayName>
+      <frDisplayName>Société dentaire du Nouveau-Brunswick</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.124.4.101.35.4.6</id>
+      <name>New Brunswick Association of Optometrists</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>New Brunswick Association of Optometrists</enDisplayName>
+      <frDisplayName>Association des optométristes du Nouveau-Brunswick</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.124.4.101.35.4.7</id>
+      <name>New Brunswick College of Pharmacists</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>New Brunswick College of Pharmacists</enDisplayName>
+      <frDisplayName>Ordre des pharmaciens du Nouveau-Brunswick</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.124.4.101.35.4.8</id>
+      <name>Nurses Association of New Brunswick</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>Nurses Association of New Brunswick</enDisplayName>
+      <frDisplayName>Association des infirmières et infirmiers du Nouveau-Brunswick</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.124.4.101.35.4.9</id>
+      <name>Midwives Association of New Brunswick</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>Midwives Association of New Brunswick</enDisplayName>
+      <frDisplayName>Association des sages-femmes du Nouveau-Brunswick</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.124.7.101.20.7.7</id>
+      <name>Provincial Dental Board of Nova Scotia</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>Provincial Dental Board of Nova Scotia</enDisplayName>
+      <frDisplayName>Conseil dentaire de la Nouvelle-Écosse</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.124.7.101.20.7.8</id>
+      <name>College of Dental Hygienists of Nova Scotia Registration Number</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>College of Dental Hygienists of Nova Scotia Registration Number</enDisplayName>
+      <frDisplayName>Numéro d&apos;inscription au Collège des hygiénistes dentaires de la Nouvelle-Écosse</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.124.7.101.20.7.9</id>
+      <name>Midwifery Regulatory Council of Nova Scotia</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>Midwifery Regulatory Council of Nova Scotia</enDisplayName>
+      <frDisplayName>Conseil des sages-femmes de la Nouvelle-Écosse</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.3.239.13.12</id>
+      <name>Canada, Ontario, College of Midwives Registration Number</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>College of Midwives of Ontario</enDisplayName>
+      <frDisplayName>Ordre des sages-femmes de l&apos;Ontario</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.3.239.13.15</id>
+      <name>Canada, Ontario, College of Nurses Registration Number</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>College of Nurses of Ontario</enDisplayName>
+      <frDisplayName>Ordre des infirmières et infirmiers de l&apos;Ontario</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.3.239.13.17</id>
+      <name>Canada, Ontario, College of Chiropodists Registration Number</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>Canada, Ontario, College of Chiropodists Registration Number</enDisplayName>
+      <frDisplayName>Numéro d&apos;inscription à l&apos;Ordre des podologues de l’Ontario</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.3.239.13.43</id>
+      <name>Canada, Ontario, College of Pharmacists Licence Number</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>Ontario College of Pharmacists</enDisplayName>
+      <frDisplayName>Ordre des pharmaciens de l&apos;Ontario</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.3.239.13.52</id>
+      <name>Canada, Ontario, Royal College of Dental Surgeons Licence Number</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>Royal College of Dental Surgeons of Ontario</enDisplayName>
+      <frDisplayName>Ordre royal des chirurgiens-dentistes de l&apos;Ontario</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.3.239.13.7</id>
+      <name>Canada, Ontario, College of Dental Hygienists Licence Number</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>Canada, Ontario, College of Dental Hygienists Licence Number</enDisplayName>
+      <frDisplayName>Numéro de permis de l&apos;Ordre des hygiénistes dentaires de l&apos;Ontario</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.3.239.13.9</id>
+      <name>Canada, Ontario, College of Dietitians Licence Number</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>Canada, Ontario, College of Dietitians Licence Number</enDisplayName>
+      <frDisplayName>Numéro de permis de l&apos;Ordre des diététistes de l&apos;Ontario</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.3.421</id>
+      <name>College of Pharmacists of Manitoba Pharmacist License Number</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>College of Pharmacists of Manitoba Pharmacist License Number</enDisplayName>
+      <frDisplayName>Numéro de permis de l’Ordre des pharmaciens du Manitoba</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.3.422</id>
+      <name>College of Physicians and Surgeons of Manitoba License Number</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>College of Physicians and Surgeons of Manitoba License Number</enDisplayName>
+      <frDisplayName>Numéro de permis du Collège des médecins et chirurgiens du Manitoba</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.3.7747</id>
+      <name>Association of Registered Nurses of Prince Edward Island</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>Association of Registered Nurses of Prince Edward Island</enDisplayName>
+      <frDisplayName>Association des infirmières et infirmiers autorisés de l&apos;Île-du-Prince-Édouard</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.3.7748</id>
+      <name>College of Dental Surgeons of British Columbia</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>College of Dental Surgeons of British Columbia</enDisplayName>
+      <frDisplayName>Collège des chirurgiens-dentistes de la Colombie-Britannique</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.3.7749</id>
+      <name>College Of Midwives Of British Columbia</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>College Of Midwives Of British Columbia</enDisplayName>
+      <frDisplayName>Collège des sages-femmes de la Colombie-Britannique</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.3.7750</id>
+      <name>College of Midwives of Manitoba</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>College of Midwives of Manitoba</enDisplayName>
+      <frDisplayName>Ordre des sages-femmes du Manitoba</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.3.7751</id>
+      <name>College of Midwives of Newfoundland and Labrador</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>College of Midwives of Newfoundland and Labrador</enDisplayName>
+      <frDisplayName>Association des sages-femmes de Terre-Neuve-et-Labrador</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.3.7752</id>
+      <name>College of Registered Nurses of British Columbia</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>College of Registered Nurses of British Columbia</enDisplayName>
+      <frDisplayName>Collège des infirmières et infirmiers autorisés de la Colombie-Britannique</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.3.7753</id>
+      <name>College of Registered Nurses of MB</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>College of Registered Nurses of MB</enDisplayName>
+      <frDisplayName>Ordre des infirmières et infirmiers autorisés du Manitoba</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.3.7754</id>
+      <name>Dental Council of Prince Edward Island</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>Dental Council of Prince Edward Island</enDisplayName>
+      <frDisplayName>Conseil dentaire de l’Île-du-Prince-Édouard</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.3.7755</id>
+      <name>Manitoba Dental Association</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>Manitoba Dental Association</enDisplayName>
+      <frDisplayName>Association dentaire du Manitoba</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.3.7762</id>
+      <name>Prince Edward Island Midwives Association</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>Prince Edward Island Midwives Association</enDisplayName>
+      <frDisplayName>Association des sages-femmes de l’Île-du-Prince-Édouard</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.3.7882</id>
+      <name>College of Dental Hygienists of British Columbia</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>College of Dental Hygienists of British Columbia</enDisplayName>
+      <frDisplayName>Collège des hygiénistes dentaires de la Colombie-Britannique</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.3.7883</id>
+      <name>College of Dental Hygienists of Manitoba</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>College of Dental Hygienists of Manitoba</enDisplayName>
+      <frDisplayName>Ordre des hygiénistes dentaires du Manitoba</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.3.7886</id>
+      <name>L’Ordre des Hygiénistes Dentaires du Québec</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>Quebec Dental Hygienist License Number</enDisplayName>
+      <frDisplayName>Ordre des hygiénistes dentaires du Québec</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.3.7888</id>
+      <name>Newfoundland and Labrador College of Dental Hygienists</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>Newfoundland and Labrador College of Dental Hygienists</enDisplayName>
+      <frDisplayName>Association des hygiénistes dentaires de Terre-Neuve-et-Labrador</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.3.7889</id>
+      <name>Prince Edward Island Dental Hygienists&apos; Association</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>Prince Edward Island Dental Hygienists&apos; Association</enDisplayName>
+      <frDisplayName>Association des hygiénistes dentaires de l’Île-du-Prince-Édouard</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.3.7891</id>
+      <name>Saskatchewan Dental Hygienists&apos; Association</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>Saskatchewan Dental Hygienists&apos; Association</enDisplayName>
+      <frDisplayName>Association des hygiénistes dentaires de la Saskatchewan</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.3.8026</id>
+      <name>Saskatchewan Dietitians Association</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>Saskatchewan Dietitians Association</enDisplayName>
+      <frDisplayName>Association des diététistes de la Saskatchewan</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.3.8027</id>
+      <name>College of Dietitians of MB</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>College of Dietitians of MB</enDisplayName>
+      <frDisplayName>Ordre des diététistes du Manitoba</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.3.8031</id>
+      <name>Ordre professionnel des diététistes du Québec</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>Quebec Dietician license number</enDisplayName>
+      <frDisplayName>Ordre des diététistes-nutritionnistes du Québec</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.3.8032</id>
+      <name>New Brunswick Association of Dietitians</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>New Brunswick Association of Dietitians</enDisplayName>
+      <frDisplayName>Association des diététistes du Nouveau-Brunswick</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.3.8033</id>
+      <name>Nova Scotia Dietetic Association</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>Nova Scotia Dietetic Association</enDisplayName>
+      <frDisplayName>Association des diététistes de la Nouvelle-Écosse</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.3.8034</id>
+      <name>Prince Edward Island Dietitians Registration Board</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>Prince Edward Island Dietitians Registration Board</enDisplayName>
+      <frDisplayName>Conseil des diététistes de Île-du-Prince-Édouard</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.3.8035</id>
+      <name>Newfoundland and Labrador College of Dietitians</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>Newfoundland and Labrador College of Dietitians</enDisplayName>
+      <frDisplayName>Ordre des diététistes de Terre-Neuve-et-Labrador</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.4.14</id>
+      <name>Prince Edward Island, Canada College of Physicians and Surgeons License Number (peicpsln)</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>Prince Edward Island, Canada College of Physicians and Surgeons License Number (peicpsln)</enDisplayName>
+      <frDisplayName>Numéro de permis du Collège des médecins et chirurgiens de l’Île-du-Prince-Édouard</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.4.15</id>
+      <name>Prince Edward Island, Canada Pharmacy Board Pharmacist License Number</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>Prince Edward Island Canada Pharmacy Board Pharmacist License Number</enDisplayName>
+      <frDisplayName>Numéro de permis de l&apos;Ordre des pharmaciens de l&apos;Île-du-Prince-Édouard</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.4.25</id>
+      <name>College of Registered Dental Hygienists of Alberta license number</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>College of Registered Dental Hygienists of Alberta license number</enDisplayName>
+      <frDisplayName>Numéro de permis du Collège des hygiénistes dentaires autorisés de l’Alberta</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.4.261</id>
+      <name>The Newfoundland &amp; Labrador Pharmacy Board</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>The Newfoundland &amp; Labrador Pharmacy Board</enDisplayName>
+      <frDisplayName>Conseil des pharmaciens de Terre-Neuve-et-Labrador</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.4.262</id>
+      <name>Canada Newfoundland and Labrador Physician License Identifier</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>College of Physicians and Surgeons of Newfoundland and Labrador</enDisplayName>
+      <frDisplayName>Collège des médecins et chirurgiens de Terre-Neuve-et-Labrador</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.4.263</id>
+      <name>Newfoundland and Labrador Canada Dentist License Number</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>Newfoundland &amp; Labrador Dental Board</enDisplayName>
+      <frDisplayName>Conseil dentaire de Terre-Neuve-et-Labrador</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.4.265</id>
+      <name>Newfoundland and Labrador College of Optometrist</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>Newfoundland and Labrador College of Optometrist</enDisplayName>
+      <frDisplayName>Ordre des optométristes de Terre-Neuve-et-Labrador</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.4.266</id>
+      <name>Newfoundland and Labrador Canada Nurse License Number</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>Association of Registered Nurses of Newfoundland And Labrador</enDisplayName>
+      <frDisplayName>Association des infirmières et infirmiers autorisés de Terre-Neuve-et-Labrador</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.4.279</id>
+      <name>College of Physicians and Surgeons of Saskatchewan License Number</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>College of Physicians and Surgeons of Saskatchewan</enDisplayName>
+      <frDisplayName>Collège des médecins et chirurgiens de la Saskatchewan</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.4.280</id>
+      <name>College of Dental Surgeons of Saskatchewan License Number</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>College of Dental Surgeons of Saskatchewan</enDisplayName>
+      <frDisplayName>Collège des chirurgiens-dentistes de la Saskatchewan</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.4.281</id>
+      <name>Saskatchewan Canada Registered Nurse (RN) License Number</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>Saskatchewan Registered Nurses&apos; Association</enDisplayName>
+      <frDisplayName>Association des infirmières et infirmiers autorisés de la Saskatchewan</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.4.284</id>
+      <name>Saskatchewan College of Pharmacists</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>Saskatchewan College of Pharmacists</enDisplayName>
+      <frDisplayName>Ordre des pharmaciens de la Saskatchewan</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.4.285</id>
+      <name>Saskatchewan Association of Optometrists (SAO) License Number</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>Saskatchewan Association of Optometrists</enDisplayName>
+      <frDisplayName>Association des optométristes de la Saskatchewan</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.4.288</id>
+      <name>College des Medecins du Quebec</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>Quebec Physician License Number</enDisplayName>
+      <frDisplayName>Numéro de permis du Collège des médecins du Québec</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.4.298</id>
+      <name>Ordre des Pharmaciens du Québec (Canada) License Number</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>Quebec Pharmacist/pharmacy License Number</enDisplayName>
+      <frDisplayName>Numéro de permis de l&apos;Ordre des pharmaciens du Québec</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.4.299</id>
+      <name>Ordre des optométristes du Québec License Number</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>Quebec Optometrist License Number</enDisplayName>
+      <frDisplayName>Numéro de permis de l&apos;Ordre des optométristes du Québec</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.4.300</id>
+      <name>Ordre des podiatres du Québec (Canada) License Number</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>Quebec Podiatrists License Number</enDisplayName>
+      <frDisplayName>Numéro de permis de l&apos;Ordre des podiatres du Québec</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.4.301</id>
+      <name>Ordre des sages-femmes du Québec (Canada) License Number</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>Quebec Midwive License Number</enDisplayName>
+      <frDisplayName>Numéro de permis de l&apos;Ordre des sages-femmes du Québec</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.4.302</id>
+      <name>Ordre des dentistes du Québec (Canada) License Number</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>Quebec Dentist License Number</enDisplayName>
+      <frDisplayName>Numéro de permis de l&apos;Ordre des dentistes du Québec</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.4.303</id>
+      <name>Ordre des infirmières et infirmiers auxiliaires du Quebec (Canada) License Number (numéro de permis)</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>Quebec Nurse/Nurse Practitioner License Number</enDisplayName>
+      <frDisplayName>Numéro de permis de l&apos;Ordre des infirmières et infirmiers du Québec</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.4.307</id>
+      <name>Saskatchewan, Canada College of Midwives License Number</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>Saskatchewan College of Midwives</enDisplayName>
+      <frDisplayName>Ordre des sages-femmes de la Saskatchewan</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.4.33</id>
+      <name>College of Midwives of Alberta license number</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>College of Midwives of Alberta</enDisplayName>
+      <frDisplayName>Ordre des sages-femmes de l&apos;Alberta</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.4.332.1</id>
+      <name>NS Canada College of Physicians and Surgeons Registration Number</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>NS Canada College of Physicians and Surgeons Registration Number</enDisplayName>
+      <frDisplayName>Numéro d&apos;inscription au Collège des médecins et chirurgiens de la Nouvelle-Écosse</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.4.333.1</id>
+      <name>College of Registered Nurses of Nova Scotia Canada Registration Number - Nurse</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>College of Registered Nurses of Nova Scotia Canada Registration Number - Nurse</enDisplayName>
+      <frDisplayName>Numéro de permis du Collège des infirmières et infirmiers autorisés de la Nouvelle-Écosse – infirmière/infirmier</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.4.333.2</id>
+      <name>College of Registered Nurses of Nova Scotia Canada Registration Number - Nurse Practitioner</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>College of Registered Nurses of Nova Scotia Canada Registration Number - Nurse Practitioner</enDisplayName>
+      <frDisplayName>Numéro de permis du Collège des infirmières et infirmiers autorisés de la Nouvelle-Écosse – infirmière praticienne/infirmier praticien</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.4.334</id>
+      <name>Nova Scotia Canada College of Pharmacists Registration Number</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>Nova Scotia Canada College of Pharmacists Registration Number</enDisplayName>
+      <frDisplayName>Numéro de permis de l’Ordre des pharmaciens de la Nouvelle-Écosse</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.4.347</id>
+      <name>Ontario, Canada CPSO License Number</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>College of Physicians and Surgeons of Ontario</enDisplayName>
+      <frDisplayName>Ordre des médecins et chirurgiens de l’Ontario</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.4.37</id>
+      <name>The Alberta College of Optometrists license number</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>Alberta College of Optometrists</enDisplayName>
+      <frDisplayName>Ordre des optométristes de l&apos;Alberta</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.4.39</id>
+      <name>Alberta College of Pharmacists license number</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>Alberta College of Pharmacists</enDisplayName>
+      <frDisplayName>Ordre des pharmaciens de l&apos;Alberta</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.4.395</id>
+      <name>College of Optometrists of Ontario</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>College of Optometrists of Ontario</enDisplayName>
+      <frDisplayName>Ordre des optométristes de l’Ontario</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.4.402</id>
+      <name>MB (Canada) Association of Optometrists License Number</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>Manitoba Association of Optometrists</enDisplayName>
+      <frDisplayName>Association des optométristes du Manitoba</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.4.404</id>
+      <name>Prince Edward Island (Canada) Association of Optometrists License Number</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>Prince Edward Island Association of Optometrists</enDisplayName>
+      <frDisplayName>Association des optométristes de l’Île-du-Prince-Édouard</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.4.405</id>
+      <name>NOVA SCOTIA (Canada) ASSOCIATION OF OPTOMETRISTS License Number</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>Nova Scotia College of Optometrists</enDisplayName>
+      <frDisplayName>Ordre des optométristes de la Nouvelle-Écosse</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.4.41</id>
+      <name>College of Physicians and Surgeons of Alberta license number</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>College of Physicians and Surgeons of Alberta</enDisplayName>
+      <frDisplayName>Collège des médecins et chirurgiens de l&apos;Alberta</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.4.429</id>
+      <name>College of Optometrists of British Columbia (Canada) License Number</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>College of Optometrists of British Columbia</enDisplayName>
+      <frDisplayName>Ordre des optométristes de la Colombie-Britannique</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.4.43</id>
+      <name>College of Dieticians of Alberta license number</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>College of Dieticians of Alberta license number</enDisplayName>
+      <frDisplayName>Numéro de permis de l&apos;Ordre des diététistes de l&apos;Alberta</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.4.44</id>
+      <name>College and Association of Registered Nurses of Alberta license number</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>College and Association of Registered Nurses of Alberta</enDisplayName>
+      <frDisplayName>Association et ordre des infirmières et infirmiers autorisés de l&apos;Alberta</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.4.447</id>
+      <name>College of Podiatric Physicians of Alberta, Canada license number</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>College of Podiatric Physicians of Alberta, Canada license number</enDisplayName>
+      <frDisplayName>Numéro de permis de l&apos;Ordre des médecins podiatres de l&apos;Alberta</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.4.45</id>
+      <name>College of Registered Psychiatric Nurses of Alberta License Number</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>College of Registered Psychiatric Nurses of Alberta License Number</enDisplayName>
+      <frDisplayName>Numéro de permis du Collège des infirmières et infirmiers psychiatriques autorisés de l’Alberta</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.4.530</id>
+      <name>British Columbia, Canada, College of Dietitians Identifier for Registered Dietitian</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>British Columbia, Canada, College of Dietitians Identifier for Registered Dietitian</enDisplayName>
+      <frDisplayName>Numéro d&apos;ID de l&apos;Ordre des diététistes autorisés de la Colombie-Britannique</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.4.607</id>
+      <name>British Columbia, Canada, College of Pharmacists Identifier for Pharmacies</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>British Columbia, Canada, College of Pharmacists Identifier for Pharmacies</enDisplayName>
+      <frDisplayName>Numéro d&apos;ID de pharmacie de l&apos;Ordre des pharmaciens de la Colombie-Britannique</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.4.608</id>
+      <name>College of Registered Psychiatric Nurses of British Columbia</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>College of Registered Psychiatric Nurses of British Columbia</enDisplayName>
+      <frDisplayName>Collège des infirmières et infirmiers psychiatriques autorisés de la Colombie-Britannique</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.4.753</id>
+      <name>College of Podiatric Surgeons of British Columbia</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>College of Podiatric Surgeons of British Columbia</enDisplayName>
+      <frDisplayName>Ordre des chirurgiens podiatres de la Colombie-Britannique</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.4.756</id>
+      <name>College of Physicians and Surgeons of British Columbia</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>College of Physicians and Surgeons of British Columbia</enDisplayName>
+      <frDisplayName>Collège des médecins et chirurgiens de la Colombie-Britannique</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.4.759</id>
+      <name>College of Podiatrists of MB</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>College of Podiatrists of Manitoba</enDisplayName>
+      <frDisplayName>Ordre des podiatres du Manitoba</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.4.786</id>
+      <name>Saskatchewan College of Podiatrists</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>Saskatchewan College of Podiatrists</enDisplayName>
+      <frDisplayName>Ordre des podiatres de la Saskatchewan</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.4.8148</id>
+      <name>Prince Edward Island College of Pharmacy Pharmacist License Number</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>Prince Edward Island College of Pharmacy Pharmacist License Number</enDisplayName>
+      <frDisplayName>Numéro de licence de pharmacien délivrée par le Collège de pharmacie de l’Île-du-Prince-Édouard</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.4.8149</id>
+      <name>Prince Edward Island College of Pharmacy Pharmacy License Number</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>Prince Edward Island College of Pharmacy Pharmacy License Number</enDisplayName>
+      <frDisplayName>Numéro de licence de pharmacie délivrée par le Collège de pharmacie de l’Île-du-Prince-Édouard</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.4.8150</id>
+      <name>College of Registered Nurses &amp; Midwives of Prince Edward Island</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>College of Registered Nurses &amp; Midwives of Prince Edward Island</enDisplayName>
+      <frDisplayName>Collège des infirmières et infirmiers et des sages-femmes autorisés de l’Île-du-Prince-Édouard</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.4.871</id>
+      <name>College of Physicians and Surgeons of New Brunswick</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>College of Physicians and Surgeons of New Brunswick (deprecated)</enDisplayName>
+      <frDisplayName>Collège des médecins et chirurgiens du Nouveau-Brunswick</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.4.872</id>
+      <name>Professional Licensing, Department of Health, Government of Nunavut</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>Professional Licensing, Department of Health, Government of Nunavut</enDisplayName>
+      <frDisplayName>Permis d’exercice du ministère de la Santé du gouvernement du Nunavut</frDisplayName>
+      <effectiveDate>2025052904:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.124.7.101.20.5.1.1</id>
+      <name>NS Community Pharmacy Location ID</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>NS Community Pharmacy Location ID</enDisplayName>
+      <frDisplayName>ID d’emplacement de pharmacie communautaire, Nouvelle-Écosse</frDisplayName>
+      <effectiveDate>2024041004:00:00</effectiveDate>
+      <active>false</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.4.19</id>
+      <name>Prince Edward Island, Canada Department of Health Pharmacy Identifier</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>Prince Edward Island, Canada Department of Health Pharmacy Identifier</enDisplayName>
+      <frDisplayName>Numéro d&apos;ID de pharmacie du ministère de la Santé de l&apos;Île-du-Prince-Édouard</frDisplayName>
+      <effectiveDate>2024041004:00:00</effectiveDate>
+      <active>false</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.4.27</id>
+      <name>Alberta Dental Association License Number</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>Alberta Dental Association and College</enDisplayName>
+      <frDisplayName>Alberta Dental Association and College</frDisplayName>
+      <effectiveDate>2022061504:00:00</effectiveDate>
+      <active>false</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+  </concepts>
+</subset>

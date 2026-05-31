@@ -1,0 +1,70 @@
+<result>
+  <concepts>
+    <concept>
+      <id>backOrder</id>
+      <name>BackOrder</name>
+      <codeSystemId>8.1.1.3</codeSystemId>
+      <codeSystemName>PrescriptionSplitReason</codeSystemName>
+      <enDisplayName>Product prescribed is on back order</enDisplayName>
+      <frDisplayName>Produit prescrit en rupture de stock</frDisplayName>
+      <description>Product prescribed is on back order</description>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>notAvailable</id>
+      <name>NotAvailable</name>
+      <codeSystemId>8.1.1.3</codeSystemId>
+      <codeSystemName>PrescriptionSplitReason</codeSystemName>
+      <enDisplayName>Product prescribed is not commercially available (default)</enDisplayName>
+      <frDisplayName>Produit prescrit pas commercialisé (par défaut)</frDisplayName>
+      <description>Product prescribed is not commercially available (default)</description>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>notCovered</id>
+      <name>NotCovered</name>
+      <codeSystemId>8.1.1.3</codeSystemId>
+      <codeSystemName>PrescriptionSplitReason</codeSystemName>
+      <enDisplayName>Product prescribed is not covered by patient’s insurance</enDisplayName>
+      <frDisplayName>Produit prescrit pas couvert par assurance du patient</frDisplayName>
+      <description>Product prescribed is not covered by patient’s insurance</description>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>other</id>
+      <name>Other</name>
+      <codeSystemId>8.1.1.3</codeSystemId>
+      <codeSystemName>PrescriptionSplitReason</codeSystemName>
+      <enDisplayName>Patient preference, Tapering dose, Other (with free text option)</enDisplayName>
+      <frDisplayName>Préférence du patient, diminution progressive, autre (texte libre)</frDisplayName>
+      <description>Patient preference, Tapering dose, Other (with free text option)</description>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+  </concepts>
+  <pagination>
+    <currentPage>1</currentPage>
+    <totalPages>1</totalPages>
+    <pageSize>100000</pageSize>
+    <totalRecords>4</totalRecords>
+    <firstRecord>1</firstRecord>
+    <lastRecord>4</lastRecord>
+    <nextPage>-1</nextPage>
+    <nextRecord>-1</nextRecord>
+  </pagination>
+</result>

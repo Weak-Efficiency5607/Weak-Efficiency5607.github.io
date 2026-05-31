@@ -1,0 +1,64 @@
+<subset>
+  <id>2.16.840.1.113883.2.20.3.428</id>
+  <name>SharedOrganizationType</name>
+  <url>https://tgateway.infoway-inforoute.ca/vs/sharedorganizationtype</url>
+  <fhirUri>https://fhir.infoway-inforoute.ca/ValueSet/sharedorganizationtype</fhirUri>
+  <versionId>20190415</versionId>
+  <effectiveDate>2019041504:00:00</effectiveDate>
+  <publicationTime>2019051505:09:42</publicationTime>
+  <description>Organization type codes supported for Shared Health systems</description>
+  <status>active</status>
+  <category>HL7</category>
+  <domains>
+    <string>PrescribeIT</string>
+  </domains>
+  <properties/>
+  <owner>Canada Health Infoway</owner>
+  <tags>
+    <string>Extensional</string>
+  </tags>
+  <terminologies class="com.google.gson.internal.LinkedTreeMap" resolves-to="linked-hash-map"/>
+  <type>Extensional</type>
+  <viewer>singlesubset</viewer>
+  <codeSystems>
+    <codesystem>
+      <id>2.16.840.1.113883.5.111</id>
+      <name>RoleCode</name>
+      <businessName>RoleCode</businessName>
+      <url>http://hl7.org/fhir/v3/RoleCode</url>
+      <version>1.4.0</version>
+    </codesystem>
+  </codeSystems>
+  <concepts>
+    <concept>
+      <id>OUTPHARM</id>
+      <name>outpatient pharmacy</name>
+      <codeSystemId>2.16.840.1.113883.5.111</codeSystemId>
+      <codeSystemName>RoleCode</codeSystemName>
+      <enDisplayName>Outpatient pharmacy</enDisplayName>
+      <frDisplayName>Pharmacie externe</frDisplayName>
+      <description>A location that plays the role of delivering services which may include providing judicious, safe, efficacious, appropriate and cost effective use of medicines for treatment of patients for outpatient visits and may also be used for discharge prescriptions.</description>
+      <frDescription>Lieu où sont fournis des services tels que des directives pour l&apos;utilisation judicieuse, sûre, efficace, appropriée et économique des médicaments dans le traitement des patients en consultation externe et qui peut aussi préparer les médicaments prescrits au moment du congé.</frDescription>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>PROFF</id>
+      <name>Provider&apos;s Office</name>
+      <codeSystemId>2.16.840.1.113883.5.111</codeSystemId>
+      <codeSystemName>RoleCode</codeSystemName>
+      <enDisplayName>Provider&apos;s office</enDisplayName>
+      <frDisplayName>Cabinet du professionnel de la santé</frDisplayName>
+      <description>Location where healthcare service was delivered, identified as the healthcare provider&apos;s practice office.</description>
+      <frDescription>Lieu où les soins ont été donnés, désigné comme le cabinet du professionnel de la santé.</frDescription>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+  </concepts>
+</subset>

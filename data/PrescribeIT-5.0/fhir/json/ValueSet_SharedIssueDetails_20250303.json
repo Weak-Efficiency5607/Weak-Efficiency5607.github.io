@@ -1,0 +1,2026 @@
+{
+  "resourceType": "ValueSet",
+  "id": "sharedissuedetails",
+  "url": "https://fhir.infoway-inforoute.ca/ValueSet/sharedissuedetails",
+  "identifier": [ {
+    "id": "2.16.840.1.113883.2.20.3.444"
+  } ],
+  "version": "20250303",
+  "name": "SharedIssueDetails",
+  "status": "active",
+  "description": "Codes to identify the issues that are returned as errors in response to messages received.",
+  "expansion": {
+    "identifier": "urn:uuid:28c9a08a-dd2d-480e-8f72-03946f298d01",
+    "timestamp": "2025-07-25T11:34:47-04:00",
+    "total": 136,
+    "contains": [ {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS072",
+      "display": "ISS072- Your authentication token request has been received; however, the external token is invalid. Please contact your Technical Support team.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "ISS072- Your authentication token request has been received; however, the external token is invalid. Please contact your Technical Support team."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS073",
+      "display": "ISS073- Your authentication token request has been received; however, the external token required is missing in the request. Please contact your Technical Support team.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "ISS073- Your authentication token request has been received; however, the external token required is missing in the request. Please contact your Technical Support team."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS074",
+      "display": "ISS074- Your authentication token request has been received. Our attempt to connect with a third party application has failed. Please try again. If this issue persists, please contact your Technical Support team.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "ISS074- Your authentication token request has been received. Our attempt to connect with a third party application has failed. Please try again. If this issue persists, please contact your Technical Support team."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS075",
+      "display": "ISS075- Your authentication token request has been received. The external token has expired and has been rejected. Please contact your Technical Support team.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "ISS075- Your authentication token request has been received. The external token has expired and has been rejected. Please contact your Technical Support team."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS076",
+      "display": "ISS076- Your authentication token request has been received. The validation of the practitioner's license number included in the external token has failed. The license number provided did not match what we have associated to your profile. Please contact your Technical Support team.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "ISS076- Your authentication token request has been received. The validation of the practitioner's license number included in the external token has failed. The license number provided did not match what we have associated to your profile. Please contact your Technical Support team."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS077",
+      "display": "ISS077- Your authentication token request has been received. The validation of the practitioner's license issuer (OID) included in the external token has failed. The provided license issuer did not match what we have associated to your profile. Please contact your Technical Support team.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "ISS077- Your authentication token request has been received. The validation of the practitioner's license issuer (OID) included in the external token has failed. The provided license issuer did not match what we have associated to your profile. Please contact your Technical Support team."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS101",
+      "display": "This Message Header Id and message content have already been submitted. This is a duplicate submission.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "This Message Header Id and message content have already been submitted. This is a duplicate submission."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS102",
+      "display": "This is a duplicate message submission with content that differs from the original",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "This is a duplicate message submission with content that differs from the original"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS103",
+      "display": "The variable 'X-TELUS-SDF-TraceId' is needed in the request header and must not be empty",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "The variable 'X-TELUS-SDF-TraceId' is needed in the request header and must not be empty"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS115",
+      "display": "The message should be encoded with characters supported by the UTF-8 encoding only and a non-UTF-8 encoded character was detected in the message. Message rejected.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "The message should be encoded with characters supported by the UTF-8 encoding only and a non-UTF-8 encoded character was detected in the message. Message rejected."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS121",
+      "display": "FHIR Message validation failed. Message is not properly formatted.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "FHIR Message validation failed. Message is not properly formatted."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS123",
+      "display": "This Sender Clinic/Organization/Location is not recognized in the Provider Registry",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "This Sender Clinic/Organization/Location is not recognized in the Provider Registry"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS124",
+      "display": "This Destination Clinic/Organization/Location is not recognized in the Provider Registry.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "This Destination Clinic/Organization/Location is not recognized in the Provider Registry."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS125",
+      "display": "Sender does not have a contract in the Provider Registry to allow this type of message.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Sender does not have a contract in the Provider Registry to allow this type of message."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS126",
+      "display": "Destination does not have a contract in the Provider Registry to allow this type of message",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Destination does not have a contract in the Provider Registry to allow this type of message"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS127",
+      "display": "Sending application version in the inbound message does not match the value in the PrescribeIT database.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Sending application version in the inbound message does not match the value in the PrescribeIT database."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS128",
+      "display": "Sender Organization status is not active for message types : 301, 302, 305, 401, 901, 997, 998, and 999.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Sender Organization status is not active for message types : 301, 302, 305, 401, 901, 997, 998, and 999."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS129",
+      "display": "Destination Organization status is not active for message types : 301, 302, 305, 401, 901, 997, 998, and 999.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Destination Organization status is not active for message types : 301, 302, 305, 401, 901, 997, 998, and 999."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS130",
+      "display": "Prescriber does not have a relationship to the Destination Organization",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Prescriber does not have a relationship to the Destination Organization"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS141",
+      "display": "PrescribeIT™ reject due to synchronous validation failure SAML Token Validation failure ISS141 – SAML Token is not valid.Message is rejected. No re-submission",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "PrescribeIT™ reject due to synchronous validation failure SAML Token Validation failure ISS141 – SAML Token is not valid.Message is rejected. No re-submission"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS142",
+      "display": "PrescribeIT™ reject due to : Invalid SAML claim. No re-submission",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "PrescribeIT™ reject due to : Invalid SAML claim. No re-submission"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS143",
+      "display": "PrescribeIT™ Cancel Requests (e140 task) must be delivered as a standalone message; they cannot be bundled with other messages except in the case where all medication (or non-medication) orders within a prescription are cancelled at the same time. The e140 task must be bundled separately and can not be bundled with any other message type. No re-submission",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "PrescribeIT™ Cancel Requests (e140 task) must be delivered as a standalone message; they cannot be bundled with other messages except in the case where all medication (or non-medication) orders within a prescription are cancelled at the same time. The e140 task must be bundled separately and can not be bundled with any other message type. No re-submission"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS156",
+      "display": "Incorrect 401 bundle. The following tags must not be in the input bundle : message-key, last-name, birth-date.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Incorrect 401 bundle. The following tags must not be in the input bundle : message-key, last-name, birth-date."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS157",
+      "display": "Prescription bundle rejected due to prescription not found and/or missing mandatory headers. For the Deferred or Held prescriptions, mandatory headers: X-SHAREDHEALTH-EXCHANGE-SENDING-ORGANIZATION-ID and X-SHAREDHEALTH-EXCHANGE-SENDING-APP-INSTANCE-ID.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Prescription bundle rejected due to prescription not found and/or missing mandatory headers. For the Deferred or Held prescriptions, mandatory headers: X-SHAREDHEALTH-EXCHANGE-SENDING-ORGANIZATION-ID and X-SHAREDHEALTH-EXCHANGE-SENDING-APP-INSTANCE-ID."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS158",
+      "display": "This prescription has already been downloaded by another Pharmacy and is therefore not available.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "This prescription has already been downloaded by another Pharmacy and is therefore not available."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS159",
+      "display": "401 bundle rejected due to: Prescription found, but already reserved by another pharmacy.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "401 bundle rejected due to: Prescription found, but already reserved by another pharmacy."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS160",
+      "display": "Delete - 401 bundle rejected due to: Prescription found, but has not been downloaded yet.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Delete - 401 bundle rejected due to: Prescription found, but has not been downloaded yet."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS161",
+      "display": "401 bundle rejected due to: Prescription found, but already deleted (ACKNOWLEDGED).",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "401 bundle rejected due to: Prescription found, but already deleted (ACKNOWLEDGED)."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS162",
+      "display": "401 bundle rejected due to: Header X-SHAREDHEALTH-EXCHANGE-SENDING-ORGANIZATION-ID is not defined or is invalid.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "401 bundle rejected due to: Header X-SHAREDHEALTH-EXCHANGE-SENDING-ORGANIZATION-ID is not defined or is invalid."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS163",
+      "display": "401 bundle rejected due to : Header X-SHAREDHEALTH-EXCHANGE-SENDER-APPLICATION-ID is not defined. No re-submission",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "401 bundle rejected due to : Header X-SHAREDHEALTH-EXCHANGE-SENDER-APPLICATION-ID is not defined. No re-submission"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS164",
+      "display": "The request to download a prescription requires two pieces of data: (Identifier + Last name) or (Identifier + Date of Birth).",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "The request to download a prescription requires two pieces of data: (Identifier + Last name) or (Identifier + Date of Birth)."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS171",
+      "display": "New RX Failed. New Prescription Id (medicationOrder.Identifier) is not Unique No re-submission.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "New RX Failed. New Prescription Id (medicationOrder.Identifier) is not Unique No re-submission."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS172",
+      "display": "Original Dispense. Prescription Id (medicationOrder.Identifier) is not Unique. No re-submission.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Original Dispense. Prescription Id (medicationOrder.Identifier) is not Unique. No re-submission."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS173",
+      "display": "Dispense Refill. Prescription Id (medicationOrder.Identifier) is not Unique. No re-submission.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Dispense Refill. Prescription Id (medicationOrder.Identifier) is not Unique. No re-submission."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS174",
+      "display": "Cancel Pending. Prescription Id (medicationOrder.Identifier) is not Unique. No re-submission.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Cancel Pending. Prescription Id (medicationOrder.Identifier) is not Unique. No re-submission."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS175",
+      "display": "Cancel Accept. Prescription Id (medicationOrder.Identifier) is not Unique. No re-submission.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Cancel Accept. Prescription Id (medicationOrder.Identifier) is not Unique. No re-submission."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS176",
+      "display": "Cancel Decline. Prescription Id (medicationOrder.Identifier) is not Unique. No re-submission.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Cancel Decline. Prescription Id (medicationOrder.Identifier) is not Unique. No re-submission."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS177",
+      "display": "Cancel Revoke. Prescription Id (medicationOrder.Identifier) is not Unique. No re-submission.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Cancel Revoke. Prescription Id (medicationOrder.Identifier) is not Unique. No re-submission."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS178",
+      "display": "The dispense notification cannot be processed because there is cancel request in pending state",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "The dispense notification cannot be processed because there is cancel request in pending state"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS179",
+      "display": "This is the second submission of a cancel request",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "This is the second submission of a cancel request"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS181",
+      "display": "301 bundle rejected due to : Attachment size exceeds 50 MB.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "301 bundle rejected due to : Attachment size exceeds 50 MB."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS186",
+      "display": "Cancel task e-180m rejected due to : Cancel request can not be generated for Deferred prescription No re-submission",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Cancel task e-180m rejected due to : Cancel request can not be generated for Deferred prescription No re-submission"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS190",
+      "display": "305 Message from Organization to Practitioner ext-communication-enterer is mandatory",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "305 Message from Organization to Practitioner ext-communication-enterer is mandatory"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS191",
+      "display": "TPRCache search failed as the result of unavailable mandatory parameter. Required parameters must have a valid value specified",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "TPRCache search failed as the result of unavailable mandatory parameter. Required parameters must have a valid value specified"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS192",
+      "display": "TPRCache search (GET) by Identifier didn’t result in any match. Resource is not found. May be a typo in the identifier provided.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "TPRCache search (GET) by Identifier didn’t result in any match. Resource is not found. May be a typo in the identifier provided."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS193",
+      "display": "TPRCache search failed as the result of unavailable Practitioner:organization parameter in _include or _revinclude. Required parameters must have value specified. Query is not structured correctly.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "TPRCache search failed as the result of unavailable Practitioner:organization parameter in _include or _revinclude. Required parameters must have value specified. Query is not structured correctly."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS194",
+      "display": "TPRCache search failed as the result of elastic-search-attribute-set value is not equal to 001 and 002. Query is not structured correctly",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "TPRCache search failed as the result of elastic-search-attribute-set value is not equal to 001 and 002. Query is not structured correctly"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS195",
+      "display": "The [PARAMETER NAME] Value that was sent had less then mandatory length: 3 characters. Please update and try again.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "The [PARAMETER NAME] Value that was sent had less then mandatory length: 3 characters. Please update and try again."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS196",
+      "display": "The telephone number must be structured as a 10 digit number. Please update and try again.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "The telephone number must be structured as a 10 digit number. Please update and try again."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS197",
+      "display": "TPRCache search failed as the result of incorrectly formatted Request. Multiple values detected for non-repeatable parameter [Parameter Name]. This server is not configured to allow multiple (AND/OR) values for this param. No re-submission",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "TPRCache search failed as the result of incorrectly formatted Request. Multiple values detected for non-repeatable parameter [Parameter Name]. This server is not configured to allow multiple (AND/OR) values for this param. No re-submission"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS198",
+      "display": "TPRCache search failed as the result of incorrectly formatted Request. Cannot use address-line:exact and address-line:contains in same Search Query. No re-submission",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "TPRCache search failed as the result of incorrectly formatted Request. Cannot use address-line:exact and address-line:contains in same Search Query. No re-submission"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS200",
+      "display": "Bundle rejected due to: MedicationOrder identifier element is incorrect.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Bundle rejected due to: MedicationOrder identifier element is incorrect."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS201",
+      "display": "The [PARAMETER NAME] Value that was sent had less then mandatory length: 2 characters. Please update and try again.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "The [PARAMETER NAME] Value that was sent had less then mandatory length: 2 characters. Please update and try again."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS206",
+      "display": "The search parameters you have included in your search are not valid.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "The search parameters you have included in your search are not valid."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS212",
+      "display": "\"TPRCache search failed as the result of: Wild cards not allowed to use in search parameters.\"",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "\"TPRCache search failed as the result of: Wild cards not allowed to use in search parameters.\""
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS213",
+      "display": "\"TPRCache search failed as the result of: The FHIR endpoint on this server does not know how to handle GET operation Organization with missing parameter [role]\" Query is not structured correctly. (elastic search)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "\"TPRCache search failed as the result of: The FHIR endpoint on this server does not know how to handle GET operation Organization with missing parameter [role]\" Query is not structured correctly. (elastic search)"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS214",
+      "display": "Invalid Sender Profile Direction",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Invalid Sender Profile Direction"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS216",
+      "display": "The destination cannot receive message . No re-submission",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "The destination cannot receive message . No re-submission"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS217",
+      "display": "The destination cannot receive task . No re-submission",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "The destination cannot receive task . No re-submission"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS218",
+      "display": "Sender cannot send this task. Not conformed.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Sender cannot send this task. Not conformed."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS220",
+      "display": "One or more mandatory application header(s) is/are missing or empty.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "One or more mandatory application header(s) is/are missing or empty."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS221",
+      "display": "When a formulary query request is found to be invalid then PrescribeIT™ must send a coded error response back to the EMR. These scenarios must include: The Application Id given with header X-TELUS-SDF-APPID not found in the provider registry.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "When a formulary query request is found to be invalid then PrescribeIT™ must send a coded error response back to the EMR. These scenarios must include: The Application Id given with header X-TELUS-SDF-APPID not found in the provider registry."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS222",
+      "display": "Provided application id is not recognized in the Provider Registry.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Provided application id is not recognized in the Provider Registry."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS223",
+      "display": "Provided application instance id is not recognized in the Provider Registry.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Provided application instance id is not recognized in the Provider Registry."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS224",
+      "display": "Provided organization id is not recognized in the Provider Registry.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Provided organization id is not recognized in the Provider Registry."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS225",
+      "display": "Provided practitioner id is not recognized in the Provider Registry.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Provided practitioner id is not recognized in the Provider Registry."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS226",
+      "display": "Provided application instance id is not tied to the provided application id in the Provider Registry.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Provided application instance id is not tied to the provided application id in the Provider Registry."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS227",
+      "display": "Provided application id is not allowed to send request on behalf of provided organization id according to the Provider registry",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Provided application id is not allowed to send request on behalf of provided organization id according to the Provider registry"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS228",
+      "display": "Provided organization id has not the expected PrescibeIT enrolment to perform this request, or the organization is not active.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Provided organization id has not the expected PrescibeIT enrolment to perform this request, or the organization is not active."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS229",
+      "display": "MessageHeader/source/endpoint does not match Communication/reply-to/valueReference/reference value, Or Communication/reply-to/valueReference/reference value does not match Communication/sender",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "MessageHeader/source/endpoint does not match Communication/reply-to/valueReference/reference value, Or Communication/reply-to/valueReference/reference value does not match Communication/sender"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS230",
+      "display": "MessageHeader/destination/endpoint does not match Communication/recipient/OBO/valueReference/reference value",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "MessageHeader/destination/endpoint does not match Communication/recipient/OBO/valueReference/reference value"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS231",
+      "display": "Recipient Organization/OBO does not exist in registry",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Recipient Organization/OBO does not exist in registry"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS233",
+      "display": "Communication/Sender does not match Communication/replay-to/valueReference/reference value.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Communication/Sender does not match Communication/replay-to/valueReference/reference value."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS234",
+      "display": "Sender is LOCUM: MessageHeader/source/endpoint does not match Communication/reply-to/OBO/valueReference/reference value.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Sender is LOCUM: MessageHeader/source/endpoint does not match Communication/reply-to/OBO/valueReference/reference value."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS235",
+      "display": "Communication/reply-to/ext-reference-on-behalf-of does not exist",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Communication/reply-to/ext-reference-on-behalf-of does not exist"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS242",
+      "display": "MessageHeader/destination/endpoint does not match Communication/recipient/OBO/valueReference/reference value.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "MessageHeader/destination/endpoint does not match Communication/recipient/OBO/valueReference/reference value."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS245",
+      "display": "301/305 message sent with an attachment payload where UUID of the attachment has already been used.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "301/305 message sent with an attachment payload where UUID of the attachment has already been used."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS246",
+      "display": "305 Message from Practitioner to Organization: Sender practitioner Id is inactive.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "305 Message from Practitioner to Organization: Sender practitioner Id is inactive."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS247",
+      "display": "305 Message from Organization to Practitioner: Recipient practitioner Id is inactive.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "305 Message from Organization to Practitioner: Recipient practitioner Id is inactive."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS260",
+      "display": "TPR cache search failed as the result of invalid characters(s) in the elastic search string",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "TPR cache search failed as the result of invalid characters(s) in the elastic search string"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS529",
+      "display": "When submitting a Pharmacist Adapt (p170-m) the bundle must only contain Pharmacist Adapt tasks. We have identified tasks of different types contained in this bundle. If you are able, correct and resubmit. Else, please provide the Detail Code and Reference Number shown below. Detail Code {0} - Reference # {1}.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "When submitting a Pharmacist Adapt (p170-m) the bundle must only contain Pharmacist Adapt tasks. We have identified tasks of different types contained in this bundle. If you are able, correct and resubmit. Else, please provide the Detail Code and Reference Number shown below. Detail Code {0} - Reference # {1}."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS530",
+      "display": "When submitting a Pharmacist Prescribe task (p190-,) the bundle must only contain Pharmacist Prescribe tasks. We have identified task of different types contained in this bundle. If you are able, correct and resubmit. Else, please contact technical support and provide the Detail Code and Reference Number shown below. Detail Code {0} - Reference # {1}.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "When submitting a Pharmacist Prescribe task (p190-,) the bundle must only contain Pharmacist Prescribe tasks. We have identified task of different types contained in this bundle. If you are able, correct and resubmit. Else, please contact technical support and provide the Detail Code and Reference Number shown below. Detail Code {0} - Reference # {1}."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS531",
+      "display": "Antivirus check failed.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Antivirus check failed."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS532",
+      "display": "Attachment not available.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Attachment not available."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS533",
+      "display": "Attachment validation failed.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Attachment validation failed."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS541",
+      "display": "The message was accepted but not routed to the destination due to the capabilities of the destination system.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "The message was accepted but not routed to the destination due to the capabilities of the destination system."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS542",
+      "display": "This message cannot be delivered to the desired destination. Our profiles indicate that at least one of the messages in this bundle cannot be managed by the destination. Please revert to manual processing for this message and call Technical support and provide them with the Detail Code and Reference Number shown below. \\n\\nDetail Code {0} - Reference # {1}.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "This message cannot be delivered to the desired destination. Our profiles indicate that at least one of the messages in this bundle cannot be managed by the destination. Please revert to manual processing for this message and call Technical support and provide them with the Detail Code and Reference Number shown below. \\n\\nDetail Code {0} - Reference # {1}."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS562",
+      "display": "The fax number must be structured as a 10 digit number. Please update and try again.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "The fax number must be structured as a 10 digit number. Please update and try again."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS564",
+      "display": "Only a single name is allowed. Please update and try again.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Only a single name is allowed. Please update and try again."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS565",
+      "display": "Only a single family name is allowed. Please update and try again.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Only a single family name is allowed. Please update and try again."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS566",
+      "display": "Only a single organization.address-city is allowed. Please update and try again.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Only a single organization.address-city is allowed. Please update and try again."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS570",
+      "display": "The _lastUpdated parameter provided in the request is not valid. Please correct this and resubmit the request.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "The _lastUpdated parameter provided in the request is not valid. Please correct this and resubmit the request."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS571",
+      "display": "We have determined that you sent an acknowledgement response; however, you have sent it to an incorrect URL address. Please correct this and resend it. Note: Messages that have not been properly acknowledged will remain in your inbox.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "We have determined that you sent an acknowledgement response; however, you have sent it to an incorrect URL address. Please correct this and resend it. Note: Messages that have not been properly acknowledged will remain in your inbox."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS572",
+      "display": "The prescription bundle is found, but has been archived and therefore is no longer available for download.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "The prescription bundle is found, but has been archived and therefore is no longer available for download."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS573",
+      "display": "For message delivery validation there must be at least one of quantity or expectedSupplyDuration that must be supplied.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "For message delivery validation there must be at least one of quantity or expectedSupplyDuration that must be supplied."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS574",
+      "display": "For message delivery validation there must be at least one of total prescribed quantity or total days supply that must be supplied.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "For message delivery validation there must be at least one of total prescribed quantity or total days supply that must be supplied."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS575",
+      "display": "For message delivery validation the For Life flag cannot be set to true.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "For message delivery validation the For Life flag cannot be set to true."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS576",
+      "display": "In the message header, you must provide the CPRId representing the organization sending of this request. The CPR Id is either not found or a CPR Id has not been provided.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "In the message header, you must provide the CPRId representing the organization sending of this request. The CPR Id is either not found or a CPR Id has not been provided."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS577",
+      "display": "The CPRId presented in the registration query is associated to a jurisdiction that prevents the solution from returning the record. Therefore, no results are available.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "The CPRId presented in the registration query is associated to a jurisdiction that prevents the solution from returning the record. Therefore, no results are available."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS578",
+      "display": "During inspection of this request (clear-message-queue) we determined that a bundle id has been presented multiple times with conflicting methods (both PUT and DELETE). We cannot process this entire request.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "During inspection of this request (clear-message-queue) we determined that a bundle id has been presented multiple times with conflicting methods (both PUT and DELETE). We cannot process this entire request."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS579",
+      "display": "This request contains a method that is not supported. For the 'clear-message-queue' request, we only support PUT and DELETE.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "This request contains a method that is not supported. For the 'clear-message-queue' request, we only support PUT and DELETE."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS580",
+      "display": "For the 'clear-message- queue' when the method of PUT is provided, a 'cancel reason' must be provided.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "For the 'clear-message- queue' when the method of PUT is provided, a 'cancel reason' must be provided."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS581",
+      "display": "The prescription bundle does not have the status of 'acknowledged', therefore it is not eligible to be 'cancel/reversed'",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "The prescription bundle does not have the status of 'acknowledged', therefore it is not eligible to be 'cancel/reversed'"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS582",
+      "display": "Our records indicate that one or more of the Rx/Medication Orders within this prescription bundle are not in a state where the cancel can proceed, i.e. one or more have a 'dispense' actioned against it.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Our records indicate that one or more of the Rx/Medication Orders within this prescription bundle are not in a state where the cancel can proceed, i.e. one or more have a 'dispense' actioned against it."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS583",
+      "display": "The prescription bundle download cannot be cancelled as the PMS that has requested to cancel the download does not match the PMS that acknowledged the original download.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "The prescription bundle download cannot be cancelled as the PMS that has requested to cancel the download does not match the PMS that acknowledged the original download."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS584",
+      "display": "The prescription bundle download cannot proceed as the PMS that has requested the download does not match the pharmacy destination CPRID that is identified in the original 401 bundle.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "The prescription bundle download cannot proceed as the PMS that has requested the download does not match the pharmacy destination CPRID that is identified in the original 401 bundle."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS585",
+      "display": "The message that has been submitted cannot be routed. Based on the jurisdictional rules the sender's jurisdiction cannot send this message type. Message type not supported: 101.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "The message that has been submitted cannot be routed. Based on the jurisdictional rules the sender's jurisdiction cannot send this message type. Message type not supported: 101."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS586",
+      "display": "The message that has been submitted cannot be routed. Based on the jurisdictional rules the destination's jurisdiction cannot receive this message type. Message type not supported: 101.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "The message that has been submitted cannot be routed. Based on the jurisdictional rules the destination's jurisdiction cannot receive this message type. Message type not supported: 101."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS587",
+      "display": "The message that has been submitted cannot be routed. Based on the jurisdictional rules the sender's jurisdiction cannot send this message type. Message types not supported: 201, 305, 401.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "The message that has been submitted cannot be routed. Based on the jurisdictional rules the sender's jurisdiction cannot send this message type. Message types not supported: 201, 305, 401."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS588",
+      "display": "The message that has been submitted cannot be routed. Based on the jurisdictional rules the destination's jurisdiction cannot receive this message type. Message types not supported: 201, 305, 401.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "The message that has been submitted cannot be routed. Based on the jurisdictional rules the destination's jurisdiction cannot receive this message type. Message types not supported: 201, 305, 401."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS589",
+      "display": "The prescription bundle download cannot proceed as the PMS that has requested the download does not have the jurisdictional privileges to retrieve this message.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "The prescription bundle download cannot proceed as the PMS that has requested the download does not have the jurisdictional privileges to retrieve this message."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS590",
+      "display": "The message that has been submitted cannot be routed. Deferred Rx prescriptions cannot be sent with other prescription types.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "The message that has been submitted cannot be routed. Deferred Rx prescriptions cannot be sent with other prescription types."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS591",
+      "display": "The prescription bundle download cannot proceed as it is no longer available for retrieval.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "The prescription bundle download cannot proceed as it is no longer available for retrieval."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS592",
+      "display": "The Identifier is not unique. RX ID was already used and original order has been discontinued.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "The Identifier is not unique. RX ID was already used and original order has been discontinued."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS593",
+      "display": "This is the second submission of a discontinue request.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "This is the second submission of a discontinue request."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS594",
+      "display": "Message is routed via fax route.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Message is routed via fax route."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS595",
+      "display": "Message was not delivered to the destination.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Message was not delivered to the destination."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS596",
+      "display": "Message was not delivered to the destination via fax.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Message was not delivered to the destination via fax."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS597",
+      "display": "Message failed to be delivered to the destination.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Message failed to be delivered to the destination."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS598",
+      "display": "Destination didn't pick the message from their inbox.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Destination didn't pick the message from their inbox."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS599",
+      "display": "Destination polled, but didn't acknowledge the message from their inbox.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Destination polled, but didn't acknowledge the message from their inbox."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS605",
+      "display": "An attachment was not uploaded.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "An attachment was not uploaded."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS606",
+      "display": "Unable to route message to destination due to an internal error.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Unable to route message to destination due to an internal error."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS607",
+      "display": "The practitioner and organization do not have an association in the provider registry.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "The practitioner and organization do not have an association in the provider registry."
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Le praticien et l'organisation ne sont pas associés dans le registre des fournisseurs."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS608",
+      "display": "The practitioner must have a valid status, and the status must be Active or Pending.\\n Follow up with your administrator or support team if needed.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "The practitioner must have a valid status, and the status must be Active or Pending.\\n Follow up with your administrator or support team if needed."
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Le praticien doit avoir un statut valide, c'est-à-dire Actif ou En attente./nCommuniquez avec votre administrateur ou équipe de soutien, au besoin."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS609",
+      "display": "The practitioner could not be found in the provider registry.\\n Follow up with your administrator or support team if needed.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "The practitioner could not be found in the provider registry.\\n Follow up with your administrator or support team if needed."
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Impossible de trouver le praticien dans le registre des fournisseurs./nCommuniquez avec votre administrateur ou équipe de soutien, au besoin."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS610",
+      "display": "The organization must have a valid contract and its status must be Active or Pending.\\n Follow up with your administrator or support team if needed.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "The organization must have a valid contract and its status must be Active or Pending.\\n Follow up with your administrator or support team if needed."
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "L'organisation doit détenir un contrat valide et son statut doit être Actif ou En attente./nCommuniquez avec votre administrateur ou équipe de soutien, au besoin."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS611",
+      "display": "The date timestamp in the request is invalid.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "The date timestamp in the request is invalid."
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "L'horodatage de la demande n'est pas valide."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS612",
+      "display": "The organization status must be Active.\\n Follow up with your administrator or support team if needed.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "The organization status must be Active.\\n Follow up with your administrator or support team if needed."
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Le statut de l'organisation doit être actif./nCommuniquez avec votre administrateur ou équipe de soutien, au besoin."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS617",
+      "display": "The ‘Indication for Use’ value has not been provided for the following medications, which is mandatory based on regulations in your province: {1}, {2}... \\n Please add the ‘Indication for Use’ value to these medications and resubmit them.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "The ‘Indication for Use’ value has not been provided for the following medications, which is mandatory based on regulations in your province: {1}, {2}... \\n Please add the ‘Indication for Use’ value to these medications and resubmit them."
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "L'indication d'utilisation n'a pas été fournie pour les médicaments suivants; il s'agit d'une valeur obligatoire établie en fonction de la réglementation dans votre province : {1}, {2}... \\n Veuillez ajouter la valeur de l'indication d'utilisation à ces médicaments et les soumettre à nouveau."
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS621",
+      "display": "An unexpected error has occurred when searching for the destination’s list of supported messages (capabilities). Please call Technical support and provide them with the Detail Code and Reference Number shown below. \\n Detail Code {0} – Reference # {1}.",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "An unexpected error has occurred when searching for the destination’s list of supported messages (capabilities). Please call Technical support and provide them with the Detail Code and Reference Number shown below. \\n Detail Code {0} – Reference # {1}."
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Une erreur inattendue est survenue lors de la recherche de la liste de messages pris en charge par le destinataire. Veuillez communiquer avec le soutien technique et fournissez-leur le code de détail et le numéro de référence affichés ci-dessous :\\n{1}"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS622",
+      "display": "Message was accepted but not delivered to the destination due to the prescriber not having a contract with PrescribeIT",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Message was accepted but not delivered to the destination due to the prescriber not having a contract with PrescribeIT"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Le message a été accepté, mais n'a pas été livré au destinataire, car le prescripteur n’est pas enregistré à PrescripTIon"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS623",
+      "display": "Message was accepted but not delivered to the destination due to the clinic not having a contract with PrescribeIT",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Message was accepted but not delivered to the destination due to the clinic not having a contract with PrescribeIT"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Le message a été accepté, mais n'a pas été livré au destinataire, car la clinique n’est pas enregistré à PrescripTIon"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS624",
+      "display": "Message was accepted but not delivered to the destination due to the prescriber not being associated to the specified clinic",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Message was accepted but not delivered to the destination due to the prescriber not being associated to the specified clinic"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Le message a été accepté, mais n'a pas été livré au destinataire, car le prescripteur n'est pas associé à la clinique spécifiée"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS625",
+      "display": "Message was accepted but not delivered to the destination due to the prescriber being inactive on PrescribeIT",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Message was accepted but not delivered to the destination due to the prescriber being inactive on PrescribeIT"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Le message a été accepté, mais n'a pas été livré au destinataire, car le prescripteur n’est pas activé sur PrescripTIon"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails",
+      "abstract": false,
+      "code": "ISS626",
+      "display": "Message was accepted but not delivered to the destination due to the clinic being inactive on PrescribeIT",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Message was accepted but not delivered to the destination due to the clinic being inactive on PrescribeIT"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Le message a été accepté, mais n'a pas été livré au destinataire, car la clinique n’est pas activé sur PrescripTIon"
+      } ]
+    } ]
+  }
+}

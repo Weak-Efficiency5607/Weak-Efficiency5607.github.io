@@ -1,0 +1,22 @@
+<version>
+  <id>2.16.840.1.113883.2.20.3.401</id>
+  <url>https://tgateway.infoway-inforoute.ca/vs/prescriptionindicationforuse</url>
+  <fhirUri>https://fhir.infoway-inforoute.ca/ValueSet/prescriptionindicationforuse</fhirUri>
+  <name>PrescriptionIndicationForUse</name>
+  <versionId>20220331</versionId>
+  <effectiveDate>2022033104:00:00</effectiveDate>
+  <publicationTime>2022032503:18:45</publicationTime>
+  <description>The clinical reason for which a medication is being ordered. The content of this subset includes commonly used concepts and may expand based on user experience.</description>
+  <status>active</status>
+  <language>en</language>
+  <codeSystems>
+    <codesystem>
+      <id>2.16.840.1.113883.6.96</id>
+      <name>SNOMED CT CA Edition</name>
+      <businessName>SNOMED CT Canadian Edition</businessName>
+      <url>http://snomed.info/sct</url>
+      <version>20220331</version>
+      <organization>Canada Health Infoway</organization>
+    </codesystem>
+  </codeSystems>
+</version>

@@ -1,0 +1,2020 @@
+{
+  "resourceType": "ValueSet",
+  "id": "sharedpractitioneridentifiertype",
+  "url": "https://fhir.infoway-inforoute.ca/ValueSet/sharedpractitioneridentifiertype",
+  "identifier": [ {
+    "id": "2.16.840.1.113883.2.20.3.423"
+  } ],
+  "version": "20250529",
+  "name": "SharedPractitionerIdentifierType",
+  "status": "active",
+  "description": "List of colleges responsible for issuing provider licenses across the country",
+  "expansion": {
+    "identifier": "urn:uuid:12708f17-953d-480c-bf6f-a62ea2a51908",
+    "timestamp": "2025-07-25T11:34:56-04:00",
+    "total": 91,
+    "contains": [ {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.124.4.101.35.4.2",
+      "display": "New Brunswick Dental Society",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "New Brunswick Dental Society"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Société dentaire du Nouveau-Brunswick"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.124.4.101.35.4.6",
+      "display": "New Brunswick Association of Optometrists",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "New Brunswick Association of Optometrists"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Association des optométristes du Nouveau-Brunswick"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.124.4.101.35.4.7",
+      "display": "New Brunswick College of Pharmacists",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "New Brunswick College of Pharmacists"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Ordre des pharmaciens du Nouveau-Brunswick"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.124.4.101.35.4.8",
+      "display": "Nurses Association of New Brunswick",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Nurses Association of New Brunswick"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Association des infirmières et infirmiers du Nouveau-Brunswick"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.124.4.101.35.4.9",
+      "display": "Midwives Association of New Brunswick",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Midwives Association of New Brunswick"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Association des sages-femmes du Nouveau-Brunswick"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.124.7.101.20.7.7",
+      "display": "Provincial Dental Board of Nova Scotia",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Provincial Dental Board of Nova Scotia"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Conseil dentaire de la Nouvelle-Écosse"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.124.7.101.20.7.8",
+      "display": "College of Dental Hygienists of Nova Scotia Registration Number",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "College of Dental Hygienists of Nova Scotia Registration Number"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Numéro d'inscription au Collège des hygiénistes dentaires de la Nouvelle-Écosse"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.124.7.101.20.7.9",
+      "display": "Midwifery Regulatory Council of Nova Scotia",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Midwifery Regulatory Council of Nova Scotia"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Conseil des sages-femmes de la Nouvelle-Écosse"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.3.239.13.12",
+      "display": "College of Midwives of Ontario",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "College of Midwives of Ontario"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Ordre des sages-femmes de l'Ontario"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.3.239.13.15",
+      "display": "College of Nurses of Ontario",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "College of Nurses of Ontario"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Ordre des infirmières et infirmiers de l'Ontario"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.3.239.13.17",
+      "display": "Canada, Ontario, College of Chiropodists Registration Number",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Canada, Ontario, College of Chiropodists Registration Number"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Numéro d'inscription à l'Ordre des podologues de l’Ontario"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.3.239.13.43",
+      "display": "Ontario College of Pharmacists",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Ontario College of Pharmacists"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Ordre des pharmaciens de l'Ontario"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.3.239.13.52",
+      "display": "Royal College of Dental Surgeons of Ontario",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Royal College of Dental Surgeons of Ontario"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Ordre royal des chirurgiens-dentistes de l'Ontario"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.3.239.13.7",
+      "display": "Canada, Ontario, College of Dental Hygienists Licence Number",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Canada, Ontario, College of Dental Hygienists Licence Number"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Numéro de permis de l'Ordre des hygiénistes dentaires de l'Ontario"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.3.239.13.9",
+      "display": "Canada, Ontario, College of Dietitians Licence Number",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Canada, Ontario, College of Dietitians Licence Number"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Numéro de permis de l'Ordre des diététistes de l'Ontario"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.3.421",
+      "display": "College of Pharmacists of Manitoba Pharmacist License Number",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "College of Pharmacists of Manitoba Pharmacist License Number"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Numéro de permis de l’Ordre des pharmaciens du Manitoba"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.3.422",
+      "display": "College of Physicians and Surgeons of Manitoba License Number",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "College of Physicians and Surgeons of Manitoba License Number"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Numéro de permis du Collège des médecins et chirurgiens du Manitoba"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.3.7747",
+      "display": "Association of Registered Nurses of Prince Edward Island",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Association of Registered Nurses of Prince Edward Island"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Association des infirmières et infirmiers autorisés de l'Île-du-Prince-Édouard"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.3.7748",
+      "display": "College of Dental Surgeons of British Columbia",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "College of Dental Surgeons of British Columbia"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Collège des chirurgiens-dentistes de la Colombie-Britannique"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.3.7749",
+      "display": "College Of Midwives Of British Columbia",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "College Of Midwives Of British Columbia"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Collège des sages-femmes de la Colombie-Britannique"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.3.7750",
+      "display": "College of Midwives of Manitoba",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "College of Midwives of Manitoba"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Ordre des sages-femmes du Manitoba"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.3.7751",
+      "display": "College of Midwives of Newfoundland and Labrador",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "College of Midwives of Newfoundland and Labrador"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Association des sages-femmes de Terre-Neuve-et-Labrador"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.3.7752",
+      "display": "College of Registered Nurses of British Columbia",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "College of Registered Nurses of British Columbia"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Collège des infirmières et infirmiers autorisés de la Colombie-Britannique"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.3.7753",
+      "display": "College of Registered Nurses of MB",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "College of Registered Nurses of MB"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Ordre des infirmières et infirmiers autorisés du Manitoba"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.3.7754",
+      "display": "Dental Council of Prince Edward Island",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Dental Council of Prince Edward Island"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Conseil dentaire de l’Île-du-Prince-Édouard"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.3.7755",
+      "display": "Manitoba Dental Association",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Manitoba Dental Association"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Association dentaire du Manitoba"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.3.7762",
+      "display": "Prince Edward Island Midwives Association",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Prince Edward Island Midwives Association"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Association des sages-femmes de l’Île-du-Prince-Édouard"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.3.7882",
+      "display": "College of Dental Hygienists of British Columbia",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "College of Dental Hygienists of British Columbia"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Collège des hygiénistes dentaires de la Colombie-Britannique"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.3.7883",
+      "display": "College of Dental Hygienists of Manitoba",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "College of Dental Hygienists of Manitoba"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Ordre des hygiénistes dentaires du Manitoba"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.3.7886",
+      "display": "Quebec Dental Hygienist License Number",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Quebec Dental Hygienist License Number"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Ordre des hygiénistes dentaires du Québec"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.3.7888",
+      "display": "Newfoundland and Labrador College of Dental Hygienists",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Newfoundland and Labrador College of Dental Hygienists"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Association des hygiénistes dentaires de Terre-Neuve-et-Labrador"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.3.7889",
+      "display": "Prince Edward Island Dental Hygienists' Association",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Prince Edward Island Dental Hygienists' Association"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Association des hygiénistes dentaires de l’Île-du-Prince-Édouard"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.3.7891",
+      "display": "Saskatchewan Dental Hygienists' Association",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Saskatchewan Dental Hygienists' Association"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Association des hygiénistes dentaires de la Saskatchewan"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.3.8026",
+      "display": "Saskatchewan Dietitians Association",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Saskatchewan Dietitians Association"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Association des diététistes de la Saskatchewan"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.3.8027",
+      "display": "College of Dietitians of MB",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "College of Dietitians of MB"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Ordre des diététistes du Manitoba"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.3.8031",
+      "display": "Quebec Dietician license number",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Quebec Dietician license number"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Ordre des diététistes-nutritionnistes du Québec"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.3.8032",
+      "display": "New Brunswick Association of Dietitians",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "New Brunswick Association of Dietitians"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Association des diététistes du Nouveau-Brunswick"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.3.8033",
+      "display": "Nova Scotia Dietetic Association",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Nova Scotia Dietetic Association"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Association des diététistes de la Nouvelle-Écosse"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.3.8034",
+      "display": "Prince Edward Island Dietitians Registration Board",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Prince Edward Island Dietitians Registration Board"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Conseil des diététistes de Île-du-Prince-Édouard"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.3.8035",
+      "display": "Newfoundland and Labrador College of Dietitians",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Newfoundland and Labrador College of Dietitians"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Ordre des diététistes de Terre-Neuve-et-Labrador"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.4.14",
+      "display": "Prince Edward Island, Canada College of Physicians and Surgeons License Number (peicpsln)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Prince Edward Island, Canada College of Physicians and Surgeons License Number (peicpsln)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Numéro de permis du Collège des médecins et chirurgiens de l’Île-du-Prince-Édouard"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.4.15",
+      "display": "Prince Edward Island Canada Pharmacy Board Pharmacist License Number",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Prince Edward Island Canada Pharmacy Board Pharmacist License Number"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Numéro de permis de l'Ordre des pharmaciens de l'Île-du-Prince-Édouard"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.4.25",
+      "display": "College of Registered Dental Hygienists of Alberta license number",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "College of Registered Dental Hygienists of Alberta license number"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Numéro de permis du Collège des hygiénistes dentaires autorisés de l’Alberta"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.4.261",
+      "display": "The Newfoundland & Labrador Pharmacy Board",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "The Newfoundland & Labrador Pharmacy Board"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Conseil des pharmaciens de Terre-Neuve-et-Labrador"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.4.262",
+      "display": "College of Physicians and Surgeons of Newfoundland and Labrador",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "College of Physicians and Surgeons of Newfoundland and Labrador"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Collège des médecins et chirurgiens de Terre-Neuve-et-Labrador"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.4.263",
+      "display": "Newfoundland & Labrador Dental Board",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Newfoundland & Labrador Dental Board"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Conseil dentaire de Terre-Neuve-et-Labrador"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.4.265",
+      "display": "Newfoundland and Labrador College of Optometrist",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Newfoundland and Labrador College of Optometrist"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Ordre des optométristes de Terre-Neuve-et-Labrador"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.4.266",
+      "display": "Association of Registered Nurses of Newfoundland And Labrador",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Association of Registered Nurses of Newfoundland And Labrador"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Association des infirmières et infirmiers autorisés de Terre-Neuve-et-Labrador"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.4.279",
+      "display": "College of Physicians and Surgeons of Saskatchewan",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "College of Physicians and Surgeons of Saskatchewan"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Collège des médecins et chirurgiens de la Saskatchewan"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.4.280",
+      "display": "College of Dental Surgeons of Saskatchewan",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "College of Dental Surgeons of Saskatchewan"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Collège des chirurgiens-dentistes de la Saskatchewan"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.4.281",
+      "display": "Saskatchewan Registered Nurses' Association",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Saskatchewan Registered Nurses' Association"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Association des infirmières et infirmiers autorisés de la Saskatchewan"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.4.284",
+      "display": "Saskatchewan College of Pharmacists",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Saskatchewan College of Pharmacists"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Ordre des pharmaciens de la Saskatchewan"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.4.285",
+      "display": "Saskatchewan Association of Optometrists",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Saskatchewan Association of Optometrists"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Association des optométristes de la Saskatchewan"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.4.288",
+      "display": "Quebec Physician License Number",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Quebec Physician License Number"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Numéro de permis du Collège des médecins du Québec"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.4.298",
+      "display": "Quebec Pharmacist/pharmacy License Number",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Quebec Pharmacist/pharmacy License Number"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Numéro de permis de l'Ordre des pharmaciens du Québec"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.4.299",
+      "display": "Quebec Optometrist License Number",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Quebec Optometrist License Number"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Numéro de permis de l'Ordre des optométristes du Québec"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.4.300",
+      "display": "Quebec Podiatrists License Number",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Quebec Podiatrists License Number"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Numéro de permis de l'Ordre des podiatres du Québec"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.4.301",
+      "display": "Quebec Midwive License Number",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Quebec Midwive License Number"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Numéro de permis de l'Ordre des sages-femmes du Québec"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.4.302",
+      "display": "Quebec Dentist License Number",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Quebec Dentist License Number"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Numéro de permis de l'Ordre des dentistes du Québec"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.4.303",
+      "display": "Quebec Nurse/Nurse Practitioner License Number",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Quebec Nurse/Nurse Practitioner License Number"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Numéro de permis de l'Ordre des infirmières et infirmiers du Québec"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.4.307",
+      "display": "Saskatchewan College of Midwives",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Saskatchewan College of Midwives"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Ordre des sages-femmes de la Saskatchewan"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.4.33",
+      "display": "College of Midwives of Alberta",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "College of Midwives of Alberta"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Ordre des sages-femmes de l'Alberta"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.4.332.1",
+      "display": "NS Canada College of Physicians and Surgeons Registration Number",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "NS Canada College of Physicians and Surgeons Registration Number"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Numéro d'inscription au Collège des médecins et chirurgiens de la Nouvelle-Écosse"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.4.333.1",
+      "display": "College of Registered Nurses of Nova Scotia Canada Registration Number - Nurse",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "College of Registered Nurses of Nova Scotia Canada Registration Number - Nurse"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Numéro de permis du Collège des infirmières et infirmiers autorisés de la Nouvelle-Écosse – infirmière/infirmier"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.4.333.2",
+      "display": "College of Registered Nurses of Nova Scotia Canada Registration Number - Nurse Practitioner",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "College of Registered Nurses of Nova Scotia Canada Registration Number - Nurse Practitioner"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Numéro de permis du Collège des infirmières et infirmiers autorisés de la Nouvelle-Écosse – infirmière praticienne/infirmier praticien"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.4.334",
+      "display": "Nova Scotia Canada College of Pharmacists Registration Number",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Nova Scotia Canada College of Pharmacists Registration Number"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Numéro de permis de l’Ordre des pharmaciens de la Nouvelle-Écosse"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.4.347",
+      "display": "College of Physicians and Surgeons of Ontario",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "College of Physicians and Surgeons of Ontario"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Ordre des médecins et chirurgiens de l’Ontario"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.4.37",
+      "display": "Alberta College of Optometrists",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Alberta College of Optometrists"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Ordre des optométristes de l'Alberta"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.4.39",
+      "display": "Alberta College of Pharmacists",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Alberta College of Pharmacists"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Ordre des pharmaciens de l'Alberta"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.4.395",
+      "display": "College of Optometrists of Ontario",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "College of Optometrists of Ontario"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Ordre des optométristes de l’Ontario"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.4.402",
+      "display": "Manitoba Association of Optometrists",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Manitoba Association of Optometrists"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Association des optométristes du Manitoba"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.4.404",
+      "display": "Prince Edward Island Association of Optometrists",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Prince Edward Island Association of Optometrists"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Association des optométristes de l’Île-du-Prince-Édouard"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.4.405",
+      "display": "Nova Scotia College of Optometrists",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Nova Scotia College of Optometrists"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Ordre des optométristes de la Nouvelle-Écosse"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.4.41",
+      "display": "College of Physicians and Surgeons of Alberta",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "College of Physicians and Surgeons of Alberta"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Collège des médecins et chirurgiens de l'Alberta"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.4.429",
+      "display": "College of Optometrists of British Columbia",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "College of Optometrists of British Columbia"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Ordre des optométristes de la Colombie-Britannique"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.4.43",
+      "display": "College of Dieticians of Alberta license number",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "College of Dieticians of Alberta license number"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Numéro de permis de l'Ordre des diététistes de l'Alberta"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.4.44",
+      "display": "College and Association of Registered Nurses of Alberta",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "College and Association of Registered Nurses of Alberta"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Association et ordre des infirmières et infirmiers autorisés de l'Alberta"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.4.447",
+      "display": "College of Podiatric Physicians of Alberta, Canada license number",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "College of Podiatric Physicians of Alberta, Canada license number"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Numéro de permis de l'Ordre des médecins podiatres de l'Alberta"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.4.45",
+      "display": "College of Registered Psychiatric Nurses of Alberta License Number",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "College of Registered Psychiatric Nurses of Alberta License Number"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Numéro de permis du Collège des infirmières et infirmiers psychiatriques autorisés de l’Alberta"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.4.530",
+      "display": "British Columbia, Canada, College of Dietitians Identifier for Registered Dietitian",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "British Columbia, Canada, College of Dietitians Identifier for Registered Dietitian"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Numéro d'ID de l'Ordre des diététistes autorisés de la Colombie-Britannique"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.4.607",
+      "display": "British Columbia, Canada, College of Pharmacists Identifier for Pharmacies",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "British Columbia, Canada, College of Pharmacists Identifier for Pharmacies"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Numéro d'ID de pharmacie de l'Ordre des pharmaciens de la Colombie-Britannique"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.4.608",
+      "display": "College of Registered Psychiatric Nurses of British Columbia",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "College of Registered Psychiatric Nurses of British Columbia"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Collège des infirmières et infirmiers psychiatriques autorisés de la Colombie-Britannique"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.4.753",
+      "display": "College of Podiatric Surgeons of British Columbia",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "College of Podiatric Surgeons of British Columbia"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Ordre des chirurgiens podiatres de la Colombie-Britannique"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.4.756",
+      "display": "College of Physicians and Surgeons of British Columbia",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "College of Physicians and Surgeons of British Columbia"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Collège des médecins et chirurgiens de la Colombie-Britannique"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.4.759",
+      "display": "College of Podiatrists of Manitoba",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "College of Podiatrists of Manitoba"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Ordre des podiatres du Manitoba"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.4.786",
+      "display": "Saskatchewan College of Podiatrists",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Saskatchewan College of Podiatrists"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Ordre des podiatres de la Saskatchewan"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.4.8148",
+      "display": "Prince Edward Island College of Pharmacy Pharmacist License Number",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Prince Edward Island College of Pharmacy Pharmacist License Number"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Numéro de licence de pharmacien délivrée par le Collège de pharmacie de l’Île-du-Prince-Édouard"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.4.8149",
+      "display": "Prince Edward Island College of Pharmacy Pharmacy License Number",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Prince Edward Island College of Pharmacy Pharmacy License Number"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Numéro de licence de pharmacie délivrée par le Collège de pharmacie de l’Île-du-Prince-Édouard"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.4.8150",
+      "display": "College of Registered Nurses & Midwives of Prince Edward Island",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "College of Registered Nurses & Midwives of Prince Edward Island"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Collège des infirmières et infirmiers et des sages-femmes autorisés de l’Île-du-Prince-Édouard"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.4.871",
+      "display": "College of Physicians and Surgeons of New Brunswick (deprecated)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "College of Physicians and Surgeons of New Brunswick (deprecated)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Collège des médecins et chirurgiens du Nouveau-Brunswick"
+      } ]
+    }, {
+      "system": "http://terminology.hl7.org/NamingSystem/uri",
+      "abstract": false,
+      "code": "urn:oid:2.16.840.1.113883.4.872",
+      "display": "Professional Licensing, Department of Health, Government of Nunavut",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Professional Licensing, Department of Health, Government of Nunavut"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Permis d’exercice du ministère de la Santé du gouvernement du Nunavut"
+      } ]
+    } ]
+  }
+}

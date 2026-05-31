@@ -656,6 +656,7 @@
 			fullLoincResultsContainer.appendChild(fragment);
 		}
 
+
 		function highlight(text, query) {
 			if (!query || query.length < 2) return text;
 			const regex = new RegExp(`(${query.replace(/[.*+?^${}()|[\\]\\\\]/g, '\\\\$&')})`, 'gi');

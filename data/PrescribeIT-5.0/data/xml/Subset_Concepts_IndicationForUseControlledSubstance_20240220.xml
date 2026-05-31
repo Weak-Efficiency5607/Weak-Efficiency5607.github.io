@@ -1,0 +1,118 @@
+<result>
+  <concepts>
+    <concept>
+      <id>103735009</id>
+      <name>Palliative care (regime/therapy)</name>
+      <codeSystemId>http://snomed.info/sct</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Palliative care</enDisplayName>
+      <frDisplayName>soins palliatifs</frDisplayName>
+      <effectiveDate>2024022005:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>213299007</id>
+      <name>Postoperative pain (finding)</name>
+      <codeSystemId>http://snomed.info/sct</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Postoperative pain</enDisplayName>
+      <frDisplayName>douleur postopératoire</frDisplayName>
+      <effectiveDate>2024022005:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>247398009</id>
+      <name>Neuropathic pain (finding)</name>
+      <codeSystemId>http://snomed.info/sct</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Neuropathic pain</enDisplayName>
+      <frDisplayName>douleur neuropathique</frDisplayName>
+      <effectiveDate>2024022005:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>25064002</id>
+      <name>Headache (finding)</name>
+      <codeSystemId>http://snomed.info/sct</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Headache</enDisplayName>
+      <frDisplayName>mal de tête</frDisplayName>
+      <effectiveDate>2024022005:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>274663001</id>
+      <name>Acute pain (finding)</name>
+      <codeSystemId>http://snomed.info/sct</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Acute pain</enDisplayName>
+      <frDisplayName>douleur aiguë</frDisplayName>
+      <effectiveDate>2024022005:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>363346000</id>
+      <name>Malignant neoplastic disease (disorder)</name>
+      <codeSystemId>http://snomed.info/sct</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Cancer</enDisplayName>
+      <frDisplayName>cancer</frDisplayName>
+      <effectiveDate>2024022005:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>385989002</id>
+      <name>Substance use therapy (regime/therapy)</name>
+      <codeSystemId>http://snomed.info/sct</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Substance use therapy</enDisplayName>
+      <frDisplayName>traitement de la toxicomanie</frDisplayName>
+      <effectiveDate>2024022005:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>762452003</id>
+      <name>Chronic musculoskeletal pain (finding)</name>
+      <codeSystemId>http://snomed.info/sct</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Chronic musculoskeletal pain</enDisplayName>
+      <frDisplayName>douleur musculosquelettique chronique</frDisplayName>
+      <effectiveDate>2024022005:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+  </concepts>
+  <pagination>
+    <currentPage>1</currentPage>
+    <totalPages>1</totalPages>
+    <pageSize>100000</pageSize>
+    <totalRecords>8</totalRecords>
+    <firstRecord>1</firstRecord>
+    <lastRecord>8</lastRecord>
+    <nextPage>-1</nextPage>
+    <nextRecord>-1</nextRecord>
+  </pagination>
+</result>

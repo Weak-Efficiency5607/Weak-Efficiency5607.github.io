@@ -1,0 +1,61 @@
+<subset>
+  <id>2.16.840.1.113883.2.20.3.411</id>
+  <name>PrescriptionObservationTypeVitalSign</name>
+  <url>https://tgateway.infoway-inforoute.ca/vs/prescriptionobservationtypevitalsign</url>
+  <fhirUri>https://fhir.infoway-inforoute.ca/ValueSet/prescriptionobservationtypevitalsign</fhirUri>
+  <versionId>20170626</versionId>
+  <effectiveDate>2017062604:00:00</effectiveDate>
+  <publicationTime>2021051805:32:48</publicationTime>
+  <dateLastReviewed>2021013105:00:00</dateLastReviewed>
+  <description>Types of vital sign observations relevant to prescribing</description>
+  <status>active</status>
+  <category>pCLOCD</category>
+  <domains>
+    <string>ePrescribe</string>
+  </domains>
+  <properties/>
+  <owner>Canada Health Infoway</owner>
+  <tags>
+    <string>Extensional</string>
+  </tags>
+  <terminologies class="com.google.gson.internal.LinkedTreeMap" resolves-to="linked-hash-map"/>
+  <type>Extensional</type>
+  <viewer>singlesubset</viewer>
+  <codeSystems>
+    <codesystem>
+      <id>2.16.840.1.113883.2.20.5.1</id>
+      <name>pCLOCD</name>
+      <businessName>pCLOCD</businessName>
+      <url>https://fhir.infoway-inforoute.ca/CodeSystem/pCLOCD</url>
+      <version>R05.13.00_2.69</version>
+    </codesystem>
+  </codeSystems>
+  <concepts>
+    <concept>
+      <id>29463-7</id>
+      <name>Body weight</name>
+      <codeSystemId>2.16.840.1.113883.2.20.5.1</codeSystemId>
+      <codeSystemName>pCLOCD</codeSystemName>
+      <enDisplayName>Body Weight</enDisplayName>
+      <frDisplayName>Poids corporel</frDisplayName>
+      <effectiveDate>2017062604:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>8302-2</id>
+      <name>Body height</name>
+      <codeSystemId>2.16.840.1.113883.2.20.5.1</codeSystemId>
+      <codeSystemName>pCLOCD</codeSystemName>
+      <enDisplayName>Body Height</enDisplayName>
+      <frDisplayName>Stature</frDisplayName>
+      <effectiveDate>2017062604:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+  </concepts>
+</subset>

@@ -1,0 +1,1095 @@
+<subset>
+  <id>2.16.840.1.113883.2.20.3.399</id>
+  <name>PrescriptionDoseQuantityUnit</name>
+  <url>https://tgateway.infoway-inforoute.ca/vs/prescriptiondosequantityunit</url>
+  <fhirUri>https://fhir.infoway-inforoute.ca/ValueSet/prescriptiondosequantityunit</fhirUri>
+  <versionId>20220331</versionId>
+  <effectiveDate>2022033104:00:00</effectiveDate>
+  <publicationTime>2023032111:14:28</publicationTime>
+  <dateLastReviewed>2023030105:00:00</dateLastReviewed>
+  <description>Units of measure and/or products that convey the amount of drug to be given to a patient in one dose</description>
+  <status>active</status>
+  <category>UCUM</category>
+  <domains>
+    <string>ePrescribe</string>
+  </domains>
+  <properties/>
+  <owner>Canada Health Infoway</owner>
+  <tags>
+    <string>Extensional</string>
+  </tags>
+  <terminologies class="com.google.gson.internal.LinkedTreeMap" resolves-to="linked-hash-map"/>
+  <type>Extensional</type>
+  <viewer>singlesubset</viewer>
+  <codeSystems>
+    <codesystem>
+      <id>2.16.840.1.113883.6.8</id>
+      <name>UCUM</name>
+      <businessName>UCUM</businessName>
+      <url>http://unitsofmeasure.org</url>
+      <version>2.1</version>
+    </codesystem>
+    <codesystem>
+      <id>2.16.840.1.113883.6.96</id>
+      <name>SNOMED CT CA Edition</name>
+      <businessName>SNOMED CT CA Edition</businessName>
+      <url>http://snomed.info/sct</url>
+      <version>20220331</version>
+    </codesystem>
+  </codeSystems>
+  <concepts>
+    <concept>
+      <id>%</id>
+      <name>percent</name>
+      <codeSystemId>2.16.840.1.113883.6.8</codeSystemId>
+      <codeSystemName>UCUM</codeSystemName>
+      <enDisplayName>%</enDisplayName>
+      <frDisplayName>%</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>1651000175105</id>
+      <name>Applicatorful - unit of product usage (qualifier value)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Applicatorful(s)</enDisplayName>
+      <frDisplayName>applicateur(s) plein(s)</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>1671000175104</id>
+      <name>Strip - unit of product usage (qualifier value)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Strip(s)</enDisplayName>
+      <frDisplayName>bandelette(s)</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>1681000175101</id>
+      <name>Package - unit of product usage (qualifier value)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Package(s)</enDisplayName>
+      <frDisplayName>emballage(s)</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>1691000175103</id>
+      <name>Stick - unit of product usage (qualifier value)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Stick(s)</enDisplayName>
+      <frDisplayName>bâtonnet(s)</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>1701000175103</id>
+      <name>Wafer - unit of product usage (qualifier value)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Wafer(s)</enDisplayName>
+      <frDisplayName>cachet(s)</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>18492004</id>
+      <name>Canister, device (physical object)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Canister(s)</enDisplayName>
+      <frDisplayName>récipient(s)</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>23541000087106</id>
+      <name>Buccal tablet - unit of product usage (qualifier value)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Buccal tablet(s)</enDisplayName>
+      <frDisplayName>comprimé(s) buccal(-aux)</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>334947002</id>
+      <name>Nebulizer (physical object)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Nebulizer(s)</enDisplayName>
+      <frDisplayName>nébuliseur(s)</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>350810002</id>
+      <name>Lancet (physical object)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Lancet(s)</enDisplayName>
+      <frDisplayName>lancette(s)</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>404218003</id>
+      <name>Drop - unit of product usage (qualifier value)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Drop(s)</enDisplayName>
+      <frDisplayName>goutte(s)</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>408102007</id>
+      <name>Unit dose (qualifier value)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Dose(s)</enDisplayName>
+      <frDisplayName>dose(s)</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>413516001</id>
+      <name>Ampule - unit of product usage (qualifier value)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Ampule(s)</enDisplayName>
+      <frDisplayName>ampoule(s)</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>413568008</id>
+      <name>Application - unit of product usage (qualifier value)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Application(s)</enDisplayName>
+      <frDisplayName>application(s)</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>415215001</id>
+      <name>Puff - unit of product usage (qualifier value)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Puff(s)</enDisplayName>
+      <frDisplayName>bouffée(s)</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>415505006</id>
+      <name>Scoop - unit of product usage (qualifier value)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Scoop(s)</enDisplayName>
+      <frDisplayName>cuillérée(s)</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>415818006</id>
+      <name>Vial - unit of product usage (qualifier value)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Vial(s)</enDisplayName>
+      <frDisplayName>flacon(s)</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>419179001</id>
+      <name>Kit - unit of product usage (qualifier value)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Kit(s)</enDisplayName>
+      <frDisplayName>trousse(s)</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>419473009</id>
+      <name>Each (qualifier value)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Each</enDisplayName>
+      <frDisplayName>chaque</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>419672006</id>
+      <name>Bottle - unit of product usage (qualifier value)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Bottle(s)</enDisplayName>
+      <frDisplayName>bouteille(s)</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>419694003</id>
+      <name>Spray - unit of product usage (qualifier value)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Spray(s)</enDisplayName>
+      <frDisplayName>pulvérisation(s)</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>419702001</id>
+      <name>Patch - unit of product usage (qualifier value)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Patch(es)</enDisplayName>
+      <frDisplayName>timbre(s)</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>419888008</id>
+      <name>Packet - unit of product usage (qualifier value)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Packet(s)</enDisplayName>
+      <frDisplayName>paquet(s)</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>421823004</id>
+      <name>Pad - unit of product usage (qualifier value)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Pad(s)</enDisplayName>
+      <frDisplayName>tampon(s) imprégné(s)</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>422237004</id>
+      <name>Inhalation - unit of product usage (qualifier value)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Inhalation(s)</enDisplayName>
+      <frDisplayName>inhalation(s)</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>426148002</id>
+      <name>Sachet - unit of product usage (qualifier value)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Sachet(s)</enDisplayName>
+      <frDisplayName>sachet(s)</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>428177008</id>
+      <name>Implant - unit of product usage (qualifier value)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Implant(s)</enDisplayName>
+      <frDisplayName>implant(s)</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>428639001</id>
+      <name>Insert - unit of product usage (qualifier value)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Insert(s)</enDisplayName>
+      <frDisplayName>insert(s)</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>428640004</id>
+      <name>Pellet - unit of product usage (qualifier value)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Pellet(s)</enDisplayName>
+      <frDisplayName>granule(s)</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>428641000</id>
+      <name>Capsule - unit of product usage (qualifier value)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Capsule(s)</enDisplayName>
+      <frDisplayName>capsule(s)</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>428673006</id>
+      <name>Tablet - unit of product usage (qualifier value)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Tablet(s)</enDisplayName>
+      <frDisplayName>comprimé(s)</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>429308001</id>
+      <name>Can - unit of product usage (qualifier value)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Can(s)</enDisplayName>
+      <frDisplayName>canette(s)</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>429587008</id>
+      <name>Lozenge - unit of product usage (qualifier value)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Lozenge(s)</enDisplayName>
+      <frDisplayName>pastille(s)</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>429671000</id>
+      <name>Sponge - unit of product usage (qualifier value)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Sponge(s)</enDisplayName>
+      <frDisplayName>éponge(s)</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>430281005</id>
+      <name>Gum - unit of product usage (qualifier value)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Gum</enDisplayName>
+      <frDisplayName>gomme</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>430293001</id>
+      <name>Suppository - unit of product usage (qualifier value)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Suppository(ies)</enDisplayName>
+      <frDisplayName>suppositoire(s)</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>44668000</id>
+      <name>Pump, device (physical object)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Pump(s)</enDisplayName>
+      <frDisplayName>pompe(s)</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>463408005</id>
+      <name>Medication pen injector needle (physical object)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Pen needle(s)</enDisplayName>
+      <frDisplayName>stylo(s) injecteur(s) de médicament</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>49062001</id>
+      <name>Device (physical object)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Device(s)</enDisplayName>
+      <frDisplayName>dispositif(s)</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>61968008</id>
+      <name>Syringe, device (physical object)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Syringe(s)</enDisplayName>
+      <frDisplayName>seringue(s)</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>700473000</id>
+      <name>Pastille - unit of product usage (qualifier value)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Pastille(s)</enDisplayName>
+      <frDisplayName>pâte à sucer</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>700476008</id>
+      <name>Enema - unit of product usage (qualifier value)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Enema(s)</enDisplayName>
+      <frDisplayName>lavement(s)</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>700477004</id>
+      <name>Tampon - unit of product usage (qualifier value)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Tampon(s)</enDisplayName>
+      <frDisplayName>tampon(s)</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>700478009</id>
+      <name>Dressing - unit of product usage (qualifier value)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Dressing(s)</enDisplayName>
+      <frDisplayName>pansement(s)</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>72070000</id>
+      <name>Ring, device (physical object)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Ring(s)</enDisplayName>
+      <frDisplayName>anneau(x)</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>733006000</id>
+      <name>Pen (unit of presentation)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Pen(s)</enDisplayName>
+      <frDisplayName>stylo(s)</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>L</id>
+      <name>liter</name>
+      <codeSystemId>2.16.840.1.113883.6.8</codeSystemId>
+      <codeSystemName>UCUM</codeSystemName>
+      <enDisplayName>L</enDisplayName>
+      <frDisplayName>L</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>U</id>
+      <name>Unit</name>
+      <codeSystemId>2.16.840.1.113883.6.8</codeSystemId>
+      <codeSystemName>UCUM</codeSystemName>
+      <enDisplayName>Unit(s)</enDisplayName>
+      <frDisplayName>unité(s)</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>[cup_us]</id>
+      <name>cup</name>
+      <codeSystemId>2.16.840.1.113883.6.8</codeSystemId>
+      <codeSystemName>UCUM</codeSystemName>
+      <enDisplayName>cup(s)</enDisplayName>
+      <frDisplayName>tasse(s)</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>[foz_br]</id>
+      <name>fluid ounce, imperial</name>
+      <codeSystemId>2.16.840.1.113883.6.8</codeSystemId>
+      <codeSystemName>UCUM</codeSystemName>
+      <enDisplayName>fl oz</enDisplayName>
+      <frDisplayName>oz liq</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>[gal_br]</id>
+      <name>gallon, imperial</name>
+      <codeSystemId>2.16.840.1.113883.6.8</codeSystemId>
+      <codeSystemName>UCUM</codeSystemName>
+      <enDisplayName>gallon(s)</enDisplayName>
+      <frDisplayName>gallon(s)</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>[in_i]</id>
+      <name>inch</name>
+      <codeSystemId>2.16.840.1.113883.6.8</codeSystemId>
+      <codeSystemName>UCUM</codeSystemName>
+      <enDisplayName>inch(es)</enDisplayName>
+      <frDisplayName>pouce(s)</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>[lb_av]</id>
+      <name>pound, avoirdupois</name>
+      <codeSystemId>2.16.840.1.113883.6.8</codeSystemId>
+      <codeSystemName>UCUM</codeSystemName>
+      <enDisplayName>lb</enDisplayName>
+      <frDisplayName>lb</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>[oz_av]</id>
+      <name>ounce, avoirdupois</name>
+      <codeSystemId>2.16.840.1.113883.6.8</codeSystemId>
+      <codeSystemName>UCUM</codeSystemName>
+      <enDisplayName>oz</enDisplayName>
+      <frDisplayName>oz</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>[pt_br]</id>
+      <name>pint, imperial</name>
+      <codeSystemId>2.16.840.1.113883.6.8</codeSystemId>
+      <codeSystemName>UCUM</codeSystemName>
+      <enDisplayName>pt</enDisplayName>
+      <frDisplayName>chop</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>[qt_br]</id>
+      <name>quart, imperial</name>
+      <codeSystemId>2.16.840.1.113883.6.8</codeSystemId>
+      <codeSystemName>UCUM</codeSystemName>
+      <enDisplayName>qt</enDisplayName>
+      <frDisplayName>pte</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>[sft_i]</id>
+      <name>square foot</name>
+      <codeSystemId>2.16.840.1.113883.6.8</codeSystemId>
+      <codeSystemName>UCUM</codeSystemName>
+      <enDisplayName>sq ft</enDisplayName>
+      <frDisplayName>pi2</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>[sin_i]</id>
+      <name>square inch</name>
+      <codeSystemId>2.16.840.1.113883.6.8</codeSystemId>
+      <codeSystemName>UCUM</codeSystemName>
+      <enDisplayName>sq in</enDisplayName>
+      <frDisplayName>po2</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>[syd_i]</id>
+      <name>square yard</name>
+      <codeSystemId>2.16.840.1.113883.6.8</codeSystemId>
+      <codeSystemName>UCUM</codeSystemName>
+      <enDisplayName>sq yd</enDisplayName>
+      <frDisplayName>vg2</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>[tbs_us]</id>
+      <name>tablespoon</name>
+      <codeSystemId>2.16.840.1.113883.6.8</codeSystemId>
+      <codeSystemName>UCUM</codeSystemName>
+      <enDisplayName>tbsp(s)</enDisplayName>
+      <frDisplayName>c. à table</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>[tsp_us]</id>
+      <name>teaspoon</name>
+      <codeSystemId>2.16.840.1.113883.6.8</codeSystemId>
+      <codeSystemName>UCUM</codeSystemName>
+      <enDisplayName>tsp(s)</enDisplayName>
+      <frDisplayName>c. à thé</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>cm</id>
+      <name>centimeter</name>
+      <codeSystemId>2.16.840.1.113883.6.8</codeSystemId>
+      <codeSystemName>UCUM</codeSystemName>
+      <enDisplayName>centimeter(s)</enDisplayName>
+      <frDisplayName>cm</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>cm2</id>
+      <name>square centimeter</name>
+      <codeSystemId>2.16.840.1.113883.6.8</codeSystemId>
+      <codeSystemName>UCUM</codeSystemName>
+      <enDisplayName>sq cm</enDisplayName>
+      <frDisplayName>cm2</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>cm3</id>
+      <name>cubic centimeter</name>
+      <codeSystemId>2.16.840.1.113883.6.8</codeSystemId>
+      <codeSystemName>UCUM</codeSystemName>
+      <enDisplayName>cubic cm</enDisplayName>
+      <frDisplayName>cm3</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>g</id>
+      <name>gram</name>
+      <codeSystemId>2.16.840.1.113883.6.8</codeSystemId>
+      <codeSystemName>UCUM</codeSystemName>
+      <enDisplayName>g</enDisplayName>
+      <frDisplayName>g</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>iU</id>
+      <name>international unit</name>
+      <codeSystemId>2.16.840.1.113883.6.8</codeSystemId>
+      <codeSystemName>UCUM</codeSystemName>
+      <enDisplayName>international unit(s)</enDisplayName>
+      <frDisplayName>unité(s) internationale(s)</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>kg</id>
+      <name>kilogram</name>
+      <codeSystemId>2.16.840.1.113883.6.8</codeSystemId>
+      <codeSystemName>UCUM</codeSystemName>
+      <enDisplayName>kg</enDisplayName>
+      <frDisplayName>kg</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>m2</id>
+      <name>square meter</name>
+      <codeSystemId>2.16.840.1.113883.6.8</codeSystemId>
+      <codeSystemName>UCUM</codeSystemName>
+      <enDisplayName>sq m</enDisplayName>
+      <frDisplayName>m2</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>mL</id>
+      <name>milliliter</name>
+      <codeSystemId>2.16.840.1.113883.6.8</codeSystemId>
+      <codeSystemName>UCUM</codeSystemName>
+      <enDisplayName>mL</enDisplayName>
+      <frDisplayName>mL</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>mU</id>
+      <name>milliUnit</name>
+      <codeSystemId>2.16.840.1.113883.6.8</codeSystemId>
+      <codeSystemName>UCUM</codeSystemName>
+      <enDisplayName>milliUnit(s)</enDisplayName>
+      <frDisplayName>milli-unité(s) internationale(s)</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>meq</id>
+      <name>milliequivalent</name>
+      <codeSystemId>2.16.840.1.113883.6.8</codeSystemId>
+      <codeSystemName>UCUM</codeSystemName>
+      <enDisplayName>meq</enDisplayName>
+      <frDisplayName>mÉq</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>mg</id>
+      <name>milligram</name>
+      <codeSystemId>2.16.840.1.113883.6.8</codeSystemId>
+      <codeSystemName>UCUM</codeSystemName>
+      <enDisplayName>mg</enDisplayName>
+      <frDisplayName>mg</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>mm2</id>
+      <name>square millimeter</name>
+      <codeSystemId>2.16.840.1.113883.6.8</codeSystemId>
+      <codeSystemName>UCUM</codeSystemName>
+      <enDisplayName>sq mm</enDisplayName>
+      <frDisplayName>mm2</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>mm3</id>
+      <name>cubic millimeter</name>
+      <codeSystemId>2.16.840.1.113883.6.8</codeSystemId>
+      <codeSystemName>UCUM</codeSystemName>
+      <enDisplayName>cubic mm</enDisplayName>
+      <frDisplayName>mm3</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>mmol</id>
+      <name>millimole</name>
+      <codeSystemId>2.16.840.1.113883.6.8</codeSystemId>
+      <codeSystemName>UCUM</codeSystemName>
+      <enDisplayName>mmol</enDisplayName>
+      <frDisplayName>mmol</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>mol</id>
+      <name>mole</name>
+      <codeSystemId>2.16.840.1.113883.6.8</codeSystemId>
+      <codeSystemName>UCUM</codeSystemName>
+      <enDisplayName>mol</enDisplayName>
+      <frDisplayName>mol</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>nL</id>
+      <name>nanoliter</name>
+      <codeSystemId>2.16.840.1.113883.6.8</codeSystemId>
+      <codeSystemName>UCUM</codeSystemName>
+      <enDisplayName>nL</enDisplayName>
+      <frDisplayName>nL</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ng</id>
+      <name>nanogram</name>
+      <codeSystemId>2.16.840.1.113883.6.8</codeSystemId>
+      <codeSystemName>UCUM</codeSystemName>
+      <enDisplayName>ng</enDisplayName>
+      <frDisplayName>ng</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>uL</id>
+      <name>microliter</name>
+      <codeSystemId>2.16.840.1.113883.6.8</codeSystemId>
+      <codeSystemName>UCUM</codeSystemName>
+      <enDisplayName>mcL</enDisplayName>
+      <frDisplayName>mcL</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ug</id>
+      <name>microgram</name>
+      <codeSystemId>2.16.840.1.113883.6.8</codeSystemId>
+      <codeSystemName>UCUM</codeSystemName>
+      <enDisplayName>mcg</enDisplayName>
+      <frDisplayName>mcg</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>umol</id>
+      <name>micromole</name>
+      <codeSystemId>2.16.840.1.113883.6.8</codeSystemId>
+      <codeSystemName>UCUM</codeSystemName>
+      <enDisplayName>mcmol</enDisplayName>
+      <frDisplayName>mcmol</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+  </concepts>
+</subset>

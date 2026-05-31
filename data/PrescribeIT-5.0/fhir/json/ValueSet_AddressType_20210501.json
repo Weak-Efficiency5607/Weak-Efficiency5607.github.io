@@ -1,0 +1,108 @@
+{
+  "resourceType": "ValueSet",
+  "id": "addresstype",
+  "url": "https://fhir.infoway-inforoute.ca/ValueSet/addresstype",
+  "identifier": [ {
+    "id": "2.16.840.1.113883.4.642.4.70"
+  } ],
+  "version": "20210501",
+  "name": "AddressType",
+  "status": "active",
+  "description": "The type of an address (physical / postal).",
+  "expansion": {
+    "identifier": "urn:uuid:76dd36f4-a7b6-42b8-9f44-6457cb34a1c5",
+    "timestamp": "2025-07-25T11:35:11-04:00",
+    "total": 3,
+    "contains": [ {
+      "system": "http://hl7.org/fhir/address-type",
+      "abstract": false,
+      "code": "both",
+      "display": "Postal & Physical",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "An address that is both physical and postal."
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Postal & Physical"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Adresse postale et municipale"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/address-type",
+      "abstract": false,
+      "code": "physical",
+      "display": "Physical",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "A physical address that can be visited."
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Physical"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Adresse municipale"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/address-type",
+      "abstract": false,
+      "code": "postal",
+      "display": "Postal",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Mailing addresses - PO Boxes and care-of addresses."
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Postal"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Adresse postale"
+      } ]
+    } ]
+  }
+}

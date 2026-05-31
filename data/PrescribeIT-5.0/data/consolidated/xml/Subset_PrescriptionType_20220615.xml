@@ -1,0 +1,99 @@
+<subset>
+  <id>2.16.840.1.113883.2.20.3.412</id>
+  <name>PrescriptionType</name>
+  <url>https://tgateway.infoway-inforoute.ca/vs/prescriptiontype</url>
+  <fhirUri>https://fhir.infoway-inforoute.ca/ValueSet/prescriptiontype</fhirUri>
+  <versionId>20220615</versionId>
+  <effectiveDate>2022061504:00:00</effectiveDate>
+  <publicationTime>2022083003:18:01</publicationTime>
+  <description>Prescription types to support e-prescribing</description>
+  <status>active</status>
+  <category>PrescribeIT</category>
+  <domains>
+    <string>PrescribeIT</string>
+  </domains>
+  <properties/>
+  <owner>Canada Health Infoway</owner>
+  <tags>
+    <string>Extensional</string>
+  </tags>
+  <terminologies class="com.google.gson.internal.LinkedTreeMap" resolves-to="linked-hash-map"/>
+  <type>Extensional</type>
+  <viewer>singlesubset</viewer>
+  <codeSystems>
+    <codesystem>
+      <id>2.16.840.1.113883.5.1149</id>
+      <name>PrescriptionType</name>
+      <businessName>PrescriptionType</businessName>
+      <url>https://fhir.infoway-inforoute.ca/CodeSystem/prescriptiontype</url>
+      <version>20190405</version>
+    </codesystem>
+  </codeSystems>
+  <concepts>
+    <concept>
+      <id>compound</id>
+      <name>Compound</name>
+      <codeSystemId>2.16.840.1.113883.5.1149</codeSystemId>
+      <codeSystemName>PrescriptionType</codeSystemName>
+      <enDisplayName>Compound</enDisplayName>
+      <frDisplayName>préparation magistrale</frDisplayName>
+      <effectiveDate>2022061504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>device</id>
+      <name>Device</name>
+      <codeSystemId>2.16.840.1.113883.5.1149</codeSystemId>
+      <codeSystemName>PrescriptionType</codeSystemName>
+      <enDisplayName>Device</enDisplayName>
+      <frDisplayName>dispositif</frDisplayName>
+      <effectiveDate>2022061504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>medication</id>
+      <name>Medication</name>
+      <codeSystemId>2.16.840.1.113883.5.1149</codeSystemId>
+      <codeSystemName>PrescriptionType</codeSystemName>
+      <enDisplayName>Medication</enDisplayName>
+      <frDisplayName>médicament</frDisplayName>
+      <effectiveDate>2022061504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>natural</id>
+      <name>Natural Product</name>
+      <codeSystemId>2.16.840.1.113883.5.1149</codeSystemId>
+      <codeSystemName>PrescriptionType</codeSystemName>
+      <enDisplayName>Natural Product</enDisplayName>
+      <frDisplayName>produit naturel</frDisplayName>
+      <effectiveDate>2022061504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>nutritional</id>
+      <name>Nutritional Supplement</name>
+      <codeSystemId>2.16.840.1.113883.5.1149</codeSystemId>
+      <codeSystemName>PrescriptionType</codeSystemName>
+      <enDisplayName>Nutritional Supplement</enDisplayName>
+      <frDisplayName>supplément nutritionnel</frDisplayName>
+      <effectiveDate>2022061504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+  </concepts>
+</subset>

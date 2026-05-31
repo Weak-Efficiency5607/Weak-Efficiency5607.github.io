@@ -1,0 +1,44 @@
+<result>
+  <concepts>
+    <concept>
+      <id>ACU</id>
+      <name>short term/acute</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>ActCode</codeSystemName>
+      <enDisplayName>Short term/acute</enDisplayName>
+      <frDisplayName>Court terme/aigu</frDisplayName>
+      <description>A list of medications which the patient is only expected to consume for the duration of the current order or limited set of orders and which is not expected to be renewed.</description>
+      <frDescription>Liste de médicaments que le patient est censé prendre uniquement pour la durée prescrite dans une ou plusieurs ordonnances en cours qui ne devraient pas être renouvelées.</frDescription>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>CHRON</id>
+      <name>continuous/chronic</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>ActCode</codeSystemName>
+      <enDisplayName>Continuous/chronic</enDisplayName>
+      <frDisplayName>En continu/chronique</frDisplayName>
+      <description>A list of medications which are expected to be continued beyond the present order and which the patient should be assumed to be taking unless explicitly stopped.</description>
+      <frDescription>Liste de médicaments que le patient devrait continuer de prendre après l&apos;ordonnance en cours, à moins que le traitement soit explicitement interrompu.</frDescription>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+  </concepts>
+  <pagination>
+    <currentPage>1</currentPage>
+    <totalPages>1</totalPages>
+    <pageSize>100000</pageSize>
+    <totalRecords>2</totalRecords>
+    <firstRecord>1</firstRecord>
+    <lastRecord>2</lastRecord>
+    <nextPage>-1</nextPage>
+    <nextRecord>-1</nextRecord>
+  </pagination>
+</result>

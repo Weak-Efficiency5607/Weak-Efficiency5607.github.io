@@ -1,0 +1,94 @@
+{
+  "resourceType": "ValueSet",
+  "id": "prescriptiontreatmentcategory",
+  "url": "https://fhir.infoway-inforoute.ca/ValueSet/prescriptiontreatmentcategory",
+  "identifier": [ {
+    "id": "2.16.840.1.113883.2.20.3.408"
+  } ],
+  "version": "20190415",
+  "name": "PrescriptionTreatmentCategory",
+  "status": "active",
+  "description": "The intended duration of a medication therapy",
+  "expansion": {
+    "identifier": "urn:uuid:e3243a13-6259-430a-b383-e97dcc6a4791",
+    "timestamp": "2025-07-25T11:34:34-04:00",
+    "total": 2,
+    "contains": [ {
+      "system": "http://hl7.org/fhir/v3/ActCode",
+      "abstract": false,
+      "code": "ACU",
+      "display": "Short term/acute",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "A list of medications which the patient is only expected to consume for the duration of the current order or limited set of orders and which is not expected to be renewed."
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Short term/acute"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Liste de médicaments que le patient est censé prendre uniquement pour la durée prescrite dans une ou plusieurs ordonnances en cours qui ne devraient pas être renouvelées."
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Court terme/aigu"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/ActCode",
+      "abstract": false,
+      "code": "CHRON",
+      "display": "Continuous/chronic",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "A list of medications which are expected to be continued beyond the present order and which the patient should be assumed to be taking unless explicitly stopped."
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Continuous/chronic"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Liste de médicaments que le patient devrait continuer de prendre après l'ordonnance en cours, à moins que le traitement soit explicitement interrompu."
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "En continu/chronique"
+      } ]
+    } ]
+  }
+}

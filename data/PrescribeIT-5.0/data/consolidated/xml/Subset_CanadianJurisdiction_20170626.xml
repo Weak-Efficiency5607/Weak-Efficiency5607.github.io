@@ -1,0 +1,208 @@
+<subset>
+  <id>2.16.840.1.113883.2.20.3.438</id>
+  <name>CanadianJurisdiction</name>
+  <url>https://tgateway.infoway-inforoute.ca/vs/canadianjurisdiction</url>
+  <fhirUri>https://fhir.infoway-inforoute.ca/ValueSet/canadianjurisdiction</fhirUri>
+  <versionId>20170626</versionId>
+  <effectiveDate>2017062604:00:00</effectiveDate>
+  <description>Codes to identify the provinces and territories of Canada</description>
+  <status>active</status>
+  <category>ISO</category>
+  <domains>
+    <string>ePrescribe</string>
+    <string>PrescribeIT</string>
+  </domains>
+  <properties>
+    <entry>
+      <string>project</string>
+      <string>eRx</string>
+    </entry>
+  </properties>
+  <owner>Canada Health Infoway</owner>
+  <tags>
+    <string>extensional</string>
+  </tags>
+  <terminologies class="com.google.gson.internal.LinkedTreeMap" resolves-to="linked-hash-map"/>
+  <type>extensional</type>
+  <viewer>singlesubset</viewer>
+  <codeSystems>
+    <codesystem>
+      <id>9.8.7.6</id>
+      <name>Canada Post Province Codes</name>
+      <businessName>Canada Post Province Codes</businessName>
+      <url>http://canadapost.ca/CodeSystem/ProvinceCodes</url>
+      <version>20170116</version>
+    </codesystem>
+  </codeSystems>
+  <concepts>
+    <concept>
+      <id>AB</id>
+      <name>Alberta</name>
+      <codeSystemId>9.8.7.6</codeSystemId>
+      <codeSystemName>Canada Post Province Codes</codeSystemName>
+      <enDisplayName>Alberta</enDisplayName>
+      <frDisplayName>Alberta</frDisplayName>
+      <effectiveDate>2017062604:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>BC</id>
+      <name>British Columbia</name>
+      <codeSystemId>9.8.7.6</codeSystemId>
+      <codeSystemName>Canada Post Province Codes</codeSystemName>
+      <enDisplayName>British Columbia</enDisplayName>
+      <frDisplayName>Colombie-Britannique</frDisplayName>
+      <effectiveDate>2017062604:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>MB</id>
+      <name>Manitoba</name>
+      <codeSystemId>9.8.7.6</codeSystemId>
+      <codeSystemName>Canada Post Province Codes</codeSystemName>
+      <enDisplayName>Manitoba</enDisplayName>
+      <frDisplayName>Manitoba</frDisplayName>
+      <effectiveDate>2017062604:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>NB</id>
+      <name>New Brunswick</name>
+      <codeSystemId>9.8.7.6</codeSystemId>
+      <codeSystemName>Canada Post Province Codes</codeSystemName>
+      <enDisplayName>New Brunswick</enDisplayName>
+      <frDisplayName>Nouveau-Brunswick</frDisplayName>
+      <effectiveDate>2017062604:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>NL</id>
+      <name>Newfoundland and Labrador</name>
+      <codeSystemId>9.8.7.6</codeSystemId>
+      <codeSystemName>Canada Post Province Codes</codeSystemName>
+      <enDisplayName>Newfoundland and Labrador</enDisplayName>
+      <frDisplayName>Terre-Neuve-et-Labrador</frDisplayName>
+      <effectiveDate>2017062604:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>NS</id>
+      <name>Nova Scotia</name>
+      <codeSystemId>9.8.7.6</codeSystemId>
+      <codeSystemName>Canada Post Province Codes</codeSystemName>
+      <enDisplayName>Nova Scotia</enDisplayName>
+      <frDisplayName>Nouvelle-Écosse</frDisplayName>
+      <effectiveDate>2017062604:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>NT</id>
+      <name>Northwest Territories</name>
+      <codeSystemId>9.8.7.6</codeSystemId>
+      <codeSystemName>Canada Post Province Codes</codeSystemName>
+      <enDisplayName>Northwest Territories</enDisplayName>
+      <frDisplayName>Territoires du Nord-Ouest</frDisplayName>
+      <effectiveDate>2017062604:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>NU</id>
+      <name>Nunavut</name>
+      <codeSystemId>9.8.7.6</codeSystemId>
+      <codeSystemName>Canada Post Province Codes</codeSystemName>
+      <enDisplayName>Nunavut</enDisplayName>
+      <frDisplayName>Nunavut</frDisplayName>
+      <effectiveDate>2017062604:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ON</id>
+      <name>Ontario</name>
+      <codeSystemId>9.8.7.6</codeSystemId>
+      <codeSystemName>Canada Post Province Codes</codeSystemName>
+      <enDisplayName>Ontario</enDisplayName>
+      <frDisplayName>Ontario</frDisplayName>
+      <effectiveDate>2017062604:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>PE</id>
+      <name>Prince Edward Island</name>
+      <codeSystemId>9.8.7.6</codeSystemId>
+      <codeSystemName>Canada Post Province Codes</codeSystemName>
+      <enDisplayName>Prince Edward Island</enDisplayName>
+      <frDisplayName>Île-du-Prince-Édouard</frDisplayName>
+      <effectiveDate>2017062604:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>QC</id>
+      <name>Quebec</name>
+      <codeSystemId>9.8.7.6</codeSystemId>
+      <codeSystemName>Canada Post Province Codes</codeSystemName>
+      <enDisplayName>Quebec</enDisplayName>
+      <frDisplayName>Québec</frDisplayName>
+      <effectiveDate>2017062604:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>SK</id>
+      <name>Saskatchewan</name>
+      <codeSystemId>9.8.7.6</codeSystemId>
+      <codeSystemName>Canada Post Province Codes</codeSystemName>
+      <enDisplayName>Saskatchewan</enDisplayName>
+      <frDisplayName>Saskatchewan</frDisplayName>
+      <effectiveDate>2017062604:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>YT</id>
+      <name>Yukon</name>
+      <codeSystemId>9.8.7.6</codeSystemId>
+      <codeSystemName>Canada Post Province Codes</codeSystemName>
+      <enDisplayName>Yukon</enDisplayName>
+      <frDisplayName>Yukon</frDisplayName>
+      <effectiveDate>2017062604:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+  </concepts>
+</subset>

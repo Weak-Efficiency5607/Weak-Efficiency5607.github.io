@@ -1,0 +1,147 @@
+<subset>
+  <id>2.16.840.1.113883.2.20.3.417</id>
+  <name>PrescriptionPharmacyTaskType</name>
+  <url>https://tgateway.infoway-inforoute.ca/vs/prescriptionpharmacytasktype</url>
+  <fhirUri>https://fhir.infoway-inforoute.ca/ValueSet/prescriptionpharmacytasktype</fhirUri>
+  <versionId>20190315</versionId>
+  <effectiveDate>2019031504:00:00</effectiveDate>
+  <publicationTime>2019031507:25:49</publicationTime>
+  <description>PrescribeIT types of tasks for Pharmacies</description>
+  <status>active</status>
+  <category>PrescribeIT</category>
+  <domains>
+    <string>PrescribeIT</string>
+  </domains>
+  <properties>
+    <entry>
+      <string>project</string>
+      <string>eRx</string>
+    </entry>
+  </properties>
+  <owner>Canada Health Infoway</owner>
+  <tags>
+    <string>Extensional</string>
+  </tags>
+  <terminologies class="com.google.gson.internal.LinkedTreeMap" resolves-to="linked-hash-map"/>
+  <type>Extensional</type>
+  <viewer>singlesubset</viewer>
+  <codeSystems>
+    <codesystem>
+      <id>2.16.840.1.113883.5.1140</id>
+      <name>PrescriptionTaskType</name>
+      <businessName>PrescriptionTaskType</businessName>
+      <url>https://fhir.infoway-inforoute.ca/CodeSystem/prescriptiontasktype</url>
+      <version>20190308</version>
+    </codesystem>
+  </codeSystems>
+  <concepts>
+    <concept>
+      <id>p141-m</id>
+      <name>Cancel Rx Request Refuse</name>
+      <codeSystemId>2.16.840.1.113883.5.1140</codeSystemId>
+      <codeSystemName>PrescriptionTaskType</codeSystemName>
+      <enDisplayName>Cancel Rx Request Refuse</enDisplayName>
+      <effectiveDate>2019031504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>p142-m</id>
+      <name>Cancel Rx Request Approved</name>
+      <codeSystemId>2.16.840.1.113883.5.1140</codeSystemId>
+      <codeSystemName>PrescriptionTaskType</codeSystemName>
+      <enDisplayName>Cancel Rx Request Approved</enDisplayName>
+      <effectiveDate>2019031504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>p143-m</id>
+      <name>Cancel Rx Remaining Fills Revoked</name>
+      <codeSystemId>2.16.840.1.113883.5.1140</codeSystemId>
+      <codeSystemName>PrescriptionTaskType</codeSystemName>
+      <enDisplayName>Cancel Rx Remaining Fills Revoked</enDisplayName>
+      <effectiveDate>2019031504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>p160-m</id>
+      <name>RX Renewal Create Request</name>
+      <codeSystemId>2.16.840.1.113883.5.1140</codeSystemId>
+      <codeSystemName>PrescriptionTaskType</codeSystemName>
+      <enDisplayName>RX Renewal Create Request</enDisplayName>
+      <effectiveDate>2019031504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>p166-m</id>
+      <name>Rx Renewal Reminder</name>
+      <codeSystemId>2.16.840.1.113883.5.1140</codeSystemId>
+      <codeSystemName>PrescriptionTaskType</codeSystemName>
+      <enDisplayName>Rx Renewal Reminder</enDisplayName>
+      <effectiveDate>2019031504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>p170-m</id>
+      <name>Pharmacist Adapt</name>
+      <codeSystemId>2.16.840.1.113883.5.1140</codeSystemId>
+      <codeSystemName>PrescriptionTaskType</codeSystemName>
+      <enDisplayName>Pharmacist Adapt Notification</enDisplayName>
+      <effectiveDate>2019031504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>p190-m</id>
+      <name>Pharmacist Prescribe</name>
+      <codeSystemId>2.16.840.1.113883.5.1140</codeSystemId>
+      <codeSystemName>PrescriptionTaskType</codeSystemName>
+      <enDisplayName>Pharmacist Prescribe Notification</enDisplayName>
+      <effectiveDate>2019031504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>p200-m</id>
+      <name>Rx Dispense Notification</name>
+      <codeSystemId>2.16.840.1.113883.5.1140</codeSystemId>
+      <codeSystemName>PrescriptionTaskType</codeSystemName>
+      <enDisplayName>Rx Dispense Notification</enDisplayName>
+      <effectiveDate>2019031504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>p210-m</id>
+      <name>Rx Dispense Cancel Notification</name>
+      <codeSystemId>2.16.840.1.113883.5.1140</codeSystemId>
+      <codeSystemName>PrescriptionTaskType</codeSystemName>
+      <enDisplayName>Rx Dispense Cancel Notification</enDisplayName>
+      <effectiveDate>2019031504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+  </concepts>
+</subset>

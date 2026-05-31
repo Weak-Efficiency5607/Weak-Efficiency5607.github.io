@@ -1,0 +1,51 @@
+<subset>
+  <id>2.16.840.1.113883.2.20.3.442</id>
+  <name>SharedAuthorizationMechanism</name>
+  <url>https://tgateway.infoway-inforoute.ca/vs/sharedauthorizationmechanism</url>
+  <fhirUri>https://fhir.infoway-inforoute.ca/ValueSet/sharedauthorizationmechanism</fhirUri>
+  <versionId>20170626</versionId>
+  <effectiveDate>2017062604:00:00</effectiveDate>
+  <description>Authorization mechanisms supported for Shared Health practitioners</description>
+  <status>active</status>
+  <category>PrescribeIT</category>
+  <domains>
+    <string>PrescribeIT</string>
+  </domains>
+  <properties>
+    <entry>
+      <string>project</string>
+      <string>eRx</string>
+    </entry>
+  </properties>
+  <owner>Canada Health Infoway</owner>
+  <tags>
+    <string>extensional</string>
+  </tags>
+  <terminologies class="com.google.gson.internal.LinkedTreeMap" resolves-to="linked-hash-map"/>
+  <type>extensional</type>
+  <viewer>singlesubset</viewer>
+  <codeSystems>
+    <codesystem>
+      <id>2.16.840.1.113883.15.18</id>
+      <name>AuthorizationMechanism</name>
+      <businessName>AuthorizationMechanism</businessName>
+      <url>https://fhir.infoway-inforoute.ca/CodeSystem/authorizationmechanism</url>
+      <version>20170626</version>
+      <organization>Canada Health Infoway</organization>
+    </codesystem>
+  </codeSystems>
+  <concepts>
+    <concept>
+      <id>sms</id>
+      <name>Short Message Service</name>
+      <codeSystemId>2.16.840.1.113883.15.18</codeSystemId>
+      <codeSystemName>AuthorizationMechanism</codeSystemName>
+      <enDisplayName>Short Message Service</enDisplayName>
+      <effectiveDate>2017062604:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+  </concepts>
+</subset>

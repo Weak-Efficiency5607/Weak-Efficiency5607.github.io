@@ -1,0 +1,27 @@
+<version>
+  <id>2.16.840.1.113883.2.20.3.398</id>
+  <url>https://tgateway.infoway-inforoute.ca/vs/prescriptiondrugform</url>
+  <fhirUri>https://fhir.infoway-inforoute.ca/ValueSet/prescriptiondrugform</fhirUri>
+  <name>PrescriptionDrugForm</name>
+  <versionId>20230223</versionId>
+  <effectiveDate>2023022305:00:00</effectiveDate>
+  <publicationTime>2023022303:16:11</publicationTime>
+  <description>The form in which a compounded drug or active ingredient can be dispensed to the patient</description>
+  <status>active</status>
+  <codeSystems>
+    <codesystem>
+      <id>2.16.840.1.113883.5.85</id>
+      <name>orderableDrugForm</name>
+      <businessName>orderableDrugForm</businessName>
+      <url>http://hl7.org/fhir/v3/orderableDrugForm</url>
+      <version>1.4.0</version>
+    </codesystem>
+    <codesystem>
+      <id>2.16.840.1.113883.6.96</id>
+      <name>SNOMED CT CA Edition</name>
+      <businessName>SNOMED CT CA Edition</businessName>
+      <url>http://snomed.info/sct</url>
+      <version>20220930</version>
+    </codesystem>
+  </codeSystems>
+</version>

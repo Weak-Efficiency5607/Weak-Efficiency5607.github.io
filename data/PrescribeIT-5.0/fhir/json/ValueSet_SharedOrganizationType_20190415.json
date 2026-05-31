@@ -1,0 +1,94 @@
+{
+  "resourceType": "ValueSet",
+  "id": "sharedorganizationtype",
+  "url": "https://fhir.infoway-inforoute.ca/ValueSet/sharedorganizationtype",
+  "identifier": [ {
+    "id": "2.16.840.1.113883.2.20.3.428"
+  } ],
+  "version": "20190415",
+  "name": "SharedOrganizationType",
+  "status": "active",
+  "description": "Organization type codes supported for Shared Health systems",
+  "expansion": {
+    "identifier": "urn:uuid:9c58035b-f5f3-4cb5-b59f-a0c4e1066791",
+    "timestamp": "2025-07-25T11:34:53-04:00",
+    "total": 2,
+    "contains": [ {
+      "system": "http://hl7.org/fhir/v3/RoleCode",
+      "abstract": false,
+      "code": "OUTPHARM",
+      "display": "Outpatient pharmacy",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "A location that plays the role of delivering services which may include providing judicious, safe, efficacious, appropriate and cost effective use of medicines for treatment of patients for outpatient visits and may also be used for discharge prescriptions."
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Outpatient pharmacy"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Lieu où sont fournis des services tels que des directives pour l'utilisation judicieuse, sûre, efficace, appropriée et économique des médicaments dans le traitement des patients en consultation externe et qui peut aussi préparer les médicaments prescrits au moment du congé."
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Pharmacie externe"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/RoleCode",
+      "abstract": false,
+      "code": "PROFF",
+      "display": "Provider's office",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Location where healthcare service was delivered, identified as the healthcare provider's practice office."
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Provider's office"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Lieu où les soins ont été donnés, désigné comme le cabinet du professionnel de la santé."
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Cabinet du professionnel de la santé"
+      } ]
+    } ]
+  }
+}

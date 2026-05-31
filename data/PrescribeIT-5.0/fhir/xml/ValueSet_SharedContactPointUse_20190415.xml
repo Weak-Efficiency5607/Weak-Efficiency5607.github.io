@@ -1,0 +1,140 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+   <id value="sharedcontactpointuse"></id>
+   <url value="https://fhir.infoway-inforoute.ca/ValueSet/sharedcontactpointuse"></url>
+   <identifier id="2.16.840.1.113883.2.20.3.419"></identifier>
+   <version value="20190415"></version>
+   <name value="SharedContactPointUse"></name>
+   <status value="active"></status>
+   <description value="Contact point uses supported for Shared Health systems"></description>
+   <expansion>
+      <identifier value="urn:uuid:f5baca76-501a-404f-9187-8ed783e6a670"></identifier>
+      <timestamp value="2025-07-25T11:34:44-04:00"></timestamp>
+      <total value="3"></total>
+      <contains>
+         <system value="http://hl7.org/fhir/contact-point-use"></system>
+         <abstract value="false"></abstract>
+         <code value="home"></code>
+         <display value="Home"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="A communication contact point at a home; attempted contacts for business purposes might intrude privacy and chances are one will contact family or other household members instead of the person one wishes to call. Typically used with urgent cases, or if no other contacts are available."></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Home"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="Point de contact à domicile; les tentatives de contact à domicile pour des raisons professionnelles pourraient porter atteinte à la vie privée, car la personne qui téléphone risque de tomber sur un membre de la famille ou d'autres personnes partageant le domicile, au lieu de parler à la personne qu'elle souhaite joindre. Numéro à utiliser généralement en cas d'urgence ou si la personne n'est pas joignable aux autres points de contact."></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Domicile"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/contact-point-use"></system>
+         <abstract value="false"></abstract>
+         <code value="mobile"></code>
+         <display value="Mobile"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="A telecommunication device that moves and stays with its owner. May have characteristics of all other use codes, suitable for urgent matters, not the first choice for routine business."></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Mobile"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="Appareil de télécommunication mobile, qu'on transporte avec soi. Peut avoir les caractéristiques de tout autre code d'utilisation, convient en cas d'urgence, mais pas le premier choix pour des affaires courantes."></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Cellulaire"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/contact-point-use"></system>
+         <abstract value="false"></abstract>
+         <code value="work"></code>
+         <display value="Work"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="An office contact point. First choice for business related contacts during business hours."></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Work"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="Point de contact au travail. Premier choix pour les appels professionnels faits durant les heures de bureau."></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Travail"></value>
+         </designation>
+      </contains>
+   </expansion>
+</ValueSet>

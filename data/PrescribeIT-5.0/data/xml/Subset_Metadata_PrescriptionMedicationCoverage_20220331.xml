@@ -1,0 +1,22 @@
+<version>
+  <id>2.16.840.1.113883.2.20.3.400</id>
+  <url>https://tgateway.infoway-inforoute.ca/vs/prescriptionmedicationcoverage</url>
+  <fhirUri>https://fhir.infoway-inforoute.ca/ValueSet/prescriptionmedicationcoverage</fhirUri>
+  <name>PrescriptionMedicationCoverage</name>
+  <versionId>20220331</versionId>
+  <effectiveDate>2022033104:00:00</effectiveDate>
+  <publicationTime>2022032503:18:52</publicationTime>
+  <description>Codes defining whether a given prescribable product is covered by a formulary.</description>
+  <status>active</status>
+  <language>en</language>
+  <codeSystems>
+    <codesystem>
+      <id>2.16.840.1.113883.6.96</id>
+      <name>SNOMED CT CA Edition</name>
+      <businessName>SNOMED CT Canadian Edition</businessName>
+      <url>http://snomed.info/sct</url>
+      <version>20220331</version>
+      <organization>Canada Health Infoway</organization>
+    </codesystem>
+  </codeSystems>
+</version>

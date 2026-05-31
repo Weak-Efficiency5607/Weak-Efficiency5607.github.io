@@ -1,0 +1,2078 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+   <id value="prescribedquantityunit"></id>
+   <url value="https://fhir.infoway-inforoute.ca/ValueSet/prescribedquantityunit"></url>
+   <identifier id="2.16.840.1.113883.2.20.3.402"></identifier>
+   <version value="20220331"></version>
+   <name value="PrescribedQuantityUnit"></name>
+   <status value="active"></status>
+   <description value="Units of measure and/or products that convey the amount of drug being prescribed to a patient"></description>
+   <expansion>
+      <identifier value="urn:uuid:a355edc8-7c58-49b7-89aa-9bad15d15a64"></identifier>
+      <timestamp value="2025-07-25T11:32:55-04:00"></timestamp>
+      <total value="86"></total>
+      <contains>
+         <system value="http://unitsofmeasure.org"></system>
+         <abstract value="false"></abstract>
+         <code value="%"></code>
+         <display value="%"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="%"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="%"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="1641000175108"></code>
+         <display value="Applicator(s)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Applicator(s)"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="applicateur(s)"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="1671000175104"></code>
+         <display value="Strip(s)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Strip(s)"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="bandelette(s)"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="1681000175101"></code>
+         <display value="Package(s)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Package(s)"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="emballage(s)"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="1691000175103"></code>
+         <display value="Stick(s)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Stick(s)"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="bâtonnet(s)"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="1701000175103"></code>
+         <display value="Wafer(s)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Wafer(s)"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="cachet(s)"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="18492004"></code>
+         <display value="Canister(s)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Canister(s)"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="récipient(s)"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="23541000087106"></code>
+         <display value="Buccal tablet(s)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Buccal tablet(s)"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="comprimé(s) buccal(-aux)"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="334947002"></code>
+         <display value="Nebulizer(s)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Nebulizer(s)"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="nébuliseur(s)"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="334980009"></code>
+         <display value="Inhaler(s)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Inhaler(s)"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="inhalateur(s)"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="350810002"></code>
+         <display value="Lancet(s)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Lancet(s)"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="lancette(s)"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="398124009"></code>
+         <display value="Container(s)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Container(s)"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="contenant(s)"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="404218003"></code>
+         <display value="Drop(s)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Drop(s)"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="goutte(s)"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="408102007"></code>
+         <display value="Dose(s)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Dose(s)"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="dose(s)"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="413516001"></code>
+         <display value="Ampule(s)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Ampule(s)"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="ampoule(s)"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="413568008"></code>
+         <display value="Application(s)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Application(s)"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="application(s)"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="415215001"></code>
+         <display value="Puff(s)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Puff(s)"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="bouffée(s)"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="415505006"></code>
+         <display value="Scoop(s)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Scoop(s)"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="cuillérée(s)"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="415818006"></code>
+         <display value="Vial(s)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Vial(s)"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="flacon(s)"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="418445004"></code>
+         <display value="Box(es)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Box(es)"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="boîte(s)"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="418530008"></code>
+         <display value="Tube(s)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Tube(s)"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="tube(s)"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="419179001"></code>
+         <display value="Kit(s)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Kit(s)"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="trousse(s)"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="419473009"></code>
+         <display value="Each"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Each"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="chaque"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="419672006"></code>
+         <display value="Bottle(s)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Bottle(s)"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="bouteille(s)"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="419694003"></code>
+         <display value="Spray(s)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Spray(s)"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="pulvérisation(s)"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="419702001"></code>
+         <display value="Patch(es)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Patch(es)"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="timbre(s)"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="419888008"></code>
+         <display value="Packet(s)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Packet(s)"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="paquet(s)"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="421823004"></code>
+         <display value="Pad(s)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Pad(s)"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="tampon(s) imprégné(s)"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="426148002"></code>
+         <display value="Sachet(s)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Sachet(s)"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="sachet(s)"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="427678004"></code>
+         <display value="Disk(s)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Disk(s)"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="disque(s)"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="428003006"></code>
+         <display value="Bar(s)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Bar(s)"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="barre(s)"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="428177008"></code>
+         <display value="Implant(s)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Implant(s)"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="implant(s)"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="428639001"></code>
+         <display value="Insert(s)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Insert(s)"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="insert(s)"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="428640004"></code>
+         <display value="Pellet(s)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Pellet(s)"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="granule(s)"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="428641000"></code>
+         <display value="Capsule(s)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Capsule(s)"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="capsule(s)"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="428672001"></code>
+         <display value="Bag(s)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Bag(s)"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="sac(s)"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="428673006"></code>
+         <display value="Tablet(s)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Tablet(s)"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="comprimé(s)"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="429308001"></code>
+         <display value="Can(s)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Can(s)"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="canette(s)"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="429587008"></code>
+         <display value="Lozenge(s)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Lozenge(s)"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="pastille(s)"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="429671000"></code>
+         <display value="Sponge(s)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Sponge(s)"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="éponge(s)"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="430281005"></code>
+         <display value="Gum"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Gum"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="gomme"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="430293001"></code>
+         <display value="Suppository(ies)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Suppository(ies)"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="suppositoire(s)"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="44668000"></code>
+         <display value="Pump(s)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Pump(s)"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="pompe(s)"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="463408005"></code>
+         <display value="Pen needle(s)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Pen needle(s)"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="stylo(s) injecteur(s) de médicament"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="49062001"></code>
+         <display value="Device(s)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Device(s)"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="dispositif(s)"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="61968008"></code>
+         <display value="Syringe(s)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Syringe(s)"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="seringue(s)"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="700473000"></code>
+         <display value="Pastille(s)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Pastille(s)"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="pâte à sucer"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="700476008"></code>
+         <display value="Enema(s)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Enema(s)"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="lavement(s)"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="700477004"></code>
+         <display value="Tampon(s)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Tampon(s)"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="tampon(s)"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="700478009"></code>
+         <display value="Dressing(s)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Dressing(s)"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="pansement(s)"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="706440002"></code>
+         <display value="Cartridge(s)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Cartridge(s)"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="cartouche(s)"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="72070000"></code>
+         <display value="Ring(s)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Ring(s)"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="anneau(x)"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="733006000"></code>
+         <display value="Pen(s)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Pen(s)"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="stylo(s)"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://unitsofmeasure.org"></system>
+         <abstract value="false"></abstract>
+         <code value="L"></code>
+         <display value="L"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="L"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="L"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://unitsofmeasure.org"></system>
+         <abstract value="false"></abstract>
+         <code value="U"></code>
+         <display value="Unit(s)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Unit(s)"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="unité(s)"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://unitsofmeasure.org"></system>
+         <abstract value="false"></abstract>
+         <code value="[cup_us]"></code>
+         <display value="cup(s)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="cup(s)"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="tasse(s)"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://unitsofmeasure.org"></system>
+         <abstract value="false"></abstract>
+         <code value="[foz_br]"></code>
+         <display value="fl oz"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="fl oz"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="oz liq"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://unitsofmeasure.org"></system>
+         <abstract value="false"></abstract>
+         <code value="[gal_br]"></code>
+         <display value="gallon(s)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="gallon(s)"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="gallon(s)"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://unitsofmeasure.org"></system>
+         <abstract value="false"></abstract>
+         <code value="[lb_av]"></code>
+         <display value="lb"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="lb"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="lb"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://unitsofmeasure.org"></system>
+         <abstract value="false"></abstract>
+         <code value="[oz_av]"></code>
+         <display value="oz"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="oz"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="oz"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://unitsofmeasure.org"></system>
+         <abstract value="false"></abstract>
+         <code value="[pt_br]"></code>
+         <display value="pt"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="pt"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="chop"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://unitsofmeasure.org"></system>
+         <abstract value="false"></abstract>
+         <code value="[qt_br]"></code>
+         <display value="qt"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="qt"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="pte"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://unitsofmeasure.org"></system>
+         <abstract value="false"></abstract>
+         <code value="[sft_i]"></code>
+         <display value="sq ft"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="sq ft"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="pi2"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://unitsofmeasure.org"></system>
+         <abstract value="false"></abstract>
+         <code value="[sin_i]"></code>
+         <display value="sq in"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="sq in"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="po2"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://unitsofmeasure.org"></system>
+         <abstract value="false"></abstract>
+         <code value="[syd_i]"></code>
+         <display value="sq yd"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="sq yd"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="vg2"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://unitsofmeasure.org"></system>
+         <abstract value="false"></abstract>
+         <code value="[tbs_us]"></code>
+         <display value="tbsp(s)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="tbsp(s)"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="c. à table"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://unitsofmeasure.org"></system>
+         <abstract value="false"></abstract>
+         <code value="[tsp_us]"></code>
+         <display value="tsp(s)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="tsp(s)"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="c. à thé"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://unitsofmeasure.org"></system>
+         <abstract value="false"></abstract>
+         <code value="cm2"></code>
+         <display value="sq cm"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="sq cm"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="cm2"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://unitsofmeasure.org"></system>
+         <abstract value="false"></abstract>
+         <code value="cm3"></code>
+         <display value="cubic cm"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="cubic cm"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="cm3"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://unitsofmeasure.org"></system>
+         <abstract value="false"></abstract>
+         <code value="g"></code>
+         <display value="g"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="g"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="g"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://unitsofmeasure.org"></system>
+         <abstract value="false"></abstract>
+         <code value="iU"></code>
+         <display value="international unit(s)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="international unit(s)"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="unité(s) internationale(s)"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://unitsofmeasure.org"></system>
+         <abstract value="false"></abstract>
+         <code value="kg"></code>
+         <display value="kg"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="kg"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="kg"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://unitsofmeasure.org"></system>
+         <abstract value="false"></abstract>
+         <code value="m2"></code>
+         <display value="sq m"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="sq m"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="m2"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://unitsofmeasure.org"></system>
+         <abstract value="false"></abstract>
+         <code value="mL"></code>
+         <display value="mL"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="mL"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="mL"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://unitsofmeasure.org"></system>
+         <abstract value="false"></abstract>
+         <code value="mU"></code>
+         <display value="milliUnit(s)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="milliUnit(s)"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="milli-unité(s) internationale(s)"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://unitsofmeasure.org"></system>
+         <abstract value="false"></abstract>
+         <code value="meq"></code>
+         <display value="meq"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="meq"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="mÉq"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://unitsofmeasure.org"></system>
+         <abstract value="false"></abstract>
+         <code value="mg"></code>
+         <display value="mg"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="mg"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="mg"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://unitsofmeasure.org"></system>
+         <abstract value="false"></abstract>
+         <code value="mm2"></code>
+         <display value="sq mm"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="sq mm"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="mm2"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://unitsofmeasure.org"></system>
+         <abstract value="false"></abstract>
+         <code value="mm3"></code>
+         <display value="cubic mm"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="cubic mm"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="mm3"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://unitsofmeasure.org"></system>
+         <abstract value="false"></abstract>
+         <code value="mmol"></code>
+         <display value="mmol"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="mmol"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="mmol"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://unitsofmeasure.org"></system>
+         <abstract value="false"></abstract>
+         <code value="mol"></code>
+         <display value="mol"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="mol"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="mol"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://unitsofmeasure.org"></system>
+         <abstract value="false"></abstract>
+         <code value="nL"></code>
+         <display value="nL"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="nL"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="nL"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://unitsofmeasure.org"></system>
+         <abstract value="false"></abstract>
+         <code value="ng"></code>
+         <display value="ng"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="ng"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="ng"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://unitsofmeasure.org"></system>
+         <abstract value="false"></abstract>
+         <code value="uL"></code>
+         <display value="mcL"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="mcL"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="mcL"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://unitsofmeasure.org"></system>
+         <abstract value="false"></abstract>
+         <code value="ug"></code>
+         <display value="mcg"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="mcg"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="mcg"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://unitsofmeasure.org"></system>
+         <abstract value="false"></abstract>
+         <code value="umol"></code>
+         <display value="mcmol"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="mcmol"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="mcmol"></value>
+         </designation>
+      </contains>
+   </expansion>
+</ValueSet>

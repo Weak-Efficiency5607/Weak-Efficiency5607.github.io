@@ -1,0 +1,79 @@
+<subset>
+  <id>2.16.840.1.113883.2.20.3.426</id>
+  <name>SharedMessageHeaderResponseCodeError</name>
+  <url>https://tgateway.infoway-inforoute.ca/vs/sharedmessageheaderresponsecodeerror</url>
+  <fhirUri>https://fhir.infoway-inforoute.ca/ValueSet/sharedmessageheaderresponsecodeerror</fhirUri>
+  <versionId>20190415</versionId>
+  <effectiveDate>2019041504:00:00</effectiveDate>
+  <publicationTime>2019051505:09:42</publicationTime>
+  <description>The set of message response codes that are considered to be &apos;errors&apos;</description>
+  <status>active</status>
+  <category>HL7</category>
+  <domains>
+    <string>PrescribeIT</string>
+  </domains>
+  <properties/>
+  <owner>Canada Health Infoway</owner>
+  <tags>
+    <string>Extensional</string>
+  </tags>
+  <terminologies class="com.google.gson.internal.LinkedTreeMap" resolves-to="linked-hash-map"/>
+  <type>Extensional</type>
+  <viewer>singlesubset</viewer>
+  <codeSystems>
+    <codesystem>
+      <id>2.16.840.1.113883.4.642.1.368</id>
+      <name>ResponseType</name>
+      <businessName>ResponseType</businessName>
+      <url>http://hl7.org/fhir/response-code</url>
+      <version>1.4.0</version>
+    </codesystem>
+  </codeSystems>
+  <concepts>
+    <concept>
+      <id>fatal-error</id>
+      <name>Fatal Error</name>
+      <codeSystemId>2.16.840.1.113883.4.642.1.368</codeSystemId>
+      <codeSystemName>ResponseType</codeSystemName>
+      <enDisplayName>Fatal error</enDisplayName>
+      <frDisplayName>Erreur fatale</frDisplayName>
+      <description>The message was rejected because of a problem with the content. There is no point in re-sending without change. The response narrative SHALL describe the issue.</description>
+      <frDescription>Le message a été rejeté en raison d&apos;un problème de contenu. Il est inutile de le renvoyer sans modification. Le message DOIT décrire le problème.</frDescription>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ok</id>
+      <name>OK</name>
+      <codeSystemId>2.16.840.1.113883.4.642.1.368</codeSystemId>
+      <codeSystemName>ResponseType</codeSystemName>
+      <enDisplayName>OK</enDisplayName>
+      <frDisplayName>OK</frDisplayName>
+      <description>The message was accepted and processed without error.</description>
+      <frDescription>Le message a été accepté et traité sans erreur.</frDescription>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>transient-error</id>
+      <name>Transient Error</name>
+      <codeSystemId>2.16.840.1.113883.4.642.1.368</codeSystemId>
+      <codeSystemName>ResponseType</codeSystemName>
+      <enDisplayName>Transient error</enDisplayName>
+      <frDisplayName>Erreur intermittente</frDisplayName>
+      <description>Some internal unexpected error occurred - wait and try again. Note - this is usually used for things like database unavailable, which may be expected to resolve, though human intervention may be required.</description>
+      <frDescription>Une erreur interne imprévue est survenue – attendez et réessayez. Remarque : ce code est habituellement utilisé pour des situations qui devraient se rétablir d&apos;elles-mêmes, comme une base de données inaccessible, quoiqu&apos;une intervention humaine puisse parfois être nécessaire.</frDescription>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+  </concepts>
+</subset>

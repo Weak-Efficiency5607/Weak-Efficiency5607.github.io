@@ -1,0 +1,44 @@
+<result>
+  <concepts>
+    <concept>
+      <id>official</id>
+      <name>Official</name>
+      <codeSystemId>2.16.840.1.113883.4.642.1.59</codeSystemId>
+      <codeSystemName>NameUse</codeSystemName>
+      <enDisplayName>Official</enDisplayName>
+      <frDisplayName>Nom officiel</frDisplayName>
+      <description>The formal name as registered in an official (government) registry, but which name might not be commonly used. May be called &quot;legal name&quot;.</description>
+      <frDescription>Nom officiel tel qu&apos;il figure dans un registre (gouvernemental) officiel, mais qui n&apos;est peut-être pas utilisé couramment. Aussi appelé « nom légal ».</frDescription>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>usual</id>
+      <name>Usual</name>
+      <codeSystemId>2.16.840.1.113883.4.642.1.59</codeSystemId>
+      <codeSystemName>NameUse</codeSystemName>
+      <enDisplayName>Usual</enDisplayName>
+      <frDisplayName>Nom usuel</frDisplayName>
+      <description>Known as/conventional/the one you normally use</description>
+      <frDescription>Nom habituellement utilisé.</frDescription>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+  </concepts>
+  <pagination>
+    <currentPage>1</currentPage>
+    <totalPages>1</totalPages>
+    <pageSize>100000</pageSize>
+    <totalRecords>2</totalRecords>
+    <firstRecord>1</firstRecord>
+    <lastRecord>2</lastRecord>
+    <nextPage>-1</nextPage>
+    <nextRecord>-1</nextRecord>
+  </pagination>
+</result>

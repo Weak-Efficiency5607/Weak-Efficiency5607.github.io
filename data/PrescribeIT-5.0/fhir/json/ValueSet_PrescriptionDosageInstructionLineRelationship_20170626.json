@@ -1,0 +1,46 @@
+{
+  "resourceType": "ValueSet",
+  "id": "prescriptiondosageinstructionlinerelationship",
+  "url": "https://fhir.infoway-inforoute.ca/ValueSet/prescriptiondosageinstructionlinerelationship",
+  "identifier": [ {
+    "id": "2.16.840.1.113883.2.20.3.407"
+  } ],
+  "version": "20170626",
+  "name": "PrescriptionDosageInstructionLineRelationship",
+  "status": "active",
+  "description": "Dosage instruction that identify what should be treated as occurring in parallel or in sequence with the preceding instruction",
+  "expansion": {
+    "identifier": "urn:uuid:a0de4cf4-6307-4cfb-804b-91ebb31c853e",
+    "timestamp": "2025-07-25T11:33:01-04:00",
+    "total": 2,
+    "contains": [ {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/prescriptiondosageinstructionlinerelationship",
+      "abstract": false,
+      "code": "and",
+      "display": "And",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "And"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/prescriptiondosageinstructionlinerelationship",
+      "abstract": false,
+      "code": "then",
+      "display": "Then",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Then"
+      } ]
+    } ]
+  }
+}

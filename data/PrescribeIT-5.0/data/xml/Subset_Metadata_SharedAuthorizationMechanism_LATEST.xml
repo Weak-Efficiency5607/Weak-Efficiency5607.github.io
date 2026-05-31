@@ -1,0 +1,20 @@
+<version>
+  <id>2.16.840.1.113883.2.20.3.442</id>
+  <url>https://tgateway.infoway-inforoute.ca/vs/sharedauthorizationmechanism</url>
+  <fhirUri>https://fhir.infoway-inforoute.ca/ValueSet/sharedauthorizationmechanism</fhirUri>
+  <name>SharedAuthorizationMechanism</name>
+  <versionId>20170626</versionId>
+  <effectiveDate>2017062604:00:00</effectiveDate>
+  <description>Authorization mechanisms supported for Shared Health practitioners</description>
+  <status>active</status>
+  <codeSystems>
+    <codesystem>
+      <id>2.16.840.1.113883.15.18</id>
+      <name>AuthorizationMechanism</name>
+      <businessName>AuthorizationMechanism</businessName>
+      <url>https://fhir.infoway-inforoute.ca/CodeSystem/authorizationmechanism</url>
+      <version>20170626</version>
+      <organization>Canada Health Infoway</organization>
+    </codesystem>
+  </codeSystems>
+</version>

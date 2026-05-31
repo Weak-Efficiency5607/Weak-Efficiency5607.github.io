@@ -1,0 +1,98 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+   <id value="sharednameuse"></id>
+   <url value="https://fhir.infoway-inforoute.ca/ValueSet/sharednameuse"></url>
+   <identifier id="2.16.840.1.113883.2.20.3.427"></identifier>
+   <version value="20190415"></version>
+   <name value="SharedNameUse"></name>
+   <status value="active"></status>
+   <description value="Human name use codes supported for Shared Health systems"></description>
+   <expansion>
+      <identifier value="urn:uuid:cfcaa717-528c-4952-a53d-5cd16e8029f0"></identifier>
+      <timestamp value="2025-07-25T11:34:52-04:00"></timestamp>
+      <total value="2"></total>
+      <contains>
+         <system value="http://hl7.org/fhir/name-use"></system>
+         <abstract value="false"></abstract>
+         <code value="official"></code>
+         <display value="Official"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="The formal name as registered in an official (government) registry, but which name might not be commonly used. May be called &quot;legal name&quot;."></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Official"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="Nom officiel tel qu'il figure dans un registre (gouvernemental) officiel, mais qui n'est peut-être pas utilisé couramment. Aussi appelé « nom légal »."></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Nom officiel"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/name-use"></system>
+         <abstract value="false"></abstract>
+         <code value="usual"></code>
+         <display value="Usual"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="Known as/conventional/the one you normally use"></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Usual"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="Nom habituellement utilisé."></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Nom usuel"></value>
+         </designation>
+      </contains>
+   </expansion>
+</ValueSet>

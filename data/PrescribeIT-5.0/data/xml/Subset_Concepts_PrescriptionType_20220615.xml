@@ -1,0 +1,79 @@
+<result>
+  <concepts>
+    <concept>
+      <id>compound</id>
+      <name>Compound</name>
+      <codeSystemId>2.16.840.1.113883.5.1149</codeSystemId>
+      <codeSystemName>PrescriptionType</codeSystemName>
+      <enDisplayName>Compound</enDisplayName>
+      <frDisplayName>préparation magistrale</frDisplayName>
+      <effectiveDate>2022061504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>device</id>
+      <name>Device</name>
+      <codeSystemId>2.16.840.1.113883.5.1149</codeSystemId>
+      <codeSystemName>PrescriptionType</codeSystemName>
+      <enDisplayName>Device</enDisplayName>
+      <frDisplayName>dispositif</frDisplayName>
+      <effectiveDate>2022061504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>medication</id>
+      <name>Medication</name>
+      <codeSystemId>2.16.840.1.113883.5.1149</codeSystemId>
+      <codeSystemName>PrescriptionType</codeSystemName>
+      <enDisplayName>Medication</enDisplayName>
+      <frDisplayName>médicament</frDisplayName>
+      <effectiveDate>2022061504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>natural</id>
+      <name>Natural Product</name>
+      <codeSystemId>2.16.840.1.113883.5.1149</codeSystemId>
+      <codeSystemName>PrescriptionType</codeSystemName>
+      <enDisplayName>Natural Product</enDisplayName>
+      <frDisplayName>produit naturel</frDisplayName>
+      <effectiveDate>2022061504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>nutritional</id>
+      <name>Nutritional Supplement</name>
+      <codeSystemId>2.16.840.1.113883.5.1149</codeSystemId>
+      <codeSystemName>PrescriptionType</codeSystemName>
+      <enDisplayName>Nutritional Supplement</enDisplayName>
+      <frDisplayName>supplément nutritionnel</frDisplayName>
+      <effectiveDate>2022061504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+  </concepts>
+  <pagination>
+    <currentPage>1</currentPage>
+    <totalPages>1</totalPages>
+    <pageSize>100000</pageSize>
+    <totalRecords>5</totalRecords>
+    <firstRecord>1</firstRecord>
+    <lastRecord>5</lastRecord>
+    <nextPage>-1</nextPage>
+    <nextRecord>-1</nextRecord>
+  </pagination>
+</result>

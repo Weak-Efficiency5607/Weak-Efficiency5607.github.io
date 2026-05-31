@@ -1,0 +1,89 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+   <id value="attachmenttype"></id>
+   <url value="https://fhir.infoway-inforoute.ca/ValueSet/attachmenttype"></url>
+   <identifier id="2.16.840.1.113883.2.20.3.435"></identifier>
+   <version value="20170626"></version>
+   <name value="AttachmentType"></name>
+   <status value="active"></status>
+   <description value="Mime types allowed for attachments"></description>
+   <expansion>
+      <identifier value="urn:uuid:acb1f1dd-e342-4b91-9620-409551ffd4e8"></identifier>
+      <timestamp value="2025-07-25T11:32:37-04:00"></timestamp>
+      <total value="5"></total>
+      <contains>
+         <system value="urn:ietf:bcp:13"></system>
+         <abstract value="false"></abstract>
+         <code value="application/pdf"></code>
+         <display value="Adobe Portable Document Format (PDF)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Adobe Portable Document Format (PDF)"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="urn:ietf:bcp:13"></system>
+         <abstract value="false"></abstract>
+         <code value="image/jpeg"></code>
+         <display value="JPEG Image"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="JPEG Image"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="urn:ietf:bcp:13"></system>
+         <abstract value="false"></abstract>
+         <code value="image/png"></code>
+         <display value="Portable Network Graphics (PNG)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Portable Network Graphics (PNG)"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="urn:ietf:bcp:13"></system>
+         <abstract value="false"></abstract>
+         <code value="image/tiff"></code>
+         <display value="Tag Image File Format (TIFF)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Tag Image File Format (TIFF)"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="urn:ietf:bcp:13"></system>
+         <abstract value="false"></abstract>
+         <code value="text/plain"></code>
+         <display value="Text File"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Text File"></value>
+         </designation>
+      </contains>
+   </expansion>
+</ValueSet>

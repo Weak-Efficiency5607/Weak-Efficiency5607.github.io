@@ -1,0 +1,1756 @@
+{
+  "resourceType": "ValueSet",
+  "id": "prescriptiondrugform",
+  "url": "https://fhir.infoway-inforoute.ca/ValueSet/prescriptiondrugform",
+  "identifier": [ {
+    "id": "2.16.840.1.113883.2.20.3.398"
+  } ],
+  "version": "20230223",
+  "name": "PrescriptionDrugForm",
+  "status": "active",
+  "description": "The form in which a compounded drug or active ingredient can be dispensed to the patient",
+  "expansion": {
+    "identifier": "urn:uuid:fcb99107-2f33-4d02-86fe-14f1ceda77c0",
+    "timestamp": "2025-07-25T11:33:04-04:00",
+    "total": 79,
+    "contains": [ {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "22141000087108",
+      "display": "Lollipop",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Lollipop"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "sucette"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "22161000087109",
+      "display": "Gummy",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Gummy"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "bonbon gélifié"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "22171000087100",
+      "display": "Rectal rocket",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Rectal rocket"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "suppositoire rectal en forme de fusée"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "385041009",
+      "display": "Oral powder",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Oral powder"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "poudre orale"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/orderableDrugForm",
+      "abstract": false,
+      "code": "AER",
+      "display": "Aerosol",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Aerosol"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "aérosol"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/orderableDrugForm",
+      "abstract": false,
+      "code": "BAR",
+      "display": "Bar",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Bar"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "barre"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/orderableDrugForm",
+      "abstract": false,
+      "code": "BEAD",
+      "display": "Beads",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Beads"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "billes"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/orderableDrugForm",
+      "abstract": false,
+      "code": "BUCTAB",
+      "display": "Buccal tablet",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Buccal tablet"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "comprimé buccal"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/orderableDrugForm",
+      "abstract": false,
+      "code": "CAP",
+      "display": "Capsule",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Capsule"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "capsule"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/orderableDrugForm",
+      "abstract": false,
+      "code": "CAPLET",
+      "display": "Caplet",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Caplet"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "caplet"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/orderableDrugForm",
+      "abstract": false,
+      "code": "CHEWTAB",
+      "display": "Chewable tablet",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Chewable tablet"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "comprimé à croquer"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/orderableDrugForm",
+      "abstract": false,
+      "code": "CRM",
+      "display": "Cream",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Cream"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "crème"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/orderableDrugForm",
+      "abstract": false,
+      "code": "CRYS",
+      "display": "Crystals",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Crystals"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "cristaux"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/orderableDrugForm",
+      "abstract": false,
+      "code": "DERMSPRY",
+      "display": "Dermal spray",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Dermal spray"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "vaporisateur cutané"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/orderableDrugForm",
+      "abstract": false,
+      "code": "DISINTAB",
+      "display": "Disintegrating tablet",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Disintegrating tablet"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "comprimé à dissolution orale"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/orderableDrugForm",
+      "abstract": false,
+      "code": "DISK",
+      "display": "Disk",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Disk"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "disque"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/orderableDrugForm",
+      "abstract": false,
+      "code": "DROP",
+      "display": "Drops",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Drops"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "gouttes"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/orderableDrugForm",
+      "abstract": false,
+      "code": "DRTAB",
+      "display": "Delayed release tablet",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Delayed release tablet"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "comprimé à libération retardée"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/orderableDrugForm",
+      "abstract": false,
+      "code": "ECTAB",
+      "display": "Enteric coated tablet",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Enteric coated tablet"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "comprimé gastrorésistant"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/orderableDrugForm",
+      "abstract": false,
+      "code": "ELIXIR",
+      "display": "Elixir",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Elixir"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "élixir"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/orderableDrugForm",
+      "abstract": false,
+      "code": "ENEMA",
+      "display": "Enema",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Enema"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "lavement"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/orderableDrugForm",
+      "abstract": false,
+      "code": "ENTCAP",
+      "display": "Enteric coated capsule",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Enteric coated capsule"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "capsule gastrorésistante"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/orderableDrugForm",
+      "abstract": false,
+      "code": "ERCAP",
+      "display": "Extended release capsule",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Extended release capsule"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "capsule à libération prolongée"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/orderableDrugForm",
+      "abstract": false,
+      "code": "ERTAB",
+      "display": "Extended release tablet",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Extended release tablet"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "comprimé à libération prolongée"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/orderableDrugForm",
+      "abstract": false,
+      "code": "FLAKE",
+      "display": "Flakes",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Flakes"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "flocons"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/orderableDrugForm",
+      "abstract": false,
+      "code": "FOAM",
+      "display": "Foam",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Foam"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "mousse"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/orderableDrugForm",
+      "abstract": false,
+      "code": "FOAMAPL",
+      "display": "Foam with Applicator",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Foam with Applicator"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "mousse avec applicateur"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/orderableDrugForm",
+      "abstract": false,
+      "code": "GEL",
+      "display": "Gel",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Gel"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "gel"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/orderableDrugForm",
+      "abstract": false,
+      "code": "GELAPL",
+      "display": "Gel with Applicator",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Gel with Applicator"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "gel avec applicateur"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/orderableDrugForm",
+      "abstract": false,
+      "code": "GRAN",
+      "display": "Granules",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Granules"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "granules"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/orderableDrugForm",
+      "abstract": false,
+      "code": "IRSOL",
+      "display": "Irrigation Solution",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Irrigation Solution"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "solution pour irrigation"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/orderableDrugForm",
+      "abstract": false,
+      "code": "LTN",
+      "display": "Lotion",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Lotion"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "lotion"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/orderableDrugForm",
+      "abstract": false,
+      "code": "MDINHL",
+      "display": "Metered dose inhaler",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Metered dose inhaler"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "aérosol-doseur"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/orderableDrugForm",
+      "abstract": false,
+      "code": "MDINHLPWD",
+      "display": "Metered dose powder inhaler",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Metered dose powder inhaler"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "inhalateur de poudre sèche"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/orderableDrugForm",
+      "abstract": false,
+      "code": "MEDPAD",
+      "display": "Medicated pad",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Medicated pad"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "tampon médicamenteux"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/orderableDrugForm",
+      "abstract": false,
+      "code": "NASSPRY",
+      "display": "Nasal Spray",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Nasal Spray"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "vaporisateur nasal"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/orderableDrugForm",
+      "abstract": false,
+      "code": "OIL",
+      "display": "Oil",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Oil"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "huile"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/orderableDrugForm",
+      "abstract": false,
+      "code": "OINT",
+      "display": "Ointment",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Ointment"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "pommade"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/orderableDrugForm",
+      "abstract": false,
+      "code": "OINTAPL",
+      "display": "Ointment with applicator",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Ointment with applicator"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "pommade avec applicateur"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/orderableDrugForm",
+      "abstract": false,
+      "code": "OPCRM",
+      "display": "Ophthalmic cream",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Ophthalmic cream"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "crème ophtalmique"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/orderableDrugForm",
+      "abstract": false,
+      "code": "OPDROP",
+      "display": "Ophthalmic drops",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Ophthalmic drops"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "gouttes ophtalmiques"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/orderableDrugForm",
+      "abstract": false,
+      "code": "OPGEL",
+      "display": "Ophthalmic gel",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Ophthalmic gel"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "gel ophtalmique"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/orderableDrugForm",
+      "abstract": false,
+      "code": "OPOINT",
+      "display": "Ophthalmic ointment",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Ophthalmic ointment"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "pommade ophtalmique"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/orderableDrugForm",
+      "abstract": false,
+      "code": "ORALSOL",
+      "display": "Oral solution",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Oral solution"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "solution orale"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/orderableDrugForm",
+      "abstract": false,
+      "code": "ORSUSP",
+      "display": "Oral suspension",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Oral suspension"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "suspension orale"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/orderableDrugForm",
+      "abstract": false,
+      "code": "ORTROCHE",
+      "display": "Lozenge/Oral Troche",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Lozenge/Oral Troche"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "pastille"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/orderableDrugForm",
+      "abstract": false,
+      "code": "OTCRM",
+      "display": "Otic cream",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Otic cream"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "crème otique"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/orderableDrugForm",
+      "abstract": false,
+      "code": "OTDROP",
+      "display": "Otic drops",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Otic drops"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "gouttes otiques"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/orderableDrugForm",
+      "abstract": false,
+      "code": "OTGEL",
+      "display": "Otic gel",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Otic gel"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "gel otique"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/orderableDrugForm",
+      "abstract": false,
+      "code": "OTOINT",
+      "display": "Otic ointment",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Otic ointment"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "pommade otique"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/orderableDrugForm",
+      "abstract": false,
+      "code": "PAD",
+      "display": "Pad",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Pad"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "tampon imprégné"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/orderableDrugForm",
+      "abstract": false,
+      "code": "PASTE",
+      "display": "Paste",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Paste"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "pâte"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/orderableDrugForm",
+      "abstract": false,
+      "code": "PATCH",
+      "display": "Patch",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Patch"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "timbre"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/orderableDrugForm",
+      "abstract": false,
+      "code": "PELLET",
+      "display": "Pellet",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Pellet"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "granule"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/orderableDrugForm",
+      "abstract": false,
+      "code": "POWD",
+      "display": "Powder",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Powder"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "poudre"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/orderableDrugForm",
+      "abstract": false,
+      "code": "PUD",
+      "display": "Pudding",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Pudding"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "pouding"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/orderableDrugForm",
+      "abstract": false,
+      "code": "RECCRM",
+      "display": "Rectal cream",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Rectal cream"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "crème rectale"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/orderableDrugForm",
+      "abstract": false,
+      "code": "RECFORM",
+      "display": "Rectal foam",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Rectal foam"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "mousse rectale"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/orderableDrugForm",
+      "abstract": false,
+      "code": "RECOINT",
+      "display": "Rectal ointment",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Rectal ointment"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "pommade rectale"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/orderableDrugForm",
+      "abstract": false,
+      "code": "RECSOL",
+      "display": "Rectal solution",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Rectal solution"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "solution rectale"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/orderableDrugForm",
+      "abstract": false,
+      "code": "RECSUPP",
+      "display": "Rectal suppository",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Rectal suppository"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "suppositoire rectal"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/orderableDrugForm",
+      "abstract": false,
+      "code": "RINSE",
+      "display": "Mouthwash/Rinse",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Mouthwash/Rinse"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "rince-bouche"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/orderableDrugForm",
+      "abstract": false,
+      "code": "SHMP",
+      "display": "Shampoo",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Shampoo"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "shampoing"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/orderableDrugForm",
+      "abstract": false,
+      "code": "SLTAB",
+      "display": "Sublingual tablet",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Sublingual tablet"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "comprimé sublingual"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/orderableDrugForm",
+      "abstract": false,
+      "code": "SOL",
+      "display": "Solution",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Solution"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "solution"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/orderableDrugForm",
+      "abstract": false,
+      "code": "SPRY",
+      "display": "Sprays",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Sprays"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "vaporisations"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/orderableDrugForm",
+      "abstract": false,
+      "code": "SPRYADAPT",
+      "display": "Spray with adaptor",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Spray with adaptor"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "vaporisateur avec adaptateur"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/orderableDrugForm",
+      "abstract": false,
+      "code": "SUPP",
+      "display": "Suppository",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Suppository"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "suppositoire"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/orderableDrugForm",
+      "abstract": false,
+      "code": "SUSP",
+      "display": "Suspension",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Suspension"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "suspension"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/orderableDrugForm",
+      "abstract": false,
+      "code": "SWAB",
+      "display": "Swab",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Swab"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "écouvillon"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/orderableDrugForm",
+      "abstract": false,
+      "code": "SYRUP",
+      "display": "Syrup",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Syrup"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "sirop"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/orderableDrugForm",
+      "abstract": false,
+      "code": "TAB",
+      "display": "Tablet",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Tablet"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "comprimé"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/orderableDrugForm",
+      "abstract": false,
+      "code": "TINC",
+      "display": "Tincture",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Tincture"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "teinture"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/orderableDrugForm",
+      "abstract": false,
+      "code": "TOPPWD",
+      "display": "Topical Powder",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Topical Powder"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "poudre cutanée"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/orderableDrugForm",
+      "abstract": false,
+      "code": "TPATCH",
+      "display": "Transdermal patch",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Transdermal patch"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "timbre transdermique"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/orderableDrugForm",
+      "abstract": false,
+      "code": "VAGCRM",
+      "display": "Vaginal cream",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Vaginal cream"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "crème vaginale"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/orderableDrugForm",
+      "abstract": false,
+      "code": "VAGSUPP",
+      "display": "Vaginal suppository",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Vaginal suppository"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "suppositoire vaginal"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/orderableDrugForm",
+      "abstract": false,
+      "code": "VAGTAB",
+      "display": "Vaginal tablet",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Vaginal tablet"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "comprimé vaginal"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/orderableDrugForm",
+      "abstract": false,
+      "code": "WAFER",
+      "display": "Wafer",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Wafer"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "cachet"
+      } ]
+    } ]
+  }
+}

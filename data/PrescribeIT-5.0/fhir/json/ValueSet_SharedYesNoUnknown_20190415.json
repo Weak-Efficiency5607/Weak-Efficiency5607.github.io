@@ -1,0 +1,100 @@
+{
+  "resourceType": "ValueSet",
+  "id": "sharedyesnounknown",
+  "url": "https://fhir.infoway-inforoute.ca/ValueSet/sharedyesnounknown",
+  "identifier": [ {
+    "id": "2.16.840.1.113883.2.20.3.432"
+  } ],
+  "version": "20190415",
+  "name": "SharedYesNoUnknown",
+  "status": "active",
+  "description": "Coded values for conveying yes, no or unknown",
+  "expansion": {
+    "identifier": "urn:uuid:07014540-eeb3-43a9-8924-d08cc0888caa",
+    "timestamp": "2025-07-25T11:35:06-04:00",
+    "total": 3,
+    "contains": [ {
+      "system": "http://hl7.org/fhir/v2/0136",
+      "abstract": false,
+      "code": "N",
+      "display": "No",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "No"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Non"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v2/0136",
+      "abstract": false,
+      "code": "Y",
+      "display": "Yes",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Yes"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Oui"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/data-absent-reason",
+      "abstract": false,
+      "code": "unknown",
+      "display": "Unknown",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "The value is not known."
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Unknown"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "La valeur est inconnue."
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Inconnue"
+      } ]
+    } ]
+  }
+}

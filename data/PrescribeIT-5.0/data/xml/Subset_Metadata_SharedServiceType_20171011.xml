@@ -1,0 +1,20 @@
+<version>
+  <id>2.16.840.1.113883.2.20.3.429</id>
+  <url>https://tgateway.infoway-inforoute.ca/vs/sharedservicetype</url>
+  <fhirUri>https://fhir.infoway-inforoute.ca/ValueSet/sharedservicetype</fhirUri>
+  <name>SharedServiceType</name>
+  <versionId>20171011</versionId>
+  <effectiveDate>2017101104:00:00</effectiveDate>
+  <publicationTime>2017110112:49:27</publicationTime>
+  <description>Service type codes supported for Shared Health organizations and practitioners</description>
+  <status>active</status>
+  <codeSystems>
+    <codesystem>
+      <id>2.16.840.1.113883.5.1144</id>
+      <name>SharedServiceType</name>
+      <businessName>SharedServiceType</businessName>
+      <url>https://fhir.infoway-inforoute.ca/CodeSystem/sharedservicetype</url>
+      <version>20171011</version>
+    </codesystem>
+  </codeSystems>
+</version>

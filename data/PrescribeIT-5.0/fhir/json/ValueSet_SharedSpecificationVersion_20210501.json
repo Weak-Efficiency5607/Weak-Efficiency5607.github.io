@@ -1,0 +1,158 @@
+{
+  "resourceType": "ValueSet",
+  "id": "sharedspecificationversion",
+  "url": "https://fhir.infoway-inforoute.ca/ValueSet/sharedspecificationversion",
+  "identifier": [ {
+    "id": "2.16.840.1.113883.2.20.3.431"
+  } ],
+  "version": "20210501",
+  "name": "SharedSpecificationVersion",
+  "status": "active",
+  "description": "Codes identifying the PrescribeIT, MedDialog, and Shared Health Message specification version number",
+  "expansion": {
+    "identifier": "urn:uuid:ffaee6bb-f441-4761-8da6-9f46cafd31f6",
+    "timestamp": "2025-07-25T11:35:04-04:00",
+    "total": 10,
+    "contains": [ {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedspecificationversion",
+      "abstract": false,
+      "code": "Common1.5",
+      "display": "Shared Health Specification v1.5",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Shared Health Specification v1.5"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedspecificationversion",
+      "abstract": false,
+      "code": "Connector1.0",
+      "display": "PrescribeIT Jurisdictional Connector Specification v1.0",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "PrescribeIT Jurisdictional Connector Specification v1.0"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedspecificationversion",
+      "abstract": false,
+      "code": "MedDialog1.0",
+      "display": "MedDialog Specification v1.0",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "MedDialog Specification v1.0"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedspecificationversion",
+      "abstract": false,
+      "code": "PrescribeIT2.0",
+      "display": "PrescribeIT Specification v2.0.0 (LPR2)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "PrescribeIT Specification v2.0.0 (LPR2)"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedspecificationversion",
+      "abstract": false,
+      "code": "PrescribeIT3.0",
+      "display": "PrescribeIT Specification v3",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "PrescribeIT Specification v3"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedspecificationversion",
+      "abstract": false,
+      "code": "PrescribeIT5.0",
+      "display": "PrescribeIT Specification v5",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "PrescribeIT Specification v5"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedspecificationversion",
+      "abstract": false,
+      "code": "Shared2.0",
+      "display": "Shared Health Specification v2.0.0",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Shared Health Specification v2.0.0"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedspecificationversion",
+      "abstract": false,
+      "code": "Shared3.0",
+      "display": "Shared Health Specification v3.0.0",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Shared Health Specification v3.0.0"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedspecificationversion",
+      "abstract": false,
+      "code": "Shared5.0",
+      "display": "Shared Health Specification v5.0.0",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Shared Health Specification v5.0.0"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedspecificationversion",
+      "abstract": false,
+      "code": "eRx1.5",
+      "display": "PrescribeIT Specification v1.0.0 (LPR1)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "PrescribeIT Specification v1.0.0 (LPR1)"
+      } ]
+    } ]
+  }
+}

@@ -1,0 +1,828 @@
+{
+  "resourceType": "ValueSet",
+  "id": "detectedissuemitigationaction",
+  "url": "https://fhir.infoway-inforoute.ca/ValueSet/detectedissuemitigationaction",
+  "identifier": [ {
+    "id": "2.16.840.1.113883.2.20.3.466"
+  } ],
+  "version": "20210501",
+  "name": "DetectedIssueMitigationAction",
+  "status": "active",
+  "description": "Kinds of mitigating actions and observations that can be associated with a detected issue or contraindication, such as 'added concurrent therapy', 'prior therapy documented', etc.",
+  "expansion": {
+    "identifier": "urn:uuid:d776f73e-e90a-4ea0-9f26-08017c1977f8",
+    "timestamp": "2025-07-25T11:35:14-04:00",
+    "total": 27,
+    "contains": [ {
+      "system": "http://hl7.org/fhir/v3/ActCode",
+      "abstract": false,
+      "code": "1",
+      "display": "Therapy Appropriate",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Confirmed drug therapy appropriate"
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Therapy Appropriate"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Traitement approprié"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/ActCode",
+      "abstract": false,
+      "code": "10",
+      "display": "Provided Patient Education",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Provided education or training to the patient on appropriate therapy use"
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Provided Patient Education"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Éducation du patient"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/ActCode",
+      "abstract": false,
+      "code": "11",
+      "display": "Added Concurrent Therapy",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Instituted an additional therapy to mitigate potential negative effects"
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Added Concurrent Therapy"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Ajout d'un traitement concomitant"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/ActCode",
+      "abstract": false,
+      "code": "12",
+      "display": "Temporarily Suspended Concurrent Therapy",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Suspended existing therapy that triggered interaction for the duration of this therapy"
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Temporarily Suspended Concurrent Therapy"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Suspension temporaire du traitement concomitant"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/ActCode",
+      "abstract": false,
+      "code": "13",
+      "display": "Stopped Concurrent Therapy",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Aborted existing therapy that triggered interaction."
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Stopped Concurrent Therapy"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Fin du traitement concomitant"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/ActCode",
+      "abstract": false,
+      "code": "14",
+      "display": "Supply Appropriate",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Confirmed supply action appropriate"
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Supply Appropriate"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Provision appropriée"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/ActCode",
+      "abstract": false,
+      "code": "15",
+      "display": "Replacement",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Patient's existing supply was lost/wasted"
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Replacement"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Remplacement"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/ActCode",
+      "abstract": false,
+      "code": "16",
+      "display": "Vacation Supply",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Supply date is due to patient vacation"
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Vacation Supply"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Provision pour vacances"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/ActCode",
+      "abstract": false,
+      "code": "17",
+      "display": "Weekend Supply",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Supply date is intended to carry patient over weekend"
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Weekend Supply"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Provision pour fin de semaine"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/ActCode",
+      "abstract": false,
+      "code": "18",
+      "display": "Leave of Absence",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Supply is intended for use during a leave of absence from an institution."
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Leave of Absence"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Provision au congé"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/ActCode",
+      "abstract": false,
+      "code": "19",
+      "display": "Consulted Supplier",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Consulted other supplier/pharmacy, therapy confirmed"
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Consulted Supplier"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Fournisseur consulté"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/ActCode",
+      "abstract": false,
+      "code": "2",
+      "display": "Assessed Patient",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Assessed patient, therapy is appropriate"
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Assessed Patient"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Patient évalué"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/ActCode",
+      "abstract": false,
+      "code": "20",
+      "display": "additional quantity on separate dispense",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Description: Supply is different than expected as an additional quantity has been supplied in a separate dispense."
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "additional quantity on separate dispense"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Qté additionnelle - dispensation distincte"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/ActCode",
+      "abstract": false,
+      "code": "21",
+      "display": "authorization confirmed",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Description: Indicates that the permissions have been externally verified and the request should be processed."
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "authorization confirmed"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Autorisation confirmée"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/ActCode",
+      "abstract": false,
+      "code": "22",
+      "display": "appropriate indication or diagnosis",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Description: The patient has the appropriate indication or diagnosis for the action to be taken."
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "appropriate indication or diagnosis"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Indication ou diagnostic approprié"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/ActCode",
+      "abstract": false,
+      "code": "23",
+      "display": "prior therapy documented",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Description: It has been confirmed that the appropriate pre-requisite therapy has been tried."
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "prior therapy documented"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Prétraitement confirmé"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/ActCode",
+      "abstract": false,
+      "code": "3",
+      "display": "Patient Explanation",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Patient gave adequate explanation"
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Patient Explanation"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Explication du patient"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/ActCode",
+      "abstract": false,
+      "code": "4",
+      "display": "Consulted Other Source",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Consulted other supply source, therapy still appropriate"
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Consulted Other Source"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Autre source consultée"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/ActCode",
+      "abstract": false,
+      "code": "5",
+      "display": "Consulted Prescriber",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Consulted prescriber, therapy confirmed"
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Consulted Prescriber"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Prescripteur consulté"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/ActCode",
+      "abstract": false,
+      "code": "6",
+      "display": "Prescriber Declined Change",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Consulted prescriber and recommended change, prescriber declined"
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Prescriber Declined Change"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Changement refusé par prescripteur"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/ActCode",
+      "abstract": false,
+      "code": "7",
+      "display": "Interacting Therapy No Longer Active/Planned",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Concurrent therapy triggering alert is no longer on-going or planned"
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Interacting Therapy No Longer Active/Planned"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Le traitement concomitant n'est plus en cours/prévu"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/ActCode",
+      "abstract": false,
+      "code": "8",
+      "display": "Other Action Taken",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Order is performed as issued, but other action taken to mitigate potential adverse effects"
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Other Action Taken"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Autre action effectuée"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/ActCode",
+      "abstract": false,
+      "code": "9",
+      "display": "Instituted Ongoing Monitoring Program",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Arranged to monitor patient for adverse effects"
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Instituted Ongoing Monitoring Program"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Surveillance continue"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/ActCode",
+      "abstract": false,
+      "code": "EMAUTH",
+      "display": "emergency authorization override",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Used to temporarily override normal authorization rules to gain access to data in a case of emergency. Use of this override code will typically be monitored, and a procedure to verify its proper use may be triggered when used."
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "emergency authorization override"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Dérogation d'urgence à l'autorisation"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/ActCode",
+      "abstract": false,
+      "code": "_ActAdministrativeDetectedIssueManagementCode",
+      "display": "ActAdministrativeDetectedIssueManagementCode",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Codes dealing with the management of Detected Issue observations for the administrative and patient administrative acts domains."
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "ActAdministrativeDetectedIssueManagementCode"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "ActAdministrativeDetectedIssueManagementCode"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/ActCode",
+      "abstract": false,
+      "code": "_ActDetectedIssueManagementCode",
+      "display": "ActDetectedIssueManagementCode",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Codes dealing with the management of Detected Issue observations"
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "ActDetectedIssueManagementCode"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "ActDetectedIssueManagementCode"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/ActCode",
+      "abstract": false,
+      "code": "_AuthorizationIssueManagementCode",
+      "display": "Authorization Issue Management Code",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Authorization Issue Management Code"
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Authorization Issue Management Code"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Authorization Issue Management Code"
+      } ]
+    } ]
+  }
+}

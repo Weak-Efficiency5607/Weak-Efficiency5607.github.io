@@ -1,0 +1,46 @@
+{
+  "resourceType": "ValueSet",
+  "id": "sharedcommunicationlanguage",
+  "url": "https://fhir.infoway-inforoute.ca/ValueSet/sharedcommunicationlanguage",
+  "identifier": [ {
+    "id": "2.16.840.1.113883.2.20.3.420"
+  } ],
+  "version": "20170626",
+  "name": "SharedCommunicationLanguage",
+  "status": "active",
+  "description": "Codes identifying languages spoken and understood by humans that are relevant to Shared Health systems",
+  "expansion": {
+    "identifier": "urn:uuid:fe0e8a2d-2776-43d0-a24d-971a04244b7b",
+    "timestamp": "2025-07-25T11:34:40-04:00",
+    "total": 2,
+    "contains": [ {
+      "system": "urn:ietf:bcp:47",
+      "abstract": false,
+      "code": "en-CA",
+      "display": "English (Canadian)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "English (Canadian)"
+      } ]
+    }, {
+      "system": "urn:ietf:bcp:47",
+      "abstract": false,
+      "code": "fr-CA",
+      "display": "French (Canadian)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "French (Canadian)"
+      } ]
+    } ]
+  }
+}

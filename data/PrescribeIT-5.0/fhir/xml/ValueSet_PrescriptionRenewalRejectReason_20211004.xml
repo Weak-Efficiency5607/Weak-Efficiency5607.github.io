@@ -1,0 +1,278 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+   <id value="prescriptionrenewalrejectreason"></id>
+   <url value="https://fhir.infoway-inforoute.ca/ValueSet/prescriptionrenewalrejectreason"></url>
+   <identifier id="2.16.840.1.113883.2.20.3.413"></identifier>
+   <version value="20211004"></version>
+   <name value="PrescriptionRenewalRejectReason"></name>
+   <status value="active"></status>
+   <description value="Reasons for rejecting a prescription renewal request"></description>
+   <expansion>
+      <identifier value="urn:uuid:23a48329-6b71-4052-a33f-7cb0e328398b"></identifier>
+      <timestamp value="2025-07-25T11:34:27-04:00"></timestamp>
+      <total value="11"></total>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/canadianactreason"></system>
+         <abstract value="false"></abstract>
+         <code value="CONTACTPRES"></code>
+         <display value="Patient should contact prescriber"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Patient should contact prescriber"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Le patient doit contacter le prescripteur"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/canadianactreason"></system>
+         <abstract value="false"></abstract>
+         <code value="FOLLOWPRES"></code>
+         <display value="Follow-up with patient's primary or alternate prescriber"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Follow-up with patient's primary or alternate prescriber"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Suivi requis auprès du prescripteur principal ou de son substitut"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/canadianactreason"></system>
+         <abstract value="false"></abstract>
+         <code value="LABPSCP"></code>
+         <display value="Lab work required - patient should contact prescriber"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Lab work required - patient should contact prescriber"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Analyses de laboratoire requises"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/canadianactreason"></system>
+         <abstract value="false"></abstract>
+         <code value="NOTPRESCPAT"></code>
+         <display value="Patient no longer under the prescriber’s care"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Patient no longer under the prescriber’s care"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Le patient n'est plus traité par le prescripteur"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/canadianactreason"></system>
+         <abstract value="false"></abstract>
+         <code value="OTHERMFR"></code>
+         <display value="Other (with a mandatory freeform reason)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Other (with a mandatory freeform reason)"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Autre (motif obligatoire en texte libre)"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/canadianactreason"></system>
+         <abstract value="false"></abstract>
+         <code value="PTMAKEAPMT"></code>
+         <display value="Appointment – patient needs to make an appointment"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Appointment – patient needs to make an appointment"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Rendez-vous - le patient doit prendre rendez-vous"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/canadianactreason"></system>
+         <abstract value="false"></abstract>
+         <code value="REPLACED"></code>
+         <display value="Replace with this new prescription"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Replace with this new prescription"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Remplacer par nouvelle ordonnance"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/canadianactreason"></system>
+         <abstract value="false"></abstract>
+         <code value="REQTOOEARLY"></code>
+         <display value="Request is too early"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Request is too early"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="La requête est trop tôt"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/canadianactreason"></system>
+         <abstract value="false"></abstract>
+         <code value="RESPONDED"></code>
+         <display value="Request already responded to (e.g. by phone/fax, this is a duplicate request)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Request already responded to (e.g. by phone/fax, this is a duplicate request)"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Requête déjà traitée (p. ex. par téléphone/télécopieur, requête en double)"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/canadianactreason"></system>
+         <abstract value="false"></abstract>
+         <code value="STOPMED"></code>
+         <display value="Prescriber stopped medication for patient"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Prescriber stopped medication for patient"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Le prescripteur a interrompu le traitement du patient"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/canadianactreason"></system>
+         <abstract value="false"></abstract>
+         <code value="UNKNOWNPAT"></code>
+         <display value="Patient unknown to prescriber"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Patient unknown to prescriber"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Le patient n'est pas connu du prescripteur"></value>
+         </designation>
+      </contains>
+   </expansion>
+</ValueSet>

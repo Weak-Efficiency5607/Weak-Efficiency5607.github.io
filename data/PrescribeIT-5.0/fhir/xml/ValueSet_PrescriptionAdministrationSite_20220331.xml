@@ -1,0 +1,1262 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+   <id value="prescriptionadministrationsite"></id>
+   <url value="https://fhir.infoway-inforoute.ca/ValueSet/prescriptionadministrationsite"></url>
+   <identifier id="2.16.840.1.113883.2.20.3.405"></identifier>
+   <version value="20220331"></version>
+   <name value="PrescriptionAdministrationSite"></name>
+   <status value="active"></status>
+   <description value="The body site where the product should be administered"></description>
+   <expansion>
+      <identifier value="urn:uuid:42072134-20f9-4771-9bf5-1e743a5954c7"></identifier>
+      <timestamp value="2025-07-25T11:32:56-04:00"></timestamp>
+      <total value="52"></total>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="12861001"></code>
+         <display value="Both hands"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Both hands"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="les deux mains"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="22201000087104"></code>
+         <display value="Affected area"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Affected area"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="région affectée"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="22211000087102"></code>
+         <display value="Both elbows"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Both elbows"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="les deux coudes"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="22221000087105"></code>
+         <display value="Both shoulders"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Both shoulders"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="les deux épaules"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="22231000087107"></code>
+         <display value="Fingernails"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Fingernails"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="ongles des doigts"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="368148009"></code>
+         <display value="Left elbow"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Left elbow"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="coude gauche"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="368149001"></code>
+         <display value="Right elbow"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Right elbow"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="coude droit"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="41695006"></code>
+         <display value="Scalp"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Scalp"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="cuir chevelu"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="51185008"></code>
+         <display value="Chest"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Chest"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="poitrine"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="51636004"></code>
+         <display value="Left ankle"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Left ankle"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="cheville gauche"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="52795006"></code>
+         <display value="Forehead"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Forehead"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="front"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="57172001"></code>
+         <display value="Both thighs"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Both thighs"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="les deux cuisses"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="63762007"></code>
+         <display value="Both breasts"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Both breasts"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="les deux seins"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="64262003"></code>
+         <display value="Right forearm"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Right forearm"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="avant-bras droit"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="66480008"></code>
+         <display value="Left forearm"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Left forearm"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="avant-bras gauche"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="6685009"></code>
+         <display value="Right ankle"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Right ankle"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="cheville droite"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="69273007"></code>
+         <display value="Both arms"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Both arms"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="les deux bras"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="69948000"></code>
+         <display value="Both ankles"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Both ankles"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="les deux chevilles"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="70327001"></code>
+         <display value="All fingers"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="All fingers"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="tous les doigts"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="73056007"></code>
+         <display value="Right breast"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Right breast"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="sein droit"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="77142006"></code>
+         <display value="External genitalia structure"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="External genitalia structure"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="organes génitaux externes"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="774007"></code>
+         <display value="Head and neck"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Head and neck"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="tête et cou"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="77568009"></code>
+         <display value="Back"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Back"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="dos"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="80248007"></code>
+         <display value="Left breast"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Left breast"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="sein gauche"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="81083006"></code>
+         <display value="Lips"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Lips"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="lèvres"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="818983003"></code>
+         <display value="Abdomen"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Abdomen"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="abdomen"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="8580001"></code>
+         <display value="Both feet"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Both feet"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="les deux pieds"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="8671006"></code>
+         <display value="All toes"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="All toes"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="tous les orteils"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="89545001"></code>
+         <display value="Face"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Face"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="face"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="9055004"></code>
+         <display value="Both forearms"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Both forearms"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="les deux avant-bras"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="91774008"></code>
+         <display value="Right shoulder"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Right shoulder"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="épaule droite"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <abstract value="false"></abstract>
+         <code value="91775009"></code>
+         <display value="Left shoulder"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Left shoulder"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="épaule gauche"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/v3/ActSite"></system>
+         <abstract value="false"></abstract>
+         <code value="BE"></code>
+         <display value="Both ears"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Both ears"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="les deux oreilles"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/v3/ActSite"></system>
+         <abstract value="false"></abstract>
+         <code value="BN"></code>
+         <display value="Both nostrils"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Both nostrils"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="les deux narines"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/v3/ActSite"></system>
+         <abstract value="false"></abstract>
+         <code value="BU"></code>
+         <display value="Buttock"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Buttock"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="fesse"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/v3/ActSite"></system>
+         <abstract value="false"></abstract>
+         <code value="LA"></code>
+         <display value="Left arm"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Left arm"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="bras gauche"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/v3/ActSite"></system>
+         <abstract value="false"></abstract>
+         <code value="LE"></code>
+         <display value="Left ear"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Left ear"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="oreille gauche"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/v3/ActSite"></system>
+         <abstract value="false"></abstract>
+         <code value="LF"></code>
+         <display value="Left foot"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Left foot"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="pied gauche"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/v3/ActSite"></system>
+         <abstract value="false"></abstract>
+         <code value="LH"></code>
+         <display value="Left hand"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Left hand"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="main gauche"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/v3/ActSite"></system>
+         <abstract value="false"></abstract>
+         <code value="LN"></code>
+         <display value="Left nostril"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Left nostril"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="narine gauche"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/v3/ActSite"></system>
+         <abstract value="false"></abstract>
+         <code value="LT"></code>
+         <display value="Left thigh"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Left thigh"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="cuisse gauche"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/v3/ActSite"></system>
+         <abstract value="false"></abstract>
+         <code value="OD"></code>
+         <display value="Right eye"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Right eye"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="œil droit"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/v3/ActSite"></system>
+         <abstract value="false"></abstract>
+         <code value="OS"></code>
+         <display value="Left eye"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Left eye"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="œil gauche"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/v3/ActSite"></system>
+         <abstract value="false"></abstract>
+         <code value="OU"></code>
+         <display value="Both eyes"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Both eyes"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="les deux yeux"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/v3/ActSite"></system>
+         <abstract value="false"></abstract>
+         <code value="PA"></code>
+         <display value="Perianal"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Perianal"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="périanal(e)"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/v3/ActSite"></system>
+         <abstract value="false"></abstract>
+         <code value="PERIN"></code>
+         <display value="Perineal"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Perineal"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="périnéal(e)"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/v3/ActSite"></system>
+         <abstract value="false"></abstract>
+         <code value="RA"></code>
+         <display value="Right arm"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Right arm"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="bras droit"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/v3/ActSite"></system>
+         <abstract value="false"></abstract>
+         <code value="RE"></code>
+         <display value="Right ear"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Right ear"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="oreille droite"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/v3/ActSite"></system>
+         <abstract value="false"></abstract>
+         <code value="RF"></code>
+         <display value="Right foot"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Right foot"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="pied droit"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/v3/ActSite"></system>
+         <abstract value="false"></abstract>
+         <code value="RH"></code>
+         <display value="Right hand"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Right hand"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="main droite"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/v3/ActSite"></system>
+         <abstract value="false"></abstract>
+         <code value="RN"></code>
+         <display value="Right nostril"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Right nostril"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="narine droite"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/v3/ActSite"></system>
+         <abstract value="false"></abstract>
+         <code value="RT"></code>
+         <display value="Right thigh"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Right thigh"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="cuisse droite"></value>
+         </designation>
+      </contains>
+   </expansion>
+</ValueSet>

@@ -1,0 +1,164 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+   <id value="sharedspecificationversion"></id>
+   <url value="https://fhir.infoway-inforoute.ca/ValueSet/sharedspecificationversion"></url>
+   <identifier id="2.16.840.1.113883.2.20.3.431"></identifier>
+   <version value="20210501"></version>
+   <name value="SharedSpecificationVersion"></name>
+   <status value="active"></status>
+   <description value="Codes identifying the PrescribeIT, MedDialog, and Shared Health Message specification version number"></description>
+   <expansion>
+      <identifier value="urn:uuid:34e8f32d-c1b9-4bbf-90be-120d21720f56"></identifier>
+      <timestamp value="2025-07-25T11:35:05-04:00"></timestamp>
+      <total value="10"></total>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedspecificationversion"></system>
+         <abstract value="false"></abstract>
+         <code value="Common1.5"></code>
+         <display value="Shared Health Specification v1.5"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Shared Health Specification v1.5"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedspecificationversion"></system>
+         <abstract value="false"></abstract>
+         <code value="Connector1.0"></code>
+         <display value="PrescribeIT Jurisdictional Connector Specification v1.0"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="PrescribeIT Jurisdictional Connector Specification v1.0"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedspecificationversion"></system>
+         <abstract value="false"></abstract>
+         <code value="MedDialog1.0"></code>
+         <display value="MedDialog Specification v1.0"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="MedDialog Specification v1.0"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedspecificationversion"></system>
+         <abstract value="false"></abstract>
+         <code value="PrescribeIT2.0"></code>
+         <display value="PrescribeIT Specification v2.0.0 (LPR2)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="PrescribeIT Specification v2.0.0 (LPR2)"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedspecificationversion"></system>
+         <abstract value="false"></abstract>
+         <code value="PrescribeIT3.0"></code>
+         <display value="PrescribeIT Specification v3"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="PrescribeIT Specification v3"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedspecificationversion"></system>
+         <abstract value="false"></abstract>
+         <code value="PrescribeIT5.0"></code>
+         <display value="PrescribeIT Specification v5"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="PrescribeIT Specification v5"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedspecificationversion"></system>
+         <abstract value="false"></abstract>
+         <code value="Shared2.0"></code>
+         <display value="Shared Health Specification v2.0.0"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Shared Health Specification v2.0.0"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedspecificationversion"></system>
+         <abstract value="false"></abstract>
+         <code value="Shared3.0"></code>
+         <display value="Shared Health Specification v3.0.0"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Shared Health Specification v3.0.0"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedspecificationversion"></system>
+         <abstract value="false"></abstract>
+         <code value="Shared5.0"></code>
+         <display value="Shared Health Specification v5.0.0"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Shared Health Specification v5.0.0"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedspecificationversion"></system>
+         <abstract value="false"></abstract>
+         <code value="eRx1.5"></code>
+         <display value="PrescribeIT Specification v1.0.0 (LPR1)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="PrescribeIT Specification v1.0.0 (LPR1)"></value>
+         </designation>
+      </contains>
+   </expansion>
+</ValueSet>

@@ -1,0 +1,20 @@
+<version>
+  <id>2.16.840.1.113883.2.20.3.424</id>
+  <url>https://tgateway.infoway-inforoute.ca/vs/sharedmessageevents</url>
+  <fhirUri>https://fhir.infoway-inforoute.ca/ValueSet/sharedmessageevents</fhirUri>
+  <name>SharedMessageEvents</name>
+  <versionId>20220810</versionId>
+  <effectiveDate>2022081004:00:00</effectiveDate>
+  <publicationTime>2022083003:18:13</publicationTime>
+  <description>Codes defining the types of events that can trigger messages</description>
+  <status>active</status>
+  <codeSystems>
+    <codesystem>
+      <id>2.16.840.1.113883.5.1143</id>
+      <name>SharedMessageEvents</name>
+      <businessName>SharedMessageEvents</businessName>
+      <url>https://fhir.infoway-inforoute.ca/CodeSystem/sharedmessageevents</url>
+      <version>20220810</version>
+    </codesystem>
+  </codeSystems>
+</version>

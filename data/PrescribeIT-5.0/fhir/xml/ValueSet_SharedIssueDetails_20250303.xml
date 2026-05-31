@@ -1,0 +1,2171 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+   <id value="sharedissuedetails"></id>
+   <url value="https://fhir.infoway-inforoute.ca/ValueSet/sharedissuedetails"></url>
+   <identifier id="2.16.840.1.113883.2.20.3.444"></identifier>
+   <version value="20250303"></version>
+   <name value="SharedIssueDetails"></name>
+   <status value="active"></status>
+   <description value="Codes to identify the issues that are returned as errors in response to messages received."></description>
+   <expansion>
+      <identifier value="urn:uuid:f0242f2c-6098-4dab-b446-1f9fe04f0832"></identifier>
+      <timestamp value="2025-07-25T11:34:48-04:00"></timestamp>
+      <total value="136"></total>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS072"></code>
+         <display value="ISS072- Your authentication token request has been received; however, the external token is invalid. Please contact your Technical Support team."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="ISS072- Your authentication token request has been received; however, the external token is invalid. Please contact your Technical Support team."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS073"></code>
+         <display value="ISS073- Your authentication token request has been received; however, the external token required is missing in the request. Please contact your Technical Support team."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="ISS073- Your authentication token request has been received; however, the external token required is missing in the request. Please contact your Technical Support team."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS074"></code>
+         <display value="ISS074- Your authentication token request has been received. Our attempt to connect with a third party application has failed. Please try again. If this issue persists, please contact your Technical Support team."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="ISS074- Your authentication token request has been received. Our attempt to connect with a third party application has failed. Please try again. If this issue persists, please contact your Technical Support team."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS075"></code>
+         <display value="ISS075- Your authentication token request has been received. The external token has expired and has been rejected. Please contact your Technical Support team."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="ISS075- Your authentication token request has been received. The external token has expired and has been rejected. Please contact your Technical Support team."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS076"></code>
+         <display value="ISS076- Your authentication token request has been received. The validation of the practitioner's license number included in the external token has failed. The license number provided did not match what we have associated to your profile. Please contact your Technical Support team."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="ISS076- Your authentication token request has been received. The validation of the practitioner's license number included in the external token has failed. The license number provided did not match what we have associated to your profile. Please contact your Technical Support team."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS077"></code>
+         <display value="ISS077- Your authentication token request has been received. The validation of the practitioner's license issuer (OID) included in the external token has failed. The provided license issuer did not match what we have associated to your profile. Please contact your Technical Support team."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="ISS077- Your authentication token request has been received. The validation of the practitioner's license issuer (OID) included in the external token has failed. The provided license issuer did not match what we have associated to your profile. Please contact your Technical Support team."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS101"></code>
+         <display value="This Message Header Id and message content have already been submitted. This is a duplicate submission."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="This Message Header Id and message content have already been submitted. This is a duplicate submission."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS102"></code>
+         <display value="This is a duplicate message submission with content that differs from the original"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="This is a duplicate message submission with content that differs from the original"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS103"></code>
+         <display value="The variable 'X-TELUS-SDF-TraceId' is needed in the request header and must not be empty"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="The variable 'X-TELUS-SDF-TraceId' is needed in the request header and must not be empty"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS115"></code>
+         <display value="The message should be encoded with characters supported by the UTF-8 encoding only and a non-UTF-8 encoded character was detected in the message. Message rejected."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="The message should be encoded with characters supported by the UTF-8 encoding only and a non-UTF-8 encoded character was detected in the message. Message rejected."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS121"></code>
+         <display value="FHIR Message validation failed. Message is not properly formatted."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="FHIR Message validation failed. Message is not properly formatted."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS123"></code>
+         <display value="This Sender Clinic/Organization/Location is not recognized in the Provider Registry"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="This Sender Clinic/Organization/Location is not recognized in the Provider Registry"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS124"></code>
+         <display value="This Destination Clinic/Organization/Location is not recognized in the Provider Registry."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="This Destination Clinic/Organization/Location is not recognized in the Provider Registry."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS125"></code>
+         <display value="Sender does not have a contract in the Provider Registry to allow this type of message."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Sender does not have a contract in the Provider Registry to allow this type of message."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS126"></code>
+         <display value="Destination does not have a contract in the Provider Registry to allow this type of message"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Destination does not have a contract in the Provider Registry to allow this type of message"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS127"></code>
+         <display value="Sending application version in the inbound message does not match the value in the PrescribeIT database."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Sending application version in the inbound message does not match the value in the PrescribeIT database."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS128"></code>
+         <display value="Sender Organization status is not active for message types : 301, 302, 305, 401, 901, 997, 998, and 999."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Sender Organization status is not active for message types : 301, 302, 305, 401, 901, 997, 998, and 999."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS129"></code>
+         <display value="Destination Organization status is not active for message types : 301, 302, 305, 401, 901, 997, 998, and 999."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Destination Organization status is not active for message types : 301, 302, 305, 401, 901, 997, 998, and 999."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS130"></code>
+         <display value="Prescriber does not have a relationship to the Destination Organization"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Prescriber does not have a relationship to the Destination Organization"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS141"></code>
+         <display value="PrescribeIT™ reject due to synchronous validation failure SAML Token Validation failure ISS141 – SAML Token is not valid.Message is rejected. No re-submission"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="PrescribeIT™ reject due to synchronous validation failure SAML Token Validation failure ISS141 – SAML Token is not valid.Message is rejected. No re-submission"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS142"></code>
+         <display value="PrescribeIT™ reject due to : Invalid SAML claim. No re-submission"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="PrescribeIT™ reject due to : Invalid SAML claim. No re-submission"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS143"></code>
+         <display value="PrescribeIT™ Cancel Requests (e140 task) must be delivered as a standalone message; they cannot be bundled with other messages except in the case where all medication (or non-medication) orders within a prescription are cancelled at the same time. The e140 task must be bundled separately and can not be bundled with any other message type. No re-submission"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="PrescribeIT™ Cancel Requests (e140 task) must be delivered as a standalone message; they cannot be bundled with other messages except in the case where all medication (or non-medication) orders within a prescription are cancelled at the same time. The e140 task must be bundled separately and can not be bundled with any other message type. No re-submission"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS156"></code>
+         <display value="Incorrect 401 bundle. The following tags must not be in the input bundle : message-key, last-name, birth-date."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Incorrect 401 bundle. The following tags must not be in the input bundle : message-key, last-name, birth-date."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS157"></code>
+         <display value="Prescription bundle rejected due to prescription not found and/or missing mandatory headers. For the Deferred or Held prescriptions, mandatory headers: X-SHAREDHEALTH-EXCHANGE-SENDING-ORGANIZATION-ID and X-SHAREDHEALTH-EXCHANGE-SENDING-APP-INSTANCE-ID."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Prescription bundle rejected due to prescription not found and/or missing mandatory headers. For the Deferred or Held prescriptions, mandatory headers: X-SHAREDHEALTH-EXCHANGE-SENDING-ORGANIZATION-ID and X-SHAREDHEALTH-EXCHANGE-SENDING-APP-INSTANCE-ID."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS158"></code>
+         <display value="This prescription has already been downloaded by another Pharmacy and is therefore not available."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="This prescription has already been downloaded by another Pharmacy and is therefore not available."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS159"></code>
+         <display value="401 bundle rejected due to: Prescription found, but already reserved by another pharmacy."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="401 bundle rejected due to: Prescription found, but already reserved by another pharmacy."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS160"></code>
+         <display value="Delete - 401 bundle rejected due to: Prescription found, but has not been downloaded yet."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Delete - 401 bundle rejected due to: Prescription found, but has not been downloaded yet."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS161"></code>
+         <display value="401 bundle rejected due to: Prescription found, but already deleted (ACKNOWLEDGED)."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="401 bundle rejected due to: Prescription found, but already deleted (ACKNOWLEDGED)."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS162"></code>
+         <display value="401 bundle rejected due to: Header X-SHAREDHEALTH-EXCHANGE-SENDING-ORGANIZATION-ID is not defined or is invalid."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="401 bundle rejected due to: Header X-SHAREDHEALTH-EXCHANGE-SENDING-ORGANIZATION-ID is not defined or is invalid."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS163"></code>
+         <display value="401 bundle rejected due to : Header X-SHAREDHEALTH-EXCHANGE-SENDER-APPLICATION-ID is not defined. No re-submission"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="401 bundle rejected due to : Header X-SHAREDHEALTH-EXCHANGE-SENDER-APPLICATION-ID is not defined. No re-submission"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS164"></code>
+         <display value="The request to download a prescription requires two pieces of data: (Identifier + Last name) or (Identifier + Date of Birth)."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="The request to download a prescription requires two pieces of data: (Identifier + Last name) or (Identifier + Date of Birth)."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS171"></code>
+         <display value="New RX Failed. New Prescription Id (medicationOrder.Identifier) is not Unique No re-submission."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="New RX Failed. New Prescription Id (medicationOrder.Identifier) is not Unique No re-submission."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS172"></code>
+         <display value="Original Dispense. Prescription Id (medicationOrder.Identifier) is not Unique. No re-submission."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Original Dispense. Prescription Id (medicationOrder.Identifier) is not Unique. No re-submission."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS173"></code>
+         <display value="Dispense Refill. Prescription Id (medicationOrder.Identifier) is not Unique. No re-submission."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Dispense Refill. Prescription Id (medicationOrder.Identifier) is not Unique. No re-submission."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS174"></code>
+         <display value="Cancel Pending. Prescription Id (medicationOrder.Identifier) is not Unique. No re-submission."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Cancel Pending. Prescription Id (medicationOrder.Identifier) is not Unique. No re-submission."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS175"></code>
+         <display value="Cancel Accept. Prescription Id (medicationOrder.Identifier) is not Unique. No re-submission."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Cancel Accept. Prescription Id (medicationOrder.Identifier) is not Unique. No re-submission."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS176"></code>
+         <display value="Cancel Decline. Prescription Id (medicationOrder.Identifier) is not Unique. No re-submission."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Cancel Decline. Prescription Id (medicationOrder.Identifier) is not Unique. No re-submission."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS177"></code>
+         <display value="Cancel Revoke. Prescription Id (medicationOrder.Identifier) is not Unique. No re-submission."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Cancel Revoke. Prescription Id (medicationOrder.Identifier) is not Unique. No re-submission."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS178"></code>
+         <display value="The dispense notification cannot be processed because there is cancel request in pending state"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="The dispense notification cannot be processed because there is cancel request in pending state"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS179"></code>
+         <display value="This is the second submission of a cancel request"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="This is the second submission of a cancel request"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS181"></code>
+         <display value="301 bundle rejected due to : Attachment size exceeds 50 MB."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="301 bundle rejected due to : Attachment size exceeds 50 MB."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS186"></code>
+         <display value="Cancel task e-180m rejected due to : Cancel request can not be generated for Deferred prescription No re-submission"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Cancel task e-180m rejected due to : Cancel request can not be generated for Deferred prescription No re-submission"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS190"></code>
+         <display value="305 Message from Organization to Practitioner ext-communication-enterer is mandatory"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="305 Message from Organization to Practitioner ext-communication-enterer is mandatory"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS191"></code>
+         <display value="TPRCache search failed as the result of unavailable mandatory parameter. Required parameters must have a valid value specified"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="TPRCache search failed as the result of unavailable mandatory parameter. Required parameters must have a valid value specified"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS192"></code>
+         <display value="TPRCache search (GET) by Identifier didn’t result in any match. Resource is not found. May be a typo in the identifier provided."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="TPRCache search (GET) by Identifier didn’t result in any match. Resource is not found. May be a typo in the identifier provided."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS193"></code>
+         <display value="TPRCache search failed as the result of unavailable Practitioner:organization parameter in _include or _revinclude. Required parameters must have value specified. Query is not structured correctly."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="TPRCache search failed as the result of unavailable Practitioner:organization parameter in _include or _revinclude. Required parameters must have value specified. Query is not structured correctly."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS194"></code>
+         <display value="TPRCache search failed as the result of elastic-search-attribute-set value is not equal to 001 and 002. Query is not structured correctly"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="TPRCache search failed as the result of elastic-search-attribute-set value is not equal to 001 and 002. Query is not structured correctly"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS195"></code>
+         <display value="The [PARAMETER NAME] Value that was sent had less then mandatory length: 3 characters. Please update and try again."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="The [PARAMETER NAME] Value that was sent had less then mandatory length: 3 characters. Please update and try again."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS196"></code>
+         <display value="The telephone number must be structured as a 10 digit number. Please update and try again."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="The telephone number must be structured as a 10 digit number. Please update and try again."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS197"></code>
+         <display value="TPRCache search failed as the result of incorrectly formatted Request. Multiple values detected for non-repeatable parameter [Parameter Name]. This server is not configured to allow multiple (AND/OR) values for this param. No re-submission"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="TPRCache search failed as the result of incorrectly formatted Request. Multiple values detected for non-repeatable parameter [Parameter Name]. This server is not configured to allow multiple (AND/OR) values for this param. No re-submission"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS198"></code>
+         <display value="TPRCache search failed as the result of incorrectly formatted Request. Cannot use address-line:exact and address-line:contains in same Search Query. No re-submission"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="TPRCache search failed as the result of incorrectly formatted Request. Cannot use address-line:exact and address-line:contains in same Search Query. No re-submission"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS200"></code>
+         <display value="Bundle rejected due to: MedicationOrder identifier element is incorrect."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Bundle rejected due to: MedicationOrder identifier element is incorrect."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS201"></code>
+         <display value="The [PARAMETER NAME] Value that was sent had less then mandatory length: 2 characters. Please update and try again."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="The [PARAMETER NAME] Value that was sent had less then mandatory length: 2 characters. Please update and try again."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS206"></code>
+         <display value="The search parameters you have included in your search are not valid."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="The search parameters you have included in your search are not valid."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS212"></code>
+         <display value="&quot;TPRCache search failed as the result of: Wild cards not allowed to use in search parameters.&quot;"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="&quot;TPRCache search failed as the result of: Wild cards not allowed to use in search parameters.&quot;"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS213"></code>
+         <display value="&quot;TPRCache search failed as the result of: The FHIR endpoint on this server does not know how to handle GET operation Organization with missing parameter [role]&quot; Query is not structured correctly. (elastic search)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="&quot;TPRCache search failed as the result of: The FHIR endpoint on this server does not know how to handle GET operation Organization with missing parameter [role]&quot; Query is not structured correctly. (elastic search)"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS214"></code>
+         <display value="Invalid Sender Profile Direction"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Invalid Sender Profile Direction"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS216"></code>
+         <display value="The destination cannot receive message . No re-submission"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="The destination cannot receive message . No re-submission"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS217"></code>
+         <display value="The destination cannot receive task . No re-submission"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="The destination cannot receive task . No re-submission"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS218"></code>
+         <display value="Sender cannot send this task. Not conformed."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Sender cannot send this task. Not conformed."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS220"></code>
+         <display value="One or more mandatory application header(s) is/are missing or empty."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="One or more mandatory application header(s) is/are missing or empty."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS221"></code>
+         <display value="When a formulary query request is found to be invalid then PrescribeIT™ must send a coded error response back to the EMR. These scenarios must include: The Application Id given with header X-TELUS-SDF-APPID not found in the provider registry."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="When a formulary query request is found to be invalid then PrescribeIT™ must send a coded error response back to the EMR. These scenarios must include: The Application Id given with header X-TELUS-SDF-APPID not found in the provider registry."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS222"></code>
+         <display value="Provided application id is not recognized in the Provider Registry."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Provided application id is not recognized in the Provider Registry."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS223"></code>
+         <display value="Provided application instance id is not recognized in the Provider Registry."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Provided application instance id is not recognized in the Provider Registry."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS224"></code>
+         <display value="Provided organization id is not recognized in the Provider Registry."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Provided organization id is not recognized in the Provider Registry."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS225"></code>
+         <display value="Provided practitioner id is not recognized in the Provider Registry."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Provided practitioner id is not recognized in the Provider Registry."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS226"></code>
+         <display value="Provided application instance id is not tied to the provided application id in the Provider Registry."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Provided application instance id is not tied to the provided application id in the Provider Registry."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS227"></code>
+         <display value="Provided application id is not allowed to send request on behalf of provided organization id according to the Provider registry"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Provided application id is not allowed to send request on behalf of provided organization id according to the Provider registry"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS228"></code>
+         <display value="Provided organization id has not the expected PrescibeIT enrolment to perform this request, or the organization is not active."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Provided organization id has not the expected PrescibeIT enrolment to perform this request, or the organization is not active."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS229"></code>
+         <display value="MessageHeader/source/endpoint does not match Communication/reply-to/valueReference/reference value, Or Communication/reply-to/valueReference/reference value does not match Communication/sender"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="MessageHeader/source/endpoint does not match Communication/reply-to/valueReference/reference value, Or Communication/reply-to/valueReference/reference value does not match Communication/sender"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS230"></code>
+         <display value="MessageHeader/destination/endpoint does not match Communication/recipient/OBO/valueReference/reference value"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="MessageHeader/destination/endpoint does not match Communication/recipient/OBO/valueReference/reference value"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS231"></code>
+         <display value="Recipient Organization/OBO does not exist in registry"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Recipient Organization/OBO does not exist in registry"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS233"></code>
+         <display value="Communication/Sender does not match Communication/replay-to/valueReference/reference value."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Communication/Sender does not match Communication/replay-to/valueReference/reference value."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS234"></code>
+         <display value="Sender is LOCUM: MessageHeader/source/endpoint does not match Communication/reply-to/OBO/valueReference/reference value."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Sender is LOCUM: MessageHeader/source/endpoint does not match Communication/reply-to/OBO/valueReference/reference value."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS235"></code>
+         <display value="Communication/reply-to/ext-reference-on-behalf-of does not exist"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Communication/reply-to/ext-reference-on-behalf-of does not exist"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS242"></code>
+         <display value="MessageHeader/destination/endpoint does not match Communication/recipient/OBO/valueReference/reference value."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="MessageHeader/destination/endpoint does not match Communication/recipient/OBO/valueReference/reference value."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS245"></code>
+         <display value="301/305 message sent with an attachment payload where UUID of the attachment has already been used."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="301/305 message sent with an attachment payload where UUID of the attachment has already been used."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS246"></code>
+         <display value="305 Message from Practitioner to Organization: Sender practitioner Id is inactive."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="305 Message from Practitioner to Organization: Sender practitioner Id is inactive."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS247"></code>
+         <display value="305 Message from Organization to Practitioner: Recipient practitioner Id is inactive."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="305 Message from Organization to Practitioner: Recipient practitioner Id is inactive."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS260"></code>
+         <display value="TPR cache search failed as the result of invalid characters(s) in the elastic search string"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="TPR cache search failed as the result of invalid characters(s) in the elastic search string"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS529"></code>
+         <display value="When submitting a Pharmacist Adapt (p170-m) the bundle must only contain Pharmacist Adapt tasks. We have identified tasks of different types contained in this bundle. If you are able, correct and resubmit. Else, please provide the Detail Code and Reference Number shown below. Detail Code {0} - Reference # {1}."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="When submitting a Pharmacist Adapt (p170-m) the bundle must only contain Pharmacist Adapt tasks. We have identified tasks of different types contained in this bundle. If you are able, correct and resubmit. Else, please provide the Detail Code and Reference Number shown below. Detail Code {0} - Reference # {1}."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS530"></code>
+         <display value="When submitting a Pharmacist Prescribe task (p190-,) the bundle must only contain Pharmacist Prescribe tasks. We have identified task of different types contained in this bundle. If you are able, correct and resubmit. Else, please contact technical support and provide the Detail Code and Reference Number shown below. Detail Code {0} - Reference # {1}."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="When submitting a Pharmacist Prescribe task (p190-,) the bundle must only contain Pharmacist Prescribe tasks. We have identified task of different types contained in this bundle. If you are able, correct and resubmit. Else, please contact technical support and provide the Detail Code and Reference Number shown below. Detail Code {0} - Reference # {1}."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS531"></code>
+         <display value="Antivirus check failed."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Antivirus check failed."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS532"></code>
+         <display value="Attachment not available."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Attachment not available."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS533"></code>
+         <display value="Attachment validation failed."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Attachment validation failed."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS541"></code>
+         <display value="The message was accepted but not routed to the destination due to the capabilities of the destination system."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="The message was accepted but not routed to the destination due to the capabilities of the destination system."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS542"></code>
+         <display value="This message cannot be delivered to the desired destination. Our profiles indicate that at least one of the messages in this bundle cannot be managed by the destination. Please revert to manual processing for this message and call Technical support and provide them with the Detail Code and Reference Number shown below. \n\nDetail Code {0} - Reference # {1}."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="This message cannot be delivered to the desired destination. Our profiles indicate that at least one of the messages in this bundle cannot be managed by the destination. Please revert to manual processing for this message and call Technical support and provide them with the Detail Code and Reference Number shown below. \n\nDetail Code {0} - Reference # {1}."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS562"></code>
+         <display value="The fax number must be structured as a 10 digit number. Please update and try again."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="The fax number must be structured as a 10 digit number. Please update and try again."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS564"></code>
+         <display value="Only a single name is allowed. Please update and try again."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Only a single name is allowed. Please update and try again."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS565"></code>
+         <display value="Only a single family name is allowed. Please update and try again."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Only a single family name is allowed. Please update and try again."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS566"></code>
+         <display value="Only a single organization.address-city is allowed. Please update and try again."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Only a single organization.address-city is allowed. Please update and try again."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS570"></code>
+         <display value="The _lastUpdated parameter provided in the request is not valid. Please correct this and resubmit the request."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="The _lastUpdated parameter provided in the request is not valid. Please correct this and resubmit the request."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS571"></code>
+         <display value="We have determined that you sent an acknowledgement response; however, you have sent it to an incorrect URL address. Please correct this and resend it. Note: Messages that have not been properly acknowledged will remain in your inbox."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="We have determined that you sent an acknowledgement response; however, you have sent it to an incorrect URL address. Please correct this and resend it. Note: Messages that have not been properly acknowledged will remain in your inbox."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS572"></code>
+         <display value="The prescription bundle is found, but has been archived and therefore is no longer available for download."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="The prescription bundle is found, but has been archived and therefore is no longer available for download."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS573"></code>
+         <display value="For message delivery validation there must be at least one of quantity or expectedSupplyDuration that must be supplied."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="For message delivery validation there must be at least one of quantity or expectedSupplyDuration that must be supplied."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS574"></code>
+         <display value="For message delivery validation there must be at least one of total prescribed quantity or total days supply that must be supplied."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="For message delivery validation there must be at least one of total prescribed quantity or total days supply that must be supplied."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS575"></code>
+         <display value="For message delivery validation the For Life flag cannot be set to true."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="For message delivery validation the For Life flag cannot be set to true."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS576"></code>
+         <display value="In the message header, you must provide the CPRId representing the organization sending of this request. The CPR Id is either not found or a CPR Id has not been provided."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="In the message header, you must provide the CPRId representing the organization sending of this request. The CPR Id is either not found or a CPR Id has not been provided."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS577"></code>
+         <display value="The CPRId presented in the registration query is associated to a jurisdiction that prevents the solution from returning the record. Therefore, no results are available."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="The CPRId presented in the registration query is associated to a jurisdiction that prevents the solution from returning the record. Therefore, no results are available."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS578"></code>
+         <display value="During inspection of this request (clear-message-queue) we determined that a bundle id has been presented multiple times with conflicting methods (both PUT and DELETE). We cannot process this entire request."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="During inspection of this request (clear-message-queue) we determined that a bundle id has been presented multiple times with conflicting methods (both PUT and DELETE). We cannot process this entire request."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS579"></code>
+         <display value="This request contains a method that is not supported. For the 'clear-message-queue' request, we only support PUT and DELETE."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="This request contains a method that is not supported. For the 'clear-message-queue' request, we only support PUT and DELETE."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS580"></code>
+         <display value="For the 'clear-message- queue' when the method of PUT is provided, a 'cancel reason' must be provided."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="For the 'clear-message- queue' when the method of PUT is provided, a 'cancel reason' must be provided."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS581"></code>
+         <display value="The prescription bundle does not have the status of 'acknowledged', therefore it is not eligible to be 'cancel/reversed'"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="The prescription bundle does not have the status of 'acknowledged', therefore it is not eligible to be 'cancel/reversed'"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS582"></code>
+         <display value="Our records indicate that one or more of the Rx/Medication Orders within this prescription bundle are not in a state where the cancel can proceed, i.e. one or more have a 'dispense' actioned against it."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Our records indicate that one or more of the Rx/Medication Orders within this prescription bundle are not in a state where the cancel can proceed, i.e. one or more have a 'dispense' actioned against it."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS583"></code>
+         <display value="The prescription bundle download cannot be cancelled as the PMS that has requested to cancel the download does not match the PMS that acknowledged the original download."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="The prescription bundle download cannot be cancelled as the PMS that has requested to cancel the download does not match the PMS that acknowledged the original download."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS584"></code>
+         <display value="The prescription bundle download cannot proceed as the PMS that has requested the download does not match the pharmacy destination CPRID that is identified in the original 401 bundle."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="The prescription bundle download cannot proceed as the PMS that has requested the download does not match the pharmacy destination CPRID that is identified in the original 401 bundle."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS585"></code>
+         <display value="The message that has been submitted cannot be routed. Based on the jurisdictional rules the sender's jurisdiction cannot send this message type. Message type not supported: 101."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="The message that has been submitted cannot be routed. Based on the jurisdictional rules the sender's jurisdiction cannot send this message type. Message type not supported: 101."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS586"></code>
+         <display value="The message that has been submitted cannot be routed. Based on the jurisdictional rules the destination's jurisdiction cannot receive this message type. Message type not supported: 101."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="The message that has been submitted cannot be routed. Based on the jurisdictional rules the destination's jurisdiction cannot receive this message type. Message type not supported: 101."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS587"></code>
+         <display value="The message that has been submitted cannot be routed. Based on the jurisdictional rules the sender's jurisdiction cannot send this message type. Message types not supported: 201, 305, 401."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="The message that has been submitted cannot be routed. Based on the jurisdictional rules the sender's jurisdiction cannot send this message type. Message types not supported: 201, 305, 401."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS588"></code>
+         <display value="The message that has been submitted cannot be routed. Based on the jurisdictional rules the destination's jurisdiction cannot receive this message type. Message types not supported: 201, 305, 401."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="The message that has been submitted cannot be routed. Based on the jurisdictional rules the destination's jurisdiction cannot receive this message type. Message types not supported: 201, 305, 401."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS589"></code>
+         <display value="The prescription bundle download cannot proceed as the PMS that has requested the download does not have the jurisdictional privileges to retrieve this message."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="The prescription bundle download cannot proceed as the PMS that has requested the download does not have the jurisdictional privileges to retrieve this message."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS590"></code>
+         <display value="The message that has been submitted cannot be routed. Deferred Rx prescriptions cannot be sent with other prescription types."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="The message that has been submitted cannot be routed. Deferred Rx prescriptions cannot be sent with other prescription types."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS591"></code>
+         <display value="The prescription bundle download cannot proceed as it is no longer available for retrieval."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="The prescription bundle download cannot proceed as it is no longer available for retrieval."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS592"></code>
+         <display value="The Identifier is not unique. RX ID was already used and original order has been discontinued."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="The Identifier is not unique. RX ID was already used and original order has been discontinued."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS593"></code>
+         <display value="This is the second submission of a discontinue request."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="This is the second submission of a discontinue request."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS594"></code>
+         <display value="Message is routed via fax route."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Message is routed via fax route."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS595"></code>
+         <display value="Message was not delivered to the destination."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Message was not delivered to the destination."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS596"></code>
+         <display value="Message was not delivered to the destination via fax."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Message was not delivered to the destination via fax."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS597"></code>
+         <display value="Message failed to be delivered to the destination."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Message failed to be delivered to the destination."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS598"></code>
+         <display value="Destination didn't pick the message from their inbox."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Destination didn't pick the message from their inbox."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS599"></code>
+         <display value="Destination polled, but didn't acknowledge the message from their inbox."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Destination polled, but didn't acknowledge the message from their inbox."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS605"></code>
+         <display value="An attachment was not uploaded."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="An attachment was not uploaded."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS606"></code>
+         <display value="Unable to route message to destination due to an internal error."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Unable to route message to destination due to an internal error."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS607"></code>
+         <display value="The practitioner and organization do not have an association in the provider registry."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="The practitioner and organization do not have an association in the provider registry."></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Le praticien et l'organisation ne sont pas associés dans le registre des fournisseurs."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS608"></code>
+         <display value="The practitioner must have a valid status, and the status must be Active or Pending.\n Follow up with your administrator or support team if needed."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="The practitioner must have a valid status, and the status must be Active or Pending.\n Follow up with your administrator or support team if needed."></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Le praticien doit avoir un statut valide, c'est-à-dire Actif ou En attente./nCommuniquez avec votre administrateur ou équipe de soutien, au besoin."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS609"></code>
+         <display value="The practitioner could not be found in the provider registry.\n Follow up with your administrator or support team if needed."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="The practitioner could not be found in the provider registry.\n Follow up with your administrator or support team if needed."></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Impossible de trouver le praticien dans le registre des fournisseurs./nCommuniquez avec votre administrateur ou équipe de soutien, au besoin."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS610"></code>
+         <display value="The organization must have a valid contract and its status must be Active or Pending.\n Follow up with your administrator or support team if needed."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="The organization must have a valid contract and its status must be Active or Pending.\n Follow up with your administrator or support team if needed."></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="L'organisation doit détenir un contrat valide et son statut doit être Actif ou En attente./nCommuniquez avec votre administrateur ou équipe de soutien, au besoin."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS611"></code>
+         <display value="The date timestamp in the request is invalid."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="The date timestamp in the request is invalid."></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="L'horodatage de la demande n'est pas valide."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS612"></code>
+         <display value="The organization status must be Active.\n Follow up with your administrator or support team if needed."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="The organization status must be Active.\n Follow up with your administrator or support team if needed."></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Le statut de l'organisation doit être actif./nCommuniquez avec votre administrateur ou équipe de soutien, au besoin."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS617"></code>
+         <display value="The ‘Indication for Use’ value has not been provided for the following medications, which is mandatory based on regulations in your province: {1}, {2}... \n Please add the ‘Indication for Use’ value to these medications and resubmit them."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="The ‘Indication for Use’ value has not been provided for the following medications, which is mandatory based on regulations in your province: {1}, {2}... \n Please add the ‘Indication for Use’ value to these medications and resubmit them."></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="L'indication d'utilisation n'a pas été fournie pour les médicaments suivants; il s'agit d'une valeur obligatoire établie en fonction de la réglementation dans votre province : {1}, {2}... \n Veuillez ajouter la valeur de l'indication d'utilisation à ces médicaments et les soumettre à nouveau."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS621"></code>
+         <display value="An unexpected error has occurred when searching for the destination’s list of supported messages (capabilities). Please call Technical support and provide them with the Detail Code and Reference Number shown below. \n Detail Code {0} – Reference # {1}."></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="An unexpected error has occurred when searching for the destination’s list of supported messages (capabilities). Please call Technical support and provide them with the Detail Code and Reference Number shown below. \n Detail Code {0} – Reference # {1}."></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Une erreur inattendue est survenue lors de la recherche de la liste de messages pris en charge par le destinataire. Veuillez communiquer avec le soutien technique et fournissez-leur le code de détail et le numéro de référence affichés ci-dessous :\n{1}"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS622"></code>
+         <display value="Message was accepted but not delivered to the destination due to the prescriber not having a contract with PrescribeIT"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Message was accepted but not delivered to the destination due to the prescriber not having a contract with PrescribeIT"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Le message a été accepté, mais n'a pas été livré au destinataire, car le prescripteur n’est pas enregistré à PrescripTIon"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS623"></code>
+         <display value="Message was accepted but not delivered to the destination due to the clinic not having a contract with PrescribeIT"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Message was accepted but not delivered to the destination due to the clinic not having a contract with PrescribeIT"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Le message a été accepté, mais n'a pas été livré au destinataire, car la clinique n’est pas enregistré à PrescripTIon"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS624"></code>
+         <display value="Message was accepted but not delivered to the destination due to the prescriber not being associated to the specified clinic"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Message was accepted but not delivered to the destination due to the prescriber not being associated to the specified clinic"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Le message a été accepté, mais n'a pas été livré au destinataire, car le prescripteur n'est pas associé à la clinique spécifiée"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS625"></code>
+         <display value="Message was accepted but not delivered to the destination due to the prescriber being inactive on PrescribeIT"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Message was accepted but not delivered to the destination due to the prescriber being inactive on PrescribeIT"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Le message a été accepté, mais n'a pas été livré au destinataire, car le prescripteur n’est pas activé sur PrescripTIon"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails"></system>
+         <abstract value="false"></abstract>
+         <code value="ISS626"></code>
+         <display value="Message was accepted but not delivered to the destination due to the clinic being inactive on PrescribeIT"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Message was accepted but not delivered to the destination due to the clinic being inactive on PrescribeIT"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Le message a été accepté, mais n'a pas été livré au destinataire, car la clinique n’est pas activé sur PrescripTIon"></value>
+         </designation>
+      </contains>
+   </expansion>
+</ValueSet>

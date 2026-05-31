@@ -1,0 +1,20 @@
+<version>
+  <id>2.16.840.1.113883.2.20.3.407</id>
+  <url>https://tgateway.infoway-inforoute.ca/vs/prescriptiondosageinstructionlinerelationship</url>
+  <fhirUri>https://fhir.infoway-inforoute.ca/ValueSet/prescriptiondosageinstructionlinerelationship</fhirUri>
+  <name>PrescriptionDosageInstructionLineRelationship</name>
+  <versionId>20170626</versionId>
+  <effectiveDate>2017062604:00:00</effectiveDate>
+  <description>Dosage instruction that identify what should be treated as occurring in parallel or in sequence with the preceding instruction</description>
+  <status>active</status>
+  <codeSystems>
+    <codesystem>
+      <id>2.16.840.1.113883.5.1147</id>
+      <name>PrescriptionDosageInstructionLineRelationship</name>
+      <businessName>PrescriptionDosageInstructionLineRelationship</businessName>
+      <url>https://fhir.infoway-inforoute.ca/CodeSystem/prescriptiondosageinstructionlinerelationship</url>
+      <version>20170626</version>
+      <organization>Canada Health Infoway</organization>
+    </codesystem>
+  </codeSystems>
+</version>

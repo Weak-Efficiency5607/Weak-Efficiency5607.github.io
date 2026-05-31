@@ -1,0 +1,424 @@
+{
+  "resourceType": "ValueSet",
+  "id": "formularyjurisdictions",
+  "url": "https://fhir.infoway-inforoute.ca/ValueSet/formularyjurisdictions",
+  "identifier": [ {
+    "id": "2.16.840.1.113883.2.20.3.452"
+  } ],
+  "version": "20190916",
+  "name": "FormularyJurisdictions",
+  "status": "active",
+  "description": "Codes to identify the formularies providers that exist across Canada. Formularies are used to retrieve information about drug coverage and cost based on health plans that are offered within a particular jurisdiction.",
+  "expansion": {
+    "identifier": "urn:uuid:ddb3d8ac-70f0-4144-8769-d04ac45e466c",
+    "timestamp": "2025-07-25T11:35:08-04:00",
+    "total": 17,
+    "contains": [ {
+      "system": "http://canadapost.ca/CodeSystem/ProvinceCodes",
+      "abstract": false,
+      "code": "AB",
+      "display": "Alberta",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Alberta"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Alberta"
+      } ]
+    }, {
+      "system": "http://canadapost.ca/CodeSystem/ProvinceCodes",
+      "abstract": false,
+      "code": "BC",
+      "display": "British Columbia",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "British Columbia"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Colombie-Britannique"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/formularyjurisdictions",
+      "abstract": false,
+      "code": "DD",
+      "display": "Department of National Defence (DND)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "The Department of National Defence (French: Ministère de la Défense nationale), commonly abbreviated as DND, is a Canadian government department responsible for defending Canada's interests and values at home and abroad"
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Department of National Defence (DND)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Ministère de la Défense nationale"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/formularyjurisdictions",
+      "abstract": false,
+      "code": "DV",
+      "display": "Department of Veteran Affairs (DVA)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "https://www.veterans.gc.ca/eng/financial-support/medical-costs/treatment-benefits/poc10"
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Department of Veteran Affairs (DVA)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Anciens Combattants Canada (ACC)"
+      } ]
+    }, {
+      "system": "http://canadapost.ca/CodeSystem/ProvinceCodes",
+      "abstract": false,
+      "code": "MB",
+      "display": "Manitoba",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Manitoba"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Manitoba"
+      } ]
+    }, {
+      "system": "http://canadapost.ca/CodeSystem/ProvinceCodes",
+      "abstract": false,
+      "code": "NB",
+      "display": "New Brunswick",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "New Brunswick"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Nouveau-Brunswick"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/formularyjurisdictions",
+      "abstract": false,
+      "code": "NI",
+      "display": "Non-insured health benefits for First Nations and Inuit (NHIB)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Canada's Non-Insured Health Benefits (NIHB) Program provides coverage for a specified range of medically necessary health-related goods and services. This program is for eligible First Nations and Inuit clients who are not covered through other: social programs private insurance plans provincial or territorial health insurance"
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Non-insured health benefits for First Nations and Inuit (NHIB)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Services de santé non assurés (SSNA) pour les Premières Nations et les Inuits"
+      } ]
+    }, {
+      "system": "http://canadapost.ca/CodeSystem/ProvinceCodes",
+      "abstract": false,
+      "code": "NL",
+      "display": "Newfoundland and Labrador",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Newfoundland and Labrador"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Terre-Neuve-et-Labrador"
+      } ]
+    }, {
+      "system": "http://canadapost.ca/CodeSystem/ProvinceCodes",
+      "abstract": false,
+      "code": "NS",
+      "display": "Nova Scotia",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Nova Scotia"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Nouvelle-Écosse"
+      } ]
+    }, {
+      "system": "http://canadapost.ca/CodeSystem/ProvinceCodes",
+      "abstract": false,
+      "code": "NT",
+      "display": "Northwest Territories",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Northwest Territories"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Territoires du Nord-Ouest"
+      } ]
+    }, {
+      "system": "http://canadapost.ca/CodeSystem/ProvinceCodes",
+      "abstract": false,
+      "code": "NU",
+      "display": "Nunavut",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Nunavut"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Nunavut"
+      } ]
+    }, {
+      "system": "http://canadapost.ca/CodeSystem/ProvinceCodes",
+      "abstract": false,
+      "code": "ON",
+      "display": "Ontario",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Ontario"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Ontario"
+      } ]
+    }, {
+      "system": "http://canadapost.ca/CodeSystem/ProvinceCodes",
+      "abstract": false,
+      "code": "PE",
+      "display": "Prince Edward Island",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Prince Edward Island"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Île-du-Prince-Édouard"
+      } ]
+    }, {
+      "system": "http://canadapost.ca/CodeSystem/ProvinceCodes",
+      "abstract": false,
+      "code": "QC",
+      "display": "Quebec",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Quebec"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Québec"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/formularyjurisdictions",
+      "abstract": false,
+      "code": "RC",
+      "display": "Royal Canadian Mounted Police (RCMP)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "The Royal Canadian Mounted Police is the Canadian national police service and an agency of the Ministry of Public Safety Canada."
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Royal Canadian Mounted Police (RCMP)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Gendarmerie royale du Canada (GRC)"
+      } ]
+    }, {
+      "system": "http://canadapost.ca/CodeSystem/ProvinceCodes",
+      "abstract": false,
+      "code": "SK",
+      "display": "Saskatchewan",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Saskatchewan"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Saskatchewan"
+      } ]
+    }, {
+      "system": "http://canadapost.ca/CodeSystem/ProvinceCodes",
+      "abstract": false,
+      "code": "YT",
+      "display": "Yukon",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Yukon"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Yukon"
+      } ]
+    } ]
+  }
+}

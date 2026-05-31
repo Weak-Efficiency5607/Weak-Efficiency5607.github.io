@@ -1,0 +1,144 @@
+{
+  "resourceType": "ValueSet",
+  "id": "sharedidentifiertype",
+  "url": "https://fhir.infoway-inforoute.ca/ValueSet/sharedidentifiertype",
+  "identifier": [ {
+    "id": "2.16.840.1.113883.2.20.3.421"
+  } ],
+  "version": "20190415",
+  "name": "SharedIdentifierType",
+  "status": "active",
+  "description": "Identifier types supported for Shared Health systems",
+  "expansion": {
+    "identifier": "urn:uuid:45fd62c4-ee46-4c85-8d34-f47064d48b64",
+    "timestamp": "2025-07-25T11:34:45-04:00",
+    "total": 5,
+    "contains": [ {
+      "system": "http://hl7.org/fhir/v2/0203",
+      "abstract": false,
+      "code": "JHN",
+      "display": "Jurisdictional health number (Canada)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Jurisdictional health number (Canada)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Numéro d'assurance-maladie prov./terr. (Canada)"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v2/0203",
+      "abstract": false,
+      "code": "LN",
+      "display": "License number",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "License number"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Numéro de permis"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v2/0203",
+      "abstract": false,
+      "code": "LR",
+      "display": "Local Registry ID",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Local Registry ID"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "ID du registre local"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v2/0203",
+      "abstract": false,
+      "code": "MR",
+      "display": "Medical record number",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Medical record number"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Numéro du dossier médical"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v2/0203",
+      "abstract": false,
+      "code": "PRN",
+      "display": "Provider registry number",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "The PrescribeIT™ Provider Registry contains organizations and health care providers that are registered to use the PrescribeIT™ service. Each unique organization or health care provider is assigned a unique Provider Registry Number (PRN) at the time of registration"
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Provider registry number"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Le registre des fournisseurs de PrescripTIonMC répertorie les organismes et les professionnels de la santé inscrits au service PrescripTIonMC. Chaque organisme ou professionnel se voit attribuer un numéro unique au moment de l'inscription, qui l'identifie dans le registre des fournisseurs."
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Numéro du registre des fournisseurs"
+      } ]
+    } ]
+  }
+}

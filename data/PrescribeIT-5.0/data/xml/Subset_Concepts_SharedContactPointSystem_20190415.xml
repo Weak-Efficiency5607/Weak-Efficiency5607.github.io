@@ -1,0 +1,59 @@
+<result>
+  <concepts>
+    <concept>
+      <id>email</id>
+      <name>Email</name>
+      <codeSystemId>2.16.840.1.113883.4.642.1.65</codeSystemId>
+      <codeSystemName>ContactPointSystem</codeSystemName>
+      <enDisplayName>Email</enDisplayName>
+      <frDisplayName>Adresse électronique</frDisplayName>
+      <description>The value is an email address.</description>
+      <frDescription>La valeur est une adresse électronique.</frDescription>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>fax</id>
+      <name>Fax</name>
+      <codeSystemId>2.16.840.1.113883.4.642.1.65</codeSystemId>
+      <codeSystemName>ContactPointSystem</codeSystemName>
+      <enDisplayName>Fax</enDisplayName>
+      <frDisplayName>Télécopieur</frDisplayName>
+      <description>The value is a fax machine. Use of full international numbers starting with + is recommended to enable automatic dialing support but not required.</description>
+      <frDescription>La valeur est un numéro de télécopieur. L&apos;utilisation de numéros internationaux complets débutant par + est recommandée pour l&apos;activation de la composition automatique, mais non requise.</frDescription>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>phone</id>
+      <name>Phone</name>
+      <codeSystemId>2.16.840.1.113883.4.642.1.65</codeSystemId>
+      <codeSystemName>ContactPointSystem</codeSystemName>
+      <enDisplayName>Phone</enDisplayName>
+      <frDisplayName>Téléphone</frDisplayName>
+      <description>The value is a telephone number used for voice calls. Use of full international numbers starting with + is recommended to enable automatic dialing support but not required.</description>
+      <frDescription>La valeur est un numéro de téléphone utilisé pour les appels vocaux. L&apos;utilisation de numéros internationaux complets débutant par + est recommandée pour l&apos;activation de la composition automatique, mais non requise.</frDescription>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+  </concepts>
+  <pagination>
+    <currentPage>1</currentPage>
+    <totalPages>1</totalPages>
+    <pageSize>100000</pageSize>
+    <totalRecords>3</totalRecords>
+    <firstRecord>1</firstRecord>
+    <lastRecord>3</lastRecord>
+    <nextPage>-1</nextPage>
+    <nextRecord>-1</nextRecord>
+  </pagination>
+</result>

@@ -60,9 +60,12 @@
 
 		<section class="card">
 			<h2>LOINC Database</h2>
-			<p style="margin-bottom: 1.5rem; color: var(--text-secondary); font-size: 0.95rem;">
-					Logical Observation Identifiers Names and Codes (LOINC) is the international standard for identifying health measurements, observations, and documents.
-				</p>
+			<p style="margin-bottom: 0.5rem; color: var(--text-secondary); font-size: 0.95rem;">
+				Logical Observation Identifiers Names and Codes (LOINC) is the international standard for identifying health measurements, observations, and documents.
+			</p>
+			<p style="margin-bottom: 1.5rem; color: var(--text-secondary); font-size: 0.95rem; font-style: italic;">
+				<strong>Note for Canada:</strong> The official Canadian standard for lab tests, pCLOCD (Pan-Canadian LOINC Observation Code Database), is directly based on LOINC. You can use this search to find Canadian health tests.
+			</p>
 				
 				<div id="loinc-loader-container" style="text-align: center; margin-top: 2rem;">
 					<button id="load-loinc-btn" class="action-btn">Load Top 20,000 LOINC Tests (5.3 MB)</button>
@@ -153,6 +156,8 @@
 				</div>
 			</div>
 		</section>
+
+
 
 	</main>
 	<script src="js/router.js"></script>

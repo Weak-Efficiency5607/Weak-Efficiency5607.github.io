@@ -1,0 +1,134 @@
+<subset>
+  <id>2.16.840.1.113883.2.20.3.415</id>
+  <name>PrescriptionEMRTaskType</name>
+  <url>https://tgateway.infoway-inforoute.ca/vs/prescriptionemrtasktype</url>
+  <fhirUri>https://fhir.infoway-inforoute.ca/ValueSet/prescriptionemrtasktype</fhirUri>
+  <versionId>20170626</versionId>
+  <effectiveDate>2017062604:00:00</effectiveDate>
+  <description>PrescribeIT types of tasks for EMRs</description>
+  <status>active</status>
+  <category>PrescribeIT</category>
+  <domains>
+    <string>PrescribeIT</string>
+  </domains>
+  <properties>
+    <entry>
+      <string>project</string>
+      <string>eRx</string>
+    </entry>
+  </properties>
+  <owner>Canada Health Infoway</owner>
+  <tags>
+    <string>Extensional</string>
+  </tags>
+  <terminologies class="com.google.gson.internal.LinkedTreeMap" resolves-to="linked-hash-map"/>
+  <type>Extensional</type>
+  <viewer>singlesubset</viewer>
+  <codeSystems>
+    <codesystem>
+      <id>2.16.840.1.113883.5.1140</id>
+      <name>PrescriptionTaskType</name>
+      <businessName>PrescriptionTaskType</businessName>
+      <url>https://fhir.infoway-inforoute.ca/CodeSystem/prescriptiontasktype</url>
+      <version>20170626</version>
+    </codesystem>
+  </codeSystems>
+  <concepts>
+    <concept>
+      <id>e110-m</id>
+      <name>New RX Fill Request</name>
+      <codeSystemId>2.16.840.1.113883.5.1140</codeSystemId>
+      <codeSystemName>PrescriptionTaskType</codeSystemName>
+      <enDisplayName>New RX Fill Request</enDisplayName>
+      <effectiveDate>2017062604:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>e120-m</id>
+      <name>Renewal RX Fill Request</name>
+      <codeSystemId>2.16.840.1.113883.5.1140</codeSystemId>
+      <codeSystemName>PrescriptionTaskType</codeSystemName>
+      <enDisplayName>Renewal RX Fill Request</enDisplayName>
+      <effectiveDate>2017062604:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>e140-m</id>
+      <name>Cancel Rx Request</name>
+      <codeSystemId>2.16.840.1.113883.5.1140</codeSystemId>
+      <codeSystemName>PrescriptionTaskType</codeSystemName>
+      <enDisplayName>Cancel Rx Request</enDisplayName>
+      <effectiveDate>2017062604:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>e161-m</id>
+      <name>RX Renewal Response - Denied</name>
+      <codeSystemId>2.16.840.1.113883.5.1140</codeSystemId>
+      <codeSystemName>PrescriptionTaskType</codeSystemName>
+      <enDisplayName>RX Renewal Response - Denied</enDisplayName>
+      <effectiveDate>2017062604:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>e162-m</id>
+      <name>RX Renewal Response - Approval</name>
+      <codeSystemId>2.16.840.1.113883.5.1140</codeSystemId>
+      <codeSystemName>PrescriptionTaskType</codeSystemName>
+      <enDisplayName>RX Renewal Response - Approval</enDisplayName>
+      <effectiveDate>2017062604:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>e163-m</id>
+      <name>RX Renewal Response - Approval with Changes</name>
+      <codeSystemId>2.16.840.1.113883.5.1140</codeSystemId>
+      <codeSystemName>PrescriptionTaskType</codeSystemName>
+      <enDisplayName>RX Renewal Response - Approval with Changes</enDisplayName>
+      <effectiveDate>2017062604:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>e164-m</id>
+      <name>RX Renewal Response - Under Review</name>
+      <codeSystemId>2.16.840.1.113883.5.1140</codeSystemId>
+      <codeSystemName>PrescriptionTaskType</codeSystemName>
+      <enDisplayName>RX Renewal Response - Under Review</enDisplayName>
+      <effectiveDate>2017062604:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>e180-m</id>
+      <name>New Undirected Rx Fill Request</name>
+      <codeSystemId>2.16.840.1.113883.5.1140</codeSystemId>
+      <codeSystemName>PrescriptionTaskType</codeSystemName>
+      <enDisplayName>New Undirected Rx Fill Request</enDisplayName>
+      <effectiveDate>2017062604:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+  </concepts>
+</subset>

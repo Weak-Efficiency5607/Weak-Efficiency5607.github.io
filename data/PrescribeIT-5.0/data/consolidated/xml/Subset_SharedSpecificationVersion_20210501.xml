@@ -1,0 +1,155 @@
+<subset>
+  <id>2.16.840.1.113883.2.20.3.431</id>
+  <name>SharedSpecificationVersion</name>
+  <url>https://tgateway.infoway-inforoute.ca/vs/sharedspecificationversion</url>
+  <fhirUri>https://fhir.infoway-inforoute.ca/ValueSet/sharedspecificationversion</fhirUri>
+  <versionId>20210501</versionId>
+  <effectiveDate>2021050104:00:00</effectiveDate>
+  <publicationTime>2021051805:32:59</publicationTime>
+  <dateLastReviewed>2021050104:00:00</dateLastReviewed>
+  <description>Codes identifying the PrescribeIT, MedDialog, and Shared Health Message specification version number</description>
+  <status>active</status>
+  <category>PrescribeIT</category>
+  <domains>
+    <string>PrescribeIT</string>
+  </domains>
+  <properties/>
+  <owner>Canada Health Infoway</owner>
+  <tags>
+    <string>Extensional</string>
+  </tags>
+  <terminologies class="com.google.gson.internal.LinkedTreeMap" resolves-to="linked-hash-map"/>
+  <type>Extensional</type>
+  <viewer>singlesubset</viewer>
+  <codeSystems>
+    <codesystem>
+      <id>2.16.840.1.113883.5.1146</id>
+      <name>SharedSpecificationVersion</name>
+      <businessName>SharedSpecificationVersion</businessName>
+      <url>https://fhir.infoway-inforoute.ca/CodeSystem/sharedspecificationversion</url>
+      <version>20210501</version>
+    </codesystem>
+  </codeSystems>
+  <concepts>
+    <concept>
+      <id>Common1.5</id>
+      <name>Shared Health Specification v1.5</name>
+      <codeSystemId>2.16.840.1.113883.5.1146</codeSystemId>
+      <codeSystemName>SharedSpecificationVersion</codeSystemName>
+      <enDisplayName>Shared Health Specification v1.5</enDisplayName>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>Connector1.0</id>
+      <name>PrescribeIT Jurisdictional Connector Specification v1.0</name>
+      <codeSystemId>2.16.840.1.113883.5.1146</codeSystemId>
+      <codeSystemName>SharedSpecificationVersion</codeSystemName>
+      <enDisplayName>PrescribeIT Jurisdictional Connector Specification v1.0</enDisplayName>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>MedDialog1.0</id>
+      <name>MedDialog Specification v1.0</name>
+      <codeSystemId>2.16.840.1.113883.5.1146</codeSystemId>
+      <codeSystemName>SharedSpecificationVersion</codeSystemName>
+      <enDisplayName>MedDialog Specification v1.0</enDisplayName>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>PrescribeIT2.0</id>
+      <name>PrescribeIT Specification v2.0.0 (LPR2)</name>
+      <codeSystemId>2.16.840.1.113883.5.1146</codeSystemId>
+      <codeSystemName>SharedSpecificationVersion</codeSystemName>
+      <enDisplayName>PrescribeIT Specification v2.0.0 (LPR2)</enDisplayName>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>PrescribeIT3.0</id>
+      <name>PrescribeIT Specification v3</name>
+      <codeSystemId>2.16.840.1.113883.5.1146</codeSystemId>
+      <codeSystemName>SharedSpecificationVersion</codeSystemName>
+      <enDisplayName>PrescribeIT Specification v3</enDisplayName>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>PrescribeIT5.0</id>
+      <name>PrescribeIT Specification v5</name>
+      <codeSystemId>2.16.840.1.113883.5.1146</codeSystemId>
+      <codeSystemName>SharedSpecificationVersion</codeSystemName>
+      <enDisplayName>PrescribeIT Specification v5</enDisplayName>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>Shared2.0</id>
+      <name>Shared Health Specification v2.0.0</name>
+      <codeSystemId>2.16.840.1.113883.5.1146</codeSystemId>
+      <codeSystemName>SharedSpecificationVersion</codeSystemName>
+      <enDisplayName>Shared Health Specification v2.0.0</enDisplayName>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>Shared3.0</id>
+      <name>Shared Health Specification v3.0.0</name>
+      <codeSystemId>2.16.840.1.113883.5.1146</codeSystemId>
+      <codeSystemName>SharedSpecificationVersion</codeSystemName>
+      <enDisplayName>Shared Health Specification v3.0.0</enDisplayName>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>Shared5.0</id>
+      <name>Shared Health Specification v5.0.0</name>
+      <codeSystemId>2.16.840.1.113883.5.1146</codeSystemId>
+      <codeSystemName>SharedSpecificationVersion</codeSystemName>
+      <enDisplayName>Shared Health Specification v5.0.0</enDisplayName>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>eRx1.5</id>
+      <name>PrescribeIT Specification v1.0.0 (LPR1)</name>
+      <codeSystemId>2.16.840.1.113883.5.1146</codeSystemId>
+      <codeSystemName>SharedSpecificationVersion</codeSystemName>
+      <enDisplayName>PrescribeIT Specification v1.0.0 (LPR1)</enDisplayName>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+  </concepts>
+</subset>

@@ -1,0 +1,146 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+   <id value="prescriptionsplitreason"></id>
+   <url value="https://fhir.infoway-inforoute.ca/ValueSet/prescriptionsplitreason"></url>
+   <identifier id="2.16.840.1.113883.2.20.3.467"></identifier>
+   <version value="20210501"></version>
+   <name value="PrescriptionSplitReason"></name>
+   <status value="active"></status>
+   <description value="This is a reason assigned by a pharmacy management system user at the moment when they &quot;split&quot; a prescription."></description>
+   <expansion>
+      <identifier value="urn:uuid:ded61b4f-03bc-4dad-b4a5-bfead731c18b"></identifier>
+      <timestamp value="2025-07-25T11:35:20-04:00"></timestamp>
+      <total value="4"></total>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/prescriptionsplitreason"></system>
+         <abstract value="false"></abstract>
+         <code value="backOrder"></code>
+         <display value="Product prescribed is on back order"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="Product prescribed is on back order"></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Product prescribed is on back order"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Produit prescrit en rupture de stock"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/prescriptionsplitreason"></system>
+         <abstract value="false"></abstract>
+         <code value="notAvailable"></code>
+         <display value="Product prescribed is not commercially available (default)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="Product prescribed is not commercially available (default)"></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Product prescribed is not commercially available (default)"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Produit prescrit pas commercialisé (par défaut)"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/prescriptionsplitreason"></system>
+         <abstract value="false"></abstract>
+         <code value="notCovered"></code>
+         <display value="Product prescribed is not covered by patient’s insurance"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="Product prescribed is not covered by patient’s insurance"></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Product prescribed is not covered by patient’s insurance"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Produit prescrit pas couvert par assurance du patient"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/prescriptionsplitreason"></system>
+         <abstract value="false"></abstract>
+         <code value="other"></code>
+         <display value="Patient preference, Tapering dose, Other (with free text option)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="Patient preference, Tapering dose, Other (with free text option)"></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Patient preference, Tapering dose, Other (with free text option)"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Préférence du patient, diminution progressive, autre (texte libre)"></value>
+         </designation>
+      </contains>
+   </expansion>
+</ValueSet>

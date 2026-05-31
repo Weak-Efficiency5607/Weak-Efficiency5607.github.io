@@ -1,0 +1,20 @@
+<version>
+  <id>2.16.840.1.113883.2.20.3.487</id>
+  <url>https://tgateway.infoway-inforoute.ca/vs/indicationforusecontrolledsubstance</url>
+  <fhirUri>https://fhir.infoway-inforoute.ca/ValueSet/indicationforusecontrolledsubstance</fhirUri>
+  <name>IndicationForUseControlledSubstance</name>
+  <versionId>20240220</versionId>
+  <effectiveDate>2024022005:00:00</effectiveDate>
+  <publicationTime>2024022104:46:07</publicationTime>
+  <description>The clinical reason for which a medication is being ordered. This is a subset of indications for use that are allowed within a tracked or monitored prescription program.</description>
+  <status>active</status>
+  <codeSystems>
+    <codesystem>
+      <id>2.16.840.1.113883.6.96</id>
+      <name>SNOMED CT CA Edition</name>
+      <businessName>SNOMED CT CA Edition</businessName>
+      <url>http://snomed.info/sct</url>
+      <version>20230930</version>
+    </codesystem>
+  </codeSystems>
+</version>

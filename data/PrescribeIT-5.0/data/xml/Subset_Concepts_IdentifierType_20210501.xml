@@ -1,0 +1,235 @@
+<result>
+  <concepts>
+    <concept>
+      <id>ACSN</id>
+      <name>Accession ID</name>
+      <codeSystemId>2.16.840.1.113883.4.642.3.45</codeSystemId>
+      <codeSystemName>IdentifierType</codeSystemName>
+      <enDisplayName>Accession ID</enDisplayName>
+      <frDisplayName>Identifiant d&apos;accession</frDisplayName>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>DL</id>
+      <name>Driver&apos;s license number</name>
+      <codeSystemId>2.16.840.1.113883.4.642.3.45</codeSystemId>
+      <codeSystemName>IdentifierType</codeSystemName>
+      <enDisplayName>Driver&apos;s license number</enDisplayName>
+      <frDisplayName>Numéro de permis de conduire</frDisplayName>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>DR</id>
+      <name>Donor Registration Number</name>
+      <codeSystemId>2.16.840.1.113883.4.642.3.45</codeSystemId>
+      <codeSystemName>IdentifierType</codeSystemName>
+      <enDisplayName>Donor Registration Number</enDisplayName>
+      <frDisplayName>Numéro d&apos;inscription du donneur</frDisplayName>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>EN</id>
+      <name>Employer number</name>
+      <codeSystemId>2.16.840.1.113883.4.642.3.45</codeSystemId>
+      <codeSystemName>IdentifierType</codeSystemName>
+      <enDisplayName>Employer number</enDisplayName>
+      <frDisplayName>Numéro d&apos;employé</frDisplayName>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>FILL</id>
+      <name>Filler Identifier</name>
+      <codeSystemId>2.16.840.1.113883.4.642.3.45</codeSystemId>
+      <codeSystemName>IdentifierType</codeSystemName>
+      <enDisplayName>Filler Identifier</enDisplayName>
+      <frDisplayName>Identifiant de l&apos;exécuteur de la requête</frDisplayName>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>JHN</id>
+      <name>Jurisdictional health number (Canada)</name>
+      <codeSystemId>2.16.840.1.113883.4.642.3.45</codeSystemId>
+      <codeSystemName>IdentifierType</codeSystemName>
+      <enDisplayName>Jurisdictional health number (Canada)</enDisplayName>
+      <frDisplayName>Numéro d&apos;assurance-maladie prov./terr. (Canada)</frDisplayName>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>MCN</id>
+      <name>Microchip Number</name>
+      <codeSystemId>2.16.840.1.113883.4.642.3.45</codeSystemId>
+      <codeSystemName>IdentifierType</codeSystemName>
+      <enDisplayName>Microchip Number</enDisplayName>
+      <frDisplayName>Numéro de micropuce</frDisplayName>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>MD</id>
+      <name>Medical License number</name>
+      <codeSystemId>2.16.840.1.113883.4.642.3.45</codeSystemId>
+      <codeSystemName>IdentifierType</codeSystemName>
+      <enDisplayName>Medical License number</enDisplayName>
+      <frDisplayName>Numéro du permis d&apos;exercice</frDisplayName>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>MR</id>
+      <name>Medical record number</name>
+      <codeSystemId>2.16.840.1.113883.4.642.3.45</codeSystemId>
+      <codeSystemName>IdentifierType</codeSystemName>
+      <enDisplayName>Medical record number</enDisplayName>
+      <frDisplayName>Numéro de dossier médical</frDisplayName>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>NIIP</id>
+      <name>National Insurance Payor Identifier (Payor)</name>
+      <codeSystemId>2.16.840.1.113883.4.642.3.45</codeSystemId>
+      <codeSystemName>IdentifierType</codeSystemName>
+      <enDisplayName>National Insurance Payor Identifier (Payor)</enDisplayName>
+      <frDisplayName>Identifiant du payeur d&apos;assurance national (payeur)</frDisplayName>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>PLAC</id>
+      <name>Placer Identifier</name>
+      <codeSystemId>2.16.840.1.113883.4.642.3.45</codeSystemId>
+      <codeSystemName>IdentifierType</codeSystemName>
+      <enDisplayName>Placer Identifier</enDisplayName>
+      <frDisplayName>Identifiant de l&apos;auteur de la requête</frDisplayName>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>PPN</id>
+      <name>Passport number</name>
+      <codeSystemId>2.16.840.1.113883.4.642.3.45</codeSystemId>
+      <codeSystemName>IdentifierType</codeSystemName>
+      <enDisplayName>Passport number</enDisplayName>
+      <frDisplayName>Numéro de passeport</frDisplayName>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>PRN</id>
+      <name>Provider number</name>
+      <codeSystemId>2.16.840.1.113883.4.642.3.45</codeSystemId>
+      <codeSystemName>IdentifierType</codeSystemName>
+      <enDisplayName>Provider number</enDisplayName>
+      <frDisplayName>Numéro du professionnel de la santé</frDisplayName>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>SB</id>
+      <name>Social Beneficiary Identifier</name>
+      <codeSystemId>2.16.840.1.113883.4.642.3.45</codeSystemId>
+      <codeSystemName>IdentifierType</codeSystemName>
+      <enDisplayName>Social Beneficiary Identifier</enDisplayName>
+      <frDisplayName>Identifiant du bénéficiaire de l&apos;assistance sociale</frDisplayName>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>SNO</id>
+      <name>Serial Number</name>
+      <codeSystemId>2.16.840.1.113883.4.642.3.45</codeSystemId>
+      <codeSystemName>IdentifierType</codeSystemName>
+      <enDisplayName>Serial Number</enDisplayName>
+      <frDisplayName>Numéro de série</frDisplayName>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>TAX</id>
+      <name>Tax ID number</name>
+      <codeSystemId>2.16.840.1.113883.4.642.3.45</codeSystemId>
+      <codeSystemName>IdentifierType</codeSystemName>
+      <enDisplayName>Tax ID number</enDisplayName>
+      <frDisplayName>Numéro d’identification fiscale</frDisplayName>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>UDI</id>
+      <name>Universal Device Identifier</name>
+      <codeSystemId>2.16.840.1.113883.4.642.3.45</codeSystemId>
+      <codeSystemName>IdentifierType</codeSystemName>
+      <enDisplayName>Universal Device Identifier</enDisplayName>
+      <frDisplayName>Identifiant de dispositif universel</frDisplayName>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+  </concepts>
+  <pagination>
+    <currentPage>1</currentPage>
+    <totalPages>1</totalPages>
+    <pageSize>100000</pageSize>
+    <totalRecords>17</totalRecords>
+    <firstRecord>1</firstRecord>
+    <lastRecord>17</lastRecord>
+    <nextPage>-1</nextPage>
+    <nextRecord>-1</nextRecord>
+  </pagination>
+</result>

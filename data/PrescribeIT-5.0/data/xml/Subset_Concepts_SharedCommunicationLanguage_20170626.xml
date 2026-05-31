@@ -1,0 +1,38 @@
+<result>
+  <concepts>
+    <concept>
+      <id>en-CA</id>
+      <name>English (Canadian)</name>
+      <codeSystemId>urn:ietf:bcp:47</codeSystemId>
+      <codeSystemName>LanguageTags</codeSystemName>
+      <enDisplayName>English (Canadian)</enDisplayName>
+      <effectiveDate>2017062604:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>fr-CA</id>
+      <name>French (Canadian)</name>
+      <codeSystemId>urn:ietf:bcp:47</codeSystemId>
+      <codeSystemName>LanguageTags</codeSystemName>
+      <enDisplayName>French (Canadian)</enDisplayName>
+      <effectiveDate>2017062604:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+  </concepts>
+  <pagination>
+    <currentPage>1</currentPage>
+    <totalPages>1</totalPages>
+    <pageSize>100000</pageSize>
+    <totalRecords>2</totalRecords>
+    <firstRecord>1</firstRecord>
+    <lastRecord>2</lastRecord>
+    <nextPage>-1</nextPage>
+    <nextRecord>-1</nextRecord>
+  </pagination>
+</result>

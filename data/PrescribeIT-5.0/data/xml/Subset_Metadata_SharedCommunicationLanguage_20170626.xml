@@ -1,0 +1,20 @@
+<version>
+  <id>2.16.840.1.113883.2.20.3.420</id>
+  <url>https://tgateway.infoway-inforoute.ca/vs/sharedcommunicationlanguage</url>
+  <fhirUri>https://fhir.infoway-inforoute.ca/ValueSet/sharedcommunicationlanguage</fhirUri>
+  <name>SharedCommunicationLanguage</name>
+  <versionId>20170626</versionId>
+  <effectiveDate>2017062604:00:00</effectiveDate>
+  <description>Codes identifying languages spoken and understood by humans that are relevant to Shared Health systems</description>
+  <status>active</status>
+  <codeSystems>
+    <codesystem>
+      <id>urn:ietf:bcp:47</id>
+      <name>LanguageTags</name>
+      <businessName>LanguageTags</businessName>
+      <url>urn:ietf:bcp:47</url>
+      <version>200909</version>
+      <organization>Internet Engineering Task Force (IETF)</organization>
+    </codesystem>
+  </codeSystems>
+</version>

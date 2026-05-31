@@ -1,0 +1,27 @@
+<version>
+  <id>2.16.840.1.113883.2.20.3.425</id>
+  <url>https://tgateway.infoway-inforoute.ca/vs/sharedpractitionerrole</url>
+  <fhirUri>https://fhir.infoway-inforoute.ca/ValueSet/sharedpractitionerrole</fhirUri>
+  <name>SharedPractitionerRole</name>
+  <versionId>20190415</versionId>
+  <effectiveDate>2019041504:00:00</effectiveDate>
+  <publicationTime>2019051505:09:44</publicationTime>
+  <description>Shared Health codes used to identify types of roles that may be held by practitioners</description>
+  <status>active</status>
+  <codeSystems>
+    <codesystem>
+      <id>2.16.840.1.113883.4.642.1.431</id>
+      <name>PractitionerRole</name>
+      <businessName>PractitionerRole</businessName>
+      <url>http://hl7.org/fhir/practitioner-role</url>
+      <version>1.4.0</version>
+    </codesystem>
+    <codesystem>
+      <id>8.1.1.2</id>
+      <name>CanadianPractitionerRole</name>
+      <businessName>CanadianPractitionerRole</businessName>
+      <url>https://fhir.infoway-inforoute.ca/CodeSystem/canadianpractitionerrole</url>
+      <version>20190405</version>
+    </codesystem>
+  </codeSystems>
+</version>

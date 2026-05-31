@@ -1,0 +1,154 @@
+<result>
+  <concepts>
+    <concept>
+      <id>ALTD</id>
+      <name>altered decision</name>
+      <codeSystemId>2.16.840.1.113883.5.8</codeSystemId>
+      <codeSystemName>ActReason</codeSystemName>
+      <enDisplayName>Altered Decision</enDisplayName>
+      <frDisplayName>Décision modifiée</frDisplayName>
+      <description>Altered Decision</description>
+      <effectiveDate>2021040104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>DISCONT</id>
+      <name>product discontinued</name>
+      <codeSystemId>2.16.840.1.113883.5.8</codeSystemId>
+      <codeSystemName>ActReason</codeSystemName>
+      <enDisplayName>Product discontinued</enDisplayName>
+      <frDisplayName>Produit discontinué</frDisplayName>
+      <description>The medication is no longer being manufactured or is otherwise no longer available.</description>
+      <effectiveDate>2021040104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>DOSECHG</id>
+      <name>change in medication/dose</name>
+      <codeSystemId>2.16.840.1.113883.5.8</codeSystemId>
+      <codeSystemName>ActReason</codeSystemName>
+      <enDisplayName>Change in medication/dose</enDisplayName>
+      <frDisplayName>Changement de posologie</frDisplayName>
+      <description>The medication is being re-prescribed at a different dosage.</description>
+      <effectiveDate>2021040104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>EIE</id>
+      <name>entered in error</name>
+      <codeSystemId>2.16.840.1.113883.5.8</codeSystemId>
+      <codeSystemName>ActReason</codeSystemName>
+      <enDisplayName>Entered in error</enDisplayName>
+      <frDisplayName>Entré(e) par erreur</frDisplayName>
+      <description>Entered in error</description>
+      <effectiveDate>2021040104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>MONIT</id>
+      <name>response to monitoring</name>
+      <codeSystemId>2.16.840.1.113883.5.8</codeSystemId>
+      <codeSystemName>ActReason</codeSystemName>
+      <enDisplayName>Response to monitoring</enDisplayName>
+      <frDisplayName>Décision après observation</frDisplayName>
+      <description>Monitoring the patient while taking the medication, the decision has been made that the therapy is no longer appropriate.</description>
+      <effectiveDate>2021040104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>NOREQ</id>
+      <name>no longer required for treatment</name>
+      <codeSystemId>2.16.840.1.113883.5.8</codeSystemId>
+      <codeSystemName>ActReason</codeSystemName>
+      <enDisplayName>No longer required for treatment</enDisplayName>
+      <frDisplayName>Traitement terminé</frDisplayName>
+      <description>The underlying condition has been resolved or has evolved such that a different treatment is no longer needed.</description>
+      <effectiveDate>2021040104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>RECALL</id>
+      <name>product recalled</name>
+      <codeSystemId>2.16.840.1.113883.5.8</codeSystemId>
+      <codeSystemName>ActReason</codeSystemName>
+      <enDisplayName>Product recalled</enDisplayName>
+      <frDisplayName>Produit rappelé</frDisplayName>
+      <description>The manufacturer or other agency has requested that stocks of a medication be removed from circulation.</description>
+      <effectiveDate>2021040104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>REPLACE</id>
+      <name>Change in order</name>
+      <codeSystemId>2.16.840.1.113883.5.8</codeSystemId>
+      <codeSystemName>ActReason</codeSystemName>
+      <enDisplayName>Change in order</enDisplayName>
+      <frDisplayName>Modification de l&apos;ordonnance</frDisplayName>
+      <description>Change in order</description>
+      <effectiveDate>2021040104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>REPLACEFIX</id>
+      <name>error in order</name>
+      <codeSystemId>2.16.840.1.113883.5.8</codeSystemId>
+      <codeSystemName>ActReason</codeSystemName>
+      <enDisplayName>Error in order</enDisplayName>
+      <frDisplayName>Erreur dans l&apos;ordonnance</frDisplayName>
+      <description>Error in order</description>
+      <effectiveDate>2021040104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ReplaceFix</id>
+      <name>Error in order</name>
+      <codeSystemId>2.16.840.1.113883.5.8</codeSystemId>
+      <codeSystemName>ActReason</codeSystemName>
+      <enDisplayName>Error in order</enDisplayName>
+      <frDisplayName>Erreur dans l&apos;ordonnance</frDisplayName>
+      <description>Error in order</description>
+      <effectiveDate>2021020205:00:00</effectiveDate>
+      <active>false</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+  </concepts>
+  <pagination>
+    <currentPage>1</currentPage>
+    <totalPages>1</totalPages>
+    <pageSize>100000</pageSize>
+    <totalRecords>10</totalRecords>
+    <firstRecord>1</firstRecord>
+    <lastRecord>10</lastRecord>
+    <nextPage>-1</nextPage>
+    <nextRecord>-1</nextRecord>
+  </pagination>
+</result>

@@ -1,0 +1,86 @@
+<subset>
+  <id>2.16.840.1.113883.2.20.3.400</id>
+  <name>PrescriptionMedicationCoverage</name>
+  <url>https://tgateway.infoway-inforoute.ca/vs/prescriptionmedicationcoverage</url>
+  <fhirUri>https://fhir.infoway-inforoute.ca/ValueSet/prescriptionmedicationcoverage</fhirUri>
+  <versionId>20220331</versionId>
+  <effectiveDate>2022033104:00:00</effectiveDate>
+  <publicationTime>2022032503:18:52</publicationTime>
+  <description>Codes defining whether a given prescribable product is covered by a formulary.</description>
+  <status>active</status>
+  <category>SNOMED CT</category>
+  <domains>
+    <string>ePrescribe</string>
+  </domains>
+  <language>en</language>
+  <properties/>
+  <owner>Canada Health Infoway</owner>
+  <tags/>
+  <terminologies class="com.google.gson.internal.LinkedTreeMap" resolves-to="linked-hash-map"/>
+  <type>extensional</type>
+  <viewer>singlesubset</viewer>
+  <codeSystems>
+    <codesystem>
+      <id>2.16.840.1.113883.6.96</id>
+      <name>SNOMED CT CA Edition</name>
+      <businessName>SNOMED CT Canadian Edition</businessName>
+      <url>http://snomed.info/sct</url>
+      <version>20220331</version>
+      <organization>Canada Health Infoway</organization>
+    </codesystem>
+  </codeSystems>
+  <concepts>
+    <concept>
+      <id>22701000087106</id>
+      <name>Conditional coverage (qualifier value)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Conditional coverage</enDisplayName>
+      <frDisplayName>couverture conditionnelle</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>22731000087103</id>
+      <name>Coverage cannot be determined (qualifier value)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Coverage cannot be determined</enDisplayName>
+      <frDisplayName>impossible de déterminer la couverture</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>22711000087108</id>
+      <name>Fully covered (qualifier value)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Covered</enDisplayName>
+      <frDisplayName>couvert</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>22721000087100</id>
+      <name>Not covered (qualifier value)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Not covered</enDisplayName>
+      <frDisplayName>non couvert</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+  </concepts>
+</subset>

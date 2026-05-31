@@ -1,0 +1,413 @@
+<subset>
+  <id>2.16.840.1.113883.2.20.3.466</id>
+  <name>DetectedIssueMitigationAction</name>
+  <url>https://tgateway.infoway-inforoute.ca/vs/detectedissuemitigationaction</url>
+  <fhirUri>https://fhir.infoway-inforoute.ca/ValueSet/detectedissuemitigationaction</fhirUri>
+  <versionId>20210501</versionId>
+  <effectiveDate>2021050104:00:00</effectiveDate>
+  <publicationTime>2021051805:32:33</publicationTime>
+  <dateLastReviewed>2024011105:00:00</dateLastReviewed>
+  <description>Kinds of mitigating actions and observations that can be associated with a detected issue or contraindication, such as &apos;added concurrent therapy&apos;, &apos;prior therapy documented&apos;, etc.</description>
+  <status>active</status>
+  <category>HL7</category>
+  <domains>
+    <string>PrescribeIT</string>
+  </domains>
+  <properties/>
+  <owner>Canada Health Infoway</owner>
+  <tags>
+    <string>Extensional</string>
+  </tags>
+  <terminologies class="com.google.gson.internal.LinkedTreeMap" resolves-to="linked-hash-map"/>
+  <type>Extensional</type>
+  <viewer>singlesubset</viewer>
+  <codeSystems>
+    <codesystem>
+      <id>2.16.840.1.113883.5.4</id>
+      <name>ActCode</name>
+      <businessName>ActCode</businessName>
+      <url>http://hl7.org/fhir/v3/ActCode</url>
+      <version>20180812</version>
+    </codesystem>
+  </codeSystems>
+  <concepts>
+    <concept>
+      <id>1</id>
+      <name>1</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>ActCode</codeSystemName>
+      <enDisplayName>Therapy Appropriate</enDisplayName>
+      <frDisplayName>Traitement approprié</frDisplayName>
+      <description>Confirmed drug therapy appropriate</description>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>10</id>
+      <name>10</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>ActCode</codeSystemName>
+      <enDisplayName>Provided Patient Education</enDisplayName>
+      <frDisplayName>Éducation du patient</frDisplayName>
+      <description>Provided education or training to the patient on appropriate therapy use</description>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>11</id>
+      <name>11</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>ActCode</codeSystemName>
+      <enDisplayName>Added Concurrent Therapy</enDisplayName>
+      <frDisplayName>Ajout d&apos;un traitement concomitant</frDisplayName>
+      <description>Instituted an additional therapy to mitigate potential negative effects</description>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>12</id>
+      <name>12</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>ActCode</codeSystemName>
+      <enDisplayName>Temporarily Suspended Concurrent Therapy</enDisplayName>
+      <frDisplayName>Suspension temporaire du traitement concomitant</frDisplayName>
+      <description>Suspended existing therapy that triggered interaction for the duration of this therapy</description>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>13</id>
+      <name>13</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>ActCode</codeSystemName>
+      <enDisplayName>Stopped Concurrent Therapy</enDisplayName>
+      <frDisplayName>Fin du traitement concomitant</frDisplayName>
+      <description>Aborted existing therapy that triggered interaction.</description>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>14</id>
+      <name>14</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>ActCode</codeSystemName>
+      <enDisplayName>Supply Appropriate</enDisplayName>
+      <frDisplayName>Provision appropriée</frDisplayName>
+      <description>Confirmed supply action appropriate</description>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>15</id>
+      <name>15</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>ActCode</codeSystemName>
+      <enDisplayName>Replacement</enDisplayName>
+      <frDisplayName>Remplacement</frDisplayName>
+      <description>Patient&apos;s existing supply was lost/wasted</description>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>16</id>
+      <name>16</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>ActCode</codeSystemName>
+      <enDisplayName>Vacation Supply</enDisplayName>
+      <frDisplayName>Provision pour vacances</frDisplayName>
+      <description>Supply date is due to patient vacation</description>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>17</id>
+      <name>17</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>ActCode</codeSystemName>
+      <enDisplayName>Weekend Supply</enDisplayName>
+      <frDisplayName>Provision pour fin de semaine</frDisplayName>
+      <description>Supply date is intended to carry patient over weekend</description>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>18</id>
+      <name>18</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>ActCode</codeSystemName>
+      <enDisplayName>Leave of Absence</enDisplayName>
+      <frDisplayName>Provision au congé</frDisplayName>
+      <description>Supply is intended for use during a leave of absence from an institution.</description>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>19</id>
+      <name>19</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>ActCode</codeSystemName>
+      <enDisplayName>Consulted Supplier</enDisplayName>
+      <frDisplayName>Fournisseur consulté</frDisplayName>
+      <description>Consulted other supplier/pharmacy, therapy confirmed</description>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>2</id>
+      <name>2</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>ActCode</codeSystemName>
+      <enDisplayName>Assessed Patient</enDisplayName>
+      <frDisplayName>Patient évalué</frDisplayName>
+      <description>Assessed patient, therapy is appropriate</description>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>20</id>
+      <name>20</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>ActCode</codeSystemName>
+      <enDisplayName>additional quantity on separate dispense</enDisplayName>
+      <frDisplayName>Qté additionnelle - dispensation distincte</frDisplayName>
+      <description>Description: Supply is different than expected as an additional quantity has been supplied in a separate dispense.</description>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>21</id>
+      <name>21</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>ActCode</codeSystemName>
+      <enDisplayName>authorization confirmed</enDisplayName>
+      <frDisplayName>Autorisation confirmée</frDisplayName>
+      <description>Description: Indicates that the permissions have been externally verified and the request should be processed.</description>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>22</id>
+      <name>22</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>ActCode</codeSystemName>
+      <enDisplayName>appropriate indication or diagnosis</enDisplayName>
+      <frDisplayName>Indication ou diagnostic approprié</frDisplayName>
+      <description>Description: The patient has the appropriate indication or diagnosis for the action to be taken.</description>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>23</id>
+      <name>23</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>ActCode</codeSystemName>
+      <enDisplayName>prior therapy documented</enDisplayName>
+      <frDisplayName>Prétraitement confirmé</frDisplayName>
+      <description>Description: It has been confirmed that the appropriate pre-requisite therapy has been tried.</description>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>3</id>
+      <name>3</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>ActCode</codeSystemName>
+      <enDisplayName>Patient Explanation</enDisplayName>
+      <frDisplayName>Explication du patient</frDisplayName>
+      <description>Patient gave adequate explanation</description>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>4</id>
+      <name>4</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>ActCode</codeSystemName>
+      <enDisplayName>Consulted Other Source</enDisplayName>
+      <frDisplayName>Autre source consultée</frDisplayName>
+      <description>Consulted other supply source, therapy still appropriate</description>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>5</id>
+      <name>5</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>ActCode</codeSystemName>
+      <enDisplayName>Consulted Prescriber</enDisplayName>
+      <frDisplayName>Prescripteur consulté</frDisplayName>
+      <description>Consulted prescriber, therapy confirmed</description>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>6</id>
+      <name>6</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>ActCode</codeSystemName>
+      <enDisplayName>Prescriber Declined Change</enDisplayName>
+      <frDisplayName>Changement refusé par prescripteur</frDisplayName>
+      <description>Consulted prescriber and recommended change, prescriber declined</description>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>7</id>
+      <name>7</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>ActCode</codeSystemName>
+      <enDisplayName>Interacting Therapy No Longer Active/Planned</enDisplayName>
+      <frDisplayName>Le traitement concomitant n&apos;est plus en cours/prévu</frDisplayName>
+      <description>Concurrent therapy triggering alert is no longer on-going or planned</description>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>8</id>
+      <name>8</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>ActCode</codeSystemName>
+      <enDisplayName>Other Action Taken</enDisplayName>
+      <frDisplayName>Autre action effectuée</frDisplayName>
+      <description>Order is performed as issued, but other action taken to mitigate potential adverse effects</description>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>9</id>
+      <name>9</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>ActCode</codeSystemName>
+      <enDisplayName>Instituted Ongoing Monitoring Program</enDisplayName>
+      <frDisplayName>Surveillance continue</frDisplayName>
+      <description>Arranged to monitor patient for adverse effects</description>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>EMAUTH</id>
+      <name>EMAUTH</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>ActCode</codeSystemName>
+      <enDisplayName>emergency authorization override</enDisplayName>
+      <frDisplayName>Dérogation d&apos;urgence à l&apos;autorisation</frDisplayName>
+      <description>Used to temporarily override normal authorization rules to gain access to data in a case of emergency. Use of this override code will typically be monitored, and a procedure to verify its proper use may be triggered when used.</description>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>_ActAdministrativeDetectedIssueManagementCode</id>
+      <name>_ActAdministrativeDetectedIssueManagementCode</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>ActCode</codeSystemName>
+      <enDisplayName>ActAdministrativeDetectedIssueManagementCode</enDisplayName>
+      <frDisplayName>ActAdministrativeDetectedIssueManagementCode</frDisplayName>
+      <description>Codes dealing with the management of Detected Issue observations for the administrative and patient administrative acts domains.</description>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>_ActDetectedIssueManagementCode</id>
+      <name>_ActDetectedIssueManagementCode</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>ActCode</codeSystemName>
+      <enDisplayName>ActDetectedIssueManagementCode</enDisplayName>
+      <frDisplayName>ActDetectedIssueManagementCode</frDisplayName>
+      <description>Codes dealing with the management of Detected Issue observations</description>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>_AuthorizationIssueManagementCode</id>
+      <name>_AuthorizationIssueManagementCode</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>ActCode</codeSystemName>
+      <enDisplayName>Authorization Issue Management Code</enDisplayName>
+      <frDisplayName>Authorization Issue Management Code</frDisplayName>
+      <description>Authorization Issue Management Code</description>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+  </concepts>
+</subset>

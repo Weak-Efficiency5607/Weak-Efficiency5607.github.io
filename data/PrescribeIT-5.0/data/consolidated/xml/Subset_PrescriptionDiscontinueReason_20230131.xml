@@ -1,0 +1,169 @@
+<subset>
+  <id>2.16.840.1.113883.2.20.3.485</id>
+  <name>PrescriptionDiscontinueReason</name>
+  <url>https://tgateway.infoway-inforoute.ca/vs/prescriptiondiscontinuereason</url>
+  <fhirUri>https://fhir.infoway-inforoute.ca/ValueSet/prescriptiondiscontinuereason</fhirUri>
+  <versionId>20230131</versionId>
+  <effectiveDate>2023013105:00:00</effectiveDate>
+  <publicationTime>2023022206:23:27</publicationTime>
+  <dateLastReviewed>2024011105:00:00</dateLastReviewed>
+  <description>List of reasons why an existing therapy is being discontinued by a prescriber.</description>
+  <status>active</status>
+  <category>HL7</category>
+  <domains>
+    <string>PrescribeIT</string>
+  </domains>
+  <properties/>
+  <owner>Canada Health Infoway</owner>
+  <contact>dcumming@infoway-inforoute.ca</contact>
+  <tags>
+    <string>Extensional</string>
+  </tags>
+  <terminologies class="com.google.gson.internal.LinkedTreeMap" resolves-to="linked-hash-map"/>
+  <type>Extensional</type>
+  <viewer>singlesubset</viewer>
+  <codeSystems>
+    <codesystem>
+      <id>2.16.840.1.113883.5.8</id>
+      <name>ActReason</name>
+      <businessName>ActReason</businessName>
+      <url>http://hl7.org/fhir/v3/ActReason</url>
+      <version>2.1.0</version>
+    </codesystem>
+    <codesystem>
+      <id>2.16.840.1.113883.5.14</id>
+      <name>ActStatus</name>
+      <businessName>ActStatus</businessName>
+      <url>http://hl7.org/fhir/v3/ActStatus</url>
+      <version>2.1.0</version>
+    </codesystem>
+    <codesystem>
+      <id>2.16.840.1.113883.18.23</id>
+      <name>eventReason</name>
+      <businessName>eventReason</businessName>
+      <url>http://terminology.hl7.org/CodeSystem/v2-0062</url>
+      <version>2.4.0</version>
+    </codesystem>
+    <codesystem>
+      <id>2.16.840.1.113883.5.4</id>
+      <name>v3 ActCode</name>
+      <businessName>v3 ActCode</businessName>
+      <url>http://terminology.hl7.org/CodeSystem/v3-ActCode</url>
+      <version>7.0.0</version>
+    </codesystem>
+  </codeSystems>
+  <concepts>
+    <concept>
+      <id>INEFFECT</id>
+      <name>ineffective</name>
+      <codeSystemId>2.16.840.1.113883.5.8</codeSystemId>
+      <codeSystemName>ActReason</codeSystemName>
+      <enDisplayName>ineffective</enDisplayName>
+      <frDisplayName>inefficace</frDisplayName>
+      <description>The therapy has been found to not have the desired therapeutic benefit on the patient.</description>
+      <effectiveDate>2023013105:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISSUE</id>
+      <name>detected issue</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>v3 ActCode</codeSystemName>
+      <enDisplayName>detected issue</enDisplayName>
+      <frDisplayName>problème détecté</frDisplayName>
+      <description>There is a clinical issue for the therapy that makes continuation of the therapy inappropriate. *Open Issue:* The definition of this code does not correctly represent the concept space of its specializations (children)</description>
+      <effectiveDate>2023013105:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>NOREQ</id>
+      <name>no longer required for treatment</name>
+      <codeSystemId>2.16.840.1.113883.5.8</codeSystemId>
+      <codeSystemName>ActReason</codeSystemName>
+      <enDisplayName>no longer required for treatment</enDisplayName>
+      <frDisplayName>n&apos;est plus nécessaire pour le traitement</frDisplayName>
+      <description>The underlying condition has been resolved or has evolved such that a different treatment is no longer needed.</description>
+      <effectiveDate>2023013105:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>O</id>
+      <name>Other</name>
+      <codeSystemId>2.16.840.1.113883.18.23</codeSystemId>
+      <codeSystemName>eventReason</codeSystemName>
+      <enDisplayName>This medication has been discontinued, please see the notes for details.</enDisplayName>
+      <frDisplayName>Le patient ne doit plus prendre ce médicament. Voir les notes.</frDisplayName>
+      <description>Other</description>
+      <effectiveDate>2023013105:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>PREFUS</id>
+      <name>patient refuse</name>
+      <codeSystemId>2.16.840.1.113883.5.8</codeSystemId>
+      <codeSystemName>ActReason</codeSystemName>
+      <enDisplayName>patient refuse</enDisplayName>
+      <frDisplayName>refus du patient</frDisplayName>
+      <description>The patient refused to take the product.</description>
+      <effectiveDate>2023013105:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>REPLACE</id>
+      <name>change in order</name>
+      <codeSystemId>2.16.840.1.113883.5.8</codeSystemId>
+      <codeSystemName>ActReason</codeSystemName>
+      <enDisplayName>change in order</enDisplayName>
+      <frDisplayName>modification de l&apos;ordonnance</frDisplayName>
+      <description>Item in current order is no longer in use as requested and a new one has/will be created to replace it.</description>
+      <effectiveDate>2023013105:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>obsolete</id>
+      <name>obsolete</name>
+      <codeSystemId>2.16.840.1.113883.5.14</codeSystemId>
+      <codeSystemName>ActStatus</codeSystemName>
+      <enDisplayName>Prescription is no longer required.</enDisplayName>
+      <frDisplayName>L&apos;ordonnance n&apos;est plus nécessaire.</frDisplayName>
+      <description>This Act instance has been replaced by a new instance.</description>
+      <effectiveDate>2023013105:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISSUE</id>
+      <name>detected issue</name>
+      <codeSystemId>2.16.840.1.113883.5.8</codeSystemId>
+      <codeSystemName>ActReason</codeSystemName>
+      <enDisplayName>detected issue</enDisplayName>
+      <frDisplayName>problème détecté</frDisplayName>
+      <description>There is a clinical issue for the therapy that makes continuation of the therapy inappropriate. *Open Issue:* The definition of this code does not correctly represent the concept space of its specializations (children)</description>
+      <effectiveDate>2023013105:00:00</effectiveDate>
+      <active>false</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+  </concepts>
+</subset>

@@ -1,0 +1,2198 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+   <id value="sharedpractitioneridentifiertype"></id>
+   <url value="https://fhir.infoway-inforoute.ca/ValueSet/sharedpractitioneridentifiertype"></url>
+   <identifier id="2.16.840.1.113883.2.20.3.423"></identifier>
+   <version value="20250529"></version>
+   <name value="SharedPractitionerIdentifierType"></name>
+   <status value="active"></status>
+   <description value="List of colleges responsible for issuing provider licenses across the country"></description>
+   <expansion>
+      <identifier value="urn:uuid:ce807960-b0d6-4095-b0d5-ea687d2b9f32"></identifier>
+      <timestamp value="2025-07-25T11:34:57-04:00"></timestamp>
+      <total value="91"></total>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.124.4.101.35.4.2"></code>
+         <display value="New Brunswick Dental Society"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="New Brunswick Dental Society"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Société dentaire du Nouveau-Brunswick"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.124.4.101.35.4.6"></code>
+         <display value="New Brunswick Association of Optometrists"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="New Brunswick Association of Optometrists"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Association des optométristes du Nouveau-Brunswick"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.124.4.101.35.4.7"></code>
+         <display value="New Brunswick College of Pharmacists"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="New Brunswick College of Pharmacists"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Ordre des pharmaciens du Nouveau-Brunswick"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.124.4.101.35.4.8"></code>
+         <display value="Nurses Association of New Brunswick"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Nurses Association of New Brunswick"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Association des infirmières et infirmiers du Nouveau-Brunswick"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.124.4.101.35.4.9"></code>
+         <display value="Midwives Association of New Brunswick"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Midwives Association of New Brunswick"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Association des sages-femmes du Nouveau-Brunswick"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.124.7.101.20.7.7"></code>
+         <display value="Provincial Dental Board of Nova Scotia"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Provincial Dental Board of Nova Scotia"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Conseil dentaire de la Nouvelle-Écosse"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.124.7.101.20.7.8"></code>
+         <display value="College of Dental Hygienists of Nova Scotia Registration Number"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="College of Dental Hygienists of Nova Scotia Registration Number"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Numéro d'inscription au Collège des hygiénistes dentaires de la Nouvelle-Écosse"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.124.7.101.20.7.9"></code>
+         <display value="Midwifery Regulatory Council of Nova Scotia"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Midwifery Regulatory Council of Nova Scotia"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Conseil des sages-femmes de la Nouvelle-Écosse"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.3.239.13.12"></code>
+         <display value="College of Midwives of Ontario"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="College of Midwives of Ontario"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Ordre des sages-femmes de l'Ontario"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.3.239.13.15"></code>
+         <display value="College of Nurses of Ontario"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="College of Nurses of Ontario"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Ordre des infirmières et infirmiers de l'Ontario"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.3.239.13.17"></code>
+         <display value="Canada, Ontario, College of Chiropodists Registration Number"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Canada, Ontario, College of Chiropodists Registration Number"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Numéro d'inscription à l'Ordre des podologues de l’Ontario"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.3.239.13.43"></code>
+         <display value="Ontario College of Pharmacists"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Ontario College of Pharmacists"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Ordre des pharmaciens de l'Ontario"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.3.239.13.52"></code>
+         <display value="Royal College of Dental Surgeons of Ontario"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Royal College of Dental Surgeons of Ontario"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Ordre royal des chirurgiens-dentistes de l'Ontario"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.3.239.13.7"></code>
+         <display value="Canada, Ontario, College of Dental Hygienists Licence Number"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Canada, Ontario, College of Dental Hygienists Licence Number"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Numéro de permis de l'Ordre des hygiénistes dentaires de l'Ontario"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.3.239.13.9"></code>
+         <display value="Canada, Ontario, College of Dietitians Licence Number"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Canada, Ontario, College of Dietitians Licence Number"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Numéro de permis de l'Ordre des diététistes de l'Ontario"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.3.421"></code>
+         <display value="College of Pharmacists of Manitoba Pharmacist License Number"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="College of Pharmacists of Manitoba Pharmacist License Number"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Numéro de permis de l’Ordre des pharmaciens du Manitoba"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.3.422"></code>
+         <display value="College of Physicians and Surgeons of Manitoba License Number"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="College of Physicians and Surgeons of Manitoba License Number"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Numéro de permis du Collège des médecins et chirurgiens du Manitoba"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.3.7747"></code>
+         <display value="Association of Registered Nurses of Prince Edward Island"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Association of Registered Nurses of Prince Edward Island"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Association des infirmières et infirmiers autorisés de l'Île-du-Prince-Édouard"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.3.7748"></code>
+         <display value="College of Dental Surgeons of British Columbia"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="College of Dental Surgeons of British Columbia"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Collège des chirurgiens-dentistes de la Colombie-Britannique"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.3.7749"></code>
+         <display value="College Of Midwives Of British Columbia"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="College Of Midwives Of British Columbia"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Collège des sages-femmes de la Colombie-Britannique"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.3.7750"></code>
+         <display value="College of Midwives of Manitoba"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="College of Midwives of Manitoba"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Ordre des sages-femmes du Manitoba"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.3.7751"></code>
+         <display value="College of Midwives of Newfoundland and Labrador"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="College of Midwives of Newfoundland and Labrador"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Association des sages-femmes de Terre-Neuve-et-Labrador"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.3.7752"></code>
+         <display value="College of Registered Nurses of British Columbia"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="College of Registered Nurses of British Columbia"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Collège des infirmières et infirmiers autorisés de la Colombie-Britannique"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.3.7753"></code>
+         <display value="College of Registered Nurses of MB"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="College of Registered Nurses of MB"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Ordre des infirmières et infirmiers autorisés du Manitoba"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.3.7754"></code>
+         <display value="Dental Council of Prince Edward Island"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Dental Council of Prince Edward Island"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Conseil dentaire de l’Île-du-Prince-Édouard"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.3.7755"></code>
+         <display value="Manitoba Dental Association"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Manitoba Dental Association"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Association dentaire du Manitoba"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.3.7762"></code>
+         <display value="Prince Edward Island Midwives Association"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Prince Edward Island Midwives Association"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Association des sages-femmes de l’Île-du-Prince-Édouard"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.3.7882"></code>
+         <display value="College of Dental Hygienists of British Columbia"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="College of Dental Hygienists of British Columbia"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Collège des hygiénistes dentaires de la Colombie-Britannique"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.3.7883"></code>
+         <display value="College of Dental Hygienists of Manitoba"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="College of Dental Hygienists of Manitoba"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Ordre des hygiénistes dentaires du Manitoba"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.3.7886"></code>
+         <display value="Quebec Dental Hygienist License Number"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Quebec Dental Hygienist License Number"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Ordre des hygiénistes dentaires du Québec"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.3.7888"></code>
+         <display value="Newfoundland and Labrador College of Dental Hygienists"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Newfoundland and Labrador College of Dental Hygienists"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Association des hygiénistes dentaires de Terre-Neuve-et-Labrador"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.3.7889"></code>
+         <display value="Prince Edward Island Dental Hygienists' Association"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Prince Edward Island Dental Hygienists' Association"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Association des hygiénistes dentaires de l’Île-du-Prince-Édouard"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.3.7891"></code>
+         <display value="Saskatchewan Dental Hygienists' Association"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Saskatchewan Dental Hygienists' Association"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Association des hygiénistes dentaires de la Saskatchewan"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.3.8026"></code>
+         <display value="Saskatchewan Dietitians Association"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Saskatchewan Dietitians Association"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Association des diététistes de la Saskatchewan"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.3.8027"></code>
+         <display value="College of Dietitians of MB"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="College of Dietitians of MB"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Ordre des diététistes du Manitoba"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.3.8031"></code>
+         <display value="Quebec Dietician license number"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Quebec Dietician license number"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Ordre des diététistes-nutritionnistes du Québec"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.3.8032"></code>
+         <display value="New Brunswick Association of Dietitians"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="New Brunswick Association of Dietitians"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Association des diététistes du Nouveau-Brunswick"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.3.8033"></code>
+         <display value="Nova Scotia Dietetic Association"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Nova Scotia Dietetic Association"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Association des diététistes de la Nouvelle-Écosse"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.3.8034"></code>
+         <display value="Prince Edward Island Dietitians Registration Board"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Prince Edward Island Dietitians Registration Board"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Conseil des diététistes de Île-du-Prince-Édouard"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.3.8035"></code>
+         <display value="Newfoundland and Labrador College of Dietitians"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Newfoundland and Labrador College of Dietitians"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Ordre des diététistes de Terre-Neuve-et-Labrador"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.4.14"></code>
+         <display value="Prince Edward Island, Canada College of Physicians and Surgeons License Number (peicpsln)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Prince Edward Island, Canada College of Physicians and Surgeons License Number (peicpsln)"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Numéro de permis du Collège des médecins et chirurgiens de l’Île-du-Prince-Édouard"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.4.15"></code>
+         <display value="Prince Edward Island Canada Pharmacy Board Pharmacist License Number"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Prince Edward Island Canada Pharmacy Board Pharmacist License Number"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Numéro de permis de l'Ordre des pharmaciens de l'Île-du-Prince-Édouard"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.4.25"></code>
+         <display value="College of Registered Dental Hygienists of Alberta license number"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="College of Registered Dental Hygienists of Alberta license number"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Numéro de permis du Collège des hygiénistes dentaires autorisés de l’Alberta"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.4.261"></code>
+         <display value="The Newfoundland &amp; Labrador Pharmacy Board"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="The Newfoundland &amp; Labrador Pharmacy Board"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Conseil des pharmaciens de Terre-Neuve-et-Labrador"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.4.262"></code>
+         <display value="College of Physicians and Surgeons of Newfoundland and Labrador"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="College of Physicians and Surgeons of Newfoundland and Labrador"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Collège des médecins et chirurgiens de Terre-Neuve-et-Labrador"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.4.263"></code>
+         <display value="Newfoundland &amp; Labrador Dental Board"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Newfoundland &amp; Labrador Dental Board"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Conseil dentaire de Terre-Neuve-et-Labrador"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.4.265"></code>
+         <display value="Newfoundland and Labrador College of Optometrist"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Newfoundland and Labrador College of Optometrist"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Ordre des optométristes de Terre-Neuve-et-Labrador"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.4.266"></code>
+         <display value="Association of Registered Nurses of Newfoundland And Labrador"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Association of Registered Nurses of Newfoundland And Labrador"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Association des infirmières et infirmiers autorisés de Terre-Neuve-et-Labrador"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.4.279"></code>
+         <display value="College of Physicians and Surgeons of Saskatchewan"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="College of Physicians and Surgeons of Saskatchewan"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Collège des médecins et chirurgiens de la Saskatchewan"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.4.280"></code>
+         <display value="College of Dental Surgeons of Saskatchewan"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="College of Dental Surgeons of Saskatchewan"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Collège des chirurgiens-dentistes de la Saskatchewan"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.4.281"></code>
+         <display value="Saskatchewan Registered Nurses' Association"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Saskatchewan Registered Nurses' Association"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Association des infirmières et infirmiers autorisés de la Saskatchewan"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.4.284"></code>
+         <display value="Saskatchewan College of Pharmacists"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Saskatchewan College of Pharmacists"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Ordre des pharmaciens de la Saskatchewan"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.4.285"></code>
+         <display value="Saskatchewan Association of Optometrists"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Saskatchewan Association of Optometrists"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Association des optométristes de la Saskatchewan"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.4.288"></code>
+         <display value="Quebec Physician License Number"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Quebec Physician License Number"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Numéro de permis du Collège des médecins du Québec"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.4.298"></code>
+         <display value="Quebec Pharmacist/pharmacy License Number"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Quebec Pharmacist/pharmacy License Number"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Numéro de permis de l'Ordre des pharmaciens du Québec"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.4.299"></code>
+         <display value="Quebec Optometrist License Number"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Quebec Optometrist License Number"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Numéro de permis de l'Ordre des optométristes du Québec"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.4.300"></code>
+         <display value="Quebec Podiatrists License Number"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Quebec Podiatrists License Number"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Numéro de permis de l'Ordre des podiatres du Québec"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.4.301"></code>
+         <display value="Quebec Midwive License Number"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Quebec Midwive License Number"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Numéro de permis de l'Ordre des sages-femmes du Québec"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.4.302"></code>
+         <display value="Quebec Dentist License Number"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Quebec Dentist License Number"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Numéro de permis de l'Ordre des dentistes du Québec"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.4.303"></code>
+         <display value="Quebec Nurse/Nurse Practitioner License Number"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Quebec Nurse/Nurse Practitioner License Number"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Numéro de permis de l'Ordre des infirmières et infirmiers du Québec"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.4.307"></code>
+         <display value="Saskatchewan College of Midwives"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Saskatchewan College of Midwives"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Ordre des sages-femmes de la Saskatchewan"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.4.33"></code>
+         <display value="College of Midwives of Alberta"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="College of Midwives of Alberta"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Ordre des sages-femmes de l'Alberta"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.4.332.1"></code>
+         <display value="NS Canada College of Physicians and Surgeons Registration Number"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="NS Canada College of Physicians and Surgeons Registration Number"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Numéro d'inscription au Collège des médecins et chirurgiens de la Nouvelle-Écosse"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.4.333.1"></code>
+         <display value="College of Registered Nurses of Nova Scotia Canada Registration Number - Nurse"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="College of Registered Nurses of Nova Scotia Canada Registration Number - Nurse"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Numéro de permis du Collège des infirmières et infirmiers autorisés de la Nouvelle-Écosse – infirmière/infirmier"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.4.333.2"></code>
+         <display value="College of Registered Nurses of Nova Scotia Canada Registration Number - Nurse Practitioner"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="College of Registered Nurses of Nova Scotia Canada Registration Number - Nurse Practitioner"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Numéro de permis du Collège des infirmières et infirmiers autorisés de la Nouvelle-Écosse – infirmière praticienne/infirmier praticien"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.4.334"></code>
+         <display value="Nova Scotia Canada College of Pharmacists Registration Number"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Nova Scotia Canada College of Pharmacists Registration Number"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Numéro de permis de l’Ordre des pharmaciens de la Nouvelle-Écosse"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.4.347"></code>
+         <display value="College of Physicians and Surgeons of Ontario"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="College of Physicians and Surgeons of Ontario"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Ordre des médecins et chirurgiens de l’Ontario"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.4.37"></code>
+         <display value="Alberta College of Optometrists"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Alberta College of Optometrists"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Ordre des optométristes de l'Alberta"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.4.39"></code>
+         <display value="Alberta College of Pharmacists"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Alberta College of Pharmacists"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Ordre des pharmaciens de l'Alberta"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.4.395"></code>
+         <display value="College of Optometrists of Ontario"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="College of Optometrists of Ontario"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Ordre des optométristes de l’Ontario"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.4.402"></code>
+         <display value="Manitoba Association of Optometrists"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Manitoba Association of Optometrists"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Association des optométristes du Manitoba"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.4.404"></code>
+         <display value="Prince Edward Island Association of Optometrists"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Prince Edward Island Association of Optometrists"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Association des optométristes de l’Île-du-Prince-Édouard"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.4.405"></code>
+         <display value="Nova Scotia College of Optometrists"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Nova Scotia College of Optometrists"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Ordre des optométristes de la Nouvelle-Écosse"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.4.41"></code>
+         <display value="College of Physicians and Surgeons of Alberta"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="College of Physicians and Surgeons of Alberta"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Collège des médecins et chirurgiens de l'Alberta"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.4.429"></code>
+         <display value="College of Optometrists of British Columbia"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="College of Optometrists of British Columbia"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Ordre des optométristes de la Colombie-Britannique"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.4.43"></code>
+         <display value="College of Dieticians of Alberta license number"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="College of Dieticians of Alberta license number"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Numéro de permis de l'Ordre des diététistes de l'Alberta"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.4.44"></code>
+         <display value="College and Association of Registered Nurses of Alberta"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="College and Association of Registered Nurses of Alberta"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Association et ordre des infirmières et infirmiers autorisés de l'Alberta"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.4.447"></code>
+         <display value="College of Podiatric Physicians of Alberta, Canada license number"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="College of Podiatric Physicians of Alberta, Canada license number"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Numéro de permis de l'Ordre des médecins podiatres de l'Alberta"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.4.45"></code>
+         <display value="College of Registered Psychiatric Nurses of Alberta License Number"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="College of Registered Psychiatric Nurses of Alberta License Number"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Numéro de permis du Collège des infirmières et infirmiers psychiatriques autorisés de l’Alberta"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.4.530"></code>
+         <display value="British Columbia, Canada, College of Dietitians Identifier for Registered Dietitian"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="British Columbia, Canada, College of Dietitians Identifier for Registered Dietitian"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Numéro d'ID de l'Ordre des diététistes autorisés de la Colombie-Britannique"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.4.607"></code>
+         <display value="British Columbia, Canada, College of Pharmacists Identifier for Pharmacies"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="British Columbia, Canada, College of Pharmacists Identifier for Pharmacies"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Numéro d'ID de pharmacie de l'Ordre des pharmaciens de la Colombie-Britannique"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.4.608"></code>
+         <display value="College of Registered Psychiatric Nurses of British Columbia"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="College of Registered Psychiatric Nurses of British Columbia"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Collège des infirmières et infirmiers psychiatriques autorisés de la Colombie-Britannique"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.4.753"></code>
+         <display value="College of Podiatric Surgeons of British Columbia"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="College of Podiatric Surgeons of British Columbia"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Ordre des chirurgiens podiatres de la Colombie-Britannique"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.4.756"></code>
+         <display value="College of Physicians and Surgeons of British Columbia"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="College of Physicians and Surgeons of British Columbia"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Collège des médecins et chirurgiens de la Colombie-Britannique"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.4.759"></code>
+         <display value="College of Podiatrists of Manitoba"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="College of Podiatrists of Manitoba"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Ordre des podiatres du Manitoba"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.4.786"></code>
+         <display value="Saskatchewan College of Podiatrists"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Saskatchewan College of Podiatrists"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Ordre des podiatres de la Saskatchewan"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.4.8148"></code>
+         <display value="Prince Edward Island College of Pharmacy Pharmacist License Number"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Prince Edward Island College of Pharmacy Pharmacist License Number"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Numéro de licence de pharmacien délivrée par le Collège de pharmacie de l’Île-du-Prince-Édouard"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.4.8149"></code>
+         <display value="Prince Edward Island College of Pharmacy Pharmacy License Number"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Prince Edward Island College of Pharmacy Pharmacy License Number"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Numéro de licence de pharmacie délivrée par le Collège de pharmacie de l’Île-du-Prince-Édouard"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.4.8150"></code>
+         <display value="College of Registered Nurses &amp; Midwives of Prince Edward Island"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="College of Registered Nurses &amp; Midwives of Prince Edward Island"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Collège des infirmières et infirmiers et des sages-femmes autorisés de l’Île-du-Prince-Édouard"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.4.871"></code>
+         <display value="College of Physicians and Surgeons of New Brunswick (deprecated)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="College of Physicians and Surgeons of New Brunswick (deprecated)"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Collège des médecins et chirurgiens du Nouveau-Brunswick"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://terminology.hl7.org/NamingSystem/uri"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.4.872"></code>
+         <display value="Professional Licensing, Department of Health, Government of Nunavut"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Professional Licensing, Department of Health, Government of Nunavut"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Permis d’exercice du ministère de la Santé du gouvernement du Nunavut"></value>
+         </designation>
+      </contains>
+   </expansion>
+</ValueSet>

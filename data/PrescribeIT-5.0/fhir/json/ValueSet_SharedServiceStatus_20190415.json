@@ -1,0 +1,84 @@
+{
+  "resourceType": "ValueSet",
+  "id": "sharedservicestatus",
+  "url": "https://fhir.infoway-inforoute.ca/ValueSet/sharedservicestatus",
+  "identifier": [ {
+    "id": "2.16.840.1.113883.2.20.3.430"
+  } ],
+  "version": "20190415",
+  "name": "SharedServiceStatus",
+  "status": "active",
+  "description": "Service status codes supported for Shared Health organizations and practitioners",
+  "expansion": {
+    "identifier": "urn:uuid:9dd737d1-6399-4cdc-9488-92152c96ddbd",
+    "timestamp": "2025-07-25T11:34:59-04:00",
+    "total": 3,
+    "contains": [ {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedservicestatus",
+      "abstract": false,
+      "code": "active",
+      "display": "Active",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Active"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Actif"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedservicestatus",
+      "abstract": false,
+      "code": "in-progress",
+      "display": "In Progress",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "In Progress"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "En cours"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedservicestatus",
+      "abstract": false,
+      "code": "inactive",
+      "display": "Inactive",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Inactive"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Inactif"
+      } ]
+    } ]
+  }
+}

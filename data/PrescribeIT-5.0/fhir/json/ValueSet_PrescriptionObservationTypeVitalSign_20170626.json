@@ -1,0 +1,62 @@
+{
+  "resourceType": "ValueSet",
+  "id": "prescriptionobservationtypevitalsign",
+  "url": "https://fhir.infoway-inforoute.ca/ValueSet/prescriptionobservationtypevitalsign",
+  "identifier": [ {
+    "id": "2.16.840.1.113883.2.20.3.411"
+  } ],
+  "version": "20170626",
+  "name": "PrescriptionObservationTypeVitalSign",
+  "status": "active",
+  "description": "Types of vital sign observations relevant to prescribing",
+  "expansion": {
+    "identifier": "urn:uuid:849c32bb-dce0-4d22-853c-7afb834edf75",
+    "timestamp": "2025-07-25T11:34:23-04:00",
+    "total": 2,
+    "contains": [ {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/pCLOCD",
+      "abstract": false,
+      "code": "29463-7",
+      "display": "Body Weight",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Body Weight"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Poids corporel"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/pCLOCD",
+      "abstract": false,
+      "code": "8302-2",
+      "display": "Body Height",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Body Height"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Stature"
+      } ]
+    } ]
+  }
+}

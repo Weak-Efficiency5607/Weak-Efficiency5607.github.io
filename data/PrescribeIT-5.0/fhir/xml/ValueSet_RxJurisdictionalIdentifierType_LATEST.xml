@@ -1,0 +1,278 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+   <id value="rxjurisdictionalidentifiertype"></id>
+   <url value="https://fhir.infoway-inforoute.ca/ValueSet/rxjurisdictionalidentifiertype"></url>
+   <identifier id="2.16.840.1.113883.3.163.2.10.11"></identifier>
+   <version value="20190916"></version>
+   <name value="RxJurisdictionalIdentifierType"></name>
+   <status value="active"></status>
+   <description value="Codes identifying the issuer of jurisdictional prescription identifiers"></description>
+   <expansion>
+      <identifier value="urn:uuid:f54abe41-cd28-4c7c-b4ce-01e85ed8f8cc"></identifier>
+      <timestamp value="2025-07-25T11:34:38-04:00"></timestamp>
+      <total value="8"></total>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/RxJurisdictionalIdentifierType"></system>
+         <abstract value="false"></abstract>
+         <code value="2.16.124.4.101.35.2.8"></code>
+         <display value="New Brunswick Drug Information System Prescription Identifier"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="Used by the New Brunswick DIS to identify prescriptions uniquely"></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="New Brunswick Drug Information System Prescription Identifier"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Numéro d'ordonnance dans le SIM de Terre-Neuve-et-Labrador [STAGING]"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/RxJurisdictionalIdentifierType"></system>
+         <abstract value="false"></abstract>
+         <code value="2.16.124.7.101.20.4.8"></code>
+         <display value="Nova Scotia Drug Information System Prescription Identifier"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="Used by the Nova Scotia DIS to identify prescriptions uniquely"></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Nova Scotia Drug Information System Prescription Identifier"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Numéro d'ordonnance dans le SIM de la Nouvelle-Écosse"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/RxJurisdictionalIdentifierType"></system>
+         <abstract value="false"></abstract>
+         <code value="2.16.124.9.101.1.1.22"></code>
+         <display value="PEI DIS Prescription Protocol Identifier OID"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="Used by the Prince Edward Island DIS to identify prescriptions uniquely"></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="PEI DIS Prescription Protocol Identifier OID"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Numéro d'ordonnance (OID du protocole) dans le SIM de l'Î.-P.-É."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/RxJurisdictionalIdentifierType"></system>
+         <abstract value="false"></abstract>
+         <code value="2.16.840.1.113883.3.133.1.5.116"></code>
+         <display value="Newfoundland and Labrador Drug Information System Prescription Identifier"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="Used by the Newfoundland and Labrador DIS to identify prescriptions uniquely"></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Newfoundland and Labrador Drug Information System Prescription Identifier"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Numéro d'ordonnance dans le SIM de Terre-Neuve-et-Labrador"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/RxJurisdictionalIdentifierType"></system>
+         <abstract value="false"></abstract>
+         <code value="2.16.840.1.113883.3.133.1.50.116"></code>
+         <display value="Newfoundland and Labrador Drug Information System Prescription Identifier [STAGING]"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="Used by the Newfoundland and Labrador DIS to identify prescriptions uniquely [STAGING]"></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Newfoundland and Labrador Drug Information System Prescription Identifier [STAGING]"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Numéro d'ordonnance dans le SIM du Nouveau-Brunswick"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/RxJurisdictionalIdentifierType"></system>
+         <abstract value="false"></abstract>
+         <code value="2.16.840.1.113883.3.144.1.4"></code>
+         <display value="PIP Generated Drug Information System Prescription Identifier"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="Used by the Saskatchewan DIS to identify prescriptions uniquely [STAGING]"></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="PIP Generated Drug Information System Prescription Identifier"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Numéro d'ordonnance généré par le PIP de la Saskatchewan"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/RxJurisdictionalIdentifierType"></system>
+         <abstract value="false"></abstract>
+         <code value="2.16.840.1.113883.3.163.2.1.11"></code>
+         <display value="Alberta Drug Information System Prescription Identifier"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="Used by the Alberta DIS to identify prescriptions uniquely"></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Alberta Drug Information System Prescription Identifier"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Numéro d’ordonnance dans le système d'information sur les médicaments de l'Alberta"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/RxJurisdictionalIdentifierType"></system>
+         <abstract value="false"></abstract>
+         <code value="2.16.840.1.113883.3.163.2.10.11"></code>
+         <display value="Alberta Drug Information System Prescription Identifier [TEST]"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="Used by the Alberta DIS to identify prescriptions uniquely [TEST]"></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Alberta Drug Information System Prescription Identifier [TEST]"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Numéro d’ordonnance dans le système d'information sur les médicaments de l'Alberta [TEST]"></value>
+         </designation>
+      </contains>
+   </expansion>
+</ValueSet>

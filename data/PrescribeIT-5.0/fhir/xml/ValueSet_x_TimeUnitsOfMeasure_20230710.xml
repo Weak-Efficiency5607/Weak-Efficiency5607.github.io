@@ -1,0 +1,182 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+   <id value="x_timeunitsofmeasure"></id>
+   <url value="https://fhir.infoway-inforoute.ca/ValueSet/x_timeunitsofmeasure"></url>
+   <identifier id="2.16.840.1.113883.2.20.3.156"></identifier>
+   <version value="20230710"></version>
+   <name value="x_TimeUnitsOfMeasure"></name>
+   <status value="active"></status>
+   <description value="Indicates how an interval of time has been measured."></description>
+   <expansion>
+      <identifier value="urn:uuid:ee712ad7-f127-45e9-b45f-14ff9313000d"></identifier>
+      <timestamp value="2025-07-25T11:35:22-04:00"></timestamp>
+      <total value="7"></total>
+      <contains>
+         <system value="http://unitsofmeasure.org"></system>
+         <abstract value="false"></abstract>
+         <code value="a"></code>
+         <display value="year(s)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="year(s)"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="an(s)"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://unitsofmeasure.org"></system>
+         <abstract value="false"></abstract>
+         <code value="d"></code>
+         <display value="day(s)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="day(s)"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="jour(s)"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://unitsofmeasure.org"></system>
+         <abstract value="false"></abstract>
+         <code value="h"></code>
+         <display value="hour(s)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="hour(s)"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="heure(s)"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://unitsofmeasure.org"></system>
+         <abstract value="false"></abstract>
+         <code value="min"></code>
+         <display value="minute(s)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="minute(s)"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="minute(s)"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://unitsofmeasure.org"></system>
+         <abstract value="false"></abstract>
+         <code value="mo"></code>
+         <display value="month(s)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="month(s)"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="mois"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://unitsofmeasure.org"></system>
+         <abstract value="false"></abstract>
+         <code value="s"></code>
+         <display value="second(s)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="second(s)"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="seconde(s)"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://unitsofmeasure.org"></system>
+         <abstract value="false"></abstract>
+         <code value="wk"></code>
+         <display value="week(s)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="week(s)"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="semaine(s)"></value>
+         </designation>
+      </contains>
+   </expansion>
+</ValueSet>

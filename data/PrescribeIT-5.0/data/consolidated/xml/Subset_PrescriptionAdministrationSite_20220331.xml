@@ -1,0 +1,743 @@
+<subset>
+  <id>2.16.840.1.113883.2.20.3.405</id>
+  <name>PrescriptionAdministrationSite</name>
+  <url>https://tgateway.infoway-inforoute.ca/vs/prescriptionadministrationsite</url>
+  <fhirUri>https://fhir.infoway-inforoute.ca/ValueSet/prescriptionadministrationsite</fhirUri>
+  <versionId>20220331</versionId>
+  <effectiveDate>2022033104:00:00</effectiveDate>
+  <publicationTime>2022032505:03:50</publicationTime>
+  <description>The body site where the product should be administered</description>
+  <status>active</status>
+  <category>SNOMED CT</category>
+  <domains>
+    <string>ePrescribe</string>
+  </domains>
+  <properties/>
+  <owner>Canada Health Infoway</owner>
+  <tags>
+    <string>Extensional</string>
+  </tags>
+  <terminologies class="com.google.gson.internal.LinkedTreeMap" resolves-to="linked-hash-map"/>
+  <type>Extensional</type>
+  <viewer>singlesubset</viewer>
+  <codeSystems>
+    <codesystem>
+      <id>2.16.840.1.113883.6.96</id>
+      <name>SNOMED CT CA Edition</name>
+      <businessName>SNOMED CT CA Edition</businessName>
+      <url>http://snomed.info/sct</url>
+      <version>20220331</version>
+    </codesystem>
+    <codesystem>
+      <id>2.16.840.1.113883.5.1052</id>
+      <name>ActSite</name>
+      <businessName>ActSite</businessName>
+      <url>http://hl7.org/fhir/v3/ActSite</url>
+      <version>1.4.0</version>
+    </codesystem>
+  </codeSystems>
+  <concepts>
+    <concept>
+      <id>12861001</id>
+      <name>Both hands (body structure)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Both hands</enDisplayName>
+      <frDisplayName>les deux mains</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>22201000087104</id>
+      <name>Affected area of body (body structure)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Affected area</enDisplayName>
+      <frDisplayName>région affectée</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>22211000087102</id>
+      <name>Bilateral elbows (body structure)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Both elbows</enDisplayName>
+      <frDisplayName>les deux coudes</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>22221000087105</id>
+      <name>Bilateral shoulders (body structure)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Both shoulders</enDisplayName>
+      <frDisplayName>les deux épaules</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>22231000087107</id>
+      <name>Structure of nail of all fingers (body structure)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Fingernails</enDisplayName>
+      <frDisplayName>ongles des doigts</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>368148009</id>
+      <name>Left elbow region structure (body structure)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Left elbow</enDisplayName>
+      <frDisplayName>coude gauche</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>368149001</id>
+      <name>Right elbow region structure (body structure)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Right elbow</enDisplayName>
+      <frDisplayName>coude droit</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>41695006</id>
+      <name>Scalp structure (body structure)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Scalp</enDisplayName>
+      <frDisplayName>cuir chevelu</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>51185008</id>
+      <name>Thoracic structure (body structure)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Chest</enDisplayName>
+      <frDisplayName>poitrine</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>51636004</id>
+      <name>Structure of left ankle (body structure)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Left ankle</enDisplayName>
+      <frDisplayName>cheville gauche</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>52795006</id>
+      <name>Forehead structure (body structure)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Forehead</enDisplayName>
+      <frDisplayName>front</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>57172001</id>
+      <name>Both thighs (body structure)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Both thighs</enDisplayName>
+      <frDisplayName>les deux cuisses</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>63762007</id>
+      <name>Both breasts (body structure)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Both breasts</enDisplayName>
+      <frDisplayName>les deux seins</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>64262003</id>
+      <name>Structure of right forearm (body structure)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Right forearm</enDisplayName>
+      <frDisplayName>avant-bras droit</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>66480008</id>
+      <name>Structure of left forearm (body structure)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Left forearm</enDisplayName>
+      <frDisplayName>avant-bras gauche</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>6685009</id>
+      <name>Structure of right ankle (body structure)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Right ankle</enDisplayName>
+      <frDisplayName>cheville droite</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>69273007</id>
+      <name>Both upper arms (body structure)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Both arms</enDisplayName>
+      <frDisplayName>les deux bras</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>69948000</id>
+      <name>Both ankles (body structure)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Both ankles</enDisplayName>
+      <frDisplayName>les deux chevilles</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>70327001</id>
+      <name>Structure of all fingers (body structure)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>All fingers</enDisplayName>
+      <frDisplayName>tous les doigts</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>73056007</id>
+      <name>Right breast structure (body structure)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Right breast</enDisplayName>
+      <frDisplayName>sein droit</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>77142006</id>
+      <name>External genitalia structure (body structure)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>External genitalia structure</enDisplayName>
+      <frDisplayName>organes génitaux externes</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>774007</id>
+      <name>Structure of head and/or neck (body structure)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Head and neck</enDisplayName>
+      <frDisplayName>tête et cou</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>77568009</id>
+      <name>Structure of back of trunk (body structure)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Back</enDisplayName>
+      <frDisplayName>dos</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>80248007</id>
+      <name>Left breast structure (body structure)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Left breast</enDisplayName>
+      <frDisplayName>sein gauche</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>81083006</id>
+      <name>Both lips (body structure)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Lips</enDisplayName>
+      <frDisplayName>lèvres</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>818983003</id>
+      <name>Structure of abdominopelvic cavity and/or content of abdominopelvic cavity and/or anterior abdominal wall (body structure)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Abdomen</enDisplayName>
+      <frDisplayName>abdomen</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>8580001</id>
+      <name>Both feet (body structure)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Both feet</enDisplayName>
+      <frDisplayName>les deux pieds</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>8671006</id>
+      <name>Structure of all toes (body structure)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>All toes</enDisplayName>
+      <frDisplayName>tous les orteils</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>89545001</id>
+      <name>Face structure (body structure)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Face</enDisplayName>
+      <frDisplayName>face</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>9055004</id>
+      <name>Both forearms (body structure)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Both forearms</enDisplayName>
+      <frDisplayName>les deux avant-bras</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>91774008</id>
+      <name>Structure of right shoulder region (body structure)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Right shoulder</enDisplayName>
+      <frDisplayName>épaule droite</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>91775009</id>
+      <name>Structure of left shoulder region (body structure)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Left shoulder</enDisplayName>
+      <frDisplayName>épaule gauche</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>BE</id>
+      <name>bilateral ears</name>
+      <codeSystemId>2.16.840.1.113883.5.1052</codeSystemId>
+      <codeSystemName>ActSite</codeSystemName>
+      <enDisplayName>Both ears</enDisplayName>
+      <frDisplayName>les deux oreilles</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>BN</id>
+      <name>bilateral nares</name>
+      <codeSystemId>2.16.840.1.113883.5.1052</codeSystemId>
+      <codeSystemName>ActSite</codeSystemName>
+      <enDisplayName>Both nostrils</enDisplayName>
+      <frDisplayName>les deux narines</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>BU</id>
+      <name>buttock</name>
+      <codeSystemId>2.16.840.1.113883.5.1052</codeSystemId>
+      <codeSystemName>ActSite</codeSystemName>
+      <enDisplayName>Buttock</enDisplayName>
+      <frDisplayName>fesse</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>LA</id>
+      <name>left arm</name>
+      <codeSystemId>2.16.840.1.113883.5.1052</codeSystemId>
+      <codeSystemName>ActSite</codeSystemName>
+      <enDisplayName>Left arm</enDisplayName>
+      <frDisplayName>bras gauche</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>LE</id>
+      <name>left ear</name>
+      <codeSystemId>2.16.840.1.113883.5.1052</codeSystemId>
+      <codeSystemName>ActSite</codeSystemName>
+      <enDisplayName>Left ear</enDisplayName>
+      <frDisplayName>oreille gauche</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>LF</id>
+      <name>left foot</name>
+      <codeSystemId>2.16.840.1.113883.5.1052</codeSystemId>
+      <codeSystemName>ActSite</codeSystemName>
+      <enDisplayName>Left foot</enDisplayName>
+      <frDisplayName>pied gauche</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>LH</id>
+      <name>left hand</name>
+      <codeSystemId>2.16.840.1.113883.5.1052</codeSystemId>
+      <codeSystemName>ActSite</codeSystemName>
+      <enDisplayName>Left hand</enDisplayName>
+      <frDisplayName>main gauche</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>LN</id>
+      <name>left naris</name>
+      <codeSystemId>2.16.840.1.113883.5.1052</codeSystemId>
+      <codeSystemName>ActSite</codeSystemName>
+      <enDisplayName>Left nostril</enDisplayName>
+      <frDisplayName>narine gauche</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>LT</id>
+      <name>left thigh</name>
+      <codeSystemId>2.16.840.1.113883.5.1052</codeSystemId>
+      <codeSystemName>ActSite</codeSystemName>
+      <enDisplayName>Left thigh</enDisplayName>
+      <frDisplayName>cuisse gauche</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>OD</id>
+      <name>right eye</name>
+      <codeSystemId>2.16.840.1.113883.5.1052</codeSystemId>
+      <codeSystemName>ActSite</codeSystemName>
+      <enDisplayName>Right eye</enDisplayName>
+      <frDisplayName>œil droit</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>OS</id>
+      <name>left eye</name>
+      <codeSystemId>2.16.840.1.113883.5.1052</codeSystemId>
+      <codeSystemName>ActSite</codeSystemName>
+      <enDisplayName>Left eye</enDisplayName>
+      <frDisplayName>œil gauche</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>OU</id>
+      <name>bilateral eyes</name>
+      <codeSystemId>2.16.840.1.113883.5.1052</codeSystemId>
+      <codeSystemName>ActSite</codeSystemName>
+      <enDisplayName>Both eyes</enDisplayName>
+      <frDisplayName>les deux yeux</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>PA</id>
+      <name>perianal</name>
+      <codeSystemId>2.16.840.1.113883.5.1052</codeSystemId>
+      <codeSystemName>ActSite</codeSystemName>
+      <enDisplayName>Perianal</enDisplayName>
+      <frDisplayName>périanal(e)</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>PERIN</id>
+      <name>perineal</name>
+      <codeSystemId>2.16.840.1.113883.5.1052</codeSystemId>
+      <codeSystemName>ActSite</codeSystemName>
+      <enDisplayName>Perineal</enDisplayName>
+      <frDisplayName>périnéal(e)</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>RA</id>
+      <name>right arm</name>
+      <codeSystemId>2.16.840.1.113883.5.1052</codeSystemId>
+      <codeSystemName>ActSite</codeSystemName>
+      <enDisplayName>Right arm</enDisplayName>
+      <frDisplayName>bras droit</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>RE</id>
+      <name>right ear</name>
+      <codeSystemId>2.16.840.1.113883.5.1052</codeSystemId>
+      <codeSystemName>ActSite</codeSystemName>
+      <enDisplayName>Right ear</enDisplayName>
+      <frDisplayName>oreille droite</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>RF</id>
+      <name>right foot</name>
+      <codeSystemId>2.16.840.1.113883.5.1052</codeSystemId>
+      <codeSystemName>ActSite</codeSystemName>
+      <enDisplayName>Right foot</enDisplayName>
+      <frDisplayName>pied droit</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>RH</id>
+      <name>right hand</name>
+      <codeSystemId>2.16.840.1.113883.5.1052</codeSystemId>
+      <codeSystemName>ActSite</codeSystemName>
+      <enDisplayName>Right hand</enDisplayName>
+      <frDisplayName>main droite</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>RN</id>
+      <name>right naris</name>
+      <codeSystemId>2.16.840.1.113883.5.1052</codeSystemId>
+      <codeSystemName>ActSite</codeSystemName>
+      <enDisplayName>Right nostril</enDisplayName>
+      <frDisplayName>narine droite</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>RT</id>
+      <name>right thigh</name>
+      <codeSystemId>2.16.840.1.113883.5.1052</codeSystemId>
+      <codeSystemName>ActSite</codeSystemName>
+      <enDisplayName>Right thigh</enDisplayName>
+      <frDisplayName>cuisse droite</frDisplayName>
+      <effectiveDate>2022033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>182349006</id>
+      <name>Genital region (body structure)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Genital region</enDisplayName>
+      <frDisplayName>région génitale</frDisplayName>
+      <effectiveDate>2021093004:00:00</effectiveDate>
+      <active>false</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>113345001</id>
+      <name>Abdominal structure (body structure)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Abdomen</enDisplayName>
+      <frDisplayName>abdomen</frDisplayName>
+      <effectiveDate>2020093004:00:00</effectiveDate>
+      <active>false</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+  </concepts>
+</subset>

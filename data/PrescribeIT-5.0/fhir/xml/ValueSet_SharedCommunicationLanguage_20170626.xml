@@ -1,0 +1,44 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+   <id value="sharedcommunicationlanguage"></id>
+   <url value="https://fhir.infoway-inforoute.ca/ValueSet/sharedcommunicationlanguage"></url>
+   <identifier id="2.16.840.1.113883.2.20.3.420"></identifier>
+   <version value="20170626"></version>
+   <name value="SharedCommunicationLanguage"></name>
+   <status value="active"></status>
+   <description value="Codes identifying languages spoken and understood by humans that are relevant to Shared Health systems"></description>
+   <expansion>
+      <identifier value="urn:uuid:58df2168-0086-43ce-956b-5bf1914f32d8"></identifier>
+      <timestamp value="2025-07-25T11:34:41-04:00"></timestamp>
+      <total value="2"></total>
+      <contains>
+         <system value="urn:ietf:bcp:47"></system>
+         <abstract value="false"></abstract>
+         <code value="en-CA"></code>
+         <display value="English (Canadian)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="English (Canadian)"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="urn:ietf:bcp:47"></system>
+         <abstract value="false"></abstract>
+         <code value="fr-CA"></code>
+         <display value="French (Canadian)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="French (Canadian)"></value>
+         </designation>
+      </contains>
+   </expansion>
+</ValueSet>

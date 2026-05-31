@@ -1,0 +1,20 @@
+<version>
+  <id>2.16.840.1.113883.2.20.3.422</id>
+  <url>https://tgateway.infoway-inforoute.ca/vs/sharedpatientjurisdictionalhealthidentifiertype</url>
+  <fhirUri>https://fhir.infoway-inforoute.ca/ValueSet/sharedpatientjurisdictionalhealthidentifiertype</fhirUri>
+  <name>SharedPatientJurisdictionalHealthIdentifierType</name>
+  <versionId>20220615</versionId>
+  <effectiveDate>2022061504:00:00</effectiveDate>
+  <publicationTime>2022083003:18:14</publicationTime>
+  <description>Patient jurisdictional health identifier system supported for Shared Health systems</description>
+  <status>active</status>
+  <codeSystems>
+    <codesystem>
+      <id>urn:iso:std:iso:8824:1</id>
+      <name>UniformResourceIdentifiers</name>
+      <businessName>UniformResourceIdentifiers</businessName>
+      <url>urn:iso:std:iso:8824:1</url>
+      <version>20211125</version>
+    </codesystem>
+  </codeSystems>
+</version>

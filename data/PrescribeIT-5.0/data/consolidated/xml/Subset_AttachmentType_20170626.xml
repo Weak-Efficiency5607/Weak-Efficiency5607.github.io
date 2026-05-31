@@ -1,0 +1,99 @@
+<subset>
+  <id>2.16.840.1.113883.2.20.3.435</id>
+  <name>AttachmentType</name>
+  <url>https://tgateway.infoway-inforoute.ca/vs/attachmenttype</url>
+  <fhirUri>https://fhir.infoway-inforoute.ca/ValueSet/attachmenttype</fhirUri>
+  <versionId>20170626</versionId>
+  <effectiveDate>2017062604:00:00</effectiveDate>
+  <description>Mime types allowed for attachments</description>
+  <status>active</status>
+  <category>PrescribeIT</category>
+  <domains>
+    <string>ePrescribe</string>
+    <string>PrescribeIT</string>
+  </domains>
+  <properties>
+    <entry>
+      <string>project</string>
+      <string>eRx</string>
+    </entry>
+  </properties>
+  <owner>Canada Health Infoway</owner>
+  <tags>
+    <string>extensional</string>
+  </tags>
+  <terminologies class="com.google.gson.internal.LinkedTreeMap" resolves-to="linked-hash-map"/>
+  <type>extensional</type>
+  <viewer>singlesubset</viewer>
+  <codeSystems>
+    <codesystem>
+      <id>urn:ietf:bcp:13</id>
+      <name>Mime Types</name>
+      <businessName>Mime Types</businessName>
+      <url>urn:ietf:bcp:13</url>
+      <version>n/a</version>
+    </codesystem>
+  </codeSystems>
+  <concepts>
+    <concept>
+      <id>application/pdf</id>
+      <name>Adobe Portable Document Format (PDF)</name>
+      <codeSystemId>urn:ietf:bcp:13</codeSystemId>
+      <codeSystemName>Mime Types</codeSystemName>
+      <enDisplayName>Adobe Portable Document Format (PDF)</enDisplayName>
+      <effectiveDate>2017062604:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>image/jpeg</id>
+      <name>JPEG Image</name>
+      <codeSystemId>urn:ietf:bcp:13</codeSystemId>
+      <codeSystemName>Mime Types</codeSystemName>
+      <enDisplayName>JPEG Image</enDisplayName>
+      <effectiveDate>2017062604:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>image/png</id>
+      <name>Portable Network Graphics (PNG)</name>
+      <codeSystemId>urn:ietf:bcp:13</codeSystemId>
+      <codeSystemName>Mime Types</codeSystemName>
+      <enDisplayName>Portable Network Graphics (PNG)</enDisplayName>
+      <effectiveDate>2017062604:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>image/tiff</id>
+      <name>Tag Image File Format (TIFF)</name>
+      <codeSystemId>urn:ietf:bcp:13</codeSystemId>
+      <codeSystemName>Mime Types</codeSystemName>
+      <enDisplayName>Tag Image File Format (TIFF)</enDisplayName>
+      <effectiveDate>2017062604:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>text/plain</id>
+      <name>Text File</name>
+      <codeSystemId>urn:ietf:bcp:13</codeSystemId>
+      <codeSystemName>Mime Types</codeSystemName>
+      <enDisplayName>Text File</enDisplayName>
+      <effectiveDate>2017062604:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+  </concepts>
+</subset>

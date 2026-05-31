@@ -1,0 +1,48 @@
+{
+  "resourceType": "ValueSet",
+  "id": "cancelretrievalreason",
+  "url": "https://fhir.infoway-inforoute.ca/ValueSet/cancelretrievalreason",
+  "identifier": [ {
+    "id": "2.16.840.1.113883.2.20.3.469"
+  } ],
+  "version": "20210624",
+  "name": "CancelRetrievalReason",
+  "status": "active",
+  "description": "Indicates the reason why a pharmacy is cancelling the retrieval of a prescription so it is available on the non-directed queue in PrescribeIT.",
+  "expansion": {
+    "identifier": "urn:uuid:8a05abfe-6694-42ac-9959-ceabb2375eaa",
+    "timestamp": "2025-07-25T11:35:23-04:00",
+    "total": 1,
+    "contains": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+      "abstract": false,
+      "code": "PATDEC",
+      "display": "patient changed mind",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Le patient a changé d’idée et ne veut plus le médicament. Patient changed their mind regarding obtaining medication."
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "patient changed mind"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Le patient a changé d’idée"
+      } ]
+    } ]
+  }
+}

@@ -1,0 +1,20 @@
+<version>
+  <id>2.16.840.1.113883.2.20.3.423</id>
+  <url>https://tgateway.infoway-inforoute.ca/vs/sharedpractitioneridentifiertype</url>
+  <fhirUri>https://fhir.infoway-inforoute.ca/ValueSet/sharedpractitioneridentifiertype</fhirUri>
+  <name>SharedPractitionerIdentifierType</name>
+  <versionId>20250529</versionId>
+  <effectiveDate>2025052904:00:00</effectiveDate>
+  <publicationTime>2025053001:48:25</publicationTime>
+  <description>List of colleges responsible for issuing provider licenses across the country</description>
+  <status>active</status>
+  <codeSystems>
+    <codesystem>
+      <id>urn:iso:std:iso:8824:1</id>
+      <name>UniformResourceIdentifiers</name>
+      <businessName>UniformResourceIdentifiers</businessName>
+      <url>http://terminology.hl7.org/NamingSystem/uri</url>
+      <version>20190916</version>
+    </codesystem>
+  </codeSystems>
+</version>

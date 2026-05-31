@@ -1,0 +1,182 @@
+<result>
+  <concepts>
+    <concept>
+      <id>chiropodist</id>
+      <name>Chiropodist</name>
+      <codeSystemId>8.1.1.2</codeSystemId>
+      <codeSystemName>CanadianPractitionerRole</codeSystemName>
+      <enDisplayName>Chiropodist</enDisplayName>
+      <frDisplayName>Podologue</frDisplayName>
+      <description>Health professional who assesses of the foot, and the treatment and prevention of diseases disorders, or dysfunctions of the foot by therapeutic, orthotic or palliative means.</description>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>chiropractor</id>
+      <name>Chiropractor</name>
+      <codeSystemId>8.1.1.2</codeSystemId>
+      <codeSystemName>CanadianPractitionerRole</codeSystemName>
+      <enDisplayName>Chiropractor</enDisplayName>
+      <frDisplayName>Chiropraticien(ne)</frDisplayName>
+      <description>Canada’s chiropractors are musculoskeletal (MSK) experts, providing the assessment, diagnosis, treatment and preventative care of biomechanical disorders originating from the muscular, skeletal and nervous systems.</description>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>dentalhygienist</id>
+      <name>Dental Hygienist</name>
+      <codeSystemId>8.1.1.2</codeSystemId>
+      <codeSystemName>CanadianPractitionerRole</codeSystemName>
+      <enDisplayName>Dental Hygienist</enDisplayName>
+      <frDisplayName>Hygiéniste dentaire</frDisplayName>
+      <description>An ancillary dental worker specializing in scaling and polishing teeth and in giving advice on cleaning the teeth.</description>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>dentist</id>
+      <name>Dentist</name>
+      <codeSystemId>8.1.1.2</codeSystemId>
+      <codeSystemName>CanadianPractitionerRole</codeSystemName>
+      <enDisplayName>Dentist</enDisplayName>
+      <frDisplayName>Dentiste</frDisplayName>
+      <description>Health professional qualified to treat the diseases and conditions that affect the teeth and gums, especially the repair and extraction of teeth and the insertion of artificial ones.</description>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>dietician</id>
+      <name>Dietician</name>
+      <codeSystemId>8.1.1.2</codeSystemId>
+      <codeSystemName>CanadianPractitionerRole</codeSystemName>
+      <enDisplayName>Dietician</enDisplayName>
+      <frDisplayName>Diététiste</frDisplayName>
+      <description>Dietitians believe in the power of food to enhance lives and improve health. Dietitians empower their patients, clients, and communities to embrace food, to understand it, and to enjoy it. The advice and information they provide is tailored to their clients and patients personal needs and challenges, including taste and accessibility. They translate the science of nutrition into terms everyone can understand to support healthy living for all Canadians.</description>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>doctor</id>
+      <name>Doctor</name>
+      <codeSystemId>2.16.840.1.113883.4.642.1.431</codeSystemId>
+      <codeSystemName>PractitionerRole</codeSystemName>
+      <enDisplayName>Doctor</enDisplayName>
+      <frDisplayName>Médecin</frDisplayName>
+      <description>A qualified/registered medical practitioner</description>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>midwife</id>
+      <name>Midwife</name>
+      <codeSystemId>8.1.1.2</codeSystemId>
+      <codeSystemName>CanadianPractitionerRole</codeSystemName>
+      <enDisplayName>Midwife</enDisplayName>
+      <frDisplayName>Sage-femme</frDisplayName>
+      <description>Health professionals who provide primary care to you and your baby during pregnancy, labour, birth and the postpartum period.</description>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>nurse</id>
+      <name>Nurse</name>
+      <codeSystemId>2.16.840.1.113883.4.642.1.431</codeSystemId>
+      <codeSystemName>PractitionerRole</codeSystemName>
+      <enDisplayName>Nurse</enDisplayName>
+      <frDisplayName>Infirmier(ère)</frDisplayName>
+      <description>A practitioner with nursing experience that may be qualified/registered</description>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>nursepractitioner</id>
+      <name>Nurse Practitioner</name>
+      <codeSystemId>8.1.1.2</codeSystemId>
+      <codeSystemName>CanadianPractitionerRole</codeSystemName>
+      <enDisplayName>Nurse Practitioner</enDisplayName>
+      <frDisplayName>Infirmier(ère) praticien(ne)</frDisplayName>
+      <description>A nurse who is qualified to treat certain medical conditions without the direct supervision of a doctor</description>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>optometrist</id>
+      <name>Optometrist</name>
+      <codeSystemId>8.1.1.2</codeSystemId>
+      <codeSystemName>CanadianPractitionerRole</codeSystemName>
+      <enDisplayName>Optometrist</enDisplayName>
+      <frDisplayName>Optométriste</frDisplayName>
+      <description>Independent primary health care providers and represent the front line of vision health. The eye health and good vision of the public are the prime responsibilities of Canada’s Doctors of Optometry.</description>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>pharmacist</id>
+      <name>Pharmacist</name>
+      <codeSystemId>2.16.840.1.113883.4.642.1.431</codeSystemId>
+      <codeSystemName>PractitionerRole</codeSystemName>
+      <enDisplayName>Pharmacist</enDisplayName>
+      <frDisplayName>Pharmacien(ne)</frDisplayName>
+      <description>A qualified/registered/licensed pharmacist</description>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>podiatrist</id>
+      <name>Podiatrist</name>
+      <codeSystemId>8.1.1.2</codeSystemId>
+      <codeSystemName>CanadianPractitionerRole</codeSystemName>
+      <enDisplayName>Podiatrist</enDisplayName>
+      <frDisplayName>Podiatre</frDisplayName>
+      <description>Health professional concerned with the medical, surgical, mechanical and physical treatment and diagnosis of the diseases, injuries, and defects of the foot.</description>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+  </concepts>
+  <pagination>
+    <currentPage>1</currentPage>
+    <totalPages>1</totalPages>
+    <pageSize>100000</pageSize>
+    <totalRecords>12</totalRecords>
+    <firstRecord>1</firstRecord>
+    <lastRecord>12</lastRecord>
+    <nextPage>-1</nextPage>
+    <nextRecord>-1</nextRecord>
+  </pagination>
+</result>

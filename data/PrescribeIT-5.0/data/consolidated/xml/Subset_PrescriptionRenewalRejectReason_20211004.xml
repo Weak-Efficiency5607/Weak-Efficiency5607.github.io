@@ -1,0 +1,320 @@
+<subset>
+  <id>2.16.840.1.113883.2.20.3.413</id>
+  <name>PrescriptionRenewalRejectReason</name>
+  <url>https://tgateway.infoway-inforoute.ca/vs/prescriptionrenewalrejectreason</url>
+  <fhirUri>https://fhir.infoway-inforoute.ca/ValueSet/prescriptionrenewalrejectreason</fhirUri>
+  <versionId>20211004</versionId>
+  <effectiveDate>2021100404:00:00</effectiveDate>
+  <publicationTime>2021102804:57:12</publicationTime>
+  <dateLastReviewed>2021100404:00:00</dateLastReviewed>
+  <description>Reasons for rejecting a prescription renewal request</description>
+  <status>active</status>
+  <domains>
+    <string>PrescribeIT</string>
+  </domains>
+  <properties/>
+  <owner>Canada Health Infoway</owner>
+  <tags>
+    <string>Extensional</string>
+  </tags>
+  <terminologies class="com.google.gson.internal.LinkedTreeMap" resolves-to="linked-hash-map"/>
+  <type>Extensional</type>
+  <viewer>singlesubset</viewer>
+  <codeSystems>
+    <codesystem>
+      <id>8.1.1.1</id>
+      <name>CanadianActReason</name>
+      <businessName>CanadianActReason</businessName>
+      <url>https://fhir.infoway-inforoute.ca/CodeSystem/canadianactreason</url>
+      <version>20211004</version>
+    </codesystem>
+  </codeSystems>
+  <concepts>
+    <concept>
+      <id>CONTACTPRES</id>
+      <name>Patient should contact prescriber</name>
+      <codeSystemId>8.1.1.1</codeSystemId>
+      <codeSystemName>CanadianActReason</codeSystemName>
+      <enDisplayName>Patient should contact prescriber</enDisplayName>
+      <frDisplayName>Le patient doit contacter le prescripteur</frDisplayName>
+      <effectiveDate>2021100404:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>FOLLOWPRES</id>
+      <name>Follow-up with patient&apos;s primary or alternate prescriber</name>
+      <codeSystemId>8.1.1.1</codeSystemId>
+      <codeSystemName>CanadianActReason</codeSystemName>
+      <enDisplayName>Follow-up with patient&apos;s primary or alternate prescriber</enDisplayName>
+      <frDisplayName>Suivi requis auprès du prescripteur principal ou de son substitut</frDisplayName>
+      <effectiveDate>2021100404:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>LABPSCP</id>
+      <name>Lab work required - patient should contact prescriber</name>
+      <codeSystemId>8.1.1.1</codeSystemId>
+      <codeSystemName>CanadianActReason</codeSystemName>
+      <enDisplayName>Lab work required - patient should contact prescriber</enDisplayName>
+      <frDisplayName>Analyses de laboratoire requises</frDisplayName>
+      <effectiveDate>2021100404:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>NOTPRESCPAT</id>
+      <name>Patient no longer under the prescriber’s care</name>
+      <codeSystemId>8.1.1.1</codeSystemId>
+      <codeSystemName>CanadianActReason</codeSystemName>
+      <enDisplayName>Patient no longer under the prescriber’s care</enDisplayName>
+      <frDisplayName>Le patient n&apos;est plus traité par le prescripteur</frDisplayName>
+      <effectiveDate>2021100404:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>OTHERMFR</id>
+      <name>Other (with a mandatory freeform reason)</name>
+      <codeSystemId>8.1.1.1</codeSystemId>
+      <codeSystemName>CanadianActReason</codeSystemName>
+      <enDisplayName>Other (with a mandatory freeform reason)</enDisplayName>
+      <frDisplayName>Autre (motif obligatoire en texte libre)</frDisplayName>
+      <effectiveDate>2021100404:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>PTMAKEAPMT</id>
+      <name>Appointment – patient needs to make an appointment</name>
+      <codeSystemId>8.1.1.1</codeSystemId>
+      <codeSystemName>CanadianActReason</codeSystemName>
+      <enDisplayName>Appointment – patient needs to make an appointment</enDisplayName>
+      <frDisplayName>Rendez-vous - le patient doit prendre rendez-vous</frDisplayName>
+      <effectiveDate>2021100404:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>REPLACED</id>
+      <name>Replace with this new prescription</name>
+      <codeSystemId>8.1.1.1</codeSystemId>
+      <codeSystemName>CanadianActReason</codeSystemName>
+      <enDisplayName>Replace with this new prescription</enDisplayName>
+      <frDisplayName>Remplacer par nouvelle ordonnance</frDisplayName>
+      <effectiveDate>2021100404:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>REQTOOEARLY</id>
+      <name>Request is too early</name>
+      <codeSystemId>8.1.1.1</codeSystemId>
+      <codeSystemName>CanadianActReason</codeSystemName>
+      <enDisplayName>Request is too early</enDisplayName>
+      <frDisplayName>La requête est trop tôt</frDisplayName>
+      <effectiveDate>2021100404:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>RESPONDED</id>
+      <name>Request already responded to (e.g. by phone/fax, this is a duplicate request)</name>
+      <codeSystemId>8.1.1.1</codeSystemId>
+      <codeSystemName>CanadianActReason</codeSystemName>
+      <enDisplayName>Request already responded to (e.g. by phone/fax, this is a duplicate request)</enDisplayName>
+      <frDisplayName>Requête déjà traitée (p. ex. par téléphone/télécopieur, requête en double)</frDisplayName>
+      <effectiveDate>2021100404:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>STOPMED</id>
+      <name>Prescriber stopped medication for patient</name>
+      <codeSystemId>8.1.1.1</codeSystemId>
+      <codeSystemName>CanadianActReason</codeSystemName>
+      <enDisplayName>Prescriber stopped medication for patient</enDisplayName>
+      <frDisplayName>Le prescripteur a interrompu le traitement du patient</frDisplayName>
+      <effectiveDate>2021100404:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>UNKNOWNPAT</id>
+      <name>Patient unknown to prescriber</name>
+      <codeSystemId>8.1.1.1</codeSystemId>
+      <codeSystemName>CanadianActReason</codeSystemName>
+      <enDisplayName>Patient unknown to prescriber</enDisplayName>
+      <frDisplayName>Le patient n&apos;est pas connu du prescripteur</frDisplayName>
+      <effectiveDate>2021100404:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>LAB</id>
+      <name>Lab work required - patient should contact prescriber</name>
+      <codeSystemId>8.1.1.1</codeSystemId>
+      <codeSystemName>CanadianActReason</codeSystemName>
+      <enDisplayName>Lab work required - patient should contact prescriber</enDisplayName>
+      <frDisplayName>Analyses de laboratoire requises</frDisplayName>
+      <effectiveDate>2021100404:00:00</effectiveDate>
+      <active>false</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>MODIFY</id>
+      <name>Replace with this new prescription</name>
+      <codeSystemId>8.1.1.1</codeSystemId>
+      <codeSystemName>CanadianActReason</codeSystemName>
+      <enDisplayName>Replace with this new prescription</enDisplayName>
+      <frDisplayName>Remplacer par nouvelle ordonnance</frDisplayName>
+      <effectiveDate>2021100404:00:00</effectiveDate>
+      <active>false</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>NEEDAPMT</id>
+      <name>Appointment – patient needs to make an appointment</name>
+      <codeSystemId>8.1.1.1</codeSystemId>
+      <codeSystemName>CanadianActReason</codeSystemName>
+      <enDisplayName>Appointment – patient needs to make an appointment</enDisplayName>
+      <frDisplayName>Rendez-vous - le patient doit prendre rendez-vous</frDisplayName>
+      <effectiveDate>2021100404:00:00</effectiveDate>
+      <active>false</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>NOTPAT</id>
+      <name>Patient no longer under the prescriber’s care</name>
+      <codeSystemId>8.1.1.1</codeSystemId>
+      <codeSystemName>CanadianActReason</codeSystemName>
+      <enDisplayName>Patient no longer under the prescriber’s care</enDisplayName>
+      <frDisplayName>Le patient n&apos;est plus traité par le prescripteur</frDisplayName>
+      <effectiveDate>2021100404:00:00</effectiveDate>
+      <active>false</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>OTHER</id>
+      <name>Other (with a mandatory freeform reason)</name>
+      <codeSystemId>8.1.1.1</codeSystemId>
+      <codeSystemName>CanadianActReason</codeSystemName>
+      <enDisplayName>Other (with a mandatory freeform reason)</enDisplayName>
+      <frDisplayName>Autre (motif obligatoire en texte libre)</frDisplayName>
+      <effectiveDate>2021100404:00:00</effectiveDate>
+      <active>false</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>TOOEARLY</id>
+      <name>Request is too early</name>
+      <codeSystemId>8.1.1.1</codeSystemId>
+      <codeSystemName>CanadianActReason</codeSystemName>
+      <enDisplayName>Request is too early</enDisplayName>
+      <frDisplayName>La requête est trop tôt</frDisplayName>
+      <effectiveDate>2021100404:00:00</effectiveDate>
+      <active>false</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>MODIFY</id>
+      <name>modified prescription exists</name>
+      <codeSystemId>2.16.840.1.113883.5.8</codeSystemId>
+      <codeSystemName>ActReason</codeSystemName>
+      <enDisplayName>Modified prescription exists</enDisplayName>
+      <frDisplayName>Existence d’une ordonnance modifiée</frDisplayName>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>false</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>NEEDAPMT</id>
+      <name>patient must make appointment</name>
+      <codeSystemId>2.16.840.1.113883.5.8</codeSystemId>
+      <codeSystemName>ActReason</codeSystemName>
+      <enDisplayName>Patient must make appointment</enDisplayName>
+      <frDisplayName>Le patient doit prendre rendez-vous</frDisplayName>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>false</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>NOTPAT</id>
+      <name>patient no longer in this practice</name>
+      <codeSystemId>2.16.840.1.113883.5.8</codeSystemId>
+      <codeSystemName>ActReason</codeSystemName>
+      <enDisplayName>Patient no longer in this practice</enDisplayName>
+      <frDisplayName>Le patient n&apos;est plus suivi par ce cabinet de médecins</frDisplayName>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>false</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>STOPMED</id>
+      <name>prescriber stopped medication for patient</name>
+      <codeSystemId>2.16.840.1.113883.5.8</codeSystemId>
+      <codeSystemName>ActReason</codeSystemName>
+      <enDisplayName>Prescriber stopped medication for patient</enDisplayName>
+      <frDisplayName>Le prescripteur a interrompu le traitement du patient</frDisplayName>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>false</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>TOOEARLY</id>
+      <name>too early</name>
+      <codeSystemId>2.16.840.1.113883.5.8</codeSystemId>
+      <codeSystemName>ActReason</codeSystemName>
+      <enDisplayName>Too early</enDisplayName>
+      <frDisplayName>Trop tôt</frDisplayName>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>false</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+  </concepts>
+</subset>

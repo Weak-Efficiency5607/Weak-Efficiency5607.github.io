@@ -1,0 +1,128 @@
+{
+  "resourceType": "ValueSet",
+  "id": "prescriptiontype",
+  "url": "https://fhir.infoway-inforoute.ca/ValueSet/prescriptiontype",
+  "identifier": [ {
+    "id": "2.16.840.1.113883.2.20.3.412"
+  } ],
+  "version": "20220615",
+  "name": "PrescriptionType",
+  "status": "active",
+  "description": "Prescription types to support e-prescribing",
+  "expansion": {
+    "identifier": "urn:uuid:628a7d8b-1174-444d-a547-91923bb92d15",
+    "timestamp": "2025-07-25T11:34:35-04:00",
+    "total": 5,
+    "contains": [ {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/prescriptiontype",
+      "abstract": false,
+      "code": "compound",
+      "display": "Compound",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Compound"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "préparation magistrale"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/prescriptiontype",
+      "abstract": false,
+      "code": "device",
+      "display": "Device",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Device"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "dispositif"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/prescriptiontype",
+      "abstract": false,
+      "code": "medication",
+      "display": "Medication",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Medication"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "médicament"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/prescriptiontype",
+      "abstract": false,
+      "code": "natural",
+      "display": "Natural Product",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Natural Product"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "produit naturel"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/prescriptiontype",
+      "abstract": false,
+      "code": "nutritional",
+      "display": "Nutritional Supplement",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Nutritional Supplement"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "supplément nutritionnel"
+      } ]
+    } ]
+  }
+}

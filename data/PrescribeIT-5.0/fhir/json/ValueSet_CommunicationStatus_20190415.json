@@ -1,0 +1,94 @@
+{
+  "resourceType": "ValueSet",
+  "id": "communicationstatus",
+  "url": "https://fhir.infoway-inforoute.ca/ValueSet/communicationstatus",
+  "identifier": [ {
+    "id": "2.16.840.1.113883.2.20.3.437"
+  } ],
+  "version": "20190415",
+  "name": "CommunicationStatus",
+  "status": "active",
+  "description": "The status of the communication.",
+  "expansion": {
+    "identifier": "urn:uuid:a005c0ac-ec1a-4428-9463-b02cef959f07",
+    "timestamp": "2025-07-25T11:32:44-04:00",
+    "total": 2,
+    "contains": [ {
+      "system": "http://hl7.org/fhir/communication-status",
+      "abstract": false,
+      "code": "completed",
+      "display": "Completed",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "The message transmission is complete, i.e., delivered to the recipient's destination."
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Completed"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "La transmission du message est terminée, c'est-à-dire que le message a été transmis au destinataire."
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Terminée"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/communication-status",
+      "abstract": false,
+      "code": "in-progress",
+      "display": "In Progress",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "The communication transmission is ongoing."
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "In Progress"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "La transmission du message est en cours."
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "En cours"
+      } ]
+    } ]
+  }
+}

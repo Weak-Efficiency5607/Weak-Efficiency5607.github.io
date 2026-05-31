@@ -1,0 +1,164 @@
+<subset>
+  <id>2.16.840.1.113883.2.20.3.440</id>
+  <name>PrescriptionRenewalReviewReason</name>
+  <url>https://tgateway.infoway-inforoute.ca/vs/prescriptionrenewalreviewreason</url>
+  <fhirUri>https://fhir.infoway-inforoute.ca/ValueSet/prescriptionrenewalreviewreason</fhirUri>
+  <versionId>20211004</versionId>
+  <effectiveDate>2021100404:00:00</effectiveDate>
+  <publicationTime>2021102804:57:13</publicationTime>
+  <description>Codes identifying reasons for reviewing a prescription renewal request</description>
+  <status>active</status>
+  <category>PrescribeIT</category>
+  <domains>
+    <string>PrescribeIT</string>
+  </domains>
+  <properties/>
+  <owner>Canada Health Infoway</owner>
+  <tags>
+    <string>Extensional</string>
+  </tags>
+  <terminologies class="com.google.gson.internal.LinkedTreeMap" resolves-to="linked-hash-map"/>
+  <type>Extensional</type>
+  <viewer>singlesubset</viewer>
+  <codeSystems>
+    <codesystem>
+      <id>8.1.1.1</id>
+      <name>CanadianActReason</name>
+      <businessName>CanadianActReason</businessName>
+      <url>https://fhir.infoway-inforoute.ca/CodeSystem/canadianactreason</url>
+      <version>&apos;20211004</version>
+    </codesystem>
+  </codeSystems>
+  <concepts>
+    <concept>
+      <id>LABREV</id>
+      <name>Will respond once lab work is reviewed</name>
+      <codeSystemId>8.1.1.1</codeSystemId>
+      <codeSystemName>CanadianActReason</codeSystemName>
+      <enDisplayName>Will respond once lab work is reviewed</enDisplayName>
+      <frDisplayName>Répondre une fois les analyses sanguines obtenues</frDisplayName>
+      <effectiveDate>2021100404:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>OTHERMFR</id>
+      <name>Other (with a mandatory freeform reason)</name>
+      <codeSystemId>8.1.1.1</codeSystemId>
+      <codeSystemName>CanadianActReason</codeSystemName>
+      <enDisplayName>Other (with a mandatory freeform reason)</enDisplayName>
+      <frDisplayName>Autre (motif obligatoire en texte libre)</frDisplayName>
+      <effectiveDate>2021100404:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>RESPTFOLLOWCMPT</id>
+      <name>Will respond once follow-up with patient is completed</name>
+      <codeSystemId>8.1.1.1</codeSystemId>
+      <codeSystemName>CanadianActReason</codeSystemName>
+      <enDisplayName>Will respond once follow-up with patient is completed</enDisplayName>
+      <frDisplayName>Répondre quand le suivi auprès du patient aura été fait</frDisplayName>
+      <effectiveDate>2021100404:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>SEEPATIENT</id>
+      <name>Will respond once patient comes in for an appointment</name>
+      <codeSystemId>8.1.1.1</codeSystemId>
+      <codeSystemName>CanadianActReason</codeSystemName>
+      <enDisplayName>Will respond once patient comes in for an appointment</enDisplayName>
+      <frDisplayName>Répondre quand le patient viendra pour son rendez-vous</frDisplayName>
+      <effectiveDate>2021100404:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>FOLLOWPAT</id>
+      <name>Will respond once follow-up with patient is completed</name>
+      <codeSystemId>8.1.1.1</codeSystemId>
+      <codeSystemName>CanadianActReason</codeSystemName>
+      <enDisplayName>Will respond once follow-up with patient is completed</enDisplayName>
+      <frDisplayName>Répondre quand le suivi auprès du patient aura été fait</frDisplayName>
+      <effectiveDate>2021100404:00:00</effectiveDate>
+      <active>false</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>OTHER</id>
+      <name>Other (with a mandatory freeform reason)</name>
+      <codeSystemId>8.1.1.1</codeSystemId>
+      <codeSystemName>CanadianActReason</codeSystemName>
+      <enDisplayName>Other (with a mandatory freeform reason)</enDisplayName>
+      <frDisplayName>Autre (motif obligatoire en texte libre)</frDisplayName>
+      <effectiveDate>2021100404:00:00</effectiveDate>
+      <active>false</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>FOLLOWPRES</id>
+      <name>Follow up with patient&apos;s primary or alternate prescriber</name>
+      <codeSystemId>8.1.1.1</codeSystemId>
+      <codeSystemName>CanadianActReason</codeSystemName>
+      <enDisplayName>Follow up with patient&apos;s primary or alternate prescriber</enDisplayName>
+      <frDisplayName>Suivi requis auprès du prescripteur principal ou de son substitut</frDisplayName>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>false</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>LAB</id>
+      <name>Lab work required</name>
+      <codeSystemId>8.1.1.1</codeSystemId>
+      <codeSystemName>CanadianActReason</codeSystemName>
+      <enDisplayName>Lab work required</enDisplayName>
+      <frDisplayName>Analyses de laboratoire requises</frDisplayName>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>false</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>NEEDAPMT</id>
+      <name>patient must make appointment</name>
+      <codeSystemId>2.16.840.1.113883.5.8</codeSystemId>
+      <codeSystemName>ActReason</codeSystemName>
+      <enDisplayName>Patient must make appointment</enDisplayName>
+      <frDisplayName>Le patient doit prendre rendez-vous</frDisplayName>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>false</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>TOOEARLY</id>
+      <name>too early</name>
+      <codeSystemId>2.16.840.1.113883.5.8</codeSystemId>
+      <codeSystemName>ActReason</codeSystemName>
+      <enDisplayName>Too early</enDisplayName>
+      <frDisplayName>Trop tôt</frDisplayName>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>false</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+  </concepts>
+</subset>

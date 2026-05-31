@@ -1,0 +1,392 @@
+{
+  "resourceType": "ValueSet",
+  "id": "identifiertype",
+  "url": "https://fhir.infoway-inforoute.ca/ValueSet/identifiertype",
+  "identifier": [ {
+    "id": "2.16.840.1.113883.2.20.3.449"
+  } ],
+  "version": "20210501",
+  "name": "IdentifierType",
+  "status": "active",
+  "description": "Forms of identification for people",
+  "expansion": {
+    "identifier": "urn:uuid:efa2200c-df7f-428e-ac0a-dae816529524",
+    "timestamp": "2025-07-25T11:32:48-04:00",
+    "total": 17,
+    "contains": [ {
+      "system": "http://hl7.org/fhir/v2/0203",
+      "abstract": false,
+      "code": "ACSN",
+      "display": "Accession ID",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Accession ID"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Identifiant d'accession"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v2/0203",
+      "abstract": false,
+      "code": "DL",
+      "display": "Driver's license number",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Driver's license number"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Numéro de permis de conduire"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v2/0203",
+      "abstract": false,
+      "code": "DR",
+      "display": "Donor Registration Number",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Donor Registration Number"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Numéro d'inscription du donneur"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v2/0203",
+      "abstract": false,
+      "code": "EN",
+      "display": "Employer number",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Employer number"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Numéro d'employé"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v2/0203",
+      "abstract": false,
+      "code": "FILL",
+      "display": "Filler Identifier",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Filler Identifier"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Identifiant de l'exécuteur de la requête"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v2/0203",
+      "abstract": false,
+      "code": "JHN",
+      "display": "Jurisdictional health number (Canada)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Jurisdictional health number (Canada)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Numéro d'assurance-maladie prov./terr. (Canada)"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v2/0203",
+      "abstract": false,
+      "code": "MCN",
+      "display": "Microchip Number",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Microchip Number"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Numéro de micropuce"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v2/0203",
+      "abstract": false,
+      "code": "MD",
+      "display": "Medical License number",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Medical License number"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Numéro du permis d'exercice"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v2/0203",
+      "abstract": false,
+      "code": "MR",
+      "display": "Medical record number",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Medical record number"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Numéro de dossier médical"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v2/0203",
+      "abstract": false,
+      "code": "NIIP",
+      "display": "National Insurance Payor Identifier (Payor)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "National Insurance Payor Identifier (Payor)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Identifiant du payeur d'assurance national (payeur)"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v2/0203",
+      "abstract": false,
+      "code": "PLAC",
+      "display": "Placer Identifier",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Placer Identifier"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Identifiant de l'auteur de la requête"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v2/0203",
+      "abstract": false,
+      "code": "PPN",
+      "display": "Passport number",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Passport number"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Numéro de passeport"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v2/0203",
+      "abstract": false,
+      "code": "PRN",
+      "display": "Provider number",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Provider number"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Numéro du professionnel de la santé"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v2/0203",
+      "abstract": false,
+      "code": "SB",
+      "display": "Social Beneficiary Identifier",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Social Beneficiary Identifier"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Identifiant du bénéficiaire de l'assistance sociale"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v2/0203",
+      "abstract": false,
+      "code": "SNO",
+      "display": "Serial Number",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Serial Number"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Numéro de série"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v2/0203",
+      "abstract": false,
+      "code": "TAX",
+      "display": "Tax ID number",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Tax ID number"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Numéro d’identification fiscale"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v2/0203",
+      "abstract": false,
+      "code": "UDI",
+      "display": "Universal Device Identifier",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Universal Device Identifier"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Identifiant de dispositif universel"
+      } ]
+    } ]
+  }
+}

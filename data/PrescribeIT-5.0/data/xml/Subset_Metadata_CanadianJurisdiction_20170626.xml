@@ -1,0 +1,19 @@
+<version>
+  <id>2.16.840.1.113883.2.20.3.438</id>
+  <url>https://tgateway.infoway-inforoute.ca/vs/canadianjurisdiction</url>
+  <fhirUri>https://fhir.infoway-inforoute.ca/ValueSet/canadianjurisdiction</fhirUri>
+  <name>CanadianJurisdiction</name>
+  <versionId>20170626</versionId>
+  <effectiveDate>2017062604:00:00</effectiveDate>
+  <description>Codes to identify the provinces and territories of Canada</description>
+  <status>active</status>
+  <codeSystems>
+    <codesystem>
+      <id>9.8.7.6</id>
+      <name>Canada Post Province Codes</name>
+      <businessName>Canada Post Province Codes</businessName>
+      <url>http://canadapost.ca/CodeSystem/ProvinceCodes</url>
+      <version>20170116</version>
+    </codesystem>
+  </codeSystems>
+</version>

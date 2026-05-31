@@ -1,0 +1,20 @@
+<version>
+  <id>2.16.840.1.113883.2.20.3.411</id>
+  <url>https://tgateway.infoway-inforoute.ca/vs/prescriptionobservationtypevitalsign</url>
+  <fhirUri>https://fhir.infoway-inforoute.ca/ValueSet/prescriptionobservationtypevitalsign</fhirUri>
+  <name>PrescriptionObservationTypeVitalSign</name>
+  <versionId>20170626</versionId>
+  <effectiveDate>2017062604:00:00</effectiveDate>
+  <publicationTime>2021051805:32:48</publicationTime>
+  <description>Types of vital sign observations relevant to prescribing</description>
+  <status>active</status>
+  <codeSystems>
+    <codesystem>
+      <id>2.16.840.1.113883.2.20.5.1</id>
+      <name>pCLOCD</name>
+      <businessName>pCLOCD</businessName>
+      <url>https://fhir.infoway-inforoute.ca/CodeSystem/pCLOCD</url>
+      <version>R05.13.00_2.69</version>
+    </codesystem>
+  </codeSystems>
+</version>

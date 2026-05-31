@@ -1,0 +1,144 @@
+{
+  "resourceType": "ValueSet",
+  "id": "prescriptionpharmacytasktype",
+  "url": "https://fhir.infoway-inforoute.ca/ValueSet/prescriptionpharmacytasktype",
+  "identifier": [ {
+    "id": "2.16.840.1.113883.2.20.3.417"
+  } ],
+  "version": "20190315",
+  "name": "PrescriptionPharmacyTaskType",
+  "status": "active",
+  "description": "PrescribeIT types of tasks for Pharmacies",
+  "expansion": {
+    "identifier": "urn:uuid:eba9f863-098c-4707-bdb6-08ddef428450",
+    "timestamp": "2025-07-25T11:34:24-04:00",
+    "total": 9,
+    "contains": [ {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/prescriptiontasktype",
+      "abstract": false,
+      "code": "p141-m",
+      "display": "Cancel Rx Request Refuse",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Cancel Rx Request Refuse"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/prescriptiontasktype",
+      "abstract": false,
+      "code": "p142-m",
+      "display": "Cancel Rx Request Approved",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Cancel Rx Request Approved"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/prescriptiontasktype",
+      "abstract": false,
+      "code": "p143-m",
+      "display": "Cancel Rx Remaining Fills Revoked",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Cancel Rx Remaining Fills Revoked"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/prescriptiontasktype",
+      "abstract": false,
+      "code": "p160-m",
+      "display": "RX Renewal Create Request",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "RX Renewal Create Request"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/prescriptiontasktype",
+      "abstract": false,
+      "code": "p166-m",
+      "display": "Rx Renewal Reminder",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Rx Renewal Reminder"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/prescriptiontasktype",
+      "abstract": false,
+      "code": "p170-m",
+      "display": "Pharmacist Adapt Notification",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Pharmacist Adapt Notification"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/prescriptiontasktype",
+      "abstract": false,
+      "code": "p190-m",
+      "display": "Pharmacist Prescribe Notification",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Pharmacist Prescribe Notification"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/prescriptiontasktype",
+      "abstract": false,
+      "code": "p200-m",
+      "display": "Rx Dispense Notification",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Rx Dispense Notification"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/prescriptiontasktype",
+      "abstract": false,
+      "code": "p210-m",
+      "display": "Rx Dispense Cancel Notification",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Rx Dispense Cancel Notification"
+      } ]
+    } ]
+  }
+}

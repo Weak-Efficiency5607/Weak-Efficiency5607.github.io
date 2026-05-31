@@ -1,0 +1,22 @@
+<version>
+  <id>2.16.840.1.113883.2.20.3.406</id>
+  <url>https://tgateway.infoway-inforoute.ca/vs/prescriptionmedicinalproduct</url>
+  <fhirUri>https://fhir.infoway-inforoute.ca/ValueSet/prescriptionmedicinalproduct</fhirUri>
+  <name>PrescriptionMedicinalProduct</name>
+  <versionId>20250715</versionId>
+  <effectiveDate>2025071504:00:00</effectiveDate>
+  <publicationTime>2025072503:00:45</publicationTime>
+  <description>Medicinal products for prescribing. The content of this subset only contains commonly used medicinal products that are available for prescribing and dispensing in Canada. This content will expand to include all human medicinal products over time.</description>
+  <status>active</status>
+  <codeSystems>
+    <codesystem>
+      <id>2.16.840.1.113883.2.20.6.1</id>
+      <name>Canadian Clinical Drug Data Set</name>
+      <businessName>Canadian Clinical Drug Data Set</businessName>
+      <url>https://fhir.infoway-inforoute.ca/CodeSystem/canadianclinicaldrugdataset</url>
+      <version>20250715</version>
+      <organization>Canada Health Infoway</organization>
+    </codesystem>
+  </codeSystems>
+  <intensionalDefinition>{&quot;nodeType&quot;:&quot;OPERATOR&quot;,&quot;value&quot;:&quot;UNION&quot;,&quot;left&quot;:{&quot;nodeType&quot;:&quot;OPERATOR&quot;,&quot;value&quot;:&quot;UNION&quot;,&quot;left&quot;:{&quot;nodeType&quot;:&quot;OPERATOR&quot;,&quot;value&quot;:&quot;UNION&quot;,&quot;left&quot;:{&quot;nodeType&quot;:&quot;SUBSET_FRAGMENT&quot;,&quot;value&quot;:&quot;COMPLETE_SUBSET&quot;,&quot;subsetId&quot;:&quot;2.16.840.1.113883.2.20.6.1.MPACTIVE&quot;,&quot;version&quot;:&quot;20250715&quot;},&quot;right&quot;:{&quot;nodeType&quot;:&quot;SUBSET_FRAGMENT&quot;,&quot;value&quot;:&quot;COMPLETE_SUBSET&quot;,&quot;subsetId&quot;:&quot;2.16.840.1.113883.2.20.6.1.NTPACTIVE&quot;,&quot;version&quot;:&quot;20250715&quot;}},&quot;right&quot;:{&quot;nodeType&quot;:&quot;SUBSET_FRAGMENT&quot;,&quot;value&quot;:&quot;COMPLETE_SUBSET&quot;,&quot;subsetId&quot;:&quot;2.16.840.1.113883.2.20.6.1.TMACTIVE&quot;,&quot;version&quot;:&quot;20250715&quot;}},&quot;right&quot;:{&quot;nodeType&quot;:&quot;SUBSET_FRAGMENT&quot;,&quot;value&quot;:&quot;COMPLETE_SUBSET&quot;,&quot;subsetId&quot;:&quot;2.16.840.1.113883.2.20.6.1.DeviceNTPACTIVE&quot;,&quot;version&quot;:&quot;20250715&quot;}}</intensionalDefinition>
+</version>

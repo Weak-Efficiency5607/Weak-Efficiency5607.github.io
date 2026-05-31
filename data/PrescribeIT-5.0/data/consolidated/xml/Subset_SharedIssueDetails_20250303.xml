@@ -1,0 +1,2003 @@
+<subset>
+  <id>2.16.840.1.113883.2.20.3.444</id>
+  <name>SharedIssueDetails</name>
+  <url>https://tgateway.infoway-inforoute.ca/vs/sharedissuedetails</url>
+  <fhirUri>https://fhir.infoway-inforoute.ca/ValueSet/sharedissuedetails</fhirUri>
+  <versionId>20250303</versionId>
+  <effectiveDate>2025030305:00:00</effectiveDate>
+  <publicationTime>2025050703:24:40</publicationTime>
+  <description>Codes to identify the issues that are returned as errors in response to messages received.</description>
+  <status>active</status>
+  <category>PrescribeIT</category>
+  <domains>
+    <string>PrescribeIT</string>
+  </domains>
+  <properties/>
+  <owner>Canada Health Infoway</owner>
+  <tags>
+    <string>Extensional</string>
+  </tags>
+  <terminologies class="com.google.gson.internal.LinkedTreeMap" resolves-to="linked-hash-map"/>
+  <type>Extensional</type>
+  <viewer>singlesubset</viewer>
+  <codeSystems>
+    <codesystem>
+      <id>2.16.840.1.113883.6.343</id>
+      <name>SharedIssueDetails</name>
+      <businessName>SharedIssueDetails</businessName>
+      <url>https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails</url>
+      <version>20250303</version>
+    </codesystem>
+  </codeSystems>
+  <concepts>
+    <concept>
+      <id>ISS072</id>
+      <name>Secure Token Service. At this time the STS errors do not leverage the OperationOutcome; as a result ISS codes are only embedded in the display text.</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>ISS072- Your authentication token request has been received; however, the external token is invalid. Please contact your Technical Support team.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS073</id>
+      <name>Secure Token Service. At this time the STS errors do not leverage the OperationOutcome; as a result ISS codes are only embedded in the display text.</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>ISS073- Your authentication token request has been received; however, the external token required is missing in the request. Please contact your Technical Support team.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS074</id>
+      <name>Secure Token Service. At this time the STS errors do not leverage the OperationOutcome; as a result ISS codes are only embedded in the display text.</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>ISS074- Your authentication token request has been received. Our attempt to connect with a third party application has failed. Please try again. If this issue persists, please contact your Technical Support team.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS075</id>
+      <name>Secure Token Service. At this time the STS errors do not leverage the OperationOutcome; as a result ISS codes are only embedded in the display text.</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>ISS075- Your authentication token request has been received. The external token has expired and has been rejected. Please contact your Technical Support team.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS076</id>
+      <name>Secure Token Service. At this time the STS errors do not leverage the OperationOutcome; as a result ISS codes are only embedded in the display text.</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>ISS076- Your authentication token request has been received. The validation of the practitioner&apos;s license number included in the external token has failed. The license number provided did not match what we have associated to your profile. Please contact your Technical Support team.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS077</id>
+      <name>Secure Token Service. At this time the STS errors do not leverage the OperationOutcome; as a result ISS codes are only embedded in the display text.</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>ISS077- Your authentication token request has been received. The validation of the practitioner&apos;s license issuer (OID) included in the external token has failed. The provided license issuer did not match what we have associated to your profile. Please contact your Technical Support team.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS101</id>
+      <name>Duplicate checking based on Message Header ID.</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>This Message Header Id and message content have already been submitted. This is a duplicate submission.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS102</id>
+      <name>Duplicate checking with different message content</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>This is a duplicate message submission with content that differs from the original</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS103</id>
+      <name>Trace Id required</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>The variable &apos;X-TELUS-SDF-TraceId&apos; is needed in the request header and must not be empty</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS115</id>
+      <name>Only UTF-8 characters are to be supported</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>The message should be encoded with characters supported by the UTF-8 encoding only and a non-UTF-8 encoded character was detected in the message. Message rejected.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS121</id>
+      <name>FHIR validation issue</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>FHIR Message validation failed. Message is not properly formatted.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS123</id>
+      <name>Sender validation failure</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>This Sender Clinic/Organization/Location is not recognized in the Provider Registry</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS124</id>
+      <name>Destination validation failure</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>This Destination Clinic/Organization/Location is not recognized in the Provider Registry.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS125</id>
+      <name>Sender does not have contract</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>Sender does not have a contract in the Provider Registry to allow this type of message.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS126</id>
+      <name>Destination does not have contract</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>Destination does not have a contract in the Provider Registry to allow this type of message</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS127</id>
+      <name>Sending application version issue</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>Sending application version in the inbound message does not match the value in the PrescribeIT database.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS128</id>
+      <name>Sender Organizaton not active</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>Sender Organization status is not active for message types : 301, 302, 305, 401, 901, 997, 998, and 999.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS129</id>
+      <name>Destination Organization is not active</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>Destination Organization status is not active for message types : 301, 302, 305, 401, 901, 997, 998, and 999.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS130</id>
+      <name>201 Prescriber validation</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>Prescriber does not have a relationship to the Destination Organization</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS141</id>
+      <name>SAML token validation issue</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>PrescribeIT™ reject due to synchronous validation failure SAML Token Validation failure ISS141 – SAML Token is not valid.Message is rejected. No re-submission</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS142</id>
+      <name>Invalid SAML token</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>PrescribeIT™ reject due to : Invalid SAML claim. No re-submission</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS143</id>
+      <name>Cancel Prescription must be standalone message</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>PrescribeIT™ Cancel Requests (e140 task) must be delivered as a standalone message; they cannot be bundled with other messages except in the case where all medication (or non-medication) orders within a prescription are cancelled at the same time. The e140 task must be bundled separately and can not be bundled with any other message type. No re-submission</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS156</id>
+      <name>Incorrect 401 bundle.</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>Incorrect 401 bundle. The following tags must not be in the input bundle : message-key, last-name, birth-date.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS157</id>
+      <name>Deferred or Held Prescription not found</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>Prescription bundle rejected due to prescription not found and/or missing mandatory headers. For the Deferred or Held prescriptions, mandatory headers: X-SHAREDHEALTH-EXCHANGE-SENDING-ORGANIZATION-ID and X-SHAREDHEALTH-EXCHANGE-SENDING-APP-INSTANCE-ID.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS158</id>
+      <name>Deferred or Held Prescription already downloaded</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>This prescription has already been downloaded by another Pharmacy and is therefore not available.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS159</id>
+      <name>Deferred or Held Prescription reserved by another pharmacy</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>401 bundle rejected due to: Prescription found, but already reserved by another pharmacy.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS160</id>
+      <name>Deferred or Held Prescription found but not downloaded</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>Delete - 401 bundle rejected due to: Prescription found, but has not been downloaded yet.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS161</id>
+      <name>Deferred or Held Prescription already deleted</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>401 bundle rejected due to: Prescription found, but already deleted (ACKNOWLEDGED).</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS162</id>
+      <name>Message Header for sending organization not defined</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>401 bundle rejected due to: Header X-SHAREDHEALTH-EXCHANGE-SENDING-ORGANIZATION-ID is not defined or is invalid.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS163</id>
+      <name>Message Header for sending application not defined</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>401 bundle rejected due to : Header X-SHAREDHEALTH-EXCHANGE-SENDER-APPLICATION-ID is not defined. No re-submission</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS164</id>
+      <name>Invalid Deferred or Held GET request</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>The request to download a prescription requires two pieces of data: (Identifier + Last name) or (Identifier + Date of Birth).</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS171</id>
+      <name>New RX - Medication Order is not unique</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>New RX Failed. New Prescription Id (medicationOrder.Identifier) is not Unique No re-submission.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS172</id>
+      <name>Original Dispense - Medication Order is not unique</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>Original Dispense. Prescription Id (medicationOrder.Identifier) is not Unique. No re-submission.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS173</id>
+      <name>Dispense Refill Medication Order is not unique</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>Dispense Refill. Prescription Id (medicationOrder.Identifier) is not Unique. No re-submission.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS174</id>
+      <name>Cancel Pending - Medication Order is not unique</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>Cancel Pending. Prescription Id (medicationOrder.Identifier) is not Unique. No re-submission.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS175</id>
+      <name>Cancel Accept - Medication Order is not unique</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>Cancel Accept. Prescription Id (medicationOrder.Identifier) is not Unique. No re-submission.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS176</id>
+      <name>Cancel Decline - Medication Order is not unique</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>Cancel Decline. Prescription Id (medicationOrder.Identifier) is not Unique. No re-submission.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS177</id>
+      <name>Cancel Revoke - Medication Order is not unique</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>Cancel Revoke. Prescription Id (medicationOrder.Identifier) is not Unique. No re-submission.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS178</id>
+      <name>Dispense Notification - Medication Order is not unique</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>The dispense notification cannot be processed because there is cancel request in pending state</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS179</id>
+      <name>Cancel Already submitted</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>This is the second submission of a cancel request</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS181</id>
+      <name>communication. Attachments exceeded allowed size of 50MB</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>301 bundle rejected due to : Attachment size exceeds 50 MB.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS186</id>
+      <name>e180 reject as cancel not allowed</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>Cancel task e-180m rejected due to : Cancel request can not be generated for Deferred prescription No re-submission</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS190</id>
+      <name>305 communication. Missing ext-communication-enterer</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>305 Message from Organization to Practitioner ext-communication-enterer is mandatory</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS191</id>
+      <name>Provider Registry failure due to missing parameter</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>TPRCache search failed as the result of unavailable mandatory parameter. Required parameters must have a valid value specified</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS192</id>
+      <name>TPR cache. The GET by identifier 0 results</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>TPRCache search (GET) by Identifier didn’t result in any match. Resource is not found. May be a typo in the identifier provided.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS193</id>
+      <name>Provider Registry query not structured properly</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>TPRCache search failed as the result of unavailable Practitioner:organization parameter in _include or _revinclude. Required parameters must have value specified. Query is not structured correctly.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS194</id>
+      <name>Provider Registry = elastic search not structured properly</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>TPRCache search failed as the result of elastic-search-attribute-set value is not equal to 001 and 002. Query is not structured correctly</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS195</id>
+      <name>Provider Registry - minimum length issue</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>The [PARAMETER NAME] Value that was sent had less then mandatory length: 3 characters. Please update and try again.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS196</id>
+      <name>Provider Registry - telephone number issue</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>The telephone number must be structured as a 10 digit number. Please update and try again.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS197</id>
+      <name>Provider Registry - incorrectly formatted request</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>TPRCache search failed as the result of incorrectly formatted Request. Multiple values detected for non-repeatable parameter [Parameter Name]. This server is not configured to allow multiple (AND/OR) values for this param. No re-submission</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS198</id>
+      <name>Provider Registry - address line failure</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>TPRCache search failed as the result of incorrectly formatted Request. Cannot use address-line:exact and address-line:contains in same Search Query. No re-submission</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS200</id>
+      <name>Message delivery validation</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>Bundle rejected due to: MedicationOrder identifier element is incorrect.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS201</id>
+      <name>Provider Registry search parameter- minimum length issue</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>The [PARAMETER NAME] Value that was sent had less then mandatory length: 2 characters. Please update and try again.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS206</id>
+      <name>Formulary - invalid search parameters used</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>The search parameters you have included in your search are not valid.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS212</id>
+      <name>Provider Registry - wild cards not supported</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>&quot;TPRCache search failed as the result of: Wild cards not allowed to use in search parameters.&quot;</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS213</id>
+      <name>Provider Registry -</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>&quot;TPRCache search failed as the result of: The FHIR endpoint on this server does not know how to handle GET operation Organization with missing parameter [role]&quot; Query is not structured correctly. (elastic search)</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS214</id>
+      <name>Invalid Sender Profile Direction</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>Invalid Sender Profile Direction</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS216</id>
+      <name>Destination cannot receive message</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>The destination cannot receive message . No re-submission</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS217</id>
+      <name>Destination cannot receive task</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>The destination cannot receive task . No re-submission</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS218</id>
+      <name>Sender is not conformed to send task</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>Sender cannot send this task. Not conformed.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS220</id>
+      <name>Formulary - application headers missing</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>One or more mandatory application header(s) is/are missing or empty.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS221</id>
+      <name>Formulary - request invalid</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>When a formulary query request is found to be invalid then PrescribeIT™ must send a coded error response back to the EMR. These scenarios must include: The Application Id given with header X-TELUS-SDF-APPID not found in the provider registry.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS222</id>
+      <name>Formulary - application ID not recognized</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>Provided application id is not recognized in the Provider Registry.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS223</id>
+      <name>Formulary - application instance not recognized</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>Provided application instance id is not recognized in the Provider Registry.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS224</id>
+      <name>Formulary - Organization ID not recognized</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>Provided organization id is not recognized in the Provider Registry.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS225</id>
+      <name>Formulary - practitioner ID not recognized</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>Provided practitioner id is not recognized in the Provider Registry.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS226</id>
+      <name>Formulary - application instance ID issue</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>Provided application instance id is not tied to the provided application id in the Provider Registry.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS227</id>
+      <name>Formulary - application id doesn&apos;t match org</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>Provided application id is not allowed to send request on behalf of provided organization id according to the Provider registry</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS228</id>
+      <name>Formulary - organization ID not enrolled</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>Provided organization id has not the expected PrescibeIT enrolment to perform this request, or the organization is not active.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS229</id>
+      <name>305 communication. Organization to Practitioner error.</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>MessageHeader/source/endpoint does not match Communication/reply-to/valueReference/reference value, Or Communication/reply-to/valueReference/reference value does not match Communication/sender</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS230</id>
+      <name>305 communication. Organization to Practitioner error.</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>MessageHeader/destination/endpoint does not match Communication/recipient/OBO/valueReference/reference value</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS231</id>
+      <name>305 communication. Organization/OBO doesn&apos;t exist</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>Recipient Organization/OBO does not exist in registry</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS233</id>
+      <name>305 communication. Validation error.</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>Communication/Sender does not match Communication/replay-to/valueReference/reference value.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS234</id>
+      <name>305 communication. Validation error.</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>Sender is LOCUM: MessageHeader/source/endpoint does not match Communication/reply-to/OBO/valueReference/reference value.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS235</id>
+      <name>305 communication. Validation error.</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>Communication/reply-to/ext-reference-on-behalf-of does not exist</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS242</id>
+      <name>305 communication. Validation error.</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>MessageHeader/destination/endpoint does not match Communication/recipient/OBO/valueReference/reference value.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS245</id>
+      <name>305 communication. Validation error.</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>301/305 message sent with an attachment payload where UUID of the attachment has already been used.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS246</id>
+      <name>305 communication. Validation error.</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>305 Message from Practitioner to Organization: Sender practitioner Id is inactive.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS247</id>
+      <name>305 communication. Validation error.</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>305 Message from Organization to Practitioner: Recipient practitioner Id is inactive.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS260</id>
+      <name>TPR cache registry query</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>TPR cache search failed as the result of invalid characters(s) in the elastic search string</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS529</id>
+      <name>The bundle can only contain Pharmacist Adapt tasks</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>When submitting a Pharmacist Adapt (p170-m) the bundle must only contain Pharmacist Adapt tasks. We have identified tasks of different types contained in this bundle. If you are able, correct and resubmit. Else, please provide the Detail Code and Reference Number shown below. Detail Code {0} - Reference # {1}.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS530</id>
+      <name>The bundle can only contain Pharmacist Prescribe tasks</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>When submitting a Pharmacist Prescribe task (p190-,) the bundle must only contain Pharmacist Prescribe tasks. We have identified task of different types contained in this bundle. If you are able, correct and resubmit. Else, please contact technical support and provide the Detail Code and Reference Number shown below. Detail Code {0} - Reference # {1}.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS531</id>
+      <name>Attachment upload service - antivirus failure</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>Antivirus check failed.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS532</id>
+      <name>Attachment download service</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>Attachment not available.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS533</id>
+      <name>Attachment upload/download service</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>Attachment validation failed.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS541</id>
+      <name>For Capability Check - Do not deliver, we will accept the message, but not route to the destination, as they are unable to manage it. Instead we append an OO to our HTTP2x response.</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>The message was accepted but not routed to the destination due to the capabilities of the destination system.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS542</id>
+      <name>To support the implementation of the Capability Check – Accept do not deliver feature we have assessed the content of the bundle and found that at least one of the tasks should not be delivered to the destination.</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>This message cannot be delivered to the desired destination. Our profiles indicate that at least one of the messages in this bundle cannot be managed by the destination. Please revert to manual processing for this message and call Technical support and provide them with the Detail Code and Reference Number shown below. \n\nDetail Code {0} - Reference # {1}.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS562</id>
+      <name>Provider Registry - Error when fax number is not 10 digits for the discrete search.</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>The fax number must be structured as a 10 digit number. Please update and try again.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS564</id>
+      <name>Provider Registry - Error when the organization name occurs twice in the query</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>Only a single name is allowed. Please update and try again.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS565</id>
+      <name>Provider Registry - Error when the family name occurs twice in the query</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>Only a single family name is allowed. Please update and try again.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS566</id>
+      <name>Provider Registry - Error when address city occurs twice in the query</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>Only a single organization.address-city is allowed. Please update and try again.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS570</id>
+      <name>Provider Registry - Error when the _lastUpdated parameter is not valid.</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>The _lastUpdated parameter provided in the request is not valid. Please correct this and resubmit the request.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS571</id>
+      <name>Inbox polling acknowledge</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>We have determined that you sent an acknowledgement response; however, you have sent it to an incorrect URL address. Please correct this and resend it. Note: Messages that have not been properly acknowledged will remain in your inbox.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS572</id>
+      <name>Deferred or Held Prescription archived</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>The prescription bundle is found, but has been archived and therefore is no longer available for download.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS573</id>
+      <name>Message delivery validation</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>For message delivery validation there must be at least one of quantity or expectedSupplyDuration that must be supplied.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS574</id>
+      <name>Message delivery validation</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>For message delivery validation there must be at least one of total prescribed quantity or total days supply that must be supplied.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS575</id>
+      <name>Message delivery validation</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>For message delivery validation the For Life flag cannot be set to true.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS576</id>
+      <name>Registry query - message header validation</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>In the message header, you must provide the CPRId representing the organization sending of this request. The CPR Id is either not found or a CPR Id has not been provided.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS577</id>
+      <name>Registry query - message header validation</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>The CPRId presented in the registration query is associated to a jurisdiction that prevents the solution from returning the record. Therefore, no results are available.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS578</id>
+      <name>Inbox polling acknowledge</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>During inspection of this request (clear-message-queue) we determined that a bundle id has been presented multiple times with conflicting methods (both PUT and DELETE). We cannot process this entire request.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS579</id>
+      <name>Inbox polling acknowledge</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>This request contains a method that is not supported. For the &apos;clear-message-queue&apos; request, we only support PUT and DELETE.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS580</id>
+      <name>Inbox polling acknowledge</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>For the &apos;clear-message- queue&apos; when the method of PUT is provided, a &apos;cancel reason&apos; must be provided.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS581</id>
+      <name>Cancel the download of a deferred or held prescription</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>The prescription bundle does not have the status of &apos;acknowledged&apos;, therefore it is not eligible to be &apos;cancel/reversed&apos;</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS582</id>
+      <name>Cancel the download of a deferred or held prescription</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>Our records indicate that one or more of the Rx/Medication Orders within this prescription bundle are not in a state where the cancel can proceed, i.e. one or more have a &apos;dispense&apos; actioned against it.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS583</id>
+      <name>Cancel the download of a deferred or held prescription</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>The prescription bundle download cannot be cancelled as the PMS that has requested to cancel the download does not match the PMS that acknowledged the original download.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS584</id>
+      <name>Held Prescription cannot be downloaded</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>The prescription bundle download cannot proceed as the PMS that has requested the download does not match the pharmacy destination CPRID that is identified in the original 401 bundle.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS585</id>
+      <name>Message delivery validation</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>The message that has been submitted cannot be routed. Based on the jurisdictional rules the sender&apos;s jurisdiction cannot send this message type. Message type not supported: 101.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS586</id>
+      <name>Message delivery validation</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>The message that has been submitted cannot be routed. Based on the jurisdictional rules the destination&apos;s jurisdiction cannot receive this message type. Message type not supported: 101.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS587</id>
+      <name>Message delivery validation</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>The message that has been submitted cannot be routed. Based on the jurisdictional rules the sender&apos;s jurisdiction cannot send this message type. Message types not supported: 201, 305, 401.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS588</id>
+      <name>Message delivery validation</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>The message that has been submitted cannot be routed. Based on the jurisdictional rules the destination&apos;s jurisdiction cannot receive this message type. Message types not supported: 201, 305, 401.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS589</id>
+      <name>Deferred Prescription cannot be downloaded</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>The prescription bundle download cannot proceed as the PMS that has requested the download does not have the jurisdictional privileges to retrieve this message.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS590</id>
+      <name>Message delivery validation</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>The message that has been submitted cannot be routed. Deferred Rx prescriptions cannot be sent with other prescription types.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS591</id>
+      <name>Held Prescription cannot be downloaded</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>The prescription bundle download cannot proceed as it is no longer available for retrieval.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS592</id>
+      <name>New RX - Medication Order is not unique</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>The Identifier is not unique. RX ID was already used and original order has been discontinued.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS593</id>
+      <name>Discontinue order already submitted</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>This is the second submission of a discontinue request.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS594</id>
+      <name>901 asynchronous notification</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>Message is routed via fax route.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS595</id>
+      <name>999 asynchronous error</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>Message was not delivered to the destination.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS596</id>
+      <name>999 asynchronous error</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>Message was not delivered to the destination via fax.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS597</id>
+      <name>999 asynchronous error</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>Message failed to be delivered to the destination.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS598</id>
+      <name>997/999 asynchronous error</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>Destination didn&apos;t pick the message from their inbox.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS599</id>
+      <name>997/999 asynchronous error</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>Destination polled, but didn&apos;t acknowledge the message from their inbox.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS605</id>
+      <name>998 asynchronous error</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>An attachment was not uploaded.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS606</id>
+      <name>998 asynchronous error</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>Unable to route message to destination due to an internal error.</enDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS607</id>
+      <name>Practitioner is not associated to the organization.</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>The practitioner and organization do not have an association in the provider registry.</enDisplayName>
+      <frDisplayName>Le praticien et l&apos;organisation ne sont pas associés dans le registre des fournisseurs.</frDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS608</id>
+      <name>Practitioner contract status is not valid.</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>The practitioner must have a valid status, and the status must be Active or Pending.\n Follow up with your administrator or support team if needed.</enDisplayName>
+      <frDisplayName>Le praticien doit avoir un statut valide, c&apos;est-à-dire Actif ou En attente./nCommuniquez avec votre administrateur ou équipe de soutien, au besoin.</frDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS609</id>
+      <name>The practitioner could not be found in the provider registry.</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>The practitioner could not be found in the provider registry.\n Follow up with your administrator or support team if needed.</enDisplayName>
+      <frDisplayName>Impossible de trouver le praticien dans le registre des fournisseurs./nCommuniquez avec votre administrateur ou équipe de soutien, au besoin.</frDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS610</id>
+      <name>Organization contract status is not valid.</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>The organization must have a valid contract and its status must be Active or Pending.\n Follow up with your administrator or support team if needed.</enDisplayName>
+      <frDisplayName>L&apos;organisation doit détenir un contrat valide et son statut doit être Actif ou En attente./nCommuniquez avec votre administrateur ou équipe de soutien, au besoin.</frDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS611</id>
+      <name>Invalid date or time in the request.</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>The date timestamp in the request is invalid.</enDisplayName>
+      <frDisplayName>L&apos;horodatage de la demande n&apos;est pas valide.</frDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS612</id>
+      <name>Organization status is not Active.</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>The organization status must be Active.\n Follow up with your administrator or support team if needed.</enDisplayName>
+      <frDisplayName>Le statut de l&apos;organisation doit être actif./nCommuniquez avec votre administrateur ou équipe de soutien, au besoin.</frDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS617</id>
+      <name>One or more medications do not contain an Indication For Use.</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>The ‘Indication for Use’ value has not been provided for the following medications, which is mandatory based on regulations in your province: {1}, {2}... \n Please add the ‘Indication for Use’ value to these medications and resubmit them.</enDisplayName>
+      <frDisplayName>L&apos;indication d&apos;utilisation n&apos;a pas été fournie pour les médicaments suivants; il s&apos;agit d&apos;une valeur obligatoire établie en fonction de la réglementation dans votre province : {1}, {2}... \n Veuillez ajouter la valeur de l&apos;indication d&apos;utilisation à ces médicaments et les soumettre à nouveau.</frDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS621</id>
+      <name>Issue Performing Capability Search</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>An unexpected error has occurred when searching for the destination’s list of supported messages (capabilities). Please call Technical support and provide them with the Detail Code and Reference Number shown below. \n Detail Code {0} – Reference # {1}.</enDisplayName>
+      <frDisplayName>Une erreur inattendue est survenue lors de la recherche de la liste de messages pris en charge par le destinataire. Veuillez communiquer avec le soutien technique et fournissez-leur le code de détail et le numéro de référence affichés ci-dessous :\n{1}</frDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS622</id>
+      <name>Accepted But Not Delivered, Prescriber Contract Invalid</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>Message was accepted but not delivered to the destination due to the prescriber not having a contract with PrescribeIT</enDisplayName>
+      <frDisplayName>Le message a été accepté, mais n&apos;a pas été livré au destinataire, car le prescripteur n’est pas enregistré à PrescripTIon</frDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS623</id>
+      <name>Accepted But Not Delivered, Clinic Contract Invalid</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>Message was accepted but not delivered to the destination due to the clinic not having a contract with PrescribeIT</enDisplayName>
+      <frDisplayName>Le message a été accepté, mais n&apos;a pas été livré au destinataire, car la clinique n’est pas enregistré à PrescripTIon</frDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS624</id>
+      <name>Accepted But Not Delivered, Prescriber not Associated to Clinic</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>Message was accepted but not delivered to the destination due to the prescriber not being associated to the specified clinic</enDisplayName>
+      <frDisplayName>Le message a été accepté, mais n&apos;a pas été livré au destinataire, car le prescripteur n&apos;est pas associé à la clinique spécifiée</frDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS625</id>
+      <name>Accepted But Not Delivered, Inactive Prescriber</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>Message was accepted but not delivered to the destination due to the prescriber being inactive on PrescribeIT</enDisplayName>
+      <frDisplayName>Le message a été accepté, mais n&apos;a pas été livré au destinataire, car le prescripteur n’est pas activé sur PrescripTIon</frDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS626</id>
+      <name>Accepted But Not Delivered, Inactive Clinic</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>Message was accepted but not delivered to the destination due to the clinic being inactive on PrescribeIT</enDisplayName>
+      <frDisplayName>Le message a été accepté, mais n&apos;a pas été livré au destinataire, car la clinique n’est pas activé sur PrescripTIon</frDisplayName>
+      <effectiveDate>2025030305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS183</id>
+      <name>State tracking lock ack error: Prescription already sent .</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>The same message has already been sent with both the same content and the same header X-TELUS-SDF-TraceId</enDisplayName>
+      <effectiveDate>2023013105:00:00</effectiveDate>
+      <active>false</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS104</id>
+      <name>Destination Organization is not recognized</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>The destination organization is not recognized</enDisplayName>
+      <effectiveDate>2022080904:00:00</effectiveDate>
+      <active>false</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS120</id>
+      <name>Unrecognized Message Type</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>Initial Validation failed as the result of unrecognized Message Type</enDisplayName>
+      <effectiveDate>2022080904:00:00</effectiveDate>
+      <active>false</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS144</id>
+      <name>Medication Order must belong to same original bundle</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>Cancel requests sent in a single bundle must be part of the same original Prescription</enDisplayName>
+      <effectiveDate>2022080904:00:00</effectiveDate>
+      <active>false</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS165</id>
+      <name>Invalid GET request due to bad query parameters</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>401 bundle rejected due to : Bad query parameters. No re-submission</enDisplayName>
+      <effectiveDate>2022080904:00:00</effectiveDate>
+      <active>false</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS166</id>
+      <name>communication. OBO and Desinations count does not match</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>The number of Communication OBO organizations should be same as Message header destination number. 301 Destination endpoint in the message header does not match communication recipient ext-reference-on-behalf-of organization.</enDisplayName>
+      <effectiveDate>2022080904:00:00</effectiveDate>
+      <active>false</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS167</id>
+      <name>communication. Validation Organization to Practitioner</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>301 The practitioner does not belong to the ext-reference-on-behalf-of organization</enDisplayName>
+      <effectiveDate>2022080904:00:00</effectiveDate>
+      <active>false</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS168</id>
+      <name>communication. Sender validation has failed.</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>301 Sender endpoint in message header does not match ext-reference-on-behalf-of organization from Communicate-reply-to</enDisplayName>
+      <effectiveDate>2022080904:00:00</effectiveDate>
+      <active>false</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS169</id>
+      <name>communication. Mandatory parameter missing</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>301 ext-reference-on-behalf-of is missing under communication-reply-to</enDisplayName>
+      <effectiveDate>2022080904:00:00</effectiveDate>
+      <active>false</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS170</id>
+      <name>communication. Sender details doe not match expected input</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>301 communication sender does not match ext-communication-reply-to practitioner</enDisplayName>
+      <effectiveDate>2022080904:00:00</effectiveDate>
+      <active>false</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS182</id>
+      <name>Aged process.</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>The messages were not picked up by the recipient.</enDisplayName>
+      <effectiveDate>2022080904:00:00</effectiveDate>
+      <active>false</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS215</id>
+      <name>No sender Capability</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>No Sender Capability available for a particular Sender</enDisplayName>
+      <effectiveDate>2022080904:00:00</effectiveDate>
+      <active>false</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS236</id>
+      <name>305 communication. Validation error.</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>Communication/recipient/ext-reference-on-behalf-of does not exist</enDisplayName>
+      <effectiveDate>2022080904:00:00</effectiveDate>
+      <active>false</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS300</id>
+      <name>communication. Unable to resolve destinations.</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>301 Processor Unable to resolve any of the destinations in the message.</enDisplayName>
+      <effectiveDate>2022080904:00:00</effectiveDate>
+      <active>false</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS301</id>
+      <name>communciation. Failed to route message to recipient inbox.</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>301 Processor Failed to route message to recipient inbox. Error Details</enDisplayName>
+      <effectiveDate>2022080904:00:00</effectiveDate>
+      <active>false</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS302</id>
+      <name>communication. Unable to insert destination in Inbox</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>301 Processor Unable to insert destinations details an InboxEntryEntity must be obtained first</enDisplayName>
+      <effectiveDate>2022080904:00:00</effectiveDate>
+      <active>false</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS568</id>
+      <name>Secure Delivery Framework</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>Secure Delivery Framework error has occurred.</enDisplayName>
+      <effectiveDate>2022080904:00:00</effectiveDate>
+      <active>false</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS232</id>
+      <name>305 communication. Validation error.</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>MessageHeader/source/endpoint does not match Communication/reply-to/OBO/valueReference/reference value.</enDisplayName>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>false</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS238</id>
+      <name>305 communication. Validation error.</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>Sender with wrong type.</enDisplayName>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>false</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS241</id>
+      <name>305 communication. Attachment error.</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>The attachment content-type is not in: application/pdf, image/jpeg, image/png, image/tiff, text/plai</enDisplayName>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>false</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS243</id>
+      <name>305 communication. Validation error.</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>MessageHeader/destination/endpoint does not match Communication/recipient/OBO/valueReference/reference value.</enDisplayName>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>false</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS244</id>
+      <name>305 communication. Validation error.</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>The a Clinician Communication is directed to an organization but the destination organization does not support Clinician Communication</enDisplayName>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>false</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS105</id>
+      <name>Issue detected by validator</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>FHIR Message Validation failed. Message is not properly formated.</enDisplayName>
+      <effectiveDate>2019031504:00:00</effectiveDate>
+      <active>false</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS202</id>
+      <name>Formulary - TM cannot be found</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>If the Product ID is a DIN with the Representative DIN boolean set to TRUE and a TM cannot be found in the formulary table for that Jurisdiction</enDisplayName>
+      <effectiveDate>2018043004:00:00</effectiveDate>
+      <active>false</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS203</id>
+      <name>Formulary - Product ID not found</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>If the Representative DIN boolean is set to false and the product ID cannot be found in appropriate MP, NTP or TM columns for that Jurisdiction</enDisplayName>
+      <effectiveDate>2018043004:00:00</effectiveDate>
+      <active>false</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS204</id>
+      <name>Formulary - DIN assigned to multiple products</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>Formulary query request finds multiple valid Product ID codes. This may occur when Canada assigns the same DIN to multiple products.</enDisplayName>
+      <effectiveDate>2018043004:00:00</effectiveDate>
+      <active>false</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ISS205</id>
+      <name>Formulary Code and Coverage cannot be found.</name>
+      <codeSystemId>2.16.840.1.113883.6.343</codeSystemId>
+      <codeSystemName>SharedIssueDetails</codeSystemName>
+      <enDisplayName>Formulary Code and Coverage cannot be found.</enDisplayName>
+      <effectiveDate>2018043004:00:00</effectiveDate>
+      <active>false</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+  </concepts>
+</subset>

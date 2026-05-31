@@ -1,0 +1,284 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+   <id value="prescriptiontasktype"></id>
+   <url value="https://fhir.infoway-inforoute.ca/ValueSet/prescriptiontasktype"></url>
+   <identifier id="2.16.840.1.113883.2.20.3.414"></identifier>
+   <version value="20220913"></version>
+   <name value="PrescriptionTaskType"></name>
+   <status value="active"></status>
+   <description value="PrescribeIT types of tasks"></description>
+   <expansion>
+      <identifier value="urn:uuid:f1132d88-26d2-4d8a-b447-f8a0a881907e"></identifier>
+      <timestamp value="2025-07-25T11:34:33-04:00"></timestamp>
+      <total value="18"></total>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/prescriptiontasktype"></system>
+         <abstract value="false"></abstract>
+         <code value="e110-m"></code>
+         <display value="New RX Fill Request"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="New RX Fill Request"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/prescriptiontasktype"></system>
+         <abstract value="false"></abstract>
+         <code value="e120-m"></code>
+         <display value="Renewal RX Fill Request"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Renewal RX Fill Request"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/prescriptiontasktype"></system>
+         <abstract value="false"></abstract>
+         <code value="e140-m"></code>
+         <display value="Cancel Rx Request"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Cancel Rx Request"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/prescriptiontasktype"></system>
+         <abstract value="false"></abstract>
+         <code value="e150-m"></code>
+         <display value="Discontinue Rx Request"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Discontinue Rx Request"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/prescriptiontasktype"></system>
+         <abstract value="false"></abstract>
+         <code value="e161-m"></code>
+         <display value="RX Renewal Response - Denied"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="RX Renewal Response - Denied"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/prescriptiontasktype"></system>
+         <abstract value="false"></abstract>
+         <code value="e162-m"></code>
+         <display value="RX Renewal Response - Approval"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="RX Renewal Response - Approval"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/prescriptiontasktype"></system>
+         <abstract value="false"></abstract>
+         <code value="e163-m"></code>
+         <display value="RX Renewal Response - Approval with Changes"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="RX Renewal Response - Approval with Changes"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/prescriptiontasktype"></system>
+         <abstract value="false"></abstract>
+         <code value="e164-m"></code>
+         <display value="RX Renewal Response - Under Review"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="RX Renewal Response - Under Review"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/prescriptiontasktype"></system>
+         <abstract value="false"></abstract>
+         <code value="e180-m"></code>
+         <display value="New Undirected Rx Fill Request"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="New Undirected Rx Fill Request"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/prescriptiontasktype"></system>
+         <abstract value="false"></abstract>
+         <code value="p141-m"></code>
+         <display value="Cancel Rx Request Refuse"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Cancel Rx Request Refuse"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/prescriptiontasktype"></system>
+         <abstract value="false"></abstract>
+         <code value="p142-m"></code>
+         <display value="Cancel Rx Request Approved"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Cancel Rx Request Approved"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/prescriptiontasktype"></system>
+         <abstract value="false"></abstract>
+         <code value="p143-m"></code>
+         <display value="Cancel Rx Remaining Fills Revoked"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Cancel Rx Remaining Fills Revoked"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/prescriptiontasktype"></system>
+         <abstract value="false"></abstract>
+         <code value="p160-m"></code>
+         <display value="RX Renewal Create Request"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="RX Renewal Create Request"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/prescriptiontasktype"></system>
+         <abstract value="false"></abstract>
+         <code value="p166-m"></code>
+         <display value="Rx Renewal Reminder"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Rx Renewal Reminder"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/prescriptiontasktype"></system>
+         <abstract value="false"></abstract>
+         <code value="p170-m"></code>
+         <display value="Pharmacist Adapt Notification"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Pharmacist Adapt Notification"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/prescriptiontasktype"></system>
+         <abstract value="false"></abstract>
+         <code value="p190-m"></code>
+         <display value="Pharmacist Prescribe Notification"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Pharmacist Prescribe Notification"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/prescriptiontasktype"></system>
+         <abstract value="false"></abstract>
+         <code value="p200-m"></code>
+         <display value="Rx Dispense Notification"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Rx Dispense Notification"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/prescriptiontasktype"></system>
+         <abstract value="false"></abstract>
+         <code value="p210-m"></code>
+         <display value="Rx Dispense Cancel Notification"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Rx Dispense Cancel Notification"></value>
+         </designation>
+      </contains>
+   </expansion>
+</ValueSet>

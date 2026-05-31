@@ -1,0 +1,104 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+   <id value="sharedyesnounknown"></id>
+   <url value="https://fhir.infoway-inforoute.ca/ValueSet/sharedyesnounknown"></url>
+   <identifier id="2.16.840.1.113883.2.20.3.432"></identifier>
+   <version value="20190415"></version>
+   <name value="SharedYesNoUnknown"></name>
+   <status value="active"></status>
+   <description value="Coded values for conveying yes, no or unknown"></description>
+   <expansion>
+      <identifier value="urn:uuid:a012f4d6-1045-492d-8271-6edcdaaad789"></identifier>
+      <timestamp value="2025-07-25T11:35:07-04:00"></timestamp>
+      <total value="3"></total>
+      <contains>
+         <system value="http://hl7.org/fhir/v2/0136"></system>
+         <abstract value="false"></abstract>
+         <code value="N"></code>
+         <display value="No"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="No"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Non"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/v2/0136"></system>
+         <abstract value="false"></abstract>
+         <code value="Y"></code>
+         <display value="Yes"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Yes"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Oui"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/data-absent-reason"></system>
+         <abstract value="false"></abstract>
+         <code value="unknown"></code>
+         <display value="Unknown"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="The value is not known."></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Unknown"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="La valeur est inconnue."></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Inconnue"></value>
+         </designation>
+      </contains>
+   </expansion>
+</ValueSet>

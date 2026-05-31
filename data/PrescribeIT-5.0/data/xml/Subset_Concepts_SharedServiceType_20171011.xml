@@ -1,0 +1,110 @@
+<result>
+  <concepts>
+    <concept>
+      <id>clinician-comm</id>
+      <name>Clinician Communications</name>
+      <codeSystemId>2.16.840.1.113883.5.1144</codeSystemId>
+      <codeSystemName>SharedServiceType</codeSystemName>
+      <enDisplayName>Clinician Communications</enDisplayName>
+      <effectiveDate>2017101104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>meddialog-person-org</id>
+      <name>Practitioner at this organization with MedDialog messaging support</name>
+      <codeSystemId>2.16.840.1.113883.5.1144</codeSystemId>
+      <codeSystemName>SharedServiceType</codeSystemName>
+      <enDisplayName>Practitioner at this organization with MedDialog messaging support</enDisplayName>
+      <effectiveDate>2017101104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>medialog-org</id>
+      <name>Organization with MedDialog messaging support</name>
+      <codeSystemId>2.16.840.1.113883.5.1144</codeSystemId>
+      <codeSystemName>SharedServiceType</codeSystemName>
+      <enDisplayName>Organization with MedDialog messaging support</enDisplayName>
+      <effectiveDate>2017101104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>prescribeit-rx</id>
+      <name>PrescribeIT Messaging Inbox Support</name>
+      <codeSystemId>2.16.840.1.113883.5.1144</codeSystemId>
+      <codeSystemName>SharedServiceType</codeSystemName>
+      <enDisplayName>PrescribeIT Messaging Inbox Support</enDisplayName>
+      <effectiveDate>2017101104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>clinic-erx-inbox</id>
+      <name>Clinic with PrescribeIT messaging inbox support</name>
+      <codeSystemId>2.16.840.1.113883.5.1144</codeSystemId>
+      <codeSystemName>SharedServiceType</codeSystemName>
+      <enDisplayName>Clinic with PrescribeIT messaging inbox support</enDisplayName>
+      <effectiveDate>2017101104:00:00</effectiveDate>
+      <active>false</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>pharm-erx-fax</id>
+      <name>Pharmacy with PrescribeIT fax support only</name>
+      <codeSystemId>2.16.840.1.113883.5.1144</codeSystemId>
+      <codeSystemName>SharedServiceType</codeSystemName>
+      <enDisplayName>Pharmacy with PrescribeIT fax support only</enDisplayName>
+      <effectiveDate>2017101104:00:00</effectiveDate>
+      <active>false</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>pharm-erx-inbox</id>
+      <name>Pharmacy with PrescribeIT messaging inbox support</name>
+      <codeSystemId>2.16.840.1.113883.5.1144</codeSystemId>
+      <codeSystemName>SharedServiceType</codeSystemName>
+      <enDisplayName>Pharmacy with PrescribeIT messaging inbox support</enDisplayName>
+      <effectiveDate>2017101104:00:00</effectiveDate>
+      <active>false</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>prescriber-erx-inbox</id>
+      <name>Prescribing practitioner with PrescribeIT messaging inbox support</name>
+      <codeSystemId>2.16.840.1.113883.5.1144</codeSystemId>
+      <codeSystemName>SharedServiceType</codeSystemName>
+      <enDisplayName>Prescribing practitioner with PrescribeIT messaging inbox support</enDisplayName>
+      <effectiveDate>2017101104:00:00</effectiveDate>
+      <active>false</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+  </concepts>
+  <pagination>
+    <currentPage>1</currentPage>
+    <totalPages>1</totalPages>
+    <pageSize>100000</pageSize>
+    <totalRecords>8</totalRecords>
+    <firstRecord>1</firstRecord>
+    <lastRecord>8</lastRecord>
+    <nextPage>-1</nextPage>
+    <nextRecord>-1</nextRecord>
+  </pagination>
+</result>

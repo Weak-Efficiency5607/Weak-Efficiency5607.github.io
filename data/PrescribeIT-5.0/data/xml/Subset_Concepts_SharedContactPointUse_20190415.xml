@@ -1,0 +1,59 @@
+<result>
+  <concepts>
+    <concept>
+      <id>home</id>
+      <name>Home</name>
+      <codeSystemId>2.16.840.1.113883.4.642.1.67</codeSystemId>
+      <codeSystemName>ContactPointUse</codeSystemName>
+      <enDisplayName>Home</enDisplayName>
+      <frDisplayName>Domicile</frDisplayName>
+      <description>A communication contact point at a home; attempted contacts for business purposes might intrude privacy and chances are one will contact family or other household members instead of the person one wishes to call. Typically used with urgent cases, or if no other contacts are available.</description>
+      <frDescription>Point de contact à domicile; les tentatives de contact à domicile pour des raisons professionnelles pourraient porter atteinte à la vie privée, car la personne qui téléphone risque de tomber sur un membre de la famille ou d&apos;autres personnes partageant le domicile, au lieu de parler à la personne qu&apos;elle souhaite joindre. Numéro à utiliser généralement en cas d&apos;urgence ou si la personne n&apos;est pas joignable aux autres points de contact.</frDescription>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>mobile</id>
+      <name>Mobile</name>
+      <codeSystemId>2.16.840.1.113883.4.642.1.67</codeSystemId>
+      <codeSystemName>ContactPointUse</codeSystemName>
+      <enDisplayName>Mobile</enDisplayName>
+      <frDisplayName>Cellulaire</frDisplayName>
+      <description>A telecommunication device that moves and stays with its owner. May have characteristics of all other use codes, suitable for urgent matters, not the first choice for routine business.</description>
+      <frDescription>Appareil de télécommunication mobile, qu&apos;on transporte avec soi. Peut avoir les caractéristiques de tout autre code d&apos;utilisation, convient en cas d&apos;urgence, mais pas le premier choix pour des affaires courantes.</frDescription>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>work</id>
+      <name>Work</name>
+      <codeSystemId>2.16.840.1.113883.4.642.1.67</codeSystemId>
+      <codeSystemName>ContactPointUse</codeSystemName>
+      <enDisplayName>Work</enDisplayName>
+      <frDisplayName>Travail</frDisplayName>
+      <description>An office contact point. First choice for business related contacts during business hours.</description>
+      <frDescription>Point de contact au travail. Premier choix pour les appels professionnels faits durant les heures de bureau.</frDescription>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+  </concepts>
+  <pagination>
+    <currentPage>1</currentPage>
+    <totalPages>1</totalPages>
+    <pageSize>100000</pageSize>
+    <totalRecords>3</totalRecords>
+    <firstRecord>1</firstRecord>
+    <lastRecord>3</lastRecord>
+    <nextPage>-1</nextPage>
+    <nextRecord>-1</nextRecord>
+  </pagination>
+</result>

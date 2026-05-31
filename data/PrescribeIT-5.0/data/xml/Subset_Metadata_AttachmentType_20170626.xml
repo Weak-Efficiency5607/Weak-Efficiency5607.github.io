@@ -1,0 +1,19 @@
+<version>
+  <id>2.16.840.1.113883.2.20.3.435</id>
+  <url>https://tgateway.infoway-inforoute.ca/vs/attachmenttype</url>
+  <fhirUri>https://fhir.infoway-inforoute.ca/ValueSet/attachmenttype</fhirUri>
+  <name>AttachmentType</name>
+  <versionId>20170626</versionId>
+  <effectiveDate>2017062604:00:00</effectiveDate>
+  <description>Mime types allowed for attachments</description>
+  <status>active</status>
+  <codeSystems>
+    <codesystem>
+      <id>urn:ietf:bcp:13</id>
+      <name>Mime Types</name>
+      <businessName>Mime Types</businessName>
+      <url>urn:ietf:bcp:13</url>
+      <version>n/a</version>
+    </codesystem>
+  </codeSystems>
+</version>

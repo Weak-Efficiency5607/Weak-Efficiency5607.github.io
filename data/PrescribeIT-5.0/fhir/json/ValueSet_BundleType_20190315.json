@@ -1,0 +1,216 @@
+{
+  "resourceType": "ValueSet",
+  "id": "bundletype",
+  "url": "https://fhir.infoway-inforoute.ca/ValueSet/bundletype",
+  "identifier": [ {
+    "id": "2.16.840.1.113883.2.20.3.448"
+  } ],
+  "version": "20190315",
+  "name": "BundleType",
+  "status": "active",
+  "description": "Indicates the purpose of a bundle - how it was intended to be used.",
+  "expansion": {
+    "identifier": "urn:uuid:3de50f7a-f83f-46d6-9249-4b639b32d58d",
+    "timestamp": "2025-07-25T11:32:37-04:00",
+    "total": 9,
+    "contains": [ {
+      "system": "http://hl7.org/fhir/ValueSet/bundle-type",
+      "abstract": false,
+      "code": "batch",
+      "display": "Batch",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "The bundle is a transaction - intended to be processed by a server as a group of actions."
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Batch"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/ValueSet/bundle-type",
+      "abstract": false,
+      "code": "batch-response",
+      "display": "Batch Response",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "The bundle is a batch response. Note that as a batch, some responses may indicate failure and others success."
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Batch Response"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/ValueSet/bundle-type",
+      "abstract": false,
+      "code": "collection",
+      "display": "Collection",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "The bundle is a set of resources collected into a single document for ease of distribution."
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Collection"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/ValueSet/bundle-type",
+      "abstract": false,
+      "code": "document",
+      "display": "Document",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "The bundle is a document. The first resource is a Composition."
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Document"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/ValueSet/bundle-type",
+      "abstract": false,
+      "code": "history",
+      "display": "History List",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "The bundle is a list of resources from a history interaction on a server."
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "History List"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/ValueSet/bundle-type",
+      "abstract": false,
+      "code": "message",
+      "display": "Message",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "The bundle is a message. The first resource is a MessageHeader."
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Message"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/ValueSet/bundle-type",
+      "abstract": false,
+      "code": "searchset",
+      "display": "Search Results",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "The bundle is a list of resources returned as a result of a search/query interaction, operation, or message."
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Search Results"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/ValueSet/bundle-type",
+      "abstract": false,
+      "code": "transaction",
+      "display": "Transaction",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "The bundle is a transaction - intended to be processed by a server as an atomic commit."
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Transaction"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/ValueSet/bundle-type",
+      "abstract": false,
+      "code": "transaction-response",
+      "display": "Transaction Response",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "The bundle is a transaction response. Because the response is a transaction response, the transactionhas succeeded, and all responses are error free."
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Transaction Response"
+      } ]
+    } ]
+  }
+}

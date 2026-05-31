@@ -1,0 +1,378 @@
+{
+  "resourceType": "ValueSet",
+  "id": "sharedpractitionerrole",
+  "url": "https://fhir.infoway-inforoute.ca/ValueSet/sharedpractitionerrole",
+  "identifier": [ {
+    "id": "2.16.840.1.113883.2.20.3.425"
+  } ],
+  "version": "20190415",
+  "name": "SharedPractitionerRole",
+  "status": "active",
+  "description": "Shared Health codes used to identify types of roles that may be held by practitioners",
+  "expansion": {
+    "identifier": "urn:uuid:2f0f240d-c9c2-4702-aff3-d5758b518190",
+    "timestamp": "2025-07-25T11:34:58-04:00",
+    "total": 12,
+    "contains": [ {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/canadianpractitionerrole",
+      "abstract": false,
+      "code": "chiropodist",
+      "display": "Chiropodist",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Health professional who assesses of the foot, and the treatment and prevention of diseases disorders, or dysfunctions of the foot by therapeutic, orthotic or palliative means."
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Chiropodist"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Podologue"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/canadianpractitionerrole",
+      "abstract": false,
+      "code": "chiropractor",
+      "display": "Chiropractor",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Canada’s chiropractors are musculoskeletal (MSK) experts, providing the assessment, diagnosis, treatment and preventative care of biomechanical disorders originating from the muscular, skeletal and nervous systems."
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Chiropractor"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Chiropraticien(ne)"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/canadianpractitionerrole",
+      "abstract": false,
+      "code": "dentalhygienist",
+      "display": "Dental Hygienist",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "An ancillary dental worker specializing in scaling and polishing teeth and in giving advice on cleaning the teeth."
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Dental Hygienist"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Hygiéniste dentaire"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/canadianpractitionerrole",
+      "abstract": false,
+      "code": "dentist",
+      "display": "Dentist",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Health professional qualified to treat the diseases and conditions that affect the teeth and gums, especially the repair and extraction of teeth and the insertion of artificial ones."
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Dentist"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Dentiste"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/canadianpractitionerrole",
+      "abstract": false,
+      "code": "dietician",
+      "display": "Dietician",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Dietitians believe in the power of food to enhance lives and improve health. Dietitians empower their patients, clients, and communities to embrace food, to understand it, and to enjoy it. The advice and information they provide is tailored to their clients and patients personal needs and challenges, including taste and accessibility. They translate the science of nutrition into terms everyone can understand to support healthy living for all Canadians."
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Dietician"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Diététiste"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/practitioner-role",
+      "abstract": false,
+      "code": "doctor",
+      "display": "Doctor",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "A qualified/registered medical practitioner"
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Doctor"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Médecin"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/canadianpractitionerrole",
+      "abstract": false,
+      "code": "midwife",
+      "display": "Midwife",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Health professionals who provide primary care to you and your baby during pregnancy, labour, birth and the postpartum period."
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Midwife"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Sage-femme"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/practitioner-role",
+      "abstract": false,
+      "code": "nurse",
+      "display": "Nurse",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "A practitioner with nursing experience that may be qualified/registered"
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Nurse"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Infirmier(ère)"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/canadianpractitionerrole",
+      "abstract": false,
+      "code": "nursepractitioner",
+      "display": "Nurse Practitioner",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "A nurse who is qualified to treat certain medical conditions without the direct supervision of a doctor"
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Nurse Practitioner"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Infirmier(ère) praticien(ne)"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/canadianpractitionerrole",
+      "abstract": false,
+      "code": "optometrist",
+      "display": "Optometrist",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Independent primary health care providers and represent the front line of vision health. The eye health and good vision of the public are the prime responsibilities of Canada’s Doctors of Optometry."
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Optometrist"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Optométriste"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/practitioner-role",
+      "abstract": false,
+      "code": "pharmacist",
+      "display": "Pharmacist",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "A qualified/registered/licensed pharmacist"
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Pharmacist"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Pharmacien(ne)"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/canadianpractitionerrole",
+      "abstract": false,
+      "code": "podiatrist",
+      "display": "Podiatrist",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Health professional concerned with the medical, surgical, mechanical and physical treatment and diagnosis of the diseases, injuries, and defects of the foot."
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Podiatrist"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Podiatre"
+      } ]
+    } ]
+  }
+}

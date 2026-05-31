@@ -1,0 +1,275 @@
+<result>
+  <concepts>
+    <concept>
+      <id>urn:oid:2.16.124.4.101.35.1.1</id>
+      <name>New Brunswick Medicare Number</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>New Brunswick Medicare Number</enDisplayName>
+      <frDisplayName>numéro d’assurance-maladie du Nouveau-Brunswick</frDisplayName>
+      <effectiveDate>2022061504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.3.228.2.7</id>
+      <name>Nova Scotia Global Identifier (GID)</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>Nova Scotia Global Identifier (GID)</enDisplayName>
+      <frDisplayName>Identifiant global de la Nouvelle-Écosse</frDisplayName>
+      <description>Used by the Nova Scotia DIS to represent patients</description>
+      <effectiveDate>2022061504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.4.12</id>
+      <name>Manitoba Health Personal Health Identification Number - MHPHIN</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>Manitoba Health Personal Health Identification Number - MHPHIN</enDisplayName>
+      <frDisplayName>NIMP, Santé Manitoba</frDisplayName>
+      <effectiveDate>2022061504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.4.13</id>
+      <name>Prince Edward Island, Canada Personal Health Number</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>Prince Edward Island, Canada Personal Health Number</enDisplayName>
+      <frDisplayName>Numéro de carte santé, Î.-P.-É.</frDisplayName>
+      <effectiveDate>2022061504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.4.20</id>
+      <name>Alberta Unique Lifetime Identifier</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>Alberta Unique Lifetime Identifier</enDisplayName>
+      <frDisplayName>Numéro d&apos;identification unique permanent, AB</frDisplayName>
+      <effectiveDate>2022061504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.4.376</id>
+      <name>Veteran&apos;s Affairs Canada Health Number</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>Veteran&apos;s Affairs Canada Health Number</enDisplayName>
+      <frDisplayName>Numéro de carte d&apos;identité de santé, ACC</frDisplayName>
+      <effectiveDate>2022061504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.4.377</id>
+      <name>Correctional Service Canada Health Number</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>Correctional Service Canada Health Number</enDisplayName>
+      <frDisplayName>Numéro de carte santé, SCC</frDisplayName>
+      <effectiveDate>2022061504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.4.378</id>
+      <name>Indian &amp; Northern Affairs Canada Health Number</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>Non-Insured Health Benefits Health Number (NIHB)</enDisplayName>
+      <frDisplayName>Services de santé non assurés (SSNA)</frDisplayName>
+      <effectiveDate>2022061504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.4.379</id>
+      <name>Royal Canadian Mounted Police Health Number</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>Royal Canadian Mounted Police Health Number</enDisplayName>
+      <frDisplayName>Numéro de carte santé, GRC</frDisplayName>
+      <effectiveDate>2022061504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.4.389</id>
+      <name>Canadian Armed Forces Health Number</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>Canadian Armed Forces Health Number</enDisplayName>
+      <frDisplayName>Numéro de carte santé, FAC</frDisplayName>
+      <effectiveDate>2022061504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.4.50</id>
+      <name>British Columbia Personal Health Number</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>British Columbia Personal Health Number</enDisplayName>
+      <frDisplayName>Numéro de carte d&apos;assurance-maladie, CB</frDisplayName>
+      <effectiveDate>2022061504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.4.51</id>
+      <name>New Brunswick, Canada Personal Health Number</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>New Brunswick, Canada Personal Health Number</enDisplayName>
+      <frDisplayName>numéro de santé personnel du Nouveau-Brunswick, Canada</frDisplayName>
+      <effectiveDate>2022061504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.4.52</id>
+      <name>Newfoundland and Labrador, Canada Personal Health Number</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>Newfoundland and Labrador, Canada Personal Health Number</enDisplayName>
+      <frDisplayName>Numéro de carte santé, TNL</frDisplayName>
+      <effectiveDate>2022061504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.4.53</id>
+      <name>Nova Scotia, Canada Personal Health Number</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>Nova Scotia, Canada Personal Health Number</enDisplayName>
+      <frDisplayName>Numéro de carte santé, N.-É.</frDisplayName>
+      <effectiveDate>2022061504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.4.54</id>
+      <name>Northwest Territories, Canada Personal Health Number</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>Northwest Territories, Canada Personal Health Number</enDisplayName>
+      <frDisplayName>Numéro de carte d&apos;assurance-maladie, TNO</frDisplayName>
+      <effectiveDate>2022061504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.4.55</id>
+      <name>Nunavut, Canada Personal Health Number</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>Nunavut, Canada Personal Health Number</enDisplayName>
+      <frDisplayName>Numéro de carte d’assurance-maladie, NU</frDisplayName>
+      <effectiveDate>2022061504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.4.56</id>
+      <name>Quebec, Canada Personal Health Number</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>Quebec, Canada Personal Health Number</enDisplayName>
+      <frDisplayName>Numéro de carte d&apos;assurance-maladie, QC</frDisplayName>
+      <effectiveDate>2022061504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.4.57</id>
+      <name>Saskatchewan, Canada Personal Health Number</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>Saskatchewan, Canada Personal Health Number</enDisplayName>
+      <frDisplayName>Numéro de carte d&apos;assurance-maladie, SK</frDisplayName>
+      <effectiveDate>2022061504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.4.58</id>
+      <name>Yukon, Canada Personal Health Number</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>Yukon, Canada Personal Health Number</enDisplayName>
+      <frDisplayName>Numéro de carte d’assurance-santé, YK</frDisplayName>
+      <effectiveDate>2022061504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>urn:oid:2.16.840.1.113883.4.59</id>
+      <name>Ontario, Canada Personal Health Number</name>
+      <codeSystemId>urn:iso:std:iso:8824:1</codeSystemId>
+      <codeSystemName>UniformResourceIdentifiers</codeSystemName>
+      <enDisplayName>Ontario, Canada Personal Health Number</enDisplayName>
+      <frDisplayName>Numéro de carte Santé, ON</frDisplayName>
+      <effectiveDate>2022061504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+  </concepts>
+  <pagination>
+    <currentPage>1</currentPage>
+    <totalPages>1</totalPages>
+    <pageSize>100000</pageSize>
+    <totalRecords>20</totalRecords>
+    <firstRecord>1</firstRecord>
+    <lastRecord>20</lastRecord>
+    <nextPage>-1</nextPage>
+    <nextRecord>-1</nextRecord>
+  </pagination>
+</result>

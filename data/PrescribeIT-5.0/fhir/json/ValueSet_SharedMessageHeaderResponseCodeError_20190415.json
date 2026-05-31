@@ -1,0 +1,132 @@
+{
+  "resourceType": "ValueSet",
+  "id": "sharedmessageheaderresponsecodeerror",
+  "url": "https://fhir.infoway-inforoute.ca/ValueSet/sharedmessageheaderresponsecodeerror",
+  "identifier": [ {
+    "id": "2.16.840.1.113883.2.20.3.426"
+  } ],
+  "version": "20190415",
+  "name": "SharedMessageHeaderResponseCodeError",
+  "status": "active",
+  "description": "The set of message response codes that are considered to be 'errors'",
+  "expansion": {
+    "identifier": "urn:uuid:afdee8f2-8718-4709-9115-91c3c5c8f22b",
+    "timestamp": "2025-07-25T11:34:50-04:00",
+    "total": 3,
+    "contains": [ {
+      "system": "http://hl7.org/fhir/response-code",
+      "abstract": false,
+      "code": "fatal-error",
+      "display": "Fatal error",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "The message was rejected because of a problem with the content. There is no point in re-sending without change. The response narrative SHALL describe the issue."
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Fatal error"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Le message a été rejeté en raison d'un problème de contenu. Il est inutile de le renvoyer sans modification. Le message DOIT décrire le problème."
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Erreur fatale"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/response-code",
+      "abstract": false,
+      "code": "ok",
+      "display": "OK",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "The message was accepted and processed without error."
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "OK"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Le message a été accepté et traité sans erreur."
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "OK"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/response-code",
+      "abstract": false,
+      "code": "transient-error",
+      "display": "Transient error",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Some internal unexpected error occurred - wait and try again. Note - this is usually used for things like database unavailable, which may be expected to resolve, though human intervention may be required."
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Transient error"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Une erreur interne imprévue est survenue – attendez et réessayez. Remarque : ce code est habituellement utilisé pour des situations qui devraient se rétablir d'elles-mêmes, comme une base de données inaccessible, quoiqu'une intervention humaine puisse parfois être nécessaire."
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Erreur intermittente"
+      } ]
+    } ]
+  }
+}

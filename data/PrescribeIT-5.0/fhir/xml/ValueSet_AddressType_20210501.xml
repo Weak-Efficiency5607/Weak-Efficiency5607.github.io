@@ -1,0 +1,113 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+   <id value="addresstype"></id>
+   <url value="https://fhir.infoway-inforoute.ca/ValueSet/addresstype"></url>
+   <identifier id="2.16.840.1.113883.4.642.4.70"></identifier>
+   <version value="20210501"></version>
+   <name value="AddressType"></name>
+   <status value="active"></status>
+   <description value="The type of an address (physical / postal)."></description>
+   <expansion>
+      <identifier value="urn:uuid:cff8603c-4d83-4d3c-b2e3-d58835d70d81"></identifier>
+      <timestamp value="2025-07-25T11:35:12-04:00"></timestamp>
+      <total value="3"></total>
+      <contains>
+         <system value="http://hl7.org/fhir/address-type"></system>
+         <abstract value="false"></abstract>
+         <code value="both"></code>
+         <display value="Postal &amp; Physical"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="An address that is both physical and postal."></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Postal &amp; Physical"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Adresse postale et municipale"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/address-type"></system>
+         <abstract value="false"></abstract>
+         <code value="physical"></code>
+         <display value="Physical"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="A physical address that can be visited."></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Physical"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Adresse municipale"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/address-type"></system>
+         <abstract value="false"></abstract>
+         <code value="postal"></code>
+         <display value="Postal"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="Mailing addresses - PO Boxes and care-of addresses."></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Postal"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Adresse postale"></value>
+         </designation>
+      </contains>
+   </expansion>
+</ValueSet>

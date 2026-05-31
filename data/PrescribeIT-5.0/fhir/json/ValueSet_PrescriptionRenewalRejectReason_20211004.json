@@ -1,0 +1,260 @@
+{
+  "resourceType": "ValueSet",
+  "id": "prescriptionrenewalrejectreason",
+  "url": "https://fhir.infoway-inforoute.ca/ValueSet/prescriptionrenewalrejectreason",
+  "identifier": [ {
+    "id": "2.16.840.1.113883.2.20.3.413"
+  } ],
+  "version": "20211004",
+  "name": "PrescriptionRenewalRejectReason",
+  "status": "active",
+  "description": "Reasons for rejecting a prescription renewal request",
+  "expansion": {
+    "identifier": "urn:uuid:4af64bf1-bdf8-4f69-9736-80cec90b2451",
+    "timestamp": "2025-07-25T11:34:26-04:00",
+    "total": 11,
+    "contains": [ {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/canadianactreason",
+      "abstract": false,
+      "code": "CONTACTPRES",
+      "display": "Patient should contact prescriber",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Patient should contact prescriber"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Le patient doit contacter le prescripteur"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/canadianactreason",
+      "abstract": false,
+      "code": "FOLLOWPRES",
+      "display": "Follow-up with patient's primary or alternate prescriber",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Follow-up with patient's primary or alternate prescriber"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Suivi requis auprès du prescripteur principal ou de son substitut"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/canadianactreason",
+      "abstract": false,
+      "code": "LABPSCP",
+      "display": "Lab work required - patient should contact prescriber",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Lab work required - patient should contact prescriber"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Analyses de laboratoire requises"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/canadianactreason",
+      "abstract": false,
+      "code": "NOTPRESCPAT",
+      "display": "Patient no longer under the prescriber’s care",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Patient no longer under the prescriber’s care"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Le patient n'est plus traité par le prescripteur"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/canadianactreason",
+      "abstract": false,
+      "code": "OTHERMFR",
+      "display": "Other (with a mandatory freeform reason)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Other (with a mandatory freeform reason)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Autre (motif obligatoire en texte libre)"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/canadianactreason",
+      "abstract": false,
+      "code": "PTMAKEAPMT",
+      "display": "Appointment – patient needs to make an appointment",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Appointment – patient needs to make an appointment"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Rendez-vous - le patient doit prendre rendez-vous"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/canadianactreason",
+      "abstract": false,
+      "code": "REPLACED",
+      "display": "Replace with this new prescription",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Replace with this new prescription"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Remplacer par nouvelle ordonnance"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/canadianactreason",
+      "abstract": false,
+      "code": "REQTOOEARLY",
+      "display": "Request is too early",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Request is too early"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "La requête est trop tôt"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/canadianactreason",
+      "abstract": false,
+      "code": "RESPONDED",
+      "display": "Request already responded to (e.g. by phone/fax, this is a duplicate request)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Request already responded to (e.g. by phone/fax, this is a duplicate request)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Requête déjà traitée (p. ex. par téléphone/télécopieur, requête en double)"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/canadianactreason",
+      "abstract": false,
+      "code": "STOPMED",
+      "display": "Prescriber stopped medication for patient",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Prescriber stopped medication for patient"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Le prescripteur a interrompu le traitement du patient"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/canadianactreason",
+      "abstract": false,
+      "code": "UNKNOWNPAT",
+      "display": "Patient unknown to prescriber",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Patient unknown to prescriber"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Le patient n'est pas connu du prescripteur"
+      } ]
+    } ]
+  }
+}

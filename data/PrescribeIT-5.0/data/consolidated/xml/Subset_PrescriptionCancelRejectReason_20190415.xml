@@ -1,0 +1,69 @@
+<subset>
+  <id>2.16.840.1.113883.2.20.3.396</id>
+  <name>PrescriptionCancelRejectReason</name>
+  <url>https://tgateway.infoway-inforoute.ca/vs/prescriptioncancelrejectreason</url>
+  <fhirUri>https://fhir.infoway-inforoute.ca/ValueSet/prescriptioncancelrejectreason</fhirUri>
+  <versionId>20190415</versionId>
+  <effectiveDate>2019041504:00:00</effectiveDate>
+  <publicationTime>2019051505:09:34</publicationTime>
+  <description>Indication of why a pharmacy is rejecting the request to cancel a prescription</description>
+  <status>active</status>
+  <category>HL7</category>
+  <domains>
+    <string>ePrescribe</string>
+  </domains>
+  <properties/>
+  <owner>Canada Health Infoway</owner>
+  <tags>
+    <string>Extensional</string>
+  </tags>
+  <terminologies class="com.google.gson.internal.LinkedTreeMap" resolves-to="linked-hash-map"/>
+  <type>Extensional</type>
+  <viewer>singlesubset</viewer>
+  <codeSystems>
+    <codesystem>
+      <id>2.16.840.1.113883.5.8</id>
+      <name>ActReason</name>
+      <businessName>ActReason</businessName>
+      <url>http://hl7.org/fhir/v3/ActReason</url>
+      <version>1.4.0</version>
+    </codesystem>
+    <codesystem>
+      <id>8.1.1.1</id>
+      <name>CanadianActReason</name>
+      <businessName>CanadianActReason</businessName>
+      <url>https://fhir.infoway-inforoute.ca/CodeSystem/canadianactreason</url>
+      <version>20190405</version>
+    </codesystem>
+  </codeSystems>
+  <concepts>
+    <concept>
+      <id>FILLED</id>
+      <name>fully filled</name>
+      <codeSystemId>2.16.840.1.113883.5.8</codeSystemId>
+      <codeSystemName>ActReason</codeSystemName>
+      <enDisplayName>Fully Filled</enDisplayName>
+      <frDisplayName>Déjà exécutée</frDisplayName>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>TRANSFERRED</id>
+      <name>transferred</name>
+      <codeSystemId>8.1.1.1</codeSystemId>
+      <codeSystemName>CanadianActReason</codeSystemName>
+      <enDisplayName>Order Transferred</enDisplayName>
+      <frDisplayName>Ordonnance transférée</frDisplayName>
+      <description>The order was transferred and is no longer authorized by this facility.</description>
+      <frDescription>L&apos;ordonnance a été transférée et ne relève plus de cet établissement.</frDescription>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+  </concepts>
+</subset>

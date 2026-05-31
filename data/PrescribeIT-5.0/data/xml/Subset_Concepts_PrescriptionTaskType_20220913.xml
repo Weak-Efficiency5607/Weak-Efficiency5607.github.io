@@ -1,0 +1,230 @@
+<result>
+  <concepts>
+    <concept>
+      <id>e110-m</id>
+      <name>New RX Fill Request</name>
+      <codeSystemId>2.16.840.1.113883.5.1140</codeSystemId>
+      <codeSystemName>PrescriptionTaskType</codeSystemName>
+      <enDisplayName>New RX Fill Request</enDisplayName>
+      <effectiveDate>2022091304:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>e120-m</id>
+      <name>Renewal RX Fill Request</name>
+      <codeSystemId>2.16.840.1.113883.5.1140</codeSystemId>
+      <codeSystemName>PrescriptionTaskType</codeSystemName>
+      <enDisplayName>Renewal RX Fill Request</enDisplayName>
+      <effectiveDate>2022091304:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>e140-m</id>
+      <name>Cancel Rx Request</name>
+      <codeSystemId>2.16.840.1.113883.5.1140</codeSystemId>
+      <codeSystemName>PrescriptionTaskType</codeSystemName>
+      <enDisplayName>Cancel Rx Request</enDisplayName>
+      <effectiveDate>2022091304:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>e150-m</id>
+      <name>Discontinue Rx Request</name>
+      <codeSystemId>2.16.840.1.113883.5.1140</codeSystemId>
+      <codeSystemName>PrescriptionTaskType</codeSystemName>
+      <enDisplayName>Discontinue Rx Request</enDisplayName>
+      <effectiveDate>2022091304:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>e161-m</id>
+      <name>RX Renewal Response - Denied</name>
+      <codeSystemId>2.16.840.1.113883.5.1140</codeSystemId>
+      <codeSystemName>PrescriptionTaskType</codeSystemName>
+      <enDisplayName>RX Renewal Response - Denied</enDisplayName>
+      <effectiveDate>2022091304:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>e162-m</id>
+      <name>RX Renewal Response - Approval</name>
+      <codeSystemId>2.16.840.1.113883.5.1140</codeSystemId>
+      <codeSystemName>PrescriptionTaskType</codeSystemName>
+      <enDisplayName>RX Renewal Response - Approval</enDisplayName>
+      <effectiveDate>2022091304:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>e163-m</id>
+      <name>RX Renewal Response - Approval with Changes</name>
+      <codeSystemId>2.16.840.1.113883.5.1140</codeSystemId>
+      <codeSystemName>PrescriptionTaskType</codeSystemName>
+      <enDisplayName>RX Renewal Response - Approval with Changes</enDisplayName>
+      <effectiveDate>2022091304:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>e164-m</id>
+      <name>RX Renewal Response - Under Review</name>
+      <codeSystemId>2.16.840.1.113883.5.1140</codeSystemId>
+      <codeSystemName>PrescriptionTaskType</codeSystemName>
+      <enDisplayName>RX Renewal Response - Under Review</enDisplayName>
+      <effectiveDate>2022091304:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>e180-m</id>
+      <name>New Undirected Rx Fill Request</name>
+      <codeSystemId>2.16.840.1.113883.5.1140</codeSystemId>
+      <codeSystemName>PrescriptionTaskType</codeSystemName>
+      <enDisplayName>New Undirected Rx Fill Request</enDisplayName>
+      <effectiveDate>2022091304:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>p141-m</id>
+      <name>Cancel Rx Request Refuse</name>
+      <codeSystemId>2.16.840.1.113883.5.1140</codeSystemId>
+      <codeSystemName>PrescriptionTaskType</codeSystemName>
+      <enDisplayName>Cancel Rx Request Refuse</enDisplayName>
+      <effectiveDate>2022091304:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>p142-m</id>
+      <name>Cancel Rx Request Approved</name>
+      <codeSystemId>2.16.840.1.113883.5.1140</codeSystemId>
+      <codeSystemName>PrescriptionTaskType</codeSystemName>
+      <enDisplayName>Cancel Rx Request Approved</enDisplayName>
+      <effectiveDate>2022091304:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>p143-m</id>
+      <name>Cancel Rx Remaining Fills Revoked</name>
+      <codeSystemId>2.16.840.1.113883.5.1140</codeSystemId>
+      <codeSystemName>PrescriptionTaskType</codeSystemName>
+      <enDisplayName>Cancel Rx Remaining Fills Revoked</enDisplayName>
+      <effectiveDate>2022091304:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>p160-m</id>
+      <name>RX Renewal Create Request</name>
+      <codeSystemId>2.16.840.1.113883.5.1140</codeSystemId>
+      <codeSystemName>PrescriptionTaskType</codeSystemName>
+      <enDisplayName>RX Renewal Create Request</enDisplayName>
+      <effectiveDate>2022091304:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>p166-m</id>
+      <name>Rx Renewal Reminder</name>
+      <codeSystemId>2.16.840.1.113883.5.1140</codeSystemId>
+      <codeSystemName>PrescriptionTaskType</codeSystemName>
+      <enDisplayName>Rx Renewal Reminder</enDisplayName>
+      <effectiveDate>2022091304:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>p170-m</id>
+      <name>Pharmacist Adapt</name>
+      <codeSystemId>2.16.840.1.113883.5.1140</codeSystemId>
+      <codeSystemName>PrescriptionTaskType</codeSystemName>
+      <enDisplayName>Pharmacist Adapt Notification</enDisplayName>
+      <effectiveDate>2022091304:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>p190-m</id>
+      <name>Pharmacist Prescribe</name>
+      <codeSystemId>2.16.840.1.113883.5.1140</codeSystemId>
+      <codeSystemName>PrescriptionTaskType</codeSystemName>
+      <enDisplayName>Pharmacist Prescribe Notification</enDisplayName>
+      <effectiveDate>2022091304:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>p200-m</id>
+      <name>Rx Dispense Notification</name>
+      <codeSystemId>2.16.840.1.113883.5.1140</codeSystemId>
+      <codeSystemName>PrescriptionTaskType</codeSystemName>
+      <enDisplayName>Rx Dispense Notification</enDisplayName>
+      <effectiveDate>2022091304:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>p210-m</id>
+      <name>Rx Dispense Cancel Notification</name>
+      <codeSystemId>2.16.840.1.113883.5.1140</codeSystemId>
+      <codeSystemName>PrescriptionTaskType</codeSystemName>
+      <enDisplayName>Rx Dispense Cancel Notification</enDisplayName>
+      <effectiveDate>2022091304:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+  </concepts>
+  <pagination>
+    <currentPage>1</currentPage>
+    <totalPages>1</totalPages>
+    <pageSize>100000</pageSize>
+    <totalRecords>18</totalRecords>
+    <firstRecord>1</firstRecord>
+    <lastRecord>18</lastRecord>
+    <nextPage>-1</nextPage>
+    <nextRecord>-1</nextRecord>
+  </pagination>
+</result>

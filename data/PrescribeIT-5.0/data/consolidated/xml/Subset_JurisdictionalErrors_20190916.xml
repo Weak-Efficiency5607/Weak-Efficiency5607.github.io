@@ -1,0 +1,94 @@
+<subset>
+  <id>2.16.840.1.113883.2.20.3.453</id>
+  <name>JurisdictionalErrors</name>
+  <url>https://tgateway.infoway-inforoute.ca/vs/jurisdictionalerrors</url>
+  <fhirUri>https://fhir.infoway-inforoute.ca/ValueSet/jurisdictionalerrors</fhirUri>
+  <versionId>20190916</versionId>
+  <effectiveDate>2019091604:00:00</effectiveDate>
+  <publicationTime>2019091712:34:03</publicationTime>
+  <dateLastReviewed>2019091604:00:00</dateLastReviewed>
+  <description>Codes representing the various types of errors that can occur while communicating with Jurisdictional connectors.</description>
+  <status>active</status>
+  <domains>
+    <string>PrescribeIT</string>
+  </domains>
+  <properties/>
+  <owner>Canada Health Infoway</owner>
+  <tags>
+    <string>Extensional</string>
+  </tags>
+  <terminologies class="com.google.gson.internal.LinkedTreeMap" resolves-to="linked-hash-map"/>
+  <type>Extensional</type>
+  <viewer>singlesubset</viewer>
+  <codeSystems>
+    <codesystem>
+      <id>https://fhir.infoway-inforoute.ca/CodeSystem/JurisdictionalErrors</id>
+      <name>JurisdictionalErrors</name>
+      <businessName>JurisdictionalErrors</businessName>
+      <url>https://fhir.infoway-inforoute.ca/CodeSystem/JurisdictionalErrors</url>
+      <version>20190912</version>
+    </codesystem>
+  </codeSystems>
+  <concepts>
+    <concept>
+      <id>JUR001</id>
+      <name>Jurisdictional Registry Client Issue</name>
+      <codeSystemId>https://fhir.infoway-inforoute.ca/CodeSystem/JurisdictionalErrors</codeSystemId>
+      <codeSystemName>JurisdictionalErrors</codeSystemName>
+      <enDisplayName>Jurisdictional Registry Client Issue</enDisplayName>
+      <effectiveDate>2019091604:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>JUR002</id>
+      <name>Jursidictional DIS Client Issue</name>
+      <codeSystemId>https://fhir.infoway-inforoute.ca/CodeSystem/JurisdictionalErrors</codeSystemId>
+      <codeSystemName>JurisdictionalErrors</codeSystemName>
+      <enDisplayName>Jursidictional DIS Client Issue</enDisplayName>
+      <effectiveDate>2019091604:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>JUR003</id>
+      <name>Connector Client Issue</name>
+      <codeSystemId>https://fhir.infoway-inforoute.ca/CodeSystem/JurisdictionalErrors</codeSystemId>
+      <codeSystemName>JurisdictionalErrors</codeSystemName>
+      <enDisplayName>Connector Client Issue</enDisplayName>
+      <effectiveDate>2019091604:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>JUR004</id>
+      <name>Jurisdictional Registry Server Issue for Registry requests</name>
+      <codeSystemId>https://fhir.infoway-inforoute.ca/CodeSystem/JurisdictionalErrors</codeSystemId>
+      <codeSystemName>JurisdictionalErrors</codeSystemName>
+      <enDisplayName>Jurisdictional Registry Server Issue for Registry requests</enDisplayName>
+      <effectiveDate>2019091604:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>JUR005</id>
+      <name>Jurisdictional DIS Server Issue for DIS requests</name>
+      <codeSystemId>https://fhir.infoway-inforoute.ca/CodeSystem/JurisdictionalErrors</codeSystemId>
+      <codeSystemName>JurisdictionalErrors</codeSystemName>
+      <enDisplayName>Jurisdictional DIS Server Issue for DIS requests</enDisplayName>
+      <effectiveDate>2019091604:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+  </concepts>
+</subset>

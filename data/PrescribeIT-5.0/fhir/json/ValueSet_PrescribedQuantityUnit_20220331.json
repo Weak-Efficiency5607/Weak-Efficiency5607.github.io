@@ -1,0 +1,1910 @@
+{
+  "resourceType": "ValueSet",
+  "id": "prescribedquantityunit",
+  "url": "https://fhir.infoway-inforoute.ca/ValueSet/prescribedquantityunit",
+  "identifier": [ {
+    "id": "2.16.840.1.113883.2.20.3.402"
+  } ],
+  "version": "20220331",
+  "name": "PrescribedQuantityUnit",
+  "status": "active",
+  "description": "Units of measure and/or products that convey the amount of drug being prescribed to a patient",
+  "expansion": {
+    "identifier": "urn:uuid:07218186-a616-467f-b690-fa4d36601de8",
+    "timestamp": "2025-07-25T11:32:54-04:00",
+    "total": 86,
+    "contains": [ {
+      "system": "http://unitsofmeasure.org",
+      "abstract": false,
+      "code": "%",
+      "display": "%",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "%"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "%"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "1641000175108",
+      "display": "Applicator(s)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Applicator(s)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "applicateur(s)"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "1671000175104",
+      "display": "Strip(s)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Strip(s)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "bandelette(s)"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "1681000175101",
+      "display": "Package(s)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Package(s)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "emballage(s)"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "1691000175103",
+      "display": "Stick(s)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Stick(s)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "bâtonnet(s)"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "1701000175103",
+      "display": "Wafer(s)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Wafer(s)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "cachet(s)"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "18492004",
+      "display": "Canister(s)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Canister(s)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "récipient(s)"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "23541000087106",
+      "display": "Buccal tablet(s)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Buccal tablet(s)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "comprimé(s) buccal(-aux)"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "334947002",
+      "display": "Nebulizer(s)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Nebulizer(s)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "nébuliseur(s)"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "334980009",
+      "display": "Inhaler(s)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Inhaler(s)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "inhalateur(s)"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "350810002",
+      "display": "Lancet(s)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Lancet(s)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "lancette(s)"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "398124009",
+      "display": "Container(s)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Container(s)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "contenant(s)"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "404218003",
+      "display": "Drop(s)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Drop(s)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "goutte(s)"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "408102007",
+      "display": "Dose(s)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Dose(s)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "dose(s)"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "413516001",
+      "display": "Ampule(s)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Ampule(s)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "ampoule(s)"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "413568008",
+      "display": "Application(s)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Application(s)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "application(s)"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "415215001",
+      "display": "Puff(s)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Puff(s)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "bouffée(s)"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "415505006",
+      "display": "Scoop(s)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Scoop(s)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "cuillérée(s)"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "415818006",
+      "display": "Vial(s)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Vial(s)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "flacon(s)"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "418445004",
+      "display": "Box(es)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Box(es)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "boîte(s)"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "418530008",
+      "display": "Tube(s)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Tube(s)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "tube(s)"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "419179001",
+      "display": "Kit(s)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Kit(s)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "trousse(s)"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "419473009",
+      "display": "Each",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Each"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "chaque"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "419672006",
+      "display": "Bottle(s)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Bottle(s)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "bouteille(s)"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "419694003",
+      "display": "Spray(s)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Spray(s)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "pulvérisation(s)"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "419702001",
+      "display": "Patch(es)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Patch(es)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "timbre(s)"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "419888008",
+      "display": "Packet(s)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Packet(s)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "paquet(s)"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "421823004",
+      "display": "Pad(s)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Pad(s)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "tampon(s) imprégné(s)"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "426148002",
+      "display": "Sachet(s)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Sachet(s)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "sachet(s)"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "427678004",
+      "display": "Disk(s)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Disk(s)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "disque(s)"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "428003006",
+      "display": "Bar(s)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Bar(s)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "barre(s)"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "428177008",
+      "display": "Implant(s)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Implant(s)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "implant(s)"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "428639001",
+      "display": "Insert(s)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Insert(s)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "insert(s)"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "428640004",
+      "display": "Pellet(s)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Pellet(s)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "granule(s)"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "428641000",
+      "display": "Capsule(s)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Capsule(s)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "capsule(s)"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "428672001",
+      "display": "Bag(s)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Bag(s)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "sac(s)"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "428673006",
+      "display": "Tablet(s)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Tablet(s)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "comprimé(s)"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "429308001",
+      "display": "Can(s)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Can(s)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "canette(s)"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "429587008",
+      "display": "Lozenge(s)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Lozenge(s)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "pastille(s)"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "429671000",
+      "display": "Sponge(s)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Sponge(s)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "éponge(s)"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "430281005",
+      "display": "Gum",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Gum"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "gomme"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "430293001",
+      "display": "Suppository(ies)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Suppository(ies)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "suppositoire(s)"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "44668000",
+      "display": "Pump(s)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Pump(s)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "pompe(s)"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "463408005",
+      "display": "Pen needle(s)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Pen needle(s)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "stylo(s) injecteur(s) de médicament"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "49062001",
+      "display": "Device(s)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Device(s)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "dispositif(s)"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "61968008",
+      "display": "Syringe(s)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Syringe(s)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "seringue(s)"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "700473000",
+      "display": "Pastille(s)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Pastille(s)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "pâte à sucer"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "700476008",
+      "display": "Enema(s)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Enema(s)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "lavement(s)"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "700477004",
+      "display": "Tampon(s)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Tampon(s)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "tampon(s)"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "700478009",
+      "display": "Dressing(s)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Dressing(s)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "pansement(s)"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "706440002",
+      "display": "Cartridge(s)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Cartridge(s)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "cartouche(s)"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "72070000",
+      "display": "Ring(s)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Ring(s)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "anneau(x)"
+      } ]
+    }, {
+      "system": "http://snomed.info/sct",
+      "abstract": false,
+      "code": "733006000",
+      "display": "Pen(s)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Pen(s)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "stylo(s)"
+      } ]
+    }, {
+      "system": "http://unitsofmeasure.org",
+      "abstract": false,
+      "code": "L",
+      "display": "L",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "L"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "L"
+      } ]
+    }, {
+      "system": "http://unitsofmeasure.org",
+      "abstract": false,
+      "code": "U",
+      "display": "Unit(s)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Unit(s)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "unité(s)"
+      } ]
+    }, {
+      "system": "http://unitsofmeasure.org",
+      "abstract": false,
+      "code": "[cup_us]",
+      "display": "cup(s)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "cup(s)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "tasse(s)"
+      } ]
+    }, {
+      "system": "http://unitsofmeasure.org",
+      "abstract": false,
+      "code": "[foz_br]",
+      "display": "fl oz",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "fl oz"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "oz liq"
+      } ]
+    }, {
+      "system": "http://unitsofmeasure.org",
+      "abstract": false,
+      "code": "[gal_br]",
+      "display": "gallon(s)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "gallon(s)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "gallon(s)"
+      } ]
+    }, {
+      "system": "http://unitsofmeasure.org",
+      "abstract": false,
+      "code": "[lb_av]",
+      "display": "lb",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "lb"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "lb"
+      } ]
+    }, {
+      "system": "http://unitsofmeasure.org",
+      "abstract": false,
+      "code": "[oz_av]",
+      "display": "oz",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "oz"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "oz"
+      } ]
+    }, {
+      "system": "http://unitsofmeasure.org",
+      "abstract": false,
+      "code": "[pt_br]",
+      "display": "pt",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "pt"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "chop"
+      } ]
+    }, {
+      "system": "http://unitsofmeasure.org",
+      "abstract": false,
+      "code": "[qt_br]",
+      "display": "qt",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "qt"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "pte"
+      } ]
+    }, {
+      "system": "http://unitsofmeasure.org",
+      "abstract": false,
+      "code": "[sft_i]",
+      "display": "sq ft",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "sq ft"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "pi2"
+      } ]
+    }, {
+      "system": "http://unitsofmeasure.org",
+      "abstract": false,
+      "code": "[sin_i]",
+      "display": "sq in",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "sq in"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "po2"
+      } ]
+    }, {
+      "system": "http://unitsofmeasure.org",
+      "abstract": false,
+      "code": "[syd_i]",
+      "display": "sq yd",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "sq yd"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "vg2"
+      } ]
+    }, {
+      "system": "http://unitsofmeasure.org",
+      "abstract": false,
+      "code": "[tbs_us]",
+      "display": "tbsp(s)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "tbsp(s)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "c. à table"
+      } ]
+    }, {
+      "system": "http://unitsofmeasure.org",
+      "abstract": false,
+      "code": "[tsp_us]",
+      "display": "tsp(s)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "tsp(s)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "c. à thé"
+      } ]
+    }, {
+      "system": "http://unitsofmeasure.org",
+      "abstract": false,
+      "code": "cm2",
+      "display": "sq cm",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "sq cm"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "cm2"
+      } ]
+    }, {
+      "system": "http://unitsofmeasure.org",
+      "abstract": false,
+      "code": "cm3",
+      "display": "cubic cm",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "cubic cm"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "cm3"
+      } ]
+    }, {
+      "system": "http://unitsofmeasure.org",
+      "abstract": false,
+      "code": "g",
+      "display": "g",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "g"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "g"
+      } ]
+    }, {
+      "system": "http://unitsofmeasure.org",
+      "abstract": false,
+      "code": "iU",
+      "display": "international unit(s)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "international unit(s)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "unité(s) internationale(s)"
+      } ]
+    }, {
+      "system": "http://unitsofmeasure.org",
+      "abstract": false,
+      "code": "kg",
+      "display": "kg",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "kg"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "kg"
+      } ]
+    }, {
+      "system": "http://unitsofmeasure.org",
+      "abstract": false,
+      "code": "m2",
+      "display": "sq m",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "sq m"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "m2"
+      } ]
+    }, {
+      "system": "http://unitsofmeasure.org",
+      "abstract": false,
+      "code": "mL",
+      "display": "mL",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "mL"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "mL"
+      } ]
+    }, {
+      "system": "http://unitsofmeasure.org",
+      "abstract": false,
+      "code": "mU",
+      "display": "milliUnit(s)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "milliUnit(s)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "milli-unité(s) internationale(s)"
+      } ]
+    }, {
+      "system": "http://unitsofmeasure.org",
+      "abstract": false,
+      "code": "meq",
+      "display": "meq",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "meq"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "mÉq"
+      } ]
+    }, {
+      "system": "http://unitsofmeasure.org",
+      "abstract": false,
+      "code": "mg",
+      "display": "mg",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "mg"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "mg"
+      } ]
+    }, {
+      "system": "http://unitsofmeasure.org",
+      "abstract": false,
+      "code": "mm2",
+      "display": "sq mm",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "sq mm"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "mm2"
+      } ]
+    }, {
+      "system": "http://unitsofmeasure.org",
+      "abstract": false,
+      "code": "mm3",
+      "display": "cubic mm",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "cubic mm"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "mm3"
+      } ]
+    }, {
+      "system": "http://unitsofmeasure.org",
+      "abstract": false,
+      "code": "mmol",
+      "display": "mmol",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "mmol"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "mmol"
+      } ]
+    }, {
+      "system": "http://unitsofmeasure.org",
+      "abstract": false,
+      "code": "mol",
+      "display": "mol",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "mol"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "mol"
+      } ]
+    }, {
+      "system": "http://unitsofmeasure.org",
+      "abstract": false,
+      "code": "nL",
+      "display": "nL",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "nL"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "nL"
+      } ]
+    }, {
+      "system": "http://unitsofmeasure.org",
+      "abstract": false,
+      "code": "ng",
+      "display": "ng",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "ng"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "ng"
+      } ]
+    }, {
+      "system": "http://unitsofmeasure.org",
+      "abstract": false,
+      "code": "uL",
+      "display": "mcL",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "mcL"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "mcL"
+      } ]
+    }, {
+      "system": "http://unitsofmeasure.org",
+      "abstract": false,
+      "code": "ug",
+      "display": "mcg",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "mcg"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "mcg"
+      } ]
+    }, {
+      "system": "http://unitsofmeasure.org",
+      "abstract": false,
+      "code": "umol",
+      "display": "mcmol",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "mcmol"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "mcmol"
+      } ]
+    } ]
+  }
+}

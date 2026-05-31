@@ -1,0 +1,74 @@
+<result>
+  <concepts>
+    <concept>
+      <id>error</id>
+      <name>error</name>
+      <codeSystemId>2.16.840.1.113883.4.642.3.408</codeSystemId>
+      <codeSystemName>IssueSeverity</codeSystemName>
+      <enDisplayName>Error</enDisplayName>
+      <frDisplayName>Erreur</frDisplayName>
+      <description>The issue is sufficiently important to cause the action to fail.</description>
+      <frDescription>Le problème est suffisamment important pour faire échouer l&apos;action.</frDescription>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>fatal</id>
+      <name>fatal</name>
+      <codeSystemId>2.16.840.1.113883.4.642.3.408</codeSystemId>
+      <codeSystemName>IssueSeverity</codeSystemName>
+      <enDisplayName>Fatal</enDisplayName>
+      <frDisplayName>Fatal</frDisplayName>
+      <description>The issue caused the action to fail, and no further checking could be performed.</description>
+      <frDescription>Le problème a fait échouer l&apos;action, et aucune autre vérification n&apos;a pu être effectuée.</frDescription>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>information</id>
+      <name>information</name>
+      <codeSystemId>2.16.840.1.113883.4.642.3.408</codeSystemId>
+      <codeSystemName>IssueSeverity</codeSystemName>
+      <enDisplayName>Information</enDisplayName>
+      <frDisplayName>Information</frDisplayName>
+      <description>The issue has no relation to the degree of success of the action.</description>
+      <frDescription>Le problème n&apos;a aucune incidence sur le niveau de réussite de l&apos;action.</frDescription>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>warning</id>
+      <name>warning</name>
+      <codeSystemId>2.16.840.1.113883.4.642.3.408</codeSystemId>
+      <codeSystemName>IssueSeverity</codeSystemName>
+      <enDisplayName>Warning</enDisplayName>
+      <frDisplayName>Avertissement</frDisplayName>
+      <description>The issue is not important enough to cause the action to fail, but may cause it to be performed suboptimally or in a way that is not as desired.</description>
+      <frDescription>Le problème n&apos;est pas assez important pour faire échouer l&apos;action, mais celle-ci pourrait être exécutée de façon sous-optimale ou de la mauvaise manière.</frDescription>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+  </concepts>
+  <pagination>
+    <currentPage>1</currentPage>
+    <totalPages>1</totalPages>
+    <pageSize>100000</pageSize>
+    <totalRecords>4</totalRecords>
+    <firstRecord>1</firstRecord>
+    <lastRecord>4</lastRecord>
+    <nextPage>-1</nextPage>
+    <nextRecord>-1</nextRecord>
+  </pagination>
+</result>

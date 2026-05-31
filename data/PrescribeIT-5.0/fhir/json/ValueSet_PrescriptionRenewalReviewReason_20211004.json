@@ -1,0 +1,106 @@
+{
+  "resourceType": "ValueSet",
+  "id": "prescriptionrenewalreviewreason",
+  "url": "https://fhir.infoway-inforoute.ca/ValueSet/prescriptionrenewalreviewreason",
+  "identifier": [ {
+    "id": "2.16.840.1.113883.2.20.3.440"
+  } ],
+  "version": "20211004",
+  "name": "PrescriptionRenewalReviewReason",
+  "status": "active",
+  "description": "Codes identifying reasons for reviewing a prescription renewal request",
+  "expansion": {
+    "identifier": "urn:uuid:7d8ff508-ec9c-4d38-8aa1-a5d2f2633224",
+    "timestamp": "2025-07-25T11:34:28-04:00",
+    "total": 4,
+    "contains": [ {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/canadianactreason",
+      "abstract": false,
+      "code": "LABREV",
+      "display": "Will respond once lab work is reviewed",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Will respond once lab work is reviewed"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Répondre une fois les analyses sanguines obtenues"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/canadianactreason",
+      "abstract": false,
+      "code": "OTHERMFR",
+      "display": "Other (with a mandatory freeform reason)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Other (with a mandatory freeform reason)"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Autre (motif obligatoire en texte libre)"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/canadianactreason",
+      "abstract": false,
+      "code": "RESPTFOLLOWCMPT",
+      "display": "Will respond once follow-up with patient is completed",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Will respond once follow-up with patient is completed"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Répondre quand le suivi auprès du patient aura été fait"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/canadianactreason",
+      "abstract": false,
+      "code": "SEEPATIENT",
+      "display": "Will respond once patient comes in for an appointment",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Will respond once patient comes in for an appointment"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Répondre quand le patient viendra pour son rendez-vous"
+      } ]
+    } ]
+  }
+}

@@ -1,0 +1,19 @@
+<version>
+  <id>2.16.840.1.113883.2.20.3.415</id>
+  <url>https://tgateway.infoway-inforoute.ca/vs/prescriptionemrtasktype</url>
+  <fhirUri>https://fhir.infoway-inforoute.ca/ValueSet/prescriptionemrtasktype</fhirUri>
+  <name>PrescriptionEMRTaskType</name>
+  <versionId>20170626</versionId>
+  <effectiveDate>2017062604:00:00</effectiveDate>
+  <description>PrescribeIT types of tasks for EMRs</description>
+  <status>active</status>
+  <codeSystems>
+    <codesystem>
+      <id>2.16.840.1.113883.5.1140</id>
+      <name>PrescriptionTaskType</name>
+      <businessName>PrescriptionTaskType</businessName>
+      <url>https://fhir.infoway-inforoute.ca/CodeSystem/prescriptiontasktype</url>
+      <version>20170626</version>
+    </codesystem>
+  </codeSystems>
+</version>

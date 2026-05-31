@@ -1,0 +1,414 @@
+{
+  "resourceType": "ValueSet",
+  "id": "prescriptionrouteofadministration",
+  "url": "https://fhir.infoway-inforoute.ca/ValueSet/prescriptionrouteofadministration",
+  "identifier": [ {
+    "id": "2.16.840.1.113883.2.20.3.404"
+  } ],
+  "version": "20190415",
+  "name": "PrescriptionRouteOfAdministration",
+  "status": "active",
+  "description": "How the product should enter the body - used for e-Prescribing purposes",
+  "expansion": {
+    "identifier": "urn:uuid:b9403b3f-68d4-47ba-93d1-a3bcc4c9d95f",
+    "timestamp": "2025-07-25T11:34:29-04:00",
+    "total": 18,
+    "contains": [ {
+      "system": "http://hl7.org/fhir/v3/RouteOfAdministration",
+      "abstract": false,
+      "code": "BUC",
+      "display": "Buccal",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Buccal"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "buccale"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/RouteOfAdministration",
+      "abstract": false,
+      "code": "DEN",
+      "display": "Dental",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Dental"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "dentaire"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/RouteOfAdministration",
+      "abstract": false,
+      "code": "EPI",
+      "display": "Epidural",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Epidural"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "épidurale"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/RouteOfAdministration",
+      "abstract": false,
+      "code": "IM",
+      "display": "Intramuscular",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Intramuscular"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "intramusculaire"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/RouteOfAdministration",
+      "abstract": false,
+      "code": "IPINHL",
+      "display": "Inhalation, oral",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Inhalation, oral"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "inhalation"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/RouteOfAdministration",
+      "abstract": false,
+      "code": "IV",
+      "display": "Intravenous",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Intravenous"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "intraveineuse"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/RouteOfAdministration",
+      "abstract": false,
+      "code": "NASAL",
+      "display": "Nasal",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Nasal"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "nasale"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/RouteOfAdministration",
+      "abstract": false,
+      "code": "NASOGASINSTIL",
+      "display": "Nasogastric",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Nasogastric"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "nasogastrique"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/RouteOfAdministration",
+      "abstract": false,
+      "code": "OPTHALTA",
+      "display": "Ophthalmic",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Ophthalmic"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "ophtalmique"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/RouteOfAdministration",
+      "abstract": false,
+      "code": "OT",
+      "display": "Otic",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Otic"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "otique"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/RouteOfAdministration",
+      "abstract": false,
+      "code": "PO",
+      "display": "Oral",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Oral"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "orale"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/RouteOfAdministration",
+      "abstract": false,
+      "code": "PR",
+      "display": "Rectal",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Rectal"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "rectale"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/RouteOfAdministration",
+      "abstract": false,
+      "code": "SL",
+      "display": "Sublingual",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Sublingual"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "sublinguale"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/RouteOfAdministration",
+      "abstract": false,
+      "code": "SQ",
+      "display": "Subcutaneous",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Subcutaneous"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "sous-cutanée"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/RouteOfAdministration",
+      "abstract": false,
+      "code": "TOPICAL",
+      "display": "Topical",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Topical"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "cutanée"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/RouteOfAdministration",
+      "abstract": false,
+      "code": "TRNSDERM",
+      "display": "Transdermal",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Transdermal"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "transdermique"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/RouteOfAdministration",
+      "abstract": false,
+      "code": "TRNSLING",
+      "display": "Translingual",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Translingual"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "translinguale"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/RouteOfAdministration",
+      "abstract": false,
+      "code": "VAGINS",
+      "display": "Vaginal",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Vaginal"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "vaginale"
+      } ]
+    } ]
+  }
+}

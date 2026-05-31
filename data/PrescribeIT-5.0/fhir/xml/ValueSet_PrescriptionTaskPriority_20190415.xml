@@ -1,0 +1,98 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+   <id value="prescriptiontaskpriority"></id>
+   <url value="https://fhir.infoway-inforoute.ca/ValueSet/prescriptiontaskpriority"></url>
+   <identifier id="2.16.840.1.113883.2.20.3.416"></identifier>
+   <version value="20190415"></version>
+   <name value="PrescriptionTaskPriority"></name>
+   <status value="active"></status>
+   <description value="PrescribeIT task priorities"></description>
+   <expansion>
+      <identifier value="urn:uuid:20a38942-ff2f-48d6-8aee-e2ad31453438"></identifier>
+      <timestamp value="2025-07-25T11:34:32-04:00"></timestamp>
+      <total value="2"></total>
+      <contains>
+         <system value="http://hl7.org/fhir/task-priority"></system>
+         <abstract value="false"></abstract>
+         <code value="high"></code>
+         <display value="High"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="This task has high priority."></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="High"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="La priorité de cette tâche est haute."></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Haute"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/task-priority"></system>
+         <abstract value="false"></abstract>
+         <code value="normal"></code>
+         <display value="Normal"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="This task has normal priority."></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Normal"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="La priorité de cette tâche est normale."></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Normale"></value>
+         </designation>
+      </contains>
+   </expansion>
+</ValueSet>

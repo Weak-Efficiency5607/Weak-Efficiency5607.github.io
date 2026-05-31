@@ -1,0 +1,20 @@
+<version>
+  <id>2.16.840.1.113883.2.20.3.404</id>
+  <url>https://tgateway.infoway-inforoute.ca/vs/prescriptionrouteofadministration</url>
+  <fhirUri>https://fhir.infoway-inforoute.ca/ValueSet/prescriptionrouteofadministration</fhirUri>
+  <name>PrescriptionRouteOfAdministration</name>
+  <versionId>20190415</versionId>
+  <effectiveDate>2019041504:00:00</effectiveDate>
+  <publicationTime>2019051505:09:38</publicationTime>
+  <description>How the product should enter the body - used for e-Prescribing purposes</description>
+  <status>active</status>
+  <codeSystems>
+    <codesystem>
+      <id>2.16.840.1.113883.5.112</id>
+      <name>RouteOfAdministration</name>
+      <businessName>RouteOfAdministration</businessName>
+      <url>http://hl7.org/fhir/v3/RouteOfAdministration</url>
+      <version>1.4.0</version>
+    </codesystem>
+  </codeSystems>
+</version>

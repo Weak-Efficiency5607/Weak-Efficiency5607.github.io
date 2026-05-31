@@ -1,0 +1,1080 @@
+<subset>
+  <id>2.16.840.1.113883.2.20.3.398</id>
+  <name>PrescriptionDrugForm</name>
+  <url>https://tgateway.infoway-inforoute.ca/vs/prescriptiondrugform</url>
+  <fhirUri>https://fhir.infoway-inforoute.ca/ValueSet/prescriptiondrugform</fhirUri>
+  <versionId>20230223</versionId>
+  <effectiveDate>2023022305:00:00</effectiveDate>
+  <publicationTime>2023022303:16:11</publicationTime>
+  <description>The form in which a compounded drug or active ingredient can be dispensed to the patient</description>
+  <status>active</status>
+  <category>HL7</category>
+  <domains>
+    <string>ePrescribe</string>
+  </domains>
+  <properties/>
+  <owner>Canada Health Infoway</owner>
+  <tags>
+    <string>Extensional</string>
+  </tags>
+  <terminologies class="com.google.gson.internal.LinkedTreeMap" resolves-to="linked-hash-map"/>
+  <type>Extensional</type>
+  <viewer>singlesubset</viewer>
+  <codeSystems>
+    <codesystem>
+      <id>2.16.840.1.113883.5.85</id>
+      <name>orderableDrugForm</name>
+      <businessName>orderableDrugForm</businessName>
+      <url>http://hl7.org/fhir/v3/orderableDrugForm</url>
+      <version>1.4.0</version>
+    </codesystem>
+    <codesystem>
+      <id>2.16.840.1.113883.6.96</id>
+      <name>SNOMED CT CA Edition</name>
+      <businessName>SNOMED CT CA Edition</businessName>
+      <url>http://snomed.info/sct</url>
+      <version>20220930</version>
+    </codesystem>
+  </codeSystems>
+  <concepts>
+    <concept>
+      <id>22141000087108</id>
+      <name>Lollipop (basic dose form)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Lollipop</enDisplayName>
+      <frDisplayName>sucette</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>22161000087109</id>
+      <name>Gummy candy (basic dose form)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Gummy</enDisplayName>
+      <frDisplayName>bonbon gélifié</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>22171000087100</id>
+      <name>Rectal rocket suppository (basic dose form)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Rectal rocket</enDisplayName>
+      <frDisplayName>suppositoire rectal en forme de fusée</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>385041009</id>
+      <name>Conventional release oral powder (dose form)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Oral powder</enDisplayName>
+      <frDisplayName>poudre orale</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>AER</id>
+      <name>Aerosol</name>
+      <codeSystemId>2.16.840.1.113883.5.85</codeSystemId>
+      <codeSystemName>orderableDrugForm</codeSystemName>
+      <enDisplayName>Aerosol</enDisplayName>
+      <frDisplayName>aérosol</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>BAR</id>
+      <name>Bar</name>
+      <codeSystemId>2.16.840.1.113883.5.85</codeSystemId>
+      <codeSystemName>orderableDrugForm</codeSystemName>
+      <enDisplayName>Bar</enDisplayName>
+      <frDisplayName>barre</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>BEAD</id>
+      <name>Beads</name>
+      <codeSystemId>2.16.840.1.113883.5.85</codeSystemId>
+      <codeSystemName>orderableDrugForm</codeSystemName>
+      <enDisplayName>Beads</enDisplayName>
+      <frDisplayName>billes</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>BUCTAB</id>
+      <name>Buccal Tablet</name>
+      <codeSystemId>2.16.840.1.113883.5.85</codeSystemId>
+      <codeSystemName>orderableDrugForm</codeSystemName>
+      <enDisplayName>Buccal tablet</enDisplayName>
+      <frDisplayName>comprimé buccal</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>CAP</id>
+      <name>Capsule</name>
+      <codeSystemId>2.16.840.1.113883.5.85</codeSystemId>
+      <codeSystemName>orderableDrugForm</codeSystemName>
+      <enDisplayName>Capsule</enDisplayName>
+      <frDisplayName>capsule</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>CAPLET</id>
+      <name>Caplet</name>
+      <codeSystemId>2.16.840.1.113883.5.85</codeSystemId>
+      <codeSystemName>orderableDrugForm</codeSystemName>
+      <enDisplayName>Caplet</enDisplayName>
+      <frDisplayName>caplet</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>CHEWTAB</id>
+      <name>Chewable Tablet</name>
+      <codeSystemId>2.16.840.1.113883.5.85</codeSystemId>
+      <codeSystemName>orderableDrugForm</codeSystemName>
+      <enDisplayName>Chewable tablet</enDisplayName>
+      <frDisplayName>comprimé à croquer</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>CRM</id>
+      <name>Cream</name>
+      <codeSystemId>2.16.840.1.113883.5.85</codeSystemId>
+      <codeSystemName>orderableDrugForm</codeSystemName>
+      <enDisplayName>Cream</enDisplayName>
+      <frDisplayName>crème</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>CRYS</id>
+      <name>Crystals</name>
+      <codeSystemId>2.16.840.1.113883.5.85</codeSystemId>
+      <codeSystemName>orderableDrugForm</codeSystemName>
+      <enDisplayName>Crystals</enDisplayName>
+      <frDisplayName>cristaux</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>DERMSPRY</id>
+      <name>Dermal Spray</name>
+      <codeSystemId>2.16.840.1.113883.5.85</codeSystemId>
+      <codeSystemName>orderableDrugForm</codeSystemName>
+      <enDisplayName>Dermal spray</enDisplayName>
+      <frDisplayName>vaporisateur cutané</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>DISINTAB</id>
+      <name>Disintegrating tablet</name>
+      <codeSystemId>2.16.840.1.113883.5.85</codeSystemId>
+      <codeSystemName>orderableDrugForm</codeSystemName>
+      <enDisplayName>Disintegrating tablet</enDisplayName>
+      <frDisplayName>comprimé à dissolution orale</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>DISK</id>
+      <name>Disk</name>
+      <codeSystemId>2.16.840.1.113883.5.85</codeSystemId>
+      <codeSystemName>orderableDrugForm</codeSystemName>
+      <enDisplayName>Disk</enDisplayName>
+      <frDisplayName>disque</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>DROP</id>
+      <name>Drops</name>
+      <codeSystemId>2.16.840.1.113883.5.85</codeSystemId>
+      <codeSystemName>orderableDrugForm</codeSystemName>
+      <enDisplayName>Drops</enDisplayName>
+      <frDisplayName>gouttes</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>DRTAB</id>
+      <name>Delayed release tablet</name>
+      <codeSystemId>2.16.840.1.113883.5.85</codeSystemId>
+      <codeSystemName>orderableDrugForm</codeSystemName>
+      <enDisplayName>Delayed release tablet</enDisplayName>
+      <frDisplayName>comprimé à libération retardée</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ECTAB</id>
+      <name>Enteric Coated Tablet</name>
+      <codeSystemId>2.16.840.1.113883.5.85</codeSystemId>
+      <codeSystemName>orderableDrugForm</codeSystemName>
+      <enDisplayName>Enteric coated tablet</enDisplayName>
+      <frDisplayName>comprimé gastrorésistant</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ELIXIR</id>
+      <name>Elixir</name>
+      <codeSystemId>2.16.840.1.113883.5.85</codeSystemId>
+      <codeSystemName>orderableDrugForm</codeSystemName>
+      <enDisplayName>Elixir</enDisplayName>
+      <frDisplayName>élixir</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ENEMA</id>
+      <name>Enema</name>
+      <codeSystemId>2.16.840.1.113883.5.85</codeSystemId>
+      <codeSystemName>orderableDrugForm</codeSystemName>
+      <enDisplayName>Enema</enDisplayName>
+      <frDisplayName>lavement</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ENTCAP</id>
+      <name>Enteric Coated Capsule</name>
+      <codeSystemId>2.16.840.1.113883.5.85</codeSystemId>
+      <codeSystemName>orderableDrugForm</codeSystemName>
+      <enDisplayName>Enteric coated capsule</enDisplayName>
+      <frDisplayName>capsule gastrorésistante</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ERCAP</id>
+      <name>Extended Release Capsule</name>
+      <codeSystemId>2.16.840.1.113883.5.85</codeSystemId>
+      <codeSystemName>orderableDrugForm</codeSystemName>
+      <enDisplayName>Extended release capsule</enDisplayName>
+      <frDisplayName>capsule à libération prolongée</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ERTAB</id>
+      <name>Extended Release Tablet</name>
+      <codeSystemId>2.16.840.1.113883.5.85</codeSystemId>
+      <codeSystemName>orderableDrugForm</codeSystemName>
+      <enDisplayName>Extended release tablet</enDisplayName>
+      <frDisplayName>comprimé à libération prolongée</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>FLAKE</id>
+      <name>Flakes</name>
+      <codeSystemId>2.16.840.1.113883.5.85</codeSystemId>
+      <codeSystemName>orderableDrugForm</codeSystemName>
+      <enDisplayName>Flakes</enDisplayName>
+      <frDisplayName>flocons</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>FOAM</id>
+      <name>Foam</name>
+      <codeSystemId>2.16.840.1.113883.5.85</codeSystemId>
+      <codeSystemName>orderableDrugForm</codeSystemName>
+      <enDisplayName>Foam</enDisplayName>
+      <frDisplayName>mousse</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>FOAMAPL</id>
+      <name>Foam with Applicator</name>
+      <codeSystemId>2.16.840.1.113883.5.85</codeSystemId>
+      <codeSystemName>orderableDrugForm</codeSystemName>
+      <enDisplayName>Foam with Applicator</enDisplayName>
+      <frDisplayName>mousse avec applicateur</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>GEL</id>
+      <name>Gel</name>
+      <codeSystemId>2.16.840.1.113883.5.85</codeSystemId>
+      <codeSystemName>orderableDrugForm</codeSystemName>
+      <enDisplayName>Gel</enDisplayName>
+      <frDisplayName>gel</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>GELAPL</id>
+      <name>Gel with Applicator</name>
+      <codeSystemId>2.16.840.1.113883.5.85</codeSystemId>
+      <codeSystemName>orderableDrugForm</codeSystemName>
+      <enDisplayName>Gel with Applicator</enDisplayName>
+      <frDisplayName>gel avec applicateur</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>GRAN</id>
+      <name>Granules</name>
+      <codeSystemId>2.16.840.1.113883.5.85</codeSystemId>
+      <codeSystemName>orderableDrugForm</codeSystemName>
+      <enDisplayName>Granules</enDisplayName>
+      <frDisplayName>granules</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>IRSOL</id>
+      <name>Irrigation Solution</name>
+      <codeSystemId>2.16.840.1.113883.5.85</codeSystemId>
+      <codeSystemName>orderableDrugForm</codeSystemName>
+      <enDisplayName>Irrigation Solution</enDisplayName>
+      <frDisplayName>solution pour irrigation</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>LTN</id>
+      <name>Lotion</name>
+      <codeSystemId>2.16.840.1.113883.5.85</codeSystemId>
+      <codeSystemName>orderableDrugForm</codeSystemName>
+      <enDisplayName>Lotion</enDisplayName>
+      <frDisplayName>lotion</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>MDINHL</id>
+      <name>Metered Dose Inhaler</name>
+      <codeSystemId>2.16.840.1.113883.5.85</codeSystemId>
+      <codeSystemName>orderableDrugForm</codeSystemName>
+      <enDisplayName>Metered dose inhaler</enDisplayName>
+      <frDisplayName>aérosol-doseur</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>MDINHLPWD</id>
+      <name>Metered Dose Powder Inhaler</name>
+      <codeSystemId>2.16.840.1.113883.5.85</codeSystemId>
+      <codeSystemName>orderableDrugForm</codeSystemName>
+      <enDisplayName>Metered dose powder inhaler</enDisplayName>
+      <frDisplayName>inhalateur de poudre sèche</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>MEDPAD</id>
+      <name>Medicated pad</name>
+      <codeSystemId>2.16.840.1.113883.5.85</codeSystemId>
+      <codeSystemName>orderableDrugForm</codeSystemName>
+      <enDisplayName>Medicated pad</enDisplayName>
+      <frDisplayName>tampon médicamenteux</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>NASSPRY</id>
+      <name>Nasal Spray</name>
+      <codeSystemId>2.16.840.1.113883.5.85</codeSystemId>
+      <codeSystemName>orderableDrugForm</codeSystemName>
+      <enDisplayName>Nasal Spray</enDisplayName>
+      <frDisplayName>vaporisateur nasal</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>OIL</id>
+      <name>Oil</name>
+      <codeSystemId>2.16.840.1.113883.5.85</codeSystemId>
+      <codeSystemName>orderableDrugForm</codeSystemName>
+      <enDisplayName>Oil</enDisplayName>
+      <frDisplayName>huile</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>OINT</id>
+      <name>Ointment</name>
+      <codeSystemId>2.16.840.1.113883.5.85</codeSystemId>
+      <codeSystemName>orderableDrugForm</codeSystemName>
+      <enDisplayName>Ointment</enDisplayName>
+      <frDisplayName>pommade</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>OINTAPL</id>
+      <name>Ointment with applicator</name>
+      <codeSystemId>2.16.840.1.113883.5.85</codeSystemId>
+      <codeSystemName>orderableDrugForm</codeSystemName>
+      <enDisplayName>Ointment with applicator</enDisplayName>
+      <frDisplayName>pommade avec applicateur</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>OPCRM</id>
+      <name>Ophthalmic Cream</name>
+      <codeSystemId>2.16.840.1.113883.5.85</codeSystemId>
+      <codeSystemName>orderableDrugForm</codeSystemName>
+      <enDisplayName>Ophthalmic cream</enDisplayName>
+      <frDisplayName>crème ophtalmique</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>OPDROP</id>
+      <name>Ophthalmic Drops</name>
+      <codeSystemId>2.16.840.1.113883.5.85</codeSystemId>
+      <codeSystemName>orderableDrugForm</codeSystemName>
+      <enDisplayName>Ophthalmic drops</enDisplayName>
+      <frDisplayName>gouttes ophtalmiques</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>OPGEL</id>
+      <name>Ophthalmic Gel</name>
+      <codeSystemId>2.16.840.1.113883.5.85</codeSystemId>
+      <codeSystemName>orderableDrugForm</codeSystemName>
+      <enDisplayName>Ophthalmic gel</enDisplayName>
+      <frDisplayName>gel ophtalmique</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>OPOINT</id>
+      <name>Ophthalmic Ointment</name>
+      <codeSystemId>2.16.840.1.113883.5.85</codeSystemId>
+      <codeSystemName>orderableDrugForm</codeSystemName>
+      <enDisplayName>Ophthalmic ointment</enDisplayName>
+      <frDisplayName>pommade ophtalmique</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ORALSOL</id>
+      <name>Oral Solution</name>
+      <codeSystemId>2.16.840.1.113883.5.85</codeSystemId>
+      <codeSystemName>orderableDrugForm</codeSystemName>
+      <enDisplayName>Oral solution</enDisplayName>
+      <frDisplayName>solution orale</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ORSUSP</id>
+      <name>Oral Suspension</name>
+      <codeSystemId>2.16.840.1.113883.5.85</codeSystemId>
+      <codeSystemName>orderableDrugForm</codeSystemName>
+      <enDisplayName>Oral suspension</enDisplayName>
+      <frDisplayName>suspension orale</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ORTROCHE</id>
+      <name>Lozenge/Oral Troche</name>
+      <codeSystemId>2.16.840.1.113883.5.85</codeSystemId>
+      <codeSystemName>orderableDrugForm</codeSystemName>
+      <enDisplayName>Lozenge/Oral Troche</enDisplayName>
+      <frDisplayName>pastille</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>OTCRM</id>
+      <name>Otic Cream</name>
+      <codeSystemId>2.16.840.1.113883.5.85</codeSystemId>
+      <codeSystemName>orderableDrugForm</codeSystemName>
+      <enDisplayName>Otic cream</enDisplayName>
+      <frDisplayName>crème otique</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>OTDROP</id>
+      <name>Otic Drops</name>
+      <codeSystemId>2.16.840.1.113883.5.85</codeSystemId>
+      <codeSystemName>orderableDrugForm</codeSystemName>
+      <enDisplayName>Otic drops</enDisplayName>
+      <frDisplayName>gouttes otiques</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>OTGEL</id>
+      <name>Otic Gel</name>
+      <codeSystemId>2.16.840.1.113883.5.85</codeSystemId>
+      <codeSystemName>orderableDrugForm</codeSystemName>
+      <enDisplayName>Otic gel</enDisplayName>
+      <frDisplayName>gel otique</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>OTOINT</id>
+      <name>Otic Ointment</name>
+      <codeSystemId>2.16.840.1.113883.5.85</codeSystemId>
+      <codeSystemName>orderableDrugForm</codeSystemName>
+      <enDisplayName>Otic ointment</enDisplayName>
+      <frDisplayName>pommade otique</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>PAD</id>
+      <name>Pad</name>
+      <codeSystemId>2.16.840.1.113883.5.85</codeSystemId>
+      <codeSystemName>orderableDrugForm</codeSystemName>
+      <enDisplayName>Pad</enDisplayName>
+      <frDisplayName>tampon imprégné</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>PASTE</id>
+      <name>Paste</name>
+      <codeSystemId>2.16.840.1.113883.5.85</codeSystemId>
+      <codeSystemName>orderableDrugForm</codeSystemName>
+      <enDisplayName>Paste</enDisplayName>
+      <frDisplayName>pâte</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>PATCH</id>
+      <name>Patch</name>
+      <codeSystemId>2.16.840.1.113883.5.85</codeSystemId>
+      <codeSystemName>orderableDrugForm</codeSystemName>
+      <enDisplayName>Patch</enDisplayName>
+      <frDisplayName>timbre</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>PELLET</id>
+      <name>Pellet</name>
+      <codeSystemId>2.16.840.1.113883.5.85</codeSystemId>
+      <codeSystemName>orderableDrugForm</codeSystemName>
+      <enDisplayName>Pellet</enDisplayName>
+      <frDisplayName>granule</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>POWD</id>
+      <name>Powder</name>
+      <codeSystemId>2.16.840.1.113883.5.85</codeSystemId>
+      <codeSystemName>orderableDrugForm</codeSystemName>
+      <enDisplayName>Powder</enDisplayName>
+      <frDisplayName>poudre</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>PUD</id>
+      <name>Pudding</name>
+      <codeSystemId>2.16.840.1.113883.5.85</codeSystemId>
+      <codeSystemName>orderableDrugForm</codeSystemName>
+      <enDisplayName>Pudding</enDisplayName>
+      <frDisplayName>pouding</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>RECCRM</id>
+      <name>Rectal Cream</name>
+      <codeSystemId>2.16.840.1.113883.5.85</codeSystemId>
+      <codeSystemName>orderableDrugForm</codeSystemName>
+      <enDisplayName>Rectal cream</enDisplayName>
+      <frDisplayName>crème rectale</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>RECFORM</id>
+      <name>Rectal foam</name>
+      <codeSystemId>2.16.840.1.113883.5.85</codeSystemId>
+      <codeSystemName>orderableDrugForm</codeSystemName>
+      <enDisplayName>Rectal foam</enDisplayName>
+      <frDisplayName>mousse rectale</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>RECOINT</id>
+      <name>Rectal Ointment</name>
+      <codeSystemId>2.16.840.1.113883.5.85</codeSystemId>
+      <codeSystemName>orderableDrugForm</codeSystemName>
+      <enDisplayName>Rectal ointment</enDisplayName>
+      <frDisplayName>pommade rectale</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>RECSOL</id>
+      <name>Rectal Solution</name>
+      <codeSystemId>2.16.840.1.113883.5.85</codeSystemId>
+      <codeSystemName>orderableDrugForm</codeSystemName>
+      <enDisplayName>Rectal solution</enDisplayName>
+      <frDisplayName>solution rectale</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>RECSUPP</id>
+      <name>Rectal Suppository</name>
+      <codeSystemId>2.16.840.1.113883.5.85</codeSystemId>
+      <codeSystemName>orderableDrugForm</codeSystemName>
+      <enDisplayName>Rectal suppository</enDisplayName>
+      <frDisplayName>suppositoire rectal</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>RINSE</id>
+      <name>Mouthwash/Rinse</name>
+      <codeSystemId>2.16.840.1.113883.5.85</codeSystemId>
+      <codeSystemName>orderableDrugForm</codeSystemName>
+      <enDisplayName>Mouthwash/Rinse</enDisplayName>
+      <frDisplayName>rince-bouche</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>SHMP</id>
+      <name>Shampoo</name>
+      <codeSystemId>2.16.840.1.113883.5.85</codeSystemId>
+      <codeSystemName>orderableDrugForm</codeSystemName>
+      <enDisplayName>Shampoo</enDisplayName>
+      <frDisplayName>shampoing</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>SLTAB</id>
+      <name>Sublingual Tablet</name>
+      <codeSystemId>2.16.840.1.113883.5.85</codeSystemId>
+      <codeSystemName>orderableDrugForm</codeSystemName>
+      <enDisplayName>Sublingual tablet</enDisplayName>
+      <frDisplayName>comprimé sublingual</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>SOL</id>
+      <name>Solution</name>
+      <codeSystemId>2.16.840.1.113883.5.85</codeSystemId>
+      <codeSystemName>orderableDrugForm</codeSystemName>
+      <enDisplayName>Solution</enDisplayName>
+      <frDisplayName>solution</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>SPRY</id>
+      <name>Sprays</name>
+      <codeSystemId>2.16.840.1.113883.5.85</codeSystemId>
+      <codeSystemName>orderableDrugForm</codeSystemName>
+      <enDisplayName>Sprays</enDisplayName>
+      <frDisplayName>vaporisations</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>SPRYADAPT</id>
+      <name>Spray with Adaptor</name>
+      <codeSystemId>2.16.840.1.113883.5.85</codeSystemId>
+      <codeSystemName>orderableDrugForm</codeSystemName>
+      <enDisplayName>Spray with adaptor</enDisplayName>
+      <frDisplayName>vaporisateur avec adaptateur</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>SUPP</id>
+      <name>Suppository</name>
+      <codeSystemId>2.16.840.1.113883.5.85</codeSystemId>
+      <codeSystemName>orderableDrugForm</codeSystemName>
+      <enDisplayName>Suppository</enDisplayName>
+      <frDisplayName>suppositoire</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>SUSP</id>
+      <name>Suspension</name>
+      <codeSystemId>2.16.840.1.113883.5.85</codeSystemId>
+      <codeSystemName>orderableDrugForm</codeSystemName>
+      <enDisplayName>Suspension</enDisplayName>
+      <frDisplayName>suspension</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>SWAB</id>
+      <name>Swab</name>
+      <codeSystemId>2.16.840.1.113883.5.85</codeSystemId>
+      <codeSystemName>orderableDrugForm</codeSystemName>
+      <enDisplayName>Swab</enDisplayName>
+      <frDisplayName>écouvillon</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>SYRUP</id>
+      <name>Syrup</name>
+      <codeSystemId>2.16.840.1.113883.5.85</codeSystemId>
+      <codeSystemName>orderableDrugForm</codeSystemName>
+      <enDisplayName>Syrup</enDisplayName>
+      <frDisplayName>sirop</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>TAB</id>
+      <name>Tablet</name>
+      <codeSystemId>2.16.840.1.113883.5.85</codeSystemId>
+      <codeSystemName>orderableDrugForm</codeSystemName>
+      <enDisplayName>Tablet</enDisplayName>
+      <frDisplayName>comprimé</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>TINC</id>
+      <name>Tincture</name>
+      <codeSystemId>2.16.840.1.113883.5.85</codeSystemId>
+      <codeSystemName>orderableDrugForm</codeSystemName>
+      <enDisplayName>Tincture</enDisplayName>
+      <frDisplayName>teinture</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>TOPPWD</id>
+      <name>Topical Powder</name>
+      <codeSystemId>2.16.840.1.113883.5.85</codeSystemId>
+      <codeSystemName>orderableDrugForm</codeSystemName>
+      <enDisplayName>Topical Powder</enDisplayName>
+      <frDisplayName>poudre cutanée</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>TPATCH</id>
+      <name>Transdermal Patch</name>
+      <codeSystemId>2.16.840.1.113883.5.85</codeSystemId>
+      <codeSystemName>orderableDrugForm</codeSystemName>
+      <enDisplayName>Transdermal patch</enDisplayName>
+      <frDisplayName>timbre transdermique</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>VAGCRM</id>
+      <name>Vaginal Cream</name>
+      <codeSystemId>2.16.840.1.113883.5.85</codeSystemId>
+      <codeSystemName>orderableDrugForm</codeSystemName>
+      <enDisplayName>Vaginal cream</enDisplayName>
+      <frDisplayName>crème vaginale</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>VAGSUPP</id>
+      <name>Vaginal Suppository</name>
+      <codeSystemId>2.16.840.1.113883.5.85</codeSystemId>
+      <codeSystemName>orderableDrugForm</codeSystemName>
+      <enDisplayName>Vaginal suppository</enDisplayName>
+      <frDisplayName>suppositoire vaginal</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>VAGTAB</id>
+      <name>Vaginal Tablet</name>
+      <codeSystemId>2.16.840.1.113883.5.85</codeSystemId>
+      <codeSystemName>orderableDrugForm</codeSystemName>
+      <enDisplayName>Vaginal tablet</enDisplayName>
+      <frDisplayName>comprimé vaginal</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>WAFER</id>
+      <name>Wafer</name>
+      <codeSystemId>2.16.840.1.113883.5.85</codeSystemId>
+      <codeSystemName>orderableDrugForm</codeSystemName>
+      <enDisplayName>Wafer</enDisplayName>
+      <frDisplayName>cachet</frDisplayName>
+      <effectiveDate>2023022305:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>11190007</id>
+      <name>Drug stick (qualifier value)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Extension</codeSystemName>
+      <enDisplayName>Drug Stick</enDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>false</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+  </concepts>
+</subset>

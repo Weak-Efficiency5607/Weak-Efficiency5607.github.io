@@ -1,0 +1,182 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+   <id value="gender"></id>
+   <url value="https://fhir.infoway-inforoute.ca/ValueSet/gender"></url>
+   <identifier id="2.16.840.1.113883.2.20.3.447"></identifier>
+   <version value="20190415"></version>
+   <name value="Gender"></name>
+   <status value="active"></status>
+   <description value="Gender of people"></description>
+   <expansion>
+      <identifier value="urn:uuid:03b6fcae-ee45-4d21-9f52-b6cea0e58294"></identifier>
+      <timestamp value="2025-07-25T11:32:47-04:00"></timestamp>
+      <total value="4"></total>
+      <contains>
+         <system value="http://hl7.org/fhir/administrative-gender"></system>
+         <abstract value="false"></abstract>
+         <code value="female"></code>
+         <display value="Female"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="Female"></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Female"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="Femme"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Femme"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/administrative-gender"></system>
+         <abstract value="false"></abstract>
+         <code value="male"></code>
+         <display value="Male"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="Male"></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Male"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="Homme"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Homme"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/administrative-gender"></system>
+         <abstract value="false"></abstract>
+         <code value="other"></code>
+         <display value="Other"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="The administrative gender is a value other than male/female/unknown. Where this value is selected, systems may often choose to include an extension with the localized more specific value."></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Other"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="Le sexe aministratif est une valeur autre que homme/femme/inconnu. Quand cette valeur est sélectionnée, les systèmes peuvent souvent choisir d'inclure une extension comprenant la valeur locale plus précise."></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Autre"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/administrative-gender"></system>
+         <abstract value="false"></abstract>
+         <code value="unknown"></code>
+         <display value="Unknown"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="A proper value is applicable, but not known. Usage Notes: This means the actual value is not known. If the only thing that is unknown is how to properly express the value in the necessary constraints (value set, datatype, etc.), then the OTH or UNC flavor should be used. No properties should be included for a datatype with this property unless: Those properties themselves directly translate to a semantic of &quot;unknown&quot;. (E.g. a local code sent as a translation that conveys 'unknown') Those properties further qualify the nature of what is unknown. (E.g. specifying a use code of &quot;H&quot; and a URL prefix of &quot;tel:&quot; to convey that it is the home phone number that is unknown.)"></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Unknown"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="Une valeur est applicable, mais est inconnue. Notes d'utilisation : Cela signifie que la valeur réelle est inconnue. Si la seule chose qui est inconnue est de savoir comment bien exprimer la valeur selon les contraintes nécessaires (ensemble de valeurs, type de données, etc.), alors il faut utiliser le code OTH ou UNC. Aucune propriété ne devrait être incluse pour un type de données ayant cette propriété, à moins que ces propriétés elles-mêmes traduisent directement une sémantique « inconnue » (p. ex. un code local envoyé comme une traduction qui exprime le sens d'« inconnu »). Ces propriétés qualifient aussi la nature de ce qui est inconnu (p. ex. spécifier le code d'usage « H » et le préfixe d'URL « tél. » pour indiquer que le numéro de téléphone à domicile est inconnu.)"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Valeur inconnue"></value>
+         </designation>
+      </contains>
+   </expansion>
+</ValueSet>

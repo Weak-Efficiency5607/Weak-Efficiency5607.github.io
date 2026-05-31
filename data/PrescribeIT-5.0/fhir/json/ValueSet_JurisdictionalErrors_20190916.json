@@ -1,0 +1,88 @@
+{
+  "resourceType": "ValueSet",
+  "id": "jurisdictionalerrors",
+  "url": "https://fhir.infoway-inforoute.ca/ValueSet/jurisdictionalerrors",
+  "identifier": [ {
+    "id": "2.16.840.1.113883.2.20.3.453"
+  } ],
+  "version": "20190916",
+  "name": "JurisdictionalErrors",
+  "status": "active",
+  "description": "Codes representing the various types of errors that can occur while communicating with Jurisdictional connectors.",
+  "expansion": {
+    "identifier": "urn:uuid:aa0138c6-373a-4379-9447-defa8572c8d3",
+    "timestamp": "2025-07-25T11:35:09-04:00",
+    "total": 5,
+    "contains": [ {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/JurisdictionalErrors",
+      "abstract": false,
+      "code": "JUR001",
+      "display": "Jurisdictional Registry Client Issue",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Jurisdictional Registry Client Issue"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/JurisdictionalErrors",
+      "abstract": false,
+      "code": "JUR002",
+      "display": "Jursidictional DIS Client Issue",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Jursidictional DIS Client Issue"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/JurisdictionalErrors",
+      "abstract": false,
+      "code": "JUR003",
+      "display": "Connector Client Issue",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Connector Client Issue"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/JurisdictionalErrors",
+      "abstract": false,
+      "code": "JUR004",
+      "display": "Jurisdictional Registry Server Issue for Registry requests",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Jurisdictional Registry Server Issue for Registry requests"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/JurisdictionalErrors",
+      "abstract": false,
+      "code": "JUR005",
+      "display": "Jurisdictional DIS Server Issue for DIS requests",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Jurisdictional DIS Server Issue for DIS requests"
+      } ]
+    } ]
+  }
+}

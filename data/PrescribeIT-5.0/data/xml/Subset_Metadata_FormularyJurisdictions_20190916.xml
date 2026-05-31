@@ -1,0 +1,27 @@
+<version>
+  <id>2.16.840.1.113883.2.20.3.452</id>
+  <url>https://tgateway.infoway-inforoute.ca/vs/formularyjurisdictions</url>
+  <fhirUri>https://fhir.infoway-inforoute.ca/ValueSet/formularyjurisdictions</fhirUri>
+  <name>FormularyJurisdictions</name>
+  <versionId>20190916</versionId>
+  <effectiveDate>2019091604:00:00</effectiveDate>
+  <publicationTime>2019091712:34:02</publicationTime>
+  <description>Codes to identify the formularies providers that exist across Canada. Formularies are used to retrieve information about drug coverage and cost based on health plans that are offered within a particular jurisdiction.</description>
+  <status>active</status>
+  <codeSystems>
+    <codesystem>
+      <id>http://canadapost.ca/CodeSystem/ProvinceCodes</id>
+      <name>Canada Post Province Codes</name>
+      <businessName>Canada Post Province Codes</businessName>
+      <url>http://canadapost.ca/CodeSystem/ProvinceCodes</url>
+      <version>20170116</version>
+    </codesystem>
+    <codesystem>
+      <id>https://fhir.infoway-inforoute.ca/CodeSystem/formularyjurisdictions</id>
+      <name>FormularyJurisdictions</name>
+      <businessName>FormularyJurisdictions</businessName>
+      <url>https://fhir.infoway-inforoute.ca/CodeSystem/formularyjurisdictions</url>
+      <version>20190916</version>
+    </codesystem>
+  </codeSystems>
+</version>

@@ -1,0 +1,156 @@
+<subset>
+  <id>2.16.840.1.113883.2.20.3.448</id>
+  <name>BundleType</name>
+  <url>https://tgateway.infoway-inforoute.ca/vs/bundletype</url>
+  <fhirUri>https://fhir.infoway-inforoute.ca/ValueSet/bundletype</fhirUri>
+  <versionId>20190315</versionId>
+  <effectiveDate>2019031504:00:00</effectiveDate>
+  <publicationTime>2019031507:25:47</publicationTime>
+  <description>Indicates the purpose of a bundle - how it was intended to be used.</description>
+  <status>active</status>
+  <category>HL7</category>
+  <domains>
+    <string>PrescribeIT</string>
+  </domains>
+  <properties>
+    <entry>
+      <string>project</string>
+      <string>eRx</string>
+    </entry>
+  </properties>
+  <owner>Canada Health Infoway</owner>
+  <tags>
+    <string>Extensional</string>
+  </tags>
+  <terminologies class="com.google.gson.internal.LinkedTreeMap" resolves-to="linked-hash-map"/>
+  <type>Extensional</type>
+  <viewer>singlesubset</viewer>
+  <codeSystems>
+    <codesystem>
+      <id>2.16.840.1.113883.4.642.3.620</id>
+      <name>BundleType</name>
+      <businessName>BundleType</businessName>
+      <url>http://hl7.org/fhir/ValueSet/bundle-type</url>
+      <version>1.4.0</version>
+    </codesystem>
+  </codeSystems>
+  <concepts>
+    <concept>
+      <id>batch</id>
+      <name>Batch</name>
+      <codeSystemId>2.16.840.1.113883.4.642.3.620</codeSystemId>
+      <codeSystemName>BundleType</codeSystemName>
+      <enDisplayName>Batch</enDisplayName>
+      <description>The bundle is a transaction - intended to be processed by a server as a group of actions.</description>
+      <effectiveDate>2019031504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>batch-response</id>
+      <name>Batch Response</name>
+      <codeSystemId>2.16.840.1.113883.4.642.3.620</codeSystemId>
+      <codeSystemName>BundleType</codeSystemName>
+      <enDisplayName>Batch Response</enDisplayName>
+      <description>The bundle is a batch response. Note that as a batch, some responses may indicate failure and others success.</description>
+      <effectiveDate>2019031504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>collection</id>
+      <name>Collection</name>
+      <codeSystemId>2.16.840.1.113883.4.642.3.620</codeSystemId>
+      <codeSystemName>BundleType</codeSystemName>
+      <enDisplayName>Collection</enDisplayName>
+      <description>The bundle is a set of resources collected into a single document for ease of distribution.</description>
+      <effectiveDate>2019031504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>document</id>
+      <name>Document</name>
+      <codeSystemId>2.16.840.1.113883.4.642.3.620</codeSystemId>
+      <codeSystemName>BundleType</codeSystemName>
+      <enDisplayName>Document</enDisplayName>
+      <description>The bundle is a document. The first resource is a Composition.</description>
+      <effectiveDate>2019031504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>history</id>
+      <name>History List</name>
+      <codeSystemId>2.16.840.1.113883.4.642.3.620</codeSystemId>
+      <codeSystemName>BundleType</codeSystemName>
+      <enDisplayName>History List</enDisplayName>
+      <description>The bundle is a list of resources from a history interaction on a server.</description>
+      <effectiveDate>2019031504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>message</id>
+      <name>Message</name>
+      <codeSystemId>2.16.840.1.113883.4.642.3.620</codeSystemId>
+      <codeSystemName>BundleType</codeSystemName>
+      <enDisplayName>Message</enDisplayName>
+      <description>The bundle is a message. The first resource is a MessageHeader.</description>
+      <effectiveDate>2019031504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>searchset</id>
+      <name>Search Results</name>
+      <codeSystemId>2.16.840.1.113883.4.642.3.620</codeSystemId>
+      <codeSystemName>BundleType</codeSystemName>
+      <enDisplayName>Search Results</enDisplayName>
+      <description>The bundle is a list of resources returned as a result of a search/query interaction, operation, or message.</description>
+      <effectiveDate>2019031504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>transaction</id>
+      <name>Transaction</name>
+      <codeSystemId>2.16.840.1.113883.4.642.3.620</codeSystemId>
+      <codeSystemName>BundleType</codeSystemName>
+      <enDisplayName>Transaction</enDisplayName>
+      <description>The bundle is a transaction - intended to be processed by a server as an atomic commit.</description>
+      <effectiveDate>2019031504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>transaction-response</id>
+      <name>Transaction Response</name>
+      <codeSystemId>2.16.840.1.113883.4.642.3.620</codeSystemId>
+      <codeSystemName>BundleType</codeSystemName>
+      <enDisplayName>Transaction Response</enDisplayName>
+      <description>The bundle is a transaction response. Because the response is a transaction response, the transactionhas succeeded, and all responses are error free.</description>
+      <effectiveDate>2019031504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+  </concepts>
+</subset>

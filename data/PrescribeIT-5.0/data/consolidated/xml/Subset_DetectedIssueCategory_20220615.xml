@@ -1,0 +1,413 @@
+<subset>
+  <id>2.16.840.1.113883.2.20.3.465</id>
+  <name>DetectedIssueCategory</name>
+  <url>https://tgateway.infoway-inforoute.ca/vs/detectedissuecategory</url>
+  <fhirUri>https://fhir.infoway-inforoute.ca/ValueSet/detectedissuecategory</fhirUri>
+  <versionId>20220615</versionId>
+  <effectiveDate>2022061504:00:00</effectiveDate>
+  <publicationTime>2022083004:15:30</publicationTime>
+  <dateLastReviewed>2024011105:00:00</dateLastReviewed>
+  <description>Identifies what type of issue detected during occurrence of an act (e.g. unrecognized identifiers, drug-drug contraindications, drug-allergy alerts). Examples: High dosage alert Conditional element missing Timing detected issue</description>
+  <status>active</status>
+  <category>HL7</category>
+  <domains>
+    <string>PrescribeIT</string>
+  </domains>
+  <properties/>
+  <owner>Canada Health Infoway</owner>
+  <tags>
+    <string>Extensional</string>
+  </tags>
+  <terminologies class="com.google.gson.internal.LinkedTreeMap" resolves-to="linked-hash-map"/>
+  <type>Extensional</type>
+  <viewer>singlesubset</viewer>
+  <codeSystems>
+    <codesystem>
+      <id>2.16.840.1.113883.5.4</id>
+      <name>ActCode</name>
+      <businessName>ActCode</businessName>
+      <url>http://hl7.org/fhir/v3/ActCode</url>
+      <version>20180812</version>
+    </codesystem>
+  </codeSystems>
+  <concepts>
+    <concept>
+      <id>ALLDONE</id>
+      <name>already performed</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>ActCode</codeSystemName>
+      <enDisplayName>already performed</enDisplayName>
+      <frDisplayName>Action déjà effectuée</frDisplayName>
+      <description>Definition:The requested action has already been performed and so this request has no effect</description>
+      <effectiveDate>2022061504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ALRTENDLATE</id>
+      <name>end too late alert</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>ActCode</codeSystemName>
+      <enDisplayName>end too late alert</enDisplayName>
+      <frDisplayName>Alerte – prend fin trop tard</frDisplayName>
+      <description>Definition:Proposed therapy may be inappropriate or ineffective because the end of administration is too close to another planned therapy.</description>
+      <effectiveDate>2022061504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ALRTSTRTLATE</id>
+      <name>start too late alert</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>ActCode</codeSystemName>
+      <enDisplayName>start too late alert</enDisplayName>
+      <frDisplayName>Alerte - débute trop tard</frDisplayName>
+      <description>Definition:Proposed therapy may be inappropriate or ineffective because the start of administration is too late after the onset of the condition.</description>
+      <effectiveDate>2022061504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>DACT</id>
+      <name>drug action detected issue</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>ActCode</codeSystemName>
+      <enDisplayName>drug action detected issue</enDisplayName>
+      <frDisplayName>Problème détecté : action du médicament</frDisplayName>
+      <description>Description:Proposed therapy may be contraindicated or ineffective based on an existing or recent drug therapy.</description>
+      <effectiveDate>2022061504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>DRG</id>
+      <name>Drug Interaction Alert</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>ActCode</codeSystemName>
+      <enDisplayName>Drug Interaction Alert</enDisplayName>
+      <frDisplayName>Alerte : interaction avec médicament</frDisplayName>
+      <description>Proposed therapy may interact with an existing or recent drug therapy</description>
+      <effectiveDate>2022061504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ENDLATE</id>
+      <name>End Too Late Alert</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>ActCode</codeSystemName>
+      <enDisplayName>End Too Late Alert</enDisplayName>
+      <frDisplayName>Alerte – prend fin trop tard</frDisplayName>
+      <description>Proposed therapy may be inappropriate or ineffective because the end of administration is too close to another planned therapy</description>
+      <effectiveDate>2022061504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>FOOD</id>
+      <name>Food Interaction Alert</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>ActCode</codeSystemName>
+      <enDisplayName>Food Interaction Alert</enDisplayName>
+      <frDisplayName>Alerte : interaction avec aliment</frDisplayName>
+      <description>Proposed therapy may interact with certain foods</description>
+      <effectiveDate>2022061504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>FULFIL</id>
+      <name>fulfillment alert</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>ActCode</codeSystemName>
+      <enDisplayName>fulfillment alert</enDisplayName>
+      <frDisplayName>Alerte - ne concorde pas</frDisplayName>
+      <description>Definition:The therapy being performed is in some way out of alignment with the requested therapy.</description>
+      <effectiveDate>2022061504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>HELD</id>
+      <name>held/suspended alert</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>ActCode</codeSystemName>
+      <enDisplayName>held/suspended alert</enDisplayName>
+      <frDisplayName>Alerte - requête en suspens</frDisplayName>
+      <description>Definition:There should be no actions taken in fulfillment of a request that has been held or suspended.</description>
+      <effectiveDate>2022061504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>HISTORIC</id>
+      <name>record recorded as historical</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>ActCode</codeSystemName>
+      <enDisplayName>record recorded as historical</enDisplayName>
+      <frDisplayName>Dossier enregistré comme archive</frDisplayName>
+      <description>Description: While the record was accepted in the repository, there is a more recent version of a record of this type.</description>
+      <effectiveDate>2022061504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>INTERVAL</id>
+      <name>outside requested time</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>ActCode</codeSystemName>
+      <enDisplayName>outside requested time</enDisplayName>
+      <frDisplayName>Hors de la période demandée</frDisplayName>
+      <description>Definition:The therapy action is being performed outside the bounds of the time period requested</description>
+      <effectiveDate>2022061504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>MINFREQ</id>
+      <name>too soon within frequency based on the usage</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>ActCode</codeSystemName>
+      <enDisplayName>too soon within frequency based on the usage</enDisplayName>
+      <frDisplayName>Fréquence trop élevée selon l&apos;usage</frDisplayName>
+      <description>Definition:The therapy action is being performed too soon after the previous occurrence based on the requested frequency</description>
+      <effectiveDate>2022061504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>NHP</id>
+      <name>Natural Health Product Alert</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>ActCode</codeSystemName>
+      <enDisplayName>Natural Health Product Alert</enDisplayName>
+      <frDisplayName>Alerte : interaction avec produit de santé naturel</frDisplayName>
+      <description>Proposed therapy may interact with existing or recent natural health product therapy</description>
+      <effectiveDate>2022061504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>NONRX</id>
+      <name>Non-Prescription Interaction Alert</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>ActCode</codeSystemName>
+      <enDisplayName>Non-Prescription Interaction Alert</enDisplayName>
+      <frDisplayName>Alerte : interaction avec produit sans ordonnance</frDisplayName>
+      <description>Proposed therapy may interact with a non-prescription drug (e.g. alcohol, tobacco, Aspirin)</description>
+      <effectiveDate>2022061504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>NOTACTN</id>
+      <name>no longer actionable</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>ActCode</codeSystemName>
+      <enDisplayName>no longer actionable</enDisplayName>
+      <frDisplayName>Ne s&apos;applique plus</frDisplayName>
+      <description>Definition:The status of the request being fulfilled has changed such that it is no longer actionable. This may be because the request has expired, has already been completely fulfilled or has been otherwise stopped or disabled. (Not used for &apos;suspended&apos; orders.)</description>
+      <effectiveDate>2022061504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>NOTEQUIV</id>
+      <name>not equivalent alert</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>ActCode</codeSystemName>
+      <enDisplayName>not equivalent alert</enDisplayName>
+      <frDisplayName>Alerte - non équivalent</frDisplayName>
+      <description>Definition:The therapy being performed is not sufficiently equivalent to the therapy which was requested.</description>
+      <effectiveDate>2022061504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>NOTEQUIVGEN</id>
+      <name>not generically equivalent alert</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>ActCode</codeSystemName>
+      <enDisplayName>not generically equivalent alert</enDisplayName>
+      <frDisplayName>Alerte - pas d&apos;équivalence générique</frDisplayName>
+      <description>Definition:The therapy being performed is not generically equivalent (having the identical biological action) to the therapy which was requested.</description>
+      <effectiveDate>2022061504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>NOTEQUIVTHER</id>
+      <name>not therapeutically equivalent alert</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>ActCode</codeSystemName>
+      <enDisplayName>not therapeutically equivalent alert</enDisplayName>
+      <frDisplayName>Alerte - pas d&apos;équivalence thérapeutique</frDisplayName>
+      <description>Definition:The therapy being performed is not therapeutically equivalent (having the same overall patient effect) to the therapy which was requested.</description>
+      <effectiveDate>2022061504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>PATPREF</id>
+      <name>violates stated preferences</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>ActCode</codeSystemName>
+      <enDisplayName>violates stated preferences</enDisplayName>
+      <frDisplayName>Ne respecte pas les préférences au dossier</frDisplayName>
+      <description>Definition:The proposed therapy goes against preferences or consent constraints recorded in the patient&apos;s record.</description>
+      <effectiveDate>2022061504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>PATPREFALT</id>
+      <name>violates stated preferences, alternate available</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>ActCode</codeSystemName>
+      <enDisplayName>violates stated preferences, alternate available</enDisplayName>
+      <frDisplayName>Ne respecte pas les préférences au dossier, option possible</frDisplayName>
+      <description>Definition:The proposed therapy goes against preferences or consent constraints recorded in the patient&apos;s record. An alternate therapy meeting those constraints is available.</description>
+      <effectiveDate>2022061504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>PREVINEF</id>
+      <name>previously ineffective</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>ActCode</codeSystemName>
+      <enDisplayName>previously ineffective</enDisplayName>
+      <frDisplayName>Auparavant inefficace</frDisplayName>
+      <description>Definition:The same or similar treatment has previously been attempted with the patient without achieving a positive effect.</description>
+      <effectiveDate>2022061504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>STRTLATE</id>
+      <name>Start Too Late Alert</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>ActCode</codeSystemName>
+      <enDisplayName>Start Too Late Alert</enDisplayName>
+      <frDisplayName>Alerte - débute trop tard</frDisplayName>
+      <description>Proposed therapy may be inappropriate or ineffective because the start of administration is too late after the onset of the condition</description>
+      <effectiveDate>2022061504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>TIME</id>
+      <name>timing detected issue</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>ActCode</codeSystemName>
+      <enDisplayName>timing detected issue</enDisplayName>
+      <frDisplayName>Problème détecté : moment du traitement</frDisplayName>
+      <description>Description:Proposed therapy may be inappropriate or ineffective based on the proposed start or end time.</description>
+      <effectiveDate>2022061504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>TIMING</id>
+      <name>event timing incorrect alert</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>ActCode</codeSystemName>
+      <enDisplayName>event timing incorrect alert</enDisplayName>
+      <frDisplayName>Alerte - moment incorrect</frDisplayName>
+      <description>Definition:The therapy is being performed at a time which diverges from the time the therapy was requested</description>
+      <effectiveDate>2022061504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>TOOLATE</id>
+      <name>Refill Too Late Alert</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>ActCode</codeSystemName>
+      <enDisplayName>Refill Too Late Alert</enDisplayName>
+      <frDisplayName>Alerte - renouvelé trop tard</frDisplayName>
+      <description>The patient is receiving a subsequent fill significantly later than would be expected based on the amount previously supplied and the therapy dosage instructions</description>
+      <effectiveDate>2022061504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>TOOSOON</id>
+      <name>Refill Too Soon Alert</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>ActCode</codeSystemName>
+      <enDisplayName>Refill Too Soon Alert</enDisplayName>
+      <frDisplayName>Alerte - renouvelé trop tôt</frDisplayName>
+      <description>The patient is receiving a subsequent fill significantly earlier than would be expected based on the amount previously supplied and the therapy dosage instructions</description>
+      <effectiveDate>2022061504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>TPROD</id>
+      <name>Therapeutic Product Alert</name>
+      <codeSystemId>2.16.840.1.113883.5.4</codeSystemId>
+      <codeSystemName>ActCode</codeSystemName>
+      <enDisplayName>Therapeutic Product Alert</enDisplayName>
+      <frDisplayName>Alerte : interaction avec produit thérapeutique</frDisplayName>
+      <description>Proposed therapy may interact with an existing or recent therapeutic product</description>
+      <effectiveDate>2022061504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+  </concepts>
+</subset>

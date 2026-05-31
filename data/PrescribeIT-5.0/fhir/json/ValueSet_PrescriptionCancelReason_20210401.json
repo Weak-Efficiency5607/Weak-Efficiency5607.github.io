@@ -1,0 +1,288 @@
+{
+  "resourceType": "ValueSet",
+  "id": "prescriptioncancelreason",
+  "url": "https://fhir.infoway-inforoute.ca/ValueSet/prescriptioncancelreason",
+  "identifier": [ {
+    "id": "2.16.840.1.113883.2.20.3.395"
+  } ],
+  "version": "20210401",
+  "name": "PrescriptionCancelReason",
+  "status": "active",
+  "description": "Indication of why a clinician is requesting the cancelling of a prescription",
+  "expansion": {
+    "identifier": "urn:uuid:10607239-7314-42cc-80ff-3e551fa78cc8",
+    "timestamp": "2025-07-25T11:32:57-04:00",
+    "total": 9,
+    "contains": [ {
+      "system": "http://hl7.org/fhir/v3/ActReason",
+      "abstract": false,
+      "code": "ALTD",
+      "display": "Altered Decision",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Altered Decision"
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Altered Decision"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Décision modifiée"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/ActReason",
+      "abstract": false,
+      "code": "DISCONT",
+      "display": "Product discontinued",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "The medication is no longer being manufactured or is otherwise no longer available."
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Product discontinued"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Produit discontinué"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/ActReason",
+      "abstract": false,
+      "code": "DOSECHG",
+      "display": "Change in medication/dose",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "The medication is being re-prescribed at a different dosage."
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Change in medication/dose"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Changement de posologie"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/ActReason",
+      "abstract": false,
+      "code": "EIE",
+      "display": "Entered in error",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Entered in error"
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Entered in error"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Entré(e) par erreur"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/ActReason",
+      "abstract": false,
+      "code": "MONIT",
+      "display": "Response to monitoring",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Monitoring the patient while taking the medication, the decision has been made that the therapy is no longer appropriate."
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Response to monitoring"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Décision après observation"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/ActReason",
+      "abstract": false,
+      "code": "NOREQ",
+      "display": "No longer required for treatment",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "The underlying condition has been resolved or has evolved such that a different treatment is no longer needed."
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "No longer required for treatment"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Traitement terminé"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/ActReason",
+      "abstract": false,
+      "code": "RECALL",
+      "display": "Product recalled",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "The manufacturer or other agency has requested that stocks of a medication be removed from circulation."
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Product recalled"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Produit rappelé"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/ActReason",
+      "abstract": false,
+      "code": "REPLACE",
+      "display": "Change in order",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Change in order"
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Change in order"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Modification de l'ordonnance"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/ActReason",
+      "abstract": false,
+      "code": "REPLACEFIX",
+      "display": "Error in order",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Error in order"
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Error in order"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Erreur dans l'ordonnance"
+      } ]
+    } ]
+  }
+}

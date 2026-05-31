@@ -1,0 +1,410 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+   <id value="sharedpractitionerrole"></id>
+   <url value="https://fhir.infoway-inforoute.ca/ValueSet/sharedpractitionerrole"></url>
+   <identifier id="2.16.840.1.113883.2.20.3.425"></identifier>
+   <version value="20190415"></version>
+   <name value="SharedPractitionerRole"></name>
+   <status value="active"></status>
+   <description value="Shared Health codes used to identify types of roles that may be held by practitioners"></description>
+   <expansion>
+      <identifier value="urn:uuid:7b92ede7-6f83-4613-9527-81f8446da8db"></identifier>
+      <timestamp value="2025-07-25T11:34:59-04:00"></timestamp>
+      <total value="12"></total>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/canadianpractitionerrole"></system>
+         <abstract value="false"></abstract>
+         <code value="chiropodist"></code>
+         <display value="Chiropodist"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="Health professional who assesses of the foot, and the treatment and prevention of diseases disorders, or dysfunctions of the foot by therapeutic, orthotic or palliative means."></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Chiropodist"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Podologue"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/canadianpractitionerrole"></system>
+         <abstract value="false"></abstract>
+         <code value="chiropractor"></code>
+         <display value="Chiropractor"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="Canada’s chiropractors are musculoskeletal (MSK) experts, providing the assessment, diagnosis, treatment and preventative care of biomechanical disorders originating from the muscular, skeletal and nervous systems."></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Chiropractor"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Chiropraticien(ne)"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/canadianpractitionerrole"></system>
+         <abstract value="false"></abstract>
+         <code value="dentalhygienist"></code>
+         <display value="Dental Hygienist"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="An ancillary dental worker specializing in scaling and polishing teeth and in giving advice on cleaning the teeth."></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Dental Hygienist"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Hygiéniste dentaire"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/canadianpractitionerrole"></system>
+         <abstract value="false"></abstract>
+         <code value="dentist"></code>
+         <display value="Dentist"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="Health professional qualified to treat the diseases and conditions that affect the teeth and gums, especially the repair and extraction of teeth and the insertion of artificial ones."></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Dentist"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Dentiste"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/canadianpractitionerrole"></system>
+         <abstract value="false"></abstract>
+         <code value="dietician"></code>
+         <display value="Dietician"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="Dietitians believe in the power of food to enhance lives and improve health. Dietitians empower their patients, clients, and communities to embrace food, to understand it, and to enjoy it. The advice and information they provide is tailored to their clients and patients personal needs and challenges, including taste and accessibility. They translate the science of nutrition into terms everyone can understand to support healthy living for all Canadians."></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Dietician"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Diététiste"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/practitioner-role"></system>
+         <abstract value="false"></abstract>
+         <code value="doctor"></code>
+         <display value="Doctor"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="A qualified/registered medical practitioner"></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Doctor"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Médecin"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/canadianpractitionerrole"></system>
+         <abstract value="false"></abstract>
+         <code value="midwife"></code>
+         <display value="Midwife"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="Health professionals who provide primary care to you and your baby during pregnancy, labour, birth and the postpartum period."></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Midwife"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Sage-femme"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/practitioner-role"></system>
+         <abstract value="false"></abstract>
+         <code value="nurse"></code>
+         <display value="Nurse"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="A practitioner with nursing experience that may be qualified/registered"></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Nurse"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Infirmier(ère)"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/canadianpractitionerrole"></system>
+         <abstract value="false"></abstract>
+         <code value="nursepractitioner"></code>
+         <display value="Nurse Practitioner"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="A nurse who is qualified to treat certain medical conditions without the direct supervision of a doctor"></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Nurse Practitioner"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Infirmier(ère) praticien(ne)"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/canadianpractitionerrole"></system>
+         <abstract value="false"></abstract>
+         <code value="optometrist"></code>
+         <display value="Optometrist"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="Independent primary health care providers and represent the front line of vision health. The eye health and good vision of the public are the prime responsibilities of Canada’s Doctors of Optometry."></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Optometrist"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Optométriste"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/practitioner-role"></system>
+         <abstract value="false"></abstract>
+         <code value="pharmacist"></code>
+         <display value="Pharmacist"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="A qualified/registered/licensed pharmacist"></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Pharmacist"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Pharmacien(ne)"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/canadianpractitionerrole"></system>
+         <abstract value="false"></abstract>
+         <code value="podiatrist"></code>
+         <display value="Podiatrist"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="Health professional concerned with the medical, surgical, mechanical and physical treatment and diagnosis of the diseases, injuries, and defects of the foot."></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Podiatrist"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Podiatre"></value>
+         </designation>
+      </contains>
+   </expansion>
+</ValueSet>

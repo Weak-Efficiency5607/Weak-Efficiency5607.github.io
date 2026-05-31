@@ -1,0 +1,20 @@
+<version>
+  <id>2.16.840.1.113883.2.20.3.433</id>
+  <url>https://tgateway.infoway-inforoute.ca/vs/communicationcategory</url>
+  <fhirUri>https://fhir.infoway-inforoute.ca/ValueSet/communicationcategory</fhirUri>
+  <name>CommunicationCategory</name>
+  <versionId>20211125</versionId>
+  <effectiveDate>2021112505:00:00</effectiveDate>
+  <publicationTime>2021120201:41:08</publicationTime>
+  <description>Types of communications supported for PrescribeIT systems</description>
+  <status>active</status>
+  <codeSystems>
+    <codesystem>
+      <id>2.16.840.1.113883.15.19</id>
+      <name>CommunicationCategory</name>
+      <businessName>CommunicationCategory</businessName>
+      <url>https://fhir.infoway-inforoute.ca/CodeSystem/communicationcategory</url>
+      <version>20211125</version>
+    </codesystem>
+  </codeSystems>
+</version>

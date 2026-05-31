@@ -1,0 +1,20 @@
+<version>
+  <id>2.16.840.1.113883.2.20.3.413</id>
+  <url>https://tgateway.infoway-inforoute.ca/vs/prescriptionrenewalrejectreason</url>
+  <fhirUri>https://fhir.infoway-inforoute.ca/ValueSet/prescriptionrenewalrejectreason</fhirUri>
+  <name>PrescriptionRenewalRejectReason</name>
+  <versionId>20211004</versionId>
+  <effectiveDate>2021100404:00:00</effectiveDate>
+  <publicationTime>2021102804:57:12</publicationTime>
+  <description>Reasons for rejecting a prescription renewal request</description>
+  <status>active</status>
+  <codeSystems>
+    <codesystem>
+      <id>8.1.1.1</id>
+      <name>CanadianActReason</name>
+      <businessName>CanadianActReason</businessName>
+      <url>https://fhir.infoway-inforoute.ca/CodeSystem/canadianactreason</url>
+      <version>20211004</version>
+    </codesystem>
+  </codeSystems>
+</version>

@@ -1,0 +1,182 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+   <id value="issueseverity"></id>
+   <url value="https://fhir.infoway-inforoute.ca/ValueSet/issueseverity"></url>
+   <identifier id="2.16.840.1.113883.2.20.3.450"></identifier>
+   <version value="20190415"></version>
+   <name value="IssueSeverity"></name>
+   <status value="active"></status>
+   <description value="Describes the severity of a technical issue that has occurred with a system."></description>
+   <expansion>
+      <identifier value="urn:uuid:15f2250b-0679-4bb4-bd2b-47fdae9e67c4"></identifier>
+      <timestamp value="2025-07-25T11:32:51-04:00"></timestamp>
+      <total value="4"></total>
+      <contains>
+         <system value="http://hl7.org/fhir/issue-severity"></system>
+         <abstract value="false"></abstract>
+         <code value="error"></code>
+         <display value="Error"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="The issue is sufficiently important to cause the action to fail."></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Error"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="Le problème est suffisamment important pour faire échouer l'action."></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Erreur"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/issue-severity"></system>
+         <abstract value="false"></abstract>
+         <code value="fatal"></code>
+         <display value="Fatal"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="The issue caused the action to fail, and no further checking could be performed."></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Fatal"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="Le problème a fait échouer l'action, et aucune autre vérification n'a pu être effectuée."></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Fatal"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/issue-severity"></system>
+         <abstract value="false"></abstract>
+         <code value="information"></code>
+         <display value="Information"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="The issue has no relation to the degree of success of the action."></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Information"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="Le problème n'a aucune incidence sur le niveau de réussite de l'action."></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Information"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/issue-severity"></system>
+         <abstract value="false"></abstract>
+         <code value="warning"></code>
+         <display value="Warning"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="The issue is not important enough to cause the action to fail, but may cause it to be performed suboptimally or in a way that is not as desired."></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Warning"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="Le problème n'est pas assez important pour faire échouer l'action, mais celle-ci pourrait être exécutée de façon sous-optimale ou de la mauvaise manière."></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Avertissement"></value>
+         </designation>
+      </contains>
+   </expansion>
+</ValueSet>

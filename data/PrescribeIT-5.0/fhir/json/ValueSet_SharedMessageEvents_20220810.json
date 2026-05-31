@@ -1,0 +1,238 @@
+{
+  "resourceType": "ValueSet",
+  "id": "sharedmessageevents",
+  "url": "https://fhir.infoway-inforoute.ca/ValueSet/sharedmessageevents",
+  "identifier": [ {
+    "id": "2.16.840.1.113883.2.20.3.424"
+  } ],
+  "version": "20220810",
+  "name": "SharedMessageEvents",
+  "status": "active",
+  "description": "Codes defining the types of events that can trigger messages",
+  "expansion": {
+    "identifier": "urn:uuid:6f24bd57-db6c-4f01-bb75-375c0039bbe4",
+    "timestamp": "2025-07-25T11:34:48-04:00",
+    "total": 10,
+    "contains": [ {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedmessageevents",
+      "abstract": false,
+      "code": "101",
+      "display": "Execute tasks from EMR",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Execute tasks from EMR"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Exécuter les tâches à partir du DME"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedmessageevents",
+      "abstract": false,
+      "code": "201",
+      "display": "Execute tasks from PMS",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Execute tasks from PMS"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Exécuter les tâches à partir du SGP"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedmessageevents",
+      "abstract": false,
+      "code": "305",
+      "display": "Send Clinical Communication",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Send Clinical Communication"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Envoyer la communication clinique"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedmessageevents",
+      "abstract": false,
+      "code": "401",
+      "display": "Send non-authoritative deferred tasks from EMR",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Send non-authoritative deferred tasks from EMR"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Envoyer des tâches différées non officielles à partir du DME"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedmessageevents",
+      "abstract": false,
+      "code": "901",
+      "display": "Message disposition notification",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Message disposition notification"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Notification de disposition du message"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedmessageevents",
+      "abstract": false,
+      "code": "902",
+      "display": "Jurisdictional RX ID Notification",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Jurisdictional RX ID Notification"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Notification pour un système provincial"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedmessageevents",
+      "abstract": false,
+      "code": "903",
+      "display": "Bundle Available for Retrieval Notification",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Bundle Available for Retrieval Notification"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Notification de regroupement de tâches récupérable"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedmessageevents",
+      "abstract": false,
+      "code": "997",
+      "display": "Asynchronous message undelivered",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Asynchronous message undelivered"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Message asynchrone non remis"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedmessageevents",
+      "abstract": false,
+      "code": "998",
+      "display": "Asynchronous hub message rejection",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Asynchronous hub message rejection"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Rejet asynchrone du message de la plateforme"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedmessageevents",
+      "abstract": false,
+      "code": "999",
+      "display": "Generic asynchronous rejection",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Generic asynchronous rejection"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Le DME/SGP a déclenché un rejet asynchrone"
+      } ]
+    } ]
+  }
+}

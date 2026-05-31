@@ -1,0 +1,134 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+   <id value="prescriptiontype"></id>
+   <url value="https://fhir.infoway-inforoute.ca/ValueSet/prescriptiontype"></url>
+   <identifier id="2.16.840.1.113883.2.20.3.412"></identifier>
+   <version value="20220615"></version>
+   <name value="PrescriptionType"></name>
+   <status value="active"></status>
+   <description value="Prescription types to support e-prescribing"></description>
+   <expansion>
+      <identifier value="urn:uuid:f02de510-3090-4927-af72-a7f4c5cf206b"></identifier>
+      <timestamp value="2025-07-25T11:34:36-04:00"></timestamp>
+      <total value="5"></total>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/prescriptiontype"></system>
+         <abstract value="false"></abstract>
+         <code value="compound"></code>
+         <display value="Compound"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Compound"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="préparation magistrale"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/prescriptiontype"></system>
+         <abstract value="false"></abstract>
+         <code value="device"></code>
+         <display value="Device"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Device"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="dispositif"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/prescriptiontype"></system>
+         <abstract value="false"></abstract>
+         <code value="medication"></code>
+         <display value="Medication"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Medication"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="médicament"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/prescriptiontype"></system>
+         <abstract value="false"></abstract>
+         <code value="natural"></code>
+         <display value="Natural Product"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Natural Product"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="produit naturel"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/prescriptiontype"></system>
+         <abstract value="false"></abstract>
+         <code value="nutritional"></code>
+         <display value="Nutritional Supplement"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Nutritional Supplement"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="supplément nutritionnel"></value>
+         </designation>
+      </contains>
+   </expansion>
+</ValueSet>

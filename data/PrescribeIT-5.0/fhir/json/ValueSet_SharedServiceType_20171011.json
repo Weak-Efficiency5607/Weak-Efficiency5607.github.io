@@ -1,0 +1,74 @@
+{
+  "resourceType": "ValueSet",
+  "id": "sharedservicetype",
+  "url": "https://fhir.infoway-inforoute.ca/ValueSet/sharedservicetype",
+  "identifier": [ {
+    "id": "2.16.840.1.113883.2.20.3.429"
+  } ],
+  "version": "20171011",
+  "name": "SharedServiceType",
+  "status": "active",
+  "description": "Service type codes supported for Shared Health organizations and practitioners",
+  "expansion": {
+    "identifier": "urn:uuid:c7d3a1a4-8be3-44e1-9713-53520a1c69d9",
+    "timestamp": "2025-07-25T11:35:02-04:00",
+    "total": 4,
+    "contains": [ {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedservicetype",
+      "abstract": false,
+      "code": "clinician-comm",
+      "display": "Clinician Communications",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Clinician Communications"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedservicetype",
+      "abstract": false,
+      "code": "meddialog-person-org",
+      "display": "Practitioner at this organization with MedDialog messaging support",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Practitioner at this organization with MedDialog messaging support"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedservicetype",
+      "abstract": false,
+      "code": "medialog-org",
+      "display": "Organization with MedDialog messaging support",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Organization with MedDialog messaging support"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/sharedservicetype",
+      "abstract": false,
+      "code": "prescribeit-rx",
+      "display": "PrescribeIT Messaging Inbox Support",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "PrescribeIT Messaging Inbox Support"
+      } ]
+    } ]
+  }
+}

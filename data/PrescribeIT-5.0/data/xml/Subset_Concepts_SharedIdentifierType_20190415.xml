@@ -1,0 +1,81 @@
+<result>
+  <concepts>
+    <concept>
+      <id>JHN</id>
+      <name>Jurisdictional health number (Canada)</name>
+      <codeSystemId>2.16.840.1.113883.12.203</codeSystemId>
+      <codeSystemName>v2 Identifier Type</codeSystemName>
+      <enDisplayName>Jurisdictional health number (Canada)</enDisplayName>
+      <frDisplayName>Numéro d&apos;assurance-maladie prov./terr. (Canada)</frDisplayName>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>LN</id>
+      <name>License number</name>
+      <codeSystemId>2.16.840.1.113883.12.203</codeSystemId>
+      <codeSystemName>v2 Identifier Type</codeSystemName>
+      <enDisplayName>License number</enDisplayName>
+      <frDisplayName>Numéro de permis</frDisplayName>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>LR</id>
+      <name>Local Registry ID</name>
+      <codeSystemId>2.16.840.1.113883.12.203</codeSystemId>
+      <codeSystemName>v2 Identifier Type</codeSystemName>
+      <enDisplayName>Local Registry ID</enDisplayName>
+      <frDisplayName>ID du registre local</frDisplayName>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>MR</id>
+      <name>Medical record number</name>
+      <codeSystemId>2.16.840.1.113883.12.203</codeSystemId>
+      <codeSystemName>v2 Identifier Type</codeSystemName>
+      <enDisplayName>Medical record number</enDisplayName>
+      <frDisplayName>Numéro du dossier médical</frDisplayName>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>PRN</id>
+      <name>Provider number</name>
+      <codeSystemId>2.16.840.1.113883.12.203</codeSystemId>
+      <codeSystemName>v2 Identifier Type</codeSystemName>
+      <enDisplayName>Provider registry number</enDisplayName>
+      <frDisplayName>Numéro du registre des fournisseurs</frDisplayName>
+      <description>The PrescribeIT™ Provider Registry contains organizations and health care providers that are registered to use the PrescribeIT™ service. Each unique organization or health care provider is assigned a unique Provider Registry Number (PRN) at the time of registration</description>
+      <frDescription>Le registre des fournisseurs de PrescripTIonMC répertorie les organismes et les professionnels de la santé inscrits au service PrescripTIonMC. Chaque organisme ou professionnel se voit attribuer un numéro unique au moment de l&apos;inscription, qui l&apos;identifie dans le registre des fournisseurs.</frDescription>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+  </concepts>
+  <pagination>
+    <currentPage>1</currentPage>
+    <totalPages>1</totalPages>
+    <pageSize>100000</pageSize>
+    <totalRecords>5</totalRecords>
+    <firstRecord>1</firstRecord>
+    <lastRecord>5</lastRecord>
+    <nextPage>-1</nextPage>
+    <nextRecord>-1</nextRecord>
+  </pagination>
+</result>

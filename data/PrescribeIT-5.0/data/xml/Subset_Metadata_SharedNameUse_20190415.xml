@@ -1,0 +1,20 @@
+<version>
+  <id>2.16.840.1.113883.2.20.3.427</id>
+  <url>https://tgateway.infoway-inforoute.ca/vs/sharednameuse</url>
+  <fhirUri>https://fhir.infoway-inforoute.ca/ValueSet/sharednameuse</fhirUri>
+  <name>SharedNameUse</name>
+  <versionId>20190415</versionId>
+  <effectiveDate>2019041504:00:00</effectiveDate>
+  <publicationTime>2019051505:09:42</publicationTime>
+  <description>Human name use codes supported for Shared Health systems</description>
+  <status>active</status>
+  <codeSystems>
+    <codesystem>
+      <id>2.16.840.1.113883.4.642.1.59</id>
+      <name>NameUse</name>
+      <businessName>NameUse</businessName>
+      <url>http://hl7.org/fhir/name-use</url>
+      <version>1.4.0</version>
+    </codesystem>
+  </codeSystems>
+</version>

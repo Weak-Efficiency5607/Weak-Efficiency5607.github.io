@@ -1,0 +1,88 @@
+{
+  "resourceType": "ValueSet",
+  "id": "attachmenttype",
+  "url": "https://fhir.infoway-inforoute.ca/ValueSet/attachmenttype",
+  "identifier": [ {
+    "id": "2.16.840.1.113883.2.20.3.435"
+  } ],
+  "version": "20170626",
+  "name": "AttachmentType",
+  "status": "active",
+  "description": "Mime types allowed for attachments",
+  "expansion": {
+    "identifier": "urn:uuid:be4a960b-5c92-4ce0-baf2-2f48395b8251",
+    "timestamp": "2025-07-25T11:32:36-04:00",
+    "total": 5,
+    "contains": [ {
+      "system": "urn:ietf:bcp:13",
+      "abstract": false,
+      "code": "application/pdf",
+      "display": "Adobe Portable Document Format (PDF)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Adobe Portable Document Format (PDF)"
+      } ]
+    }, {
+      "system": "urn:ietf:bcp:13",
+      "abstract": false,
+      "code": "image/jpeg",
+      "display": "JPEG Image",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "JPEG Image"
+      } ]
+    }, {
+      "system": "urn:ietf:bcp:13",
+      "abstract": false,
+      "code": "image/png",
+      "display": "Portable Network Graphics (PNG)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Portable Network Graphics (PNG)"
+      } ]
+    }, {
+      "system": "urn:ietf:bcp:13",
+      "abstract": false,
+      "code": "image/tiff",
+      "display": "Tag Image File Format (TIFF)",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Tag Image File Format (TIFF)"
+      } ]
+    }, {
+      "system": "urn:ietf:bcp:13",
+      "abstract": false,
+      "code": "text/plain",
+      "display": "Text File",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Text File"
+      } ]
+    } ]
+  }
+}

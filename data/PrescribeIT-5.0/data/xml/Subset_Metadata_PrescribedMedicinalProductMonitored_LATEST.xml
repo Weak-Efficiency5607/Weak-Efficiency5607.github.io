@@ -1,0 +1,27 @@
+<version>
+  <id>2.16.840.1.113883.2.20.3.486</id>
+  <url>https://tgateway.infoway-inforoute.ca/vs/prescribedmedicinalproductmonitored</url>
+  <fhirUri>https://fhir.infoway-inforoute.ca/ValueSet/prescribedmedicinalproductmonitored</fhirUri>
+  <name>PrescribedMedicinalProductMonitored</name>
+  <versionId>20250715</versionId>
+  <effectiveDate>2025071504:00:00</effectiveDate>
+  <publicationTime>2025071102:57:14</publicationTime>
+  <description>Medicinal products for prescribing. The content of this subset only contains medicinal products that are available for prescribing and dispensing in Canada and that are allowed within a tracked or monitored prescription program.</description>
+  <status>active</status>
+  <codeSystems>
+    <codesystem>
+      <id>1.2.3.4</id>
+      <name>Canadian Clinical Drug Data Set</name>
+      <businessName>Canadian Clinical Drug Data Set</businessName>
+      <url>https://fhir.infoway-inforoute.ca/CodeSystem/canadianclinicaldrugdataset</url>
+      <version>20250715</version>
+    </codesystem>
+    <codesystem>
+      <id>2.16.840.1.113883.5.1105</id>
+      <name>Health Canada Drug Id Number</name>
+      <businessName>Health Canada Drug Id Number</businessName>
+      <url>http://hl7.org/fhir/NamingSystem/ca-hc-din</url>
+      <version>4.0.1</version>
+    </codesystem>
+  </codeSystems>
+</version>

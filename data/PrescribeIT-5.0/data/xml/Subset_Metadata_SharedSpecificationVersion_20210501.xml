@@ -1,0 +1,20 @@
+<version>
+  <id>2.16.840.1.113883.2.20.3.431</id>
+  <url>https://tgateway.infoway-inforoute.ca/vs/sharedspecificationversion</url>
+  <fhirUri>https://fhir.infoway-inforoute.ca/ValueSet/sharedspecificationversion</fhirUri>
+  <name>SharedSpecificationVersion</name>
+  <versionId>20210501</versionId>
+  <effectiveDate>2021050104:00:00</effectiveDate>
+  <publicationTime>2021051805:32:59</publicationTime>
+  <description>Codes identifying the PrescribeIT, MedDialog, and Shared Health Message specification version number</description>
+  <status>active</status>
+  <codeSystems>
+    <codesystem>
+      <id>2.16.840.1.113883.5.1146</id>
+      <name>SharedSpecificationVersion</name>
+      <businessName>SharedSpecificationVersion</businessName>
+      <url>https://fhir.infoway-inforoute.ca/CodeSystem/sharedspecificationversion</url>
+      <version>20210501</version>
+    </codesystem>
+  </codeSystems>
+</version>

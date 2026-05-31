@@ -1,0 +1,1262 @@
+<result>
+  <concepts>
+    <concept>
+      <id>225606002</id>
+      <name>Abnormal movement (finding)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Abnormal movement</enDisplayName>
+      <frDisplayName>mouvement anormal</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>10509002</id>
+      <name>Acute bronchitis (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Acute bronchitis</enDisplayName>
+      <frDisplayName>bronchite aiguë</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>274663001</id>
+      <name>Acute pain (finding)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Acute pain</enDisplayName>
+      <frDisplayName>douleur aiguë</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>54398005</id>
+      <name>Acute upper respiratory infection (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Acute upper respiratory infection</enDisplayName>
+      <frDisplayName>infection aiguë des voies respiratoires supérieures</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>61582004</id>
+      <name>Allergic rhinitis (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Allergic rhinitis</enDisplayName>
+      <frDisplayName>rhinite allergique</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>26929004</id>
+      <name>Alzheimer&apos;s disease (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Alzheimer&apos;s disease</enDisplayName>
+      <frDisplayName>maladie d&apos;Alzheimer</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>194828000</id>
+      <name>Angina (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Angina pectoris</enDisplayName>
+      <frDisplayName>angor</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>197480006</id>
+      <name>Anxiety disorder (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Anxiety disorder</enDisplayName>
+      <frDisplayName>trouble anxieux</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>72092001</id>
+      <name>Arteriosclerotic vascular disease (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Arteriosclerotic vascular disease</enDisplayName>
+      <frDisplayName>maladie vasculaire artériosclérotique</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>3723001</id>
+      <name>Arthritis (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Arthritis</enDisplayName>
+      <frDisplayName>arthrite</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>55570000</id>
+      <name>Asthma without status asthmaticus (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Asthma without status asthmaticus</enDisplayName>
+      <frDisplayName>asthme sans état de mal asthmatique</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>49436004</id>
+      <name>Atrial fibrillation (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Atrial fibrillation</enDisplayName>
+      <frDisplayName>FA - fibrillation auriculaire</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>10725009</id>
+      <name>Benign hypertension (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Benign hypertension</enDisplayName>
+      <frDisplayName>hypertension bénigne</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>13746004</id>
+      <name>Bipolar disorder (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Bipolar disorder</enDisplayName>
+      <frDisplayName>trouble bipolaire</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>128045006</id>
+      <name>Cellulitis (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Cellulitis</enDisplayName>
+      <frDisplayName>cellulite</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>230690007</id>
+      <name>Cerebrovascular accident (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Cerebrovascular accident</enDisplayName>
+      <frDisplayName>accident vasculaire cérébral</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>274665008</id>
+      <name>Chronic intractable pain (finding)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Chronic intractable pain</enDisplayName>
+      <frDisplayName>douleur chronique réfractaire</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>709044004</id>
+      <name>Chronic kidney disease (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Chronic kidney disease</enDisplayName>
+      <frDisplayName>IRC - insuffisance rénale chronique</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>13645005</id>
+      <name>Chronic obstructive lung disease (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Chronic obstructive lung disease</enDisplayName>
+      <frDisplayName>MPOC - maladie pulmonaire obstructive chronique</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>190634004</id>
+      <name>Cobalamin deficiency (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Vitamin B12 deficiency</enDisplayName>
+      <frDisplayName>carence en vitamine B12</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>42343007</id>
+      <name>Congestive heart failure (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Congestive heart failure</enDisplayName>
+      <frDisplayName>insuffisance cardiaque congestive</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>14760008</id>
+      <name>Constipation (finding)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Constipation</enDisplayName>
+      <frDisplayName>constipation</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>53741008</id>
+      <name>Coronary arteriosclerosis (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Coronary arteriosclerosis</enDisplayName>
+      <frDisplayName>artériosclérose coronarienne</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>711028002</id>
+      <name>Counseling about tobacco use (procedure)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Counseling about tobacco use</enDisplayName>
+      <frDisplayName>counseling lié au tabagisme</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>34000006</id>
+      <name>Crohn&apos;s disease (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Crohn&apos;s disease</enDisplayName>
+      <frDisplayName>maladie de Crohn</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>266267005</id>
+      <name>Deep vein phlebitis and thrombophlebitis of the leg (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Deep vein phlebitis and thrombophlebitis of the leg</enDisplayName>
+      <frDisplayName>phlébite et thrombophlébite veineuses profondes de la jambe</frDisplayName>
+      <effectiveDate>2021033104:00:00</effectiveDate>
+      <active>false</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>52448006</id>
+      <name>Dementia (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Dementia</enDisplayName>
+      <frDisplayName>démence</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>35489007</id>
+      <name>Depressive disorder (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Depressive disorder</enDisplayName>
+      <frDisplayName>trouble dépressif</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>95766002</id>
+      <name>Disorder of lacrimal gland (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Disorder of lacrimal gland</enDisplayName>
+      <frDisplayName>affection des glandes lacrymales</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>30281009</id>
+      <name>Disorder of prostate (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Disorder of prostate</enDisplayName>
+      <frDisplayName>affection de la prostate</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>194437008</id>
+      <name>Disorders of initiating and maintaining sleep (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Disorders of initiating and maintaining sleep</enDisplayName>
+      <frDisplayName>troubles liés à l&apos;endormissement et au maintien du sommeil</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>56776001</id>
+      <name>Duodenal ulcer without hemorrhage AND without perforation (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Duodenal ulcer without hemorrhage AND without perforation</enDisplayName>
+      <frDisplayName>ulcère duodénal sans hémorragie ni perforation</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>9748009</id>
+      <name>Dyskinesia (finding)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Dyskinesia</enDisplayName>
+      <frDisplayName>dyskinésie</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>84757009</id>
+      <name>Epilepsy (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Epilepsy</enDisplayName>
+      <frDisplayName>épilepsie</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>268724009</id>
+      <name>Excessive sexual drive (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Excessive sexual drive</enDisplayName>
+      <frDisplayName>activité sexuelle excessive</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>266435005</id>
+      <name>Gastroesophageal reflux disease without esophagitis (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Gastroesophageal reflux disease without esophagitis</enDisplayName>
+      <frDisplayName>reflux gastro-œsophagien sans œsophagite</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>21897009</id>
+      <name>Generalized anxiety disorder (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Generalized anxiety disorder</enDisplayName>
+      <frDisplayName>trouble d&apos;anxiété généralisée</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>11687002</id>
+      <name>Gestational diabetes mellitus (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Gestational diabetes mellitus</enDisplayName>
+      <frDisplayName>diabète gestationnel</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>23986001</id>
+      <name>Glaucoma (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Glaucoma</enDisplayName>
+      <frDisplayName>glaucome</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>16331000</id>
+      <name>Heartburn (finding)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Heartburn</enDisplayName>
+      <frDisplayName>brûlures d&apos;estomac</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>70153002</id>
+      <name>Hemorrhoids (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Hemorrhoids</enDisplayName>
+      <frDisplayName>hémorroïdes</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>111859007</id>
+      <name>Herpes zoster without complication (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Herpes zoster without complication</enDisplayName>
+      <frDisplayName>zona sans complication</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>55822004</id>
+      <name>Hyperlipidemia (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Hyperlipidemia</enDisplayName>
+      <frDisplayName>hyperlipidémie</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>64715009</id>
+      <name>Hypertensive heart disease (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Hypertensive heart disease</enDisplayName>
+      <frDisplayName>cardiopathie hypertensive</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>43339004</id>
+      <name>Hypokalemia (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Hypokalemia</enDisplayName>
+      <frDisplayName>hypokaliémie</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>40930008</id>
+      <name>Hypothyroidism (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Hypothyroidism</enDisplayName>
+      <frDisplayName>hypothyroïdie</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>90560007</id>
+      <name>Inflammatory disorder due to increased blood urate level (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Gout</enDisplayName>
+      <frDisplayName>goutte</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>21018002</id>
+      <name>Inflammatory neuropathy (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Inflammatory neuropathy</enDisplayName>
+      <frDisplayName>neuropathie inflammatoire</frDisplayName>
+      <effectiveDate>2019093004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>267078001</id>
+      <name>Involuntary movement (finding)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Involuntary movement</enDisplayName>
+      <frDisplayName>mouvement involontaire</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>87522002</id>
+      <name>Iron deficiency anemia (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Iron deficiency anemia</enDisplayName>
+      <frDisplayName>anémie ferriprive</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>110979008</id>
+      <name>Irritant contact dermatitis (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Irritant contact dermatitis</enDisplayName>
+      <frDisplayName>dermatite de contact irritative</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>711150003</id>
+      <name>Long-term current use of anticoagulant (situation)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Long-term current use of anticoagulant</enDisplayName>
+      <frDisplayName>utilisation (actuelle) à long terme d’anticoagulants</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>85649008</id>
+      <name>Megaloblastic anemia due to folate deficiency (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Folate deficiency anemia</enDisplayName>
+      <frDisplayName>anémie causée par une carence en acide folique</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>4473006</id>
+      <name>Migraine with aura (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Migraine with aura</enDisplayName>
+      <frDisplayName>migraine avec aura</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>56097005</id>
+      <name>Migraine without aura (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Migraine without aura</enDisplayName>
+      <frDisplayName>migraine sans aura</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>48589009</id>
+      <name>Minor depressive disorder (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Minor depressive disorder</enDisplayName>
+      <frDisplayName>trouble dépressif mineur</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>231504006</id>
+      <name>Mixed anxiety and depressive disorder (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Mixed anxiety and depressive disorder</enDisplayName>
+      <frDisplayName>trouble anxieux et dépressif mixte</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>46206005</id>
+      <name>Mood disorder (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Mood disorder</enDisplayName>
+      <frDisplayName>trouble de l&apos;humeur</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>26889001</id>
+      <name>Myositis (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Myositis</enDisplayName>
+      <frDisplayName>myosite</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>16269008</id>
+      <name>Neuralgia (finding)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Neuralgia</enDisplayName>
+      <frDisplayName>névralgie</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>84299009</id>
+      <name>Neuritis (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Neuritis</enDisplayName>
+      <frDisplayName>névrite</frDisplayName>
+      <effectiveDate>2019093004:00:00</effectiveDate>
+      <active>false</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>192496000</id>
+      <name>Non-organic enduring personality change (finding)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Non-organic enduring personality change</enDisplayName>
+      <frDisplayName>changement non organique durable de la personnalité</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>192454004</id>
+      <name>Nonorganic insomnia (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Nonorganic insomnia</enDisplayName>
+      <frDisplayName>insomnie non organique</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>75544000</id>
+      <name>Opioid dependence (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Opioid dependence</enDisplayName>
+      <frDisplayName>dépendance aux opioïdes</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>288861000119108</id>
+      <name>Opioid-induced mood disorder due to opioid dependence (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Opioid-induced mood disorder due to opioid dependence</enDisplayName>
+      <frDisplayName>trouble de l&apos;humeur lié à la dépendance aux opioïdes</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>14784000</id>
+      <name>Organic mental disorder caused by opioid (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Opioid-induced organic mental disorder</enDisplayName>
+      <frDisplayName>trouble mental organique lié à l&apos;utilisation d&apos;opioïdes</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>396275006</id>
+      <name>Osteoarthritis (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Osteoarthritis</enDisplayName>
+      <frDisplayName>arthrose</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>64859006</id>
+      <name>Osteoporosis (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Osteoporosis</enDisplayName>
+      <frDisplayName>ostéoporose</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>371631005</id>
+      <name>Panic disorder (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Panic disorder</enDisplayName>
+      <frDisplayName>trouble panique</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>49049000</id>
+      <name>Parkinson&apos;s disease (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Parkinson&apos;s disease</enDisplayName>
+      <frDisplayName>maladie de Parkinson</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>400047006</id>
+      <name>Peripheral vascular disease (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Peripheral vascular disease</enDisplayName>
+      <frDisplayName>MVAS - maladie vasculaire athérosclérotique</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>33449004</id>
+      <name>Personality disorder (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Personality disorder</enDisplayName>
+      <frDisplayName>trouble de la personnalité</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>102447009</id>
+      <name>Postmenopausal osteoporosis (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Postmenopausal osteoporosis</enDisplayName>
+      <frDisplayName>ostéoporose postménopausique</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>48194001</id>
+      <name>Pregnancy-induced hypertension (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Gestational hypertension</enDisplayName>
+      <frDisplayName>hypertension gestationnelle</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>4557003</id>
+      <name>Preinfarction syndrome (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Preinfarction syndrome</enDisplayName>
+      <frDisplayName>syndrome de préinfarctus</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>267432004</id>
+      <name>Pure hypercholesterolemia (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Pure hypercholesterolemia</enDisplayName>
+      <frDisplayName>hypercholestérolémie pure</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>191616006</id>
+      <name>Recurrent depression (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Recurrent depression</enDisplayName>
+      <frDisplayName>dépression récurrente</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>274647009</id>
+      <name>Restlessness and agitation (finding)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Restlessness and agitation</enDisplayName>
+      <frDisplayName>inquiétude et agitation</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>29555009</id>
+      <name>Retinal disorder (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Retinopathy</enDisplayName>
+      <frDisplayName>rétinopathie</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>69896004</id>
+      <name>Rheumatoid arthritis (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Rheumatoid arthritis</enDisplayName>
+      <frDisplayName>PAR - polyarthrite rhumatoïde</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>134435003</id>
+      <name>Routine antenatal care (regime/therapy)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Routine antenatal care</enDisplayName>
+      <frDisplayName>soins prénataux de routine</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>58214004</id>
+      <name>Schizophrenia (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Schizophrenia</enDisplayName>
+      <frDisplayName>schizophrénie</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>713700008</id>
+      <name>Smoking cessation drug therapy (regime/therapy)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Smoking cessation drug therapy</enDisplayName>
+      <frDisplayName>traitement antitabagique</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>55464009</id>
+      <name>Systemic lupus erythematosus (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Systemic lupus erythematosus</enDisplayName>
+      <frDisplayName>LED - lupus érythémateux disséminé</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>3424008</id>
+      <name>Tachycardia (finding)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Tachycardia</enDisplayName>
+      <frDisplayName>tachycardie</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>46152009</id>
+      <name>Tear film insufficiency (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Dry eye syndrome</enDisplayName>
+      <frDisplayName>syndrome des yeux secs</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>40198004</id>
+      <name>Thrombophlebitis of deep veins of lower extremity (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Thrombophlebitis of deep veins of lower extremity</enDisplayName>
+      <frDisplayName>thrombophlébite des veines profondes d&apos;une extrémité inférieure</frDisplayName>
+      <effectiveDate>2021033104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>313435000</id>
+      <name>Type I diabetes mellitus without complication (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Type 1 diabetes mellitus without complication</enDisplayName>
+      <frDisplayName>diabète de type 1 sans complication</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>313436004</id>
+      <name>Type II diabetes mellitus without complication (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Type 2 diabetes mellitus without complication</enDisplayName>
+      <frDisplayName>diabète sucré de type 2 sans complication</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>64766004</id>
+      <name>Ulcerative colitis (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Ulcerative colitis</enDisplayName>
+      <frDisplayName>CU - colite ulcéreuse</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>68566005</id>
+      <name>Urinary tract infectious disease (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Urinary tract infectious disease</enDisplayName>
+      <frDisplayName>maladie infectieuse des voies urinaires</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>71908006</id>
+      <name>Ventricular fibrillation (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Ventricular fibrillation</enDisplayName>
+      <frDisplayName>FV - fibrillation ventriculaire</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>47903000</id>
+      <name>Vitamin B deficiency (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Vitamin B deficiency</enDisplayName>
+      <frDisplayName>carence en vitamine B</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>34713006</id>
+      <name>Vitamin D deficiency (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Vitamin D deficiency</enDisplayName>
+      <frDisplayName>carence en vitamine D</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>85670002</id>
+      <name>Vitamin deficiency (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Vitamin deficiency</enDisplayName>
+      <frDisplayName>carence en vitamines</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>271567008</id>
+      <name>Whooping cough-like syndrome (disorder)</name>
+      <codeSystemId>2.16.840.1.113883.6.96</codeSystemId>
+      <codeSystemName>SNOMED CT CA Edition</codeSystemName>
+      <enDisplayName>Whooping cough-like syndrome</enDisplayName>
+      <frDisplayName>syndrome coqueluchoïde</frDisplayName>
+      <effectiveDate>2019043004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+  </concepts>
+  <pagination>
+    <currentPage>1</currentPage>
+    <totalPages>1</totalPages>
+    <pageSize>100000</pageSize>
+    <totalRecords>96</totalRecords>
+    <firstRecord>1</firstRecord>
+    <lastRecord>96</lastRecord>
+    <nextPage>-1</nextPage>
+    <nextRecord>-1</nextRecord>
+  </pagination>
+</result>

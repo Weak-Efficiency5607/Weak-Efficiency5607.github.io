@@ -1,0 +1,20 @@
+<version>
+  <id>2.16.840.1.113883.2.20.3.421</id>
+  <url>https://tgateway.infoway-inforoute.ca/vs/sharedidentifiertype</url>
+  <fhirUri>https://fhir.infoway-inforoute.ca/ValueSet/sharedidentifiertype</fhirUri>
+  <name>SharedIdentifierType</name>
+  <versionId>20190415</versionId>
+  <effectiveDate>2019041504:00:00</effectiveDate>
+  <publicationTime>2019051505:09:39</publicationTime>
+  <description>Identifier types supported for Shared Health systems</description>
+  <status>active</status>
+  <codeSystems>
+    <codesystem>
+      <id>2.16.840.1.113883.12.203</id>
+      <name>v2 Identifier Type</name>
+      <businessName>v2 Identifier Type</businessName>
+      <url>http://hl7.org/fhir/v2/0203</url>
+      <version>v2.8</version>
+    </codesystem>
+  </codeSystems>
+</version>

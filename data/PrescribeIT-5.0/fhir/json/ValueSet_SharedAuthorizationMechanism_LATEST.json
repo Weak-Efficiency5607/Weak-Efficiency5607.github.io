@@ -1,0 +1,32 @@
+{
+  "resourceType": "ValueSet",
+  "id": "sharedauthorizationmechanism",
+  "url": "https://fhir.infoway-inforoute.ca/ValueSet/sharedauthorizationmechanism",
+  "identifier": [ {
+    "id": "2.16.840.1.113883.2.20.3.442"
+  } ],
+  "version": "20170626",
+  "name": "SharedAuthorizationMechanism",
+  "status": "active",
+  "description": "Authorization mechanisms supported for Shared Health practitioners",
+  "expansion": {
+    "identifier": "urn:uuid:e42ccc50-2539-4ed3-8e7b-c7fb63317177",
+    "timestamp": "2025-07-25T11:34:39-04:00",
+    "total": 1,
+    "contains": [ {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/authorizationmechanism",
+      "abstract": false,
+      "code": "sms",
+      "display": "Short Message Service",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Short Message Service"
+      } ]
+    } ]
+  }
+}

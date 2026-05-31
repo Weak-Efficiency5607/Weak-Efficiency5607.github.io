@@ -1,0 +1,828 @@
+{
+  "resourceType": "ValueSet",
+  "id": "detectedissuecategory",
+  "url": "https://fhir.infoway-inforoute.ca/ValueSet/detectedissuecategory",
+  "identifier": [ {
+    "id": "2.16.840.1.113883.2.20.3.465"
+  } ],
+  "version": "20220615",
+  "name": "DetectedIssueCategory",
+  "status": "active",
+  "description": "Identifies what type of issue detected during occurrence of an act (e.g. unrecognized identifiers, drug-drug contraindications, drug-allergy alerts). Examples: High dosage alert Conditional element missing Timing detected issue",
+  "expansion": {
+    "identifier": "urn:uuid:a5581cd0-e461-4274-bec8-4250cd49f7fa",
+    "timestamp": "2025-07-25T11:35:13-04:00",
+    "total": 27,
+    "contains": [ {
+      "system": "http://hl7.org/fhir/v3/ActCode",
+      "abstract": false,
+      "code": "ALLDONE",
+      "display": "already performed",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Definition:The requested action has already been performed and so this request has no effect"
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "already performed"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Action déjà effectuée"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/ActCode",
+      "abstract": false,
+      "code": "ALRTENDLATE",
+      "display": "end too late alert",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Definition:Proposed therapy may be inappropriate or ineffective because the end of administration is too close to another planned therapy."
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "end too late alert"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Alerte – prend fin trop tard"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/ActCode",
+      "abstract": false,
+      "code": "ALRTSTRTLATE",
+      "display": "start too late alert",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Definition:Proposed therapy may be inappropriate or ineffective because the start of administration is too late after the onset of the condition."
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "start too late alert"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Alerte - débute trop tard"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/ActCode",
+      "abstract": false,
+      "code": "DACT",
+      "display": "drug action detected issue",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Description:Proposed therapy may be contraindicated or ineffective based on an existing or recent drug therapy."
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "drug action detected issue"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Problème détecté : action du médicament"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/ActCode",
+      "abstract": false,
+      "code": "DRG",
+      "display": "Drug Interaction Alert",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Proposed therapy may interact with an existing or recent drug therapy"
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Drug Interaction Alert"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Alerte : interaction avec médicament"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/ActCode",
+      "abstract": false,
+      "code": "ENDLATE",
+      "display": "End Too Late Alert",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Proposed therapy may be inappropriate or ineffective because the end of administration is too close to another planned therapy"
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "End Too Late Alert"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Alerte – prend fin trop tard"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/ActCode",
+      "abstract": false,
+      "code": "FOOD",
+      "display": "Food Interaction Alert",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Proposed therapy may interact with certain foods"
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Food Interaction Alert"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Alerte : interaction avec aliment"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/ActCode",
+      "abstract": false,
+      "code": "FULFIL",
+      "display": "fulfillment alert",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Definition:The therapy being performed is in some way out of alignment with the requested therapy."
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "fulfillment alert"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Alerte - ne concorde pas"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/ActCode",
+      "abstract": false,
+      "code": "HELD",
+      "display": "held/suspended alert",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Definition:There should be no actions taken in fulfillment of a request that has been held or suspended."
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "held/suspended alert"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Alerte - requête en suspens"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/ActCode",
+      "abstract": false,
+      "code": "HISTORIC",
+      "display": "record recorded as historical",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Description: While the record was accepted in the repository, there is a more recent version of a record of this type."
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "record recorded as historical"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Dossier enregistré comme archive"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/ActCode",
+      "abstract": false,
+      "code": "INTERVAL",
+      "display": "outside requested time",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Definition:The therapy action is being performed outside the bounds of the time period requested"
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "outside requested time"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Hors de la période demandée"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/ActCode",
+      "abstract": false,
+      "code": "MINFREQ",
+      "display": "too soon within frequency based on the usage",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Definition:The therapy action is being performed too soon after the previous occurrence based on the requested frequency"
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "too soon within frequency based on the usage"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Fréquence trop élevée selon l'usage"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/ActCode",
+      "abstract": false,
+      "code": "NHP",
+      "display": "Natural Health Product Alert",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Proposed therapy may interact with existing or recent natural health product therapy"
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Natural Health Product Alert"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Alerte : interaction avec produit de santé naturel"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/ActCode",
+      "abstract": false,
+      "code": "NONRX",
+      "display": "Non-Prescription Interaction Alert",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Proposed therapy may interact with a non-prescription drug (e.g. alcohol, tobacco, Aspirin)"
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Non-Prescription Interaction Alert"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Alerte : interaction avec produit sans ordonnance"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/ActCode",
+      "abstract": false,
+      "code": "NOTACTN",
+      "display": "no longer actionable",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Definition:The status of the request being fulfilled has changed such that it is no longer actionable. This may be because the request has expired, has already been completely fulfilled or has been otherwise stopped or disabled. (Not used for 'suspended' orders.)"
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "no longer actionable"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Ne s'applique plus"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/ActCode",
+      "abstract": false,
+      "code": "NOTEQUIV",
+      "display": "not equivalent alert",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Definition:The therapy being performed is not sufficiently equivalent to the therapy which was requested."
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "not equivalent alert"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Alerte - non équivalent"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/ActCode",
+      "abstract": false,
+      "code": "NOTEQUIVGEN",
+      "display": "not generically equivalent alert",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Definition:The therapy being performed is not generically equivalent (having the identical biological action) to the therapy which was requested."
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "not generically equivalent alert"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Alerte - pas d'équivalence générique"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/ActCode",
+      "abstract": false,
+      "code": "NOTEQUIVTHER",
+      "display": "not therapeutically equivalent alert",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Definition:The therapy being performed is not therapeutically equivalent (having the same overall patient effect) to the therapy which was requested."
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "not therapeutically equivalent alert"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Alerte - pas d'équivalence thérapeutique"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/ActCode",
+      "abstract": false,
+      "code": "PATPREF",
+      "display": "violates stated preferences",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Definition:The proposed therapy goes against preferences or consent constraints recorded in the patient's record."
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "violates stated preferences"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Ne respecte pas les préférences au dossier"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/ActCode",
+      "abstract": false,
+      "code": "PATPREFALT",
+      "display": "violates stated preferences, alternate available",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Definition:The proposed therapy goes against preferences or consent constraints recorded in the patient's record. An alternate therapy meeting those constraints is available."
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "violates stated preferences, alternate available"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Ne respecte pas les préférences au dossier, option possible"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/ActCode",
+      "abstract": false,
+      "code": "PREVINEF",
+      "display": "previously ineffective",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Definition:The same or similar treatment has previously been attempted with the patient without achieving a positive effect."
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "previously ineffective"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Auparavant inefficace"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/ActCode",
+      "abstract": false,
+      "code": "STRTLATE",
+      "display": "Start Too Late Alert",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Proposed therapy may be inappropriate or ineffective because the start of administration is too late after the onset of the condition"
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Start Too Late Alert"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Alerte - débute trop tard"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/ActCode",
+      "abstract": false,
+      "code": "TIME",
+      "display": "timing detected issue",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Description:Proposed therapy may be inappropriate or ineffective based on the proposed start or end time."
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "timing detected issue"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Problème détecté : moment du traitement"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/ActCode",
+      "abstract": false,
+      "code": "TIMING",
+      "display": "event timing incorrect alert",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Definition:The therapy is being performed at a time which diverges from the time the therapy was requested"
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "event timing incorrect alert"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Alerte - moment incorrect"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/ActCode",
+      "abstract": false,
+      "code": "TOOLATE",
+      "display": "Refill Too Late Alert",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "The patient is receiving a subsequent fill significantly later than would be expected based on the amount previously supplied and the therapy dosage instructions"
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Refill Too Late Alert"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Alerte - renouvelé trop tard"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/ActCode",
+      "abstract": false,
+      "code": "TOOSOON",
+      "display": "Refill Too Soon Alert",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "The patient is receiving a subsequent fill significantly earlier than would be expected based on the amount previously supplied and the therapy dosage instructions"
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Refill Too Soon Alert"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Alerte - renouvelé trop tôt"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/v3/ActCode",
+      "abstract": false,
+      "code": "TPROD",
+      "display": "Therapeutic Product Alert",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Proposed therapy may interact with an existing or recent therapeutic product"
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Therapeutic Product Alert"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Alerte : interaction avec produit thérapeutique"
+      } ]
+    } ]
+  }
+}

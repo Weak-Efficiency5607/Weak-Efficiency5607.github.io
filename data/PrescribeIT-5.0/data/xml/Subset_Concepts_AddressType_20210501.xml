@@ -1,0 +1,56 @@
+<result>
+  <concepts>
+    <concept>
+      <id>both</id>
+      <name>Postal &amp; Physical</name>
+      <codeSystemId>2.16.840.1.113883.4.642.4.70</codeSystemId>
+      <codeSystemName>AddressType</codeSystemName>
+      <enDisplayName>Postal &amp; Physical</enDisplayName>
+      <frDisplayName>Adresse postale et municipale</frDisplayName>
+      <description>An address that is both physical and postal.</description>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>physical</id>
+      <name>Physical</name>
+      <codeSystemId>2.16.840.1.113883.4.642.4.70</codeSystemId>
+      <codeSystemName>AddressType</codeSystemName>
+      <enDisplayName>Physical</enDisplayName>
+      <frDisplayName>Adresse municipale</frDisplayName>
+      <description>A physical address that can be visited.</description>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>postal</id>
+      <name>Postal</name>
+      <codeSystemId>2.16.840.1.113883.4.642.4.70</codeSystemId>
+      <codeSystemName>AddressType</codeSystemName>
+      <enDisplayName>Postal</enDisplayName>
+      <frDisplayName>Adresse postale</frDisplayName>
+      <description>Mailing addresses - PO Boxes and care-of addresses.</description>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+  </concepts>
+  <pagination>
+    <currentPage>1</currentPage>
+    <totalPages>1</totalPages>
+    <pageSize>100000</pageSize>
+    <totalRecords>3</totalRecords>
+    <firstRecord>1</firstRecord>
+    <lastRecord>3</lastRecord>
+    <nextPage>-1</nextPage>
+    <nextRecord>-1</nextRecord>
+  </pagination>
+</result>

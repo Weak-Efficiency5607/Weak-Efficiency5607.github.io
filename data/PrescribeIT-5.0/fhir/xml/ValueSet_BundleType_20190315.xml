@@ -1,0 +1,230 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+   <id value="bundletype"></id>
+   <url value="https://fhir.infoway-inforoute.ca/ValueSet/bundletype"></url>
+   <identifier id="2.16.840.1.113883.2.20.3.448"></identifier>
+   <version value="20190315"></version>
+   <name value="BundleType"></name>
+   <status value="active"></status>
+   <description value="Indicates the purpose of a bundle - how it was intended to be used."></description>
+   <expansion>
+      <identifier value="urn:uuid:6112fb38-02e6-4b86-95a2-ad54c654f8ab"></identifier>
+      <timestamp value="2025-07-25T11:32:38-04:00"></timestamp>
+      <total value="9"></total>
+      <contains>
+         <system value="http://hl7.org/fhir/ValueSet/bundle-type"></system>
+         <abstract value="false"></abstract>
+         <code value="batch"></code>
+         <display value="Batch"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="The bundle is a transaction - intended to be processed by a server as a group of actions."></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Batch"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/ValueSet/bundle-type"></system>
+         <abstract value="false"></abstract>
+         <code value="batch-response"></code>
+         <display value="Batch Response"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="The bundle is a batch response. Note that as a batch, some responses may indicate failure and others success."></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Batch Response"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/ValueSet/bundle-type"></system>
+         <abstract value="false"></abstract>
+         <code value="collection"></code>
+         <display value="Collection"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="The bundle is a set of resources collected into a single document for ease of distribution."></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Collection"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/ValueSet/bundle-type"></system>
+         <abstract value="false"></abstract>
+         <code value="document"></code>
+         <display value="Document"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="The bundle is a document. The first resource is a Composition."></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Document"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/ValueSet/bundle-type"></system>
+         <abstract value="false"></abstract>
+         <code value="history"></code>
+         <display value="History List"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="The bundle is a list of resources from a history interaction on a server."></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="History List"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/ValueSet/bundle-type"></system>
+         <abstract value="false"></abstract>
+         <code value="message"></code>
+         <display value="Message"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="The bundle is a message. The first resource is a MessageHeader."></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Message"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/ValueSet/bundle-type"></system>
+         <abstract value="false"></abstract>
+         <code value="searchset"></code>
+         <display value="Search Results"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="The bundle is a list of resources returned as a result of a search/query interaction, operation, or message."></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Search Results"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/ValueSet/bundle-type"></system>
+         <abstract value="false"></abstract>
+         <code value="transaction"></code>
+         <display value="Transaction"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="The bundle is a transaction - intended to be processed by a server as an atomic commit."></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Transaction"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/ValueSet/bundle-type"></system>
+         <abstract value="false"></abstract>
+         <code value="transaction-response"></code>
+         <display value="Transaction Response"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="The bundle is a transaction response. Because the response is a transaction response, the transactionhas succeeded, and all responses are error free."></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Transaction Response"></value>
+         </designation>
+      </contains>
+   </expansion>
+</ValueSet>

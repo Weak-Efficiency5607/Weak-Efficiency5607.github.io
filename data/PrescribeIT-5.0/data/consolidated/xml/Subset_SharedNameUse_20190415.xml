@@ -1,0 +1,64 @@
+<subset>
+  <id>2.16.840.1.113883.2.20.3.427</id>
+  <name>SharedNameUse</name>
+  <url>https://tgateway.infoway-inforoute.ca/vs/sharednameuse</url>
+  <fhirUri>https://fhir.infoway-inforoute.ca/ValueSet/sharednameuse</fhirUri>
+  <versionId>20190415</versionId>
+  <effectiveDate>2019041504:00:00</effectiveDate>
+  <publicationTime>2019051505:09:42</publicationTime>
+  <description>Human name use codes supported for Shared Health systems</description>
+  <status>active</status>
+  <category>HL7</category>
+  <domains>
+    <string>PrescribeIT</string>
+  </domains>
+  <properties/>
+  <owner>Canada Health Infoway</owner>
+  <tags>
+    <string>Extensional</string>
+  </tags>
+  <terminologies class="com.google.gson.internal.LinkedTreeMap" resolves-to="linked-hash-map"/>
+  <type>Extensional</type>
+  <viewer>singlesubset</viewer>
+  <codeSystems>
+    <codesystem>
+      <id>2.16.840.1.113883.4.642.1.59</id>
+      <name>NameUse</name>
+      <businessName>NameUse</businessName>
+      <url>http://hl7.org/fhir/name-use</url>
+      <version>1.4.0</version>
+    </codesystem>
+  </codeSystems>
+  <concepts>
+    <concept>
+      <id>official</id>
+      <name>Official</name>
+      <codeSystemId>2.16.840.1.113883.4.642.1.59</codeSystemId>
+      <codeSystemName>NameUse</codeSystemName>
+      <enDisplayName>Official</enDisplayName>
+      <frDisplayName>Nom officiel</frDisplayName>
+      <description>The formal name as registered in an official (government) registry, but which name might not be commonly used. May be called &quot;legal name&quot;.</description>
+      <frDescription>Nom officiel tel qu&apos;il figure dans un registre (gouvernemental) officiel, mais qui n&apos;est peut-être pas utilisé couramment. Aussi appelé « nom légal ».</frDescription>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>usual</id>
+      <name>Usual</name>
+      <codeSystemId>2.16.840.1.113883.4.642.1.59</codeSystemId>
+      <codeSystemName>NameUse</codeSystemName>
+      <enDisplayName>Usual</enDisplayName>
+      <frDisplayName>Nom usuel</frDisplayName>
+      <description>Known as/conventional/the one you normally use</description>
+      <frDescription>Nom habituellement utilisé.</frDescription>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+  </concepts>
+</subset>

@@ -1,0 +1,74 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+   <id value="sharedservicetype"></id>
+   <url value="https://fhir.infoway-inforoute.ca/ValueSet/sharedservicetype"></url>
+   <identifier id="2.16.840.1.113883.2.20.3.429"></identifier>
+   <version value="20171011"></version>
+   <name value="SharedServiceType"></name>
+   <status value="active"></status>
+   <description value="Service type codes supported for Shared Health organizations and practitioners"></description>
+   <expansion>
+      <identifier value="urn:uuid:29033ad7-c626-4726-b9dd-95f7f70c36b5"></identifier>
+      <timestamp value="2025-07-25T11:35:03-04:00"></timestamp>
+      <total value="4"></total>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedservicetype"></system>
+         <abstract value="false"></abstract>
+         <code value="clinician-comm"></code>
+         <display value="Clinician Communications"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Clinician Communications"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedservicetype"></system>
+         <abstract value="false"></abstract>
+         <code value="meddialog-person-org"></code>
+         <display value="Practitioner at this organization with MedDialog messaging support"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Practitioner at this organization with MedDialog messaging support"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedservicetype"></system>
+         <abstract value="false"></abstract>
+         <code value="medialog-org"></code>
+         <display value="Organization with MedDialog messaging support"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Organization with MedDialog messaging support"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/sharedservicetype"></system>
+         <abstract value="false"></abstract>
+         <code value="prescribeit-rx"></code>
+         <display value="PrescribeIT Messaging Inbox Support"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="PrescribeIT Messaging Inbox Support"></value>
+         </designation>
+      </contains>
+   </expansion>
+</ValueSet>

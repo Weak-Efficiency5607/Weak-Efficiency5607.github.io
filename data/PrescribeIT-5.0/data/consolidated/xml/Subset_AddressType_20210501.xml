@@ -1,0 +1,77 @@
+<subset>
+  <id>2.16.840.1.113883.4.642.4.70</id>
+  <name>AddressType</name>
+  <url>https://tgateway.infoway-inforoute.ca/vs/addresstype</url>
+  <fhirUri>https://fhir.infoway-inforoute.ca/ValueSet/addresstype</fhirUri>
+  <versionId>20210501</versionId>
+  <effectiveDate>2021050104:00:00</effectiveDate>
+  <publicationTime>2021051805:32:30</publicationTime>
+  <dateLastReviewed>2024090904:00:00</dateLastReviewed>
+  <description>The type of an address (physical / postal).</description>
+  <status>active</status>
+  <category>HL7</category>
+  <domains>
+    <string>PrescribeIT</string>
+  </domains>
+  <properties/>
+  <owner>Canada Health Infoway</owner>
+  <tags>
+    <string>Extensional</string>
+  </tags>
+  <terminologies class="com.google.gson.internal.LinkedTreeMap" resolves-to="linked-hash-map"/>
+  <type>Extensional</type>
+  <viewer>singlesubset</viewer>
+  <codeSystems>
+    <codesystem>
+      <id>2.16.840.1.113883.4.642.4.70</id>
+      <name>AddressType</name>
+      <businessName>AddressType</businessName>
+      <url>http://hl7.org/fhir/address-type</url>
+      <version>4.0.1</version>
+    </codesystem>
+  </codeSystems>
+  <concepts>
+    <concept>
+      <id>both</id>
+      <name>Postal &amp; Physical</name>
+      <codeSystemId>2.16.840.1.113883.4.642.4.70</codeSystemId>
+      <codeSystemName>AddressType</codeSystemName>
+      <enDisplayName>Postal &amp; Physical</enDisplayName>
+      <frDisplayName>Adresse postale et municipale</frDisplayName>
+      <description>An address that is both physical and postal.</description>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>physical</id>
+      <name>Physical</name>
+      <codeSystemId>2.16.840.1.113883.4.642.4.70</codeSystemId>
+      <codeSystemName>AddressType</codeSystemName>
+      <enDisplayName>Physical</enDisplayName>
+      <frDisplayName>Adresse municipale</frDisplayName>
+      <description>A physical address that can be visited.</description>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>postal</id>
+      <name>Postal</name>
+      <codeSystemId>2.16.840.1.113883.4.642.4.70</codeSystemId>
+      <codeSystemName>AddressType</codeSystemName>
+      <enDisplayName>Postal</enDisplayName>
+      <frDisplayName>Adresse postale</frDisplayName>
+      <description>Mailing addresses - PO Boxes and care-of addresses.</description>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+  </concepts>
+</subset>

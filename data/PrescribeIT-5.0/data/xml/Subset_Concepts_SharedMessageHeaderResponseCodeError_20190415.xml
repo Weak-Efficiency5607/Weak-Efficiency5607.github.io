@@ -1,0 +1,59 @@
+<result>
+  <concepts>
+    <concept>
+      <id>fatal-error</id>
+      <name>Fatal Error</name>
+      <codeSystemId>2.16.840.1.113883.4.642.1.368</codeSystemId>
+      <codeSystemName>ResponseType</codeSystemName>
+      <enDisplayName>Fatal error</enDisplayName>
+      <frDisplayName>Erreur fatale</frDisplayName>
+      <description>The message was rejected because of a problem with the content. There is no point in re-sending without change. The response narrative SHALL describe the issue.</description>
+      <frDescription>Le message a été rejeté en raison d&apos;un problème de contenu. Il est inutile de le renvoyer sans modification. Le message DOIT décrire le problème.</frDescription>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>ok</id>
+      <name>OK</name>
+      <codeSystemId>2.16.840.1.113883.4.642.1.368</codeSystemId>
+      <codeSystemName>ResponseType</codeSystemName>
+      <enDisplayName>OK</enDisplayName>
+      <frDisplayName>OK</frDisplayName>
+      <description>The message was accepted and processed without error.</description>
+      <frDescription>Le message a été accepté et traité sans erreur.</frDescription>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>transient-error</id>
+      <name>Transient Error</name>
+      <codeSystemId>2.16.840.1.113883.4.642.1.368</codeSystemId>
+      <codeSystemName>ResponseType</codeSystemName>
+      <enDisplayName>Transient error</enDisplayName>
+      <frDisplayName>Erreur intermittente</frDisplayName>
+      <description>Some internal unexpected error occurred - wait and try again. Note - this is usually used for things like database unavailable, which may be expected to resolve, though human intervention may be required.</description>
+      <frDescription>Une erreur interne imprévue est survenue – attendez et réessayez. Remarque : ce code est habituellement utilisé pour des situations qui devraient se rétablir d&apos;elles-mêmes, comme une base de données inaccessible, quoiqu&apos;une intervention humaine puisse parfois être nécessaire.</frDescription>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+  </concepts>
+  <pagination>
+    <currentPage>1</currentPage>
+    <totalPages>1</totalPages>
+    <pageSize>100000</pageSize>
+    <totalRecords>3</totalRecords>
+    <firstRecord>1</firstRecord>
+    <lastRecord>3</lastRecord>
+    <nextPage>-1</nextPage>
+    <nextRecord>-1</nextRecord>
+  </pagination>
+</result>

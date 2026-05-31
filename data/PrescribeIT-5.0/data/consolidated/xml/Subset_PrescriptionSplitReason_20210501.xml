@@ -1,0 +1,91 @@
+<subset>
+  <id>2.16.840.1.113883.2.20.3.467</id>
+  <name>PrescriptionSplitReason</name>
+  <url>https://tgateway.infoway-inforoute.ca/vs/prescriptionsplitreason</url>
+  <fhirUri>https://fhir.infoway-inforoute.ca/ValueSet/prescriptionsplitreason</fhirUri>
+  <versionId>20210501</versionId>
+  <effectiveDate>2021050104:00:00</effectiveDate>
+  <publicationTime>2021051805:32:50</publicationTime>
+  <dateLastReviewed>2021050104:00:00</dateLastReviewed>
+  <description>This is a reason assigned by a pharmacy management system user at the moment when they &quot;split&quot; a prescription.</description>
+  <status>active</status>
+  <category>PrescribeIT</category>
+  <domains>
+    <string>PrescribeIT</string>
+  </domains>
+  <properties/>
+  <owner>Canada Health Infoway</owner>
+  <tags>
+    <string>Extensional</string>
+  </tags>
+  <terminologies class="com.google.gson.internal.LinkedTreeMap" resolves-to="linked-hash-map"/>
+  <type>Extensional</type>
+  <viewer>singlesubset</viewer>
+  <codeSystems>
+    <codesystem>
+      <id>8.1.1.3</id>
+      <name>PrescriptionSplitReason</name>
+      <businessName>PrescriptionSplitReason</businessName>
+      <url>https://fhir.infoway-inforoute.ca/CodeSystem/prescriptionsplitreason</url>
+      <version>20210218</version>
+    </codesystem>
+  </codeSystems>
+  <concepts>
+    <concept>
+      <id>backOrder</id>
+      <name>BackOrder</name>
+      <codeSystemId>8.1.1.3</codeSystemId>
+      <codeSystemName>PrescriptionSplitReason</codeSystemName>
+      <enDisplayName>Product prescribed is on back order</enDisplayName>
+      <frDisplayName>Produit prescrit en rupture de stock</frDisplayName>
+      <description>Product prescribed is on back order</description>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>notAvailable</id>
+      <name>NotAvailable</name>
+      <codeSystemId>8.1.1.3</codeSystemId>
+      <codeSystemName>PrescriptionSplitReason</codeSystemName>
+      <enDisplayName>Product prescribed is not commercially available (default)</enDisplayName>
+      <frDisplayName>Produit prescrit pas commercialisé (par défaut)</frDisplayName>
+      <description>Product prescribed is not commercially available (default)</description>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>notCovered</id>
+      <name>NotCovered</name>
+      <codeSystemId>8.1.1.3</codeSystemId>
+      <codeSystemName>PrescriptionSplitReason</codeSystemName>
+      <enDisplayName>Product prescribed is not covered by patient’s insurance</enDisplayName>
+      <frDisplayName>Produit prescrit pas couvert par assurance du patient</frDisplayName>
+      <description>Product prescribed is not covered by patient’s insurance</description>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>other</id>
+      <name>Other</name>
+      <codeSystemId>8.1.1.3</codeSystemId>
+      <codeSystemName>PrescriptionSplitReason</codeSystemName>
+      <enDisplayName>Patient preference, Tapering dose, Other (with free text option)</enDisplayName>
+      <frDisplayName>Préférence du patient, diminution progressive, autre (texte libre)</frDisplayName>
+      <description>Patient preference, Tapering dose, Other (with free text option)</description>
+      <effectiveDate>2021050104:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+  </concepts>
+</subset>

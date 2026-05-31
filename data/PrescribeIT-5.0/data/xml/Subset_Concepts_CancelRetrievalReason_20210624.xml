@@ -1,0 +1,28 @@
+<result>
+  <concepts>
+    <concept>
+      <id>PATDEC</id>
+      <name>patient changed mind</name>
+      <codeSystemId>2.16.840.1.113883.5.8</codeSystemId>
+      <codeSystemName>v3.ActReason</codeSystemName>
+      <enDisplayName>patient changed mind</enDisplayName>
+      <frDisplayName>Le patient a changé d’idée</frDisplayName>
+      <description>Le patient a changé d’idée et ne veut plus le médicament. Patient changed their mind regarding obtaining medication.</description>
+      <effectiveDate>2021062404:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+  </concepts>
+  <pagination>
+    <currentPage>1</currentPage>
+    <totalPages>1</totalPages>
+    <pageSize>100000</pageSize>
+    <totalRecords>1</totalRecords>
+    <firstRecord>1</firstRecord>
+    <lastRecord>1</lastRecord>
+    <nextPage>-1</nextPage>
+    <nextRecord>-1</nextRecord>
+  </pagination>
+</result>

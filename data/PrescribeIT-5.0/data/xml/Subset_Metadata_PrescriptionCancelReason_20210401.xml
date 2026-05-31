@@ -1,0 +1,20 @@
+<version>
+  <id>2.16.840.1.113883.2.20.3.395</id>
+  <url>https://tgateway.infoway-inforoute.ca/vs/prescriptioncancelreason</url>
+  <fhirUri>https://fhir.infoway-inforoute.ca/ValueSet/prescriptioncancelreason</fhirUri>
+  <name>PrescriptionCancelReason</name>
+  <versionId>20210401</versionId>
+  <effectiveDate>2021040104:00:00</effectiveDate>
+  <publicationTime>2021051805:32:42</publicationTime>
+  <description>Indication of why a clinician is requesting the cancelling of a prescription</description>
+  <status>active</status>
+  <codeSystems>
+    <codesystem>
+      <id>2.16.840.1.113883.5.8</id>
+      <name>ActReason</name>
+      <businessName>ActReason</businessName>
+      <url>http://hl7.org/fhir/v3/ActReason</url>
+      <version>2.0.0</version>
+    </codesystem>
+  </codeSystems>
+</version>

@@ -1,0 +1,130 @@
+{
+  "resourceType": "ValueSet",
+  "id": "prescriptionemrtasktype",
+  "url": "https://fhir.infoway-inforoute.ca/ValueSet/prescriptionemrtasktype",
+  "identifier": [ {
+    "id": "2.16.840.1.113883.2.20.3.415"
+  } ],
+  "version": "20170626",
+  "name": "PrescriptionEMRTaskType",
+  "status": "active",
+  "description": "PrescribeIT types of tasks for EMRs",
+  "expansion": {
+    "identifier": "urn:uuid:d87fce9c-a7eb-40a7-b5f9-8da09f347fb1",
+    "timestamp": "2025-07-25T11:33:05-04:00",
+    "total": 8,
+    "contains": [ {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/prescriptiontasktype",
+      "abstract": false,
+      "code": "e110-m",
+      "display": "New RX Fill Request",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "New RX Fill Request"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/prescriptiontasktype",
+      "abstract": false,
+      "code": "e120-m",
+      "display": "Renewal RX Fill Request",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Renewal RX Fill Request"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/prescriptiontasktype",
+      "abstract": false,
+      "code": "e140-m",
+      "display": "Cancel Rx Request",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Cancel Rx Request"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/prescriptiontasktype",
+      "abstract": false,
+      "code": "e161-m",
+      "display": "RX Renewal Response - Denied",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "RX Renewal Response - Denied"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/prescriptiontasktype",
+      "abstract": false,
+      "code": "e162-m",
+      "display": "RX Renewal Response - Approval",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "RX Renewal Response - Approval"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/prescriptiontasktype",
+      "abstract": false,
+      "code": "e163-m",
+      "display": "RX Renewal Response - Approval with Changes",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "RX Renewal Response - Approval with Changes"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/prescriptiontasktype",
+      "abstract": false,
+      "code": "e164-m",
+      "display": "RX Renewal Response - Under Review",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "RX Renewal Response - Under Review"
+      } ]
+    }, {
+      "system": "https://fhir.infoway-inforoute.ca/CodeSystem/prescriptiontasktype",
+      "abstract": false,
+      "code": "e180-m",
+      "display": "New Undirected Rx Fill Request",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "New Undirected Rx Fill Request"
+      } ]
+    } ]
+  }
+}

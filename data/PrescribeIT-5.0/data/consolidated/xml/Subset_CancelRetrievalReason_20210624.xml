@@ -1,0 +1,48 @@
+<subset>
+  <id>2.16.840.1.113883.2.20.3.469</id>
+  <name>CancelRetrievalReason</name>
+  <url>https://tgateway.infoway-inforoute.ca/vs/cancelretrievalreason</url>
+  <fhirUri>https://fhir.infoway-inforoute.ca/ValueSet/cancelretrievalreason</fhirUri>
+  <versionId>20210624</versionId>
+  <effectiveDate>2021062404:00:00</effectiveDate>
+  <publicationTime>2021062912:45:21</publicationTime>
+  <description>Indicates the reason why a pharmacy is cancelling the retrieval of a prescription so it is available on the non-directed queue in PrescribeIT.</description>
+  <status>active</status>
+  <category>PrescribeIT</category>
+  <domains>
+    <string>PrescribeIT</string>
+  </domains>
+  <properties/>
+  <owner>Canada Health Infoway</owner>
+  <tags>
+    <string>Extensional</string>
+  </tags>
+  <terminologies class="com.google.gson.internal.LinkedTreeMap" resolves-to="linked-hash-map"/>
+  <type>Extensional</type>
+  <viewer>singlesubset</viewer>
+  <codeSystems>
+    <codesystem>
+      <id>2.16.840.1.113883.5.8</id>
+      <name>v3.ActReason</name>
+      <businessName>v3.ActReason</businessName>
+      <url>http://terminology.hl7.org/CodeSystem/v3-ActReason</url>
+      <version>2.0.0</version>
+    </codesystem>
+  </codeSystems>
+  <concepts>
+    <concept>
+      <id>PATDEC</id>
+      <name>patient changed mind</name>
+      <codeSystemId>2.16.840.1.113883.5.8</codeSystemId>
+      <codeSystemName>v3.ActReason</codeSystemName>
+      <enDisplayName>patient changed mind</enDisplayName>
+      <frDisplayName>Le patient a changé d’idée</frDisplayName>
+      <description>Le patient a changé d’idée et ne veut plus le médicament. Patient changed their mind regarding obtaining medication.</description>
+      <effectiveDate>2021062404:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+  </concepts>
+</subset>

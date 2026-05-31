@@ -1,0 +1,86 @@
+<subset>
+  <id>2.16.840.1.113883.2.20.3.433</id>
+  <name>CommunicationCategory</name>
+  <url>https://tgateway.infoway-inforoute.ca/vs/communicationcategory</url>
+  <fhirUri>https://fhir.infoway-inforoute.ca/ValueSet/communicationcategory</fhirUri>
+  <versionId>20211125</versionId>
+  <effectiveDate>2021112505:00:00</effectiveDate>
+  <publicationTime>2021120201:41:08</publicationTime>
+  <description>Types of communications supported for PrescribeIT systems</description>
+  <status>active</status>
+  <category>PrescribeIT</category>
+  <domains>
+    <string>PrescribeIT</string>
+  </domains>
+  <properties/>
+  <owner>Canada Health Infoway</owner>
+  <tags>
+    <string>Extensional</string>
+  </tags>
+  <terminologies class="com.google.gson.internal.LinkedTreeMap" resolves-to="linked-hash-map"/>
+  <type>Extensional</type>
+  <viewer>singlesubset</viewer>
+  <codeSystems>
+    <codesystem>
+      <id>2.16.840.1.113883.15.19</id>
+      <name>CommunicationCategory</name>
+      <businessName>CommunicationCategory</businessName>
+      <url>https://fhir.infoway-inforoute.ca/CodeSystem/communicationcategory</url>
+      <version>20211125</version>
+    </codesystem>
+  </codeSystems>
+  <concepts>
+    <concept>
+      <id>clarification</id>
+      <name>Clarification required</name>
+      <codeSystemId>2.16.840.1.113883.15.19</codeSystemId>
+      <codeSystemName>CommunicationCategory</codeSystemName>
+      <enDisplayName>Clarification required</enDisplayName>
+      <frDisplayName>Clarification requise</frDisplayName>
+      <effectiveDate>2021112505:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>consultation</id>
+      <name>Consultation</name>
+      <codeSystemId>2.16.840.1.113883.15.19</codeSystemId>
+      <codeSystemName>CommunicationCategory</codeSystemName>
+      <enDisplayName>Consultation</enDisplayName>
+      <frDisplayName>Consultation</frDisplayName>
+      <effectiveDate>2021112505:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>follow-up</id>
+      <name>Clinical follow-up</name>
+      <codeSystemId>2.16.840.1.113883.15.19</codeSystemId>
+      <codeSystemName>CommunicationCategory</codeSystemName>
+      <enDisplayName>Clinical follow-up</enDisplayName>
+      <frDisplayName>Suivi clinique</frDisplayName>
+      <effectiveDate>2021112505:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>general</id>
+      <name>General</name>
+      <codeSystemId>2.16.840.1.113883.15.19</codeSystemId>
+      <codeSystemName>CommunicationCategory</codeSystemName>
+      <enDisplayName>General</enDisplayName>
+      <frDisplayName>Communication générale</frDisplayName>
+      <effectiveDate>2021112505:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+  </concepts>
+</subset>

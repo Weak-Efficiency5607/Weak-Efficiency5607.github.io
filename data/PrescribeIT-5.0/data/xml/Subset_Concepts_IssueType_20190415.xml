@@ -1,0 +1,449 @@
+<result>
+  <concepts>
+    <concept>
+      <id>business-rule</id>
+      <name>business-rule</name>
+      <codeSystemId>2.16.840.1.113883.4.642.3.410</codeSystemId>
+      <codeSystemName>IssueType</codeSystemName>
+      <enDisplayName>Business Rule Violation</enDisplayName>
+      <frDisplayName>Violation de la règle administrative</frDisplayName>
+      <description>The content/operation failed to pass some business rule, and so could not proceed.</description>
+      <frDescription>Le contenu/l&apos;opération contrevient à une règle administrative et n&apos;a donc pas été traité/exécutée.</frDescription>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>code-invalid</id>
+      <name>code-invalid</name>
+      <codeSystemId>2.16.840.1.113883.4.642.3.410</codeSystemId>
+      <codeSystemName>IssueType</codeSystemName>
+      <enDisplayName>Invalid Code</enDisplayName>
+      <frDisplayName>Code non valide</frDisplayName>
+      <description>The code or system could not be understood, or it was not valid in the context of a particular ValueSet.code.</description>
+      <frDescription>Le code ou le système n&apos;était pas interprétable ou n&apos;était pas valide dans le contexte d&apos;un ensemble de valeurs (ValueSet) particulier.</frDescription>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>conflict</id>
+      <name>conflict</name>
+      <codeSystemId>2.16.840.1.113883.4.642.3.410</codeSystemId>
+      <codeSystemName>IssueType</codeSystemName>
+      <enDisplayName>Edit Version Conflict</enDisplayName>
+      <frDisplayName>Conflit de versions</frDisplayName>
+      <description>Content could not be accepted because of an edit conflict (i.e. version aware updates) (In a pure RESTful environment, this would be an HTTP 404 error, but this code may be used where the conflict is discovered further into the application architecture.)</description>
+      <frDescription>Le contenu n&apos;a pas été accepté à cause d&apos;un conflit de versions. (Dans un environnement entièrement RESTful, il s&apos;agirait d&apos;une erreur HTTP 404, mais ce code peut être utilisé quand le conflit est découvert ailleurs dans l&apos;architecture de l&apos;application.)</frDescription>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>duplicate</id>
+      <name>duplicate</name>
+      <codeSystemId>2.16.840.1.113883.4.642.3.410</codeSystemId>
+      <codeSystemName>IssueType</codeSystemName>
+      <enDisplayName>Duplicate</enDisplayName>
+      <frDisplayName>Copie</frDisplayName>
+      <description>An attempt was made to create a duplicate record.</description>
+      <frDescription>On a tenté de créer une copie du dossier.</frDescription>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>exception</id>
+      <name>exception</name>
+      <codeSystemId>2.16.840.1.113883.4.642.3.410</codeSystemId>
+      <codeSystemName>IssueType</codeSystemName>
+      <enDisplayName>Exception</enDisplayName>
+      <frDisplayName>Exception</frDisplayName>
+      <description>An unexpected internal error has occurred.</description>
+      <frDescription>Une erreur interne imprévue est survenue.</frDescription>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>expired</id>
+      <name>expired</name>
+      <codeSystemId>2.16.840.1.113883.4.642.3.410</codeSystemId>
+      <codeSystemName>IssueType</codeSystemName>
+      <enDisplayName>Session Expired</enDisplayName>
+      <frDisplayName>Session expirée</frDisplayName>
+      <description>User session expired; a login may be required.</description>
+      <frDescription>La session est expirée; l&apos;utilisateur devra peut-être se reconnecter.</frDescription>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>extension</id>
+      <name>extension</name>
+      <codeSystemId>2.16.840.1.113883.4.642.3.410</codeSystemId>
+      <codeSystemName>IssueType</codeSystemName>
+      <enDisplayName>Unacceptable Extension</enDisplayName>
+      <frDisplayName>Extension inacceptable</frDisplayName>
+      <description>An extension was found that was not acceptable, could not be resolved, or a modifierExtension was not recognized.</description>
+      <frDescription>Une extension a été jugée inacceptable ou ne pouvait pas être résolue, ou un « modifierExtension » n&apos;a pas été reconnu.</frDescription>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>forbidden</id>
+      <name>forbidden</name>
+      <codeSystemId>2.16.840.1.113883.4.642.3.410</codeSystemId>
+      <codeSystemName>IssueType</codeSystemName>
+      <enDisplayName>Forbidden</enDisplayName>
+      <frDisplayName>Interdit</frDisplayName>
+      <description>The user does not have the rights to perform this action.</description>
+      <frDescription>L&apos;utilisateur n&apos;a pas le droit d&apos;exécuter cette action.</frDescription>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>incomplete</id>
+      <name>incomplete</name>
+      <codeSystemId>2.16.840.1.113883.4.642.3.410</codeSystemId>
+      <codeSystemName>IssueType</codeSystemName>
+      <enDisplayName>Incomplete Results</enDisplayName>
+      <frDisplayName>Résultats incomplets</frDisplayName>
+      <description>Not all data sources typically accessed could be reached, or responded in time, so the returned information may not be complete.</description>
+      <frDescription>Comme certaines sources de données habituellement interrogées n&apos;étaient pas accessibles ou n&apos;ont pas répondu à temps, les résultats pourraient être incomplets.</frDescription>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>informational</id>
+      <name>informational</name>
+      <codeSystemId>2.16.840.1.113883.4.642.3.410</codeSystemId>
+      <codeSystemName>IssueType</codeSystemName>
+      <enDisplayName>Informational Note</enDisplayName>
+      <frDisplayName>Note d&apos;information</frDisplayName>
+      <description>A message unrelated to the processing success of the completed operation (examples of the latter include things like reminders of password expiry, system maintenance times, etc.).</description>
+      <frDescription>Message non relié au succès du traitement de l&apos;opération exécutée, p. ex. rappels de l&apos;expiration du mot de passe, des heures de maintenance du système, etc.)</frDescription>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>invalid</id>
+      <name>invalid</name>
+      <codeSystemId>2.16.840.1.113883.4.642.3.410</codeSystemId>
+      <codeSystemName>IssueType</codeSystemName>
+      <enDisplayName>Invalid Content</enDisplayName>
+      <frDisplayName>Contenu non valide</frDisplayName>
+      <description>Content invalid against the specification or a profile.</description>
+      <frDescription>Le contenu est non valide par rapport à la spécification ou à un profil.</frDescription>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>invariant</id>
+      <name>invariant</name>
+      <codeSystemId>2.16.840.1.113883.4.642.3.410</codeSystemId>
+      <codeSystemName>IssueType</codeSystemName>
+      <enDisplayName>Validation rule failed</enDisplayName>
+      <frDisplayName>Échec de la règle de validation</frDisplayName>
+      <description>A content validation rule failed - e.g. a Schematron rule.</description>
+      <frDescription>Une règle de validation de contenu a échoué, p. ex. une règle Schematron.</frDescription>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>lock-error</id>
+      <name>lock-error</name>
+      <codeSystemId>2.16.840.1.113883.4.642.3.410</codeSystemId>
+      <codeSystemName>IssueType</codeSystemName>
+      <enDisplayName>Lock Error</enDisplayName>
+      <frDisplayName>Erreur de verrouillage</frDisplayName>
+      <description>A resource/record locking failure (usually in an underlying database).</description>
+      <frDescription>Échec du verrouillage d&apos;une ressource/d&apos;un dossier (habituellement dans une base de données sous-jacente).</frDescription>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>login</id>
+      <name>login</name>
+      <codeSystemId>2.16.840.1.113883.4.642.3.410</codeSystemId>
+      <codeSystemName>IssueType</codeSystemName>
+      <enDisplayName>Login Required</enDisplayName>
+      <frDisplayName>Connexion requise</frDisplayName>
+      <description>The client needs to initiate an authentication process.</description>
+      <frDescription>Le client doit amorcer un processus d&apos;authentification.</frDescription>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>no-store</id>
+      <name>no-store</name>
+      <codeSystemId>2.16.840.1.113883.4.642.3.410</codeSystemId>
+      <codeSystemName>IssueType</codeSystemName>
+      <enDisplayName>No Store Available</enDisplayName>
+      <frDisplayName>Pas de stockage disponible</frDisplayName>
+      <description>The persistent store is unavailable; e.g. the database is down for maintenance or similar action.</description>
+      <frDescription>Le stockage persistant n&apos;est pas disponible, p. ex. parce que la base de données est inaccessible pour cause de maintenance ou une action semblable.</frDescription>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>not-found</id>
+      <name>not-found</name>
+      <codeSystemId>2.16.840.1.113883.4.642.3.410</codeSystemId>
+      <codeSystemName>IssueType</codeSystemName>
+      <enDisplayName>Not Found</enDisplayName>
+      <frDisplayName>Introuvable</frDisplayName>
+      <description>The reference provided was not found. In a pure RESTful environment, this would be an HTTP 404 error, but this code may be used where the content is not found further into the application architecture.</description>
+      <frDescription>La référence fournie est introuvable. Dans un environnement entièrement RESTful, il s&apos;agirait d&apos;une erreur HTTP 404, mais ce code peut être utilisé quand le contenu est introuvable ailleurs dans l&apos;architecture de l&apos;application.</frDescription>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>not-supported</id>
+      <name>not-supported</name>
+      <codeSystemId>2.16.840.1.113883.4.642.3.410</codeSystemId>
+      <codeSystemName>IssueType</codeSystemName>
+      <enDisplayName>Content not supported</enDisplayName>
+      <frDisplayName>Contenu non supporté</frDisplayName>
+      <description>The resource or profile is not supported.</description>
+      <frDescription>La ressource ou le profil n&apos;est pas supporté.</frDescription>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>processing</id>
+      <name>processing</name>
+      <codeSystemId>2.16.840.1.113883.4.642.3.410</codeSystemId>
+      <codeSystemName>IssueType</codeSystemName>
+      <enDisplayName>Processing Failure</enDisplayName>
+      <frDisplayName>Échec du traitement</frDisplayName>
+      <description>Processing issues. These are expected to be final e.g. there is no point resubmitting the same content unchanged.</description>
+      <frDescription>Problèmes de traitement. L&apos;échec du traitement est définitif, c&apos;est-à-dire qu&apos;il est inutile de soumettre à nouveau le même contenu sans l&apos;avoir modifié.</frDescription>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>required</id>
+      <name>required</name>
+      <codeSystemId>2.16.840.1.113883.4.642.3.410</codeSystemId>
+      <codeSystemName>IssueType</codeSystemName>
+      <enDisplayName>Required element missing</enDisplayName>
+      <frDisplayName>Élément requis manquant</frDisplayName>
+      <description>A required element is missing.</description>
+      <frDescription>Un élément requis est manquant.</frDescription>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>security</id>
+      <name>security</name>
+      <codeSystemId>2.16.840.1.113883.4.642.3.410</codeSystemId>
+      <codeSystemName>IssueType</codeSystemName>
+      <enDisplayName>Security Problem</enDisplayName>
+      <frDisplayName>Problème de sécurité</frDisplayName>
+      <description>An authentication/authorization/permissions issue of some kind.</description>
+      <frDescription>Un problème d&apos;authentification/d&apos;autorisation/de permission.</frDescription>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>structure</id>
+      <name>structure</name>
+      <codeSystemId>2.16.840.1.113883.4.642.3.410</codeSystemId>
+      <codeSystemName>IssueType</codeSystemName>
+      <enDisplayName>Structural Issue</enDisplayName>
+      <frDisplayName>Problème structurel</frDisplayName>
+      <description>A structural issue in the content such as wrong namespace, or unable to parse the content completely, or invalid json syntax.</description>
+      <frDescription>Le contenu présente un problème structurel, p. ex. un mauvais espace de nom, ou le contenu ne peut être analysé complètement, ou la syntaxe json n&apos;est pas valide.</frDescription>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>suppressed</id>
+      <name>suppressed</name>
+      <codeSystemId>2.16.840.1.113883.4.642.3.410</codeSystemId>
+      <codeSystemName>IssueType</codeSystemName>
+      <enDisplayName>Information Suppressed</enDisplayName>
+      <frDisplayName>Information supprimée</frDisplayName>
+      <description>Some information was not or may not have been returned due to business rules, consent or privacy rules, or access permission constraints. This information may be accessible through alternate processes.</description>
+      <frDescription>L&apos;information n&apos;a pas ou n&apos;a peut-être pas été renvoyée à cause de règles administratives, de règles de consentement ou de confidentialité, ou de contraintes d&apos;accès. Cette information pourrait être accessible par d&apos;autres moyens.</frDescription>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>throttled</id>
+      <name>throttled</name>
+      <codeSystemId>2.16.840.1.113883.4.642.3.410</codeSystemId>
+      <codeSystemName>IssueType</codeSystemName>
+      <enDisplayName>Throttled</enDisplayName>
+      <frDisplayName>Ralentissement</frDisplayName>
+      <description>The system is not prepared to handle this request due to load management.</description>
+      <frDescription>Le système n&apos;est pas prêt à traiter cette requête à cause de la gestion de la charge.</frDescription>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>timeout</id>
+      <name>timeout</name>
+      <codeSystemId>2.16.840.1.113883.4.642.3.410</codeSystemId>
+      <codeSystemName>IssueType</codeSystemName>
+      <enDisplayName>Timeout</enDisplayName>
+      <frDisplayName>Délai d&apos;attente</frDisplayName>
+      <description>An internal timeout has occurred.</description>
+      <frDescription>Un délai d&apos;attente interne est survenu.</frDescription>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>too-costly</id>
+      <name>too-costly</name>
+      <codeSystemId>2.16.840.1.113883.4.642.3.410</codeSystemId>
+      <codeSystemName>IssueType</codeSystemName>
+      <enDisplayName>Operation Too Costly</enDisplayName>
+      <frDisplayName>Opération trop coûteuse</frDisplayName>
+      <description>The operation was stopped to protect server resources; e.g. a request for a value set expansion on all of SNOMED CT.</description>
+      <frDescription>L&apos;opération a été interrompue afin de protéger les ressources du serveur, p. ex. une requête d&apos;expansion des ensembles de valeurs dans l&apos;intégralité de SNOMED CT.</frDescription>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>too-long</id>
+      <name>too-long</name>
+      <codeSystemId>2.16.840.1.113883.4.642.3.410</codeSystemId>
+      <codeSystemName>IssueType</codeSystemName>
+      <enDisplayName>Content Too Long</enDisplayName>
+      <frDisplayName>Contenu trop long</frDisplayName>
+      <description>Provided content is too long (typically, this is a denial of service protection type of error).</description>
+      <frDescription>Le contenu est trop long (habituellement, il s&apos;agit d&apos;une erreur liée à la protection contre le déni de service).</frDescription>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>transient</id>
+      <name>transient</name>
+      <codeSystemId>2.16.840.1.113883.4.642.3.410</codeSystemId>
+      <codeSystemName>IssueType</codeSystemName>
+      <enDisplayName>Transient Issue</enDisplayName>
+      <frDisplayName>Problème intermittent</frDisplayName>
+      <description>Transient processing issues. The system receiving the error may be able to resubmit the same content once an underlying issue is resolved.</description>
+      <frDescription>Problème de traitement intermittent. Le système qui reçoit l&apos;erreur pourrait être capable de soumettre à nouveau le même contenu une fois le problème réglé.</frDescription>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>unknown</id>
+      <name>unknown</name>
+      <codeSystemId>2.16.840.1.113883.4.642.3.410</codeSystemId>
+      <codeSystemName>IssueType</codeSystemName>
+      <enDisplayName>Unknown User</enDisplayName>
+      <frDisplayName>Utilisateur inconnu</frDisplayName>
+      <description>The user or system was not able to be authenticated (either there is no process, or the proferred token is unacceptable).</description>
+      <frDescription>L&apos;utilisateur ou le système n&apos;a pu être authentifié (soit il n&apos;y pas de processus d&apos;authentification, soit le jeton privilégié n&apos;est pas acceptable)</frDescription>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>value</id>
+      <name>value</name>
+      <codeSystemId>2.16.840.1.113883.4.642.3.410</codeSystemId>
+      <codeSystemName>IssueType</codeSystemName>
+      <enDisplayName>Element value invalid</enDisplayName>
+      <frDisplayName>Valeur d&apos;élément non valide</frDisplayName>
+      <description>An element value is invalid.</description>
+      <frDescription>Une valeur d&apos;élément n&apos;est pas valide.</frDescription>
+      <effectiveDate>2019041504:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+  </concepts>
+  <pagination>
+    <currentPage>1</currentPage>
+    <totalPages>1</totalPages>
+    <pageSize>100000</pageSize>
+    <totalRecords>29</totalRecords>
+    <firstRecord>1</firstRecord>
+    <lastRecord>29</lastRecord>
+    <nextPage>-1</nextPage>
+    <nextRecord>-1</nextRecord>
+  </pagination>
+</result>

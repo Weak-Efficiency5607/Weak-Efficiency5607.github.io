@@ -1,0 +1,63 @@
+<subset>
+  <id>2.16.840.1.113883.2.20.3.420</id>
+  <name>SharedCommunicationLanguage</name>
+  <url>https://tgateway.infoway-inforoute.ca/vs/sharedcommunicationlanguage</url>
+  <fhirUri>https://fhir.infoway-inforoute.ca/ValueSet/sharedcommunicationlanguage</fhirUri>
+  <versionId>20170626</versionId>
+  <effectiveDate>2017062604:00:00</effectiveDate>
+  <description>Codes identifying languages spoken and understood by humans that are relevant to Shared Health systems</description>
+  <status>active</status>
+  <category>Language Tags</category>
+  <domains>
+    <string>PrescribeIT</string>
+  </domains>
+  <properties>
+    <entry>
+      <string>project</string>
+      <string>eRx</string>
+    </entry>
+  </properties>
+  <owner>Canada Health Infoway</owner>
+  <tags>
+    <string>Extensional</string>
+  </tags>
+  <terminologies class="com.google.gson.internal.LinkedTreeMap" resolves-to="linked-hash-map"/>
+  <type>Extensional</type>
+  <viewer>singlesubset</viewer>
+  <codeSystems>
+    <codesystem>
+      <id>urn:ietf:bcp:47</id>
+      <name>LanguageTags</name>
+      <businessName>LanguageTags</businessName>
+      <url>urn:ietf:bcp:47</url>
+      <version>200909</version>
+      <organization>Internet Engineering Task Force (IETF)</organization>
+    </codesystem>
+  </codeSystems>
+  <concepts>
+    <concept>
+      <id>en-CA</id>
+      <name>English (Canadian)</name>
+      <codeSystemId>urn:ietf:bcp:47</codeSystemId>
+      <codeSystemName>LanguageTags</codeSystemName>
+      <enDisplayName>English (Canadian)</enDisplayName>
+      <effectiveDate>2017062604:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>fr-CA</id>
+      <name>French (Canadian)</name>
+      <codeSystemId>urn:ietf:bcp:47</codeSystemId>
+      <codeSystemName>LanguageTags</codeSystemName>
+      <enDisplayName>French (Canadian)</enDisplayName>
+      <effectiveDate>2017062604:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+  </concepts>
+</subset>

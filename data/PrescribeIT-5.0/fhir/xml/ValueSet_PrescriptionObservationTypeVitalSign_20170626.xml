@@ -1,0 +1,62 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+   <id value="prescriptionobservationtypevitalsign"></id>
+   <url value="https://fhir.infoway-inforoute.ca/ValueSet/prescriptionobservationtypevitalsign"></url>
+   <identifier id="2.16.840.1.113883.2.20.3.411"></identifier>
+   <version value="20170626"></version>
+   <name value="PrescriptionObservationTypeVitalSign"></name>
+   <status value="active"></status>
+   <description value="Types of vital sign observations relevant to prescribing"></description>
+   <expansion>
+      <identifier value="urn:uuid:8d167985-afe4-46c8-9d2f-a2c51928d9f0"></identifier>
+      <timestamp value="2025-07-25T11:34:23-04:00"></timestamp>
+      <total value="2"></total>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/pCLOCD"></system>
+         <abstract value="false"></abstract>
+         <code value="29463-7"></code>
+         <display value="Body Weight"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Body Weight"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Poids corporel"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/pCLOCD"></system>
+         <abstract value="false"></abstract>
+         <code value="8302-2"></code>
+         <display value="Body Height"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Body Height"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Stature"></value>
+         </designation>
+      </contains>
+   </expansion>
+</ValueSet>

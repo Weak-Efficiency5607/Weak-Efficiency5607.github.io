@@ -1,0 +1,503 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+   <id value="sharedpatientjurisdictionalhealthidentifiertype"></id>
+   <url value="https://fhir.infoway-inforoute.ca/ValueSet/sharedpatientjurisdictionalhealthidentifiertype"></url>
+   <identifier id="2.16.840.1.113883.2.20.3.422"></identifier>
+   <version value="20220615"></version>
+   <name value="SharedPatientJurisdictionalHealthIdentifierType"></name>
+   <status value="active"></status>
+   <description value="Patient jurisdictional health identifier system supported for Shared Health systems"></description>
+   <expansion>
+      <identifier value="urn:uuid:5eb9847d-6988-421c-9008-682748a870b4"></identifier>
+      <timestamp value="2025-07-25T11:34:55-04:00"></timestamp>
+      <total value="20"></total>
+      <contains>
+         <system value="urn:iso:std:iso:8824:1"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.124.4.101.35.1.1"></code>
+         <display value="New Brunswick Medicare Number"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="New Brunswick Medicare Number"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="numéro d’assurance-maladie du Nouveau-Brunswick"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="urn:iso:std:iso:8824:1"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.3.228.2.7"></code>
+         <display value="Nova Scotia Global Identifier (GID)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="Used by the Nova Scotia DIS to represent patients"></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Nova Scotia Global Identifier (GID)"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Identifiant global de la Nouvelle-Écosse"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="urn:iso:std:iso:8824:1"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.4.12"></code>
+         <display value="Manitoba Health Personal Health Identification Number - MHPHIN"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Manitoba Health Personal Health Identification Number - MHPHIN"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="NIMP, Santé Manitoba"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="urn:iso:std:iso:8824:1"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.4.13"></code>
+         <display value="Prince Edward Island, Canada Personal Health Number"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Prince Edward Island, Canada Personal Health Number"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Numéro de carte santé, Î.-P.-É."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="urn:iso:std:iso:8824:1"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.4.20"></code>
+         <display value="Alberta Unique Lifetime Identifier"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Alberta Unique Lifetime Identifier"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Numéro d'identification unique permanent, AB"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="urn:iso:std:iso:8824:1"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.4.376"></code>
+         <display value="Veteran's Affairs Canada Health Number"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Veteran's Affairs Canada Health Number"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Numéro de carte d'identité de santé, ACC"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="urn:iso:std:iso:8824:1"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.4.377"></code>
+         <display value="Correctional Service Canada Health Number"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Correctional Service Canada Health Number"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Numéro de carte santé, SCC"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="urn:iso:std:iso:8824:1"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.4.378"></code>
+         <display value="Non-Insured Health Benefits Health Number (NIHB)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Non-Insured Health Benefits Health Number (NIHB)"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Services de santé non assurés (SSNA)"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="urn:iso:std:iso:8824:1"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.4.379"></code>
+         <display value="Royal Canadian Mounted Police Health Number"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Royal Canadian Mounted Police Health Number"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Numéro de carte santé, GRC"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="urn:iso:std:iso:8824:1"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.4.389"></code>
+         <display value="Canadian Armed Forces Health Number"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Canadian Armed Forces Health Number"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Numéro de carte santé, FAC"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="urn:iso:std:iso:8824:1"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.4.50"></code>
+         <display value="British Columbia Personal Health Number"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="British Columbia Personal Health Number"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Numéro de carte d'assurance-maladie, CB"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="urn:iso:std:iso:8824:1"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.4.51"></code>
+         <display value="New Brunswick, Canada Personal Health Number"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="New Brunswick, Canada Personal Health Number"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="numéro de santé personnel du Nouveau-Brunswick, Canada"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="urn:iso:std:iso:8824:1"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.4.52"></code>
+         <display value="Newfoundland and Labrador, Canada Personal Health Number"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Newfoundland and Labrador, Canada Personal Health Number"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Numéro de carte santé, TNL"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="urn:iso:std:iso:8824:1"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.4.53"></code>
+         <display value="Nova Scotia, Canada Personal Health Number"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Nova Scotia, Canada Personal Health Number"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Numéro de carte santé, N.-É."></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="urn:iso:std:iso:8824:1"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.4.54"></code>
+         <display value="Northwest Territories, Canada Personal Health Number"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Northwest Territories, Canada Personal Health Number"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Numéro de carte d'assurance-maladie, TNO"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="urn:iso:std:iso:8824:1"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.4.55"></code>
+         <display value="Nunavut, Canada Personal Health Number"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Nunavut, Canada Personal Health Number"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Numéro de carte d’assurance-maladie, NU"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="urn:iso:std:iso:8824:1"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.4.56"></code>
+         <display value="Quebec, Canada Personal Health Number"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Quebec, Canada Personal Health Number"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Numéro de carte d'assurance-maladie, QC"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="urn:iso:std:iso:8824:1"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.4.57"></code>
+         <display value="Saskatchewan, Canada Personal Health Number"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Saskatchewan, Canada Personal Health Number"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Numéro de carte d'assurance-maladie, SK"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="urn:iso:std:iso:8824:1"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.4.58"></code>
+         <display value="Yukon, Canada Personal Health Number"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Yukon, Canada Personal Health Number"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Numéro de carte d’assurance-santé, YK"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="urn:iso:std:iso:8824:1"></system>
+         <abstract value="false"></abstract>
+         <code value="urn:oid:2.16.840.1.113883.4.59"></code>
+         <display value="Ontario, Canada Personal Health Number"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Ontario, Canada Personal Health Number"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Numéro de carte Santé, ON"></value>
+         </designation>
+      </contains>
+   </expansion>
+</ValueSet>

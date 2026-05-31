@@ -1,0 +1,215 @@
+<subset>
+  <id>2.16.840.1.113883.2.20.3.424</id>
+  <name>SharedMessageEvents</name>
+  <url>https://tgateway.infoway-inforoute.ca/vs/sharedmessageevents</url>
+  <fhirUri>https://fhir.infoway-inforoute.ca/ValueSet/sharedmessageevents</fhirUri>
+  <versionId>20220810</versionId>
+  <effectiveDate>2022081004:00:00</effectiveDate>
+  <publicationTime>2022083003:18:13</publicationTime>
+  <description>Codes defining the types of events that can trigger messages</description>
+  <status>active</status>
+  <category>PrescribeIT</category>
+  <domains>
+    <string>PrescribeIT</string>
+  </domains>
+  <properties/>
+  <owner>Canada Health Infoway</owner>
+  <tags>
+    <string>Extensional</string>
+  </tags>
+  <terminologies class="com.google.gson.internal.LinkedTreeMap" resolves-to="linked-hash-map"/>
+  <type>Extensional</type>
+  <viewer>singlesubset</viewer>
+  <codeSystems>
+    <codesystem>
+      <id>2.16.840.1.113883.5.1143</id>
+      <name>SharedMessageEvents</name>
+      <businessName>SharedMessageEvents</businessName>
+      <url>https://fhir.infoway-inforoute.ca/CodeSystem/sharedmessageevents</url>
+      <version>20220810</version>
+    </codesystem>
+  </codeSystems>
+  <concepts>
+    <concept>
+      <id>101</id>
+      <name>Execute Tasks from EMR</name>
+      <codeSystemId>2.16.840.1.113883.5.1143</codeSystemId>
+      <codeSystemName>SharedMessageEvents</codeSystemName>
+      <enDisplayName>Execute tasks from EMR</enDisplayName>
+      <frDisplayName>Exécuter les tâches à partir du DME</frDisplayName>
+      <effectiveDate>2022081004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>201</id>
+      <name>Execute Tasks from Pharmacy Management System</name>
+      <codeSystemId>2.16.840.1.113883.5.1143</codeSystemId>
+      <codeSystemName>SharedMessageEvents</codeSystemName>
+      <enDisplayName>Execute tasks from PMS</enDisplayName>
+      <frDisplayName>Exécuter les tâches à partir du SGP</frDisplayName>
+      <effectiveDate>2022081004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>305</id>
+      <name>Send Clinical Communication</name>
+      <codeSystemId>2.16.840.1.113883.5.1143</codeSystemId>
+      <codeSystemName>SharedMessageEvents</codeSystemName>
+      <enDisplayName>Send Clinical Communication</enDisplayName>
+      <frDisplayName>Envoyer la communication clinique</frDisplayName>
+      <effectiveDate>2022081004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>401</id>
+      <name>Send non-authoritative deferred tasks from EMR</name>
+      <codeSystemId>2.16.840.1.113883.5.1143</codeSystemId>
+      <codeSystemName>SharedMessageEvents</codeSystemName>
+      <enDisplayName>Send non-authoritative deferred tasks from EMR</enDisplayName>
+      <frDisplayName>Envoyer des tâches différées non officielles à partir du DME</frDisplayName>
+      <effectiveDate>2022081004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>901</id>
+      <name>Message Disposition Notification</name>
+      <codeSystemId>2.16.840.1.113883.5.1143</codeSystemId>
+      <codeSystemName>SharedMessageEvents</codeSystemName>
+      <enDisplayName>Message disposition notification</enDisplayName>
+      <frDisplayName>Notification de disposition du message</frDisplayName>
+      <effectiveDate>2022081004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>902</id>
+      <name>Jurisdictional RX ID Notification</name>
+      <codeSystemId>2.16.840.1.113883.5.1143</codeSystemId>
+      <codeSystemName>SharedMessageEvents</codeSystemName>
+      <enDisplayName>Jurisdictional RX ID Notification</enDisplayName>
+      <frDisplayName>Notification pour un système provincial</frDisplayName>
+      <effectiveDate>2022081004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>903</id>
+      <name>Bundle Available for Retrieval Notification</name>
+      <codeSystemId>2.16.840.1.113883.5.1143</codeSystemId>
+      <codeSystemName>SharedMessageEvents</codeSystemName>
+      <enDisplayName>Bundle Available for Retrieval Notification</enDisplayName>
+      <frDisplayName>Notification de regroupement de tâches récupérable</frDisplayName>
+      <effectiveDate>2022081004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>997</id>
+      <name>Asynchronous message undelivered</name>
+      <codeSystemId>2.16.840.1.113883.5.1143</codeSystemId>
+      <codeSystemName>SharedMessageEvents</codeSystemName>
+      <enDisplayName>Asynchronous message undelivered</enDisplayName>
+      <frDisplayName>Message asynchrone non remis</frDisplayName>
+      <effectiveDate>2022081004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>998</id>
+      <name>Asynchronous hub message rejection</name>
+      <codeSystemId>2.16.840.1.113883.5.1143</codeSystemId>
+      <codeSystemName>SharedMessageEvents</codeSystemName>
+      <enDisplayName>Asynchronous hub message rejection</enDisplayName>
+      <frDisplayName>Rejet asynchrone du message de la plateforme</frDisplayName>
+      <effectiveDate>2022081004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>999</id>
+      <name>Generic Asynchronous Rejection</name>
+      <codeSystemId>2.16.840.1.113883.5.1143</codeSystemId>
+      <codeSystemName>SharedMessageEvents</codeSystemName>
+      <enDisplayName>Generic asynchronous rejection</enDisplayName>
+      <frDisplayName>Le DME/SGP a déclenché un rejet asynchrone</frDisplayName>
+      <effectiveDate>2022081004:00:00</effectiveDate>
+      <active>true</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>301</id>
+      <name>Transmit Communication</name>
+      <codeSystemId>2.16.840.1.113883.5.1143</codeSystemId>
+      <codeSystemName>SharedMessageEvents</codeSystemName>
+      <enDisplayName>Transmit communication</enDisplayName>
+      <frDisplayName>Transmettre la communication</frDisplayName>
+      <effectiveDate>2022081004:00:00</effectiveDate>
+      <active>false</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>302</id>
+      <name>Unable to Deliver Communication</name>
+      <codeSystemId>2.16.840.1.113883.5.1143</codeSystemId>
+      <codeSystemName>SharedMessageEvents</codeSystemName>
+      <enDisplayName>Unable to deliver communication</enDisplayName>
+      <frDisplayName>Incapable de transmettre la communication</frDisplayName>
+      <effectiveDate>2022081004:00:00</effectiveDate>
+      <active>false</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>997-c</id>
+      <name>Generic PrescribeIT Recipient Asynchronous Reject</name>
+      <codeSystemId>2.16.840.1.113883.5.1143</codeSystemId>
+      <codeSystemName>SharedMessageEvents</codeSystemName>
+      <enDisplayName>Generic PrescribeIT Recipient Asynchronous Reject</enDisplayName>
+      <effectiveDate>2022081004:00:00</effectiveDate>
+      <active>false</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+    <concept>
+      <id>998-cc</id>
+      <name>Generic PrescribeIT hub Asynchronous Reject</name>
+      <codeSystemId>2.16.840.1.113883.5.1143</codeSystemId>
+      <codeSystemName>SharedMessageEvents</codeSystemName>
+      <enDisplayName>Generic PrescribeIT hub Asynchronous Reject</enDisplayName>
+      <frDisplayName>Rejet asynchrone des communications cliniques</frDisplayName>
+      <effectiveDate>2022081004:00:00</effectiveDate>
+      <active>false</active>
+      <subsets/>
+      <associations/>
+      <properties/>
+    </concept>
+  </concepts>
+</subset>

@@ -1,0 +1,132 @@
+{
+  "resourceType": "ValueSet",
+  "id": "sharedcontactpointuse",
+  "url": "https://fhir.infoway-inforoute.ca/ValueSet/sharedcontactpointuse",
+  "identifier": [ {
+    "id": "2.16.840.1.113883.2.20.3.419"
+  } ],
+  "version": "20190415",
+  "name": "SharedContactPointUse",
+  "status": "active",
+  "description": "Contact point uses supported for Shared Health systems",
+  "expansion": {
+    "identifier": "urn:uuid:1c1eadf5-8ae9-4e34-a0bf-7b1eef394041",
+    "timestamp": "2025-07-25T11:34:43-04:00",
+    "total": 3,
+    "contains": [ {
+      "system": "http://hl7.org/fhir/contact-point-use",
+      "abstract": false,
+      "code": "home",
+      "display": "Home",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "A communication contact point at a home; attempted contacts for business purposes might intrude privacy and chances are one will contact family or other household members instead of the person one wishes to call. Typically used with urgent cases, or if no other contacts are available."
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Home"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Point de contact à domicile; les tentatives de contact à domicile pour des raisons professionnelles pourraient porter atteinte à la vie privée, car la personne qui téléphone risque de tomber sur un membre de la famille ou d'autres personnes partageant le domicile, au lieu de parler à la personne qu'elle souhaite joindre. Numéro à utiliser généralement en cas d'urgence ou si la personne n'est pas joignable aux autres points de contact."
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Domicile"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/contact-point-use",
+      "abstract": false,
+      "code": "mobile",
+      "display": "Mobile",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "A telecommunication device that moves and stays with its owner. May have characteristics of all other use codes, suitable for urgent matters, not the first choice for routine business."
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Mobile"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Appareil de télécommunication mobile, qu'on transporte avec soi. Peut avoir les caractéristiques de tout autre code d'utilisation, convient en cas d'urgence, mais pas le premier choix pour des affaires courantes."
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Cellulaire"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/contact-point-use",
+      "abstract": false,
+      "code": "work",
+      "display": "Work",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "An office contact point. First choice for business related contacts during business hours."
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Work"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Point de contact au travail. Premier choix pour les appels professionnels faits durant les heures de bureau."
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Travail"
+      } ]
+    } ]
+  }
+}

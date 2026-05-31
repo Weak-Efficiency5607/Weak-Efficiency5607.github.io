@@ -1,0 +1,94 @@
+{
+  "resourceType": "ValueSet",
+  "id": "sharednameuse",
+  "url": "https://fhir.infoway-inforoute.ca/ValueSet/sharednameuse",
+  "identifier": [ {
+    "id": "2.16.840.1.113883.2.20.3.427"
+  } ],
+  "version": "20190415",
+  "name": "SharedNameUse",
+  "status": "active",
+  "description": "Human name use codes supported for Shared Health systems",
+  "expansion": {
+    "identifier": "urn:uuid:6bde09b8-f3fd-4ee8-9098-e6b31d9bba3d",
+    "timestamp": "2025-07-25T11:34:51-04:00",
+    "total": 2,
+    "contains": [ {
+      "system": "http://hl7.org/fhir/name-use",
+      "abstract": false,
+      "code": "official",
+      "display": "Official",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "The formal name as registered in an official (government) registry, but which name might not be commonly used. May be called \"legal name\"."
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Official"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Nom officiel tel qu'il figure dans un registre (gouvernemental) officiel, mais qui n'est peut-être pas utilisé couramment. Aussi appelé « nom légal »."
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Nom officiel"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/name-use",
+      "abstract": false,
+      "code": "usual",
+      "display": "Usual",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Known as/conventional/the one you normally use"
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Usual"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Nom habituellement utilisé."
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Nom usuel"
+      } ]
+    } ]
+  }
+}

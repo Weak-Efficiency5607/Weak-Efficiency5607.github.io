@@ -1,0 +1,20 @@
+<version>
+  <id>2.16.840.1.113883.2.20.3.451</id>
+  <url>https://tgateway.infoway-inforoute.ca/vs/issuetype</url>
+  <fhirUri>https://fhir.infoway-inforoute.ca/ValueSet/issuetype</fhirUri>
+  <name>IssueType</name>
+  <versionId>20190415</versionId>
+  <effectiveDate>2019041504:00:00</effectiveDate>
+  <publicationTime>2019051505:09:30</publicationTime>
+  <description>Defines different types of technical issues encountered during a technical event.</description>
+  <status>active</status>
+  <codeSystems>
+    <codesystem>
+      <id>2.16.840.1.113883.4.642.3.410</id>
+      <name>IssueType</name>
+      <businessName>IssueType</businessName>
+      <url>http://hl7.org/fhir/issue-type</url>
+      <version>1.4.0</version>
+    </codesystem>
+  </codeSystems>
+</version>

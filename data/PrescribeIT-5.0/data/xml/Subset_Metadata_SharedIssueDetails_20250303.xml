@@ -1,0 +1,20 @@
+<version>
+  <id>2.16.840.1.113883.2.20.3.444</id>
+  <url>https://tgateway.infoway-inforoute.ca/vs/sharedissuedetails</url>
+  <fhirUri>https://fhir.infoway-inforoute.ca/ValueSet/sharedissuedetails</fhirUri>
+  <name>SharedIssueDetails</name>
+  <versionId>20250303</versionId>
+  <effectiveDate>2025030305:00:00</effectiveDate>
+  <publicationTime>2025050703:24:40</publicationTime>
+  <description>Codes to identify the issues that are returned as errors in response to messages received.</description>
+  <status>active</status>
+  <codeSystems>
+    <codesystem>
+      <id>2.16.840.1.113883.6.343</id>
+      <name>SharedIssueDetails</name>
+      <businessName>SharedIssueDetails</businessName>
+      <url>https://fhir.infoway-inforoute.ca/CodeSystem/sharedissuedetails</url>
+      <version>20250303</version>
+    </codesystem>
+  </codeSystems>
+</version>

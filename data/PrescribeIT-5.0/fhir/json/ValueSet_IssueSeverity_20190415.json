@@ -1,0 +1,170 @@
+{
+  "resourceType": "ValueSet",
+  "id": "issueseverity",
+  "url": "https://fhir.infoway-inforoute.ca/ValueSet/issueseverity",
+  "identifier": [ {
+    "id": "2.16.840.1.113883.2.20.3.450"
+  } ],
+  "version": "20190415",
+  "name": "IssueSeverity",
+  "status": "active",
+  "description": "Describes the severity of a technical issue that has occurred with a system.",
+  "expansion": {
+    "identifier": "urn:uuid:c5767443-d27f-474e-9035-0741be87e71d",
+    "timestamp": "2025-07-25T11:32:50-04:00",
+    "total": 4,
+    "contains": [ {
+      "system": "http://hl7.org/fhir/issue-severity",
+      "abstract": false,
+      "code": "error",
+      "display": "Error",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "The issue is sufficiently important to cause the action to fail."
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Error"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Le problème est suffisamment important pour faire échouer l'action."
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Erreur"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/issue-severity",
+      "abstract": false,
+      "code": "fatal",
+      "display": "Fatal",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "The issue caused the action to fail, and no further checking could be performed."
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Fatal"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Le problème a fait échouer l'action, et aucune autre vérification n'a pu être effectuée."
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Fatal"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/issue-severity",
+      "abstract": false,
+      "code": "information",
+      "display": "Information",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "The issue has no relation to the degree of success of the action."
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Information"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Le problème n'a aucune incidence sur le niveau de réussite de l'action."
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Information"
+      } ]
+    }, {
+      "system": "http://hl7.org/fhir/issue-severity",
+      "abstract": false,
+      "code": "warning",
+      "display": "Warning",
+      "designation": [ {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "The issue is not important enough to cause the action to fail, but may cause it to be performed suboptimally or in a way that is not as desired."
+      }, {
+        "language": "en",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Warning"
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000550004",
+          "display": "Definition"
+        },
+        "value": "Le problème n'est pas assez important pour faire échouer l'action, mais celle-ci pourrait être exécutée de façon sous-optimale ou de la mauvaise manière."
+      }, {
+        "language": "fr",
+        "use": {
+          "system": "http://snomed.info/sct",
+          "code": "900000000000013009",
+          "display": "Synonym"
+        },
+        "value": "Avertissement"
+      } ]
+    } ]
+  }
+}

@@ -1,0 +1,152 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+   <id value="sharedidentifiertype"></id>
+   <url value="https://fhir.infoway-inforoute.ca/ValueSet/sharedidentifiertype"></url>
+   <identifier id="2.16.840.1.113883.2.20.3.421"></identifier>
+   <version value="20190415"></version>
+   <name value="SharedIdentifierType"></name>
+   <status value="active"></status>
+   <description value="Identifier types supported for Shared Health systems"></description>
+   <expansion>
+      <identifier value="urn:uuid:9aa694c2-94af-485f-985c-0ada93efbe04"></identifier>
+      <timestamp value="2025-07-25T11:34:46-04:00"></timestamp>
+      <total value="5"></total>
+      <contains>
+         <system value="http://hl7.org/fhir/v2/0203"></system>
+         <abstract value="false"></abstract>
+         <code value="JHN"></code>
+         <display value="Jurisdictional health number (Canada)"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Jurisdictional health number (Canada)"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Numéro d'assurance-maladie prov./terr. (Canada)"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/v2/0203"></system>
+         <abstract value="false"></abstract>
+         <code value="LN"></code>
+         <display value="License number"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="License number"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Numéro de permis"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/v2/0203"></system>
+         <abstract value="false"></abstract>
+         <code value="LR"></code>
+         <display value="Local Registry ID"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Local Registry ID"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="ID du registre local"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/v2/0203"></system>
+         <abstract value="false"></abstract>
+         <code value="MR"></code>
+         <display value="Medical record number"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Medical record number"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Numéro du dossier médical"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="http://hl7.org/fhir/v2/0203"></system>
+         <abstract value="false"></abstract>
+         <code value="PRN"></code>
+         <display value="Provider registry number"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="The PrescribeIT™ Provider Registry contains organizations and health care providers that are registered to use the PrescribeIT™ service. Each unique organization or health care provider is assigned a unique Provider Registry Number (PRN) at the time of registration"></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Provider registry number"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="Le registre des fournisseurs de PrescripTIonMC répertorie les organismes et les professionnels de la santé inscrits au service PrescripTIonMC. Chaque organisme ou professionnel se voit attribuer un numéro unique au moment de l'inscription, qui l'identifie dans le registre des fournisseurs."></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Numéro du registre des fournisseurs"></value>
+         </designation>
+      </contains>
+   </expansion>
+</ValueSet>

@@ -1,0 +1,80 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+   <id value="prescriptioncancelrejectreason"></id>
+   <url value="https://fhir.infoway-inforoute.ca/ValueSet/prescriptioncancelrejectreason"></url>
+   <identifier id="2.16.840.1.113883.2.20.3.396"></identifier>
+   <version value="20190415"></version>
+   <name value="PrescriptionCancelRejectReason"></name>
+   <status value="active"></status>
+   <description value="Indication of why a pharmacy is rejecting the request to cancel a prescription"></description>
+   <expansion>
+      <identifier value="urn:uuid:4c29e2ec-32de-42d5-870b-0d7b0973772c"></identifier>
+      <timestamp value="2025-07-25T11:33:00-04:00"></timestamp>
+      <total value="2"></total>
+      <contains>
+         <system value="http://hl7.org/fhir/v3/ActReason"></system>
+         <abstract value="false"></abstract>
+         <code value="FILLED"></code>
+         <display value="Fully Filled"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Fully Filled"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Déjà exécutée"></value>
+         </designation>
+      </contains>
+      <contains>
+         <system value="https://fhir.infoway-inforoute.ca/CodeSystem/canadianactreason"></system>
+         <abstract value="false"></abstract>
+         <code value="TRANSFERRED"></code>
+         <display value="Order Transferred"></display>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="The order was transferred and is no longer authorized by this facility."></value>
+         </designation>
+         <designation>
+            <language value="en"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Order Transferred"></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000550004"></code>
+               <display value="Definition"></display>
+            </use>
+            <value value="L'ordonnance a été transférée et ne relève plus de cet établissement."></value>
+         </designation>
+         <designation>
+            <language value="fr"></language>
+            <use>
+               <system value="http://snomed.info/sct"></system>
+               <code value="900000000000013009"></code>
+               <display value="Synonym"></display>
+            </use>
+            <value value="Ordonnance transférée"></value>
+         </designation>
+      </contains>
+   </expansion>
+</ValueSet>
