@@ -960,5 +960,117 @@
             "summary": "The user suffered from depression and anhedonia for 5 years. While traditional CBT helped lift their depression, their anhedonia lingered. They eventually achieved a full breakthrough by strictly utilizing positivity-focused tools: a Pleasure Predicting Sheet (visualizing and anticipating fun), a gratitude/self-esteem journal, and hour-by-hour day scheduling. Within a week of this strict regimen, they relearned how to have fun. Five years later, they returned to confirm they have remained completely free of anhedonia ever since."
         },
         "link": "https://www.reddit.com/r/CBT/comments/catlyl/anyway_to_treat_anhedonia/"
+    },
+    {
+        "icon": "\ud83d\udc8a",
+        "badgeClass": "badge",
+        "badgeText": "Recovered (80%)",
+        "title": "Remission/Recovery update - Jess",
+        "meta": {
+            "substances": [
+                "Parnate"
+            ],
+            "type": "Partial Recovery",
+            "effectiveness": "80%",
+            "timeTaken": "3-4 weeks (sustained for 11 months)",
+            "cause": "Antipsychotics (Abilify Injection) / SSRI",
+            "duration": "1 year",
+            "summary": "The user suffered from severe anhedonia, emotional blunting, blank mind, aphantasia, DP/DR, and loss of libido after receiving a 2-month Aristada Abilify injection and taking Lexapro. After 320 days of agonizing suffering and spending $15k on various treatments with no relief, they found a doctor willing to prescribe the MAOI Parnate. Staying at a low dose of 15mg, they began seeing significant positive changes within 3-4 weeks. After 11 months on Parnate, they are about 80% back to their pre-medication baseline, having regained their emotions, creativity, socialization, libido, and the ability to enjoy music."
+        },
+        "link": "https://www.reddit.com/r/anhedonia/comments/1j4h0au/remissionrecovery_update_jess/"
+    },
+    {
+        "icon": "\ud83d\udc8a",
+        "badgeClass": "badge badge-cured",
+        "badgeText": "Recovered",
+        "title": "Nardil for TRD and Anhedonia",
+        "meta": {
+            "substances": [
+                "Nardil (Phenelzine)"
+            ],
+            "type": "Treatment",
+            "effectiveness": "90%",
+            "timeTaken": "Months (stabilized at 90mg)",
+            "cause": "SSRI Neuroadaptation / TRD",
+            "duration": "1 year (severe episode)",
+            "summary": "After two decades of being on SSRIs (Zoloft and Paxil), a medication switch triggered a severe, suicidal depressive episode with profound anhedonia. The user lost all ability to feel joy, love for their children, or interest in hobbies. Realizing their brain had likely adapted to chronic SSRI use, they researched broader medications and found the MAOI Nardil. Despite brutal initial side effects and an elusive 'honeymoon' phase, pushing the dose to 90mg finally lifted the extreme anhedonia. A year and a half later, they are fully functioning, highly successful at work, and present for their family."
+        },
+        "link": "https://www.reddit.com/r/MAOIs/comments/1roqfnb/after_the_worst_year_of_my_life_with/"
+    },
+    {
+        "icon": "\ud83e\uddd8\u200d\u2642\ufe0f",
+        "badgeClass": "badge badge-cured",
+        "badgeText": "Recovered",
+        "title": "Eric Kussin: Vagus Nerve & Integrative Rehab",
+        "meta": {
+            "substances": [
+                "Active Breathing (Vagus Nerve Rehab)",
+                "Alpha-Stim Device",
+                "Lexapro (Restarted)",
+                "Herbal Supplements"
+            ],
+            "type": "Cure",
+            "effectiveness": "100%",
+            "timeTaken": "A few months of targeted rehab (after 2.5 years of failed treatments)",
+            "cause": "Suppressed Trauma / CPTSD / Medication Switch",
+            "duration": "2.5 years",
+            "summary": "Sports executive Eric Kussin suffered from severe clinical PTSD, anxiety, depression, and profound anhedonia following a lifetime of suppressed traumatic events that culminated during a medication switch (Lexapro to Paxil). After 2.5 years of being bedridden and trying over 30 psych meds, 22 TMS sessions, and 16 ECT treatments with zero improvement, he discovered an integrative psychiatrist. He learned his central nervous system and vagus nerve were physically malfunctioning from chronic trauma. By combining targeted active breathing practices to rehab his nervous system, an Alpha-Stim device for brain waves, herbal supplements, and Lexapro, he fully recovered all his cognitive functions and emotions. He went on to launch the #SameHere global mental health movement."
+        },
+        "link": "https://medium.com/@erickussin/i-sincerely-thank-you-if-you-are-able-to-take-the-time-and-pass-this-on-to-those-who-may-benefit-675ee139193"
+    },
+    {
+        "icon": "\ud83d\udc8a",
+        "badgeClass": "badge",
+        "badgeText": "Recovered (70%)",
+        "title": "Significant improvement on Sodium Valproate",
+        "meta": {
+            "substances": [
+                "Sodium Valproate (Depakine)"
+            ],
+            "type": "Partial Recovery",
+            "effectiveness": "70%",
+            "timeTaken": "1 month",
+            "cause": "Venlafaxine (SNRI)",
+            "duration": "9 months",
+            "summary": "The 23-year-old user developed severe PSSD (emotional anesthesia, DP/DR, complete genital anesthesia, anorgasmia) after discontinuing Venlafaxine. Nine months later, they started taking 1000mg/day of Sodium Valproate (Depakine), a known HDAC inhibitor. Within a month, their symptoms improved by roughly 70%. Their emotional blunting and DP/DR completely vanished, bringing them 'back to life'. Genital sensitivity returned to 7/10 and libido became average, though they are still actively struggling with anorgasmia. They suspect the medication worked by reversing epigenetic effects."
+        },
+        "link": "https://www.pssdforum.org/viewtopic.php?t=5867"
+    },
+    {
+        "icon": "\u23f3",
+        "badgeClass": "badge",
+        "badgeText": "Recovered (Mostly)",
+        "title": "Natural gradual recovery over 14 years",
+        "meta": {
+            "substances": [
+                "Time (Natural Recovery)",
+                "Supportive Relationship"
+            ],
+            "type": "Partial Recovery",
+            "effectiveness": "Mostly Cured",
+            "timeTaken": "5-6 years (initial improvements), 14 years (current state)",
+            "cause": "SSRI (PSSD)",
+            "duration": "14 years",
+            "summary": "The user suffered from PSSD for 14 years. Initially experiencing complete emotional numbness, loss of sexuality, and severe memory/cognitive issues (which heavily impacted their computer science studies), they noticed gradual natural improvements around the 5-6 year mark. Finding a supportive relationship further accelerated their progress. Today, instead of having rare windows of normalcy, their baseline is mostly cured\u2014they can enjoy movies, video games, music, and experience sexual function. While they still experience occasional 'negative windows' and the intensity isn't 100% of what it used to be, they are very happy with their recovery and wanted to give others hope that natural improvement over time is possible."
+        },
+        "link": "https://www.reddit.com/r/PSSD/comments/11okaep/my_kinda_success_story_mostly_cured_compared_to_a/"
+    },
+    {
+        "icon": "\u23f3",
+        "badgeClass": "badge",
+        "badgeText": "Significant Improvement",
+        "title": "Gradual natural reawakening of visualization and emotion",
+        "meta": {
+            "substances": [
+                "Time (Natural Recovery)"
+            ],
+            "type": "Partial Recovery",
+            "effectiveness": "100% visualization restored, 35% emotions restored",
+            "timeTaken": "16-22 months",
+            "cause": "Prozac (2 pills)",
+            "duration": "22 months (ongoing)",
+            "summary": "After taking just two pills of Prozac, the user suffered a complete loss of their visualization abilities (aphantasia) and severe emotional anesthesia (including the complete inability to feel fear or adrenaline). By month 16, their visualization abilities fully naturally restored to 100%. Between months 19 and 22, the physical sensations of emotions\u2014such as adrenaline, goosebumps, and the 'oh shit' feeling of surprise\u2014began to randomly reawaken in their head, restoring about 30-35% of their emotional capacity and bringing back the ability to feel atmosphere in music and movies."
+        },
+        "link": "https://www.reddit.com/r/PSSD/comments/yi0pnu/the_partial_return_of_adrenaline/"
     }
 ]

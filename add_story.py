@@ -4,25 +4,22 @@ with open('data/success-stories.json', 'r', encoding='utf-8') as f:
     stories = json.load(f)
 
 new_story = {
-    "icon": "📝",
-    "badgeClass": "badge badge-cured",
-    "badgeText": "Recovered",
-    "title": "CBT, Pleasure Predicting, and Gratitude",
+    "icon": "⏳",
+    "badgeClass": "badge",
+    "badgeText": "Significant Improvement",
+    "title": "Gradual natural reawakening of visualization and emotion",
     "meta": {
         "substances": [
-            "CBT",
-            "Pleasure Predicting Sheet",
-            "Gratitude/Self-Esteem Journal",
-            "Behavioral Activation (Day Planning)"
+            "Time (Natural Recovery)"
         ],
-        "type": "Cure",
-        "effectiveness": "100%",
-        "timeTaken": "Progressive (1 week for final breakthrough)",
-        "cause": "Depression",
-        "duration": "5 years",
-        "summary": "The user suffered from depression and anhedonia for 5 years. While traditional CBT helped lift their depression, their anhedonia lingered. They eventually achieved a full breakthrough by strictly utilizing positivity-focused tools: a Pleasure Predicting Sheet (visualizing and anticipating fun), a gratitude/self-esteem journal, and hour-by-hour day scheduling. Within a week of this strict regimen, they relearned how to have fun. Five years later, they returned to confirm they have remained completely free of anhedonia ever since."
+        "type": "Partial Recovery",
+        "effectiveness": "100% visualization restored, 35% emotions restored",
+        "timeTaken": "16-22 months",
+        "cause": "Prozac (2 pills)",
+        "duration": "22 months (ongoing)",
+        "summary": "After taking just two pills of Prozac, the user suffered a complete loss of their visualization abilities (aphantasia) and severe emotional anesthesia (including the complete inability to feel fear or adrenaline). By month 16, their visualization abilities fully naturally restored to 100%. Between months 19 and 22, the physical sensations of emotions—such as adrenaline, goosebumps, and the 'oh shit' feeling of surprise—began to randomly reawaken in their head, restoring about 30-35% of their emotional capacity and bringing back the ability to feel atmosphere in music and movies."
     },
-    "link": "https://www.reddit.com/r/CBT/comments/catlyl/anyway_to_treat_anhedonia/"
+    "link": "https://www.reddit.com/r/PSSD/comments/yi0pnu/the_partial_return_of_adrenaline/"
 }
 
 stories.append(new_story)
