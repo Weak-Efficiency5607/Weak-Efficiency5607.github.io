@@ -167,6 +167,37 @@
 			const regex = new RegExp(`(${query.replace(/[.*+?^${}()|[\\]\\\\]/g, '\\\\$&')})`, 'gi');
 			return text.replace(regex, '<mark style="background: rgba(var(--accent-rgb), 0.2); color: var(--accent); border-radius: 2px; padding: 0 2px;">$1</mark>');
 		}
+
+		// Dynamic treatments
+		const substancesList = document.getElementById('featured-substances-list');
+		const proceduresList = document.getElementById('procedures-list');
+		if (substancesList || proceduresList) {
+			fetch('data/treatments.json')
+				.then(r => r.json())
+				.then(data => {
+					function renderItem(item) {
+						const linksHtml = item.links.map((link, index) => {
+							const separator = index < item.links.length - 1 ? ' • ' : '';
+							const target = link.url.startsWith('http') ? 'target="_blank" rel="noopener noreferrer"' : '';
+							return '<a href="' + link.url + '" ' + target + '>' + link.text + '</a>' + separator;
+						}).join('');
+						
+						return '<li>' +
+							'<strong style="color: var(--text-primary); font-size: 1.1rem;">' + item.name + '</strong>' +
+							'<div style="color: var(--text-secondary); font-size: 0.9rem; margin-top: 0.2rem;">' + item.description + '</div>' +
+							'<div style="margin-top: 0.4rem; font-size: 0.9rem;">' + linksHtml + '</div>' +
+						'</li>';
+					}
+					
+					if (substancesList && data.substances) {
+						substancesList.innerHTML = data.substances.map(renderItem).join('');
+					}
+					if (proceduresList && data.procedures) {
+						proceduresList.innerHTML = data.procedures.map(renderItem).join('');
+					}
+				})
+				.catch(e => console.error(e));
+		}
 	}
 
 	if (document.readyState === 'loading') {

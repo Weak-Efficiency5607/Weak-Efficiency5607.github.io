@@ -1,0 +1,78 @@
+{
+  "substances": [
+    {
+      "name": "Tranylcypromine",
+      "description": "<strong>Generic:</strong> Tranylcypromine | <strong>Brands:</strong> Parnate, Jatrosom, Parmodalin, Sicoton, Tylciprine",
+      "links": [
+        {"text": "Local Wiki", "url": "wiki/alone-tranylcypromine.html"},
+        {"text": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Tranylcypromine"}
+      ]
+    },
+    {
+      "name": "Phenelzine",
+      "description": "<strong>Generic:</strong> Phenelzine | <strong>Brands:</strong> Nardil, Nardelzine",
+      "links": [
+        {"text": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Phenelzine"}
+      ]
+    },
+    {
+      "name": "Ketamine",
+      "description": "<strong>Generic:</strong> Ketamine, Esketamine | <strong>Brands:</strong> Ketalar, Spravato (Esketamine), Ketanest, Ketaset",
+      "links": [
+        {"text": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Ketamine"}
+      ]
+    },
+    {
+      "name": "Lisdexamfetamine",
+      "description": "<strong>Generic:</strong> Lisdexamfetamine dimesylate | <strong>Brands:</strong> Vyvanse, Elvanse, Tyvense, Venvanse, Samexid",
+      "links": [
+        {"text": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Lisdexamfetamine"}
+      ]
+    },
+    {
+      "name": "Tianeptine",
+      "description": "<strong>Generic:</strong> Tianeptine (Sodium and Sulfate) | <strong>Brands:</strong> Stablon, Coaxil, Tatinol, Tianeurax, Zinosal, Salymbra",
+      "links": [
+        {"text": "Local Wiki", "url": "wiki/alone-tianeptine.html"},
+        {"text": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Tianeptine"}
+      ]
+    },
+    {
+      "name": "NSI-189",
+      "description": "<strong>Generic:</strong> NSI-189 phosphate | <strong>Class:</strong> Experimental antidepressant (neurogenic)",
+      "links": [
+        {"text": "Wikipedia", "url": "https://en.wikipedia.org/wiki/NSI-189"}
+      ]
+    },
+    {
+      "name": "Pramipexole",
+      "description": "<strong>Generic:</strong> Pramipexole | <strong>Brands:</strong> Mirapex, Mirapexin, Sifrol",
+      "links": [
+        {"text": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Pramipexole"}
+      ]
+    },
+    {
+      "name": "Psilocybin",
+      "description": "<strong>Generic:</strong> Psilocybin | <strong>Class:</strong> Psychedelic compound",
+      "links": [
+        {"text": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Psilocybin"}
+      ]
+    }
+  ],
+  "procedures": [
+    {
+      "name": "Electroconvulsive Therapy (ECT)",
+      "description": "A psychiatric treatment where generalized seizures are electrically induced to manage refractory mental disorders.",
+      "links": [
+        {"text": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Electroconvulsive_therapy"}
+      ]
+    },
+    {
+      "name": "Deep Brain Stimulation (DBS)",
+      "description": "A neurosurgical procedure involving the implantation of a medical device that sends electrical impulses to specific targets in the brain.",
+      "links": [
+        {"text": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Deep_brain_stimulation"}
+      ]
+    }
+  ]
+}
