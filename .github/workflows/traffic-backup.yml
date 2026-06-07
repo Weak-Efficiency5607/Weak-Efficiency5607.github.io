@@ -18,7 +18,7 @@ jobs:
       - name: Récupération des vues via l'API native
         run: |
           curl -H "Accept: application/vnd.github+json" \
-               -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+               -H "Authorization: Bearer ${{ secrets.MY_TRAFFIC_TOKEN }}" \
                https://api.github.com/repos/${{ github.repository }}/traffic/views > traffic_views.json
 
       - name: Sauvegarde et Push dans le dépôt
