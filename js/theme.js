@@ -33,4 +33,12 @@
 		localStorage.setItem('theme', isDark ? 'dark' : 'light');
 		document.dispatchEvent(new CustomEvent('theme:changed', { detail: { theme: isDark ? 'dark' : 'light' } }));
 	};
+
+	try {
+		const s = document.createElement('script');
+		s.defer = true;
+		s.src = 'https://static.cloudflareinsights.com/beacon.min.js';
+		s.setAttribute('data-cf-beacon', '{"token": "b73bb846481247ccacbece91d9c26720"}');
+		document.head.appendChild(s);
+	} catch (e) {}
 })();

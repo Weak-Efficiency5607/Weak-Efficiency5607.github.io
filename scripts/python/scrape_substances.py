@@ -14,7 +14,7 @@ console = Console()
 
 # Ensure we are in the root directory relative to this script
 script_dir = os.path.dirname(os.path.abspath(__file__))
-os.chdir(os.path.join(script_dir, '..'))
+os.chdir(os.path.join(script_dir, '..', '..'))
 
 def clean_name(name):
 	# Remove citations like [1]
@@ -151,9 +151,9 @@ def get_local_substances(progress, task):
 			progress.advance(task)
 
 	# 2. From search-index.json
-	if os.path.exists('search-index.json'):
+	if os.path.exists('data/search-index.json'):
 		try:
-			with open('search-index.json', 'r', encoding='utf-8') as f:
+			with open('data/search-index.json', 'r', encoding='utf-8') as f:
 				data = json.load(f)
 				for item in data:
 					if 'title' in item:
@@ -180,9 +180,9 @@ def get_local_substances(progress, task):
 
 def extract_from_shop_index():
 	substances = set()
-	if os.path.exists('shop-search-index.json'):
+	if os.path.exists('data/shop-search-index.json'):
 		try:
-			with open('shop-search-index.json', 'r', encoding='utf-8') as f:
+			with open('data/shop-search-index.json', 'r', encoding='utf-8') as f:
 				data = json.load(f)
 				for item in data:
 					content = item.get('content', '')
@@ -218,7 +218,7 @@ def scrape_wikipedia_list(url, progress, task):
 	progress.advance(task)
 	return substances
 
-def main():
+def scrape_substances():
 	console.print(Panel.fit("[bold blue]Substance Scraper[/bold blue]\n[cyan]Collecting substances for search autocomplete[/cyan]", border_style="blue"))
 
 	stats = {}
@@ -284,7 +284,7 @@ def main():
 		final_list.sort()
 
 	# Write output
-	with open('substances.json', 'w', encoding='utf-8') as f:
+	with open('data/substances.json', 'w', encoding='utf-8') as f:
 		json.dump(final_list, f, ensure_ascii=False, indent=2)
 
 	# Final Report
@@ -298,10 +298,5 @@ def main():
 	report_table.add_row("[bold]Total Unique Substances[/bold]", f"[bold yellow]{len(final_list)}[/bold yellow]")
 
 	console.print(report_table)
-	console.print(Panel(f"[bold green]Success![/bold green] Saved [bold yellow]{len(final_list)}[/bold yellow] substances to [blue]substances.json[/blue]", border_style="green"))
+	console.print(Panel(f"[bold green]Success![/bold green] Saved [bold yellow]{len(final_list)}[/bold yellow] substances to [blue]data/substances.json[/blue]", border_style="green"))
 
-if __name__ == "__main__":
-	try:
-		main()
-	except KeyboardInterrupt:
-		console.print("\n[red]Process interrupted by user.[/red]")

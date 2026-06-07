@@ -11,8 +11,8 @@
 		// Load the shop search index and substances index
 		try {
 			const [shopRes, subRes] = await Promise.all([
-				fetch('shop-search-index.json'),
-				fetch('substances.json')
+				fetch('data/shop-search-index.json'),
+				fetch('data/substances.json')
 			]);
 
 			if (shopRes.ok) searchIndex = await shopRes.json();
@@ -22,7 +22,7 @@
 			const hipContainer = document.getElementById('hip-sources-body');
 			if (hipContainer) {
 				try {
-					const hipRes = await fetch('hip-sources.json');
+					const hipRes = await fetch('data/hip-sources.json');
 					if (hipRes.ok) {
 						const hipData = await hipRes.json();
 						hipContainer.innerHTML = '';

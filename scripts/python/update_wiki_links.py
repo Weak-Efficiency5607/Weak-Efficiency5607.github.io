@@ -20,8 +20,8 @@ except ImportError:
 console = Console()
 
 current_dir = os.path.dirname(os.path.abspath(__file__))
-actions_filepath = os.path.join(current_dir, '..', 'js', 'actions.js')
-search_filepath = os.path.join(current_dir, '..', 'search-index.json')
+actions_filepath = os.path.join(current_dir, '..', '..', 'js', 'actions.js')
+search_filepath = os.path.join(current_dir, '..', '..', 'data', 'search-index.json')
 
 if not os.path.exists(actions_filepath):
 	console.print(f"[bold red]Error:[/bold red] Could not find actions.js at {actions_filepath}")
@@ -94,10 +94,11 @@ def get_wikipedia_link(title):
 		return None
 	return None
 
-def fetch_missing_links(actions_content, match, wiki_data, search_index):
+def fetch_missing_links(actions_content, match, wiki_data, search_index, validated_links):
 	updated_count = 0
 	not_found_count = 0
 	already_found_count = 0
+	skipped_count = 0
 
 	total_items = sum(len(items) for items in wiki_data.values()) + len(search_index)
 	console.print(Panel.fit("[bold blue]Starting Wikipedia Link Fetcher[/bold blue]", subtitle="Anhedonia Resource Hub"))
@@ -115,6 +116,19 @@ def fetch_missing_links(actions_content, match, wiki_data, search_index):
 		for category, items in wiki_data.items():
 			for item in items:
 				title = item.get('title', 'Unknown')
+				
+				if title in validated_links and validated_links[title] is False:
+					if 'wiki' in item:
+						del item['wiki']
+					skipped_count += 1
+					progress.advance(task)
+					continue
+					
+				if title in validated_links and validated_links[title] is True:
+					already_found_count += 1
+					progress.advance(task)
+					continue
+
 				if 'wiki' in item and str(item['wiki']).startswith('http'):
 					already_found_count += 1
 					progress.advance(task)
@@ -137,6 +151,19 @@ def fetch_missing_links(actions_content, match, wiki_data, search_index):
 
 		for item in search_index:
 			title = item.get('title', 'Unknown')
+
+			if title in validated_links and validated_links[title] is False:
+				if 'wiki' in item:
+					del item['wiki']
+				skipped_count += 1
+				progress.advance(task)
+				continue
+				
+			if title in validated_links and validated_links[title] is True:
+				already_found_count += 1
+				progress.advance(task)
+				continue
+
 			if 'wiki' in item and str(item['wiki']).startswith('http'):
 				already_found_count += 1
 				progress.advance(task)
@@ -161,7 +188,8 @@ def fetch_missing_links(actions_content, match, wiki_data, search_index):
 
 	console.print(f"• [cyan]Newly added:[/cyan] {updated_count}")
 	console.print(f"• [green]Already existing:[/green] {already_found_count}")
-	console.print(f"• [yellow]Not found/Removed:[/yellow] {not_found_count}\n")
+	console.print(f"• [yellow]Not found/Removed:[/yellow] {not_found_count}")
+	console.print(f"• [magenta]Skipped (marked false):[/magenta] {skipped_count}\n")
 
 
 def get_input_with_arrows(prompt_text):
@@ -232,13 +260,15 @@ def review_links(actions_content, match, wiki_data, search_index, validated_link
 		for i in range(start_idx, end_idx):
 			src, item = items_with_links[i]
 			title = item.get('title', 'Unknown')
-			is_valid = "✔" if validated_links.get(title) else ""
+			is_valid = ""
+			if title in validated_links:
+				is_valid = "✔" if validated_links[title] else "✘"
 			table.add_row(str(i + 1), src, title, item['wiki'], is_valid)
 
 		console.print(table)
 
 		user_input = get_input_with_arrows(
-			"Enter [cyan]ID(s)[/cyan] to remove (e.g. 1-3), [green]'v'+ID(s)[/green] to validate (e.g. v4-6), [yellow]Arrows[/yellow] for pages, or [red]'q'[/red] to menu: "
+			"Enter [cyan]ID(s)[/cyan] to remove (e.g. 1-3), [green]'v'+ID(s)[/green] to validate (e.g. v4-6), [yellow]'f'+ID(s)[/yellow] to mark false, [yellow]Arrows[/yellow] for pages, or [red]'q'[/red] to menu: "
 		).strip().lower()
 
 		if user_input == 'q':
@@ -258,12 +288,14 @@ def review_links(actions_content, match, wiki_data, search_index, validated_link
 				tokens = [x.strip() for x in user_input.split(',')]
 				ids_to_remove = []
 				ids_to_validate = []
+				ids_to_false = []
 
 				for t in tokens:
 					if not t: continue
 
 					is_validate = t.startswith('v')
-					content = t[1:] if is_validate else t
+					is_false = t.startswith('f')
+					content = t[1:] if (is_validate or is_false) else t
 
 					if '-' in content:
 						parts = content.split('-')
@@ -276,6 +308,8 @@ def review_links(actions_content, match, wiki_data, search_index, validated_link
 							for i in range(start_id, end_id + 1):
 								if is_validate:
 									ids_to_validate.append(i)
+								elif is_false:
+									ids_to_false.append(i)
 								else:
 									ids_to_remove.append(i)
 					else:
@@ -283,15 +317,18 @@ def review_links(actions_content, match, wiki_data, search_index, validated_link
 							val = int(content.strip())
 							if is_validate:
 								ids_to_validate.append(val)
+							elif is_false:
+								ids_to_false.append(val)
 							else:
 								ids_to_remove.append(val)
 
-				if not ids_to_remove and not ids_to_validate:
+				if not ids_to_remove and not ids_to_validate and not ids_to_false:
 					console.print("[bold red]No valid IDs provided.[/bold red]")
 					continue
 
 				removed_count = 0
 				validated_count = 0
+				falsified_count = 0
 
 				for idx in ids_to_remove:
 					real_idx = idx - 1
@@ -311,16 +348,28 @@ def review_links(actions_content, match, wiki_data, search_index, validated_link
 						validated_count += 1
 						console.print(f"[green]Validated link for:[/green] {title}")
 
+				for idx in ids_to_false:
+					real_idx = idx - 1
+					if 0 <= real_idx < len(items_with_links):
+						src, item = items_with_links[real_idx]
+						title = item.get('title', 'Unknown')
+						validated_links[title] = False
+						falsified_count += 1
+						if 'wiki' in item:
+							del item['wiki']
+							removed_count += 1
+						console.print(f"[yellow]Marked as false for:[/yellow] {title}")
+
 				if removed_count > 0:
 					save_data(actions_content, match, wiki_data, search_index)
 					# Re-collect items_with_links to reflect changes
 					items_with_links = [ (s, it) for (s, it) in items_with_links if 'wiki' in it ]
 
-				if validated_count > 0:
+				if validated_count > 0 or falsified_count > 0:
 					with open(validated_filepath, 'w', encoding='utf-8') as f:
 						json.dump(validated_links, f, indent=4, ensure_ascii=False)
 
-				if removed_count > 0 or validated_count > 0:
+				if removed_count > 0 or validated_count > 0 or falsified_count > 0:
 					total_pages = max(1, (len(items_with_links) + page_size - 1) // page_size)
 					if current_page >= total_pages:
 						current_page = max(0, total_pages - 1)
@@ -328,7 +377,7 @@ def review_links(actions_content, match, wiki_data, search_index, validated_link
 				console.print("[bold red]Invalid input.[/bold red]")
 
 
-def main_menu():
+def manage_wiki_links():
 	actions_content, match, wiki_data, search_index, validated_links = load_data()
 
 	while True:
@@ -340,7 +389,7 @@ def main_menu():
 		choice = Prompt.ask("\nSelect an option", choices=["1", "2", "3"])
 
 		if choice == "1":
-			fetch_missing_links(actions_content, match, wiki_data, search_index)
+			fetch_missing_links(actions_content, match, wiki_data, search_index, validated_links)
 			# reload data after fetching
 			actions_content, match, wiki_data, search_index, validated_links = load_data()
 		elif choice == "2":
@@ -349,5 +398,3 @@ def main_menu():
 			console.print("[green]Goodbye![/green]")
 			break
 
-if __name__ == "__main__":
-	main_menu()

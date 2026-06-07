@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 def generate_index():
 	# Ensure we are in the root directory relative to this script
 	script_dir = os.path.dirname(os.path.abspath(__file__))
-	os.chdir(os.path.join(script_dir, '..'))
+	os.chdir(os.path.join(script_dir, '..', '..'))
 
 	wiki_dir = 'wiki'
 	md_dir = os.path.join(wiki_dir, 'markdown')
@@ -67,10 +67,8 @@ def generate_index():
 						'content': clean_content
 					})
 
-	with open('search-index.json', 'w', encoding='utf-8') as f:
+	with open('data/search-index.json', 'w', encoding='utf-8') as f:
 		json.dump(search_index, f, ensure_ascii=False, indent=2)
 
 	print(f"Generated index with {len(search_index)} items.")
 
-if __name__ == "__main__":
-	generate_index()

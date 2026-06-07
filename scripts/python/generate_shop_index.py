@@ -1,4 +1,18 @@
 import os
+import sys
+
+# Add UndetectedChromeDriver local path (relative to the repo root)
+script_dir = os.path.dirname(os.path.abspath(__file__))
+uc_path = os.path.abspath(os.path.join(script_dir, '..', '..', '..', 'UndetectedChromeDriver'))
+
+if os.path.exists(uc_path) and uc_path not in sys.path:
+	sys.path.insert(0, uc_path)
+
+try:
+	import undetected_chromedriver as uc
+except ImportError:
+	pass
+
 import json
 import requests
 import cloudscraper
@@ -6,6 +20,10 @@ from bs4 import BeautifulSoup
 import time
 import concurrent.futures
 from urllib.parse import urljoin, urlparse
+import threading
+import tempfile
+import shutil
+
 from rich.console import Console
 from rich.progress import Progress, SpinnerColumn, TextColumn, BarColumn, TaskProgressColumn, TimeElapsedColumn
 from rich.panel import Panel
@@ -15,7 +33,7 @@ from rich import print as rprint
 
 # Ensure we are in the root directory relative to this script
 script_dir = os.path.dirname(os.path.abspath(__file__))
-os.chdir(os.path.join(script_dir, '..'))
+os.chdir(os.path.join(script_dir, '..', '..'))
 
 def normalize_url(url):
 	"""Normalize URL for deduplication."""
@@ -31,7 +49,7 @@ def normalize_url(url):
 	return u
 
 
-CONFIG_FILE = 'shop_scraper_config.json'
+CONFIG_FILE = 'scripts/python/shop_scraper_config.json'
 
 def load_config():
 	if os.path.exists(CONFIG_FILE):
@@ -161,6 +179,63 @@ def scrape_page(url, session):
 	except Exception:
 		return "", []
 
+uc_lock = threading.Lock()
+
+def get_clearance_cookies(url, max_retries=1):
+	if 'uc' not in globals():
+		return None, None
+		
+	console.print(f"\n[yellow]Attempting to bypass Cloudflare for {url} using UndetectedChromeDriver...[/yellow]")
+	
+	# Generate a unique directory for this specific thread/process to prevent any patching conflicts
+	thread_id = threading.get_ident()
+	user_data_dir = os.path.join(tempfile.gettempdir(), f"uc_profile_{thread_id}")
+	driver_executable_path = os.path.join(tempfile.gettempdir(), f"uc_driver_{thread_id}.exe")
+	
+	for attempt in range(max_retries):
+		try:
+			options = uc.ChromeOptions()
+			options.add_argument("--headless=new")
+			
+			with uc_lock:
+				# Using version_main=148 as tested, user_multi_procs=True, and custom paths to guarantee isolation
+				driver = uc.Chrome(
+					options=options, 
+					version_main=148, 
+					user_multi_procs=True,
+					user_data_dir=user_data_dir,
+					driver_executable_path=driver_executable_path
+				)
+			
+			driver.get(url)
+			time.sleep(15)  # Wait for challenge to complete
+			
+			cookies = driver.get_cookies()
+			user_agent = driver.execute_script("return navigator.userAgent;")
+			
+			cookie_dict = {c['name']: c['value'] for c in cookies}
+			driver.quit()
+			
+			if 'cf_clearance' in cookie_dict or len(cookie_dict) > 0:
+				console.print(f"[green]Successfully grabbed {len(cookie_dict)} cookies for {url}[/green]")
+				return cookie_dict, user_agent
+			else:
+				console.print(f"[yellow]Attempt {attempt+1}/{max_retries}: Could not get valid cookies.[/yellow]")
+				
+		except Exception as e:
+			console.print(f"[red]Error in UC bypass: {e}[/red]")
+		finally:
+			# Cleanup temporary folders/files if they were created
+			try:
+				if os.path.exists(user_data_dir):
+					shutil.rmtree(user_data_dir, ignore_errors=True)
+				if os.path.exists(driver_executable_path):
+					os.remove(driver_executable_path)
+			except:
+				pass
+			
+	return None, None
+
 def get_shop_data_deep(shop_entry, progress=None):
 	name = shop_entry['name']
 	start_url = shop_entry['url']
@@ -214,6 +289,17 @@ def get_shop_data_deep(shop_entry, progress=None):
 
 	# Use cloudscraper to bypass Cloudflare
 	session = cloudscraper.create_scraper(browser={'browser': 'chrome', 'platform': 'windows', 'mobile': False})
+
+	# Pre-flight request to detect Cloudflare/403 and fallback to UC
+	try:
+		test_res = session.get(start_url, timeout=10)
+		if test_res.status_code in [403, 503] or "cloudflare" in test_res.text.lower() or "challenge" in test_res.text.lower():
+			cookies, ua = get_clearance_cookies(start_url)
+			if cookies and ua:
+				session.cookies.update(cookies)
+				session.headers.update({'User-Agent': ua})
+	except Exception:
+		pass
 
 	# Apply custom cookies/UA from config
 	shop_domain = urlparse(start_url).netloc
@@ -530,8 +616,8 @@ def generate_shop_index():
 
 	# Load existing index
 	index_map = {}
-	if os.path.exists('shop-search-index.json'):
-		with open('shop-search-index.json', 'r', encoding='utf-8') as f:
+	if os.path.exists('data/shop-search-index.json'):
+		with open('data/shop-search-index.json', 'r', encoding='utf-8') as f:
 			try:
 				old_index = json.load(f)
 				index_map = {normalize_url(item['url']): item for item in old_index}
@@ -591,7 +677,7 @@ def generate_shop_index():
 	final_index = list(index_map.values())
 
 	json_output = json.dumps(final_index, ensure_ascii=False, indent=2)
-	with open('shop-search-index.json', 'w', encoding='utf-8') as f:
+	with open('data/shop-search-index.json', 'w', encoding='utf-8') as f:
 		f.write(json_output)
 
 	# Print Report
@@ -610,8 +696,3 @@ def generate_shop_index():
 	console.print(report_table)
 	console.print(Panel(f"[bold green]Successfully generated shop index![/bold green]\nTotal Chars Added: [bold cyan]{total_chars_added:,}[/bold cyan]\nTotal JSON Size: {len(json_output):,} characters", border_style="green"))
 
-if __name__ == "__main__":
-	try:
-		generate_shop_index()
-	except KeyboardInterrupt:
-		console.print("\n[red]Process interrupted by user.[/red]")
