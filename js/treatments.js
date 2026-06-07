@@ -37,7 +37,6 @@
 						prescribeItProgressContainer.style.display = 'none';
 						prescribeItSearchContainer.style.display = 'block';
 						renderPrescribeItResults('');
-						document.getElementById('prescribeit-search').focus();
 					}, 500);
 
 				} catch (err) {
@@ -47,6 +46,15 @@
 					newBtn.style.display = 'inline-block';
 				}
 			});
+
+			let visSettings = {};
+			try {
+				visSettings = JSON.parse(localStorage.getItem('visibilitySettings')) || {};
+			} catch (e) { }
+
+			if (visSettings.autoLoadDatabases !== false) {
+				setTimeout(() => newBtn.click(), 100);
+			}
 		}
 
 		let prescribeItSearchTimeout;

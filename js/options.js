@@ -91,6 +91,18 @@
 				}
 			});
 		});
+
+		// Auto-load Databases
+		const autoLoadToggle = document.getElementById('autoLoadToggleCheckbox');
+		if (autoLoadToggle) {
+			const isAutoLoad = visSettings.autoLoadDatabases !== false; // true by default
+			autoLoadToggle.checked = isAutoLoad;
+
+			autoLoadToggle.addEventListener('change', (e) => {
+				visSettings.autoLoadDatabases = e.target.checked;
+				localStorage.setItem('visibilitySettings', JSON.stringify(visSettings));
+			});
+		}
 		// Initialize Clear Cache Button
 		const clearCacheBtn = document.getElementById('clearCacheBtn');
 		if (clearCacheBtn) {

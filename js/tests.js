@@ -76,7 +76,6 @@
 				
 				// Initial render of top items
 				renderResults('');
-				searchInput.focus();
 
 			} catch (err) {
 				console.error("Failed to load LOINC data:", err);
@@ -202,7 +201,6 @@
 					clfsSearchContainer.style.display = 'block';
 					
 					renderClfsResults('');
-					clfsSearchInput.focus();
 
 				} catch (err) {
 					console.error("Failed to load CLFS data:", err);
@@ -415,7 +413,6 @@
 					fullLoincSearchContainer.style.display = 'block';
 					
 					renderFullLoincResults('');
-					fullLoincSearchInput.focus();
 
 				} catch (err) {
 					console.error("Failed to load Full LOINC data:", err);
@@ -677,6 +674,20 @@
 			if (!query || query.length < 2) return text;
 			const regex = new RegExp(`(${query.replace(/[.*+?^${}()|[\\]\\\\]/g, '\\\\$&')})`, 'gi');
 			return text.replace(regex, '<mark style="background: rgba(var(--accent-rgb), 0.2); color: var(--accent); border-radius: 2px; padding: 0 2px;">$1</mark>');
+		}
+
+		let visSettings = {};
+		try {
+			visSettings = JSON.parse(localStorage.getItem('visibilitySettings')) || {};
+		} catch (e) { }
+
+		if (visSettings.autoLoadDatabases !== false) {
+			setTimeout(() => {
+				const topLoincBtn = document.getElementById('load-loinc-btn');
+				const clfsBtn = document.getElementById('load-clfs-btn');
+				if (topLoincBtn && topLoincBtn.style.display !== 'none') topLoincBtn.click();
+				if (clfsBtn && clfsBtn.style.display !== 'none') clfsBtn.click();
+			}, 100);
 		}
 	}
 
