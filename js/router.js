@@ -181,12 +181,14 @@ function injectNavigation() {
 		visSettings = JSON.parse(localStorage.getItem('visibilitySettings')) || {};
 	} catch (e) { }
 
+	const hiddenNavItems = visSettings.hiddenNavItems || ['treatment-finder.html'];
+
 	const links = [
 		{ href: 'index.html', text: 'Home' },
 		{ href: 'actions.html', text: 'Encyclopedia', match: isWiki || currentPath === 'actions.html' },
 		{ href: 'treatments.html', text: 'Treatments' },
 		{ href: 'tests.html', text: 'Tests' },
-		{ href: 'suggester.html', text: 'Suggester' },
+		{ href: 'treatment-finder.html', text: 'Treatment Finder' },
 		{ href: 'shops.html', text: 'Vendor Directory' },
 		{ href: 'doctors.html', text: 'Map of doctors' },
 		{ href: 'theory.html', text: 'List of causes' },
@@ -195,15 +197,55 @@ function injectNavigation() {
 		{ href: 'options.html', text: 'Options' }
 	].filter(link => {
 		if (link.href === 'options.html') return true;
-		return !visSettings.hiddenNavItems || !visSettings.hiddenNavItems.includes(link.href);
+		return !hiddenNavItems.includes(link.href);
 	});
 
-	nav.innerHTML = links.map(link => {
-		const isActive = link.match !== undefined ? link.match : (currentPath === link.href);
-		const activeClass = isActive ? ' class="active"' : '';
-		const href = prefix + link.href;
-		return `<a href="${href}"${activeClass}>${link.text}</a>`;
-	}).join('');
+	nav.innerHTML = `
+		<button class="nav-arrow left" aria-label="Scroll left">
+			<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+		</button>
+		<div class="main-nav-content">
+			${links.map(link => {
+				const isActive = link.match !== undefined ? link.match : (currentPath === link.href);
+				const activeClass = isActive ? ' class="active"' : '';
+				const href = prefix + link.href;
+				return `<a href="${href}"${activeClass}>${link.text}</a>`;
+			}).join('')}
+		</div>
+		<button class="nav-arrow right" aria-label="Scroll right">
+			<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
+		</button>
+	`;
+
+	const content = nav.querySelector('.main-nav-content');
+	const leftBtn = nav.querySelector('.nav-arrow.left');
+	const rightBtn = nav.querySelector('.nav-arrow.right');
+
+	const updateArrows = () => {
+		// Only show arrows if there is overflow
+		if (content.scrollWidth > content.clientWidth) {
+			leftBtn.classList.toggle('visible', content.scrollLeft > 5);
+			rightBtn.classList.toggle('visible', content.scrollLeft < content.scrollWidth - content.clientWidth - 5);
+			nav.classList.add('has-overflow');
+		} else {
+			leftBtn.classList.remove('visible');
+			rightBtn.classList.remove('visible');
+			nav.classList.remove('has-overflow');
+		}
+	};
+
+	content.addEventListener('scroll', updateArrows);
+	window.addEventListener('resize', updateArrows);
+
+	leftBtn.addEventListener('click', () => {
+		content.scrollBy({ left: -250, behavior: 'smooth' });
+	});
+	rightBtn.addEventListener('click', () => {
+		content.scrollBy({ left: 250, behavior: 'smooth' });
+	});
+
+	// Wait for layout
+	setTimeout(updateArrows, 50);
 }
 
 function injectFooter() {

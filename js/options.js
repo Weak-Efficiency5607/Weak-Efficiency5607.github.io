@@ -67,7 +67,7 @@
 		}
 
 		// Initialize Nav toggles
-		const hiddenNavItems = visSettings.hiddenNavItems || [];
+		const hiddenNavItems = visSettings.hiddenNavItems || ['treatment-finder.html'];
 		navToggles.forEach(toggle => {
 			const navUrl = toggle.getAttribute('data-nav');
 			// If it's in the hidden list, the checkbox should be CHECKED
@@ -91,6 +91,16 @@
 				}
 			});
 		});
+		// Initialize Clear Cache Button
+		const clearCacheBtn = document.getElementById('clearCacheBtn');
+		if (clearCacheBtn) {
+			clearCacheBtn.addEventListener('click', () => {
+				if (confirm('Are you sure you want to reset all settings and clear the local cache? This will restore the site to its default state.')) {
+					localStorage.clear();
+					window.location.reload();
+				}
+			});
+		}
 	}
 
 	function updateLabels(isDark) {
