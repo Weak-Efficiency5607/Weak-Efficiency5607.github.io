@@ -109,7 +109,7 @@ html.hide-header .site-header {
   font-size: clamp(3rem, 10vw, 5rem);
   font-weight: 800;
   letter-spacing: -4px;
-  text-transform: lowercase;
+  text-transform: capitalize;
   margin-bottom: 1.5rem;
   background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
   -webkit-background-clip: text;

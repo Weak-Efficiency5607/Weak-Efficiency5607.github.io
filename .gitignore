@@ -1,3 +1,6 @@
 backup/
 __pycache__/
 scripts/python/shop_scraper_config.json
+scripts/python/sync_routine.py
+scripts/python/sync_dump.json
+scripts/python/.env
