@@ -1079,6 +1079,9 @@ h2 {
 		font-size: 1.05rem;
 		transition: color 0.2s ease, transform 0.2s ease, text-shadow 0.2s ease;
 		flex-shrink: 0;
+		display: flex;
+		align-items: center;
+		gap: 0.5rem;
 
 		&:hover,
 		&.active {
