@@ -28,9 +28,20 @@ document.addEventListener('DOMContentLoaded', () => {
 	});
 
 	// Handle back/forward buttons
+	let currentPathName = window.location.pathname;
 	window.addEventListener('popstate', () => {
-		loadPage(window.location.href);
+		if (window.location.pathname !== currentPathName) {
+			currentPathName = window.location.pathname;
+			loadPage(window.location.href);
+		}
 	});
+	
+	// Update path when we manually push state
+	const originalPushState = window.history.pushState;
+	window.history.pushState = function() {
+		originalPushState.apply(this, arguments);
+		currentPathName = window.location.pathname;
+	};
 });
 
 async function loadPage(url) {
