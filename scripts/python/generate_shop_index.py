@@ -180,12 +180,13 @@ def scrape_page(url, session):
 		return "", []
 
 uc_lock = threading.Lock()
+uc_semaphore = threading.Semaphore(2)  # Limit concurrent Chrome instances to 2
 
 def get_clearance_cookies(url, max_retries=1):
 	if 'uc' not in globals():
 		return None, None
 		
-	console.print(f"\n[yellow]Attempting to bypass Cloudflare for {url} using UndetectedChromeDriver...[/yellow]")
+	console.print(f"\n[dim yellow]Adding {url} to the UndetectedChromeDriver queue...[/dim yellow]")
 	
 	# Generate a unique directory for this specific thread/process to prevent any patching conflicts
 	thread_id = threading.get_ident()
@@ -197,24 +198,31 @@ def get_clearance_cookies(url, max_retries=1):
 			options = uc.ChromeOptions()
 			options.add_argument("--headless=new")
 			
-			with uc_lock:
-				# Using version_main=148 as tested, user_multi_procs=True, and custom paths to guarantee isolation
-				driver = uc.Chrome(
-					options=options, 
-					version_main=148, 
-					user_multi_procs=True,
-					user_data_dir=user_data_dir,
-					driver_executable_path=driver_executable_path
-				)
-			
-			driver.get(url)
-			time.sleep(15)  # Wait for challenge to complete
-			
-			cookies = driver.get_cookies()
-			user_agent = driver.execute_script("return navigator.userAgent;")
-			
-			cookie_dict = {c['name']: c['value'] for c in cookies}
-			driver.quit()
+			with uc_semaphore:
+				console.print(f"\n[bold yellow]Starting UndetectedChromeDriver for {url} (Bypass attempt {attempt+1}/{max_retries})...[/bold yellow]")
+				with uc_lock:
+					# Using version_main=148 as tested, user_multi_procs=True, and custom paths to guarantee isolation
+					driver = uc.Chrome(
+						options=options, 
+						version_main=148, 
+						user_multi_procs=True,
+						user_data_dir=user_data_dir,
+						driver_executable_path=driver_executable_path
+					)
+				
+				try:
+					driver.get(url)
+					time.sleep(15)  # Wait for challenge to complete
+					
+					cookies = driver.get_cookies()
+					user_agent = driver.execute_script("return navigator.userAgent;")
+					
+					cookie_dict = {c['name']: c['value'] for c in cookies}
+				finally:
+					try:
+						driver.quit()
+					except Exception:
+						pass
 			
 			if 'cf_clearance' in cookie_dict or len(cookie_dict) > 0:
 				console.print(f"[green]Successfully grabbed {len(cookie_dict)} cookies for {url}[/green]")
@@ -250,14 +258,14 @@ def get_shop_data_deep(shop_entry, progress=None):
 	# These sites often require residential proxies or complex human interaction.
 	# We provide a rich static description so they are still searchable in the index.
 	problematic_keywords = ['amazon', 'indiamart', 'ebay', 'echemi', 'alldaychemist', 'inhousepharmacy', 'kiwidrug']
-	if any(x in start_url.lower() for x in problematic_keywords):
+	if category in ["Amazon", "Amazon-Likes"] or any(x in start_url.lower() for x in problematic_keywords):
 		 # Restricted parser: provide a concise list for problematic sites
 		 desc = f"{category}: "
 
 		 url_lower = start_url.lower()
 		 if 'alldaychemist' in url_lower or 'inhousepharmacy' in url_lower or 'kiwidrug' in url_lower:
 			 desc += "Generic Pharma, Medications, Health treatments."
-		 elif 'amazon' in url_lower:
+		 elif 'amazon' in url_lower or category in ["Amazon", "Amazon-Likes"]:
 			 desc += "Supplements, Health products, Wellness gadgets."
 		 elif 'indiamart' in url_lower or 'echemi' in url_lower:
 			 desc += "Wholesale chemicals, Pharma compounds, Bulk substances."
