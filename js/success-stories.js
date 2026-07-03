@@ -222,18 +222,43 @@
 			};
 			container.appendChild(prevBtn);
 
-			// Page numbers (simplified)
-			for (let i = 1; i <= totalPages; i++) {
-				const btn = document.createElement('button');
-				btn.textContent = i;
-				if (i === state.currentPage) btn.classList.add('active');
-				btn.onclick = () => {
-					state.currentPage = i;
-					renderPage();
-					window.scrollTo({ top: document.getElementById('stories-controls').offsetTop - 100, behavior: 'smooth' });
-				};
-				container.appendChild(btn);
+			// Page numbers
+			let pagesToDisplay = [];
+			
+			if (totalPages <= 7) {
+				for (let i = 1; i <= totalPages; i++) {
+					pagesToDisplay.push(i);
+				}
+			} else {
+				if (state.currentPage <= 4) {
+					pagesToDisplay = [1, 2, 3, 4, 5, '...', totalPages];
+				} else if (state.currentPage >= totalPages - 3) {
+					pagesToDisplay = [1, '...', totalPages - 4, totalPages - 3, totalPages - 2, totalPages - 1, totalPages];
+				} else {
+					pagesToDisplay = [1, '...', state.currentPage - 1, state.currentPage, state.currentPage + 1, '...', totalPages];
+				}
 			}
+
+			pagesToDisplay.forEach(i => {
+				if (i === '...') {
+					const ellipsis = document.createElement('span');
+					ellipsis.textContent = '...';
+					ellipsis.className = 'pagination-ellipsis';
+					ellipsis.style.padding = '0.5rem';
+					ellipsis.style.color = 'var(--text-secondary)';
+					container.appendChild(ellipsis);
+				} else {
+					const btn = document.createElement('button');
+					btn.textContent = i;
+					if (i === state.currentPage) btn.classList.add('active');
+					btn.onclick = () => {
+						state.currentPage = i;
+						renderPage();
+						window.scrollTo({ top: document.getElementById('stories-controls').offsetTop - 100, behavior: 'smooth' });
+					};
+					container.appendChild(btn);
+				}
+			});
 
 			// Next Button
 			const nextBtn = document.createElement('button');
@@ -247,6 +272,49 @@
 				}
 			};
 			container.appendChild(nextBtn);
+
+			// Jump to page input
+			const jumpContainer = document.createElement('div');
+			jumpContainer.style.display = 'inline-flex';
+			jumpContainer.style.alignItems = 'center';
+			jumpContainer.style.marginLeft = '1rem';
+			jumpContainer.style.gap = '0.5rem';
+
+			const jumpLabel = document.createElement('span');
+			jumpLabel.textContent = 'Go to:';
+			jumpLabel.style.fontSize = '0.85rem';
+			jumpLabel.style.color = 'var(--text-secondary)';
+
+			const jumpInput = document.createElement('input');
+			jumpInput.type = 'number';
+			jumpInput.min = 1;
+			jumpInput.max = totalPages;
+			jumpInput.value = state.currentPage;
+			jumpInput.style.width = '60px';
+			jumpInput.style.padding = '0.4rem';
+			jumpInput.style.border = '1px solid var(--card-border)';
+			jumpInput.style.borderRadius = '8px';
+			jumpInput.style.background = 'var(--card-bg)';
+			jumpInput.style.color = 'var(--text-primary)';
+			jumpInput.style.textAlign = 'center';
+			jumpInput.style.outline = 'none';
+			jumpInput.style.fontFamily = 'inherit';
+
+			jumpInput.addEventListener('change', (e) => {
+				let val = parseInt(e.target.value, 10);
+				if (val >= 1 && val <= totalPages) {
+					state.currentPage = val;
+					renderPage();
+					window.scrollTo({ top: document.getElementById('stories-controls').offsetTop - 100, behavior: 'smooth' });
+				} else {
+					e.target.value = state.currentPage;
+				}
+			});
+
+			jumpContainer.appendChild(jumpLabel);
+			jumpContainer.appendChild(jumpInput);
+			
+			container.appendChild(jumpContainer);
 		});
 	}
 

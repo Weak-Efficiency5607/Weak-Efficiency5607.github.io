@@ -67,6 +67,15 @@ $glass-border: rgba(255, 255, 255, 0.1);
 	--glass-inner: rgba(255, 255, 255, 0.4);
 }
 
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+input[type="number"] {
+	-moz-appearance: textfield;
+}
+
 html.dark-mode {
 	--bg-color: #0b0f19;
 	--text-primary: #f1f5f9;
