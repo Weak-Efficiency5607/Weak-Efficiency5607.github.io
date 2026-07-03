@@ -104,7 +104,7 @@
 			if (!opt || opt === 'Unknown') return; // Skip unknown/empty
 			const el = document.createElement('option');
 			el.value = opt;
-			el.textContent = `${opt} (${count})`;
+			el.textContent = count > 1 ? `${opt} (${count})` : opt;
 			select.appendChild(el);
 		});
 	}

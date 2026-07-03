@@ -70,22 +70,27 @@ def import_csv():
             treatments = row.get("Treatments Used", "").strip()
             if treatments and treatments.lower() != "nan":
                 meta["substances"] = [t.strip() for t in treatments.split(",") if t.strip()]
+                meta.pop("Treatments Used", None)
 
             condition = row.get("Condition", "").strip()
             if condition and condition.lower() != "nan":
                 meta["cause"] = condition
+                meta.pop("Condition", None)
 
             rec_type = row.get("Recovery Type", "").strip()
             if rec_type and rec_type.lower() != "nan":
                 meta["type"] = rec_type
+                meta.pop("Recovery Type", None)
 
             rec_weeks = row.get("Recovery Weeks", "").strip()
             if rec_weeks and rec_weeks.lower() != "nan":
                 meta["timeTaken"] = f"{rec_weeks} weeks"
+                meta.pop("Recovery Weeks", None)
 
             summary = row.get("Protocol Summary", "").strip()
             if summary and summary.lower() != "nan":
                 meta["summary"] = summary
+                meta.pop("Protocol Summary", None)
             
             # Create Card Structure
             card = {

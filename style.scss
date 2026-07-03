@@ -1432,12 +1432,15 @@ h2 {
     margin-top: 4px !important;
     z-index: 9999 !important;
 }
-.choices__list--dropdown .choices__item--selectable.is-highlighted {
-    background: rgba(var(--accent-rgb), 0.1) !important;
-    color: var(--accent) !important;
-}
 .choices__list--dropdown .choices__item {
     color: var(--text-primary) !important;
+    background: transparent !important;
+}
+.choices__list--dropdown .choices__item--selectable.is-highlighted,
+.choices__list--dropdown .choices__item--selectable:hover,
+.choices__list--dropdown .choices__item.is-selected {
+    background: rgba(var(--accent-rgb), 0.1) !important;
+    color: var(--accent) !important;
 }
 .choices[data-type*='select-one'] .choices__button {
     filter: invert(1);

@@ -1348,6 +1348,8 @@ h2::after {
   padding: 1.5rem 2rem;
   margin-bottom: 3rem;
   box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 100;
 }
 
 .controls-top {
@@ -1516,12 +1518,15 @@ select option {
     margin-top: 4px !important;
     z-index: 9999 !important;
 }
-.choices__list--dropdown .choices__item--selectable.is-highlighted {
-    background: rgba(var(--accent-rgb), 0.1) !important;
-    color: var(--accent) !important;
-}
 .choices__list--dropdown .choices__item {
     color: var(--text-primary) !important;
+    background: transparent !important;
+}
+.choices__list--dropdown .choices__item--selectable.is-highlighted,
+.choices__list--dropdown .choices__item--selectable:hover,
+.choices__list--dropdown .choices__item.is-selected {
+    background: rgba(var(--accent-rgb), 0.1) !important;
+    color: var(--accent) !important;
 }
 .choices[data-type*='select-one'] .choices__button {
     filter: invert(1);
