@@ -3,8 +3,15 @@
 	const savedTheme = localStorage.getItem('theme');
 	if (savedTheme === 'dark') {
 		document.documentElement.classList.add('dark-mode');
-	} else {
+	} else if (savedTheme === 'light') {
 		document.documentElement.classList.remove('dark-mode');
+	} else {
+		// No saved preference, use system preference
+		if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+			document.documentElement.classList.add('dark-mode');
+		} else {
+			document.documentElement.classList.remove('dark-mode');
+		}
 	}
 
 	// Apply visibility settings
