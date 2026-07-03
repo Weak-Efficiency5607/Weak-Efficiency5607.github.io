@@ -65,6 +65,27 @@ def import_csv():
                     val = str(v).strip()
                     if val and val.lower() != "nan" and val != "":
                         meta[k] = val
+
+            # Specific mappings for standard filtering and rendering
+            treatments = row.get("Treatments Used", "").strip()
+            if treatments and treatments.lower() != "nan":
+                meta["substances"] = [t.strip() for t in treatments.split(",") if t.strip()]
+
+            condition = row.get("Condition", "").strip()
+            if condition and condition.lower() != "nan":
+                meta["cause"] = condition
+
+            rec_type = row.get("Recovery Type", "").strip()
+            if rec_type and rec_type.lower() != "nan":
+                meta["type"] = rec_type
+
+            rec_weeks = row.get("Recovery Weeks", "").strip()
+            if rec_weeks and rec_weeks.lower() != "nan":
+                meta["timeTaken"] = f"{rec_weeks} weeks"
+
+            summary = row.get("Protocol Summary", "").strip()
+            if summary and summary.lower() != "nan":
+                meta["summary"] = summary
             
             # Create Card Structure
             card = {

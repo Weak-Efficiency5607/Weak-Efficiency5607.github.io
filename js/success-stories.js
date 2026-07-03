@@ -37,24 +37,43 @@
 	}
 
 	function initControls() {
-		// Populate filter dropdowns
-		const substancesSet = new Set();
-		const typesSet = new Set();
-		const causesSet = new Set();
+		// Populate filter dropdowns with counts
+		const substancesCount = new Map();
+		const typesCount = new Map();
+		const causesCount = new Map();
 
 		stories.forEach(story => {
 			if (Array.isArray(story.meta.substances)) {
-				story.meta.substances.forEach(s => substancesSet.add(s));
-			} else {
-				substancesSet.add(story.meta.substances);
+				story.meta.substances.forEach(s => {
+					if (s) substancesCount.set(s, (substancesCount.get(s) || 0) + 1);
+				});
+			} else if (story.meta.substances) {
+				substancesCount.set(story.meta.substances, (substancesCount.get(story.meta.substances) || 0) + 1);
 			}
-			typesSet.add(story.meta.type);
-			causesSet.add(story.meta.cause);
+			
+			if (story.meta.type) {
+				typesCount.set(story.meta.type, (typesCount.get(story.meta.type) || 0) + 1);
+			}
+			if (story.meta.cause) {
+				causesCount.set(story.meta.cause, (causesCount.get(story.meta.cause) || 0) + 1);
+			}
 		});
 
-		populateSelect('filter-substance', Array.from(substancesSet).sort());
-		populateSelect('filter-type', Array.from(typesSet).sort());
-		populateSelect('filter-cause', Array.from(causesSet).sort());
+		populateSelect('filter-substance', Array.from(substancesCount.entries()).sort((a, b) => a[0].localeCompare(b[0])));
+		populateSelect('filter-type', Array.from(typesCount.entries()).sort((a, b) => a[0].localeCompare(b[0])));
+		populateSelect('filter-cause', Array.from(causesCount.entries()).sort((a, b) => a[0].localeCompare(b[0])));
+
+		// Initialize Choices.js
+		const choicesOptions = {
+			searchEnabled: true,
+			searchPlaceholderValue: "Search...",
+			itemSelectText: '',
+			shouldSort: false // Already sorted
+		};
+		
+		const substanceChoice = new Choices(document.getElementById('filter-substance'), choicesOptions);
+		const typeChoice = new Choices(document.getElementById('filter-type'), choicesOptions);
+		const causeChoice = new Choices(document.getElementById('filter-cause'), choicesOptions);
 
 		// Event Listeners
 		document.getElementById('search-input').addEventListener('input', (e) => {
@@ -78,14 +97,14 @@
 		});
 	}
 
-	function populateSelect(elementId, options) {
+	function populateSelect(elementId, optionsEntries) {
 		const select = document.getElementById(elementId);
 		if (!select) return;
-		options.forEach(opt => {
-			if (!opt || opt === 'Unknown') return; // Skip unknown/empty to keep filters clean, though we could keep them
+		optionsEntries.forEach(([opt, count]) => {
+			if (!opt || opt === 'Unknown') return; // Skip unknown/empty
 			const el = document.createElement('option');
 			el.value = opt;
-			el.textContent = opt;
+			el.textContent = `${opt} (${count})`;
 			select.appendChild(el);
 		});
 	}
