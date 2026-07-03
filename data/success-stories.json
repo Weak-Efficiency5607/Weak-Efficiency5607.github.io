@@ -1,6 +1,6 @@
 [
     {
-        "icon": "\u2728",
+        "icon": "✨",
         "badgeClass": "badge badge-sunday",
         "badgeText": "Series",
         "title": "Success Story Sunday #1",
@@ -24,7 +24,7 @@
         "link": "https://www.reddit.com/r/anhedonia/comments/1i50m65/success_story_sunday_1/"
     },
     {
-        "icon": "\u2728",
+        "icon": "✨",
         "badgeClass": "badge badge-sunday",
         "badgeText": "Series",
         "title": "Success Story Sunday #2",
@@ -42,7 +42,7 @@
         "link": "https://www.reddit.com/r/anhedonia/comments/1iagtum/success_story_sunday_2/"
     },
     {
-        "icon": "\u2728",
+        "icon": "✨",
         "badgeClass": "badge badge-sunday",
         "badgeText": "Series",
         "title": "Success Story Sunday #3",
@@ -60,7 +60,7 @@
         "link": "https://www.reddit.com/r/anhedonia/comments/1ifygby/success_story_sunday_3/"
     },
     {
-        "icon": "\u2728",
+        "icon": "✨",
         "badgeClass": "badge badge-sunday",
         "badgeText": "Series",
         "title": "Success Story Sunday #4",
@@ -80,7 +80,7 @@
         "link": "https://www.reddit.com/r/anhedonia/comments/1ilfi2j/success_story_sunday_4/"
     },
     {
-        "icon": "\u2728",
+        "icon": "✨",
         "badgeClass": "badge badge-sunday",
         "badgeText": "Series",
         "title": "Success Story Sunday #5",
@@ -101,7 +101,7 @@
         "link": "https://www.reddit.com/r/anhedonia/comments/1j1imm4/success_story_sunday_5/"
     },
     {
-        "icon": "\u2728",
+        "icon": "✨",
         "badgeClass": "badge badge-sunday",
         "badgeText": "Series",
         "title": "Success Story Sunday #6",
@@ -119,7 +119,7 @@
         "link": "https://www.reddit.com/r/anhedonia/comments/1j79a7y/success_story_sunday_6/"
     },
     {
-        "icon": "\u2728",
+        "icon": "✨",
         "badgeClass": "badge badge-sunday",
         "badgeText": "Series",
         "title": "Success Story Sunday #7",
@@ -137,7 +137,7 @@
         "link": "https://www.reddit.com/r/anhedonia/comments/1jcz2ko/success_story_sunday_7/"
     },
     {
-        "icon": "\ud83c\udfc6",
+        "icon": "🏆",
         "badgeClass": "badge badge-cured",
         "badgeText": "100% Cured",
         "title": "I feel 100% cured",
@@ -161,7 +161,7 @@
         "link": "https://www.reddit.com/r/anhedonia/comments/tqsdc6/i_feel_100_cured/"
     },
     {
-        "icon": "\u2705",
+        "icon": "✅",
         "badgeClass": "badge badge-cured",
         "badgeText": "Recovered",
         "title": "Full Recovery Story",
@@ -179,7 +179,7 @@
         "link": "https://www.reddit.com/r/anhedonia/comments/ydjbg3/recovered/"
     },
     {
-        "icon": "\ud83d\udc8a",
+        "icon": "💊",
         "badgeClass": "badge",
         "badgeText": "Copper",
         "title": "Copper finally cured my mild case of anhedonia",
@@ -197,7 +197,7 @@
         "link": "https://www.reddit.com/r/anhedonia/comments/1fhnucf/copper_finally_cured_my_mild_case_of_ahedonia/"
     },
     {
-        "icon": "\ud83e\udde0",
+        "icon": "🧠",
         "badgeClass": "badge",
         "badgeText": "Nardil",
         "title": "Cured my anhedonia with Nardil!",
@@ -254,7 +254,7 @@
         "link": "https://www.reddit.com/r/anhedonia/comments/eh80jf/5adhp_cured_my_anhedonia/"
     },
     {
-        "icon": "\ud83e\udda0",
+        "icon": "🦠",
         "badgeClass": "badge",
         "badgeText": "FMT",
         "title": "Gut health: FMT recovery (healthy brother's donor)",
@@ -273,7 +273,7 @@
         "subtitle": "Major improvements\n\t\t\t\t\tpost-fecal transplant."
     },
     {
-        "icon": "\u26a1",
+        "icon": "⚡",
         "badgeClass": "badge",
         "badgeText": "Agmatine",
         "title": "Agmatine: An unlikely candidate after 1 month",
@@ -291,7 +291,7 @@
         "link": "https://www.reddit.com/r/anhedonia/comments/wx8up1/agmatine_an_unlikely_candidate_has_cured_my/"
     },
     {
-        "icon": "\ud83d\ude34",
+        "icon": "😴",
         "badgeClass": "badge",
         "badgeText": "DPH",
         "title": "50-75mg of DPH (Benadryl) success",
@@ -309,7 +309,7 @@
         "link": "https://www.reddit.com/r/anhedonia/comments/d5o3an/5075mg_of_dph_benadryl_cures_my_anhedonia/"
     },
     {
-        "icon": "\ud83d\udd13",
+        "icon": "🔓",
         "badgeClass": "badge",
         "badgeText": "Environment",
         "title": "Going to prison cured my Anhedonia",
@@ -330,7 +330,7 @@
         "link": "https://www.reddit.com/r/anhedonia/comments/1hpcn17/going_to_prison_cured_my_anhedonia/"
     },
     {
-        "icon": "\ud83c\udf44",
+        "icon": "🍄",
         "badgeClass": "badge",
         "badgeText": "Psychedelic",
         "title": "Shrooms completely cured me for a week",
@@ -348,7 +348,7 @@
         "link": "https://www.reddit.com/r/anhedonia/comments/14y7coh/shrooms_completely_cured_me_for_a_week/"
     },
     {
-        "icon": "\ud83c\udfaf",
+        "icon": "🎯",
         "badgeClass": "badge",
         "badgeText": "Bupropion",
         "title": "Bupropion (Wellbutrin) success story",
@@ -366,7 +366,7 @@
         "link": "https://www.reddit.com/r/anhedonia/comments/i4nv01/bupropion_has_cured_my_anhedonia/"
     },
     {
-        "icon": "\ud83d\udcda",
+        "icon": "📚",
         "badgeClass": "badge",
         "badgeText": "Stack",
         "title": "The stack that is currently curing me",
@@ -387,7 +387,7 @@
         "link": "https://www.reddit.com/r/anhedonia/comments/1fxl3s5/stack_that_is_curing_me/"
     },
     {
-        "icon": "\ud83d\udca1",
+        "icon": "💡",
         "badgeClass": "badge",
         "badgeText": "Experience",
         "title": "Cocaine cured my anhedonia for a night",
@@ -405,7 +405,7 @@
         "link": "https://www.reddit.com/r/anhedonia/comments/1e660gq/cocaine_cured_my_anhedonia_for_a_night/"
     },
     {
-        "icon": "\ud83c\udf1f",
+        "icon": "🌟",
         "badgeClass": "badge badge-cured",
         "badgeText": "Success",
         "title": "Another Success Story",
@@ -423,7 +423,7 @@
         "link": "https://www.reddit.com/r/anhedonia/comments/1hd906q/cured_my_anhedonia/"
     },
     {
-        "icon": "\ud83c\udf1f",
+        "icon": "🌟",
         "badgeClass": "badge badge-cured",
         "badgeText": "Recovered",
         "title": "100% recovery from PSSD",
@@ -441,10 +441,10 @@
         "link": "https://www.reddit.com/r/PSSD/comments/1smpp4p/100_recovery_from_pssd/"
     },
     {
-        "icon": "\ud83c\udf1f",
+        "icon": "🌟",
         "badgeClass": "badge badge-cured",
         "badgeText": "Recovered",
-        "title": "90% RECOVERED \u2013 9 Years of Hell (Finasteride)",
+        "title": "90% RECOVERED – 9 Years of Hell (Finasteride)",
         "meta": {
             "substances": [
                 "Psilocybin",
@@ -463,7 +463,7 @@
         "link": "https://www.reddit.com/r/FinasterideSyndrome/comments/1micpt8/update_90_recovered_9_years_of_hell_but_im/"
     },
     {
-        "icon": "\ud83d\udc8a",
+        "icon": "💊",
         "badgeClass": "badge",
         "badgeText": "Pepcid",
         "title": "Cured my anhedonia with Pepcid (Famotidine)",
@@ -482,7 +482,7 @@
         "link": "https://www.reddit.com/r/anhedonia/comments/1n090gt/cured_my_anhedonia_with_pepcid_famotidine/"
     },
     {
-        "icon": "\ud83e\udde0",
+        "icon": "🧠",
         "badgeClass": "badge",
         "badgeText": "Amantadine",
         "title": "Significant Improvements on Amantadine",
@@ -502,7 +502,7 @@
         "link": "https://www.reddit.com/r/PSSD/comments/1d85k2o/there_is_hope_significant_improvements_on/"
     },
     {
-        "icon": "\u26a1",
+        "icon": "⚡",
         "badgeClass": "badge badge-cured",
         "badgeText": "Recovered",
         "title": "One year on agmatine: documenting my recovery",
@@ -522,7 +522,7 @@
         "link": "https://www.reddit.com/r/anhedonia/comments/1j0aq75/one_year_on_agmatine_documenting_my_recovery_story/"
     },
     {
-        "icon": "\u2728",
+        "icon": "✨",
         "badgeClass": "badge badge-cured",
         "badgeText": "Recovered",
         "title": "Fully cured after eight years",
@@ -540,7 +540,7 @@
         "link": "https://www.reddit.com/r/anhedonia/comments/1rzlxry/fully_cured_after_eight_years/"
     },
     {
-        "icon": "\u2728",
+        "icon": "✨",
         "badgeClass": "badge badge-cured",
         "badgeText": "Recovered",
         "title": "Found resolution after nearly 15 years",
@@ -553,12 +553,12 @@
             "timeTaken": "A few weeks",
             "cause": "PSSD (SSRIs)",
             "duration": "15 years",
-            "summary": "Suffered from PSSD (reduced pleasure, low libido, loss of romantic attraction) for nearly 15 years after taking SSRIs in their early 20s. After deciding to treat their depression with Brintellix (10mg)\u2014chosen for its low sexual side effect profile\u2014their emotional well-being, romantic attraction, and libido were entirely restored within a few weeks."
+            "summary": "Suffered from PSSD (reduced pleasure, low libido, loss of romantic attraction) for nearly 15 years after taking SSRIs in their early 20s. After deciding to treat their depression with Brintellix (10mg)—chosen for its low sexual side effect profile—their emotional well-being, romantic attraction, and libido were entirely restored within a few weeks."
         },
         "link": "https://www.reddit.com/r/PSSD/comments/1m4lk1c/found_resolution_after_nearly_15_years/"
     },
     {
-        "icon": "\u26a1",
+        "icon": "⚡",
         "badgeClass": "badge",
         "badgeText": "ECT",
         "title": "ECT Continue (Significant Improvements)",
@@ -576,7 +576,7 @@
         "link": "https://www.reddit.com/r/anhedonia/comments/1i6iorh/ect_continue/"
     },
     {
-        "icon": "\ud83c\udf1f",
+        "icon": "🌟",
         "badgeClass": "badge badge-cured",
         "badgeText": "Recovered",
         "title": "My emotions are back (Spontaneous Recovery)",
@@ -589,12 +589,12 @@
             "timeTaken": "Sudden",
             "cause": "Multiple (Finasteride, Kratom, Covid, Stress)",
             "duration": "4 years",
-            "summary": "After 4 years of severe anhedonia\u2014triggered by a combination of Finasteride, extreme Kratom use, COVID, and intense life stressors\u2014the user's emotions suddenly returned spontaneously while at work. They noted a physical change (pressure behind their right eye lifted) coinciding with a rush of emotions, allowing them to finally feel and process the sadness of a breakup that occurred 4 years prior."
+            "summary": "After 4 years of severe anhedonia—triggered by a combination of Finasteride, extreme Kratom use, COVID, and intense life stressors—the user's emotions suddenly returned spontaneously while at work. They noted a physical change (pressure behind their right eye lifted) coinciding with a rush of emotions, allowing them to finally feel and process the sadness of a breakup that occurred 4 years prior."
         },
         "link": "https://www.reddit.com/r/anhedonia/comments/1e0xtd7/my_emotions_are_back/"
     },
     {
-        "icon": "\ud83c\udf1f",
+        "icon": "🌟",
         "badgeClass": "badge badge-cured",
         "badgeText": "Recovered",
         "title": "It randomly went away",
@@ -612,7 +612,7 @@
         "link": "https://www.reddit.com/r/anhedonia/comments/1k6089s/it_randomly_went_away/"
     },
     {
-        "icon": "\ud83d\udc8a",
+        "icon": "💊",
         "badgeClass": "badge badge-cured",
         "badgeText": "Recovered",
         "title": "Not anhedonic anymore (Thiamine TTFD)",
@@ -633,7 +633,7 @@
         "link": "https://www.reddit.com/r/anhedonia/comments/1ks5uow/well_fck_me_im_actually_not_anhedonic_anymore_i/"
     },
     {
-        "icon": "\ud83d\udc8a",
+        "icon": "💊",
         "badgeClass": "badge",
         "badgeText": "MAOI + Lithium",
         "title": "From total anhedonia to near remission",
@@ -653,7 +653,7 @@
         "link": "https://www.reddit.com/r/MAOIs/comments/18mass9/from_total_anhedonia_to_near_remission/"
     },
     {
-        "icon": "\u2728",
+        "icon": "✨",
         "badgeClass": "badge badge-cured",
         "badgeText": "Recovered",
         "title": "Complete recovery from PSSD (2017 to 2024)",
@@ -673,7 +673,7 @@
         "link": "https://www.reddit.com/r/PSSD/comments/1fkje9a/complete_recovery_from_pssd_from_2017_to_2024/"
     },
     {
-        "icon": "\u2728",
+        "icon": "✨",
         "badgeClass": "badge badge-cured",
         "badgeText": "Recovered",
         "title": "Success story after 5 long years! (NSI-189)",
@@ -691,7 +691,7 @@
         "link": "https://www.reddit.com/r/pssdhealing/comments/1jfpc9v/succes_story_after_5_long_years_nsi189_helped_me/"
     },
     {
-        "icon": "\u26a1",
+        "icon": "⚡",
         "badgeClass": "badge",
         "badgeText": "MST",
         "title": "Significant Improvements with MST",
@@ -709,7 +709,7 @@
         "link": "https://www.reddit.com/r/ect/comments/1kjv5na/5_years_on_depression_i_have_started_magnetic/"
     },
     {
-        "icon": "\u2728",
+        "icon": "✨",
         "badgeClass": "badge badge-cured",
         "badgeText": "Recovered",
         "title": "Recovered 95% - The End of My Journey",
@@ -729,7 +729,7 @@
         "link": "https://www.reddit.com/r/PSSD/comments/1g2e7st/recovered_95_the_end_of_my_journey_on_this_sub/"
     },
     {
-        "icon": "\ud83c\udf1f",
+        "icon": "🌟",
         "badgeClass": "badge badge-cured",
         "badgeText": "Recovered",
         "title": "Recovery from PSSD/emotional blunting",
@@ -742,12 +742,12 @@
             "timeTaken": "4 years",
             "cause": "Citalopram (SSRI Withdrawal / PSSD)",
             "duration": "4 years",
-            "summary": "A 30-year-old took Citalopram for nearly 4 years and tapered off. They then suffered 4 years of horrific withdrawal symptoms including severe PSSD, total emotional blunting, insomnia, and fatigue, leaving them bed-bound. After enduring brutal waves and windows, they noticed a significant and stable recovery around the 4-year mark. Now, 5.5 years off the drug, they are completely healed\u2014experiencing joy, deep emotions, and a greatly improved sex life with a strong drive."
+            "summary": "A 30-year-old took Citalopram for nearly 4 years and tapered off. They then suffered 4 years of horrific withdrawal symptoms including severe PSSD, total emotional blunting, insomnia, and fatigue, leaving them bed-bound. After enduring brutal waves and windows, they noticed a significant and stable recovery around the 4-year mark. Now, 5.5 years off the drug, they are completely healed—experiencing joy, deep emotions, and a greatly improved sex life with a strong drive."
         },
         "link": "https://www.reddit.com/r/pssdhealing/comments/1kfz8bx/recovery_from_pssdemotional_blunting_from/"
     },
     {
-        "icon": "\ud83d\udc8a",
+        "icon": "💊",
         "badgeClass": "badge",
         "badgeText": "Allithiamine",
         "title": "How Allithiamine (B1) healed my brain damage",
@@ -765,7 +765,7 @@
         "link": "https://www.reddit.com/r/NootropicsDepot/comments/1kn3rmt/how_allithiamine_b1_temporarily_healed_my_brain/"
     },
     {
-        "icon": "\u2728",
+        "icon": "✨",
         "badgeClass": "badge badge-cured",
         "badgeText": "Recovered",
         "title": "Fully Cured in 1.75 years",
@@ -786,7 +786,7 @@
         "link": "https://www.reddit.com/r/PSSD/comments/1kfhrs2/fully_cured_not_naturally_but_100_recovered_in/"
     },
     {
-        "icon": "\ud83c\udf3f",
+        "icon": "🌿",
         "badgeClass": "badge badge-cured",
         "badgeText": "Recovered",
         "title": "Discovery: Yerba Mate for PAS/PFS",
@@ -802,12 +802,12 @@
             "timeTaken": "Over 2 months",
             "cause": "Accutane (PAS) / PFS",
             "duration": "Unknown",
-            "summary": "The user suffered from PAS (Post-Accutane Syndrome) and began recovering by taking lithium and clomid to target GSK3B and testosterone pathways. After 2 months, they completed a 4-5 day water fast to induce deep autophagy, during which they consumed large amounts of Yerba Mate. They credit Yerba Mate's unique properties\u2014including dopamine receptor upregulation, GSK-3\u03b2 inhibition, and anti-inflammatory support\u2014for drastically boosting their healing, bringing them to a 95+% recovery where they feel amazing."
+            "summary": "The user suffered from PAS (Post-Accutane Syndrome) and began recovering by taking lithium and clomid to target GSK3B and testosterone pathways. After 2 months, they completed a 4-5 day water fast to induce deep autophagy, during which they consumed large amounts of Yerba Mate. They credit Yerba Mate's unique properties—including dopamine receptor upregulation, GSK-3β inhibition, and anti-inflammatory support—for drastically boosting their healing, bringing them to a 95+% recovery where they feel amazing."
         },
         "link": "https://www.reddit.com/r/AccutaneRecovery/comments/1kdchax/discovery_yerba_mate_for_paspfs/"
     },
     {
-        "icon": "\ud83e\udda0",
+        "icon": "🦠",
         "badgeClass": "badge badge-cured",
         "badgeText": "Recovered",
         "title": "Food Poisoning cured my PSSD",
@@ -825,7 +825,7 @@
         "link": "https://www.reddit.com/r/PSSD/comments/1t7t3jb/symptom_improvement_part_iii_recovery/"
     },
     {
-        "icon": "\ud83c\udf1f",
+        "icon": "🌟",
         "badgeClass": "badge badge-cured",
         "badgeText": "Recovered",
         "title": "Fully Recovered from DP/DR",
@@ -846,7 +846,7 @@
         "link": "https://www.reddit.com/r/dpdr/comments/1kuslxi/fully_recovered_from_dpdr_that_was_so_severe_i/"
     },
     {
-        "icon": "\ud83d\udc8a",
+        "icon": "💊",
         "badgeClass": "badge",
         "badgeText": "DLPA",
         "title": "DLPA is making a huge difference",
@@ -865,7 +865,7 @@
         "link": "https://www.reddit.com/r/anhedonia/comments/zdkcua/dlpa_is_making_a_huge_difference/"
     },
     {
-        "icon": "\ud83d\udc8a",
+        "icon": "💊",
         "badgeClass": "badge badge-cured",
         "badgeText": "Recovered",
         "title": "Pramipexole Trial \"cured\" me",
@@ -878,12 +878,12 @@
             "timeTaken": "Progressive (Weeks/Months)",
             "cause": "SSRIs (PSSD) / MS",
             "duration": "5 years",
-            "summary": "After suffering from high-functioning but severe anhedonia and PSSD for 5 years, the user started a Pramipexole trial (titrating up to 1.5mg). Despite a brutal initial worsening of symptoms (nausea, severe anhedonia, insomnia, and compulsivity), their emotions, motivation, and sexual functions rapidly returned. They were later diagnosed with Multiple Sclerosis (MS) and had to quit Pramipexole due to medication conflicts. To their surprise, quitting did not cause a relapse\u2014Pramipexole appeared to have 'cured' their anhedonia permanently."
+            "summary": "After suffering from high-functioning but severe anhedonia and PSSD for 5 years, the user started a Pramipexole trial (titrating up to 1.5mg). Despite a brutal initial worsening of symptoms (nausea, severe anhedonia, insomnia, and compulsivity), their emotions, motivation, and sexual functions rapidly returned. They were later diagnosed with Multiple Sclerosis (MS) and had to quit Pramipexole due to medication conflicts. To their surprise, quitting did not cause a relapse—Pramipexole appeared to have 'cured' their anhedonia permanently."
         },
         "link": "https://www.reddit.com/r/anhedonia/comments/nuytdv/pramipexole_trial_severe_anhedonia_since_starting/"
     },
     {
-        "icon": "\u2728",
+        "icon": "✨",
         "badgeClass": "badge badge-cured",
         "badgeText": "Recovered",
         "title": "MDMA Therapy Saved My Life",
@@ -901,7 +901,7 @@
         "link": "https://www.reddit.com/r/mdmatherapy/comments/9gyngk/mdma_therapy_saved_my_life_notes_from_my/"
     },
     {
-        "icon": "\ud83d\udc8a",
+        "icon": "💊",
         "badgeClass": "badge badge-cured",
         "badgeText": "Recovered",
         "title": "Successful test of Pramipexole and Fluvoxamine",
@@ -920,7 +920,7 @@
         "link": "https://www.reddit.com/r/MAOIs/comments/x9q04h/comment/inuc0bt/"
     },
     {
-        "icon": "\u2728",
+        "icon": "✨",
         "badgeClass": "badge badge-cured",
         "badgeText": "Recovered",
         "title": "Full recovery from trauma-induced numbness",
@@ -941,7 +941,7 @@
         "link": "https://www.reddit.com/r/CPTSD/comments/brd65h/stupid_question_maybe_but_i_want_to_hear_from/"
     },
     {
-        "icon": "\ud83d\udcdd",
+        "icon": "📝",
         "badgeClass": "badge badge-cured",
         "badgeText": "Recovered",
         "title": "CBT, Pleasure Predicting, and Gratitude",
@@ -962,7 +962,7 @@
         "link": "https://www.reddit.com/r/CBT/comments/catlyl/anyway_to_treat_anhedonia/"
     },
     {
-        "icon": "\ud83d\udc8a",
+        "icon": "💊",
         "badgeClass": "badge",
         "badgeText": "Recovered (80%)",
         "title": "Remission/Recovery update - Jess",
@@ -980,7 +980,7 @@
         "link": "https://www.reddit.com/r/anhedonia/comments/1j4h0au/remissionrecovery_update_jess/"
     },
     {
-        "icon": "\ud83d\udc8a",
+        "icon": "💊",
         "badgeClass": "badge badge-cured",
         "badgeText": "Recovered",
         "title": "Nardil for TRD and Anhedonia",
@@ -998,7 +998,7 @@
         "link": "https://www.reddit.com/r/MAOIs/comments/1roqfnb/after_the_worst_year_of_my_life_with/"
     },
     {
-        "icon": "\ud83e\uddd8\u200d\u2642\ufe0f",
+        "icon": "🧘‍♂️",
         "badgeClass": "badge badge-cured",
         "badgeText": "Recovered",
         "title": "Eric Kussin: Vagus Nerve & Integrative Rehab",
@@ -1019,7 +1019,7 @@
         "link": "https://medium.com/@erickussin/i-sincerely-thank-you-if-you-are-able-to-take-the-time-and-pass-this-on-to-those-who-may-benefit-675ee139193"
     },
     {
-        "icon": "\ud83d\udc8a",
+        "icon": "💊",
         "badgeClass": "badge",
         "badgeText": "Recovered (70%)",
         "title": "Significant improvement on Sodium Valproate",
@@ -1037,26 +1037,24 @@
         "link": "https://www.pssdforum.org/viewtopic.php?t=5867"
     },
     {
-        "icon": "\u23f3",
+        "icon": "🌐",
         "badgeClass": "badge",
-        "badgeText": "Recovered (Mostly)",
-        "title": "Natural gradual recovery over 14 years",
+        "badgeText": "PSSD",
+        "title": "My (kinda) success story: Mostly cured, compared to a few years ago",
         "meta": {
-            "substances": [
-                "Time (Natural Recovery)",
-                "Supportive Relationship"
-            ],
-            "type": "Partial Recovery",
-            "effectiveness": "Mostly Cured",
-            "timeTaken": "5-6 years (initial improvements), 14 years (current state)",
-            "cause": "SSRI (PSSD)",
-            "duration": "14 years",
-            "summary": "The user suffered from PSSD for 14 years. Initially experiencing complete emotional numbness, loss of sexuality, and severe memory/cognitive issues (which heavily impacted their computer science studies), they noticed gradual natural improvements around the 5-6 year mark. Finding a supportive relationship further accelerated their progress. Today, instead of having rare windows of normalcy, their baseline is mostly cured\u2014they can enjoy movies, video games, music, and experience sexual function. While they still experience occasional 'negative windows' and the intensity isn't 100% of what it used to be, they are very happy with their recovery and wanted to give others hope that natural improvement over time is possible."
+            "Condition": "PSSD",
+            "Source": "r/pssd Post",
+            "Primary Treatment Mechanism": "Time",
+            "Treatments Used": "None",
+            "Recovery Weeks": "312.00",
+            "Recovery Type": "Partial (mostly)"
         },
-        "link": "https://www.reddit.com/r/PSSD/comments/11okaep/my_kinda_success_story_mostly_cured_compared_to_a/"
+        "link": "https://www.reddit.com/r/PSSD/comments/11okaep/my_kinda_success_story_mostly_cured_compared_to_a/",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
     },
     {
-        "icon": "\u23f3",
+        "icon": "⏳",
         "badgeClass": "badge",
         "badgeText": "Significant Improvement",
         "title": "Gradual natural reawakening of visualization and emotion",
@@ -1069,12 +1067,12 @@
             "timeTaken": "16-22 months",
             "cause": "Prozac (2 pills)",
             "duration": "22 months (ongoing)",
-            "summary": "After taking just two pills of Prozac, the user suffered a complete loss of their visualization abilities (aphantasia) and severe emotional anesthesia (including the complete inability to feel fear or adrenaline). By month 16, their visualization abilities fully naturally restored to 100%. Between months 19 and 22, the physical sensations of emotions\u2014such as adrenaline, goosebumps, and the 'oh shit' feeling of surprise\u2014began to randomly reawaken in their head, restoring about 30-35% of their emotional capacity and bringing back the ability to feel atmosphere in music and movies."
+            "summary": "After taking just two pills of Prozac, the user suffered a complete loss of their visualization abilities (aphantasia) and severe emotional anesthesia (including the complete inability to feel fear or adrenaline). By month 16, their visualization abilities fully naturally restored to 100%. Between months 19 and 22, the physical sensations of emotions—such as adrenaline, goosebumps, and the 'oh shit' feeling of surprise—began to randomly reawaken in their head, restoring about 30-35% of their emotional capacity and bringing back the ability to feel atmosphere in music and movies."
         },
         "link": "https://www.reddit.com/r/PSSD/comments/yi0pnu/the_partial_return_of_adrenaline/"
     },
     {
-        "icon": "\u23f3",
+        "icon": "⏳",
         "badgeClass": "badge",
         "badgeText": "Recovered (80%)",
         "title": "My (Long) Recovery Story - Full Fall and Rise",
@@ -1091,5 +1089,1855 @@
             "summary": "The user developed severe PSSD and emotional blunting from 6 months of Sertraline. After 4 years of obsessing over a cure, they completely gave up. Letting go of the obsession became their turning point. Natural improvements slowly followed. They met a supportive partner, experienced natural arousal, and used Cialis Daily to overcome their ED. They are now 80% recovered and consider this new baseline perfect."
         },
         "link": "https://www.reddit.com/r/PSSD/comments/1algw6w/my_long_recovery_story_full_fall_and_rise/"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD.",
+        "title": "Gut microbiota theory: How I finally cured my PSSD",
+        "meta": {
+            "Condition": "PSSD.",
+            "Source": "r/pssd Post",
+            "Primary Treatment Mechanism": "Gut",
+            "Treatments Used": "Antibiotics, Antimicrobials, Prokinetics, Probiotics, Low FODMAP",
+            "Recovery Weeks": "6.00",
+            "Recovery Type": "Full",
+            "Protocol Summary": "He had SIBO. States that antibiotics recovered him, a standard SIBO antibiotic treatment is 2 weeks. 17 days after finishing antibiotics he claims sensitivity is at 60-70%, but improvements are continuing. We can assume a minimum of 6 weeks for recovery."
+        },
+        "link": "https://www.reddit.com/r/PSSD/comments/q03uci/gut_microbiota_theory_how_i_finally_cured_my_pssd/",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "I'm cured",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "r/pssd Post",
+            "Primary Treatment Mechanism": "Gut",
+            "Treatments Used": "Antimicrobials",
+            "Recovery Weeks": "8.00",
+            "Recovery Type": "Partial (mostly)",
+            "Protocol Summary": "Used oregano oil, garlic & peppermint. Still some sensitivity issues. He had SIBO."
+        },
+        "link": "https://www.reddit.com/r/PSSD/comments/u94uy8/im_cured/",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "ENDgame. PFS, PSSD, PRSD. - Estrogen Resistance - Read and get rid of it once and for all.",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "r/pssd Post",
+            "Primary Treatment Mechanism": "Hormonal",
+            "Treatments Used": "TRT (Test E), HCG, Hops",
+            "Recovery Weeks": "6.00",
+            "Recovery Type": "Full",
+            "Protocol Summary": "From Reddit user Boost_909: \"He was using 140mg Test and 750iu, he claimed to raise this to 1500iu but ran low, he said the minimum for his individual needs was 750iu and was using 900iu for a while. He ran the cycle for 6 weeks of 140mg Test enanthate (ester). His dose of HCG was changed throughout this time. He added (after 4 weeks) and continued for (2weeks) a brand of Hops 400mg tablets and took them 3-6 times a day. I'm assuming stopping at this point in time with the HOPS. At this point he felt 99%. I'm unsure of his dosing of Dexamphetamine prior or during the cycle. (This was the first time he had used TRT) also another important factor. He points out he is now on TRT for life and continues TRT (unsure if still using HCG). Does not use Clomid or Start PCT. Waits another further 4-6 weeks before using Proviron for 2 days, gets mini crash. I'm assuming the DHT derivative causing an anti-estrogenic affect. He then proceeds to lower dose to 50mg TRT and 1000iu HCG. Administers does 1-5mg of E2 Benzonate (using Proviron for 6 days). Claims  to be further improved. Considerations, if he took oral prior to hops like claimed. His dosing of Dex. Etc\""
+        },
+        "link": "https://www.reddit.com/r/PSSD/comments/10q9us0/endgame_pfs_pssd_prsd_estrogen_resistance_read/",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "PSSD cured!! b12 injections gave me back this world.",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "r/pssd Post",
+            "Primary Treatment Mechanism": "Vitamin Deficiency",
+            "Treatments Used": "B12, B9, B2, B1, Potassium",
+            "Recovery Weeks": "4.50",
+            "Recovery Type": "Partial (mostly)",
+            "Protocol Summary": "Used injections & sublingual. Vitamin deficiencies often result from gut issues like SIBO or dysbiosis."
+        },
+        "link": "https://www.reddit.com/r/PSSD/comments/xc9yz3/pssd_cured_b12_injections_gave_me_back_this_world/",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "I recovered fully from PSSD.",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "r/pssd Post",
+            "Primary Treatment Mechanism": "Hormonal",
+            "Treatments Used": "Tongkat Ali, Zinc, Magnesium Glycinate, D3, C, Bacopa, Gotu Kola",
+            "Recovery Weeks": "52.00",
+            "Recovery Type": "Full",
+            "Protocol Summary": "He felt like time was the main factor, but it appears hormones were involved especially with tongkat ali & zinc."
+        },
+        "link": "https://www.reddit.com/r/PSSD/comments/widgz7/i_recovered_fully_from_pssd/",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "Gut Theory - how I’m fixed",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "r/pssd Post",
+            "Primary Treatment Mechanism": "Gut",
+            "Treatments Used": "Antibiotics, Probiotics",
+            "Recovery Weeks": "2.00",
+            "Recovery Type": "Full",
+            "Protocol Summary": "Antibiotics were Amoxicillin, Metronidazole & Clarithromycin. His particular issue was H. Pylori infection in gut."
+        },
+        "link": "https://www.reddit.com/r/PSSD/comments/wmzuvd/gut_theory_how_im_fixed/",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "Cured",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "r/pssd Post",
+            "Primary Treatment Mechanism": "Time",
+            "Treatments Used": "NA",
+            "Recovery Weeks": "130.00",
+            "Recovery Type": "Partial (90%)"
+        },
+        "link": "https://www.reddit.com/r/PSSD/comments/xk6dc0/cured/",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "I cured my PSSD. This is my story.",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "r/pssd Post",
+            "Primary Treatment Mechanism": "Hormonal",
+            "Treatments Used": "PCT (Clomid)",
+            "Recovery Weeks": "8.00",
+            "Recovery Type": "Full",
+            "Protocol Summary": "Clomiphene Citrate 25mg per day for 1 month, then 3x per week after. Doesn't specify how many weeks after."
+        },
+        "link": "https://www.reddit.com/r/PSSD/comments/tzccny/i_cured_my_pssd_this_is_my_story/",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "I (f) had my first orgasm with a partner for the first time in over a year!",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "r/pssd Post",
+            "Primary Treatment Mechanism": "Hormonal",
+            "Treatments Used": "Maca, Fenugreek, Red Light Therapy",
+            "Recovery Weeks": "52.00",
+            "Recovery Type": "Partial",
+            "Protocol Summary": "Although he felt time was the major factor, he clearly used some hormonal supplements."
+        },
+        "link": "https://www.reddit.com/r/PSSD/comments/p019sd/i_f_had_my_first_orgasm_with_a_partner_for_the/",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "Pssd Sexual symptoms gone",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "r/pssd Post",
+            "Primary Treatment Mechanism": "Time",
+            "Treatments Used": "D3, Zinc, Diet, Workout, Forum Abstinence, Positivity",
+            "Recovery Weeks": "104.00",
+            "Recovery Type": "Full"
+        },
+        "link": "https://www.reddit.com/r/PSSD/comments/10lw7g9/pssd_sexual_symptoms_gone/",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "Improvements after almost 3 years of pssd",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "r/pssd Post",
+            "Primary Treatment Mechanism": "Time",
+            "Treatments Used": "?",
+            "Recovery Weeks": "156.00",
+            "Recovery Type": "Partial (40%)"
+        },
+        "link": "https://www.reddit.com/r/PSSD/comments/za0yfd/improvements_after_almost_3_years_of_pssd/",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "Hope",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "r/pssd Post",
+            "Primary Treatment Mechanism": "Time",
+            "Treatments Used": "None",
+            "Recovery Weeks": "130.00",
+            "Recovery Type": "Full",
+            "Protocol Summary": "Month long window. Stayed away from all supplements and alcohol."
+        },
+        "link": "https://www.reddit.com/r/PSSD/comments/vys0d4/hope/",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "[Image] Results of the preliminary survey conducted on the subreddit",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "r/pssd Post",
+            "Primary Treatment Mechanism": "NA",
+            "Treatments Used": "Oregano Oil, Green Tea, L-Citrulline, Ginkgo Biloba",
+            "Recovery Weeks": "NA",
+            "Recovery Type": "NA",
+            "Protocol Summary": "Survey on helpful supplements."
+        },
+        "link": "https://www.reddit.com/r/PSSD/comments/w8vm8v/image_results_of_the_preliminary_survey_conducted/",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "The cure",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "r/pssd Post",
+            "Primary Treatment Mechanism": "Hormonal",
+            "Treatments Used": "TRT, PCT",
+            "Recovery Weeks": "NA",
+            "Recovery Type": "Full",
+            "Protocol Summary": "He did TRT followed by PCT. Is no longer on anything."
+        },
+        "link": "https://www.reddit.com/r/PSSD/comments/jsqrxq/the_cure/",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "Recovery progress",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "r/pssd Post",
+            "Primary Treatment Mechanism": "Time",
+            "Treatments Used": "Diet, Workout, Water, Fasting, Antioxidants, Positivity",
+            "Recovery Weeks": "78.00",
+            "Recovery Type": "Partial",
+            "Protocol Summary": "Still has genital numbness."
+        },
+        "link": "https://www.reddit.com/r/PSSD/comments/y3242v/recovery_progress/",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "Libido is back!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "r/pssd Post",
+            "Primary Treatment Mechanism": "Unknown",
+            "Treatments Used": "Anxiolytics",
+            "Recovery Weeks": "52.00",
+            "Recovery Type": "Partial",
+            "Protocol Summary": "Libido has returned. Still has some genital numbness but its getting better. Mix of time and taking 10mg Buspirone which caused substantial improvement in ED & libido."
+        },
+        "link": "https://www.reddit.com/r/PSSD/comments/ww34xx/comment/ilix0ia/",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "First Orgasm after two years.",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "r/pssd Post",
+            "Primary Treatment Mechanism": "Time",
+            "Treatments Used": "None",
+            "Recovery Weeks": "104.00",
+            "Recovery Type": "Partial",
+            "Protocol Summary": "Able to orgasm but still weak."
+        },
+        "link": "https://www.reddit.com/r/PSSD/comments/wma2p5/first_orgasm_after_two_years/",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "Oil of oregano/peppermint oil caused me immense relief",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "r/pssd Post",
+            "Primary Treatment Mechanism": "Gut",
+            "Treatments Used": "Antimicrobials",
+            "Recovery Weeks": "1.50",
+            "Recovery Type": "Partial",
+            "Protocol Summary": "Used oregano oil and peppermint oil."
+        },
+        "link": "https://www.reddit.com/r/PSSD/comments/ux5ejj/oil_of_oreganopeppermint_oil_caused_me_immense/",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "Positive Story",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "r/pssd Post",
+            "Primary Treatment Mechanism": "Time",
+            "Treatments Used": "Forum Abstinence, Positivity",
+            "Recovery Weeks": "312.00",
+            "Recovery Type": "Partial"
+        },
+        "link": "https://www.reddit.com/r/PSSD/comments/xf4dqp/positive_story/",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "A Story of hope",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "r/pssd Post",
+            "Primary Treatment Mechanism": "Hormonal",
+            "Treatments Used": "DHT (Proviron)",
+            "Recovery Weeks": "4.00",
+            "Recovery Type": "Full",
+            "Protocol Summary": "Proviron 25mg/day for 1 month."
+        },
+        "link": "https://www.reddit.com/r/PSSD/comments/nf17vw/a_story_of_hope/",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "PSSD Cure—Inositol works, just not always the first time",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "r/pssd Post",
+            "Primary Treatment Mechanism": "Hormonal?",
+            "Treatments Used": "Inositol",
+            "Recovery Weeks": "8.00",
+            "Recovery Type": "Full",
+            "Protocol Summary": "18 grams inositol per day (in evening) for 2 months. Still taking low dose (1g) per day."
+        },
+        "link": "https://www.reddit.com/r/PSSD/comments/sju4yu/pssd_cureinositol_works_just_not_always_the_first/",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "Just wanted to share smoe good news - I am experiencing a window right now",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "r/pssd Post",
+            "Primary Treatment Mechanism": "Time",
+            "Treatments Used": "L-Citrulline, Maca, L-Arginine, Magnesium",
+            "Recovery Weeks": "260.00",
+            "Recovery Type": "Partial (40%)"
+        },
+        "link": "https://www.reddit.com/r/PSSD/comments/10dppyz/just_wanted_to_share_smoe_good_news_i_am/",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "ggggg123 (same as Conundrum)",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "PSSD Lab",
+            "Primary Treatment Mechanism": "Hormonal?",
+            "Treatments Used": "Licorice Root, Kudzu Root",
+            "Recovery Weeks": "12.00",
+            "Recovery Type": "Full",
+            "Protocol Summary": "1x 450mg capsule licorice root per day for 3-6 months. Also small amount of kudzu root. These are phytoestrogens."
+        },
+        "link": "http://www.dr-bob.org/babble/20101203/msgs/972934.html",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "Lossleader",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "PSSD Lab",
+            "Primary Treatment Mechanism": "Time",
+            "Treatments Used": "None",
+            "Recovery Weeks": "260.00",
+            "Recovery Type": "Partial (80%)"
+        },
+        "link": "http://antidepressantwithdrawal.info/forum/showthread.php?920-Recovery-Stories",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "Acrostics22",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "PSSD Lab",
+            "Primary Treatment Mechanism": "Unknown",
+            "Treatments Used": "Workout, Yoga, Accupuncture, Omega 3, Emporer's Tea Extract (Turmeric, Oregano, Ginger & more), Zenerx (Maca, L-Arginine, Catauba Bark, Cnidium, Horny Goat Weed)",
+            "Recovery Weeks": "NA",
+            "Recovery Type": "Full",
+            "Protocol Summary": "Notes his libido is pre-PSSD."
+        },
+        "link": "https://www.depressionforums.org/forums/topic/52393-curing-pssd-getting-off-all-meds-and-feeling-fantastic/",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "Alan19email",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "PSSD Lab",
+            "Primary Treatment Mechanism": "Unknown",
+            "Treatments Used": "Lecithin",
+            "Recovery Type": "Full"
+        },
+        "link": "https://pssdlab.files.wordpress.com/2020/10/alan19email.pdf",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "kramdrol",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "PSSD Lab",
+            "Primary Treatment Mechanism": "Antidepressant (Herbal)",
+            "Treatments Used": "SJW",
+            "Recovery Weeks": "2.00",
+            "Recovery Type": "Full",
+            "Protocol Summary": "500mg twice per week for 2 weeks."
+        },
+        "link": "https://www.pssdforum.org/viewtopic.php?t=185&sid=889f05cc26851956a30996464773eea4",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "Beetlebum",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "PSSD Lab",
+            "Primary Treatment Mechanism": "Antidepressant (Herbal)",
+            "Treatments Used": "SJW",
+            "Recovery Weeks": "10.00",
+            "Recovery Type": "Full",
+            "Protocol Summary": "He used full spectrum SJW tablets (Laif 900). He took 900mg in morning and 450mg in evening for approximately 10 weeks. 100% recovery came 5 days after stopping."
+        },
+        "link": "https://pssdlab.wordpress.com/beetlebum-st-johns-wort/",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "PSSD",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "PSSD Lab",
+            "Primary Treatment Mechanism": "Hormonal?",
+            "Treatments Used": "Inositol, Berberine",
+            "Recovery Weeks": "3.00",
+            "Recovery Type": "Full",
+            "Protocol Summary": "18 grams of Swanson inositol per day at 7pm for 3 weeks. Also took a little berberine (both an antimicrobial and hormone balancer). It appears this is a full recovery, its not entirely clear."
+        },
+        "link": "https://www.survivingantidepressants.org/topic/10410-pssd-success-story-for-pssd-and-ongoing-discontinuation-symptoms-please-read/",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "PharmD",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "PSSD Lab",
+            "Primary Treatment Mechanism": "Hormonal",
+            "Treatments Used": "Inositol",
+            "Recovery Weeks": "7.00",
+            "Recovery Type": "Full",
+            "Protocol Summary": "Took inositol for 7 weeks, caused libido improvements. After stopping for a few days there was additional memory & libido improvements."
+        },
+        "link": "https://www.pssdforum.org/viewtopic.php?t=22\nhttps://www.remedyspot.com/content/topic/2689478-finally-cured-after-2-years-of-hell",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "Irishwill",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "PSSD Lab",
+            "Primary Treatment Mechanism": "Time",
+            "Treatments Used": "Magnesium, C, Probiotics, Forum Abstinence",
+            "Recovery Weeks": "NA",
+            "Recovery Type": "Partial"
+        },
+        "link": "https://www.survivingantidepressants.org/topic/9863-%E2%98%BC-irishwill-2015-extremely-positive-and-long-overdue-update/",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "Aeroman",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "PSSD Lab",
+            "Primary Treatment Mechanism": "Time",
+            "Treatments Used": "Forum Abstinence",
+            "Recovery Weeks": "192.00",
+            "Recovery Type": "Full"
+        },
+        "link": "https://pssdlab.wordpress.com/aeroman-na/",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "theautomator",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "PSSD Lab",
+            "Primary Treatment Mechanism": "Hormonal",
+            "Treatments Used": "Inositol, mixture.",
+            "Recovery Weeks": "24.00",
+            "Recovery Type": "Partial (mostly)"
+        },
+        "link": "https://www.survivingantidepressants.org/topic/7574-%E2%98%BC-theautomator-recovering-from-pssd/",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "drizzy",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "PSSD Lab",
+            "Primary Treatment Mechanism": "Antidepressant (NDRI)",
+            "Treatments Used": "Bupropion",
+            "Recovery Weeks": "4.00",
+            "Recovery Type": "Full",
+            "Protocol Summary": "Used Bupropion for 4 weeks."
+        },
+        "link": "https://www.pssdforum.org/viewtopic.php?t=2937",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "Unknown",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "PSSD Lab",
+            "Primary Treatment Mechanism": "Time",
+            "Treatments Used": "None",
+            "Recovery Weeks": "208.00",
+            "Recovery Type": "Full"
+        },
+        "link": "https://rxisk.org/recovering-from-pssd/",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "mr_t",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "PSSD Lab",
+            "Primary Treatment Mechanism": "Mindset",
+            "Treatments Used": "Prayer",
+            "Recovery Weeks": "1.00",
+            "Recovery Type": "Full",
+            "Protocol Summary": "Took 4 days. Likely cured from the psychosomatic effects on the body by radical change in belief."
+        },
+        "link": "https://pssdlab.files.wordpress.com/2020/10/god-healed-my-body-social-anxiety-forum.pdf",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "risperdalhater",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "PSSD Lab",
+            "Primary Treatment Mechanism": "Unknown",
+            "Treatments Used": "Antipsychotic (Atypical), B3",
+            "Recovery Weeks": "56.00",
+            "Recovery Type": "Full",
+            "Protocol Summary": "Took 1x 3mg Risperidone pill daily and 1x long acting injection for 3 weeks. Also took B3. 97% recovery then came 14 months later."
+        },
+        "link": "https://www.pssdforum.org/viewtopic.php?f=38&t=1252&start=20#p13560",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "pete",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "PSSD Lab",
+            "Primary Treatment Mechanism": "Antidepressant (Reinstatement)",
+            "Treatments Used": "Paxil (SSRI)",
+            "Recovery Weeks": "28.00",
+            "Recovery Type": "Full",
+            "Protocol Summary": "Used low-dose Paxil (2.5mg) 2-3 times per week, then later switched to 1-2 times per week."
+        },
+        "link": "https://pssdforum.org/viewtopic.php?t=608",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "Pug",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "PSSD Lab",
+            "Primary Treatment Mechanism": "Time",
+            "Treatments Used": "Workout, Mindfulness, Breathing Exercises",
+            "Recovery Weeks": "130.00",
+            "Recovery Type": "Partial (90%)"
+        },
+        "link": "https://www.survivingantidepressants.org/topic/14913-pug-your-miracle-is-coming-hang-on/",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "Aissela",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "PSSD Lab",
+            "Primary Treatment Mechanism": "Time",
+            "Treatments Used": "Workout",
+            "Recovery Weeks": "92.00",
+            "Recovery Type": "Partial (80%)"
+        },
+        "link": "https://www.survivingantidepressants.org/topic/14042-aissela-back-to-life/",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "Moui",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "PSSD Lab",
+            "Primary Treatment Mechanism": "Antidepressant (Reinstatement)",
+            "Treatments Used": "Citalopram (SSRI), Diet, Workout",
+            "Recovery Weeks": "208.00",
+            "Recovery Type": "Full",
+            "Protocol Summary": "Reinstated citalopram then slowly tapered off."
+        },
+        "link": "https://www.survivingantidepressants.org/topic/13621-moui-full-recovery/",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "Djderek",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "PSSD Lab",
+            "Primary Treatment Mechanism": "Mindset",
+            "Treatments Used": "Meditation, Yoga, NoFap",
+            "Recovery Weeks": "40.00",
+            "Recovery Type": "Full",
+            "Protocol Summary": "Did NoFap for 8 months"
+        },
+        "link": "https://pssdlab.wordpress.com/djderek-na/",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "Maxbook",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "PSSD Lab",
+            "Primary Treatment Mechanism": "Dopamine Agonist",
+            "Treatments Used": "Pramipexole (Dopamine Agonist)",
+            "Recovery Weeks": "1.50",
+            "Recovery Type": "Full",
+            "Protocol Summary": "Pramipexole for 10 days."
+        },
+        "link": "https://www.pssdforum.org/viewtopic.php?f=20&t=1816",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "Bunny",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "PSSD Lab",
+            "Primary Treatment Mechanism": "HDAC Inhibitor",
+            "Treatments Used": "Lithium, Psychotherapy, Pelvic Floor Therapy",
+            "Recovery Weeks": "12.00",
+            "Recovery Type": "Full",
+            "Protocol Summary": "Pelvic Floor Therapy lasted 12 weeks. Lithium dose was 450mg. Was total recovery 12 weeks?"
+        },
+        "link": "https://www.pssdforum.org/viewtopic.php?f=10&t=2262",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "Anonymous",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "PSSD Lab",
+            "Primary Treatment Mechanism": "Unknown",
+            "Treatments Used": "Bupropion (Atypical Antidepressant), MAO Inhibitor, Beta Blocker, HDAC Inhibitor",
+            "Recovery Weeks": "NA",
+            "Recovery Type": "Full",
+            "Protocol Summary": "Bupropion, Moclobemide, Nebivolol, Valproic Acid"
+        },
+        "link": "https://www.pssdforum.org/viewtopic.php?f=20&t=314",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "bmx",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "PSSD Lab",
+            "Primary Treatment Mechanism": "Unknown",
+            "Treatments Used": "Shilajit, Panax Ginseng, Ginkgo Biloba",
+            "Recovery Weeks": "NA",
+            "Recovery Type": "Partial"
+        },
+        "link": "https://www.pssdforum.org/viewtopic.php?t=1473",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "faith2122",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "PSSD Lab",
+            "Primary Treatment Mechanism": "Unknown",
+            "Treatments Used": "Multivitamins, Pelvic Floor Therapy, Massage, Workout, Meditation, Positivity",
+            "Recovery Weeks": "2.00",
+            "Recovery Type": "Full"
+        },
+        "link": "https://www.pssdforum.org/viewtopic.php?f=10&t=1567&p=21562#p21562",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "Anonymous",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "PSSD Lab",
+            "Primary Treatment Mechanism": "Psychedelics",
+            "Treatments Used": "Ibogaine",
+            "Recovery Weeks": "1.50",
+            "Recovery Type": "Full",
+            "Protocol Summary": "Microdosing with ibogaine capsules over 9 day period. Five doses were taken every second day after the first dose - the first three doses were 200mg each (3.7mg/kg body weight), the fourth dose was 320mg (5.9mg/kg) and the fifth dose was 350mg (6.5mg/kg)"
+        },
+        "link": "https://www.pssdforum.org/viewtopic.php?f=20&t=336&p=21141#p21141",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "Alexej83",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "PSSD Lab",
+            "Primary Treatment Mechanism": "Gut",
+            "Treatments Used": "Antibiotics, PPI, Diet",
+            "Recovery Weeks": "12.00",
+            "Recovery Type": "Full",
+            "Protocol Summary": "Used antibiotics and Prilosec. He had H Pylori infection in gut."
+        },
+        "link": "https://pssdlab.wordpress.com/gi-tract-infection/",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "fred1234",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "PSSD Lab",
+            "Primary Treatment Mechanism": "Antidepressant (Reinstatement)",
+            "Treatments Used": "Venlafaxine (SNRI)",
+            "Recovery Weeks": "6.00",
+            "Recovery Type": "Full",
+            "Protocol Summary": "Started Venlafaxine, taking 37.5 and then tapered for a month. 2 weeks after taper finished he felt function returning."
+        },
+        "link": "https://www.pssdforum.org/viewtopic.php?f=20&t=608&p=14982#p14982",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "HopeForRecovery",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "PSSD Lab",
+            "Primary Treatment Mechanism": "Hormonal?",
+            "Treatments Used": "Multivitamins, Zinc, Fish Oil, Dopa Mucuna, Workout",
+            "Recovery Weeks": "44.00",
+            "Recovery Type": "Full",
+            "Protocol Summary": "Very likely hormonal due to the Zinc."
+        },
+        "link": "https://www.pssdforum.org/viewtopic.php?f=14&t=1450&p=13816#p13816",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "Kaleb R",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "PSSD Lab",
+            "Primary Treatment Mechanism": "See Post",
+            "Treatments Used": "See Post",
+            "Recovery Weeks": "See Post",
+            "Recovery Type": "See Post",
+            "Protocol Summary": "See original post - long/complex."
+        },
+        "link": "https://drive.google.com/file/d/15pdDv5yztKBzJC0eRnsxAa9kind9fF4-/view?fbclid=IwAR0rIQUtJIV6-JligG1ESYKlhjgTBN9Dkg2ZKuA7amglzRRuMlypd_ry40o",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "Unknown",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "PSSD Lab",
+            "Primary Treatment Mechanism": "Hormonal",
+            "Treatments Used": "EDOVIS (L-Citrulline, Tribulus Terrestris, Maca, Damiana, Muira Puama, B9)",
+            "Recovery Weeks": "16.00",
+            "Recovery Type": "Full"
+        },
+        "link": "https://pubmed.ncbi.nlm.nih.gov/30640584/",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "Branyan",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "PSSD Lab",
+            "Primary Treatment Mechanism": "Time",
+            "Treatments Used": "None",
+            "Recovery Weeks": "260.00",
+            "Recovery Type": "Partial",
+            "Protocol Summary": "Still gets windows and crashes with libido at times, windows are just much better now and last longer"
+        },
+        "link": "https://www.survivingantidepressants.org/topic/11398-branyan-pssd-successchallenges/",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "CharlieBrown",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "PSSD Lab",
+            "Primary Treatment Mechanism": "Time",
+            "Treatments Used": "None",
+            "Recovery Weeks": "312.00",
+            "Recovery Type": "Full",
+            "Protocol Summary": "Tapered off Sertraline for 6 weeks, then went cold turkey for another 150 weeks by which time libido was 90% recovered. 100% recovery of libido took 5-6 years from tapering."
+        },
+        "link": "https://www.survivingantidepressants.org/topic/12532-charliebrowns-long-road-to-success/",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "Dangerwood",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "PSSD Lab",
+            "Primary Treatment Mechanism": "Psychedelics",
+            "Treatments Used": "Magic Mushrooms, Ecstasy, Alcohol",
+            "Recovery Weeks": "1.00",
+            "Recovery Type": "Partial (mostly)",
+            "Protocol Summary": "Felt mostly back to normal in 2 days. 1g dried mushrooms, 150mg ecstasy pill and 6 alcoholic drinks."
+        },
+        "link": "http://www.pssdforum.org/viewtopic.php?f=10&t=2560",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "Zolofthater420",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "PSSD Lab",
+            "Primary Treatment Mechanism": "Psychedelics",
+            "Treatments Used": "Bethanechol (Muscarinic Acetylcholine Agonist), Workout, Weed, MDMA, Magic Mushrooms",
+            "Recovery Weeks": "6.50",
+            "Recovery Type": "Partial (95%)",
+            "Protocol Summary": "Bethanechol (urecholine) is used at 4x25mg a day for 3 weeks, stopped for 2 weeks, then started again for 1.5 weeks (some day 2x 25mg, then 1x 25mg, then maybe nothing and then 3x 25mg, something like this). Throughout the whole period workout was often, weed used daily, MDMA taken once, magic mushrooms taken twice."
+        },
+        "link": "http://www.pssdforum.org/viewtopic.php?f=20&t=2586&p=26036&hilit=zolofthater#p26036",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "Numby82",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "PSSD Lab",
+            "Primary Treatment Mechanism": "Antidepressant (NDRI)",
+            "Treatments Used": "Bupropion",
+            "Recovery Weeks": "7.00",
+            "Recovery Type": "Partial (mostly)",
+            "Protocol Summary": "Bupropion (Elontril by GlaxoSmithKline) alternated between 150mg or 300mg daily. She is still on the medication so cannot claim it is a full recovery."
+        },
+        "link": "http://www.pssdforum.org/viewtopic.php?f=20&t=815&p=25655#p25655",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "RainebowGirl",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "PSSD Lab",
+            "Primary Treatment Mechanism": "Antidepressant (NDRI)",
+            "Treatments Used": "Bupropion",
+            "Recovery Weeks": "1.00",
+            "Recovery Type": "Partial (65%)",
+            "Protocol Summary": "Bupropion (Wellbutrin) was used only a few times. Felt like 75-80% better on it but dropped to 65-70% once tapered off."
+        },
+        "link": "http://www.pssdforum.org/viewtopic.php?f=20&t=815&p=28051#p28028",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "u/HoMcShmoe",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "PSSD Lab",
+            "Primary Treatment Mechanism": "Hormonal",
+            "Treatments Used": "TRT (Test E)",
+            "Recovery Weeks": "2.00",
+            "Recovery Type": "Full",
+            "Protocol Summary": "IM injection of 250ml/week of Testosterone Enanthate oil, after one week many improvements but still partial numbness. He then did more injections and it cleared up remaining symptoms. We can assume a minimum of 2 weeks for recovery."
+        },
+        "link": "https://www.unddit.com/r/PSSD/comments/a6t6vc/deleted_by_user/",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "u/biscoito1r",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "PSSD Lab",
+            "Primary Treatment Mechanism": "Antidepressant (Herbal)",
+            "Treatments Used": "SJW",
+            "Recovery Weeks": "2.00",
+            "Recovery Type": "Partial",
+            "Protocol Summary": "Used Perika brand, improvements were noticeable after 2 weeks."
+        },
+        "link": "https://www.reddit.com/r/PSSD/comments/65yjaz/using_saint_johns_worts_to_cure_pssd/",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "u/username_bond",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "PSSD Lab",
+            "Primary Treatment Mechanism": "Nitric Oxide",
+            "Treatments Used": "L-Arginine",
+            "Recovery Weeks": "4.00",
+            "Recovery Type": "Partial (mostly)",
+            "Protocol Summary": "Does not specify how long it took but it sounds like it was fairly quick - lets assume 4 weeks. Does not specify if effects were permanent."
+        },
+        "link": "https://pssdlab.files.wordpress.com/2019/11/reddit_username_bound_story.pdf",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "Brian6211",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "PSSD Lab",
+            "Primary Treatment Mechanism": "Time",
+            "Treatments Used": "Inositol",
+            "Recovery Weeks": "72.00",
+            "Recovery Type": "Full",
+            "Protocol Summary": "He believes it was mainly time that cured him. Although he did use 18g daily inositol for a certain period, amongst other supplements that were not mentioned."
+        },
+        "link": "https://www.pssdforum.org/viewtopic.php?t=707",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "u/RepugnantWaffle",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "PSSD Lab",
+            "Primary Treatment Mechanism": "Psychedelics",
+            "Treatments Used": "Magic Mushrooms, Tramadol",
+            "Recovery Weeks": "12.00",
+            "Recovery Type": "Full",
+            "Protocol Summary": "A little over 1g of magic mushrooms was used (removed depression), then another 3g used on separate occasion (causing 30% increase in sexual function). Then after a while took 300mg tramadol per day for a week and by this time he was fully recovered. He said recovery was a \"few months\" (3?)"
+        },
+        "link": "https://pssdlab.files.wordpress.com/2019/11/reddit_repugnantwaffle_archive.pdf",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "Julia955",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "PSSD Lab",
+            "Primary Treatment Mechanism": "Unknown",
+            "Treatments Used": "Fish Oil, Magnesium, Workout",
+            "Recovery Weeks": "40.00",
+            "Recovery Type": "Partial",
+            "Protocol Summary": "She felt some decent improvements with fish oil (Nordic Naturals) and magnesium, although not full recovery. Its not clear how long this took, it appears 40 weeks since thread was posted."
+        },
+        "link": "http://survivingantidepressants.org/topic/18478-%E2%98%BC-julia995-hello-too-young-for-this/?tab=comments#comment-456262",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "Theelt712",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "PSSD Lab",
+            "Primary Treatment Mechanism": "Time",
+            "Treatments Used": "None Specified",
+            "Recovery Weeks": "213.00",
+            "Recovery Type": "Partial (70%)",
+            "Protocol Summary": "Tapered off SSRIs, then took over 213 weeks to partially recover with time. She mentions hormonal changes happened during the time she started feeling better."
+        },
+        "link": "https://www.survivingantidepressants.org/topic/4213-%E2%98%BC-theelt712-tapering-off-zoloft/page/17/?tab=comments#comment-400210",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "Alex",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "PSSD Lab",
+            "Primary Treatment Mechanism": "Time",
+            "Treatments Used": "Diet",
+            "Recovery Weeks": "234.00",
+            "Recovery Type": "Partial (mostly)"
+        },
+        "link": "https://www.survivingantidepressants.org/topic/14122-alex-turning-the-corner-at-4-and-a-half-years/",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "Altostrata",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "PSSD Lab",
+            "Primary Treatment Mechanism": "Time",
+            "Treatments Used": "E2 (Microdose), DHEA (Microdose)",
+            "Recovery Weeks": "156.00",
+            "Recovery Type": "Partial"
+        },
+        "link": "https://www.survivingantidepressants.org/topic/15319-pssd-post-ssri-sexual-dysfunction/?tab=comments#comment-16651",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "Siebs1122",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "PSSD Lab",
+            "Primary Treatment Mechanism": "Hormonal",
+            "Treatments Used": "Forskolin, Metergoline (Prolactin Inhibitor)",
+            "Recovery Weeks": "5.00",
+            "Recovery Type": "Partial (90%)",
+            "Protocol Summary": "Noticed effects from forskolin 1 week after starting. Then added metergoline microdose and within a further 4 weeks he was much better. Sexual function recovered 90%, emotions recovered 85%."
+        },
+        "link": "https://www.pssdforum.org/viewtopic.php?f=20&t=768&p=13348#p13325",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "Shadow",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "PSSD Lab",
+            "Primary Treatment Mechanism": "Time",
+            "Treatments Used": "Forum Abstinence, Positivity",
+            "Recovery Weeks": "NA",
+            "Recovery Type": "Partial (mostly)"
+        },
+        "link": "https://pssdlab.wordpress.com/recoveries-2016-2020/",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "medic-prob- papsd",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "PSSD Lab",
+            "Primary Treatment Mechanism": "Unknown",
+            "Treatments Used": "Piribedil (Dopamine Agonist), Anxiolytic, Choline, Burbur Pinella, MSM, Zeolite",
+            "Recovery Weeks": "10.00",
+            "Recovery Type": "Partial (95%)",
+            "Protocol Summary": "Used Piribedil (Trivastal) 1 pill a day for 3/4 days, this helped a lot. Messed with Ropinerole for 4 weeks but did nothing. Took a week break, then did another 3 day cycle of piribedil. Week break, then taking piribedil for another week. Seems like effects started to wear off so stopped.  Then in one day took 1x 5mg Buspar, 1x Choline 250 and detox supplements (10x drops of Burbur Pinella, 1x MSM-Sulfur, 1x Zeolite). Repeated this stack for a further 2 days. Then stopped, 5 days after PSSD is almost cured."
+        },
+        "link": "https://www.youtube.com/watch?v=bx_NNe6xMkk",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "A positive update",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "PSSDForum.org",
+            "Primary Treatment Mechanism": "Hormonal",
+            "Treatments Used": "PCT (Clomid, Tamoxifen)",
+            "Recovery Weeks": "23.00",
+            "Recovery Type": "Partial (90%)",
+            "Protocol Summary": "2 weeks of Clomid 25mg per day. Then 1 week of Nolvadex 50mg per day. Then 4 week break. Repeated this cycle 3 times. Then 2 week break and felt recovered. Only symptoms remaining is a small amount of anhedonia."
+        },
+        "link": "https://pssdforum.org/viewtopic.php?f=10&t=3604",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "Reversed my pssd with Cialis, Alfuzosin, HCG combo",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "r/pssd Post",
+            "Primary Treatment Mechanism": "Hormonal",
+            "Treatments Used": "HCG, Cialis, Alfuzosin (A1 Adrenergic Receptor Antagonist)",
+            "Recovery Weeks": "NA",
+            "Recovery Type": "Full",
+            "Protocol Summary": "None given"
+        },
+        "link": "https://www.reddit.com/r/PSSD/comments/ka4jny/reversed_my_pssd_with_cialis_alfuzosin_hcg_combo/",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "[deleted]",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "r/Psychology Comment",
+            "Primary Treatment Mechanism": "Hormonal",
+            "Treatments Used": "TRT",
+            "Recovery Weeks": "NA",
+            "Recovery Type": "Full",
+            "Protocol Summary": "Says he is recovered but has not stopped taking the TRT."
+        },
+        "link": "https://reddit.com/r/psychology/comments/fudx3d/doctors_urged_to_recognize_postantidepressant/fmdd7gh/?context=999",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "a few months ago i trialed doing a test e cycle",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "PSSD Post",
+            "Primary Treatment Mechanism": "Hormonal",
+            "Treatments Used": "TRT (Test E), PCT",
+            "Recovery Weeks": "19.00",
+            "Recovery Type": "NA",
+            "Protocol Summary": "3 month of TRT. Then 3 week break. Then 1 month PCT."
+        },
+        "link": "https://reddit.com/r/PSSD/comments/rbe2ex/a_few_months_ago_i_trialed_doing_a_test_e_cycle/",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "How I fixed my PSSD",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "PSSD Post",
+            "Primary Treatment Mechanism": "Hormonal",
+            "Treatments Used": "TRT (Test Propionate), HCG",
+            "Recovery Weeks": "5.00",
+            "Recovery Type": "Full",
+            "Protocol Summary": "Injected 300-400mg per week (100mg T every other day) for few weeks. Then took HCG for 2 weeks (250IU Mon, 250IU Thurs). His test results originally showed normal T level, but high SHBG and low free T. Taking TRT lowered his SHBG."
+        },
+        "link": "https://www.reddit.com/r/PSSD/comments/7lfc1e/how_i_fixed_my_pssd/",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "Do not disregard the possibility of hormonal problems, even with normal blood tests",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "PSSD Post",
+            "Primary Treatment Mechanism": "Hormonal",
+            "Treatments Used": "TRT",
+            "Recovery Weeks": "NA",
+            "Recovery Type": "NA",
+            "Protocol Summary": "NA"
+        },
+        "link": "https://www.reddit.com/r/PSSD/comments/q21qwp/do_not_disregard_the_possibility_of_hormonal/",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "[deleted]",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "r/Steroids Comment",
+            "Primary Treatment Mechanism": "Hormonal",
+            "Treatments Used": "TRT, AAS (Primobolan)",
+            "Recovery Weeks": "NA",
+            "Recovery Type": "Full",
+            "Protocol Summary": "His personal advice is use TRT but combine with either AAS (Primobolan or Masteron) or DHT (Proviron). He says DHT is 300% more efficient at binding to pathways responsible for reward response. Also recommends NoFap for dopamine detox."
+        },
+        "link": "https://www.reddit.com/r/steroids/comments/m5m7o9/comment/gr0nvyc/",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "[deleted]",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "r/Steroids Comment",
+            "Primary Treatment Mechanism": "Hormonal",
+            "Treatments Used": "TRT (Test E), PCT",
+            "Recovery Weeks": "28.00",
+            "Recovery Type": "Full",
+            "Protocol Summary": "Took between 250-500mg T for 6 months then did PCT."
+        },
+        "link": "https://www.reddit.com/r/steroids/comments/m5m7o9/comment/gr21oji/",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "ExoticCard",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "r/Steroids Comment",
+            "Primary Treatment Mechanism": "Hormonal",
+            "Treatments Used": "TRT (Test)",
+            "Recovery Weeks": "15.00",
+            "Recovery Type": "Full",
+            "Protocol Summary": "Injected 500mg T per week for one 15 week cycle and recovered. Has not yet come off TRT. Also recommends AAS (Masteron) and says stay away from 19-nors (e.g. Deca)"
+        },
+        "link": "https://www.reddit.com/r/steroids/comments/m5m7o9/comment/gr8iihf/",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "eatMTRENforbreakfast",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "r/Steroids Comment",
+            "Primary Treatment Mechanism": "Hormonal",
+            "Treatments Used": "TRT (Test), DHT (Proviron), PCT, Cialis, Cabergoline (Prolactin Inhibitor)",
+            "Recovery Weeks": "12.00",
+            "Recovery Type": "Full",
+            "Protocol Summary": "Proviron 50mg/day, T 100mg/week (later increased to 150mg due to low E2 symptoms), Cialis 20mg/day, Cabergoline 0.25mg e3.5d. Stayed on this regimen for few months. Apparently PCT was involved."
+        },
+        "link": "https://www.unddit.com/r/steroids/comments/bemsc3/comment/el7pdas/?context=999\nhttps://camas.github.io/reddit-search/#{%22author%22:%22eatmtrenforbreakfast%22,%22resultSize%22:100,%22query%22:%22pssd%20proviron%22}",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "LeonardoDiYolio",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "r/Steroids Comment",
+            "Primary Treatment Mechanism": "Hormonal",
+            "Treatments Used": "TRT (Test Propionate), Cialis, Boron, DHEA, Tongkat Ali, Diet, Workout",
+            "Recovery Weeks": "6.00",
+            "Recovery Type": "Full",
+            "Protocol Summary": "Began naturally with boron (1g), DHEA (100mg), tongkat ali (500mg), diet & workout. Then stopped the natural stuff and injecting T 200mg/ml for 4-6 weeks alongside cialis 5mg/day and felt recovered. Then changed to 0.5ml Test twice a week ever since. Has not yet come off. Before starting TRT his Total T was 905 but free T was 19."
+        },
+        "link": "https://www.reddit.com/r/steroids/comments/nhrxbe/comment/gyywc4w/?context=999",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "[deleted]",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "r/pssd Comment",
+            "Primary Treatment Mechanism": "Hormonal",
+            "Treatments Used": "TRT (Test Gel), Wellbutrin, Modafinil, Workout, Diet, Forum Abstinence, Quitting Porn",
+            "Recovery Weeks": "NA",
+            "Recovery Type": "Partial (85%)"
+        },
+        "link": "https://www.reddit.com/r/PSSD/comments/kq5j83/comment/glslosx/?context=999",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "SirZeets",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "r/Testosterone Comment",
+            "Primary Treatment Mechanism": "Hormonal",
+            "Treatments Used": "TRT (Test)",
+            "Recovery Weeks": "52.00",
+            "Recovery Type": "Partial (mostly)",
+            "Protocol Summary": "T at 100mg per week. Benefits after 4-6 weeks but 1 year for total recovery. Been on TRT for 2 years and not come off. Does get some negative sides from the TRT."
+        },
+        "link": "https://www.reddit.com/r/Testosterone/comments/mjduvo/comment/gta99yq/?context=999",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "boston_duo",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "r/Testosterone Comment",
+            "Primary Treatment Mechanism": "Hormonal",
+            "Treatments Used": "TRT, Cialis, Workout",
+            "Recovery Weeks": "24.00",
+            "Recovery Type": "Full",
+            "Protocol Summary": "Before TRT his T level was 350."
+        },
+        "link": "https://www.reddit.com/r/Testosterone/comments/i6ivqq/comment/g0x6qus/",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "MrNeurotypical",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "r/Nootropics Comment",
+            "Primary Treatment Mechanism": "Hormonal",
+            "Treatments Used": "TRT, Pregnenolone, Vitex Agnus-Castus (Prolactin Inhibitor), Yohmbine, Green Tea, Methylfolate",
+            "Recovery Weeks": "5.50",
+            "Recovery Type": "Partial (mostly)",
+            "Protocol Summary": "SSRIs & trazodone caused 61% increase in his prolactin. He is still on TRT."
+        },
+        "link": "https://www.reddit.com/r/Nootropics/comments/9toovz/comment/e8z4yfh/",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "CalmAmygdala",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "r/PEDs Comment",
+            "Primary Treatment Mechanism": "Hormonal",
+            "Treatments Used": "TRT (Test Cypionate), AAS (Trenbolone), Lithium Carbonate",
+            "Recovery Weeks": "NA",
+            "Recovery Type": "Full",
+            "Protocol Summary": "T 100mg/week, trenbolone 30mg/EOD, lithium carbonate 600mg."
+        },
+        "link": "https://www.reddit.com/r/PEDs/comments/trs2cx/comment/i3lay0r/",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "Arugula: if you dont eat it, you should try!",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "PSSDForum.org Post",
+            "Primary Treatment Mechanism": "Nitric Oxide",
+            "Treatments Used": "Rocket (Leafy Greens)",
+            "Recovery Weeks": "3.00",
+            "Recovery Type": "Full",
+            "Protocol Summary": "2 full handfuls of rocket leaves both at lunch and dinner. Recovered from 7 years of PSSD and is even better than pre-PSSD state."
+        },
+        "link": "https://www.pssdforum.org/viewtopic.php?t=5363",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "levelitup666",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "r/PSSD Comment",
+            "Primary Treatment Mechanism": "Hormonal",
+            "Treatments Used": "TRT (Test Cypionate), Arimidex (AI), DIM (Estrogen Blocker)",
+            "Recovery Weeks": "NA",
+            "Recovery Type": "Full",
+            "Protocol Summary": "Inject T 80mg/day (Mon & Thurs), arimidex 0.5mg/day (Mon & Thurs). Has not come off TRT as he believes TRT is for life."
+        },
+        "link": "https://www.reddit.com/r/PSSD/comments/zox5kn/trt_cured_me/",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "Healed (Success Story)",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "r/PSSD Post",
+            "Primary Treatment Mechanism": "Time",
+            "Treatments Used": "None",
+            "Recovery Weeks": "16.00",
+            "Recovery Type": "Full"
+        },
+        "link": "https://www.unddit.com/r/PSSD/comments/z5vtvz/healed_success_story/",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "I'm mostly cured of my PSSD after low dose reinstatement of SSRIs (Lexapro/escitalopram).",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "r/PSSD Post",
+            "Primary Treatment Mechanism": "Antidepressant (Reinstatement)",
+            "Treatments Used": "Lexapro (SSRI)",
+            "Recovery Weeks": "1.00",
+            "Recovery Type": "Partial (95%)",
+            "Protocol Summary": "Lexapro (escitalopram) microdose at 0.6-1mg per week. Their symptoms were not horrendous prior to reinstatement - they were at 80% of pre-PSSD state, this took them to 95%. Recovery was a few days."
+        },
+        "link": "https://www.reddit.com/r/PSSD/comments/zs98gd/im_mostly_cured_of_my_pssd_after_low_dose/",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "Adderall/dextroamphetamine cure!",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "r/PSSD Post",
+            "Primary Treatment Mechanism": "Dopamine Agonist",
+            "Treatments Used": "Dexedrine (Amphetamine), L-Citrulline",
+            "Recovery Weeks": "2.50",
+            "Recovery Type": "Partial (90%)",
+            "Protocol Summary": "Not clear if he is still taking it."
+        },
+        "link": "https://www.unddit.com/r/PSSD/comments/mqt287/deleted_by_user/?u%E2%80%A6b=&utm_medium=usertext&utm_name=pssdhealing&utm_source=reddit",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "Healed",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "r/PSSD Post",
+            "Primary Treatment Mechanism": "Dopamine Agonist",
+            "Treatments Used": "Dexedrine (Amphetamine)",
+            "Recovery Weeks": "8.00",
+            "Recovery Type": "Full",
+            "Protocol Summary": "Taking dexedrine 5mg doses on and off for 8 weeks. His symptoms were mainly cognitive, they gradually improved over the weeks. While on dexedrine his libido was negatively affected, but fine after stopping."
+        },
+        "link": "https://www.unddit.com/r/PSSD/comments/ve49ry/healed/",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "I am cured.",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "r/PSSD Post",
+            "Primary Treatment Mechanism": "Dopamine Agonist",
+            "Treatments Used": "Speed (Amphetamine Sulphate), Salvia",
+            "Recovery Weeks": "5.00",
+            "Recovery Type": "Full",
+            "Protocol Summary": "Snorted a large line of 5-15% purity (approx 0.4g) and watched porn/masturbate for the next 9 hours while drinking lots of water. Amphetamine was used throughout the rest of the day (1-1.5g total). Waited a month then repeated this procedure. 3 days later felt good relief. Also, 30% of his recovery (especially libido) came from salvia (10x strength)."
+        },
+        "link": "https://www.unddit.com/r/PSSD/comments/48c5dj/i_am_cured/",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "This might be the key! Androgen function in the spotlight.",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "r/PSSD Post",
+            "Primary Treatment Mechanism": "Hormonal",
+            "Treatments Used": "TRT (Test), HCG",
+            "Recovery Weeks": "8.00",
+            "Recovery Type": "Full",
+            "Protocol Summary": "Reddit user mrgoodcat1990 took supraphysiological dosages of T along with initial estrogen management. Before he began TRT his T level was 1000ng/dl. Has remained on T."
+        },
+        "link": "https://www.reddit.com/r/PSSD/comments/tf4m1s/5_five_steroidbased_recovery_stories/\nhttps://pssdforum.org/viewtopic.php?t=3601\nhttps://camas.github.io/reddit-search/#{%22author%22:%22mrgoodcat1990%22,%22resultSize%22:100,%22query%22:%22I%20cured%20my%20pssd%20with%20Testosterone%20%22}",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "User: PSSDanonymous222",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "r/PSSD Post",
+            "Primary Treatment Mechanism": "Hormonal",
+            "Treatments Used": "TRT (Test)",
+            "Recovery Weeks": "NA",
+            "Recovery Type": "Full",
+            "Protocol Summary": "Original post deleted, very little information available. His testosterone level was showing as normal prior to TRT (above 10ng/dl)"
+        },
+        "link": "https://www.reddit.com/r/PSSD/comments/tf4m1s/5_five_steroidbased_recovery_stories/\nhttps://www.pssdforum.org/viewtopic.php?t=4957\nhttps://camas.github.io/reddit-search/#{%22author%22:%22PSSDanonymous222%22,%22resultSize%22:100}",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "Schisandra Chinesis",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "PSSDForum.org Post",
+            "Primary Treatment Mechanism": "Hormonal?",
+            "Treatments Used": "Schisandra",
+            "Recovery Weeks": "4.00",
+            "Recovery Type": "Full",
+            "Protocol Summary": "Schisandra tincture was low dosed at 0.25-0.5ml sublingually each evening."
+        },
+        "link": "https://pssdforum.org/viewtopic.php?t=1091",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "Pramiracetam and Schizandra",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "r/PSSD Post",
+            "Primary Treatment Mechanism": "Hormonal?",
+            "Treatments Used": "Schisandra, Pramiracetam",
+            "Recovery Weeks": "8.00",
+            "Recovery Type": "Partial (80%)",
+            "Protocol Summary": "Schisandra powder (3 teaspoons throughout the day) and pramiracetam (900mg/day). He recommends pairing the pramiracetam with a choline source. He believes the pramiracetam aided cognitively and with libido. He used Himmak Herbs Schisandra Organic 5:1 Extract Powder (https://www.amazon.com/Organic-Schisandra-Schizandra-Nutraceutical-Granules/dp/B0773XVJ7V/ref=sr_1_6)"
+        },
+        "link": "https://www.unddit.com/r/PSSD/comments/xe8y8n/pramiracetam_and_schizandra/",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "User: Path2Healing",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "r/PSSD Comment",
+            "Primary Treatment Mechanism": "Hormonal?",
+            "Treatments Used": "Schisandra, Tyrosine",
+            "Recovery Weeks": "1.00",
+            "Recovery Type": "Full",
+            "Protocol Summary": "Schisandra (1/2 teaspoon 3 times per day). He says by day 5 he has 100% recovery."
+        },
+        "link": "https://www.unddit.com/r/PSSD/comments/xe8y8n/comment/iqmh1mr/?context=999",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "Ella",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "HackStas.is Post",
+            "Primary Treatment Mechanism": "Hormonal",
+            "Treatments Used": "Ulipristal Acetate (Progesterone Antagonist)",
+            "Recovery Weeks": "1.00",
+            "Recovery Type": "Partial (90%)",
+            "Protocol Summary": "The user Trondanac took ellaOne (Ulipristal Acetate) 5mg/day for 6 days only. He reports the benefits have remained 1 week after stopping."
+        },
+        "link": "https://hackstas.is/threads/ella.3/\nhttp://www.pssdforum.org/viewtopic.php?f=14&t=1441&p=15645#p15645",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "Expendable, Ella log",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "HackStas.is Post",
+            "Primary Treatment Mechanism": "Hormonal",
+            "Treatments Used": "Ulipristal Acetate (Progesterone Antagonist), NoFap",
+            "Recovery Weeks": "2.00",
+            "Recovery Type": "Partial (80%)",
+            "Protocol Summary": "The user expendable took ellaOne (Ulipristal Acetate) 5mg/day for 6 days only. After stopping ellaOne he continued to improve. He claims 80-85% overall recovery 5 days after stopping ellaOne. Improvements plateaued 9 days after stopping ellaOne but appear to remain. Genital sensitivity only recovered to 70%."
+        },
+        "link": "https://hackstas.is/threads/expendable-ella-log.41/",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "ED 100% cured / Anhedonia is lifting. PSSD, HPPD & DP/DR soon to be cured?",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "r/PSSD Post",
+            "Primary Treatment Mechanism": "Mix",
+            "Treatments Used": "Workout (HIIT), Forskolin, Artichoke",
+            "Recovery Weeks": "NA",
+            "Recovery Type": "Partial",
+            "Protocol Summary": "Did HIIT for 2 weeks which fixed ED (no remission 2 months later). Then did Forskolin (4 mg) and Artichoke (900mg) which helps to lift his anhedonia. However, checking his recent comments shows he has not fixed his PSSD, he is still suffering with some anhedonia and sexual issues."
+        },
+        "link": "https://www.reddit.com/r/PSSD/comments/m1ch8u/ed_100_cured_anhedonia_is_lifting_pssd_hppd_dpdr/",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "Ok so my sensitivity is coming back...",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "r/PSSD Post",
+            "Primary Treatment Mechanism": "Hormonal?",
+            "Treatments Used": "Hops",
+            "Recovery Weeks": "2.00",
+            "Recovery Type": "Partial",
+            "Protocol Summary": "He used Swanson Hops 1860mg spread throughout day for 2 weeks. He noticed an improvement in emotions, genital sensitivity and stamina. Also, when stopping his erections improved (but notes this could be from reverse kegels). He reported that benefits were still present 8 days after."
+        },
+        "link": "https://www.reddit.com/r/PSSD/comments/11gv1bs/ok_so_my_sensitivity_is_coming_back/",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
+    },
+    {
+        "icon": "🌐",
+        "badgeClass": "badge",
+        "badgeText": "PSSD",
+        "title": "I recovered with tribulus!",
+        "meta": {
+            "Condition": "PSSD",
+            "Source": "r/PSSD Post",
+            "Primary Treatment Mechanism": "Hormonal",
+            "Treatments Used": "Tribulus",
+            "Recovery Weeks": "4.00",
+            "Recovery Type": "Full",
+            "Protocol Summary": "Took Tribulus (fruit extract, standardised to 45% steroidal saponins, 750mg per capsule). Schedule lasted 4 weeks with a tapering - he took 2 capsules per day for first 3 weeks, then 1 per day for the next 3 days then half a pill for the final 2 days). Brand used was Bri Nutrition."
+        },
+        "link": "https://www.reddit.com/r/PSSD/comments/hoy8nk/i_recovered_with_tribulus/",
+        "isExternal": true,
+        "sourceName": "PSSD Recovery Database"
     }
 ]

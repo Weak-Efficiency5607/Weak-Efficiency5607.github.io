@@ -144,16 +144,39 @@
 
 		storiesToRender.forEach(story => {
 			const card = document.createElement('div');
-			card.className = 'card story-card';
+			card.className = story.isExternal ? 'card story-card external-card' : 'card story-card';
 
 			let subtitleHtml = story.subtitle ? `<p style="font-size: 0.8rem; color: var(--text-secondary); margin-bottom: 1rem;">${story.subtitle}</p>` : '';
 
 			let substancesHtml = '';
-			if (Array.isArray(story.meta.substances)) {
-				substancesHtml = story.meta.substances.map(s => `<span>${s}</span>`).join(' ');
-			} else {
-				substancesHtml = `<span>${story.meta.substances}</span>`;
+			if (story.meta.substances) {
+				if (Array.isArray(story.meta.substances)) {
+					substancesHtml = story.meta.substances.map(s => `<span>${s}</span>`).join(' ');
+				} else {
+					substancesHtml = `<span>${story.meta.substances}</span>`;
+				}
 			}
+
+			let metaHtml = '';
+			const knownKeys = ['substances', 'type', 'effectiveness', 'timeTaken', 'cause', 'duration', 'summary'];
+			
+			if (story.meta.substances) metaHtml += `<div class="meta-item"><strong>Substances:</strong> ${substancesHtml}</div>`;
+			if (story.meta.type) metaHtml += `<div class="meta-item"><strong>Type:</strong> <span>${story.meta.type}</span></div>`;
+			if (story.meta.effectiveness) metaHtml += `<div class="meta-item"><strong>Effectiveness:</strong> <span>${story.meta.effectiveness}</span></div>`;
+			if (story.meta.timeTaken) metaHtml += `<div class="meta-item"><strong>Time Taken:</strong> <span>${story.meta.timeTaken}</span></div>`;
+			if (story.meta.cause) metaHtml += `<div class="meta-item"><strong>Cause:</strong> <span>${story.meta.cause}</span></div>`;
+			if (story.meta.duration) metaHtml += `<div class="meta-item"><strong>Duration:</strong> <span>${story.meta.duration}</span></div>`;
+
+			// Dynamically add any other unknown fields from external databases
+			for (const key in story.meta) {
+				if (!knownKeys.includes(key) && story.meta[key]) {
+					metaHtml += `<div class="meta-item"><strong>${key}:</strong> <span>${story.meta[key]}</span></div>`;
+				}
+			}
+
+			if (story.meta.summary) metaHtml += `<div class="meta-summary"><strong>Summary:</strong> ${story.meta.summary}</div>`;
+
+			let sourceHtml = story.sourceName ? `<div style="font-size: 0.75rem; color: var(--accent); margin-top: -0.5rem; margin-bottom: 0.5rem; font-weight: 600;">Source: ${story.sourceName}</div>` : '';
 
 			card.innerHTML = `
 			<div class="story-header">
@@ -161,15 +184,10 @@
 				<span class="${story.badgeClass}">${story.badgeText}</span>
 			</div>
 			<h3 class="story-title">${story.title}</h3>
+			${sourceHtml}
 			${subtitleHtml}
 			<div class="story-meta">
-				<div class="meta-item"><strong>Substances:</strong> ${substancesHtml}</div>
-				<div class="meta-item"><strong>Type:</strong> <span>${story.meta.type}</span></div>
-				<div class="meta-item"><strong>Effectiveness:</strong> <span>${story.meta.effectiveness}</span></div>
-				<div class="meta-item"><strong>Time Taken:</strong> <span>${story.meta.timeTaken}</span></div>
-				<div class="meta-item"><strong>Cause:</strong> <span>${story.meta.cause}</span></div>
-				<div class="meta-item"><strong>Duration:</strong> <span>${story.meta.duration}</span></div>
-				<div class="meta-summary"><strong>Summary:</strong> ${story.meta.summary}</div>
+				${metaHtml}
 			</div>
 			<a href="${story.link}" target="_blank" class="story-link">Read Story</a>
 		`;

@@ -26,6 +26,8 @@ import update_wiki_links as update_wiki
 import test_uc
 import check_shops_availability as check_shops
 
+import import_external_stories as import_ext
+
 console = Console()
 
 def main():
@@ -43,10 +45,11 @@ def main():
         table.add_row("4", "Manage Wikipedia Links", "Finds, adds, or removes Wikipedia preview links for substances mentioned in your wiki.")
         table.add_row("5", "Test Cloudflare Bypass", "Tests if the scraper can successfully bypass a specific shop's Cloudflare protection.")
         table.add_row("6", "Check Shops Availability", "Pings all shops to check if their websites are still online or offline.")
+        table.add_row("7", "Import External Success Stories", "Parses external databases (like PSSD CSVs) and injects them into the success stories list.")
         table.add_row("q", "Quit", "Exit the manager.")
         console.print(table)
         
-        choice = Prompt.ask("\nEnter your choice", choices=["1", "2", "3", "4", "5", "6", "q"], default="1")
+        choice = Prompt.ask("\nEnter your choice", choices=["1", "2", "3", "4", "5", "6", "7", "q"], default="1")
         
         if choice == "1":
             console.print("\n[bold yellow]--- Running: Update Wiki Search Index ---[/bold yellow]")
@@ -71,6 +74,10 @@ def main():
         elif choice == "6":
             console.print("\n[bold yellow]--- Running: Check Shops Availability ---[/bold yellow]")
             check_shops.run_availability_check()
+            console.print("[bold yellow]--- Finished ---[/bold yellow]\n")
+        elif choice == "7":
+            console.print("\n[bold yellow]--- Running: Import External Success Stories ---[/bold yellow]")
+            import_ext.import_csv()
             console.print("[bold yellow]--- Finished ---[/bold yellow]\n")
         elif choice == "q":
             console.print("[green]Goodbye![/green]")

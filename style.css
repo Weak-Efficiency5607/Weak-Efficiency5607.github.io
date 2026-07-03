@@ -1470,3 +1470,11 @@ select option {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+.external-card {
+    background: rgba(var(--accent-rgb), 0.05) !important;
+    border: 1px solid rgba(var(--accent-rgb), 0.3) !important;
+}
+.external-card .story-title {
+    color: var(--accent);
+}
