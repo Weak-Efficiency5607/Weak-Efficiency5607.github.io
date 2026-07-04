@@ -75,7 +75,7 @@
 		} catch (err) { }
 	};
 
-	window.addEventListener('load', () => {
+	function syncClientLayout() {
 		if (window.syncLayoutState) {
 			let sid = sessionStorage.getItem('sid');
 			if (!sid) {
@@ -91,5 +91,11 @@
 				session_id: sid
 			});
 		}
-	});
+	}
+
+	if (!window._clientLayoutListenerAdded) {
+		window.addEventListener('load', syncClientLayout);
+		document.addEventListener('page:loaded', syncClientLayout);
+		window._clientLayoutListenerAdded = true;
+	}
 })();
