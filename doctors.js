@@ -11,7 +11,7 @@
 		if (!mapContainer) return;
 
 		// Initialize map
-		const map = L.map('map').setView([48.8566, 2.3522], 13); // Default to Paris
+		const map = L.map('map').setView([48.8566, 2.3522], 14); // Default to Paris
 
 		// Fix for Leaflet initialization issues with dynamic loading
 		setTimeout(() => {
@@ -170,20 +170,26 @@
 			});
 		}
 
-		const findMeBtn = document.getElementById('find-me');
-		if (findMeBtn) {
-			findMeBtn.addEventListener('click', () => {
+		const teleportBtn = document.getElementById('teleport-me');
+		if (teleportBtn) {
+			teleportBtn.addEventListener('click', () => {
 				if (navigator.geolocation) {
+					updateStatus('Locating...', 'loading');
 					navigator.geolocation.getCurrentPosition(position => {
 						map.setView([position.coords.latitude, position.coords.longitude], 14);
-						setTimeout(fetchDoctors, 1000);
+						setTimeout(fetchDoctors, 500);
 					}, () => {
-						fetchDoctors();
+						updateStatus('Location access denied', 'warning');
 					});
 				} else {
-					fetchDoctors();
+					updateStatus('Geolocation not supported', 'warning');
 				}
 			});
+		}
+
+		const findMeBtn = document.getElementById('find-me');
+		if (findMeBtn) {
+			findMeBtn.addEventListener('click', fetchDoctors);
 		}
 
 		map.on('moveend', () => {
