@@ -195,7 +195,11 @@
 
 			if (story.meta.summary) metaHtml += `<div class="meta-summary"><strong>Summary:</strong> ${story.meta.summary}</div>`;
 
-			let sourceHtml = story.sourceName ? `<div style="font-size: 0.75rem; color: var(--accent); margin-top: -0.5rem; margin-bottom: 0.5rem; font-weight: 600;">Source: ${story.sourceName}</div>` : '';
+			let sourceText = story.sourceName;
+			if (story.sourceName === 'PSSD Recovery Database') {
+				sourceText = `<a href="#pssd-recovery-databases" style="color: inherit; text-decoration: underline; cursor: pointer;">${story.sourceName}</a>`;
+			}
+			let sourceHtml = story.sourceName ? `<div style="font-size: 0.75rem; color: var(--accent); margin-top: -0.5rem; margin-bottom: 0.5rem; font-weight: 600;">Source: ${sourceText}</div>` : '';
 
 			card.innerHTML = `
 			<div class="story-header">
