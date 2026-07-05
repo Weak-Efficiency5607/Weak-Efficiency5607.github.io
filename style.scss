@@ -1262,6 +1262,8 @@ h2 {
 				border: 1px solid var(--card-border);
 				color: var(--accent);
 				font-weight: 500;
+				overflow-wrap: anywhere;
+				word-break: break-word;
 			}
 		}
 

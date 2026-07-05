@@ -1222,6 +1222,8 @@ h2::after {
   border: 1px solid var(--card-border);
   color: var(--accent);
   font-weight: 500;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 .story-card .story-meta .meta-summary {
   margin-top: 0.4rem;
